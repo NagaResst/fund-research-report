@@ -1,0 +1,329 @@
+{
+  "id": "024212",
+  "meta": {
+    "reportDate": "2026-05-03",
+    "dataDate": "2026-04-29",
+    "disclaimer": "本报告仅供个人学习和信息整理使用，所有分析内容均不构成任何投资建议。投资有风险，入市需谨慎，请依据自身判断做出投资决策。"
+  },
+  "basic": {
+    "code": "024212",
+    "fullName": "嘉实稳固收益债券D",
+    "shortName": "嘉实稳固收益债券D",
+    "type": "债券型",
+    "subType": "混合二级（固收+）",
+    "riskLevel": "中低风险",
+    "riskCode": 2,
+    "foundDate": "2025-05-14",
+    "issueDate": "2025-05-14",
+    "manager": "嘉实基金管理有限公司",
+    "managerScale": 63.3,
+    "managerFundCount": null,
+    "custodian": null,
+    "benchmark": null,
+    "navFallback": 1.2228,
+    "navDateFallback": "2026-04-29",
+    "accNav": 1.2567,
+    "inceptionReturn": 8.27,
+    "dividendCount": null,
+    "status": "开放申购 / 开放赎回",
+    "companyShort": "嘉实",
+    "operationMode": "3年运作周期滚动（3年运作期+1个月间歇期）"
+  },
+  "fees": {
+    "management": 0.65,
+    "custodian": 0.18,
+    "salesService": 0.00,
+    "subscriptionMax": 1.00,
+    "subscriptionDiscounted": 1.00,
+    "redemptionMax": 1.50,
+    "breakdown": [
+      { "name": "管理费",           "value": 0.65 },
+      { "name": "托管费",           "value": 0.18 },
+      { "name": "销售服务费（D类）", "value": 0.00 },
+      { "name": "综合费率",          "value": 0.83 }
+    ]
+  },
+  "scale": {
+    "nav": 10.54,
+    "shares": 8.8521,
+    "date": "2026-03-31"
+  },
+  "performance": {
+    "stages": [
+      { "period": "成立以来",      "fund": 8.27,  "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": "尚可" },
+      { "period": "2026年一季度",  "fund": -1.05, "peer": 0.40, "hs300": null, "rank": null, "rankTotal": null, "quartile": "落后" }
+    ],
+    "annual": [],
+    "quarterly": [
+      { "quarter": "2025Q3", "fund": null,  "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null  },
+      { "quarter": "2025Q4", "fund": null,  "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null  },
+      { "quarter": "2026Q1", "fund": -1.05, "peer": 0.40, "hs300": null, "rank": null, "rankTotal": null, "quartile": "落后" }
+    ]
+  },
+  "risk": {
+    "volatility": null,
+    "sharpe": null,
+    "maxDrawdown": -1.05,
+    "riskLevel": "中低风险",
+    "excessReturn1Y": null,
+    "radarDimensions": [
+      { "name": "历史业绩", "value": 6.0,  "max": 10 },
+      { "name": "风险控制", "value": 7.0,  "max": 10 },
+      { "name": "持仓质量", "value": 8.0,  "max": 10 },
+      { "name": "基金经理", "value": 10.0, "max": 10 },
+      { "name": "政策匹配", "value": 4.0,  "max": 10 },
+      { "name": "估值时机", "value": 6.0,  "max": 10 }
+    ],
+    "positionHistory": [
+      { "date": "2026-03-31", "stock": 5.53, "cash": 4.41, "scale": 10.54 }
+    ],
+    "positionSignal": null,
+    "riskBreakdown": [
+      { "type": "A类历史回撤偏高",     "level": "high",   "stars": 4, "maxStars": 5, "note": "同系列A类份额（009089）在2022年股债双杀中最大回撤达-6.68%，D类采用相同策略，极端行情下面临同等风险；历史先例不可忽视" },
+      { "type": "成立时间短缺乏验证",  "level": "medium", "stars": 3, "maxStars": 5, "note": "D类份额2025年5月才成立，仅约1年历史，未经历完整市场周期；所有风险评估需借助A类（009089）历史数据推断" },
+      { "type": "一季度跑输同类",      "level": "medium", "stars": 3, "maxStars": 5, "note": "2026年一季度-1.05%，跑输同类均值0.40%，差值达1.45个百分点；若连续跑输则需关注策略适应性" },
+      { "type": "中美利差制约降息",    "level": "low",    "stars": 2, "maxStars": 5, "note": "中美利差倒挂约-250bp，国内降息空间有限；债券票息收益稳定，但资本利得空间受压缩" },
+      { "type": "债券供给压力",        "level": "low",    "stars": 2, "maxStars": 5, "note": "2026年专项债1.16万亿+特别国债1.3万亿，债券供给增加对收益率形成技术性上行压力" },
+      { "type": "权益仓位集中周期股",  "level": "low",    "stars": 1, "maxStars": 5, "note": "5.53%权益仓位集中于制造业和采矿业（立讯精密、恒立液压、紫金矿业），周期性标的波动较大；占比低，绝对影响有限" }
+    ],
+    "volatilityNote": "年化波动率数据不足（成立仅1年）；债券占净值约94.47%，波动天然低于权益类；参考同类固收+基金，正常波动率通常在2%-6%区间",
+    "sharpeNote": "成立时间不足，暂无有效夏普比率数据；基于A类（009089）成立以来年化收益4.65%推算，夏普比率应在0.5-1.5之间",
+    "drawdownNote": "D类成立以来最大回撤-1.05%（2026年Q1地缘冲突所致），极为可控；但需参考A类历史：2022年最大回撤-6.68%是潜在风险参考下限",
+    "excessNote": "无有效同类超额数据（成立时间短）；2026年Q1跑输同类1.45个百分点，单季度落后"
+  },
+  "holdings": {
+    "date": "2026-03-31",
+    "stockRatio": 5.53,
+    "cashRatio": 4.41,
+    "bondRatio": 94.47,
+    "top10Total": null,
+    "concentrationLabel": "债券高度分散，权益小仓精选",
+    "top10": [
+      { "name": "立讯精密", "code": "002475", "ratio": null, "sector": "制造业",     "type": "stock", "isCurrent": true },
+      { "name": "恒立液压", "code": "601100", "ratio": null, "sector": "制造业",     "type": "stock", "isCurrent": true },
+      { "name": "药明康德", "code": "603259", "ratio": null, "sector": "医药生物",   "type": "stock", "isCurrent": true },
+      { "name": "紫金矿业", "code": "601899", "ratio": null, "sector": "采矿业",     "type": "stock", "isCurrent": true },
+      { "name": "25国开15", "code": null,     "ratio": null, "sector": "政策性金融债", "type": "bond",  "isCurrent": true }
+    ],
+    "sectors": [
+      { "name": "固定收益（债券）",   "value": 94.47, "color": "#4492F7" },
+      { "name": "权益资产（股票）",   "value": 5.53,  "color": "#2DC78E" },
+      { "name": "现金及等价物",       "value": 4.41,  "color": "#21262d" }
+    ],
+    "bondStructure": [
+      { "type": "政策性金融债", "note": "AAA级，安全性最高（如25国开15），提供稳定票息，久期3年以内",              "color": "#4492F7" },
+      { "type": "普通金融债",   "note": "中高等级，收益适中，AAA级为主",                                           "color": "#0ea5e9" },
+      { "type": "可转债",       "note": "少量配置，用于增强弹性收益",                                              "color": "#2DC78E" },
+      { "type": "信用债",       "note": "AAA级占比约81.8%，信用风险低；AAA以下18.2%多为政策性金融债，实际无信用风险", "color": "#06b6d4" }
+    ],
+    "policyLinks": [
+      { "sector": "政策性金融债",  "stocks": "国开债、农发债等（如25国开15）", "policyNote": "特别国债+专项债大量发行背景下，政策性金融债供给充足；短久期策略规避利率风险，票息收益稳定可期", "color": "#4492F7" },
+      { "sector": "制造业权益增强", "stocks": "立讯精密、恒立液压",            "policyNote": "十五五高端制造升级主线，精密制造和机械设备受益国产化政策；权益仓位小（5.53%），提供弹性而非主导收益", "color": "#2DC78E" }
+    ]
+  },
+  "managers": {
+    "current": {
+      "name": "胡永青",
+      "startDate": "2025-05-14",
+      "tenure": "约1年（自成立）",
+      "tenureReturn": 8.27,
+      "peerAvgReturn": null,
+      "rankInPeer": null,
+      "rankTotal": null,
+      "education": null,
+      "experience": "2003年2月起从事基金管理，超23年固收投资经验；嘉实基金投资总监（固收+）",
+      "fundCount": null,
+      "totalScale": 63.3,
+      "historicalFunds": [
+        { "name": "嘉实稳固收益债券A", "code": "009089", "tenure": "2020-03至今（约6年）", "return": 20.98, "peerAvg": null, "alpha": null, "rank": null, "rankTotal": null, "percentile": null, "grade": "good", "isCurrent": false },
+        { "name": "嘉实稳固收益债券D", "code": "024212", "tenure": "2025-05-14至今（约1年）", "return": 8.27, "peerAvg": null, "alpha": null, "rank": null, "rankTotal": null, "percentile": null, "grade": "ok",   "isCurrent": true  }
+      ],
+      "managerId": "30140597"
+    },
+    "history": [
+      { "name": "胡永青", "start": "2025-05-14", "end": null, "tenure": "约1年", "return": 8.27, "note": "自成立起管理，投资总监级别，23年固收经验；3年运作期+久期中性策略+三重风控体系" }
+    ]
+  },
+  "policy": {
+    "tags": [
+      { "label": "固收+策略",  "strength": "high",   "color": "#4492F7" },
+      { "label": "短久期中性", "strength": "high",   "color": "#0ea5e9" },
+      { "label": "降息受益",   "strength": "medium", "color": "#F7C744" },
+      { "label": "稳健增值",   "strength": "medium", "color": "#2DC78E" },
+      { "label": "高端制造",   "strength": "low",    "color": "#9B72F0" }
+    ],
+    "scenarios": [
+      {
+        "type": "悲观",
+        "color": "#ef4444",
+        "probability": 20,
+        "trigger": "地缘冲突持续升级叠加国内利率超预期上行，股债双杀重演；中美利差进一步扩大制约货币宽松空间",
+        "returnLow": -5,
+        "returnHigh": -1
+      },
+      {
+        "type": "基准",
+        "color": "#3b82f6",
+        "probability": 65,
+        "trigger": "货币政策小幅宽松（下半年降息10-20bp），债券票息贡献稳定，权益仓位小幅波动，整体稳健",
+        "returnLow": 4,
+        "returnHigh": 7
+      },
+      {
+        "type": "乐观",
+        "color": "#10b981",
+        "probability": 15,
+        "trigger": "大规模降息落地+A股权益反弹，债券资本利得+权益增强双重贡献，固收+弹性充分体现",
+        "returnLow": 8,
+        "returnHigh": 12
+      }
+    ],
+    "policyBreakdown": [
+      {
+        "sector": "短久期债券策略",
+        "color": "#4492F7",
+        "icon": "📊",
+        "horizon": "短中期（1-2年）",
+        "logic": "胡永青将久期控制在3年以内，在当前货币政策观察期（LPR连续11个月不变）中有效降低利率风险；若下半年降息10-20bp落地，短久期配置可获资本利得",
+        "stocks": ["政策性金融债组合（如25国开15）", "AAA高等级信用债"]
+      },
+      {
+        "sector": "高端制造权益增强",
+        "color": "#2DC78E",
+        "icon": "🏭",
+        "horizon": "中期（1-3年）",
+        "logic": "权益仓位5.53%聚焦精密制造（立讯精密、恒立液压）和有色金属（紫金矿业），契合十五五高端制造升级主线；小仓位增强收益弹性，不构成主要风险来源",
+        "stocks": ["立讯精密（精密连接器）", "恒立液压（高端液压）", "紫金矿业（战略金属）", "药明康德（生物医药CDMO）"]
+      },
+      {
+        "sector": "政策性金融债票息",
+        "color": "#0ea5e9",
+        "icon": "🏛️",
+        "horizon": "短期（1年内）",
+        "logic": "2026年财政发力（专项债1.16万亿+特别国债1.3万亿），债券供给增加但政策性金融债票息收益可观；基金持有国开债等可稳定获取票息",
+        "stocks": ["国开债、农发债等政策性金融债组合"]
+      }
+    ],
+    "fifteenFive": [
+      {
+        "direction": "货币政策稳中宽松",
+        "color": "#4492F7",
+        "description": "十五五规划期间经济转型需要宽松流动性支持，有利于债券市场收益率中枢维持较低水平，固收+策略天然受益",
+        "holdings": "债券资产占净值约94.47%，以AAA政策性金融债和高等级信用债为主"
+      },
+      {
+        "direction": "制造业升级转型",
+        "color": "#2DC78E",
+        "description": "十五五着力高端制造业发展，权益小仓位配置的立讯精密、恒立液压等制造业龙头与政策主线契合",
+        "holdings": "制造业权益股票（占净值约3%-4%）"
+      },
+      {
+        "direction": "财政扩张支持债市",
+        "color": "#F7C744",
+        "description": "十五五财政政策积极扩张，特别国债和专项债大量发行，政策性金融债供给充足，票息稳定可期",
+        "holdings": "政策性金融债+高等级信用债（占净值约70%-80%）"
+      }
+    ],
+    "longTermRisks": [
+      { "risk": "股债双杀风险",       "signal": "A类历史已验证2022年最大回撤-6.68%；若中美关系恶化叠加国内利率上行，D类面临同等风险；历史先例不可忽视",      "level": "high"   },
+      { "risk": "成立时间短缺乏验证", "signal": "D类份额仅1年历史，所有评估基于A类数据推断；未经历完整牛熊周期，长期能力尚无独立验证",                        "level": "medium" },
+      { "risk": "中美利差制约",       "signal": "中美利差倒挂-250bp，人民币贬值压力制约国内降息空间；若美联储再度加息，国内宽松空间进一步收窄",              "level": "medium" },
+      { "risk": "债券供给压力",       "signal": "2026年政府债券净供给大幅增加，可能推高债券收益率；短久期策略有所规避，但仍是潜在技术性压力",              "level": "low"    },
+      { "risk": "运作期限流动性",     "signal": "3年运作周期滚动模式；若在运作期间发生流动性危机或净值大幅下跌，持有人无法随时提前赎回，存在流动性约束",    "level": "low"    }
+    ],
+    "timeline": [
+      { "year": "2025年5月",    "event": "嘉实稳固收益债券D成立，建仓起步",           "return": "成立初期正收益",       "note": "债市顺风顺水，利率债行情良好；胡永青快速建仓政策性金融债+高等级信用债", "type": "positive" },
+      { "year": "2025年下半年", "event": "债市持续向好，稳健积累",                   "return": "+约5%-6%（推算）",     "note": "货币宽松预期+经济温和复苏，债券市场整体向好；票息+小幅资本利得双收", "type": "positive" },
+      { "year": "2025年Q4",     "event": "主动降久期，防御性调整",                   "return": "稳健小幅正收益",       "note": "胡永青前瞻性降低组合久期至3年以内，规避利率上行风险；体现主动风控能力", "type": "neutral"  },
+      { "year": "2026年Q1",     "event": "⚠️ 地缘冲突拖累，-1.05%跑输同类",         "return": "-1.05%（同类+0.40%）", "note": "权益仓位5.53%受地缘冲突波动拖累；单季度落后同类1.45个百分点，成立以来表现最差阶段", "type": "warning" }
+    ],
+    "dualTimeline": [
+      {
+        "period": "2025年5-9月",
+        "manager": { "event": "建仓完成，债市顺风，稳健起步", "return": "+约3%-5%（推算）", "note": "AAA政策性金融债+高等级信用债快速建仓；债市在宽松预期下上行，票息+资本利得双收", "type": "positive" },
+        "market":  { "event": "债市牛市延续，货币政策偏宽松", "note": "LPR持续下调预期，十年期国债收益率下行，固收+策略处于顺风环境", "type": "bull" }
+      },
+      {
+        "period": "2025年Q4",
+        "manager": { "event": "主动降久期，防御性调整保收益", "return": "小幅正收益（推算）", "note": "胡永青前瞻性降低组合久期，规避利率上行风险；体现了投资总监级别的风险管理能力", "type": "neutral" },
+        "market":  { "event": "债市进入观望期，MLF缩量续作", "note": "美联储政策不确定性+国内MLF净回笼2000亿，债市情绪趋于谨慎；短久期策略适应性较强", "type": "neutral" }
+      },
+      {
+        "period": "2026年Q1",
+        "manager": { "event": "⚠️ 地缘冲突拖累，-1.05%跑输同类", "return": "-1.05%（同类均值+0.40%）", "note": "权益仓位5.53%受地缘风险冲击下跌；固收端稳健但无法完全抵消；单季度落后1.45个百分点，需持续跟踪", "type": "warning" },
+        "market":  { "event": "地缘冲突升级，权益波动剧烈", "note": "关税战+地区冲突多重冲击，A股短期波动加剧；债市受避险情绪支撑，但固收+混合策略权益端承压", "type": "bear" }
+      }
+    ],
+    "note": "嘉实稳固收益债券D的核心逻辑：胡永青23年固收+经验+三重风控体系+短久期中性策略是保障下行风险的核心；但D类份额仅1年独立历史，长期评估需参考A类（009089）的20.98%任职回报；2026年Q1单季度跑输同类需持续跟踪，排查是否为偶发因素或趋势性问题。"
+  },
+  "exclusionCheck": [
+    { "item": "基金公司黑名单",       "pass": true, "note": "嘉实基金未列入黑名单" },
+    { "item": "基金经理黑名单",       "pass": true, "note": "胡永青未列入黑名单" },
+    { "item": "规模过小（<1亿）",     "pass": true, "note": "规模10.54亿元，流动性充裕" },
+    { "item": "成立不足6个月",        "pass": true, "note": "D类份额成立于2025-05-14，已成立近1年，通过6个月门槛" },
+    { "item": "基金经理任职不足1年",  "pass": true, "note": "胡永青自基金成立起管理，已任职近1年" },
+    { "item": "夏普比率为负",         "pass": true, "note": "成立以来+8.27%，夏普比率预计为正；参考A类历史年化4.65%，夏普比率在正区间" },
+    { "item": "近1年收益率为负",      "pass": true, "note": "成立以来（约1年）+8.27%，正收益" },
+    { "item": "历史最差年跌幅>50%",   "pass": true, "note": "D类最大回撤仅-1.05%；A类历史最差年2022年-6.68%，远低于50%否决线" },
+    { "item": "费率过高（>2%/年）",   "pass": true, "note": "综合费率0.83%（管理费0.65%+托管0.18%），低于同类平均，D类无销售服务费" },
+    { "item": "基金经理频繁更换",     "pass": true, "note": "自成立起由胡永青单一管理，无变更记录" }
+  ],
+  "scoring": {
+    "total": 70,
+    "dimensions": [
+      { "name": "历史业绩", "score": 6.0,  "note": "成立以来+8.27%尚可，但成立仅1年，2026年Q1跑输同类；长期业绩需参考A类（009089）20.98%任职回报评估" },
+      { "name": "风险控制", "score": 7.0,  "note": "D类成立以来最大回撤仅-1.05%，短久期中性+三重风控机制完善；但A类2022年-6.68%是真实风险参考下限" },
+      { "name": "持仓质量", "score": 8.0,  "note": "债券持仓AAA级81.8%，信用风险极低；权益仓位5.53%精选制造业+医药+矿业龙头，个股分散，配置合理" },
+      { "name": "基金经理", "score": 10.0, "note": "胡永青23年固收+经验，嘉实基金投资总监（固收+），A类6年20.98%任职回报验证能力；满分" },
+      { "name": "政策匹配", "score": 4.0,  "note": "固收+策略与宏观政策关联度一般，缺乏对科技/新能源等政策热点的主动倾斜；政策受益程度较低" },
+      { "name": "估值时机", "score": 6.0,  "note": "当前债市合理，短久期策略适应货币政策观察期；权益小仓位在震荡市有一定弹性，时机中性" }
+    ],
+    "recommendation": "推荐，稳健型投资者适配",
+    "recommendationType": "buy",
+    "reasoning": [
+      { "positive": true,  "text": "胡永青23年固收+资深经验，嘉实稳固收益债券A任职6年回报20.98%（年化约4.65%），能力已充分验证" },
+      { "positive": true,  "text": "债券持仓AAA级81.8%+短久期中性策略+三重风控体系（护本目标抬升+固定比例保险+债券组合风控），机制完善" },
+      { "positive": true,  "text": "D类份额无销售服务费（0%），综合费率0.83%低于同类平均；持有≥7天赎回费率为0%，持有成本低" },
+      { "positive": false, "text": "成立仅1年，D类独立业绩记录不足；A类2022年最大回撤-6.68%，极端行情下风控有盲点，不能完全参考短期表现" },
+      { "positive": false, "text": "2026年Q1跑输同类1.45个百分点（-1.05% vs +0.40%），地缘冲突下权益仓位拖累，单季度表现欠佳" }
+    ],
+    "conclusion": "嘉实稳固收益债券D（024212）是投资组合中稳健型压舱石的候选标的，胡永青23年固收+经验+三重风控体系是核心竞争力；D类成立仅1年，需借助A类（009089）历史数据评估长期能力；在当前货币政策观察期（降息有限）+债券供给压力背景下，预期年化收益4%-7%较为合理；适合风险偏好R2（中低风险）的稳健型投资者，建议作为组合中固收仓位的核心配置，与高风险权益基金搭配使用。",
+    "suitableFor": [
+      { "label": "R2中低风险偏好，追求年化4%-7%稳定收益的投资者",     "fit": true  },
+      { "label": "已持有高风险权益基金，需要债券低波动组合压舱石",     "fit": true  },
+      { "label": "中长期（1年以上）持有，能接受短期小幅亏损的稳健投资者", "fit": true  },
+      { "label": "追求高收益（>10%）、激进配置权益资产的投资者",       "fit": false },
+      { "label": "完全不能接受任何亏损、追求储蓄账户级稳定的投资者",   "fit": false }
+    ],
+    "allocationSuggestions": [
+      { "scenario": "当前（固收+稳健期，宽松预期）",    "ratio": "10%-20%",   "note": "作为组合稳定器，与股票基金搭配；一次性建仓或分2次建仓均可" },
+      { "scenario": "股市出现系统性调整（>20%）",       "ratio": "可提升至30%", "note": "股债跷跷板效应显现，固收+防御价值上升，适度提升配置" },
+      { "scenario": "降息幅度超预期（>50bp）",          "ratio": "可提升至25%", "note": "债券端资本利得+票息双重受益，短久期组合可快速调整受益" },
+      { "scenario": "基金经理（胡永青）离任",            "ratio": "减仓或清仓",  "note": "胡永青是产品的核心支柱，离任后需重新评估策略延续性" }
+    ]
+  },
+  "navHistory": [],
+  "tracking": {
+    "weekly": [
+      "关注净值日涨跌幅是否正常（±0.3%以内为正常，超±0.5%需排查原因）",
+      "跟踪10年期国债收益率走势（收益率超预期上行对债券持仓不利）",
+      "监控A股主要指数波动（5.53%权益仓位在股市大跌时会拖累净值）"
+    ],
+    "quarterly": [
+      "季报披露后检查权益仓位比例（若超过10%须重新评估风险暴露）",
+      "确认胡永青仍在任，关注基金公司公告",
+      "与同类基金排名对比，若连续2季度跌出前50%需深入分析",
+      "关注组合久期变化（是否超过3年中性目标）",
+      "复核AAA债券占比（应保持在75%以上）"
+    ],
+    "alerts": [
+      { "level": "critical", "icon": "🚨", "text": "胡永青离任公告（核心基金经理，需立即评估是否继续持有）" },
+      { "level": "critical", "icon": "🚨", "text": "月度单月回撤超过-2%（远超债基正常波动范围，需排查原因）" },
+      { "level": "warning",  "icon": "⚠️", "text": "权益仓位季报超过15%（远高于当前5.53%，风险特征显著变化）" },
+      { "level": "warning",  "icon": "⚠️", "text": "组合久期拉长超过5年（超出中性目标，利率风险敞口显著增加）" },
+      { "level": "warning",  "icon": "⚠️", "text": "连续两个季度跑输同类平均（业绩持续落后，需评估策略适应性）" },
+      { "level": "info",     "icon": "ℹ️", "text": "央行降准降息公告（利好债券端，关注组合久期调整方向和幅度）" },
+      { "level": "info",     "icon": "ℹ️", "text": "嘉实稳固收益债券A（009089）净值同步跟踪（可作为D类的前瞻性参照）" }
+    ]
+  }
+}

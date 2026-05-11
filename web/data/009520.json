@@ -1,0 +1,363 @@
+{
+  "id": "009520",
+  "meta": {
+    "reportDate": "2026-05-03",
+    "dataDate": "2026-04-29",
+    "disclaimer": "本报告仅供个人学习和信息整理使用，所有分析内容均不构成任何投资建议。投资有风险，入市需谨慎，请依据自身判断做出投资决策。"
+  },
+  "basic": {
+    "code": "009520",
+    "fullName": "中欧鼎利债券型证券投资基金C",
+    "shortName": "中欧鼎利债券C",
+    "type": "债券型",
+    "subType": "混合二级（固收+）",
+    "riskLevel": "中低风险",
+    "riskCode": 2,
+    "foundDate": "2020-06-03",
+    "issueDate": "2020-06-03",
+    "manager": "中欧基金管理有限公司",
+    "managerScale": null,
+    "managerFundCount": null,
+    "custodian": "中信银行股份有限公司",
+    "benchmark": "中证800指数收益率×15%+中证可转换债券指数×25%+中债综合财富指数收益率×60%",
+    "navFallback": 1.4574,
+    "navDateFallback": "2026-04-29",
+    "inceptionReturn": 31.56,
+    "dividendCount": null,
+    "status": "开放申购 / 开放赎回",
+    "companyShort": "中欧"
+  },
+  "fees": {
+    "management": 0.70,
+    "custodian": 0.10,
+    "salesService": 0.35,
+    "subscriptionMax": 0.00,
+    "subscriptionDiscounted": 0.00,
+    "redemptionMax": 1.5,
+    "breakdown": [
+      { "name": "管理费",   "value": 0.70 },
+      { "name": "托管费",   "value": 0.10 },
+      { "name": "销售服务费（C类）", "value": 0.35 },
+      { "name": "申购费",   "value": 0.00 }
+    ]
+  },
+  "scale": {
+    "nav": 19.54,
+    "shares": 13.8642,
+    "date": "2026-03-31"
+  },
+  "performance": {
+    "stages": [
+      { "period": "近1月",  "fund": 1.5,   "peer": 0.8,  "hs300": null, "rank": null, "rankTotal": null, "quartile": "优秀" },
+      { "period": "近3月",  "fund": 3.2,   "peer": 1.5,  "hs300": null, "rank": null, "rankTotal": null, "quartile": "优秀" },
+      { "period": "近6月",  "fund": 5.8,   "peer": 3.2,  "hs300": null, "rank": null, "rankTotal": null, "quartile": "优秀" },
+      { "period": "近1年",  "fund": 16.46, "peer": 3.83, "hs300": null, "rank": null, "rankTotal": null, "quartile": "优秀" },
+      { "period": "今年来", "fund": 4.61,  "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null },
+      { "period": "成立以来", "fund": 31.56, "peer": null, "hs300": null, "rank": 425, "rankTotal": 830, "quartile": "优秀" }
+    ],
+    "annual": [
+      { "year": 2022, "fund": -13.78, "peer": null, "hs300": -21.63, "rank": 826, "rankTotal": 912,  "quartile": "不佳" },
+      { "year": 2023, "fund": -2.45,  "peer": null, "hs300": -11.38, "rank": 89,  "rankTotal": 867,  "quartile": "优秀" },
+      { "year": 2024, "fund": 3.83,   "peer": null, "hs300": 14.68,  "rank": 3,   "rankTotal": 1030, "quartile": "优秀" },
+      { "year": 2025, "fund": 12.70,  "peer": 8.04, "hs300": 17.66,  "rank": 1,   "rankTotal": 1142, "quartile": "优秀" }
+    ],
+    "quarterly": [
+      { "quarter": "2024Q2", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null },
+      { "quarter": "2024Q3", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null },
+      { "quarter": "2024Q4", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null },
+      { "quarter": "2025Q1", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null },
+      { "quarter": "2025Q2", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null },
+      { "quarter": "2025Q3", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null },
+      { "quarter": "2025Q4", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null },
+      { "quarter": "2026Q1", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null }
+    ]
+  },
+  "risk": {
+    "volatility": 6.31,
+    "sharpe": 2.27,
+    "maxDrawdown": -21.68,
+    "riskLevel": "中低风险",
+    "excessReturn1Y": 12.63,
+    "radarDimensions": [
+      { "name": "历史业绩", "value": 8.0, "max": 10 },
+      { "name": "风险控制", "value": 6.0, "max": 10 },
+      { "name": "持仓质量", "value": 7.0, "max": 10 },
+      { "name": "基金经理", "value": 8.5, "max": 10 },
+      { "name": "政策匹配", "value": 6.0, "max": 10 },
+      { "name": "估值时机", "value": 7.5, "max": 10 }
+    ],
+    "positionHistory": [
+      { "date": "2025-03-31", "stock": 15.0, "cash": 1.5, "scale": 17.0 },
+      { "date": "2025-06-30", "stock": 16.0, "cash": 1.0, "scale": 18.0 },
+      { "date": "2025-09-30", "stock": 16.5, "cash": 1.0, "scale": 19.0 },
+      { "date": "2025-12-31", "stock": 16.0, "cash": 0.8, "scale": 19.2 },
+      { "date": "2026-03-31", "stock": 16.16,"cash": 0.9, "scale": 19.54 }
+    ],
+    "positionSignal": null,
+    "riskBreakdown": [
+      { "type": "历史回撤风险",   "level": "medium", "stars": 3, "maxStars": 5, "note": "历史最大回撤-21.68%，对债券型基金偏高；主因2022年权益敞口超20%叠加股债双杀，需关注" },
+      { "type": "权益集中风险",   "level": "medium", "stars": 3, "maxStars": 5, "note": "制造业股票占净值16.16%，行业集中度高；若制造业出现系统性调整，权益端将拖累整体净值" },
+      { "type": "利率风险",       "level": "low",    "stars": 2, "maxStars": 5, "note": "债券久期中性配置，中美利差-250bp制约降息空间；但当前信用债AAA占81.8%，信用风险低" },
+      { "type": "经理变更风险",   "level": "low",    "stars": 2, "maxStars": 5, "note": "2024-2025年经理组合重构（洪慧梅离任→赵宇澄+邓欣雨），当前双管已运行约1-2年，风格趋于稳定" },
+      { "type": "规模适中风险",   "level": "low",    "stars": 1, "maxStars": 5, "note": "19.54亿元规模适中，申赎流动性良好；当前规模既不过小也不过大，不影响策略执行" },
+      { "type": "信用违约风险",   "level": "low",    "stars": 1, "maxStars": 5, "note": "债券持仓AAA级占81.8%，以政策性金融债和高等级信用债为主，信用违约风险极低" }
+    ],
+    "volatilityNote": "年化波动6.31%（近1年），远低于纯股票基金；固收+特性使波动显著低于权益类",
+    "sharpeNote": "近1年夏普2.27优秀，单位风险获取2.27单位超额回报；近3年夏普0.34偏低（2022年重创影响）",
+    "drawdownNote": "历史最大回撤-21.68%（2022年股债双杀），对债券型基金偏高；2022年后邓欣雨优化策略，近1-2年回撤控制改善",
+    "excessNote": "近1年超额+12.63%（16.46%-3.83%），大幅领先同类均值"
+  },
+  "holdings": {
+    "date": "2026-03-31",
+    "stockRatio": 16.16,
+    "cashRatio": 0.90,
+    "top10Total": 6.0,
+    "concentrationLabel": "个股高度分散型",
+    "top10": [],
+    "sectors": [
+      { "name": "固定收益（债券）", "value": 84.29, "color": "#4492F7" },
+      { "name": "制造业（股票）",   "value": 16.16, "color": "#2DC78E" },
+      { "name": "采矿业（股票）",   "value": 0.77,  "color": "#D4A017" },
+      { "name": "综合行业（股票）", "value": 0.09,  "color": "#9B72F0" },
+      { "name": "银行存款+其他",    "value": 1.27,  "color": "#21262d" }
+    ],
+    "bondStructure": [
+      { "type": "政策性金融债", "note": "AAA级，安全性最高，提供稳定票息",    "color": "#4492F7" },
+      { "type": "普通金融债",  "note": "中高等级，收益适中",                  "color": "#0ea5e9" },
+      { "type": "可转债",      "note": "双低增强策略，提供权益弹性，占约11.66%", "color": "#2DC78E" },
+      { "type": "信用债",      "note": "AAA占比81.8%，信用风险低",            "color": "#06b6d4" }
+    ],
+    "policyLinks": [
+      { "sector": "高端制造业", "stocks": "制造业龙头（精密制造/机械）", "policyNote": "十五五制造业升级战略，高端制造国产化加速，受益于政策持续支持", "color": "#2DC78E" },
+      { "sector": "可转债市场", "stocks": "双低策略可转债组合",           "policyNote": "A股结构性行情持续，可转债提供攻守兼备的弹性敞口，适合当前震荡市", "color": "#4492F7" }
+    ]
+  },
+  "managers": {
+    "current": {
+      "name": "赵宇澄 / 邓欣雨",
+      "startDate": "2025-05-26",
+      "tenure": "约1年（双管）",
+      "tenureReturn": 14.81,
+      "peerAvgReturn": null,
+      "rankInPeer": 1,
+      "rankTotal": 1142,
+      "education": "硕士学位（均为研究生学历）",
+      "experience": "邓欣雨：15年+（博时基金2008-2023→中欧基金2023至今）；赵宇澄：约8年（博时基金2018-2024→中欧基金2024至今）",
+      "fundCount": null,
+      "totalScale": null,
+      "historicalFunds": [
+        { "name": "中欧鼎利债券C",     "code": "009520", "tenure": "邓：约1年/赵：约2年", "return": 21.74, "peerAvg": null, "alpha": null, "rank": 1, "rankTotal": 1142, "percentile": 0.1, "grade": "good", "isCurrent": true  },
+        { "name": "中欧鼎利债券E",     "code": null,     "tenure": "同期",               "return": null,  "peerAvg": null, "alpha": null, "rank": null, "rankTotal": null, "percentile": null, "grade": "good", "isCurrent": true  },
+        { "name": "中欧稳泰120天持有债券", "code": null,  "tenure": "赵宇澄",            "return": null,  "peerAvg": null, "alpha": null, "rank": null, "rankTotal": null, "percentile": null, "grade": "ok",   "isCurrent": true  },
+        { "name": "中欧瑾灵灵活配置混合", "code": null,   "tenure": "邓欣雨",            "return": null,  "peerAvg": null, "alpha": null, "rank": null, "rankTotal": null, "percentile": null, "grade": "ok",   "isCurrent": true  }
+      ],
+      "managerId": "30821429"
+    },
+    "history": [
+      { "name": "赵宇澄+邓欣雨", "start": "2025-05-26", "end": null,         "tenure": "约1年",  "return": 14.81, "note": "双管组合，2025年同类排名第1；邓欣雨记分卡体系+赵宇澄固收研究互补" },
+      { "name": "赵宇澄",        "start": "2024-04-26", "end": null,         "tenure": "约2年",  "return": 21.74, "note": "赵宇澄自2024年4月起管理，任职总回报约21.74%" },
+      { "name": "洪慧梅",        "start": "2020-06-03", "end": "2024-04-25", "tenure": "约4年",  "return": 6.13,  "note": "成立初期管理，4年仅6.13%，2022年-13.78%大回撤；离任后赵/邓接手改善显著" }
+    ]
+  },
+  "policy": {
+    "tags": [
+      { "label": "固收+策略",   "strength": "high",   "color": "#4492F7" },
+      { "label": "可转债增强",  "strength": "high",   "color": "#2DC78E" },
+      { "label": "高端制造",    "strength": "medium", "color": "#F7C744" },
+      { "label": "降息受益",    "strength": "medium", "color": "#0ea5e9" },
+      { "label": "稳健增值",    "strength": "medium", "color": "#9B72F0" }
+    ],
+    "scenarios": [
+      {
+        "type": "悲观",
+        "color": "#ef4444",
+        "probability": 20,
+        "trigger": "中美关系再度恶化引发A股大跌，叠加国内利率上行（超预期加息），股债双杀重演2022年",
+        "returnLow": -10,
+        "returnHigh": -5
+      },
+      {
+        "type": "基准",
+        "color": "#3b82f6",
+        "probability": 60,
+        "trigger": "经济平稳复苏，货币政策维持宽松，A股温和震荡，可转债策略持续贡献弹性收益",
+        "returnLow": 8,
+        "returnHigh": 15
+      },
+      {
+        "type": "乐观",
+        "color": "#10b981",
+        "probability": 20,
+        "trigger": "国内出台大规模刺激政策，A股牛市启动，可转债+权益双双大涨",
+        "returnLow": 15,
+        "returnHigh": 25
+      }
+    ],
+    "policyBreakdown": [
+      {
+        "sector": "可转债双低策略",
+        "color": "#2DC78E",
+        "icon": "📊",
+        "horizon": "短中期（1-2年）",
+        "logic": "邓欣雨的「双低增强」策略（低转股溢价率+低绝对价格）在A股结构性行情中持续有效；2025年该策略贡献了主要超额收益",
+        "stocks": ["可转债组合（含转债基金仓位约11.66%）"]
+      },
+      {
+        "sector": "高端制造配置",
+        "color": "#F7C744",
+        "icon": "🏭",
+        "horizon": "中期（1-3年）",
+        "logic": "权益仓位聚焦景气成长，制造业16.16%是最大权益配置方向，契合十五五制造业升级主线",
+        "stocks": ["制造业景气成长个股（分散配置，前十大个股合计约6%）"]
+      },
+      {
+        "sector": "降息周期债券受益",
+        "color": "#4492F7",
+        "icon": "📉",
+        "horizon": "短期（1年内）",
+        "logic": "国内货币政策偏宽松，LPR有进一步下调空间；债券久期中性策略在降息周期中可获取资本利得",
+        "stocks": ["政策性金融债、AAA信用债组合"]
+      }
+    ],
+    "fifteenFive": [
+      {
+        "direction": "制造业转型升级",
+        "color": "#F7C744",
+        "description": "十五五规划着力高端制造业发展，权益仓位聚焦的制造业景气成长方向与政策主线契合",
+        "holdings": "制造业分散持仓（占净值约16.16%）"
+      },
+      {
+        "direction": "资本市场改革深化",
+        "color": "#2DC78E",
+        "description": "可转债市场持续发展，信息披露完善；双低策略在成熟可转债市场中具备长期有效性",
+        "holdings": "可转债组合（占净值约11.66%）"
+      },
+      {
+        "direction": "货币政策稳中宽松",
+        "color": "#4492F7",
+        "description": "十五五规划期间经济转型需要持续宽松流动性支持，有利于债券资产收益率中枢维持合理水平",
+        "holdings": "政策性金融债+高等级信用债（占净值约84%）"
+      }
+    ],
+    "longTermRisks": [
+      { "risk": "股债双杀风险",   "signal": "中美冲突升级叠加国内利率超预期上行，2022年历史已有先例；此风险将使近期12.63%超额瞬间蒸发", "level": "high"   },
+      { "risk": "策略容量风险",   "signal": "若规模快速扩张（如超过50亿），可转债双低策略的可投标的数量有限，策略容量可能受制约",            "level": "medium" },
+      { "risk": "基金经理稳定性", "signal": "赵宇澄+邓欣雨组合仅运行约1年，双管分工成熟度仍需进一步验证；尤其邓欣雨是近期业绩的核心贡献者",   "level": "medium" },
+      { "risk": "利率上行风险",   "signal": "若美联储再度加息或国内通胀超预期，长久期债券将面临估值压力，固收端贡献或降低",                  "level": "low"    },
+      { "risk": "可转债估值风险", "signal": "若A股全面调整，可转债正股下跌将导致转债价格下行，但债底保护提供了绝对价值支撑",                  "level": "low"    }
+    ],
+    "timeline": [
+      { "year": "2020-2021", "event": "成立并稳步积累收益",      "return": "成立来+约15%（2年）",  "note": "疫情后股债双牛，固收+策略顺风顺水，积累初始安全垫", "type": "positive" },
+      { "year": "2022",      "event": "股债双杀，历史最大回撤",  "return": "-13.78%（年度）",      "note": "权益敞口超20%叠加股债双杀；成立以来最大单年亏损", "type": "warning"  },
+      { "year": "2024",      "event": "赵宇澄接管，业绩快速改善","return": "+3.83%（年度第3/1030）","note": "2024年经理更迭带来策略优化，同类排名大幅提升", "type": "positive" },
+      { "year": "2025",      "event": "邓欣雨加入，同类排名第1", "return": "+12.70%（年度第1/1142）","note": "双管组合+双低策略共振，2025年成为该类基金最佳年度", "type": "highlight" },
+      { "year": "2026",      "event": "延续强势，今年来约+4.61%","return": "+4.61%（今年来）",      "note": "结构性行情下固收+弹性持续体现，近1年+16.46%", "type": "positive"  }
+    ],
+    "dualTimeline": [
+      {
+        "period": "2020",
+        "manager": { "event": "洪慧梅建仓，首年稳健起步", "return": "成立首年正收益", "note": "疫情后经济复苏，股债均有表现；固收+策略天然适应复苏初期环境", "type": "positive" },
+        "market":  { "event": "新冠疫情后经济复苏，股债双牛", "note": "货币政策极度宽松，利率下行红利+股市反弹，固收+基金整体处于最优市场环境", "type": "bull" }
+      },
+      {
+        "period": "2021",
+        "manager": { "event": "洪慧梅管理，收益积累，权益占比提升", "return": "续涨，安全垫充足", "note": "A股结构性行情，可转债市场活跃，权益持仓贡献主要超额", "type": "positive" },
+        "market":  { "event": "A股结构性行情，可转债市场高景气", "note": "新能源/科技赛道牛市，可转债溢价率高企，固收+获取丰厚权益收益", "type": "bull" }
+      },
+      {
+        "period": "2022",
+        "manager": { "event": "⚠️ 最差年度 -13.78%，同类倒数（826/912）", "return": "-13.78%（同类第826/912）", "note": "权益敞口超20%+股债双杀，为成立以来最大亏损年；洪慧梅风控不足，2024年被替换", "type": "warning" },
+        "market":  { "event": "A股全面熊市，债券收益率上行，股债双杀", "note": "美联储激进加息传导，国内经济下行+疫情冲击，史上少见的股债双杀年", "type": "bear" }
+      },
+      {
+        "period": "2023",
+        "manager": { "event": "洪慧梅末期，小幅亏损 -2.45%", "return": "-2.45%（同类第89/867）", "note": "2023年债券市场企稳，权益仍疲软；亏损收窄，同类排名回升至前11%", "type": "neutral" },
+        "market":  { "event": "经济弱复苏，债券企稳，A股震荡", "note": "政策宽松但需求复苏不及预期；债券略有回暖，股市未见明显牛市", "type": "neutral" }
+      },
+      {
+        "period": "2024",
+        "manager": { "event": "赵宇澄接棒，策略优化，年度第3/1030", "return": "+3.83%（同类第3/1030）", "note": "赵宇澄优化权益配置和可转债策略，同类排名从倒数飙升至前1%", "type": "positive" },
+        "market":  { "event": "924政策反弹，债市持续牛市，转债跟涨", "note": "9月24日一揽子政策推动A股强反弹，可转债同步上行；债市在宽松预期下持续走强", "type": "bull" }
+      },
+      {
+        "period": "2025",
+        "manager": { "event": "🏆 邓欣雨加入，双管双低，年度第1/1142", "return": "+12.70%（同类第1/1142）", "note": "邓欣雨15年固收+经验+记分卡体系，双低可转债策略精准捕捉结构性行情；2025年成为该类最佳", "type": "highlight" },
+        "market":  { "event": "A股结构性牛市，可转债市场全面回暖", "note": "DeepSeek+半导体国产替代+新能源储能多主线共振；可转债修复行情持续，双低策略空间充裕", "type": "bull" }
+      },
+      {
+        "period": "2026Q1",
+        "manager": { "event": "延续强势，今年来+4.61%，近1年+16.46%", "return": "+4.61%（今年来）", "note": "双管稳定运营，近1年超额+12.63%显著领先；当前A股震荡上行，固收+策略适应性强", "type": "positive" },
+        "market":  { "event": "A股震荡上行，债市稳健，固收+环境较优", "note": "宏观经济稳步复苏，货币政策偏宽松，股债均无系统性大风险，固收+策略处于适宜期", "type": "neutral" }
+      }
+    ],
+    "note": "中欧鼎利债券C的核心逻辑：邓欣雨的记分卡体系+双低可转债策略是近1-2年超额的主要来源；2022年股债双杀的历史教训已推动基金在权益配置和风控上进行了系统性改进。"
+  },
+  "exclusionCheck": [
+    { "item": "基金公司黑名单",      "pass": true,  "note": "中欧基金未列入黑名单" },
+    { "item": "基金经理黑名单",      "pass": true,  "note": "赵宇澄、邓欣雨均未列入黑名单" },
+    { "item": "规模过小（<1亿）",    "pass": true,  "note": "19.54亿元，规模适中，流动性充裕" },
+    { "item": "成立不足1年",         "pass": true,  "note": "成立近6年（2020-06-03），历经完整牛熊" },
+    { "item": "基金经理频繁更换",    "pass": true,  "note": "2024-2025年经理组合更迭（洪慧梅→赵宇澄→赵宇澄+邓欣雨），当前双管已稳定运营约1年，属正常传承" },
+    { "item": "历史最差年跌幅>50%",  "pass": true,  "note": "历史最差年度2022年-13.78%，远低于50%否决线；历史最大回撤-21.68%同样未触发" },
+    { "item": "单一重仓>30%",        "pass": true,  "note": "前十大个股合计仅约6%，分散度极高；债券+可转债也未见单一超集中" },
+    { "item": "行业集中度>70%",      "pass": true,  "note": "债券占净值84%，股票制造业仅16.16%，整体行业高度分散，未触发行业集中否决" },
+    { "item": "近1年排名后50%",      "pass": true,  "note": "2025年同类第1/1142（前0.1%），近1年+16.46%大幅领先同类均值3.83%" },
+    { "item": "费率结构异常",        "pass": true,  "note": "管理费0.70%+托管0.10%+C类销售服务费0.35%=1.15%，C类合理；申购免费，持有≥7天赎回免费" }
+  ],
+  "scoring": {
+    "total": 72,
+    "dimensions": [
+      { "name": "历史业绩", "score": 8.0, "note": "2025年同类第1，近1年+16.46%远超同类；但2022年-13.78%和2023年-2.45%历史有明显瑕疵" },
+      { "name": "风险控制", "score": 6.0, "note": "近1年夏普2.27优秀；但历史最大回撤-21.68%对债基偏高，近3年夏普仅0.34受2022年拖累" },
+      { "name": "持仓质量", "score": 7.0, "note": "债券AAA占比81.8%，信用风险极低；权益个股高度分散；可转债双低策略成熟有效" },
+      { "name": "基金经理", "score": 8.5, "note": "邓欣雨15年固收+资深经验，记分卡体系清晰；2025年表现验证能力，但双管组合成熟度仍需观察" },
+      { "name": "政策匹配", "score": 6.0, "note": "固收+天然稳健，缺乏对新能源/科技等政策热点的主动倾斜；政策受益程度中等偏低" },
+      { "name": "估值时机", "score": 7.5, "note": "当前债市合理偏贵但未泡沫化；可转债双低策略空间尚存；权益16%的敞口在震荡市有弹性" }
+    ],
+    "recommendation": "稳健配置 固收增强 债基首选",
+    "recommendationType": "buy",
+    "reasoning": [
+      { "positive": true,  "text": "2025年同类排名第1/1142，近1年收益16.46%是同类均值4倍，当前经理组合能力得到充分验证" },
+      { "positive": true,  "text": "邓欣雨15年固收+经验，记分卡体系+双低可转债策略成熟，超额来源清晰可解释" },
+      { "positive": true,  "text": "债券持仓AAA级81.8%，申购免费+持有≥7天赎回免费，对稳健投资者摩擦成本极低" },
+      { "positive": false, "text": "历史最大回撤-21.68%，2022年单年-13.78%，对债券型基金偏高；股债双杀情景下风控仍是短板" },
+      { "positive": false, "text": "双管组合（赵宇澄+邓欣雨）运行仅约1年，分工协作成熟度有限；单纯依赖邓欣雨的能力集中度仍高" }
+    ],
+    "conclusion": "中欧鼎利债券C（009520）是目前自选基金中唯一的债券型固收+产品，邓欣雨接管后于2025年摘得同类第1，近1年+16.46%的表现令人惊艳；在当前A股震荡、债市偏暖的宏观环境下，固收+策略的攻守兼备特性优势明显；适合作为组合中的稳定器，与高风险股票基金搭配使用，建议作为稳健仓位的核心配置。",
+    "suitableFor": [
+      { "label": "中低风险偏好，追求稳健收益的投资者（R2级别）",   "fit": true  },
+      { "label": "已有高风险股票仓位、需要低波动压舱石的投资者",   "fit": true  },
+      { "label": "看好固收+可转债策略在震荡市中的超额机会",         "fit": true  },
+      { "label": "追求高收益、不在乎短期波动的激进型投资者",         "fit": false },
+      { "label": "无法承受任何亏损、只接受银行存款级稳定的投资者", "fit": false }
+    ],
+    "allocationSuggestions": [
+      { "scenario": "当前（震荡市，固收+适宜期）",   "ratio": "10%-20%",  "note": "作为组合稳定器，与股票基金搭配；一次性或分2-3次建仓均可" },
+      { "scenario": "股市出现系统性大跌（>20%）",    "ratio": "可提升至30%", "note": "股债跷跷板效应下，固收+防御价值上升" },
+      { "scenario": "基金经理（尤其邓欣雨）离任",    "ratio": "减仓或清仓",  "note": "邓欣雨是近期超额的核心，离任后需重新评估" }
+    ]
+  },
+  "navHistory": [],
+  "tracking": {
+    "weekly": [
+      "关注净值日涨跌幅是否正常（±1%以内为正常，超±2%需排查原因）",
+      "跟踪10年期国债收益率走势（利率上行对债券持仓不利）",
+      "可转债市场平均溢价率和中证转债指数走势"
+    ],
+    "quarterly": [
+      "季报披露后检查权益仓位比例变化（若超过25%须重新评估风险）",
+      "确认赵宇澄和邓欣雨均在任，关注基金公告",
+      "与同类基金排名对比，若跌出前20%需深入分析原因",
+      "复核可转债持仓的双低策略有效性（转股溢价率+绝对价格分布）"
+    ],
+    "alerts": [
+      { "level": "critical", "icon": "🚨", "text": "邓欣雨离任公告（近期超额核心，需立即评估是否继续持有）" },
+      { "level": "critical", "icon": "🚨", "text": "A股单月下跌超-15%叠加债券收益率大幅上行（股债双杀再现风险）" },
+      { "level": "warning",  "icon": "⚠️", "text": "权益仓位季报显示超过25%（风控边界，历史上高仓位加剧回撤）" },
+      { "level": "warning",  "icon": "⚠️", "text": "月度单月回撤超过-3%（超出正常波动范围）" },
+      { "level": "warning",  "icon": "⚠️", "text": "基金规模快速扩张超过50亿（可转债双低策略容量受限风险）" },
+      { "level": "info",     "icon": "ℹ️", "text": "央行降准降息公告（利好债券端，关注组合久期调整方向）" },
+      { "level": "info",     "icon": "ℹ️", "text": "中证转债指数月度走势（可转债市场景气度指标）" }
+    ]
+  }
+}

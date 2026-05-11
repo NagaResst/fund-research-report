@@ -1,0 +1,425 @@
+{
+  "id": "166301",
+  "meta": {
+    "reportDate": "2026-05-08",
+    "dataDate": "2026-05-07",
+    "disclaimer": "本报告仅供个人学习和信息整理使用，所有分析内容均不构成任何投资建议。投资有风险，入市需谨慎，请依据自身判断做出投资决策。"
+  },
+  "basic": {
+    "code": "166301",
+    "fullName": "华商新趋势优选灵活配置混合型证券投资基金",
+    "shortName": "华商新趋势优选灵活配置混合",
+    "type": "混合型",
+    "subType": "灵活配置",
+    "riskLevel": "中高风险",
+    "riskCode": 4,
+    "foundDate": "2012-09-06",
+    "issueDate": "2012-08-01",
+    "manager": "华商基金管理有限公司",
+    "managerScale": "2029.3亿",
+    "managerFundCount": 172,
+    "custodian": "中国工商银行",
+    "benchmark": "沪深300指数×65% + 上证国债指数×35%",
+    "navFallback": 18.089,
+    "navDateFallback": "2026-05-07",
+    "inceptionReturn": 1708.9,
+    "dividendCount": 0,
+    "status": "开放申购 / 开放赎回",
+    "companyShort": "华商"
+  },
+  "fees": {
+    "management": 1.2,
+    "custodian": 0.2,
+    "salesService": 0.0,
+    "subscriptionMax": 1.5,
+    "subscriptionDiscounted": 0.15,
+    "redemptionMax": 1.5,
+    "breakdown": [
+      { "name": "管理费", "value": 1.2 },
+      { "name": "托管费", "value": 0.2 },
+      { "name": "认购费(折后)", "value": 0.15 }
+    ]
+  },
+  "scale": {
+    "nav": 57.57,
+    "shares": 3.8037,
+    "date": "2026-03-31"
+  },
+  "performance": {
+    "stages": [
+      { "period": "近1周",  "fund": 4.62,  "peer": null,  "hs300": 1.94,  "rank": null, "rankTotal": null, "quartile": null },
+      { "period": "近1月",  "fund": 18.2,  "peer": 11.19, "hs300": 10.36, "rank": 491,  "rankTotal": 2324, "quartile": "优秀" },
+      { "period": "近3月",  "fund": 17.6,  "peer": 7.14,  "hs300": 5.53,  "rank": 386,  "rankTotal": 2316, "quartile": "优秀" },
+      { "period": "近6月",  "fund": 33.59, "peer": 12.88, "hs300": 4.74,  "rank": 314,  "rankTotal": 2267, "quartile": "优秀" },
+      { "period": "今年来", "fund": 25.85, "peer": 11.6,  "hs300": 5.84,  "rank": 350,  "rankTotal": 2181, "quartile": "优秀" },
+      { "period": "近1年",  "fund": 79.24, "peer": 38.06, "hs300": 27.9,  "rank": 314,  "rankTotal": 2267, "quartile": "优秀" },
+      { "period": "近2年",  "fund": 88.47, "peer": 45.01, "hs300": 33.93, "rank": 350,  "rankTotal": 2181, "quartile": "优秀" },
+      { "period": "近3年",  "fund": 84.94, "peer": 31.94, "hs300": 22.0,  "rank": 202,  "rankTotal": 2075, "quartile": "优秀" }
+    ],
+    "annual": [
+      { "year": 2018, "fund": -14.83, "peer": -13.04, "hs300": -25.31, "rank": 817,  "rankTotal": 1913, "quartile": "良好" },
+      { "year": 2019, "fund": 69.6,   "peer": 40.38,  "hs300": 36.07,  "rank": 74,   "rankTotal": 1974, "quartile": "优秀" },
+      { "year": 2020, "fund": 77.42,  "peer": 33.59,  "hs300": 27.21,  "rank": 219,  "rankTotal": 2086, "quartile": "优秀" },
+      { "year": 2021, "fund": 22.85,  "peer": 10.17,  "hs300": -5.2,   "rank": 314,  "rankTotal": 2205, "quartile": "优秀" },
+      { "year": 2022, "fund": 13.6,   "peer": -15.54, "hs300": -21.63, "rank": 9,    "rankTotal": 2299, "quartile": "优秀" },
+      { "year": 2023, "fund": 0.85,   "peer": -9.01,  "hs300": -11.38, "rank": 339,  "rankTotal": 2330, "quartile": "优秀" },
+      { "year": 2024, "fund": 7.34,   "peer": 4.14,   "hs300": 14.68,  "rank": 752,  "rankTotal": 2336, "quartile": "良好" },
+      { "year": 2025, "fund": 50.43,  "peer": 26.17,  "hs300": 17.66,  "rank": 320,  "rankTotal": 2338, "quartile": "优秀" }
+    ],
+    "quarterly": [
+      { "quarter": "2024Q2", "fund": -0.99, "peer": -2.03, "hs300": -2.14, "rank": 1116, "rankTotal": 2326, "quartile": "良好" },
+      { "quarter": "2024Q3", "fund": 10.02, "peer": 8.56,  "hs300": 16.07, "rank": 865,  "rankTotal": 2322, "quartile": "良好" },
+      { "quarter": "2024Q4", "fund": -4.79, "peer": -0.35, "hs300": -2.06, "rank": 1816, "rankTotal": 2336, "quartile": "不佳" },
+      { "quarter": "2025Q1", "fund": 6.86,  "peer": 2.61,  "hs300": -1.21, "rank": 395,  "rankTotal": 2331, "quartile": "优秀" },
+      { "quarter": "2025Q2", "fund": 1.95,  "peer": 2.52,  "hs300": 1.25,  "rank": 956,  "rankTotal": 2353, "quartile": "良好" },
+      { "quarter": "2025Q3", "fund": 33.52, "peer": 19.69, "hs300": 17.9,  "rank": 435,  "rankTotal": 2347, "quartile": "优秀" },
+      { "quarter": "2025Q4", "fund": 3.43,  "peer": 0.2,   "hs300": -0.23, "rank": 467,  "rankTotal": 2338, "quartile": "优秀" },
+      { "quarter": "2026Q1", "fund": 5.3,   "peer": -0.3,  "hs300": -3.89, "rank": 290,  "rankTotal": 2333, "quartile": "优秀" }
+    ]
+  },
+  "risk": {
+    "volatility": 22.24,
+    "sharpe": 3.5,
+    "maxDrawdown": -20.5,
+    "riskLevel": "中高风险",
+    "excessReturn1Y": 41.18,
+    "radarDimensions": [
+      { "name": "历史业绩", "value": 9.5, "max": 10 },
+      { "name": "风险控制", "value": 8.0, "max": 10 },
+      { "name": "持仓质量", "value": 8.5, "max": 10 },
+      { "name": "基金经理", "value": 8.5, "max": 10 },
+      { "name": "政策匹配", "value": 9.0, "max": 10 },
+      { "name": "估值时机", "value": 7.0, "max": 10 }
+    ],
+    "positionHistory": [
+      { "date": "2025-03-31", "stock": 68.82, "cash": 31.18, "scale": 53.90 },
+      { "date": "2025-06-30", "stock": 82.96, "cash": 20.62, "scale": 44.69 },
+      { "date": "2025-09-30", "stock": 91.79, "cash": 8.45,  "scale": 45.66 },
+      { "date": "2025-12-31", "stock": 91.07, "cash": 9.05,  "scale": 44.62 },
+      { "date": "2026-03-31", "stock": 72.27, "cash": 27.64, "scale": 57.57 }
+    ],
+    "positionSignal": "⚠️ 2026Q1：基金经理将股票仓位从91.07%主动降至72.27%，同步大幅增持现金至27.64%，表明对当前估值有所警惕，采取防御姿态。",
+    "riskBreakdown": [
+      { "type": "市场波动风险", "level": "medium", "stars": 3, "maxStars": 5, "note": "波动率22.24%与偏股混合均值相当；但当前主动降仓至72%，防御缓冲较充足" },
+      { "type": "政策依赖风险", "level": "medium", "stars": 3, "maxStars": 5, "note": "军工+AI+国产替代均依赖政策持续支撑；若中美关系大幅改善或国防预算削减，持仓预期将受影响" },
+      { "type": "经理变更风险", "level": "low",    "stars": 2, "maxStars": 5, "note": "童立接管仅1年57天，但其旗舰基金华商研究精选A（8年+353%，同类前3.2%）经历多轮完整牛熊验证" },
+      { "type": "行业集中风险", "level": "low",    "stars": 2, "maxStars": 5, "note": "制造业56.43%，未超70%否决线；交通运输/采矿/信息技术分散补充，行业覆盖较宽" },
+      { "type": "集中度风险",   "level": "low",    "stars": 1, "maxStars": 5, "note": "前十大仓位合计仅24.85%，单仓最大4.01%，属高度分散型，个股黑天鹅风险极低" },
+      { "type": "流动性风险",   "level": "low",    "stars": 1, "maxStars": 5, "note": "规模57.57亿，重仓均为A股主板大中盘股，申赎流动性充裕" }
+    ],
+    "volatilityNote": "灵活配置型，仓位弹性大，当前主动降仓至72%",
+    "sharpeNote": ">3 极高，多年穿越牛熊的风险调整后收益",
+    "drawdownNote": "历史最差年度2018年-14.83%，防守能力强于同类",
+    "excessNote": "相对灵活配置混合同类均值，+41.18%"
+  },
+  "holdings": {
+    "date": "2026-03-31",
+    "stockRatio": 72.27,
+    "cashRatio": 27.64,
+    "top10Total": 24.85,
+    "top10": [
+      { "rank": 1,  "code": "601872", "name": "招商轮船", "ratio": 4.01, "sector": "航运/资源",     "color": "#4492F7" },
+      { "rank": 2,  "code": "603612", "name": "索通发展", "ratio": 3.37, "sector": "碳素新材料",   "color": "#9B72F0" },
+      { "rank": 3,  "code": "300666", "name": "江丰电子", "ratio": 2.90, "sector": "半导体靶材",   "color": "#06b6d4" },
+      { "rank": 4,  "code": "002281", "name": "光迅科技", "ratio": 2.34, "sector": "光模块/AI算力", "color": "#8b5cf6" },
+      { "rank": 5,  "code": "600316", "name": "洪都航空", "ratio": 2.27, "sector": "军工飞机",     "color": "#ef4444" },
+      { "rank": 6,  "code": "600111", "name": "北方稀土", "ratio": 2.07, "sector": "稀土/新材料",  "color": "#F7C744" },
+      { "rank": 7,  "code": "300677", "name": "英科医疗", "ratio": 2.04, "sector": "医疗耗材出口", "color": "#2DC78E" },
+      { "rank": 8,  "code": "600498", "name": "烽火通信", "ratio": 2.02, "sector": "军用通信",     "color": "#dc2626" },
+      { "rank": 9,  "code": "600893", "name": "航发动力", "ratio": 2.00, "sector": "航空发动机",   "color": "#b91c1c" },
+      { "rank": 10, "code": "688041", "name": "海光信息", "ratio": 1.83, "sector": "国产CPU/AI芯片","color": "#0ea5e9" }
+    ],
+    "sectors": [
+      { "name": "制造业(军工+半导体+新材料)", "value": 56.43, "color": "#4492F7" },
+      { "name": "交通运输(航运)",             "value": 4.96,  "color": "#9B72F0" },
+      { "name": "采矿业(稀土)",               "value": 3.27,  "color": "#F7C744" },
+      { "name": "信息技术服务",               "value": 3.21,  "color": "#2DC78E" },
+      { "name": "金融业",                     "value": 1.90,  "color": "#E8813A" },
+      { "name": "水利环保",                   "value": 1.32,  "color": "#8b5cf6" },
+      { "name": "现金及其他",                 "value": 28.91, "color": "#21262d" }
+    ],
+    "concentrationLabel": "高度分散型",
+    "policyLinks": [
+      { "sector": "军工装备", "stocks": "洪都航空、航发动力、烽火通信", "policyNote": "\"十五五\"强军战略，国防预算年增7%+，军工现代化加速", "color": "#ef4444" },
+      { "sector": "半导体国产替代", "stocks": "江丰电子、海光信息", "policyNote": "大基金三期3440亿，AI算力爆发，国产替代加速", "color": "#06b6d4" },
+      { "sector": "AI算力基础设施", "stocks": "光迅科技", "policyNote": "全球数据中心建设潮，光模块需求爆发", "color": "#8b5cf6" },
+      { "sector": "新材料/大宗", "stocks": "索通发展、北方稀土、招商轮船", "policyNote": "供应链重构，战略资源国产化，航运复苏", "color": "#F7C744" }
+    ]
+  },
+  "managers": {
+    "current": {
+      "name": "童立",
+      "startDate": "2025-03-12",
+      "tenure": "1年57天",
+      "tenureReturn": 72.97,
+      "peerAvgReturn": 35.39,
+      "rankInPeer": 987,
+      "rankTotal": 8154,
+      "education": "经济学硕士",
+      "experience": "约15年（2011年加入华商基金）",
+      "fundCount": 9,
+      "totalScale": 83.54,
+      "historicalFunds": [
+        { "name": "华商研究精选A",         "code": "004423", "tenure": "8年140天", "return": 353.77, "peerAvg": 106.75, "alpha": 247.02, "rank": 63,   "rankTotal": 1977, "percentile": 3.2,  "grade": "good", "isCurrent": true },
+        { "name": "华商上游产业A",         "code": "005161", "tenure": "5年364天", "return": 106.58, "peerAvg": 19.20,  "alpha": 87.38,  "rank": 20,   "rankTotal": 740,  "percentile": 2.7,  "grade": "good", "isCurrent": true },
+        { "name": "华商科技创新混合",      "code": "008961", "tenure": "6年64天",  "return": 162.72, "peerAvg": 65.53,  "alpha": 97.19,  "rank": 233,  "rankTotal": 2893, "percentile": 8.1,  "grade": "good", "isCurrent": true },
+        { "name": "华商研究精选C",         "code": "016069", "tenure": "3年306天", "return": 70.29,  "peerAvg": 19.47,  "alpha": 50.82,  "rank": 471,  "rankTotal": 5967, "percentile": 7.9,  "grade": "good", "isCurrent": true },
+        { "name": "华商高端装备制造A",     "code": "008009", "tenure": "1年16天",  "return": 84.13,  "peerAvg": 43.41,  "alpha": 40.72,  "rank": 98,   "rankTotal": 1285, "percentile": 7.6,  "grade": "good", "isCurrent": true },
+        { "name": "华商主题精选混合",      "code": "630011", "tenure": "2年297天", "return": 142.98, "peerAvg": 84.43,  "alpha": 58.55,  "rank": 425,  "rankTotal": 2781, "percentile": 15.3, "grade": "good", "isCurrent": true },
+        { "name": "华商研究回报一年持有A", "code": "016045", "tenure": "3年63天",  "return": 53.69,  "peerAvg": 29.63,  "alpha": 24.06,  "rank": 1229, "rankTotal": 6569, "percentile": 18.7, "grade": "ok",   "isCurrent": true },
+        { "name": "华商新趋势优选",        "code": "166301", "tenure": "1年57天",  "return": 72.97,  "peerAvg": 35.39,  "alpha": 37.58,  "rank": 987,  "rankTotal": 8154, "percentile": 12.1, "grade": "good", "isCurrent": true },
+        { "name": "华商均衡成长A",         "code": "011369", "tenure": "2年290天", "return": 5.41,   "peerAvg": -3.90,  "alpha": 9.31,   "rank": 1725, "rankTotal": 6291, "percentile": 27.4, "grade": "ok",   "isCurrent": true },
+        { "name": "华商核心引力A",         "code": "012491", "tenure": "3年304天", "return": -17.05, "peerAvg": -15.29, "alpha": -1.76,  "rank": 2327, "rankTotal": 4680, "percentile": 49.7, "grade": "weak", "isCurrent": true },
+        { "name": "华商万众创新A",         "code": "002669", "tenure": "3年9天",   "return": -6.78,  "peerAvg": -5.02,  "alpha": -1.76,  "rank": 3510, "rankTotal": 6258, "percentile": 56.1, "grade": "weak", "isCurrent": true },
+        { "name": "华商新锐产业混合",      "code": "000654", "tenure": "9年138天", "return": 108.86, "peerAvg": 129.67, "alpha": -20.81, "rank": 778,  "rankTotal": 1692, "percentile": 46.0, "grade": "weak", "isCurrent": false }
+      ],
+      "managerId": "30442435"
+    },
+    "history": [
+      { "name": "童立",        "start": "2025-03-12", "end": null,         "tenure": "1年57天",  "return": 72.97,  "note": "现任经理，接棒后延续超额" },
+      { "name": "周海栋",      "start": "2015-10-08", "end": "2025-03-11", "tenure": "9年157天", "return": 479.07, "note": "传奇任期，2022年熊市同类第9" },
+      { "name": "费鹏+周海栋", "start": "2015-05-14", "end": "2015-10-07", "tenure": "146天",   "return": -19.98, "note": "双管短暂过渡" },
+      { "name": "费鹏",        "start": "2014-06-10", "end": "2015-05-13", "tenure": "337天",   "return": 106.87, "note": "牛市受益" },
+      { "name": "路阳",        "start": "2013-12-30", "end": "2014-06-09", "tenure": "161天",   "return": -2.24,  "note": "" },
+      { "name": "田明圣",      "start": "2012-09-06", "end": "2013-12-29", "tenure": "1年114天","return": 11.60,  "note": "成立初期" }
+    ]
+  },
+  "policy": {
+    "tags": [
+      { "label": "军工装备",   "strength": "high",   "color": "#ef4444" },
+      { "label": "半导体国产替代", "strength": "high", "color": "#06b6d4" },
+      { "label": "AI算力",     "strength": "high",   "color": "#8b5cf6" },
+      { "label": "稀土新材料", "strength": "medium", "color": "#F7C744" },
+      { "label": "航运复苏",   "strength": "medium", "color": "#4492F7" },
+      { "label": "十五五规划", "strength": "high",   "color": "#2DC78E" }
+    ],
+    "scenarios": [
+      {
+        "type": "悲观",
+        "color": "#ef4444",
+        "probability": 20,
+        "trigger": "全球经济衰退，大宗商品崩溃，中美科技摩擦缓和反而压低军工预期",
+        "returnLow": -25,
+        "returnHigh": -15
+      },
+      {
+        "type": "基准",
+        "color": "#3b82f6",
+        "probability": 55,
+        "trigger": "中国经济平稳增长，政策连续性强，科技国产替代稳步推进",
+        "returnLow": 20,
+        "returnHigh": 35
+      },
+      {
+        "type": "乐观",
+        "color": "#10b981",
+        "probability": 25,
+        "trigger": "AI技术突破加速，军工采购超预期，人民币升值，大宗涨价",
+        "returnLow": 40,
+        "returnHigh": 60
+      }
+    ],
+    "policyBreakdown": [
+      {
+        "sector": "军工装备",
+        "color": "#ef4444",
+        "icon": "🛡️",
+        "horizon": "短期（1年内）",
+        "logic": "国防预算2025年增长约7.2%，'十五五'装备采购进入加速期，国际局势紧张强化军费刚性需求",
+        "stocks": ["洪都航空（军机）", "航发动力（发动机）", "烽火通信（军用通信）"]
+      },
+      {
+        "sector": "半导体/AI算力",
+        "color": "#8b5cf6",
+        "icon": "💻",
+        "horizon": "短期（1年内）",
+        "logic": "中美科技脱钩背景下，国产替代进程提速；AI算力需求爆发推动光模块订单暴增；华为生态链受益",
+        "stocks": ["海光信息（国产CPU）", "江丰电子（溅射靶材）", "光迅科技（光模块）"]
+      },
+      {
+        "sector": "大宗商品/航运",
+        "color": "#f59e0b",
+        "icon": "⚓",
+        "horizon": "短期（1年内）",
+        "logic": "全球供应链重构下的航运复苏，稀土出口管制驱动价格上行，碳素材料需求随工业景气回升",
+        "stocks": ["招商轮船（航运）", "北方稀土（稀土）", "索通发展（石油焦碳素）"]
+      }
+    ],
+    "fifteenFive": [
+      {
+        "direction": "高端装备制造",
+        "color": "#ef4444",
+        "description": "航空发动机自主化、船舶新材料、精密加工",
+        "holdings": "洪都航空、航发动力"
+      },
+      {
+        "direction": "算力基础设施",
+        "color": "#8b5cf6",
+        "description": "国产芯片、光通信、AI服务器、数据中心",
+        "holdings": "海光信息、光迅科技、江丰电子"
+      },
+      {
+        "direction": "新材料",
+        "color": "#2DC78E",
+        "description": "稀土功能材料、碳素材料、新型工业原料",
+        "holdings": "北方稀土、索通发展"
+      }
+    ],
+    "longTermRisks": [
+      { "risk": "大宗商品周期", "signal": "全球经济衰退下，航运、稀土、碳素需求可能大幅回落",        "level": "high"   },
+      { "risk": "基金经理风险", "signal": "童立已有8-9年历史验证，但若再次更换基金经理仍需高度警惕", "level": "high"   },
+      { "risk": "估值过高",     "signal": "当前持仓平均PE若超过40倍，历史均值回归压力增大",           "level": "medium" },
+      { "risk": "政策转向",     "signal": "若中美关系大幅改善，军工板块可能面临预期修正",              "level": "medium" },
+      { "risk": "行业景气拐点", "signal": "全球AI投资热潮若降温，算力/光模块供给过剩风险",             "level": "medium" }
+    ],
+    "timeline": [
+      { "year": "2019-2020", "event": "新材料+工业品+新经济大牛市", "return": "+70%/+77%",  "note": "精准布局涨价产业链，连续两年同类前5%", "type": "positive" },
+      { "year": "2021",      "event": "+22.85%，跑赢同类与沪深300",  "return": "+22.85%",    "note": "坚守中国制造升级赛道", "type": "positive" },
+      { "year": "2022",      "event": "全市场熊市逆涨+13.6%",        "return": "同类排名第9/2299", "note": "防守神操作，逆市大涨，接近全国最优", "type": "positive" },
+      { "year": "2023",      "event": "守住+0.85%",                  "return": "同类平均-9%", "note": "连续逆势防守，持续正收益", "type": "highlight" },
+      { "year": "2025",      "event": "童立接棒，全年+50.43%",        "return": "+50.43%",    "note": "科技AI+军工+新材料全面共振爆发", "type": "positive" },
+      { "year": "2026",      "event": "主动降仓至72%，谨慎防御高位", "return": "+5.3%（Q1）","note": "基金经理主动减仓，防御高估值", "type": "warning" }
+    ],
+    "dualTimeline": [
+      {
+        "period": "2012-2013",
+        "manager": { "event": "田明圣主管，基金初创，逐步建仓", "return": "+11.60%", "note": "建仓期稳健运营，奠定初始持仓框架", "type": "neutral" },
+        "market":  { "event": "A股底部区域，经济转型探底", "note": "沪深300处于低位，政策托底，成长股初步萌芽", "type": "neutral" }
+      },
+      {
+        "period": "2014",
+        "manager": { "event": "费鹏主管，精准踩准牛市起点", "return": "+106.87%", "note": "大幅跑赢同类，完整抓住A股改革牛启动行情", "type": "positive" },
+        "market":  { "event": "改革红利+货币宽松，A股大牛市启动", "note": "沪深300年内大涨，改革预期强烈，外资开始关注A股", "type": "bull" }
+      },
+      {
+        "period": "2015上半年",
+        "manager": { "event": "费鹏+周海栋联合主管，享受加杠杆疯牛红利", "note": "仓位较高随市上涨，参与疯牛行情", "type": "positive" },
+        "market":  { "event": "两融破2万亿，A股飙涨至5178点历史高位", "note": "全民炒股，估值严重泡沫化，政策开始收紧两融", "type": "bull" }
+      },
+      {
+        "period": "2015下半年",
+        "manager": { "event": "股灾系统性重创，任期亏损 -19.98%", "return": "-19.98%", "note": "三次股灾难以规避，属于系统性风险，非选股失误", "type": "warning" },
+        "market":  { "event": "三次股灾，千股跌停，强制去杠杆", "note": "6月至9月沪深300暴跌约40%，市场出现流动性危机", "type": "bear" }
+      },
+      {
+        "period": "2016-2017",
+        "manager": { "event": "周海栋接管，重构「中国制造升级」选股体系", "note": "深研工业品、新材料、周期成长，建立独特的自上而下选股框架", "type": "highlight" },
+        "market":  { "event": "供给侧改革去产能，周期股强势复苏", "note": "A股白马+价值股启动，煤炭钢铁率先反弹，改革红利释放", "type": "bull" }
+      },
+      {
+        "period": "2018",
+        "manager": { "event": "主动控仓防御，跑赢沪深300逾10个百分点", "return": "-14.83%（沪深300 -25.31%）", "note": "熊市展现防守能力，同类良好分位，选股框架逆境下经受考验", "type": "highlight" },
+        "market":  { "event": "中美贸易战全面爆发，A股全面熊市", "note": "沪深300跌25.31%，贸易战+去杠杆双重压制，几乎所有板块大跌", "type": "bear" }
+      },
+      {
+        "period": "2019-2020",
+        "manager": { "event": "连续两年同类前5%，+69.6% / +77.4%", "return": "+69.60% / +77.42%", "note": "精准布局新材料+工业品涨价+新经济，选股框架全面验证，持续创造超额", "type": "positive" },
+        "market":  { "event": "货币宽松，科创板开板，成长+价值双牛", "note": "中美贸易战阶段缓和，A股外资持续流入，流动性宽裕推动全面牛市", "type": "bull" }
+      },
+      {
+        "period": "2021",
+        "manager": { "event": "+22.85%，在沪深300下跌时跑赢27个百分点", "return": "+22.85%（vs 沪深300 -5.20%）", "note": "白马股抱团瓦解后逆势跑赢，制造升级+周期持续贡献超额收益", "type": "positive" },
+        "market":  { "event": "白马股抱团瓦解，沪深300全年 -5.20%", "note": "消费医药龙头大幅回调，制造业/科技结构性走强，市场风格剧烈分化", "type": "neutral" }
+      },
+      {
+        "period": "2022",
+        "manager": { "event": "🏆 神操作：全市场熊市逆涨 +13.6%，同类排名第 9/2299", "return": "+13.60%（同类平均 -15.54%）", "note": "能源转型+工业品涨价主线精准押注，接近全国最佳，是基金13年最高光时刻", "type": "highlight" },
+        "market":  { "event": "美联储激进加息，俄乌战争，A股系统性熊市", "note": "沪深300全年 -21.63%，几乎所有资产下跌，极端市场考验选股和仓位管理能力", "type": "bear" }
+      },
+      {
+        "period": "2023",
+        "manager": { "event": "逆市守住 +0.85%，同类平均亏损 9%", "return": "+0.85%（同类平均 -9.01%）", "note": "连续第二年在负面市场中维持正收益，防守稳定性极强，下行保护能力卓越", "type": "highlight" },
+        "market":  { "event": "经济弱复苏，房地产拖累，市场信心低迷", "note": "沪深300全年 -11.38%，消费复苏不及预期，外资阶段性流出，市场整体萎靡", "type": "bear" }
+      },
+      {
+        "period": "2024",
+        "manager": { "event": "Q4踩错风格落后，全年 +7.34% 仍跑赢同类", "return": "+7.34%（Q4单季 -4.79%，后20%）", "note": "Q4持仓与科技主线短暂偏离，13年来最明显阶段性失误，但2025年完全翻盘", "type": "warning" },
+        "market":  { "event": "924政策反弹，科技AI主导，风格快速切换", "note": "沪深300全年+14.68%，科技成长领涨，旧能源/工业品阶段落后，风格切换极快", "type": "neutral" }
+      },
+      {
+        "period": "2025",
+        "manager": { "event": "童立接棒，DeepSeek行情爆发，+50.43%", "return": "+50.43%（同类平均+26.17%，前14%）", "note": "周海栋3月离任，童立无缝衔接，军工+AI+新材料三线共振，任期1年已+72.97%", "type": "positive" },
+        "market":  { "event": "DeepSeek发布，AI+军工+国产替代结构大牛市", "note": "2025年A股最强结构牛，科技军工新材料轮番上攻，持仓方向与行情完美共振", "type": "bull" }
+      },
+      {
+        "period": "2026Q1",
+        "manager": { "event": "主动将仓位从 91% 降至 72%，大幅增持现金至 27.64%", "return": "+5.30%（Q1，同类 -0.30%）", "note": "规模增至57.57亿时主动降仓，警惕高估值，防御姿态明确，仍逆市跑赢同类", "type": "highlight" },
+        "market":  { "event": "A股高位震荡，关税博弈升温，沪深300 -3.89%", "note": "美元走强，国际局势复杂，获利了结压力上升，市场进入消化期", "type": "bear" }
+      }
+    ],
+    "adaptability": [
+      { "env": "牛市（2019/2020/2025）",    "perf": "大幅跑赢，同类前10%",    "color": "#F54E48" },
+      { "env": "熊市（2022）",              "perf": "逆涨+13.6%，神操作第9名", "color": "#F54E48" },
+      { "env": "震荡市（2023-2024）",       "perf": "守住正收益，整体稳健",    "color": "#D4A017" },
+      { "env": "高位调整（2026Q1至今）",    "perf": "主动降仓，防御布局",      "color": "#2DC78E" }
+    ]
+  },
+  "exclusionCheck": [
+    { "item": "基金公司黑名单",      "pass": true,  "note": "华商基金未列入黑名单" },
+    { "item": "基金经理黑名单",      "pass": true,  "note": "童立未列入黑名单" },
+    { "item": "规模过小（<1亿）",    "pass": true,  "note": "57.57亿，规模健康" },
+    { "item": "成立不足1年",         "pass": true,  "note": "成立13.5年，历经完整牛熊" },
+    { "item": "基金经理频繁更换",    "pass": true,  "note": "童立旗舰华商研究精选A（8年+353%，同类前3.2%），非无根基新人" },
+    { "item": "历史最差年跌幅>50%",  "pass": true,  "note": "历史最差2018年-14.83%，远未触发" },
+    { "item": "单一重仓>30%",        "pass": true,  "note": "最大4.01%（招商轮船），高度分散" },
+    { "item": "行业集中度>70%",      "pass": true,  "note": "最大行业制造业56.43%，未超阈值" },
+    { "item": "近1年排名后50%",      "pass": true,  "note": "近1年排名314/2267，前14%" },
+    { "item": "费率结构异常",        "pass": true,  "note": "管理费1.2%，天天基金1折优惠，合理" }
+  ],
+  "scoring": {
+    "total": 86,
+    "dimensions": [
+      { "name": "历史业绩", "score": 9.5, "note": "成立来+1708%，2022年熊市同类第9，多轮牛熊验证" },
+      { "name": "风险控制", "score": 8.0, "note": "夏普3.5极高，主动降仓，最差年-14.83%防守能力强" },
+      { "name": "持仓质量", "score": 8.5, "note": "军工+半导体+AI+新材料，政策高景气赛道" },
+      { "name": "基金经理", "score": 8.5, "note": "童立旗舰产品前3.2%，8-9年完整周期验证，选股一流" },
+      { "name": "政策匹配", "score": 9.0, "note": "强军战略+国产替代+AI算力，十五五规划全面顺风" },
+      { "name": "估值时机", "score": 7.0, "note": "净值18元历史高位，近1年+79%，基金经理自身已降仓" }
+    ],
+    "recommendation": "观望等待回调，分批建仓",
+    "recommendationType": "cautious",
+    "reasoning": [
+      { "positive": true,  "text": "长期看，这是一只经过13年市场验证、多轮牛熊检验的优质灵活配置混合基金" },
+      { "positive": true,  "text": "政策顺风，军工+国产替代+新材料+AI算力，契合十五五规划核心战略主线" },
+      { "positive": false, "text": "近1年+79%、近3月+17.6%，短期涨幅较大，已部分兑现未来预期" },
+      { "positive": false, "text": "基金经理本人已主动将股票仓位从91%降至72%，同步大幅增持现金，这是一个谨慎信号" },
+      { "positive": false, "text": "净值18元处于历史高位，规模57亿，继续大规模扩张对超额收益有一定摊薄效应" }
+    ],
+    "conclusion": "华商新趋势优选（166301）是一只经过验证的高质量基金，现任经理童立旗舰产品同类前3.2%；当前处于短期高位，建议耐心等待合理回调窗口，中长期定投或分批布局。",
+    "suitableFor": [
+      { "label": "看好中国高端制造+军工+AI长期逻辑",  "fit": true },
+      { "label": "能承受20%以内的短期回撤",           "fit": true },
+      { "label": "投资期限3年以上",                   "fit": true },
+      { "label": "风险偏好低或追求稳定分红",           "fit": false },
+      { "label": "短期流动性需求强",                   "fit": false }
+    ],
+    "allocationSuggestions": [
+      { "scenario": "中长期底仓（3年+）", "ratio": "5%-15%", "note": "指数回调5%-10%时分批建仓，不追高" },
+      { "scenario": "定投策略",           "ratio": "每月定投", "note": "高波动基金定投效果优于一次性买入" },
+      { "scenario": "短期机会型",         "ratio": "不建议",  "note": "近1年+79%，追高风险高" }
+    ]
+  },
+  "navHistory": [],
+  "tracking": {
+    "weekly": [
+      "关注净值与军工板块（国防ETF）、半导体指数的联动关系",
+      "监控招商轮船、洪都航空等重仓股日涨跌",
+      "观察基金是否公告仓位重新提升至90%（加仓信号）"
+    ],
+    "quarterly": [
+      "查看季报持仓：军工/半导体/AI比例是否维持主线",
+      "股票仓位变化：若恢复至90%+说明经理重新看好行情",
+      "规模监控：若超100亿，关注超额收益摊薄风险",
+      "童立是否有新的公开发言或路演，判断投资方向变化"
+    ],
+    "alerts": [
+      { "level": "critical", "icon": "🚨", "text": "基金经理童立离任公告（一票否决级别）" },
+      { "level": "critical", "icon": "🚨", "text": "规模急速扩张至150亿以上（流动性管理压力）" },
+      { "level": "warning",  "icon": "⚠️", "text": "单季度回撤超过-20%且排名落至后30%" },
+      { "level": "warning",  "icon": "⚠️", "text": "国防预算增速骤降或军工政策大幅收窄" },
+      { "level": "warning",  "icon": "⚠️", "text": "全球大宗商品进入系统性下行（影响航运、稀土、碳素）" },
+      { "level": "info",     "icon": "ℹ️", "text": "每季末公告仓位变化，判断经理对市场的态度" },
+      { "level": "info",     "icon": "ℹ️", "text": "AI算力/数据中心建设季报数据，判断光模块需求趋势" }
+    ]
+  }
+}
