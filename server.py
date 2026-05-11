@@ -30,7 +30,7 @@ except ImportError:
 BASE_DIR = Path(__file__).parent
 WEB_DIR  = BASE_DIR / 'web'       # 前端构建产物 (dist/)
 DATA_DIR = WEB_DIR  / 'data'      # 基金 JSON 数据
-PORT     = 3002                    # 离线独立版端口，Node版用3001
+PORT     = 3001                    # 离线独立版端口，Node版用3001
 
 EM_HEADERS = {
     'User-Agent': (
