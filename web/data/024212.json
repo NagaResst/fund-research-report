@@ -1,329 +1,2471 @@
 {
   "id": "024212",
   "meta": {
-    "reportDate": "2026-05-03",
-    "dataDate": "2026-04-29",
+    "reportDate": "2026-05-14",
+    "dataDate": "2026-05-13",
     "disclaimer": "本报告仅供个人学习和信息整理使用，所有分析内容均不构成任何投资建议。投资有风险，入市需谨慎，请依据自身判断做出投资决策。"
   },
   "basic": {
     "code": "024212",
-    "fullName": "嘉实稳固收益债券D",
+    "fullName": "嘉实稳固收益债券型证券投资基金（D类份额）",
     "shortName": "嘉实稳固收益债券D",
-    "type": "债券型",
-    "subType": "混合二级（固收+）",
-    "riskLevel": "中低风险",
-    "riskCode": 2,
+    "type": "债券型-混合二级",
+    "riskLevel": "中风险",
+    "riskCode": 3,
     "foundDate": "2025-05-14",
+    "manager": "嘉实基金",
+    "companyShort": "嘉实基金",
+    "custodian": "工商银行",
+    "benchmark": "三年期定期存款利率+1.6%",
+    "navFallback": 1.2354,
+    "inceptionReturn": "9.69%",
     "issueDate": "2025-05-14",
-    "manager": "嘉实基金管理有限公司",
-    "managerScale": 63.3,
-    "managerFundCount": null,
-    "custodian": null,
-    "benchmark": null,
-    "navFallback": 1.2228,
-    "navDateFallback": "2026-04-29",
-    "accNav": 1.2567,
-    "inceptionReturn": 8.27,
-    "dividendCount": null,
     "status": "开放申购 / 开放赎回",
-    "companyShort": "嘉实",
-    "operationMode": "3年运作周期滚动（3年运作期+1个月间歇期）"
+    "operationMode": "3年运作周期滚动（3年运作期+1个月间歇期）",
+    "navDateFallback": "2026-05-13"
   },
   "fees": {
     "management": 0.65,
     "custodian": 0.18,
-    "salesService": 0.00,
-    "subscriptionMax": 1.00,
-    "subscriptionDiscounted": 1.00,
-    "redemptionMax": 1.50,
+    "salesService": 0.0,
+    "subscriptionMax": 1.0,
     "breakdown": [
-      { "name": "管理费",           "value": 0.65 },
-      { "name": "托管费",           "value": 0.18 },
-      { "name": "销售服务费（D类）", "value": 0.00 },
-      { "name": "综合费率",          "value": 0.83 }
-    ]
+      {
+        "name": "管理费",
+        "value": 0.65
+      },
+      {
+        "name": "托管费",
+        "value": 0.18
+      },
+      {
+        "name": "销售服务费（D类）",
+        "value": 0.0
+      },
+      {
+        "name": "申购费",
+        "value": 1.0,
+        "actualRate": 0.1
+      },
+      {
+        "name": "赎回费",
+        "value": 1.5,
+        "rate": 1.5,
+        "rules": [
+          {
+            "label": "持有少于7天",
+            "rate": 1.5
+          },
+          {
+            "label": "持有7天及以上",
+            "rate": 0.0
+          }
+        ],
+        "note": "7天后即免赎回费。"
+      }
+    ],
+    "subscriptionDiscounted": 0.1,
+    "redemptionMax": 1.5
   },
   "scale": {
-    "nav": 10.54,
-    "shares": 8.8521,
+    "nav": "10.54亿元",
     "date": "2026-03-31"
+  },
+  "risk": {
+    "volatility": 0.0576,
+    "annualReturn": 0.0666,
+    "sharpe": 0.64,
+    "calmar": 1.25,
+    "maxDrawdown": -0.0533,
+    "maxDrawdownPeriod": "2025-10-09 → 2026-03-23",
+    "periodMetrics": [
+      {
+        "label": "近1年",
+        "volatility": 0.0576,
+        "sharpe": 1.15,
+        "maxDrawdown": 0.0533,
+        "rating": "首个完整年度效率改善"
+      },
+      {
+        "label": "近2年",
+        "volatility": null,
+        "sharpe": null,
+        "maxDrawdown": null,
+        "rating": "样本不足"
+      },
+      {
+        "label": "近3年",
+        "volatility": null,
+        "sharpe": null,
+        "maxDrawdown": null,
+        "rating": "样本不足"
+      }
+    ],
+    "relativeMetrics": {
+      "beta": 0.2814,
+      "alpha": -0.0092,
+      "informationRatio": -1.8247,
+      "trackingError": 0.111,
+      "r2": 0.489
+    },
+    "navPercentile": 87.6,
+    "recentPerf": [
+      {
+        "period": "近1周",
+        "fund": 0.61,
+        "peer": 0.47,
+        "hs300": 2.49,
+        "excess": -1.88,
+        "rank": 474,
+        "rankTotal": 1618,
+        "warn": false
+      },
+      {
+        "period": "近1月",
+        "fund": 2.71,
+        "peer": 1.83,
+        "hs300": 7.58,
+        "excess": -4.87,
+        "rank": 319,
+        "rankTotal": 1612,
+        "warn": false
+      },
+      {
+        "period": "近3月",
+        "fund": 1.15,
+        "peer": 1.24,
+        "hs300": 7.25,
+        "excess": -6.1,
+        "rank": 643,
+        "rankTotal": 1572,
+        "warn": true,
+        "note": "同类中游，但强风险偏好环境下明显掉队。"
+      },
+      {
+        "period": "近6月",
+        "fund": 2.55,
+        "peer": 3.01,
+        "hs300": 6.3,
+        "excess": -3.75,
+        "rank": 605,
+        "rankTotal": 1455,
+        "warn": true
+      },
+      {
+        "period": "今年来",
+        "fund": 2.68,
+        "peer": 3.22,
+        "hs300": 7.96,
+        "excess": -5.28,
+        "rank": 654,
+        "rankTotal": 1525,
+        "warn": true,
+        "note": "低 beta 稳定器特征仍主导收益表现。"
+      },
+      {
+        "period": "成立来",
+        "fund": 9.69,
+        "peer": 8.59,
+        "hs300": 28.29,
+        "excess": -18.6,
+        "rank": null,
+        "rankTotal": null,
+        "warn": false,
+        "note": "成立未满1年，长期能力仍需继续验证。"
+      }
+    ],
+    "radarDimensions": [
+      {
+        "name": "绝对收益稳定性",
+        "score": 70
+      },
+      {
+        "name": "信用风险控制",
+        "score": 84
+      },
+      {
+        "name": "久期管理",
+        "score": 70
+      },
+      {
+        "name": "流动性",
+        "score": 87
+      },
+      {
+        "name": "基金公司实力",
+        "score": 80
+      }
+    ],
+    "riskBreakdown": {
+      "volatilityRating": "5.76%，处于可接受的固收+波动区间",
+      "sharpeRating": "全期 0.64，近1年改善到 1.15",
+      "drawdownRating": "最大回撤约 5.5 个月完成修复",
+      "yearlyMaxDrawdowns": [
+        {
+          "year": "全期",
+          "fund": 5.33,
+          "hs300": 6.19
+        }
+      ]
+    },
+    "maxDrawdownMonths": 5.5,
+    "riskWarnings": [
+      {
+        "category": "内部",
+        "level": "medium",
+        "title": "追高性价比一般",
+        "text": "当前净值位于 D 类成立以来 87.6% 分位，新资金赔率明显弱于低位区间。"
+      },
+      {
+        "category": "内部",
+        "level": "medium",
+        "title": "管理疲劳风险",
+        "text": "胡永青当前在管 18 只基金，高于 Skill 设定的 10 只预警阈值。"
+      },
+      {
+        "category": "内部",
+        "level": "medium",
+        "title": "牛市相对落后风险",
+        "text": "Beta 仅 0.2814，2025Q3 与 2026Q2 两个上涨区间分别跑输沪深300 11.81 和 7.20 个百分点。"
+      },
+      {
+        "category": "内部",
+        "level": "medium",
+        "title": "风格切换滞后风险",
+        "text": "2025Q4 仍偏进攻，2026Q1 才明显承认低估地缘不确定性并集中降仓，说明风险反应存在一拍慢。"
+      },
+      {
+        "category": "外部",
+        "level": "low",
+        "title": "外部利率与地缘扰动",
+        "text": "若10年国债收益率重新上破 1.90%-2.00%，或地缘冲突再升级，债券底仓与权益增强会同时承压。"
+      }
+    ]
+  },
+  "holdings": {
+    "date": "2026Q1（截至 2026-03-31）",
+    "top10": [
+      {
+        "rank": 1,
+        "name": "药明康德",
+        "code": "603259",
+        "ratio": 1.19,
+        "sector": "创新药/CRO",
+        "color": "#2DC78E"
+      },
+      {
+        "rank": 2,
+        "name": "纽威股份",
+        "code": "603699",
+        "ratio": 1.06,
+        "sector": "高端装备/工业阀门",
+        "color": "#58A6FF"
+      },
+      {
+        "rank": 3,
+        "name": "广钢气体",
+        "code": "688548",
+        "ratio": 1.04,
+        "sector": "工业气体/先进制造",
+        "color": "#58A6FF"
+      },
+      {
+        "rank": 4,
+        "name": "立讯精密",
+        "code": "002475",
+        "ratio": 0.95,
+        "sector": "精密制造/消费电子",
+        "color": "#58A6FF"
+      },
+      {
+        "rank": 5,
+        "name": "紫金矿业",
+        "code": "601899",
+        "ratio": 0.86,
+        "sector": "有色资源",
+        "color": "#F7C744"
+      },
+      {
+        "rank": 6,
+        "name": "恒立液压",
+        "code": "601100",
+        "ratio": 0.85,
+        "sector": "高端装备/液压件",
+        "color": "#58A6FF"
+      },
+      {
+        "rank": 7,
+        "name": "柳工",
+        "code": "000528",
+        "ratio": 0.69,
+        "sector": "工程机械",
+        "color": "#58A6FF"
+      },
+      {
+        "rank": 8,
+        "name": "恒瑞医药",
+        "code": "600276",
+        "ratio": 0.67,
+        "sector": "创新药",
+        "color": "#2DC78E"
+      },
+      {
+        "rank": 9,
+        "name": "奥浦迈",
+        "code": "688293",
+        "ratio": 0.64,
+        "sector": "科研服务/生物医药上游",
+        "color": "#2DC78E"
+      },
+      {
+        "rank": 10,
+        "name": "平高电气",
+        "code": "600312",
+        "ratio": 0.63,
+        "sector": "电网设备",
+        "color": "#58A6FF"
+      }
+    ],
+    "top10Total": 8.58,
+    "top10TotalRatio": 8.58,
+    "sectors": [
+      {
+        "name": "制造业",
+        "ratio": 10.06
+      },
+      {
+        "name": "信息技术业",
+        "ratio": 0.0
+      },
+      {
+        "name": "科学研究和技术服务业",
+        "ratio": 2.18
+      },
+      {
+        "name": "采矿业",
+        "ratio": 0.86
+      },
+      {
+        "name": "电力、热力、燃气及水生产和供应业",
+        "ratio": 0.15
+      },
+      {
+        "name": "交通运输、仓储和邮政业",
+        "ratio": 0.03
+      }
+    ],
+    "stockRatio": 13.28,
+    "bondRatio": 93.19,
+    "cashRatio": 0.66,
+    "concentrationLabel": "前十仅 8.58%，权益增强分散且仍以债券底仓为主",
+    "themeTitle": "高端制造升级 + 医药创新研发 + 少量资源对冲",
+    "themeSubtitle": "不是押注单一行业的伪主题债基，而是在低仓位权益框架下用多行业分散去增强收益、控制单赛道失误。",
+    "themeGroups": [
+      {
+        "name": "高端制造/设备链",
+        "ratio": 5.22,
+        "stocks": "纽威股份、广钢气体、立讯精密、恒立液压、柳工、平高电气",
+        "note": "对应设备更新、工业自动化、电网与制造升级主线，是当前权益增强仓位的主心骨。",
+        "color": "#58A6FF"
+      },
+      {
+        "name": "创新药/科研服务链",
+        "ratio": 2.5,
+        "stocks": "药明康德、恒瑞医药、奥浦迈",
+        "note": "体现创新药、CRO 和科研服务的景气与确定性，是组合里最稳的成长增强部分。",
+        "color": "#2DC78E"
+      },
+      {
+        "name": "资源对冲",
+        "ratio": 0.86,
+        "stocks": "紫金矿业",
+        "note": "比例不高，但承担通胀与周期波动对冲角色。",
+        "color": "#F7C744"
+      }
+    ],
+    "bondStructure": [
+      {
+        "type": "政策性金融债",
+        "note": "高等级安全底仓，提供稳定票息，是固收部分的核心压舱石。",
+        "color": "#4492F7"
+      },
+      {
+        "type": "高等级信用债",
+        "note": "季报反复强调高等级中短信用债为主，信用风险控制优先于收益弹性。",
+        "color": "#0EA5E9"
+      },
+      {
+        "type": "可转债",
+        "note": "保留少量弹性增强，但在风险上升阶段会主动压低高估值转债暴露。",
+        "color": "#2DC78E"
+      },
+      {
+        "type": "现金与逆回购类头寸",
+        "note": "用于提高组合灵活性和应对申赎，当前占比不高。",
+        "color": "#94A3B8"
+      }
+    ],
+    "evolutionHighlights": [
+      {
+        "quarter": "2025Q2",
+        "change": "防御建仓",
+        "return": "+1.16%",
+        "theme": "银行/运营商 + 创新药",
+        "insight": "基金设立初期没有盲目追景气，而是先用红利防御和医药研发构建低波底仓。",
+        "type": "positive"
+      },
+      {
+        "quarter": "2025Q3",
+        "change": "风险偏好上调",
+        "return": "+5.89%",
+        "theme": "有色 + 电子 + 化工 + 交运",
+        "insight": "是 D 类历史上最明显的进攻阶段，收益抬升明显，但低 beta 轮廓决定了它仍跑不赢强势宽基。",
+        "type": "positive"
+      },
+      {
+        "quarter": "2025Q4",
+        "change": "高位回撤前夜",
+        "return": "-4.10%",
+        "theme": "有色 + 机电 + 创新药",
+        "insight": "仍在做风险资产进攻，说明经理对风格切换的判断存在一拍慢。",
+        "type": "warning"
+      },
+      {
+        "quarter": "2026Q1",
+        "change": "回归均衡配置",
+        "return": "-1.65%",
+        "theme": "工业装备 + 科研服务 + 低估值制造",
+        "insight": "集中度和股票仓位都明显下行，说明纠偏动作已经执行到位。",
+        "type": "neutral"
+      }
+    ],
+    "policyLinks": [
+      {
+        "sector": "高端制造与电网设备",
+        "stocks": "纽威股份、广钢气体、恒立液压、平高电气、柳工、立讯精密",
+        "policyNote": "政治局会议强调保持制造业合理比重、推进新型电网/算力网建设；国能发科技〔2026〕34号进一步强化 AI 与能源协同。",
+        "color": "#58A6FF"
+      },
+      {
+        "sector": "创新药与科研服务",
+        "stocks": "药明康德、恒瑞医药、奥浦迈",
+        "policyNote": "国办发〔2024〕53号药械监管改革仍在持续兑现，属于存量政策继续落地。",
+        "color": "#2DC78E"
+      },
+      {
+        "sector": "资源对冲",
+        "stocks": "紫金矿业",
+        "policyNote": "资源股不是主线仓位，更多承担组合的通胀与周期对冲角色。",
+        "color": "#F7C744"
+      }
+    ]
   },
   "performance": {
     "stages": [
-      { "period": "成立以来",      "fund": 8.27,  "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": "尚可" },
-      { "period": "2026年一季度",  "fund": -1.05, "peer": 0.40, "hs300": null, "rank": null, "rankTotal": null, "quartile": "落后" }
+      {
+        "period": "近1周",
+        "fund": 0.61,
+        "peer": 0.47,
+        "hs300": 2.49,
+        "rank": 474,
+        "rankTotal": 1618,
+        "quartile": null
+      },
+      {
+        "period": "近1月",
+        "fund": 2.71,
+        "peer": 1.83,
+        "hs300": 7.58,
+        "rank": 319,
+        "rankTotal": 1612,
+        "quartile": null
+      },
+      {
+        "period": "近3月",
+        "fund": 1.15,
+        "peer": 1.24,
+        "hs300": 7.25,
+        "rank": 643,
+        "rankTotal": 1572,
+        "quartile": null
+      },
+      {
+        "period": "近6月",
+        "fund": 2.55,
+        "peer": 3.01,
+        "hs300": 6.3,
+        "rank": 605,
+        "rankTotal": 1455,
+        "quartile": null
+      },
+      {
+        "period": "今年来",
+        "fund": 2.68,
+        "peer": 3.22,
+        "hs300": 7.96,
+        "rank": 654,
+        "rankTotal": 1525,
+        "quartile": null
+      },
+      {
+        "period": "成立来",
+        "fund": 9.69,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      }
     ],
-    "annual": [],
+    "annual": [
+      {
+        "year": 2025,
+        "fund": 3.58,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2026,
+        "fund": 2.06,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      }
+    ],
     "quarterly": [
-      { "quarter": "2025Q3", "fund": null,  "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null  },
-      { "quarter": "2025Q4", "fund": null,  "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null  },
-      { "quarter": "2026Q1", "fund": -1.05, "peer": 0.40, "hs300": null, "rank": null, "rankTotal": null, "quartile": "落后" }
+      {
+        "year": 2025,
+        "quarter": "2025Q2",
+        "fund": 1.16,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q3",
+        "fund": 5.89,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q4",
+        "fund": -4.1,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2026,
+        "quarter": "2026Q1",
+        "fund": -1.65,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2026,
+        "quarter": "2026Q2",
+        "fund": 3.23,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      }
+    ],
+    "annualNote": "年度与季度收益表按单位净值口径计算；由于 2025-12-03 有每份 0.0399 元分红，官方成立来总回报 9.69% 会高于单位净值口径的成立来收益。",
+    "milestones": [
+      {
+        "date": "2025-05-15",
+        "nav": 1.1615,
+        "label": "D类首个可跟踪净值日",
+        "type": "neutral"
+      },
+      {
+        "date": "2025-05-28",
+        "nav": 1.1589,
+        "label": "成立以来最低点",
+        "type": "low"
+      },
+      {
+        "date": "2025-10-09",
+        "nav": 1.2546,
+        "label": "历史最高点",
+        "type": "peak"
+      },
+      {
+        "date": "2026-03-23",
+        "nav": 1.1877,
+        "label": "地缘冲击后的阶段低点",
+        "type": "low"
+      },
+      {
+        "date": "2026-05-13",
+        "nav": 1.2354,
+        "label": "当前净值，位于成立以来 87.6% 分位",
+        "type": "current"
+      }
     ]
   },
-  "risk": {
-    "volatility": null,
-    "sharpe": null,
-    "maxDrawdown": -1.05,
-    "riskLevel": "中低风险",
-    "excessReturn1Y": null,
-    "radarDimensions": [
-      { "name": "历史业绩", "value": 6.0,  "max": 10 },
-      { "name": "风险控制", "value": 7.0,  "max": 10 },
-      { "name": "持仓质量", "value": 8.0,  "max": 10 },
-      { "name": "基金经理", "value": 10.0, "max": 10 },
-      { "name": "政策匹配", "value": 4.0,  "max": 10 },
-      { "name": "估值时机", "value": 6.0,  "max": 10 }
+  "stageAnalysis": {
+    "inflectionPoints": [
+      {
+        "id": 1,
+        "stageId": 1,
+        "startDate": "2025-05-28",
+        "endDate": "2025-10-09",
+        "startNav": 1.1589,
+        "endNav": 1.2546,
+        "changePct": 8.26,
+        "type": "peak",
+        "holdingsSummary": "从银行、运营商、创新药逐步切到立讯精密、洛阳钼业、华友钴业等更进攻的结构。",
+        "env": "设备更新政策延续、风险偏好显著抬升，科创与有色链条表现较强。",
+        "managerAction": "Q2 先防御建仓，Q3 再提升权益进攻性，主动从红利/通信转向有色、电子、化工和交运。",
+        "attribution": "主要由市场 beta 和结构轮动驱动上涨，经理动作与季报表述一致，但低 beta 框架决定了它仍明显跑输强势宽基。"
+      },
+      {
+        "id": 2,
+        "stageId": 3,
+        "startDate": "2025-10-09",
+        "endDate": "2026-03-23",
+        "startNav": 1.2546,
+        "endNav": 1.1877,
+        "changePct": -5.33,
+        "type": "trough",
+        "holdingsSummary": "Q4 仍保留有色、电子、机械和医药等风险资产，Q1 才切回工业装备、科研服务和低估值制造。",
+        "env": "市场由流动性驱动转向安全边际优先，随后叠加地缘与贸易冲击，权益资产普遍承压。",
+        "managerAction": "Q4 方向判断偏慢，直到 2026Q1 才明显下调高波动权益与高估值转债暴露。",
+        "attribution": "这是本基金 D 类成立以来最差回撤段，但跌幅仍略好于沪深300，说明债券底仓和后续降仓纠偏发挥了缓冲作用。"
+      },
+      {
+        "id": 3,
+        "stageId": 4,
+        "startDate": "2026-03-23",
+        "endDate": "2026-05-13",
+        "startNav": 1.1877,
+        "endNav": 1.2354,
+        "changePct": 4.02,
+        "type": "peak",
+        "holdingsSummary": "组合以工业装备、创新药和研发服务为主，前十集中度回落到 8.58%。",
+        "env": "5 月中旬 A 股风险偏好回升，慢牛修复与制造升级政策共同抬升估值底部。",
+        "managerAction": "坚持中性久期和均衡权益，不追 AI 最强主线，强调估值保护和经营韧性。",
+        "attribution": "修复节奏稳但不激进，反映的是低 beta 固收+的阵型恢复，而不是高弹性进攻。"
+      }
     ],
-    "positionHistory": [
-      { "date": "2026-03-31", "stock": 5.53, "cash": 4.41, "scale": 10.54 }
-    ],
-    "positionSignal": null,
-    "riskBreakdown": [
-      { "type": "A类历史回撤偏高",     "level": "high",   "stars": 4, "maxStars": 5, "note": "同系列A类份额（009089）在2022年股债双杀中最大回撤达-6.68%，D类采用相同策略，极端行情下面临同等风险；历史先例不可忽视" },
-      { "type": "成立时间短缺乏验证",  "level": "medium", "stars": 3, "maxStars": 5, "note": "D类份额2025年5月才成立，仅约1年历史，未经历完整市场周期；所有风险评估需借助A类（009089）历史数据推断" },
-      { "type": "一季度跑输同类",      "level": "medium", "stars": 3, "maxStars": 5, "note": "2026年一季度-1.05%，跑输同类均值0.40%，差值达1.45个百分点；若连续跑输则需关注策略适应性" },
-      { "type": "中美利差制约降息",    "level": "low",    "stars": 2, "maxStars": 5, "note": "中美利差倒挂约-250bp，国内降息空间有限；债券票息收益稳定，但资本利得空间受压缩" },
-      { "type": "债券供给压力",        "level": "low",    "stars": 2, "maxStars": 5, "note": "2026年专项债1.16万亿+特别国债1.3万亿，债券供给增加对收益率形成技术性上行压力" },
-      { "type": "权益仓位集中周期股",  "level": "low",    "stars": 1, "maxStars": 5, "note": "5.53%权益仓位集中于制造业和采矿业（立讯精密、恒立液压、紫金矿业），周期性标的波动较大；占比低，绝对影响有限" }
-    ],
-    "volatilityNote": "年化波动率数据不足（成立仅1年）；债券占净值约94.47%，波动天然低于权益类；参考同类固收+基金，正常波动率通常在2%-6%区间",
-    "sharpeNote": "成立时间不足，暂无有效夏普比率数据；基于A类（009089）成立以来年化收益4.65%推算，夏普比率应在0.5-1.5之间",
-    "drawdownNote": "D类成立以来最大回撤-1.05%（2026年Q1地缘冲突所致），极为可控；但需参考A类历史：2022年最大回撤-6.68%是潜在风险参考下限",
-    "excessNote": "无有效同类超额数据（成立时间短）；2026年Q1跑输同类1.45个百分点，单季度落后"
-  },
-  "holdings": {
-    "date": "2026-03-31",
-    "stockRatio": 5.53,
-    "cashRatio": 4.41,
-    "bondRatio": 94.47,
-    "top10Total": null,
-    "concentrationLabel": "债券高度分散，权益小仓精选",
-    "top10": [
-      { "name": "立讯精密", "code": "002475", "ratio": null, "sector": "制造业",     "type": "stock", "isCurrent": true },
-      { "name": "恒立液压", "code": "601100", "ratio": null, "sector": "制造业",     "type": "stock", "isCurrent": true },
-      { "name": "药明康德", "code": "603259", "ratio": null, "sector": "医药生物",   "type": "stock", "isCurrent": true },
-      { "name": "紫金矿业", "code": "601899", "ratio": null, "sector": "采矿业",     "type": "stock", "isCurrent": true },
-      { "name": "25国开15", "code": null,     "ratio": null, "sector": "政策性金融债", "type": "bond",  "isCurrent": true }
-    ],
-    "sectors": [
-      { "name": "固定收益（债券）",   "value": 94.47, "color": "#4492F7" },
-      { "name": "权益资产（股票）",   "value": 5.53,  "color": "#2DC78E" },
-      { "name": "现金及等价物",       "value": 4.41,  "color": "#21262d" }
-    ],
-    "bondStructure": [
-      { "type": "政策性金融债", "note": "AAA级，安全性最高（如25国开15），提供稳定票息，久期3年以内",              "color": "#4492F7" },
-      { "type": "普通金融债",   "note": "中高等级，收益适中，AAA级为主",                                           "color": "#0ea5e9" },
-      { "type": "可转债",       "note": "少量配置，用于增强弹性收益",                                              "color": "#2DC78E" },
-      { "type": "信用债",       "note": "AAA级占比约81.8%，信用风险低；AAA以下18.2%多为政策性金融债，实际无信用风险", "color": "#06b6d4" }
-    ],
-    "policyLinks": [
-      { "sector": "政策性金融债",  "stocks": "国开债、农发债等（如25国开15）", "policyNote": "特别国债+专项债大量发行背景下，政策性金融债供给充足；短久期策略规避利率风险，票息收益稳定可期", "color": "#4492F7" },
-      { "sector": "制造业权益增强", "stocks": "立讯精密、恒立液压",            "policyNote": "十五五高端制造升级主线，精密制造和机械设备受益国产化政策；权益仓位小（5.53%），提供弹性而非主导收益", "color": "#2DC78E" }
+    "totalInflectionPoints": 1,
+    "stages": [
+      {
+        "id": 1,
+        "name": "份额设立与防御建仓",
+        "emoji": "🌱",
+        "period": "2025-05 → 2025-06",
+        "returnPct": 1.16,
+        "hs300": 0.74,
+        "excess": 0.42,
+        "color": "#2DC78E"
+      },
+      {
+        "id": 2,
+        "name": "权益进攻与净值抬升",
+        "emoji": "🚀",
+        "period": "2025-07 → 2025-10",
+        "returnPct": 6.49,
+        "hs300": 19.45,
+        "excess": -12.95,
+        "color": "#F7C744"
+      },
+      {
+        "id": 3,
+        "name": "高位回撤与风险收缩",
+        "emoji": "🧯",
+        "period": "2025-10 → 2026-03",
+        "returnPct": -5.33,
+        "hs300": -6.19,
+        "excess": 0.86,
+        "color": "#F54E48"
+      },
+      {
+        "id": 4,
+        "name": "修复反弹与再平衡",
+        "emoji": "🔄",
+        "period": "2026-03 → 2026-05",
+        "returnPct": 4.02,
+        "hs300": 13.14,
+        "excess": -9.12,
+        "color": "#58A6FF"
+      }
     ]
   },
   "managers": {
     "current": {
-      "name": "胡永青",
-      "startDate": "2025-05-14",
-      "tenure": "约1年（自成立）",
-      "tenureReturn": 8.27,
-      "peerAvgReturn": null,
-      "rankInPeer": null,
-      "rankTotal": null,
-      "education": null,
-      "experience": "2003年2月起从事基金管理，超23年固收投资经验；嘉实基金投资总监（固收+）",
-      "fundCount": null,
-      "totalScale": 63.3,
-      "historicalFunds": [
-        { "name": "嘉实稳固收益债券A", "code": "009089", "tenure": "2020-03至今（约6年）", "return": 20.98, "peerAvg": null, "alpha": null, "rank": null, "rankTotal": null, "percentile": null, "grade": "good", "isCurrent": false },
-        { "name": "嘉实稳固收益债券D", "code": "024212", "tenure": "2025-05-14至今（约1年）", "return": 8.27, "peerAvg": null, "alpha": null, "rank": null, "rankTotal": null, "percentile": null, "grade": "ok",   "isCurrent": true  }
+      "managerId": "30140597",
+      "allManagerIds": [
+        "30140597"
       ],
-      "managerId": "30140597"
+      "name": "胡永青",
+      "experience": 14.0,
+      "fundCount": 18,
+      "totalScale": 73.84,
+      "title": "投资总监（固收+）",
+      "education": "硕士研究生；固定收益与固收+背景出身",
+      "joinDate": "2013-11",
+      "manageDate": "2025-05-14",
+      "manageYears": 14,
+      "style": "绝对收益优先，债券底仓提供可见收益，再用股票、转债和跨资产配置做增强；更擅长震荡与防守市，不擅长在强牛市里吃满 beta。",
+      "bestReturn": 87.67,
+      "worstReturn": 8.4,
+      "historicalFunds": [
+        {
+          "name": "嘉实稳固收益债券D",
+          "code": "024212",
+          "type": "二级债",
+          "tenure": "2025-05-14 ~ 至今",
+          "return": 9.69,
+          "rank": null,
+          "rankTotal": null,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "嘉实稳固收益债券A",
+          "code": "009089",
+          "type": "二级债",
+          "tenure": "2020-03-16 ~ 至今",
+          "return": 33.97,
+          "rank": 387,
+          "rankTotal": 1290,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "嘉实策略优选混合",
+          "code": "001756",
+          "type": "偏债混合",
+          "tenure": "2016-12-01 ~ 至今",
+          "return": 87.67,
+          "rank": 1741,
+          "rankTotal": 2267,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "嘉实致融一年定期债券",
+          "code": "008661",
+          "type": "定开债",
+          "tenure": "2021-03-10 ~ 至今",
+          "return": 20.84,
+          "rank": 242,
+          "rankTotal": 910,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "嘉实浦惠6个月持有期混合A",
+          "code": "009820",
+          "type": "偏债混合",
+          "tenure": "2020-10-14 ~ 至今",
+          "return": 16.23,
+          "rank": 778,
+          "rankTotal": 1256,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "嘉实稳惠6个月持有期混合A",
+          "code": "009558",
+          "type": "偏债混合",
+          "tenure": "2020-11-27 ~ 至今",
+          "return": 13.17,
+          "rank": 787,
+          "rankTotal": 1256,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "嘉实浦盈一年持有期混合A",
+          "code": "011516",
+          "type": "偏债混合",
+          "tenure": "2022-03-29 ~ 至今",
+          "return": 12.36,
+          "rank": 789,
+          "rankTotal": 1256,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "嘉实融惠混合A",
+          "code": "013995",
+          "type": "偏债混合",
+          "tenure": "2022-03-01 ~ 至今",
+          "return": 14.21,
+          "rank": 715,
+          "rankTotal": 1256,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "嘉实添惠一年持有期混合A",
+          "code": "014852",
+          "type": "偏债混合",
+          "tenure": "2022-02-11 ~ 至今",
+          "return": 17.02,
+          "rank": 863,
+          "rankTotal": 1256,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "嘉实民安添复一年持有期混合A",
+          "code": "012065",
+          "type": "偏债混合",
+          "tenure": "2021-11-16 ~ 至今",
+          "return": 8.4,
+          "rank": 764,
+          "rankTotal": 1256,
+          "grade": "weak",
+          "isCurrent": true
+        },
+        {
+          "name": "嘉实稳健添利一年持有混合",
+          "code": "013189",
+          "type": "偏债混合",
+          "tenure": "2021-09-13 ~ 至今",
+          "return": 8.81,
+          "rank": 786,
+          "rankTotal": 1256,
+          "grade": "weak",
+          "isCurrent": true
+        }
+      ],
+      "philosophy": [
+        {
+          "label": "核心理念",
+          "text": "绝对收益优先，用债券底仓提供可见收益，再通过股票、可转债和多策略做增强，而不是把二级债做成高仓位权益产品。"
+        },
+        {
+          "label": "选股方法",
+          "text": "优先估值保护、经营韧性和产业景气能持续的公司，因此组合常见创新药、科研服务、工业装备和资源龙头。"
+        },
+        {
+          "label": "仓位管理",
+          "text": "典型固收底仓稳定 + 权益增强型主动择时。股票仓位曾从 2025Q2 的 14.50% 升至 2025Q3 的 16.46%，后在 2026Q1 降回 12.25%。"
+        },
+        {
+          "label": "风格稳定性",
+          "text": "总体风格稳定，问题不在漂移，而在 2025Q4 到 2026Q1 的风险转向慢了一个季度。"
+        }
+      ],
+      "consistencyAudit": [
+        {
+          "period": "2025Q2 季报 · D类初建仓",
+          "label": "一致",
+          "result": "pass",
+          "stated": "增持银行和运营商等现金流稳健的红利资产，超配创新药龙头与科研服务上游企业。",
+          "actual": "前十持仓可看到建设银行、中国电信、中国移动、恒瑞医药、皓元医药、益方生物、科伦药业等映射。",
+          "evaluation": "红利防御与医药研发方向均能在持仓中找到清晰对应，言行一致。"
+        },
+        {
+          "period": "2025Q3 季报 · 权益进攻期",
+          "label": "一致",
+          "result": "pass",
+          "stated": "增持有色和电子、化工、交运，减持医药、银行和通信等行业。",
+          "actual": "立讯精密、洛阳钼业、华友钴业、奥浦迈、滨江集团、川恒股份等进入核心持仓，银行和运营商退出前十。",
+          "evaluation": "调仓方向与季报原话高度匹配，风格切换清楚。"
+        },
+        {
+          "period": "2025Q4 季报 vs 2026Q1 结果",
+          "label": "需警惕",
+          "result": "warn",
+          "stated": "超配权益资产，重点围绕有色、电子、生物医药、机械设备、电力设备等行业进行投资。",
+          "actual": "Q4 的确维持了进攻结构，但 2026Q1 才明显承认低估地缘冲突不确定性并开始收缩高波动暴露。",
+          "evaluation": "言行一致但方向判断滞后，风险收缩慢半拍，是经理最主要的短板。"
+        }
+      ],
+      "abilityProfile": {
+        "best": "绝对收益框架下的资产配置与回撤约束，同策略 A/C 份额任职总回报分别达 33.97% 和 67.03%，说明老策略可验证性强。",
+        "worst": "强势权益主升段弹性不足，且在风格切换时偶有一拍慢的风险反应。",
+        "goodEnv": [
+          "震荡市",
+          "下跌市",
+          "流动性宽松但风险偏好分化的市场"
+        ],
+        "badEnv": [
+          "单边风险偏好抬升",
+          "科技成长领涨的强牛市",
+          "投资者只看 beta 的阶段"
+        ]
+      },
+      "strengths": [
+        "绝对收益框架稳定",
+        "债券底仓风控清晰",
+        "跨资产调仓逻辑自洽",
+        "老策略A/C可验证性强"
+      ],
+      "weaknesses": [
+        "强牛市弹性不足",
+        "风格切换偶有滞后",
+        "在管产品数偏多",
+        "对极端风险并非前瞻式完美应对"
+      ]
     },
     "history": [
-      { "name": "胡永青", "start": "2025-05-14", "end": null, "tenure": "约1年", "return": 8.27, "note": "自成立起管理，投资总监级别，23年固收经验；3年运作期+久期中性策略+三重风控体系" }
+      {
+        "name": "胡永青",
+        "role": "创设以来",
+        "start": "2025-05-14",
+        "end": null,
+        "tenure": "约1年",
+        "return": 9.69,
+        "note": "D类份额自设立起由胡永青独立管理，无前任与共管记录。"
+      }
+    ]
+  },
+  "navHistory": [
+    {
+      "date": "2025-05-15",
+      "nav": 1.1615
+    },
+    {
+      "date": "2025-05-16",
+      "nav": 1.1622
+    },
+    {
+      "date": "2025-05-19",
+      "nav": 1.163
+    },
+    {
+      "date": "2025-05-20",
+      "nav": 1.1669
+    },
+    {
+      "date": "2025-05-21",
+      "nav": 1.1675
+    },
+    {
+      "date": "2025-05-22",
+      "nav": 1.1656
+    },
+    {
+      "date": "2025-05-23",
+      "nav": 1.164
+    },
+    {
+      "date": "2025-05-26",
+      "nav": 1.1622
+    },
+    {
+      "date": "2025-05-27",
+      "nav": 1.1602
+    },
+    {
+      "date": "2025-05-28",
+      "nav": 1.1589
+    },
+    {
+      "date": "2025-05-29",
+      "nav": 1.1636
+    },
+    {
+      "date": "2025-05-30",
+      "nav": 1.1655
+    },
+    {
+      "date": "2025-06-03",
+      "nav": 1.1675
+    },
+    {
+      "date": "2025-06-04",
+      "nav": 1.1689
+    },
+    {
+      "date": "2025-06-05",
+      "nav": 1.1673
+    },
+    {
+      "date": "2025-06-06",
+      "nav": 1.1673
+    },
+    {
+      "date": "2025-06-09",
+      "nav": 1.1696
+    },
+    {
+      "date": "2025-06-10",
+      "nav": 1.17
+    },
+    {
+      "date": "2025-06-11",
+      "nav": 1.1711
+    },
+    {
+      "date": "2025-06-12",
+      "nav": 1.1732
+    },
+    {
+      "date": "2025-06-13",
+      "nav": 1.1683
+    },
+    {
+      "date": "2025-06-16",
+      "nav": 1.1683
+    },
+    {
+      "date": "2025-06-17",
+      "nav": 1.1665
+    },
+    {
+      "date": "2025-06-18",
+      "nav": 1.1672
+    },
+    {
+      "date": "2025-06-19",
+      "nav": 1.1649
+    },
+    {
+      "date": "2025-06-20",
+      "nav": 1.1652
+    },
+    {
+      "date": "2025-06-23",
+      "nav": 1.1671
+    },
+    {
+      "date": "2025-06-24",
+      "nav": 1.1705
+    },
+    {
+      "date": "2025-06-25",
+      "nav": 1.1726
+    },
+    {
+      "date": "2025-06-26",
+      "nav": 1.1711
+    },
+    {
+      "date": "2025-06-27",
+      "nav": 1.1727
+    },
+    {
+      "date": "2025-06-30",
+      "nav": 1.175
+    },
+    {
+      "date": "2025-07-01",
+      "nav": 1.1781
+    },
+    {
+      "date": "2025-07-02",
+      "nav": 1.1766
+    },
+    {
+      "date": "2025-07-03",
+      "nav": 1.1796
+    },
+    {
+      "date": "2025-07-04",
+      "nav": 1.1798
+    },
+    {
+      "date": "2025-07-07",
+      "nav": 1.1775
+    },
+    {
+      "date": "2025-07-08",
+      "nav": 1.1795
+    },
+    {
+      "date": "2025-07-09",
+      "nav": 1.181
+    },
+    {
+      "date": "2025-07-10",
+      "nav": 1.1813
+    },
+    {
+      "date": "2025-07-11",
+      "nav": 1.1845
+    },
+    {
+      "date": "2025-07-14",
+      "nav": 1.1847
+    },
+    {
+      "date": "2025-07-15",
+      "nav": 1.1866
+    },
+    {
+      "date": "2025-07-16",
+      "nav": 1.1862
+    },
+    {
+      "date": "2025-07-17",
+      "nav": 1.1926
+    },
+    {
+      "date": "2025-07-18",
+      "nav": 1.1939
+    },
+    {
+      "date": "2025-07-21",
+      "nav": 1.1953
+    },
+    {
+      "date": "2025-07-22",
+      "nav": 1.1964
+    },
+    {
+      "date": "2025-07-23",
+      "nav": 1.1959
+    },
+    {
+      "date": "2025-07-24",
+      "nav": 1.1969
+    },
+    {
+      "date": "2025-07-25",
+      "nav": 1.1971
+    },
+    {
+      "date": "2025-07-28",
+      "nav": 1.1992
+    },
+    {
+      "date": "2025-07-29",
+      "nav": 1.204
+    },
+    {
+      "date": "2025-07-30",
+      "nav": 1.203
+    },
+    {
+      "date": "2025-07-31",
+      "nav": 1.1998
+    },
+    {
+      "date": "2025-08-01",
+      "nav": 1.1984
+    },
+    {
+      "date": "2025-08-04",
+      "nav": 1.2
+    },
+    {
+      "date": "2025-08-05",
+      "nav": 1.2022
+    },
+    {
+      "date": "2025-08-06",
+      "nav": 1.2029
+    },
+    {
+      "date": "2025-08-07",
+      "nav": 1.2022
+    },
+    {
+      "date": "2025-08-08",
+      "nav": 1.2037
+    },
+    {
+      "date": "2025-08-11",
+      "nav": 1.2063
+    },
+    {
+      "date": "2025-08-12",
+      "nav": 1.2058
+    },
+    {
+      "date": "2025-08-13",
+      "nav": 1.2117
+    },
+    {
+      "date": "2025-08-14",
+      "nav": 1.208
+    },
+    {
+      "date": "2025-08-15",
+      "nav": 1.2121
+    },
+    {
+      "date": "2025-08-18",
+      "nav": 1.2151
+    },
+    {
+      "date": "2025-08-19",
+      "nav": 1.2138
+    },
+    {
+      "date": "2025-08-20",
+      "nav": 1.2169
+    },
+    {
+      "date": "2025-08-21",
+      "nav": 1.2187
+    },
+    {
+      "date": "2025-08-22",
+      "nav": 1.2227
+    },
+    {
+      "date": "2025-08-25",
+      "nav": 1.2296
+    },
+    {
+      "date": "2025-08-26",
+      "nav": 1.2278
+    },
+    {
+      "date": "2025-08-27",
+      "nav": 1.2188
+    },
+    {
+      "date": "2025-08-28",
+      "nav": 1.2214
+    },
+    {
+      "date": "2025-08-29",
+      "nav": 1.2252
+    },
+    {
+      "date": "2025-09-01",
+      "nav": 1.2301
+    },
+    {
+      "date": "2025-09-02",
+      "nav": 1.226
+    },
+    {
+      "date": "2025-09-03",
+      "nav": 1.2276
+    },
+    {
+      "date": "2025-09-04",
+      "nav": 1.2215
+    },
+    {
+      "date": "2025-09-05",
+      "nav": 1.2308
+    },
+    {
+      "date": "2025-09-08",
+      "nav": 1.2327
+    },
+    {
+      "date": "2025-09-09",
+      "nav": 1.2264
+    },
+    {
+      "date": "2025-09-10",
+      "nav": 1.2253
+    },
+    {
+      "date": "2025-09-11",
+      "nav": 1.2299
+    },
+    {
+      "date": "2025-09-12",
+      "nav": 1.2309
+    },
+    {
+      "date": "2025-09-15",
+      "nav": 1.2299
+    },
+    {
+      "date": "2025-09-16",
+      "nav": 1.2292
+    },
+    {
+      "date": "2025-09-17",
+      "nav": 1.2307
+    },
+    {
+      "date": "2025-09-18",
+      "nav": 1.2271
+    },
+    {
+      "date": "2025-09-19",
+      "nav": 1.2275
+    },
+    {
+      "date": "2025-09-22",
+      "nav": 1.2318
+    },
+    {
+      "date": "2025-09-23",
+      "nav": 1.2305
+    },
+    {
+      "date": "2025-09-24",
+      "nav": 1.2354
+    },
+    {
+      "date": "2025-09-25",
+      "nav": 1.2398
+    },
+    {
+      "date": "2025-09-26",
+      "nav": 1.2375
+    },
+    {
+      "date": "2025-09-29",
+      "nav": 1.2419
+    },
+    {
+      "date": "2025-09-30",
+      "nav": 1.2475
+    },
+    {
+      "date": "2025-10-09",
+      "nav": 1.2546
+    },
+    {
+      "date": "2025-10-10",
+      "nav": 1.2461
+    },
+    {
+      "date": "2025-10-13",
+      "nav": 1.2444
+    },
+    {
+      "date": "2025-10-14",
+      "nav": 1.2369
+    },
+    {
+      "date": "2025-10-15",
+      "nav": 1.2408
+    },
+    {
+      "date": "2025-10-16",
+      "nav": 1.2384
+    },
+    {
+      "date": "2025-10-17",
+      "nav": 1.2315
+    },
+    {
+      "date": "2025-10-20",
+      "nav": 1.2327
+    },
+    {
+      "date": "2025-10-21",
+      "nav": 1.2385
+    },
+    {
+      "date": "2025-10-22",
+      "nav": 1.2369
+    },
+    {
+      "date": "2025-10-23",
+      "nav": 1.2363
+    },
+    {
+      "date": "2025-10-24",
+      "nav": 1.2405
+    },
+    {
+      "date": "2025-10-27",
+      "nav": 1.2461
+    },
+    {
+      "date": "2025-10-28",
+      "nav": 1.2448
+    },
+    {
+      "date": "2025-10-29",
+      "nav": 1.2503
+    },
+    {
+      "date": "2025-10-30",
+      "nav": 1.2442
+    },
+    {
+      "date": "2025-10-31",
+      "nav": 1.2433
+    },
+    {
+      "date": "2025-11-03",
+      "nav": 1.2421
+    },
+    {
+      "date": "2025-11-04",
+      "nav": 1.2376
+    },
+    {
+      "date": "2025-11-05",
+      "nav": 1.2417
+    },
+    {
+      "date": "2025-11-06",
+      "nav": 1.2455
+    },
+    {
+      "date": "2025-11-07",
+      "nav": 1.2428
+    },
+    {
+      "date": "2025-11-10",
+      "nav": 1.2434
+    },
+    {
+      "date": "2025-11-11",
+      "nav": 1.2413
+    },
+    {
+      "date": "2025-11-12",
+      "nav": 1.2412
+    },
+    {
+      "date": "2025-11-13",
+      "nav": 1.245
+    },
+    {
+      "date": "2025-11-14",
+      "nav": 1.242
+    },
+    {
+      "date": "2025-11-17",
+      "nav": 1.2369
+    },
+    {
+      "date": "2025-11-18",
+      "nav": 1.2342
+    },
+    {
+      "date": "2025-11-19",
+      "nav": 1.235
+    },
+    {
+      "date": "2025-11-20",
+      "nav": 1.2348
+    },
+    {
+      "date": "2025-11-21",
+      "nav": 1.2274
+    },
+    {
+      "date": "2025-11-24",
+      "nav": 1.2292
+    },
+    {
+      "date": "2025-11-25",
+      "nav": 1.232
+    },
+    {
+      "date": "2025-11-26",
+      "nav": 1.2298
+    },
+    {
+      "date": "2025-11-27",
+      "nav": 1.2285
+    },
+    {
+      "date": "2025-11-28",
+      "nav": 1.2315
+    },
+    {
+      "date": "2025-12-01",
+      "nav": 1.2353
+    },
+    {
+      "date": "2025-12-02",
+      "nav": 1.2305
+    },
+    {
+      "date": "2025-12-03",
+      "nav": 1.1913
+    },
+    {
+      "date": "2025-12-04",
+      "nav": 1.1898
+    },
+    {
+      "date": "2025-12-05",
+      "nav": 1.1958
+    },
+    {
+      "date": "2025-12-08",
+      "nav": 1.1975
+    },
+    {
+      "date": "2025-12-09",
+      "nav": 1.1946
+    },
+    {
+      "date": "2025-12-10",
+      "nav": 1.1963
+    },
+    {
+      "date": "2025-12-11",
+      "nav": 1.1949
+    },
+    {
+      "date": "2025-12-12",
+      "nav": 1.1995
+    },
+    {
+      "date": "2025-12-15",
+      "nav": 1.1961
+    },
+    {
+      "date": "2025-12-16",
+      "nav": 1.1916
+    },
+    {
+      "date": "2025-12-17",
+      "nav": 1.1975
+    },
+    {
+      "date": "2025-12-18",
+      "nav": 1.195
+    },
+    {
+      "date": "2025-12-19",
+      "nav": 1.1987
+    },
+    {
+      "date": "2025-12-22",
+      "nav": 1.2004
+    },
+    {
+      "date": "2025-12-23",
+      "nav": 1.2004
+    },
+    {
+      "date": "2025-12-24",
+      "nav": 1.2018
+    },
+    {
+      "date": "2025-12-25",
+      "nav": 1.2035
+    },
+    {
+      "date": "2025-12-26",
+      "nav": 1.2047
+    },
+    {
+      "date": "2025-12-29",
+      "nav": 1.2007
+    },
+    {
+      "date": "2025-12-30",
+      "nav": 1.2024
+    },
+    {
+      "date": "2025-12-31",
+      "nav": 1.2031
+    },
+    {
+      "date": "2026-01-05",
+      "nav": 1.2105
+    },
+    {
+      "date": "2026-01-06",
+      "nav": 1.2172
+    },
+    {
+      "date": "2026-01-07",
+      "nav": 1.2171
+    },
+    {
+      "date": "2026-01-08",
+      "nav": 1.2172
+    },
+    {
+      "date": "2026-01-09",
+      "nav": 1.2209
+    },
+    {
+      "date": "2026-01-12",
+      "nav": 1.2219
+    },
+    {
+      "date": "2026-01-13",
+      "nav": 1.2222
+    },
+    {
+      "date": "2026-01-14",
+      "nav": 1.2206
+    },
+    {
+      "date": "2026-01-15",
+      "nav": 1.2226
+    },
+    {
+      "date": "2026-01-16",
+      "nav": 1.2232
+    },
+    {
+      "date": "2026-01-19",
+      "nav": 1.2248
+    },
+    {
+      "date": "2026-01-20",
+      "nav": 1.2234
+    },
+    {
+      "date": "2026-01-21",
+      "nav": 1.2268
+    },
+    {
+      "date": "2026-01-22",
+      "nav": 1.2261
+    },
+    {
+      "date": "2026-01-23",
+      "nav": 1.2297
+    },
+    {
+      "date": "2026-01-26",
+      "nav": 1.2283
+    },
+    {
+      "date": "2026-01-27",
+      "nav": 1.2268
+    },
+    {
+      "date": "2026-01-28",
+      "nav": 1.23
+    },
+    {
+      "date": "2026-01-29",
+      "nav": 1.2273
+    },
+    {
+      "date": "2026-01-30",
+      "nav": 1.2209
+    },
+    {
+      "date": "2026-02-02",
+      "nav": 1.2109
+    },
+    {
+      "date": "2026-02-03",
+      "nav": 1.2181
+    },
+    {
+      "date": "2026-02-04",
+      "nav": 1.2197
+    },
+    {
+      "date": "2026-02-05",
+      "nav": 1.216
+    },
+    {
+      "date": "2026-02-06",
+      "nav": 1.2181
+    },
+    {
+      "date": "2026-02-09",
+      "nav": 1.2227
+    },
+    {
+      "date": "2026-02-10",
+      "nav": 1.2232
+    },
+    {
+      "date": "2026-02-11",
+      "nav": 1.2241
+    },
+    {
+      "date": "2026-02-12",
+      "nav": 1.2273
+    },
+    {
+      "date": "2026-02-13",
+      "nav": 1.2213
+    },
+    {
+      "date": "2026-02-24",
+      "nav": 1.2246
+    },
+    {
+      "date": "2026-02-25",
+      "nav": 1.2281
+    },
+    {
+      "date": "2026-02-26",
+      "nav": 1.2253
+    },
+    {
+      "date": "2026-02-27",
+      "nav": 1.2279
+    },
+    {
+      "date": "2026-03-02",
+      "nav": 1.2303
+    },
+    {
+      "date": "2026-03-03",
+      "nav": 1.2192
+    },
+    {
+      "date": "2026-03-04",
+      "nav": 1.2154
+    },
+    {
+      "date": "2026-03-05",
+      "nav": 1.2189
+    },
+    {
+      "date": "2026-03-06",
+      "nav": 1.2208
+    },
+    {
+      "date": "2026-03-09",
+      "nav": 1.2143
+    },
+    {
+      "date": "2026-03-10",
+      "nav": 1.2202
+    },
+    {
+      "date": "2026-03-11",
+      "nav": 1.2206
+    },
+    {
+      "date": "2026-03-12",
+      "nav": 1.218
+    },
+    {
+      "date": "2026-03-13",
+      "nav": 1.2126
+    },
+    {
+      "date": "2026-03-16",
+      "nav": 1.2076
+    },
+    {
+      "date": "2026-03-17",
+      "nav": 1.2024
+    },
+    {
+      "date": "2026-03-18",
+      "nav": 1.2041
+    },
+    {
+      "date": "2026-03-19",
+      "nav": 1.1937
+    },
+    {
+      "date": "2026-03-20",
+      "nav": 1.1926
+    },
+    {
+      "date": "2026-03-23",
+      "nav": 1.1877
+    },
+    {
+      "date": "2026-03-24",
+      "nav": 1.1915
+    },
+    {
+      "date": "2026-03-25",
+      "nav": 1.1942
+    },
+    {
+      "date": "2026-03-26",
+      "nav": 1.1921
+    },
+    {
+      "date": "2026-03-27",
+      "nav": 1.196
+    },
+    {
+      "date": "2026-03-30",
+      "nav": 1.1945
+    },
+    {
+      "date": "2026-03-31",
+      "nav": 1.1905
+    },
+    {
+      "date": "2026-04-01",
+      "nav": 1.1968
+    },
+    {
+      "date": "2026-04-02",
+      "nav": 1.1959
+    },
+    {
+      "date": "2026-04-03",
+      "nav": 1.1931
+    },
+    {
+      "date": "2026-04-07",
+      "nav": 1.193
+    },
+    {
+      "date": "2026-04-08",
+      "nav": 1.2026
+    },
+    {
+      "date": "2026-04-09",
+      "nav": 1.2022
+    },
+    {
+      "date": "2026-04-10",
+      "nav": 1.2048
+    },
+    {
+      "date": "2026-04-13",
+      "nav": 1.2028
+    },
+    {
+      "date": "2026-04-14",
+      "nav": 1.2076
+    },
+    {
+      "date": "2026-04-15",
+      "nav": 1.2075
+    },
+    {
+      "date": "2026-04-16",
+      "nav": 1.2138
+    },
+    {
+      "date": "2026-04-17",
+      "nav": 1.2112
+    },
+    {
+      "date": "2026-04-20",
+      "nav": 1.2145
+    },
+    {
+      "date": "2026-04-21",
+      "nav": 1.2184
+    },
+    {
+      "date": "2026-04-22",
+      "nav": 1.2201
+    },
+    {
+      "date": "2026-04-23",
+      "nav": 1.2179
+    },
+    {
+      "date": "2026-04-24",
+      "nav": 1.2168
+    },
+    {
+      "date": "2026-04-27",
+      "nav": 1.217
+    },
+    {
+      "date": "2026-04-28",
+      "nav": 1.218
+    },
+    {
+      "date": "2026-04-29",
+      "nav": 1.2228
+    },
+    {
+      "date": "2026-04-30",
+      "nav": 1.2218
+    },
+    {
+      "date": "2026-05-06",
+      "nav": 1.2279
+    },
+    {
+      "date": "2026-05-07",
+      "nav": 1.2302
+    },
+    {
+      "date": "2026-05-08",
+      "nav": 1.2258
+    },
+    {
+      "date": "2026-05-11",
+      "nav": 1.2334
+    },
+    {
+      "date": "2026-05-12",
+      "nav": 1.231
+    },
+    {
+      "date": "2026-05-13",
+      "nav": 1.2354
+    }
+  ],
+  "company": {
+    "name": "嘉实基金管理有限公司",
+    "shortName": "嘉实基金",
+    "foundYear": 1999,
+    "aumDesc": "官网披露全口径管理资产总规模 16091+ 亿元；东财显示公募管理规模 10221.76 亿元（638 只基金，截至 2026-05-13）",
+    "industryRank": "头部老牌公募，产品线完整，固收、指数、主动权益均有较强平台能力。",
+    "complianceResult": "通过",
+    "complianceSummary": "合规检查通过，无一票否决项；当前主要关注点不是主体失范，而是渠道端警示函与胡永青在管产品数偏多带来的精力分散风险。",
+    "complianceChecks": [
+      {
+        "item": "黑名单核查",
+        "pass": true,
+        "detail": "黑名单脚本检查通过，公司与现任经理均未命中。"
+      },
+      {
+        "item": "近3年处罚记录",
+        "pass": true,
+        "warn": true,
+        "detail": "2026-04-28 嘉实财富太原分公司收到山西证监局警示函，属于销售子公司渠道合规事件，未触发基金投资条线一票否决。"
+      },
+      {
+        "item": "内幕交易传闻",
+        "pass": true,
+        "detail": "本次研究未检出有效公开处罚或可信舆情材料。"
+      },
+      {
+        "item": "基金经理离职风险",
+        "pass": true,
+        "detail": "胡永青现任投资总监（固收+），暂无离任迹象，本基金自设立以来无经理变更。"
+      },
+      {
+        "item": "管理疲劳风险",
+        "pass": true,
+        "warn": true,
+        "detail": "当前在管 18 只基金，高于 10 只预警阈值，需要持续跟踪精力分散风险。"
+      }
     ]
   },
   "policy": {
     "tags": [
-      { "label": "固收+策略",  "strength": "high",   "color": "#4492F7" },
-      { "label": "短久期中性", "strength": "high",   "color": "#0ea5e9" },
-      { "label": "降息受益",   "strength": "medium", "color": "#F7C744" },
-      { "label": "稳健增值",   "strength": "medium", "color": "#2DC78E" },
-      { "label": "高端制造",   "strength": "low",    "color": "#9B72F0" }
-    ],
-    "scenarios": [
       {
-        "type": "悲观",
-        "color": "#ef4444",
-        "probability": 20,
-        "trigger": "地缘冲突持续升级叠加国内利率超预期上行，股债双杀重演；中美利差进一步扩大制约货币宽松空间",
-        "returnLow": -5,
-        "returnHigh": -1
+        "label": "宽流动性",
+        "strength": "high",
+        "color": "#4492F7"
       },
       {
-        "type": "基准",
-        "color": "#3b82f6",
-        "probability": 65,
-        "trigger": "货币政策小幅宽松（下半年降息10-20bp），债券票息贡献稳定，权益仓位小幅波动，整体稳健",
-        "returnLow": 4,
-        "returnHigh": 7
+        "label": "新型电网/算力网",
+        "strength": "high",
+        "color": "#2DC78E"
       },
       {
-        "type": "乐观",
-        "color": "#10b981",
-        "probability": 15,
-        "trigger": "大规模降息落地+A股权益反弹，债券资本利得+权益增强双重贡献，固收+弹性充分体现",
-        "returnLow": 8,
-        "returnHigh": 12
+        "label": "制造升级",
+        "strength": "high",
+        "color": "#58A6FF"
+      },
+      {
+        "label": "创新药改革延续",
+        "strength": "medium",
+        "color": "#F7C744"
+      },
+      {
+        "label": "低beta固收+",
+        "strength": "medium",
+        "color": "#A371F7"
+      },
+      {
+        "label": "高弹性成长主线",
+        "strength": "low",
+        "color": "#F54E48"
       }
     ],
+    "industryOverview": [
+      {
+        "point": "产品定位",
+        "detail": "这不是单一行业主题基金，而是债券底仓 + 多行业权益增强的二级债产品，2026Q1 股票仓位约 12.25%。"
+      },
+      {
+        "point": "宏观与流动性",
+        "detail": "政治局会议明确保持流动性充裕，先稳住债券与信用环境，再为固收+提供估值底。"
+      },
+      {
+        "point": "制造/电网链催化",
+        "detail": "国能发科技〔2026〕34号把 AI、能源、电网、储能协同正式绑定，直接映射平高电气、广钢气体、恒立液压、纽威股份等持仓方向。"
+      },
+      {
+        "point": "创新药线索",
+        "detail": "创新药链当前更多是 2024 年底药械监管改革的存量利好延续，而不是 2026 年新增顶级文号驱动。"
+      },
+      {
+        "point": "市场交易特征",
+        "detail": "2026 年 5 月最强 beta 仍集中在 AI 与半导体，本基金更多受益于回撤缓和、估值抬底和景气改善，而不是直接吃满主升浪。"
+      }
+    ],
+    "cyclePeriod": "政策执行强化期",
+    "cycleReason": "当前最有效的政策增量集中在宽流动性、新型电网/算力网建设、AI与能源协同和制造业反内卷，已经能对基金当前工业装备与电网设备仓位形成当年支撑。",
     "policyBreakdown": [
       {
-        "sector": "短久期债券策略",
+        "sector": "宏观流动性与债券底仓",
+        "icon": "📉",
         "color": "#4492F7",
-        "icon": "📊",
-        "horizon": "短中期（1-2年）",
-        "logic": "胡永青将久期控制在3年以内，在当前货币政策观察期（LPR连续11个月不变）中有效降低利率风险；若下半年降息10-20bp落地，短久期配置可获资本利得",
-        "stocks": ["政策性金融债组合（如25国开15）", "AAA高等级信用债"]
+        "logic": "更加积极财政 + 适度宽松货币维持信用与利率环境可控，使高等级债底仓仍具备票息价值。",
+        "stocks": [
+          "政策性金融债",
+          "高等级信用债"
+        ]
       },
       {
-        "sector": "高端制造权益增强",
+        "sector": "电网与高端制造",
+        "icon": "⚙️",
+        "color": "#58A6FF",
+        "logic": "新型电网/算力网建设和 AI+能源协同，使工业装备、电网设备和先进制造成为当前年份最明确的权益顺风方向。",
+        "stocks": [
+          "平高电气",
+          "广钢气体",
+          "恒立液压",
+          "纽威股份",
+          "柳工",
+          "立讯精密"
+        ]
+      },
+      {
+        "sector": "创新药与科研服务",
+        "icon": "💊",
         "color": "#2DC78E",
-        "icon": "🏭",
-        "horizon": "中期（1-3年）",
-        "logic": "权益仓位5.53%聚焦精密制造（立讯精密、恒立液压）和有色金属（紫金矿业），契合十五五高端制造升级主线；小仓位增强收益弹性，不构成主要风险来源",
-        "stocks": ["立讯精密（精密连接器）", "恒立液压（高端液压）", "紫金矿业（战略金属）", "药明康德（生物医药CDMO）"]
-      },
-      {
-        "sector": "政策性金融债票息",
-        "color": "#0ea5e9",
-        "icon": "🏛️",
-        "horizon": "短期（1年内）",
-        "logic": "2026年财政发力（专项债1.16万亿+特别国债1.3万亿），债券供给增加但政策性金融债票息收益可观；基金持有国开债等可稳定获取票息",
-        "stocks": ["国开债、农发债等政策性金融债组合"]
+        "logic": "创新药链缺少 2026 新顶级政策，但审评审批提速和监管改革仍在继续兑现，适合作为稳中有弹性的辅助增强。",
+        "stocks": [
+          "药明康德",
+          "恒瑞医药",
+          "奥浦迈"
+        ]
       }
     ],
     "fifteenFive": [
       {
-        "direction": "货币政策稳中宽松",
+        "direction": "宽流动性支撑低利率中枢",
         "color": "#4492F7",
-        "description": "十五五规划期间经济转型需要宽松流动性支持，有利于债券市场收益率中枢维持较低水平，固收+策略天然受益",
-        "holdings": "债券资产占净值约94.47%，以AAA政策性金融债和高等级信用债为主"
+        "description": "经济转型期仍需要相对友好的资金环境，固收+的高等级债底仓继续具备票息价值。",
+        "holdings": "政策性金融债 + 高等级信用债"
       },
       {
-        "direction": "制造业升级转型",
+        "direction": "制造业合理比重与设备升级",
+        "color": "#58A6FF",
+        "description": "设备更新、工业自动化和电网建设仍是中期政策主线，当前权益增强仓位与之高度契合。",
+        "holdings": "纽威股份、广钢气体、恒立液压、平高电气、立讯精密、柳工"
+      },
+      {
+        "direction": "医药创新与高质量发展",
         "color": "#2DC78E",
-        "description": "十五五着力高端制造业发展，权益小仓位配置的立讯精密、恒立液压等制造业龙头与政策主线契合",
-        "holdings": "制造业权益股票（占净值约3%-4%）"
-      },
-      {
-        "direction": "财政扩张支持债市",
-        "color": "#F7C744",
-        "description": "十五五财政政策积极扩张，特别国债和专项债大量发行，政策性金融债供给充足，票息稳定可期",
-        "holdings": "政策性金融债+高等级信用债（占净值约70%-80%）"
+        "description": "创新药、CRO 和科研服务属于政策支持的高质量发展方向，但节奏更偏温和兑现。",
+        "holdings": "药明康德、恒瑞医药、奥浦迈"
       }
     ],
     "longTermRisks": [
-      { "risk": "股债双杀风险",       "signal": "A类历史已验证2022年最大回撤-6.68%；若中美关系恶化叠加国内利率上行，D类面临同等风险；历史先例不可忽视",      "level": "high"   },
-      { "risk": "成立时间短缺乏验证", "signal": "D类份额仅1年历史，所有评估基于A类数据推断；未经历完整牛熊周期，长期能力尚无独立验证",                        "level": "medium" },
-      { "risk": "中美利差制约",       "signal": "中美利差倒挂-250bp，人民币贬值压力制约国内降息空间；若美联储再度加息，国内宽松空间进一步收窄",              "level": "medium" },
-      { "risk": "债券供给压力",       "signal": "2026年政府债券净供给大幅增加，可能推高债券收益率；短久期策略有所规避，但仍是潜在技术性压力",              "level": "low"    },
-      { "risk": "运作期限流动性",     "signal": "3年运作周期滚动模式；若在运作期间发生流动性危机或净值大幅下跌，持有人无法随时提前赎回，存在流动性约束",    "level": "low"    }
+      {
+        "risk": "高弹性牛市下相对掉队",
+        "signal": "若市场主升浪继续集中在 AI、半导体等高 beta 方向，本基金会继续体现稳定器而非进攻手属性。",
+        "level": "medium"
+      },
+      {
+        "risk": "地缘与输入性通胀冲击",
+        "signal": "Q1 已证明地缘冲突会同时拖累权益与转债，若再次升级，组合会先承压后修正。",
+        "level": "medium"
+      },
+      {
+        "risk": "利率重新上行",
+        "signal": "10 年国债收益率若重新上破 1.90%-2.00%，债券底仓估值压力会显著抬升。",
+        "level": "medium"
+      },
+      {
+        "risk": "经理精力分散",
+        "signal": "胡永青当前在管 18 只基金，高于预警阈值，若再增加可能压缩单产品锐度。",
+        "level": "medium"
+      },
+      {
+        "risk": "渠道合规外溢",
+        "signal": "若渠道端警示函由个别分支机构扩展到销售体系或投资条线，产品信任度需要下调。",
+        "level": "low"
+      }
     ],
-    "timeline": [
-      { "year": "2025年5月",    "event": "嘉实稳固收益债券D成立，建仓起步",           "return": "成立初期正收益",       "note": "债市顺风顺水，利率债行情良好；胡永青快速建仓政策性金融债+高等级信用债", "type": "positive" },
-      { "year": "2025年下半年", "event": "债市持续向好，稳健积累",                   "return": "+约5%-6%（推算）",     "note": "货币宽松预期+经济温和复苏，债券市场整体向好；票息+小幅资本利得双收", "type": "positive" },
-      { "year": "2025年Q4",     "event": "主动降久期，防御性调整",                   "return": "稳健小幅正收益",       "note": "胡永青前瞻性降低组合久期至3年以内，规避利率上行风险；体现主动风控能力", "type": "neutral"  },
-      { "year": "2026年Q1",     "event": "⚠️ 地缘冲突拖累，-1.05%跑输同类",         "return": "-1.05%（同类+0.40%）", "note": "权益仓位5.53%受地缘冲突波动拖累；单季度落后同类1.45个百分点，成立以来表现最差阶段", "type": "warning" }
+    "adaptability": [
+      {
+        "env": "🟢 宽流动性 + 震荡修复市",
+        "perf": "最适合当前低 beta 固收+框架，票息底仓和分散权益增强都能发挥作用。",
+        "color": "#2DC78E"
+      },
+      {
+        "env": "🟡 利率平稳 + 结构轮动",
+        "perf": "能持续修复，但收益更依赖精选制造和创新药，不会吃满热门赛道弹性。",
+        "color": "#D4A017"
+      },
+      {
+        "env": "⚠️ 高弹性成长牛市 / 地缘冲击",
+        "perf": "前者会相对落后，后者则会先承压后修正，都不属于最舒适环境。",
+        "color": "#F54E48"
+      }
+    ],
+    "scenarios": [
+      {
+        "type": "悲观",
+        "probability": 20,
+        "color": "#EF4444",
+        "returnLow": -3,
+        "returnHigh": 1,
+        "trigger": "地缘冲突再升级、10年国债收益率上行并逼近 2.0%，权益增强与债券底仓同时承压。"
+      },
+      {
+        "type": "基准",
+        "probability": 55,
+        "color": "#3B82F6",
+        "returnLow": 4,
+        "returnHigh": 7,
+        "trigger": "宽流动性维持、制造升级政策继续兑现，产品依靠票息和稳健权益增强取得中个位数回报。"
+      },
+      {
+        "type": "乐观",
+        "probability": 25,
+        "color": "#10B981",
+        "returnLow": 7,
+        "returnHigh": 10,
+        "trigger": "风险偏好温和抬升但不过热，制造链和创新药同步修复，债券底仓未遭遇明显估值压缩。"
+      }
     ],
     "dualTimeline": [
       {
-        "period": "2025年5-9月",
-        "manager": { "event": "建仓完成，债市顺风，稳健起步", "return": "+约3%-5%（推算）", "note": "AAA政策性金融债+高等级信用债快速建仓；债市在宽松预期下上行，票息+资本利得双收", "type": "positive" },
-        "market":  { "event": "债市牛市延续，货币政策偏宽松", "note": "LPR持续下调预期，十年期国债收益率下行，固收+策略处于顺风环境", "type": "bull" }
+        "period": "2025-05 ~ 2025-06",
+        "manager": {
+          "event": "份额设立与防御建仓，首季稳步起步",
+          "return": "+1.16%",
+          "note": "先用银行、运营商与创新药构建防御底仓，D类启动阶段以稳为先。",
+          "type": "positive"
+        },
+        "market": {
+          "event": "债券环境友好，权益并非绝对主线",
+          "note": "宽流动性与风险偏好回暖并存，适合固收+先求稳再加增强。",
+          "type": "bull"
+        }
       },
       {
-        "period": "2025年Q4",
-        "manager": { "event": "主动降久期，防御性调整保收益", "return": "小幅正收益（推算）", "note": "胡永青前瞻性降低组合久期，规避利率上行风险；体现了投资总监级别的风险管理能力", "type": "neutral" },
-        "market":  { "event": "债市进入观望期，MLF缩量续作", "note": "美联储政策不确定性+国内MLF净回笼2000亿，债市情绪趋于谨慎；短久期策略适应性较强", "type": "neutral" }
+        "period": "2025-07 ~ 2025-10",
+        "manager": {
+          "event": "权益进攻加速，净值明显抬升",
+          "return": "+6.49%",
+          "note": "主动切向有色、电子、化工和交运，净值上行显著，但仍吃不满强势 beta。",
+          "type": "highlight"
+        },
+        "market": {
+          "event": "风险偏好抬升，成长与周期轮动活跃",
+          "note": "设备更新和科技制造景气改善，为权益增强创造顺风环境。",
+          "type": "bull"
+        }
       },
       {
-        "period": "2026年Q1",
-        "manager": { "event": "⚠️ 地缘冲突拖累，-1.05%跑输同类", "return": "-1.05%（同类均值+0.40%）", "note": "权益仓位5.53%受地缘风险冲击下跌；固收端稳健但无法完全抵消；单季度落后1.45个百分点，需持续跟踪", "type": "warning" },
-        "market":  { "event": "地缘冲突升级，权益波动剧烈", "note": "关税战+地区冲突多重冲击，A股短期波动加剧；债市受避险情绪支撑，但固收+混合策略权益端承压", "type": "bear" }
+        "period": "2025-10 ~ 2026-03",
+        "manager": {
+          "event": "高位回撤，风险收缩慢半拍",
+          "return": "-5.33%",
+          "note": "Q4 仍保持较多风险资产，Q1 才开始明显降仓，是最值得警惕的阶段。",
+          "type": "warning"
+        },
+        "market": {
+          "event": "安全边际优先 + 地缘冲击",
+          "note": "市场从流动性驱动切换到防守模式，权益与转债普遍承压。",
+          "type": "bear"
+        }
+      },
+      {
+        "period": "2026-03 ~ 2026-05",
+        "manager": {
+          "event": "修复反弹与再平衡",
+          "return": "+4.02%",
+          "note": "坚持中性久期与均衡权益，强调估值保护和经营韧性，修复稳但不激进。",
+          "type": "neutral"
+        },
+        "market": {
+          "event": "慢牛修复，政策支撑制造链",
+          "note": "风险偏好回暖，但市场最强主线仍是高弹性科技，本基金更多体现稳定器属性。",
+          "type": "policy"
+        }
       }
     ],
-    "note": "嘉实稳固收益债券D的核心逻辑：胡永青23年固收+经验+三重风控体系+短久期中性策略是保障下行风险的核心；但D类份额仅1年独立历史，长期评估需参考A类（009089）的20.98%任职回报；2026年Q1单季度跑输同类需持续跟踪，排查是否为偶发因素或趋势性问题。"
+    "note": "024212 当前最匹配的环境不是无脑追高式牛市，而是宽流动性、制造升级执行强化、权益不单边过热的震荡修复市。它更适合作为组合里的低 beta 稳定器，而不是收益主攻手。"
   },
-  "exclusionCheck": [
-    { "item": "基金公司黑名单",       "pass": true, "note": "嘉实基金未列入黑名单" },
-    { "item": "基金经理黑名单",       "pass": true, "note": "胡永青未列入黑名单" },
-    { "item": "规模过小（<1亿）",     "pass": true, "note": "规模10.54亿元，流动性充裕" },
-    { "item": "成立不足6个月",        "pass": true, "note": "D类份额成立于2025-05-14，已成立近1年，通过6个月门槛" },
-    { "item": "基金经理任职不足1年",  "pass": true, "note": "胡永青自基金成立起管理，已任职近1年" },
-    { "item": "夏普比率为负",         "pass": true, "note": "成立以来+8.27%，夏普比率预计为正；参考A类历史年化4.65%，夏普比率在正区间" },
-    { "item": "近1年收益率为负",      "pass": true, "note": "成立以来（约1年）+8.27%，正收益" },
-    { "item": "历史最差年跌幅>50%",   "pass": true, "note": "D类最大回撤仅-1.05%；A类历史最差年2022年-6.68%，远低于50%否决线" },
-    { "item": "费率过高（>2%/年）",   "pass": true, "note": "综合费率0.83%（管理费0.65%+托管0.18%），低于同类平均，D类无销售服务费" },
-    { "item": "基金经理频繁更换",     "pass": true, "note": "自成立起由胡永青单一管理，无变更记录" }
-  ],
   "scoring": {
-    "total": 70,
+    "total": 77,
+    "grade": "良好",
+    "recommendation": "观望",
+    "recommendationType": "cautious",
+    "rating": "★★★",
+    "logic": "基金质量 77/100（良好）叠加当前政策执行强化期，但市场最强交易主线并不属于其低 beta 固收+框架，因此更适合分批布局、而非高位追涨。",
     "dimensions": [
-      { "name": "历史业绩", "score": 6.0,  "note": "成立以来+8.27%尚可，但成立仅1年，2026年Q1跑输同类；长期业绩需参考A类（009089）20.98%任职回报评估" },
-      { "name": "风险控制", "score": 7.0,  "note": "D类成立以来最大回撤仅-1.05%，短久期中性+三重风控机制完善；但A类2022年-6.68%是真实风险参考下限" },
-      { "name": "持仓质量", "score": 8.0,  "note": "债券持仓AAA级81.8%，信用风险极低；权益仓位5.53%精选制造业+医药+矿业龙头，个股分散，配置合理" },
-      { "name": "基金经理", "score": 10.0, "note": "胡永青23年固收+经验，嘉实基金投资总监（固收+），A类6年20.98%任职回报验证能力；满分" },
-      { "name": "政策匹配", "score": 4.0,  "note": "固收+策略与宏观政策关联度一般，缺乏对科技/新能源等政策热点的主动倾斜；政策受益程度较低" },
-      { "name": "估值时机", "score": 6.0,  "note": "当前债市合理，短久期策略适应货币政策观察期；权益小仓位在震荡市有一定弹性，时机中性" }
+      {
+        "name": "绝对收益稳定性",
+        "score": 21,
+        "maxScore": 30,
+        "pros": [
+          "按脚本口径年化收益率 6.66%",
+          "历史最大回撤 -5.33%，在二级债中不算失控"
+        ],
+        "cons": [
+          "D类成立仅满 1 年，样本短",
+          "2025Q4-2026Q1 连续承压，稳定性仍需观察"
+        ]
+      },
+      {
+        "name": "信用风险控制",
+        "score": 21,
+        "maxScore": 25,
+        "pros": [
+          "季报反复强调高等级中短信用债为核心底仓",
+          "未见信用踩雷或重大违约暴露"
+        ],
+        "cons": [
+          "二级债 + 转债配置天然会放大波动，不是纯债式低波"
+        ]
+      },
+      {
+        "name": "久期管理",
+        "score": 14,
+        "maxScore": 20,
+        "pros": [
+          "Q2 与 Q1 均有明确久期调节动作",
+          "2026Q1 已回到中性久期框架"
+        ],
+        "cons": [
+          "Q4 到 Q1 对风险资产和外部不确定性的反应略慢一拍"
+        ]
+      },
+      {
+        "name": "流动性",
+        "score": 13,
+        "maxScore": 15,
+        "pros": [
+          "D类规模 10.54 亿元，基金整体净资产约 30.67 亿元",
+          "债券底仓与股票重仓均以流动性较好的品种为主"
+        ],
+        "cons": [
+          "2025Q3-Q4 份额快速扩张，继续放量可能稀释战术灵活性"
+        ]
+      },
+      {
+        "name": "基金公司债券实力",
+        "score": 8,
+        "maxScore": 10,
+        "pros": [
+          "嘉实为头部公募，固收与固收+平台成熟",
+          "公募管理规模超万亿元，平台资源充足"
+        ],
+        "cons": [
+          "渠道端存在分支机构警示函，治理质量需持续跟踪"
+        ]
+      }
     ],
-    "recommendation": "推荐，稳健型投资者适配",
-    "recommendationType": "buy",
-    "reasoning": [
-      { "positive": true,  "text": "胡永青23年固收+资深经验，嘉实稳固收益债券A任职6年回报20.98%（年化约4.65%），能力已充分验证" },
-      { "positive": true,  "text": "债券持仓AAA级81.8%+短久期中性策略+三重风控体系（护本目标抬升+固定比例保险+债券组合风控），机制完善" },
-      { "positive": true,  "text": "D类份额无销售服务费（0%），综合费率0.83%低于同类平均；持有≥7天赎回费率为0%，持有成本低" },
-      { "positive": false, "text": "成立仅1年，D类独立业绩记录不足；A类2022年最大回撤-6.68%，极端行情下风控有盲点，不能完全参考短期表现" },
-      { "positive": false, "text": "2026年Q1跑输同类1.45个百分点（-1.05% vs +0.40%），地缘冲突下权益仓位拖累，单季度表现欠佳" }
+    "policyItems": [
+      {
+        "name": "4月28日政治局会议经济部署",
+        "date": "2026-04-28",
+        "content": "更加积极财政 + 适度宽松货币，保持流动性充裕，推进新型电网/算力网建设，保持制造业合理比重。",
+        "impact": "strong_pos",
+        "impactLabel": "🟢 强利好"
+      },
+      {
+        "name": "AI与能源双向赋能行动方案",
+        "date": "2026-05-08",
+        "content": "29 项任务、2027/2030 目标、算电协同试点和能源专业大模型落地。",
+        "impact": "strong_pos",
+        "impactLabel": "🟢 强利好"
+      },
+      {
+        "name": "设备更新行动方案",
+        "date": "2024-03-13",
+        "content": "到 2027 年设备投资较 2023 年增长 25% 以上，是制造设备链的中期底座。",
+        "impact": "pos",
+        "impactLabel": "🟡 中期利好"
+      },
+      {
+        "name": "药械监管改革",
+        "date": "2024-12-30",
+        "content": "创新药/器械审评审批提速，继续支撑药明康德、恒瑞医药、奥浦迈。",
+        "impact": "pos",
+        "impactLabel": "🟡 存量利好"
+      }
     ],
-    "conclusion": "嘉实稳固收益债券D（024212）是投资组合中稳健型压舱石的候选标的，胡永青23年固收+经验+三重风控体系是核心竞争力；D类成立仅1年，需借助A类（009089）历史数据评估长期能力；在当前货币政策观察期（降息有限）+债券供给压力背景下，预期年化收益4%-7%较为合理；适合风险偏好R2（中低风险）的稳健型投资者，建议作为组合中固收仓位的核心配置，与高风险权益基金搭配使用。",
-    "suitableFor": [
-      { "label": "R2中低风险偏好，追求年化4%-7%稳定收益的投资者",     "fit": true  },
-      { "label": "已持有高风险权益基金，需要债券低波动组合压舱石",     "fit": true  },
-      { "label": "中长期（1年以上）持有，能接受短期小幅亏损的稳健投资者", "fit": true  },
-      { "label": "追求高收益（>10%）、激进配置权益资产的投资者",       "fit": false },
-      { "label": "完全不能接受任何亏损、追求储蓄账户级稳定的投资者",   "fit": false }
+    "marketStatus": [
+      {
+        "dim": "净值位置",
+        "status": "87.6% 历史分位",
+        "statusType": "warning",
+        "detail": "D类成立以来已处高位区间，高分位不等于高估，但会明显压低新资金赔率。"
+      },
+      {
+        "dim": "近期趋势",
+        "status": "稳步修复",
+        "statusType": "positive",
+        "detail": "近1周 +0.61%、近1月 +2.71%，均好于同类平均，但仍显著落后沪深300。"
+      },
+      {
+        "dim": "夏普趋势",
+        "status": "1年口径改善",
+        "statusType": "positive",
+        "detail": "近1年夏普 1.15，高于全期 0.64，说明首个完整年度风险收益效率并不差。"
+      },
+      {
+        "dim": "利率与信用环境",
+        "status": "中性偏友好",
+        "statusType": "neutral",
+        "detail": "10年国债收益率约 1.75%，更像票息持有与久期微调环境，不是债牛加速阶段。"
+      },
+      {
+        "dim": "权益增强环境",
+        "status": "结构性受益",
+        "statusType": "positive",
+        "detail": "制造升级、电网设备与创新药政策环境偏友好，但市场最强交易主线并不在其仓位核心。"
+      },
+      {
+        "dim": "外部风险",
+        "status": "仍需观察",
+        "statusType": "cautious",
+        "detail": "地缘与贸易扰动仍会对权益与转债端形成阶段性拖累。"
+      }
+    ],
+    "risks": [
+      {
+        "type": "追高性价比一般",
+        "level": "medium",
+        "note": "当前净值处于 D 类历史高分位，继续上行更依赖票息和温和修复，而不是快速抬升。"
+      },
+      {
+        "type": "管理疲劳风险",
+        "level": "medium",
+        "note": "胡永青当前在管 18 只基金，高于 10 只预警阈值。"
+      },
+      {
+        "type": "牛市相对落后",
+        "level": "medium",
+        "note": "Beta 仅 0.2814，产品定位决定其在强牛市里不会吃满指数弹性。"
+      },
+      {
+        "type": "风格切换滞后",
+        "level": "medium",
+        "note": "2025Q4 到 2026Q1 的处理节奏显示经理不是前瞻式完美应对，而是先承压后修正。"
+      }
     ],
     "allocationSuggestions": [
-      { "scenario": "当前（固收+稳健期，宽松预期）",    "ratio": "10%-20%",   "note": "作为组合稳定器，与股票基金搭配；一次性建仓或分2次建仓均可" },
-      { "scenario": "股市出现系统性调整（>20%）",       "ratio": "可提升至30%", "note": "股债跷跷板效应显现，固收+防御价值上升，适度提升配置" },
-      { "scenario": "降息幅度超预期（>50bp）",          "ratio": "可提升至25%", "note": "债券端资本利得+票息双重受益，短久期组合可快速调整受益" },
-      { "scenario": "基金经理（胡永青）离任",            "ratio": "减仓或清仓",  "note": "胡永青是产品的核心支柱，离任后需重新评估策略延续性" }
+      {
+        "scenario": "存量持有人",
+        "action": "继续持有，作为组合稳定器",
+        "note": "更像继续拿着而不是因为高位就立即否定。"
+      },
+      {
+        "scenario": "新入场投资者",
+        "action": "小仓分批，等待 1%-2% 回撤再逐步加大",
+        "note": "没必要把高分位机械理解成不能买，但也不适合一把梭。"
+      },
+      {
+        "scenario": "长期配置仓位",
+        "action": "单只产品控制在组合 15%-20%",
+        "note": "更适合作为低 beta 固收+稳定器，而非牛市进攻主仓。"
+      }
+    ],
+    "suitableFor": [
+      "组合中已持有成长型基金，需要一只低 beta、能承受适度权益波动的稳定器的投资者",
+      "接受二级债收益增强但并非纯债低波属性、持有期至少 6-12 个月的投资者",
+      "认可胡永青绝对收益优先、跨资产配置固收+方法论的稳健型资金"
+    ],
+    "notSuitableFor": [
+      "期待它在强牛市里持续跑赢沪深300 的投资者",
+      "无法承受 3%-5% 阶段回撤、希望把它当成纯货基或纯短债替代的人",
+      "喜欢单一政策主线和高弹性主题基金的人",
+      "想做短线波段且对高位买入容忍度很低的人"
+    ],
+    "termAdvice": [
+      {
+        "term": "短期（1-3个月）",
+        "icon": "⚠️",
+        "level": "cautious",
+        "advice": "当前更像收益空间收敛、但非明显高估的阶段，不宜重仓追入；若现在配置，更适合先建 30% 左右计划仓位。"
+      },
+      {
+        "term": "中期（6-12个月）",
+        "icon": "🟡",
+        "level": "neutral",
+        "advice": "只要10年国债收益率不明显上破、信用利差不重新走阔，票息底仓 + 均衡权益增强仍有继续修复基础，可分批配置。"
+      },
+      {
+        "term": "长期（3年以上）",
+        "icon": "🟢",
+        "level": "positive",
+        "advice": "作为组合中的低波增强工具依然成立，但仓位不宜过高；若跌破 1.16 需重新评估持有逻辑。"
+      }
     ]
   },
-  "navHistory": [],
   "tracking": {
     "weekly": [
-      "关注净值日涨跌幅是否正常（±0.3%以内为正常，超±0.5%需排查原因）",
-      "跟踪10年期国债收益率走势（收益率超预期上行对债券持仓不利）",
-      "监控A股主要指数波动（5.53%权益仓位在股市大跌时会拖累净值）"
+      "净值方向验证：观察单位净值与累计净值是否同步，先排除分红和除息因素再判断组合是否失效。",
+      "10年期国债收益率：当前参考值约 1.75%，若重新上破 1.90%，需重估久期与债券估值压力。",
+      "沪深300 指数：若指数继续单边强攻，而本基金持续显著掉队，说明低 beta 特征仍在主导。",
+      "权益仓位变化：当前按季报总资产口径股票约 12.25%，若后续升破 18%，意味着风格明显偏进攻。",
+      "经理动态：重点跟踪季报、访谈、路演中是否再次出现低估不确定性或策略明显转向的表述。"
     ],
     "quarterly": [
-      "季报披露后检查权益仓位比例（若超过10%须重新评估风险暴露）",
-      "确认胡永青仍在任，关注基金公司公告",
-      "与同类基金排名对比，若连续2季度跌出前50%需深入分析",
-      "关注组合久期变化（是否超过3年中性目标）",
-      "复核AAA债券占比（应保持在75%以上）"
+      "持仓变化：是否仍围绕高端制造、创新药研发服务、资源对冲三条主线做增强，核心主线不应完全漂移。",
+      "集中度变化：前十持仓集中度是否异常飙升或骤降，合理区间约 8%-12%。",
+      "规模变化：D类规模若快速升至 20 亿元以上，需要重估调仓灵活性和产品容量。",
+      "同类排名：近3月、近6月至少维持同类中游，不应长期落入后 50%。",
+      "股债风险配比：股票仓位宜控制在 10%-18%，久期维持中性为宜。"
     ],
     "alerts": [
-      { "level": "critical", "icon": "🚨", "text": "胡永青离任公告（核心基金经理，需立即评估是否继续持有）" },
-      { "level": "critical", "icon": "🚨", "text": "月度单月回撤超过-2%（远超债基正常波动范围，需排查原因）" },
-      { "level": "warning",  "icon": "⚠️", "text": "权益仓位季报超过15%（远高于当前5.53%，风险特征显著变化）" },
-      { "level": "warning",  "icon": "⚠️", "text": "组合久期拉长超过5年（超出中性目标，利率风险敞口显著增加）" },
-      { "level": "warning",  "icon": "⚠️", "text": "连续两个季度跑输同类平均（业绩持续落后，需评估策略适应性）" },
-      { "level": "info",     "icon": "ℹ️", "text": "央行降准降息公告（利好债券端，关注组合久期调整方向和幅度）" },
-      { "level": "info",     "icon": "ℹ️", "text": "嘉实稳固收益债券A（009089）净值同步跟踪（可作为D类的前瞻性参照）" }
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "基金经理更换或引入共管：对固收+产品属于核心风格事件，需要重做完整评估。"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "单季度回撤超过 -3% 且同类排名掉入后20%：说明不是单纯市场噪音，而是组合失真。"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "10年国债收益率快速上行并突破 2.00%：债券底仓估值压力会明显上升。"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "股票仓位升破 18% 且前十集中度显著抬升：说明产品正在滑向更高波动的权益增强风格。"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "D类规模半年内快速升至 20 亿元以上：可能摊薄个股和转债层面的战术灵活性。"
+      },
+      {
+        "level": "warning",
+        "icon": "⚠️",
+        "text": "监管风险升级：若渠道端合规问题从分支机构扩展到基金销售体系或投资条线，需要下调产品信任度。"
+      }
     ]
-  }
+  },
+  "exclusionCheck": [
+    {
+      "item": "基金公司或经理是否进入黑名单",
+      "pass": true,
+      "note": "黑名单脚本检查通过，公司与经理均未命中。"
+    },
+    {
+      "item": "近3年是否存在直接投资条线重大处罚",
+      "pass": true,
+      "note": "当前仅发现嘉实财富太原分公司警示函，属于销售子公司渠道合规事件，未触发投资条线一票否决。"
+    },
+    {
+      "item": "是否存在重大内幕交易传闻",
+      "pass": true,
+      "note": "本次研究未检出有效公开处罚或可信舆情材料。"
+    },
+    {
+      "item": "基金经理离职风险是否可忽略",
+      "pass": true,
+      "note": "胡永青暂无离任迹象，本基金自设立以来无经理变更。"
+    },
+    {
+      "item": "是否存在明显管理疲劳",
+      "pass": false,
+      "note": "当前在管 18 只基金，高于 10 只预警阈值，需要持续跟踪精力分散风险。"
+    }
+  ]
 }

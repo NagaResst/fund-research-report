@@ -2,7 +2,7 @@
   "id": "003984",
   "meta": {
     "reportDate": "2026-05-13",
-    "dataDate": "2026-05-13",
+    "dataDate": "2026-05-14",
     "disclaimer": "本报告仅供个人学习和信息整理使用，不构成任何投资建议。投资有风险，入市需谨慎。"
   },
   "basic": {
@@ -118,235 +118,475 @@
     "annual": [
       {
         "year": 2017,
-        "return": 16.03
+        "fund": 16.03,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       },
       {
         "year": 2018,
-        "return": -28.85
+        "fund": -27.64,
+        "peer": -23.51,
+        "hs300": -25.31,
+        "rank": 187,
+        "rankTotal": 349,
+        "quartile": "一般"
       },
       {
         "year": 2019,
-        "return": 61.99
+        "fund": 61.47,
+        "peer": 46.76,
+        "hs300": 36.07,
+        "rank": 72,
+        "rankTotal": 410,
+        "quartile": "优秀"
       },
       {
         "year": 2020,
-        "return": 103.79
+        "fund": 108.0,
+        "peer": 57.41,
+        "hs300": 27.21,
+        "rank": 18,
+        "rankTotal": 554,
+        "quartile": "优秀"
       },
       {
         "year": 2021,
-        "return": 20.11
+        "fund": 26.72,
+        "peer": 9.55,
+        "hs300": -5.2,
+        "rank": 95,
+        "rankTotal": 740,
+        "quartile": "优秀"
       },
       {
         "year": 2022,
-        "return": -32.4
+        "fund": -33.36,
+        "peer": -19.89,
+        "hs300": -21.63,
+        "rank": 686,
+        "rankTotal": 867,
+        "quartile": "不佳"
       },
       {
         "year": 2023,
-        "return": -29.15
+        "fund": -28.74,
+        "peer": -11.57,
+        "hs300": -11.38,
+        "rank": 796,
+        "rankTotal": 952,
+        "quartile": "不佳"
       },
       {
         "year": 2024,
-        "return": 3.03
+        "fund": 0.47,
+        "peer": 3.91,
+        "hs300": 14.68,
+        "rank": 568,
+        "rankTotal": 1011,
+        "quartile": "一般"
       },
       {
         "year": 2025,
-        "return": 69.44
+        "fund": 63.67,
+        "peer": 32.46,
+        "hs300": 17.66,
+        "rank": 87,
+        "rankTotal": 1065,
+        "quartile": "优秀"
       },
       {
         "year": 2026,
-        "return": 14.98
+        "fund": 16.84,
+        "peer": 14.97,
+        "hs300": 6.15,
+        "rank": 413,
+        "rankTotal": 1055,
+        "quartile": null
       }
     ],
     "quarterly": [
       {
         "year": 2017,
-        "quarter": 1,
-        "return": null
+        "quarter": "2017Q1",
+        "fund": -0.82,
+        "peer": null,
+        "hs300": 3.41,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       },
       {
         "year": 2017,
-        "quarter": 2,
-        "return": null
+        "quarter": "2017Q2",
+        "fund": -0.87,
+        "peer": null,
+        "hs300": 4.65,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       },
       {
         "year": 2017,
-        "quarter": 3,
-        "return": null
+        "quarter": "2017Q3",
+        "fund": 16.61,
+        "peer": null,
+        "hs300": 5.09,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       },
       {
         "year": 2017,
-        "quarter": 4,
-        "return": null
+        "quarter": "2017Q4",
+        "fund": 1.2,
+        "peer": null,
+        "hs300": 3.83,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       },
       {
         "year": 2018,
-        "quarter": 1,
-        "return": null
+        "quarter": "2018Q1",
+        "fund": -5.29,
+        "peer": null,
+        "hs300": -4.62,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       },
       {
         "year": 2018,
-        "quarter": 2,
-        "return": null
+        "quarter": "2018Q2",
+        "fund": -15.77,
+        "peer": null,
+        "hs300": -9.67,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       },
       {
         "year": 2018,
-        "quarter": 3,
-        "return": null
+        "quarter": "2018Q3",
+        "fund": -8.19,
+        "peer": null,
+        "hs300": 0.91,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       },
       {
         "year": 2018,
-        "quarter": 4,
-        "return": null
+        "quarter": "2018Q4",
+        "fund": -1.2,
+        "peer": null,
+        "hs300": -8.52,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       },
       {
         "year": 2019,
-        "quarter": 1,
-        "return": null
+        "quarter": "2019Q1",
+        "fund": 29.59,
+        "peer": null,
+        "hs300": 30.4,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       },
       {
         "year": 2019,
-        "quarter": 2,
-        "return": null
+        "quarter": "2019Q2",
+        "fund": -3.81,
+        "peer": null,
+        "hs300": -3.73,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       },
       {
         "year": 2019,
-        "quarter": 3,
-        "return": null
+        "quarter": "2019Q3",
+        "fund": 13.9,
+        "peer": null,
+        "hs300": -3.08,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       },
       {
         "year": 2019,
-        "quarter": 4,
-        "return": null
+        "quarter": "2019Q4",
+        "fund": 13.72,
+        "peer": null,
+        "hs300": 6.75,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       },
       {
         "year": 2020,
-        "quarter": 1,
-        "return": null
+        "quarter": "2020Q1",
+        "fund": 0.98,
+        "peer": null,
+        "hs300": -11.22,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       },
       {
         "year": 2020,
-        "quarter": 2,
-        "return": null
+        "quarter": "2020Q2",
+        "fund": 31.81,
+        "peer": null,
+        "hs300": 13.3,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       },
       {
         "year": 2020,
-        "quarter": 3,
-        "return": null
+        "quarter": "2020Q3",
+        "fund": 15.84,
+        "peer": null,
+        "hs300": 8.0,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       },
       {
         "year": 2020,
-        "quarter": 4,
-        "return": null
+        "quarter": "2020Q4",
+        "fund": 34.9,
+        "peer": null,
+        "hs300": 11.33,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       },
       {
         "year": 2021,
-        "quarter": 1,
-        "return": null
+        "quarter": "2021Q1",
+        "fund": -8.83,
+        "peer": null,
+        "hs300": -4.16,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       },
       {
         "year": 2021,
-        "quarter": 2,
-        "return": null
+        "quarter": "2021Q2",
+        "fund": 26.93,
+        "peer": null,
+        "hs300": 2.22,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       },
       {
         "year": 2021,
-        "quarter": 3,
-        "return": null
+        "quarter": "2021Q3",
+        "fund": 8.08,
+        "peer": null,
+        "hs300": -6.95,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       },
       {
         "year": 2021,
-        "quarter": 4,
-        "return": null
+        "quarter": "2021Q4",
+        "fund": 1.32,
+        "peer": null,
+        "hs300": 0.21,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       },
       {
         "year": 2022,
-        "quarter": 1,
-        "return": null
+        "quarter": "2022Q1",
+        "fund": -17.35,
+        "peer": null,
+        "hs300": -14.14,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       },
       {
         "year": 2022,
-        "quarter": 2,
-        "return": null
+        "quarter": "2022Q2",
+        "fund": 12.62,
+        "peer": null,
+        "hs300": 4.88,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       },
       {
         "year": 2022,
-        "quarter": 3,
-        "return": null
+        "quarter": "2022Q3",
+        "fund": -22.69,
+        "peer": null,
+        "hs300": -14.82,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       },
       {
         "year": 2022,
-        "quarter": 4,
-        "return": null
+        "quarter": "2022Q4",
+        "fund": -7.4,
+        "peer": null,
+        "hs300": 4.05,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       },
       {
         "year": 2023,
-        "quarter": 1,
-        "return": null
+        "quarter": "2023Q1",
+        "fund": -3.91,
+        "peer": null,
+        "hs300": 4.19,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       },
       {
         "year": 2023,
-        "quarter": 2,
-        "return": null
+        "quarter": "2023Q2",
+        "fund": -6.63,
+        "peer": null,
+        "hs300": -6.07,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       },
       {
         "year": 2023,
-        "quarter": 3,
-        "return": null
+        "quarter": "2023Q3",
+        "fund": -16.0,
+        "peer": null,
+        "hs300": -5.22,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       },
       {
         "year": 2023,
-        "quarter": 4,
-        "return": null
+        "quarter": "2023Q4",
+        "fund": -5.46,
+        "peer": null,
+        "hs300": -6.88,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       },
       {
         "year": 2024,
-        "quarter": 1,
-        "return": null
+        "quarter": "2024Q1",
+        "fund": -11.93,
+        "peer": null,
+        "hs300": 4.46,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       },
       {
         "year": 2024,
-        "quarter": 2,
-        "return": null
+        "quarter": "2024Q2",
+        "fund": -10.61,
+        "peer": -2.49,
+        "hs300": -2.14,
+        "rank": 884,
+        "rankTotal": 983,
+        "quartile": "不佳"
       },
       {
         "year": 2024,
-        "quarter": 3,
-        "return": null
+        "quarter": "2024Q3",
+        "fund": 19.51,
+        "peer": 11.81,
+        "hs300": 16.07,
+        "rank": 72,
+        "rankTotal": 991,
+        "quartile": "优秀"
       },
       {
         "year": 2024,
-        "quarter": 4,
-        "return": null
+        "quarter": "2024Q4",
+        "fund": 6.78,
+        "peer": -1.49,
+        "hs300": -2.06,
+        "rank": 98,
+        "rankTotal": 1011,
+        "quartile": "优秀"
       },
       {
         "year": 2025,
-        "quarter": 1,
-        "return": null
+        "quarter": "2025Q1",
+        "fund": 4.76,
+        "peer": 4.71,
+        "hs300": -1.21,
+        "rank": 426,
+        "rankTotal": 1014,
+        "quartile": "良好"
       },
       {
         "year": 2025,
-        "quarter": 2,
-        "return": null
+        "quarter": "2025Q2",
+        "fund": 0.46,
+        "peer": 3.13,
+        "hs300": 1.25,
+        "rank": 651,
+        "rankTotal": 1038,
+        "quartile": "一般"
       },
       {
         "year": 2025,
-        "quarter": 3,
-        "return": null
+        "quarter": "2025Q3",
+        "fund": 52.4,
+        "peer": 25.12,
+        "hs300": 17.9,
+        "rank": 72,
+        "rankTotal": 1050,
+        "quartile": "优秀"
       },
       {
         "year": 2025,
-        "quarter": 4,
-        "return": null
+        "quarter": "2025Q4",
+        "fund": 2.04,
+        "peer": -1.96,
+        "hs300": -0.23,
+        "rank": 302,
+        "rankTotal": 1065,
+        "quartile": "良好"
       },
       {
         "year": 2026,
-        "quarter": 1,
-        "return": null
+        "quarter": "2026Q1",
+        "fund": 3.87,
+        "peer": -0.42,
+        "hs300": -3.89,
+        "rank": 205,
+        "rankTotal": 1070,
+        "quartile": "优秀"
       },
       {
         "year": 2026,
-        "quarter": 2,
-        "return": null
+        "quarter": "2026Q2",
+        "fund": 12.95,
+        "peer": null,
+        "hs300": 10.43,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
       }
     ],
     "milestones": [
@@ -10525,28 +10765,33 @@
     "alerts": [
       {
         "level": "critical",
-        "condition": "基金连续2个季度跑输同类平均20%以上",
-        "action": "立即重新评估，考虑减仓或清仓"
+        "icon": "🚨",
+        "text": "基金经理更换：姚志鹏离任或调任，一票否决级别风险，需重新完整评估接任者"
       },
       {
         "level": "critical",
-        "condition": "基金经理变更",
-        "action": "立即重新评估"
+        "icon": "🚨",
+        "text": "单季度回撤超过 -25% 且同类排名倒数 10%：这已超出市场系统性因素范围，属于个基崩溃信号"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "碳酸锂价格连续 3 个月跌幅超过 20%：上游锂矿策略逻辑可能崩溃，持仓受损风险极高"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "油价跌破 70 美元/桶且维持超过 6 周：\"通胀受益 + 能源\"叙事失效，基金策略核心逻辑动摇"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "基金规模半年内扩张超过 100 亿：新资金快速涌入可能抬高建仓成本，显著摊薄超额收益"
       },
       {
         "level": "warning",
-        "condition": "基金连续1个季度跑输同类平均10%以上",
-        "action": "密切跟踪，准备减仓预案"
-      },
-      {
-        "level": "warning",
-        "condition": "碳酸锂价格持续下跌（跌破8万/吨）",
-        "action": "密切跟踪"
-      },
-      {
-        "level": "info",
-        "condition": "基金单月净值波动±5%以内",
-        "action": "无需操作，继续持有"
+        "icon": "⚠️",
+        "text": "季报持仓大幅偏离新能源主线，例如明显转向消费或医药，需要核查经理是否在悄悄转型"
       }
     ]
   },
@@ -10621,7 +10866,7 @@
         "id": 6,
         "emoji": "🟢",
         "name": "底部反弹期",
-        "period": "2024-09 → 2025-12",
+        "period": "2024-10 → 2025-12",
         "returnPct": 79.7,
         "hs300Pct": 22.8,
         "excessPct": 56.9,

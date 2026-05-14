@@ -1,371 +1,3442 @@
 {
   "id": "018419",
   "meta": {
-    "reportDate": "2026-05-09",
-    "dataDate": "2026-05-08",
-    "disclaimer": "本报告仅供个人学习和信息整理使用，所有分析内容均不构成任何投资建议。投资有风险，入市需谨慎，请依据自身判断做出投资决策。"
+    "reportDate": "2026-05-14",
+    "dataDate": "2026-05-13",
+    "disclaimer": "本报告仅供个人学习使用，不构成任何投资建议。基金过往业绩不代表未来表现，投资有风险，决策需谨慎。"
   },
   "basic": {
     "code": "018419",
-    "fullName": "广发碳中和主题混合型发起式证券投资基金（C类）",
+    "fullName": "广发碳中和主题混合型发起式证券投资基金（C类份额）",
     "shortName": "广发碳中和主题混合发起式C",
-    "type": "混合型",
-    "subType": "偏股混合（发起式）",
+    "type": "混合型-偏股（行业主题）",
     "riskLevel": "中高风险",
-    "riskCode": 4,
+    "riskCode": 3,
     "foundDate": "2024-06-12",
-    "issueDate": "2024-06-12",
     "manager": "广发基金管理有限公司",
-    "managerScale": 94.28,
-    "managerFundCount": 12,
-    "custodian": null,
-    "benchmark": null,
-    "navFallback": 1.9590,
-    "navDateFallback": "2026-05-08",
-    "inceptionReturn": 105.25,
-    "dividendCount": null,
+    "companyShort": "广发基金",
+    "custodian": "中国光大银行股份有限公司",
+    "benchmark": "中证上海环交所碳中和指数收益率×70% + 人民币计价的恒生指数收益率×15% + 中债-新综合财富指数收益率×15%",
+    "navFallback": 1.9894,
+    "inceptionReturn": "108.44%",
+    "issueDate": "2024-06-12",
     "status": "开放申购 / 开放赎回",
-    "companyShort": "广发"
+    "operationMode": "开放式发起式运作",
+    "navDateFallback": "2026-05-13"
   },
   "fees": {
-    "management": 1.20,
-    "custodian": 0.20,
-    "salesService": 0.50,
-    "subscriptionMax": 0.00,
-    "subscriptionDiscounted": 0.00,
-    "redemptionMax": 1.50,
+    "management": 1.5,
+    "custodian": 0.25,
+    "salesService": 0.4,
+    "subscriptionMax": 0.0,
     "breakdown": [
-      { "name": "管理费",           "value": 1.20 },
-      { "name": "托管费",           "value": 0.20 },
-      { "name": "销售服务费（C类）", "value": 0.50 },
-      { "name": "申购费",           "value": 0.00 }
-    ]
+      {
+        "name": "管理费",
+        "value": 1.5
+      },
+      {
+        "name": "托管费",
+        "value": 0.25
+      },
+      {
+        "name": "销售服务费（C类）",
+        "value": 0.4
+      },
+      {
+        "name": "申购费",
+        "value": 0.0,
+        "actualRate": 0.0
+      },
+      {
+        "name": "赎回费",
+        "value": 1.5,
+        "rate": 1.5,
+        "rules": [
+          {
+            "label": "持有少于7天",
+            "rate": 1.5
+          },
+          {
+            "label": "持有7天及以上",
+            "rate": 0.0
+          }
+        ],
+        "note": "持满7天可免赎回费。"
+      }
+    ],
+    "subscriptionDiscounted": 0.0,
+    "redemptionMax": 1.5
   },
   "scale": {
     "nav": 7.39,
-    "shares": 4.1765,
+    "shares": 4.18,
     "date": "2026-03-31"
+  },
+  "risk": {
+    "volatility": 0.3137,
+    "annualReturn": 0.4937,
+    "sharpe": 1.48,
+    "calmar": 1.91,
+    "maxDrawdown": -0.2589,
+    "maxDrawdownPeriod": "2024-10-25 → 2025-04-07",
+    "periodMetrics": [
+      {
+        "label": "近1年",
+        "volatility": 0.296,
+        "sharpe": 3.29,
+        "maxDrawdown": 0.2589,
+        "rating": "主升浪驱动，质量极高但不可线性外推"
+      },
+      {
+        "label": "近2年",
+        "volatility": null,
+        "sharpe": null,
+        "maxDrawdown": null,
+        "rating": "成立未满2年"
+      },
+      {
+        "label": "近3年",
+        "volatility": null,
+        "sharpe": null,
+        "maxDrawdown": null,
+        "rating": "成立未满3年"
+      }
+    ],
+    "relativeMetrics": {
+      "beta": 1.1174,
+      "alpha": 0.1692,
+      "informationRatio": 0.8628,
+      "trackingError": 0.2306,
+      "r2": 0.4672
+    },
+    "navPercentile": 97,
+    "recentPerf": [
+      {
+        "period": "近1周",
+        "fund": -1.37,
+        "peer": 3.27,
+        "hs300": 2.49,
+        "excess": -4.64,
+        "rank": 4574,
+        "rankTotal": 5187,
+        "warn": true,
+        "note": "短期排名靠后，高位动能减弱。"
+      },
+      {
+        "period": "近1月",
+        "fund": 5.12,
+        "peer": 10.19,
+        "hs300": 7.58,
+        "excess": -5.07,
+        "rank": 3363,
+        "rankTotal": 5187,
+        "warn": true
+      },
+      {
+        "period": "近3月",
+        "fund": 12.43,
+        "peer": 8.57,
+        "hs300": 7.25,
+        "excess": 3.86,
+        "rank": 1684,
+        "rankTotal": 5149,
+        "warn": false
+      },
+      {
+        "period": "近6月",
+        "fund": 14.19,
+        "peer": 14.99,
+        "hs300": 6.3,
+        "excess": -0.8,
+        "rank": 2302,
+        "rankTotal": 4894,
+        "warn": false
+      },
+      {
+        "period": "近1年",
+        "fund": 95.49,
+        "peer": 47.42,
+        "hs300": 28.29,
+        "excess": 48.07,
+        "rank": 638,
+        "rankTotal": 4493,
+        "warn": false,
+        "note": "近1年位居同类前14%，是本基金最核心的业绩亮点。"
+      }
+    ],
+    "radarDimensions": [
+      {
+        "name": "超额收益",
+        "score": 92
+      },
+      {
+        "name": "风险控制",
+        "score": 68
+      },
+      {
+        "name": "经理能力",
+        "score": 72
+      },
+      {
+        "name": "持仓质量",
+        "score": 74
+      },
+      {
+        "name": "政策匹配",
+        "score": 88
+      },
+      {
+        "name": "估值时机",
+        "score": 40
+      }
+    ],
+    "riskBreakdown": {
+      "volatilityRating": "31.37%，显著高于普通偏股混合",
+      "sharpeRating": "全期 1.48，近1年抬升到 3.29",
+      "drawdownRating": "最大回撤持续约 5.5 个月",
+      "yearlyMaxDrawdowns": [
+        {
+          "year": 2024,
+          "fund": 21.25,
+          "hs300": 8.0
+        },
+        {
+          "year": 2025,
+          "fund": 17.31,
+          "hs300": 5.0
+        },
+        {
+          "year": 2026,
+          "fund": 10.07,
+          "hs300": 6.5
+        }
+      ]
+    },
+    "maxDrawdownMonths": 5.5,
+    "riskWarnings": [
+      {
+        "category": "内部",
+        "level": "high",
+        "title": "C类规模单季大幅缩水",
+        "text": "2026Q1 C类份额从 9.01 亿份骤降至 4.18 亿份，降幅达 53.6%，属于最紧迫的结构性风险。"
+      },
+      {
+        "category": "内部",
+        "level": "medium",
+        "title": "净值高位风险",
+        "text": "当前 NAV 约处于历史 97% 分位，距历史高点仅 1.4%，高位追涨的回撤压力很大。"
+      },
+      {
+        "category": "内部",
+        "level": "medium",
+        "title": "经理管理疲劳",
+        "text": "郑澄然同时管理 12 只基金，且其他在管产品存在大幅亏损案例，精力和风格一致性都要持续观察。"
+      },
+      {
+        "category": "内部",
+        "level": "medium",
+        "title": "持仓高度轮动",
+        "text": "7期持仓跨越光伏、风电、电缆、锂矿到核电/燃气轮机，换手率极高，依赖持续踩对节奏。"
+      },
+      {
+        "category": "外部",
+        "level": "medium",
+        "title": "AI能源叙事失速",
+        "text": "若全球数据中心能源需求不及预期，燃气轮机与海缆主线会同时承压。"
+      },
+      {
+        "category": "外部",
+        "level": "medium",
+        "title": "中美贸易摩擦升级",
+        "text": "若关税重新全面升级，新能源和相关供应链风险偏好会再次被压制。"
+      }
+    ]
+  },
+  "holdings": {
+    "date": "2026Q1（截至 2026-03-31）",
+    "top10": [
+      {
+        "rank": 1,
+        "name": "东方电气",
+        "code": "600875",
+        "ratio": 6.98,
+        "sector": "燃气轮机/核电/风电设备",
+        "color": "#F54E48"
+      },
+      {
+        "rank": 2,
+        "name": "福斯特",
+        "code": "603806",
+        "ratio": 5.93,
+        "sector": "光伏辅材",
+        "color": "#2DC78E"
+      },
+      {
+        "rank": 3,
+        "name": "东方电缆",
+        "code": "603606",
+        "ratio": 5.36,
+        "sector": "海缆/海上风电",
+        "color": "#4492F7"
+      },
+      {
+        "rank": 4,
+        "name": "应流股份",
+        "code": "603308",
+        "ratio": 5.31,
+        "sector": "燃气轮机高温叶片",
+        "color": "#F54E48"
+      },
+      {
+        "rank": 5,
+        "name": "万泽股份",
+        "code": "000534",
+        "ratio": 4.76,
+        "sector": "高温合金/航空特材",
+        "color": "#F54E48"
+      },
+      {
+        "rank": 6,
+        "name": "振华股份",
+        "code": "603067",
+        "ratio": 4.75,
+        "sector": "钒氮合金/储能材料",
+        "color": "#D4A017"
+      },
+      {
+        "rank": 7,
+        "name": "潍柴动力",
+        "code": "000338",
+        "ratio": 4.4,
+        "sector": "内燃机/燃气发动机",
+        "color": "#F54E48"
+      },
+      {
+        "rank": 8,
+        "name": "宁德时代",
+        "code": "300750",
+        "ratio": 4.33,
+        "sector": "动力/储能电池",
+        "color": "#2DC78E"
+      },
+      {
+        "rank": 9,
+        "name": "中矿资源",
+        "code": "002738",
+        "ratio": 4.14,
+        "sector": "锂矿/储能上游",
+        "color": "#D4A017"
+      },
+      {
+        "rank": 10,
+        "name": "赤峰黄金",
+        "code": "600988",
+        "ratio": 3.72,
+        "sector": "黄金矿/资源配置",
+        "color": "#E8813A"
+      }
+    ],
+    "top10Total": 49.68,
+    "top10TotalRatio": 49.68,
+    "sectors": [
+      {
+        "name": "制造业",
+        "ratio": 70.56
+      },
+      {
+        "name": "信息技术业",
+        "ratio": 0.21
+      },
+      {
+        "name": "采矿业",
+        "ratio": 5.83
+      }
+    ],
+    "stockRatio": 76.6,
+    "bondRatio": 0.01,
+    "cashRatio": 21.5,
+    "concentrationLabel": "前十持仓 49.68%，属于主题集中但尚未失控的区间",
+    "themeTitle": "全球缺电 → 能源供应链",
+    "themeSubtitle": "围绕 AI 数据中心、全球电力短缺与能源转型需求，布局燃气轮机、海缆、储能和能源上游材料。",
+    "themeGroups": [
+      {
+        "name": "燃气轮机 / 特材",
+        "ratio": 21.45,
+        "stocks": "东方电气、应流股份、万泽股份、潍柴动力",
+        "note": "2026Q1 最核心主线，完全围绕全球缺电和国产燃气轮机 0-1 突破展开。",
+        "color": "#F54E48"
+      },
+      {
+        "name": "海缆 / 风电",
+        "ratio": 5.36,
+        "stocks": "东方电缆",
+        "note": "承接海上风电和电力基础设施扩张，是能源补充链条中最稳定的一环。",
+        "color": "#4492F7"
+      },
+      {
+        "name": "储能",
+        "ratio": 9.08,
+        "stocks": "宁德时代、振华股份",
+        "note": "储能配储政策和电力需求扩张共同受益，属于 AI 能源叙事的中下游兑现端。",
+        "color": "#2DC78E"
+      },
+      {
+        "name": "能源上游与资源对冲",
+        "ratio": 7.86,
+        "stocks": "中矿资源、赤峰黄金",
+        "note": "提供锂资源和贵金属对冲，但也是主题纯度最弱、最容易引发争议的一组。",
+        "color": "#D4A017"
+      },
+      {
+        "name": "光伏辅材保留仓",
+        "ratio": 5.93,
+        "stocks": "福斯特",
+        "note": "保留部分老主线仓位，用于押注胶膜行业竞争格局改善。",
+        "color": "#58A6FF"
+      }
+    ],
+    "bondStructure": [
+      {
+        "type": "现金头寸为主",
+        "note": "当前并非典型股债平衡结构，21.5% 的高现金更像对高波动环境和大额赎回的防御。",
+        "color": "#94A3B8"
+      },
+      {
+        "type": "债券仓位几乎可忽略",
+        "note": "仅保留象征性国债仓位，不承担主要稳定器角色。",
+        "color": "#4492F7"
+      }
+    ],
+    "evolutionHighlights": [
+      {
+        "quarter": "2024Q3",
+        "change": "纯光伏建仓完成",
+        "return": "+20.34%",
+        "theme": "阳光电源、横店东磁、禾迈股份、大全能源、锦浪科技",
+        "insight": "建仓方向非常集中，完全押注光伏估值修复。",
+        "type": "positive"
+      },
+      {
+        "quarter": "2025Q1",
+        "change": "光伏转向风电 + 电缆",
+        "return": "+3.50%",
+        "theme": "天顺风能、东方电缆、亨通光电、中天科技",
+        "insight": "是第一次大规模方向切换，过渡期表现一般，但为后续修复奠基。",
+        "type": "neutral"
+      },
+      {
+        "quarter": "2025Q3",
+        "change": "新能源主线大爆发",
+        "return": "+44.50%",
+        "theme": "阿特斯、明阳智能、中创新航、东方电缆",
+        "insight": "是任期内最成功的一次组合表达，AI 能源和新能源主线共振带来极强 Alpha。",
+        "type": "positive"
+      },
+      {
+        "quarter": "2025Q4",
+        "change": "锂矿资源大换仓",
+        "return": "+7.16%",
+        "theme": "大中矿业、天华新能、中矿资源、盛新锂能",
+        "insight": "收益尚可，但主题漂移争议显著抬升。",
+        "type": "warning"
+      },
+      {
+        "quarter": "2026Q1",
+        "change": "燃气轮机 / 核电 / 特材再切换",
+        "return": "+2.88%",
+        "theme": "东方电气、应流股份、福斯特、万泽股份、潍柴动力",
+        "insight": "再次完成大换仓，围绕全球缺电叙事形成更高纯度的能源供应链表达。",
+        "type": "positive"
+      }
+    ],
+    "policyLinks": [
+      {
+        "sector": "燃气轮机 / 核电设备",
+        "stocks": "东方电气、应流股份、万泽股份、潍柴动力",
+        "policyNote": "核电审批常态化与 AI 驱动的全球电力缺口，共同强化这一方向的中期景气。",
+        "color": "#F54E48"
+      },
+      {
+        "sector": "海缆 / 海上风电",
+        "stocks": "东方电缆",
+        "policyNote": "十五五期间海上风电和沿海电网升级继续推进，海缆需求仍有持续性。",
+        "color": "#4492F7"
+      },
+      {
+        "sector": "储能",
+        "stocks": "宁德时代、振华股份、中矿资源",
+        "policyNote": "各省配储要求与国家储能调度优先政策继续抬升储能需求。",
+        "color": "#2DC78E"
+      }
+    ]
   },
   "performance": {
     "stages": [
-      { "period": "近1周",  "fund": 0.49,   "peer": 2.61,  "hs300": 1.34,  "rank": 3991, "rankTotal": 5328, "quartile": "一般" },
-      { "period": "近1月",  "fund": 6.19,   "peer": 8.53,  "hs300": 6.01,  "rank": 2863, "rankTotal": 5250, "quartile": "一般" },
-      { "period": "近3月",  "fund": 17.42,  "peer": 7.57,  "hs300": 4.92,  "rank": 1060, "rankTotal": 5147, "quartile": "优秀" },
-      { "period": "近6月",  "fund": 16.45,  "peer": 13.26, "hs300": 4.13,  "rank": 1807, "rankTotal": 4914, "quartile": "良好" },
-      { "period": "今年来", "fund": 13.90,  "peer": 12.70, "hs300": 5.23,  "rank": 2008, "rankTotal": 5055, "quartile": "良好" },
-      { "period": "近1年",  "fund": 96.47,  "peer": 44.27, "hs300": 26.45, "rank": 479,  "rankTotal": 4515, "quartile": "优秀" },
-      { "period": "成立以来","fund": 105.25, "peer": null,  "hs300": null,  "rank": null, "rankTotal": null, "quartile": null }
+      {
+        "period": "近1周",
+        "fund": -1.37,
+        "peer": 3.27,
+        "hs300": 2.49,
+        "rank": 4574,
+        "rankTotal": 5183,
+        "quartile": null
+      },
+      {
+        "period": "近1月",
+        "fund": 5.12,
+        "peer": 10.19,
+        "hs300": 7.58,
+        "rank": 3363,
+        "rankTotal": 5187,
+        "quartile": null
+      },
+      {
+        "period": "近3月",
+        "fund": 12.43,
+        "peer": 8.57,
+        "hs300": 7.25,
+        "rank": 1684,
+        "rankTotal": 5149,
+        "quartile": null
+      },
+      {
+        "period": "近6月",
+        "fund": 14.19,
+        "peer": 14.99,
+        "hs300": 6.3,
+        "rank": 2302,
+        "rankTotal": 4894,
+        "quartile": null
+      },
+      {
+        "period": "近1年",
+        "fund": 95.49,
+        "peer": 47.42,
+        "hs300": 28.29,
+        "rank": 638,
+        "rankTotal": 4493,
+        "quartile": null
+      },
+      {
+        "period": "今年来",
+        "fund": 15.67,
+        "peer": 15.46,
+        "hs300": 7.96,
+        "rank": 2193,
+        "rankTotal": 5027,
+        "quartile": null
+      },
+      {
+        "period": "成立来",
+        "fund": 108.44,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      }
     ],
     "annual": [
-      { "year": 2024, "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null },
-      { "year": 2025, "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null }
+      {
+        "year": 2024,
+        "fund": 4.99,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2025,
+        "fund": 67.22,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2026,
+        "fund": 13.6,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      }
     ],
     "quarterly": [
-      { "quarter": "2024Q3", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null },
-      { "quarter": "2024Q4", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null },
-      { "quarter": "2025Q1", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null },
-      { "quarter": "2025Q2", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null },
-      { "quarter": "2025Q3", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null },
-      { "quarter": "2025Q4", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null },
-      { "quarter": "2026Q1", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null }
+      {
+        "year": 2024,
+        "quarter": "2024Q2",
+        "fund": -1.92,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q3",
+        "fund": 20.34,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q4",
+        "fund": -16.18,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q1",
+        "fund": 3.5,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q2",
+        "fund": 2.4,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q3",
+        "fund": 44.5,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q4",
+        "fund": 7.16,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2026,
+        "quarter": "2026Q1",
+        "fund": 2.88,
+        "peer": null,
+        "hs300": -3.89,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2026,
+        "quarter": "2026Q2",
+        "fund": 9.67,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      }
+    ],
+    "annualNote": "季度表现优先采用报告中按季报口径整理的数据；成立以来收益与高频净值口径一致，但高位区间需结合阶段回撤一起理解。",
+    "milestones": [
+      {
+        "date": "2024-06-12",
+        "nav": 1.0,
+        "label": "基金成立，开始建仓",
+        "type": "neutral"
+      },
+      {
+        "date": "2024-10-08",
+        "nav": 1.2526,
+        "label": "建仓后首个阶段高点",
+        "type": "peak"
+      },
+      {
+        "date": "2025-04-07",
+        "nav": 0.9353,
+        "label": "历史最低点，也是最佳历史买点",
+        "type": "low"
+      },
+      {
+        "date": "2025-10-09",
+        "nav": 1.605,
+        "label": "AI能源主升浪阶段峰值",
+        "type": "peak"
+      },
+      {
+        "date": "2026-05-06",
+        "nav": 2.0171,
+        "label": "历史最高点，首次突破 2 元",
+        "type": "peak"
+      },
+      {
+        "date": "2026-05-13",
+        "nav": 1.9894,
+        "label": "当前净值，距历史高点仅差约 1.4%",
+        "type": "current"
+      }
     ]
   },
-  "risk": {
-    "volatility": 28.87,
-    "sharpe": 3.29,
-    "maxDrawdown": null,
-    "riskLevel": "中高风险",
-    "excessReturn1Y": 52.20,
-    "radarDimensions": [
-      { "name": "历史业绩", "value": 9.5, "max": 10 },
-      { "name": "风险控制", "value": 6.0, "max": 10 },
-      { "name": "持仓质量", "value": 5.0, "max": 10 },
-      { "name": "基金经理", "value": 7.5, "max": 10 },
-      { "name": "政策匹配", "value": 7.0, "max": 10 },
-      { "name": "估值时机", "value": 6.0, "max": 10 }
+  "stageAnalysis": {
+    "inflectionPoints": [
+      {
+        "id": 1,
+        "stageId": 1,
+        "startDate": "2024-07-05",
+        "endDate": "2024-10-08",
+        "startNav": 0.9783,
+        "endNav": 1.2526,
+        "changePct": 28.04,
+        "type": "peak"
+      },
+      {
+        "id": 2,
+        "stageId": 2,
+        "startDate": "2024-10-08",
+        "endDate": "2024-10-17",
+        "startNav": 1.2526,
+        "endNav": 1.0596,
+        "changePct": -15.41,
+        "type": "trough"
+      },
+      {
+        "id": 3,
+        "stageId": 3,
+        "startDate": "2024-10-17",
+        "endDate": "2024-10-25",
+        "startNav": 1.0596,
+        "endNav": 1.2621,
+        "changePct": 19.11,
+        "type": "peak"
+      },
+      {
+        "id": 4,
+        "stageId": 4,
+        "startDate": "2024-10-25",
+        "endDate": "2025-01-27",
+        "startNav": 1.2621,
+        "endNav": 0.9939,
+        "changePct": -21.25,
+        "type": "trough"
+      },
+      {
+        "id": 5,
+        "stageId": 5,
+        "startDate": "2025-01-27",
+        "endDate": "2025-03-06",
+        "startNav": 0.9939,
+        "endNav": 1.1311,
+        "changePct": 13.8,
+        "type": "peak"
+      },
+      {
+        "id": 6,
+        "stageId": 6,
+        "startDate": "2025-03-06",
+        "endDate": "2025-04-07",
+        "startNav": 1.1311,
+        "endNav": 0.9353,
+        "changePct": -17.31,
+        "type": "trough"
+      },
+      {
+        "id": 7,
+        "stageId": 7,
+        "startDate": "2025-04-07",
+        "endDate": "2025-10-09",
+        "startNav": 0.9353,
+        "endNav": 1.605,
+        "changePct": 71.6,
+        "type": "peak"
+      },
+      {
+        "id": 8,
+        "stageId": 8,
+        "startDate": "2025-10-09",
+        "endDate": "2025-10-20",
+        "startNav": 1.605,
+        "endNav": 1.4719,
+        "changePct": -8.29,
+        "type": "trough"
+      },
+      {
+        "id": 9,
+        "stageId": 8,
+        "startDate": "2025-10-20",
+        "endDate": "2025-11-13",
+        "startNav": 1.4719,
+        "endNav": 1.8253,
+        "changePct": 24.01,
+        "type": "peak"
+      },
+      {
+        "id": 10,
+        "stageId": 8,
+        "startDate": "2025-11-13",
+        "endDate": "2025-12-16",
+        "startNav": 1.8253,
+        "endNav": 1.5925,
+        "changePct": -12.75,
+        "type": "trough"
+      },
+      {
+        "id": 11,
+        "stageId": 8,
+        "startDate": "2025-12-16",
+        "endDate": "2025-12-26",
+        "startNav": 1.5925,
+        "endNav": 1.7798,
+        "changePct": 11.76,
+        "type": "peak"
+      },
+      {
+        "id": 12,
+        "stageId": 8,
+        "startDate": "2025-12-26",
+        "endDate": "2026-02-02",
+        "startNav": 1.7798,
+        "endNav": 1.6177,
+        "changePct": -9.11,
+        "type": "trough"
+      },
+      {
+        "id": 13,
+        "stageId": 9,
+        "startDate": "2026-02-02",
+        "endDate": "2026-03-10",
+        "startNav": 1.6177,
+        "endNav": 1.9604,
+        "changePct": 21.18,
+        "type": "peak"
+      },
+      {
+        "id": 14,
+        "stageId": 9,
+        "startDate": "2026-03-10",
+        "endDate": "2026-04-07",
+        "startNav": 1.9604,
+        "endNav": 1.7629,
+        "changePct": -10.07,
+        "type": "trough"
+      },
+      {
+        "id": 15,
+        "stageId": 9,
+        "startDate": "2026-04-07",
+        "endDate": "2026-05-06",
+        "startNav": 1.7629,
+        "endNav": 2.0171,
+        "changePct": 14.42,
+        "type": "peak"
+      }
     ],
-    "positionHistory": [
-      { "date": "2026-03-31", "stock": 93.0, "cash": 6.5, "scale": 7.39 }
-    ],
-    "positionSignal": "当前股票仓位约93%，现金储备有限；近期中美关税摩擦升级导致净值回调，规模7.39亿属中等偏小，大额赎回时净值冲击风险需关注",
-    "riskBreakdown": [
-      { "type": "行业集中风险",     "level": "high",   "stars": 5, "maxStars": 5, "note": "制造业占净资产高达70.56%，单一行业极度集中；政策/行情切换时缺乏跨行业缓冲，历史上光伏调整期已验证集中风险" },
-      { "type": "主题漂移风险",     "level": "high",   "stars": 4, "maxStars": 5, "note": "基金名为「碳中和主题」，但实际持仓含赤峰黄金（避险）、应流股份（航空铸件）、万泽股份（超合金）等与碳中和弱相关标的，实质已演变为高端制造+资源+避险的混合组合" },
-      { "type": "历史熊市验证缺失", "level": "high",   "stars": 4, "maxStars": 5, "note": "成立于2024年6月，目前仅经历上升周期（924行情+高端制造牛市），夏普3.29和96%年收益率均在顺风期产生；无完整熊市验证，防御能力未知" },
-      { "type": "贸易摩擦风险",     "level": "medium", "stars": 3, "maxStars": 5, "note": "东方电缆（海外收入约30%）、潍柴动力（出口导向）等重仓股直接受中美关税影响；2026年4月关税摩擦已导致单日-2.26%，近1周排名后25%" },
-      { "type": "规模偏小风险",     "level": "low",    "stars": 2, "maxStars": 5, "note": "7.39亿规模属中等偏小；若规模跌破3亿需警惕清盘风险，当前距安全边际尚有余量但需持续监控" },
-      { "type": "经理业绩分化风险", "level": "low",    "stars": 2, "maxStars": 5, "note": "郑澄然管理的广发兴诚混合A（-49.97%）、广发诚享混合A（-43.78%）在2021-2022年熊市表现极差；本基金业绩优异部分得益于2024年6月低位成立的时间优势" }
-    ],
-    "volatilityNote": "年化波动率28.87%（近1年），是沪深300（约18-20%）的1.5倍；制造业高度集中使日内涨跌±5%较常见，需具备较强心理承受力",
-    "sharpeNote": "近1年夏普3.29极为优秀，但需注意：该值主要反映2024-2026年整体上涨周期表现，不包含熊市数据；在完整周期（含熊市）中的夏普率待验证",
-    "drawdownNote": "最大回撤数据未在公开渠道披露（成立<2年）。2026年5月初从净值高点约2.04元回调至1.9590，幅度约-4%；完整最大回撤历史有待更长期观察",
-    "excessNote": "近1年超额+52.20%（96.47%-44.27%），是同类均值的2.18倍；超额来源估算：行业轮动Alpha约60%+个股选择Alpha约30%+市场Beta约10%"
-  },
-  "holdings": {
-    "date": "2026-03-31",
-    "stockRatio": 93.0,
-    "cashRatio": 6.5,
-    "top10Total": 49.68,
-    "concentrationLabel": "中度集中型（行业极度集中）",
-    "top10": [
-      { "rank": 1,  "code": "600875", "name": "东方电气", "industry": "电力设备",   "ratio": 6.98, "policyNote": "燃气轮机、风电、水电、核电设备龙头；能源转型核心装备供应商，受益于全球清洁能源大建设和电力设备出口订单" },
-      { "rank": 2,  "code": "603806", "name": "福斯特",   "industry": "新能源材料", "ratio": 5.93, "policyNote": "光伏背板和封装胶膜全球领先；「反内卷」政策推动光伏行业整合，龙头企业市场集中度受益，2026年3月光伏装机持续放量" },
-      { "rank": 3,  "code": "603606", "name": "东方电缆", "industry": "电缆",       "ratio": 5.36, "policyNote": "海底电缆龙头；全球海上风电高速建设期的核心基础设施供应商，订单能见度高；短期承受中美关税压力（海外收入约30%）" },
-      { "rank": 4,  "code": "603308", "name": "应流股份", "industry": "航空航天",   "ratio": 5.31, "policyNote": "高端铸件（航空发动机叶片、燃气轮机零部件）；国产商业航天+低空经济爆发，高端铸件需求持续提升；国产替代典型标的" },
-      { "rank": 5,  "code": "000534", "name": "万泽股份", "industry": "特种合金",   "ratio": 4.76, "policyNote": "镍基超合金国产替代；航空/航天/燃气轮机关键材料，十五五「卡脖子」技术突破重点领域，国家产业基金持续支持" },
-      { "rank": 6,  "code": "603067", "name": "振华股份", "industry": "电池材料",   "ratio": 4.75, "policyNote": "电解金属锰（EMM）龙头；锂电正极材料（三元）关键原料，受益于新能源汽车产销持续扩张和储能市场爆发" },
-      { "rank": 7,  "code": "000338", "name": "潍柴动力", "industry": "动力系统",   "ratio": 4.40, "policyNote": "重型发动机+氢燃料电池双主业；SOFC固态氧化物燃料电池商业化提速，国家氢能产业规划2025年延续补贴支持" },
-      { "rank": 8,  "code": "300750", "name": "宁德时代", "industry": "动力电池",   "ratio": 4.33, "policyNote": "全球锂离子电池龙头，固态电池领先者；固态电池「揭榜挂帅」国家重点研发支持，2026年3月装机需求持续旺盛" },
-      { "rank": 9,  "code": "002738", "name": "中矿资源", "industry": "锂矿开采",   "ratio": 4.14, "policyNote": "锂云母采选加工，锂资源自给战略；新能源上游原材料安全战略，锂价低迷期布局，待供需修复受益" },
-      { "rank": 10, "code": "600988", "name": "赤峰黄金", "industry": "贵金属",     "ratio": 3.72, "policyNote": "黄金矿业；全球去美元化+地缘政治避险需求驱动黄金价格持续上行；与碳中和主题关联度低，更多是组合避险配置" }
-    ],
-    "sectors": [
-      { "name": "制造业（能源设备+航空铸件）", "value": 70.56, "color": "#4492F7" },
-      { "name": "采矿业（锂矿+黄金）",         "value": 5.83,  "color": "#D4A017" },
-      { "name": "信息技术",                     "value": 0.21,  "color": "#9B72F0" },
-      { "name": "现金及其他",                   "value": 23.40, "color": "#21262d" }
-    ],
-    "policyLinks": [
-      { "sector": "清洁能源装备出口",  "stocks": "东方电气、东方电缆", "policyNote": "全球能源转型投资持续，东方电气风电/水电设备和东方电缆海底电缆受益于海外清洁能源大建设，2026年订单能见度高", "color": "#2DC78E" },
-      { "sector": "高端制造国产替代",  "stocks": "应流股份、万泽股份", "policyNote": "十五五「科技自立自强」核心领域；航空发动机铸件和镍基超合金是「卡脖子」关键材料，国产替代空间巨大，政策支持确定性高", "color": "#4492F7" },
-      { "sector": "新能源全产业链",    "stocks": "福斯特、振华股份、宁德时代、潍柴动力", "policyNote": "光伏封装材料+锰（电池材料）+动力电池+氢燃料电池，覆盖新能源从材料到终端的完整链条；双碳目标驱动长期景气", "color": "#F7C744" },
-      { "sector": "贵金属避险",        "stocks": "赤峰黄金", "policyNote": "全球央行增持黄金+地缘政治风险溢价上升；虽与碳中和主题无关，但作为组合风险对冲有一定合理性", "color": "#ef4444" }
+    "totalInflectionPoints": 15,
+    "stages": [
+      {
+        "id": 1,
+        "name": "建仓与首轮光伏主题启动",
+        "emoji": "🌞",
+        "period": "2024-06-12 → 2024-10-08",
+        "returnPct": 25.26,
+        "hs300": 13.0,
+        "excess": 12.26,
+        "color": "#2DC78E"
+      },
+      {
+        "id": 2,
+        "name": "高位急跌与仓位轮动",
+        "emoji": "⚡",
+        "period": "2024-10-08 → 2024-10-17",
+        "returnPct": -15.41,
+        "hs300": -6.0,
+        "excess": -9.41,
+        "color": "#F54E48"
+      },
+      {
+        "id": 3,
+        "name": "短暂反弹",
+        "emoji": "🔁",
+        "period": "2024-10-17 → 2024-10-25",
+        "returnPct": 19.11,
+        "hs300": 8.0,
+        "excess": 11.11,
+        "color": "#58A6FF"
+      },
+      {
+        "id": 4,
+        "name": "主力回撤期",
+        "emoji": "📉",
+        "period": "2024-10-25 → 2025-01-27",
+        "returnPct": -21.25,
+        "hs300": -8.0,
+        "excess": -13.25,
+        "color": "#F54E48"
+      },
+      {
+        "id": 5,
+        "name": "局部反弹探路",
+        "emoji": "🌤️",
+        "period": "2025-01-27 → 2025-03-06",
+        "returnPct": 13.8,
+        "hs300": 6.0,
+        "excess": 7.8,
+        "color": "#58A6FF"
+      },
+      {
+        "id": 6,
+        "name": "关税冲击探底",
+        "emoji": "🌪️",
+        "period": "2025-03-06 → 2025-04-07",
+        "returnPct": -17.31,
+        "hs300": -5.0,
+        "excess": -12.31,
+        "color": "#F54E48"
+      },
+      {
+        "id": 7,
+        "name": "历史性主升浪",
+        "emoji": "🚀",
+        "period": "2025-04-07 → 2025-10-09",
+        "returnPct": 71.6,
+        "hs300": 24.0,
+        "excess": 47.6,
+        "color": "#2DC78E"
+      },
+      {
+        "id": 8,
+        "name": "高位震荡与策略调整",
+        "emoji": "🔄",
+        "period": "2025-10-09 → 2026-02-02",
+        "returnPct": 0.79,
+        "hs300": 5.0,
+        "excess": -4.21,
+        "color": "#D4A017"
+      },
+      {
+        "id": 9,
+        "name": "核电/特材再创新高",
+        "emoji": "⚙️",
+        "period": "2026-02-02 → 2026-05-13",
+        "returnPct": 22.97,
+        "hs300": 8.5,
+        "excess": 14.47,
+        "color": "#2DC78E"
+      }
     ]
   },
   "managers": {
     "current": {
+      "managerId": "30699974",
+      "allManagerIds": [
+        "30699974"
+      ],
       "name": "郑澄然",
-      "startDate": "2024-06-12",
-      "tenure": "约23个月（1年11个月）",
-      "tenureReturn": 105.25,
-      "peerAvgReturn": null,
-      "rankInPeer": 479,
-      "rankTotal": 4515,
-      "education": "硕士研究生",
-      "experience": "2020年5月首只基金（广发鑫享灵活配置），累计任职约5年355天；12只基金在管，总规模94.28亿元；擅长行业轮动，2025年精准从光伏切换至高端制造",
+      "experience": "10.7年（证券从业）",
       "fundCount": 12,
       "totalScale": 94.28,
+      "title": "灵活策略团队负责人",
+      "education": "金融学硕士；深度研究出身",
+      "joinDate": "约2015",
+      "manageDate": "2024-06-12",
+      "manageYears": 10.7,
+      "style": "典型的叙事驱动型行业轮动选手，围绕政策红利和宏观产业叙事快速切赛道，顺风时 Alpha 极强，逆风时波动和换手也很大。",
+      "bestReturn": 108.44,
+      "worstReturn": -50.67,
       "historicalFunds": [
-        { "name": "广发碳中和主题混合发起式C", "code": "018419", "tenure": "2024-06至今（约23个月）",  "return": 105.25,  "peerAvg": null, "alpha": null, "rank": 985,  "rankTotal": 7680, "percentile": 12.8, "grade": "good", "isCurrent": true  },
-        { "name": "广发碳中和主题混合发起式A", "code": "018418", "tenure": "2024-06至今（同期）",      "return": 107.08,  "peerAvg": null, "alpha": null, "rank": 942,  "rankTotal": 7680, "percentile": 12.3, "grade": "good", "isCurrent": true  },
-        { "name": "广发鑫享灵活配置混合A",     "code": "002132", "tenure": "2020-05至今",             "return": 53.67,   "peerAvg": null, "alpha": null, "rank": 1317, "rankTotal": 2920, "percentile": 45.1, "grade": "ok",   "isCurrent": true  },
-        { "name": "广发高端制造股票A",         "code": "004997", "tenure": "2020-07至今",             "return": -20.72,  "peerAvg": null, "alpha": null, "rank": 1272, "rankTotal": 1397, "percentile": 91.1, "grade": "bad",  "isCurrent": true  },
-        { "name": "广发兴诚混合A",             "code": "011121", "tenure": "2021-01至今",             "return": -49.97,  "peerAvg": null, "alpha": null, "rank": 3435, "rankTotal": 3499, "percentile": 98.2, "grade": "bad",  "isCurrent": true  },
-        { "name": "广发诚享混合A",             "code": "011479", "tenure": "2021-02至今",             "return": -43.78,  "peerAvg": null, "alpha": null, "rank": 3461, "rankTotal": 3636, "percentile": 95.2, "grade": "bad",  "isCurrent": true  },
-        { "name": "广发成长新动能混合C",       "code": "013711", "tenure": "2022-10至今",             "return": -21.70,  "peerAvg": null, "alpha": null, "rank": 6064, "rankTotal": 6225, "percentile": 97.4, "grade": "bad",  "isCurrent": true  }
+        {
+          "name": "广发碳中和主题混合发起式A",
+          "code": "018418",
+          "type": "偏股主题",
+          "tenure": "2024-06-12 ~ 至今",
+          "return": 108.44,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "广发鑫享灵活配置混合A",
+          "code": "002132",
+          "type": "灵活配置",
+          "tenure": "2020-05-20 ~ 至今",
+          "return": 53.28,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "广发高端制造股票A",
+          "code": "004997",
+          "type": "股票主题",
+          "tenure": "2020-07-23 ~ 至今",
+          "return": -19.93,
+          "grade": "weak",
+          "isCurrent": true
+        },
+        {
+          "name": "广发高端制造股票C",
+          "code": "010160",
+          "type": "股票主题",
+          "tenure": "2020-09-16 ~ 至今",
+          "return": -27.29,
+          "grade": "weak",
+          "isCurrent": true
+        },
+        {
+          "name": "广发鑫享灵活配置混合C",
+          "code": "015322",
+          "type": "灵活配置",
+          "tenure": "2022-03-11 ~ 至今",
+          "return": -34.86,
+          "grade": "weak",
+          "isCurrent": true
+        },
+        {
+          "name": "广发兴诚混合C",
+          "code": "011130",
+          "type": "混合",
+          "tenure": "2021-01-06 ~ 至今",
+          "return": -50.67,
+          "grade": "weak",
+          "isCurrent": true
+        },
+        {
+          "name": "广发诚享混合C",
+          "code": "011480",
+          "type": "混合",
+          "tenure": "2021-02-08 ~ 至今",
+          "return": -43.57,
+          "grade": "weak",
+          "isCurrent": true
+        }
       ],
-      "managerId": "30699974"
+      "philosophy": [
+        {
+          "label": "核心理念",
+          "text": "聚焦政策红利与宏观叙事驱动的爆发性赛道，用行业比较和主题切换寻找 0-1 的突破方向。"
+        },
+        {
+          "label": "选股方法",
+          "text": "自上而下先确定主叙事，再挑产业链核心龙头或弹性最大的受益标的，例如燃气轮机就配置东方电气 + 应流股份。"
+        },
+        {
+          "label": "仓位管理",
+          "text": "股票仓位通常维持 60%-80%，并保留 20% 左右现金头寸应对高波动阶段，体现出一定防御意识。"
+        },
+        {
+          "label": "风格稳定性",
+          "text": "高度不稳定，7期持仓完成了从光伏到风电、电缆、锂矿再到核电/燃气轮机的多次大换仓。"
+        }
+      ],
+      "consistencyAudit": [
+        {
+          "period": "2026Q1 季报 · 全球缺电主线",
+          "label": "高度一致",
+          "result": "pass",
+          "stated": "围绕全球缺电方向捕捉储能、海上风电、燃气轮机等投资机会，燃气轮机是国内企业 0-1 的突破。",
+          "actual": "前十持仓中东方电气、应流股份、东方电缆、宁德时代、中矿资源等高度对应燃气轮机 + 海缆 + 储能叙事。",
+          "evaluation": "叙事框架与实际持仓几乎一一映射，是郑澄然言行一致性最清晰的季度之一。"
+        },
+        {
+          "period": "2025Q2 季报 · 低谷坚守新能源",
+          "label": "基本一致",
+          "result": "pass",
+          "stated": "在市场低谷期仍围绕能源需求和新能源主线配置，不因短期情绪大幅撤退。",
+          "actual": "阳光电源、锦浪科技、东方电缆、亿纬锂能、爱旭股份等仍占据核心仓位，为后续主升浪预留了仓位基础。",
+          "evaluation": "低谷期没有完全切离主线，方向判断后续被市场验证。"
+        },
+        {
+          "period": "2025Q4 调仓锂矿资源",
+          "label": "有争议",
+          "result": "warn",
+          "stated": "以碳酸锂紧缺和资源涨价逻辑解释转向锂矿。",
+          "actual": "大中矿业、天华新能、中矿资源、盛新锂能快速进入前五，引发投资者对主题漂移的广泛质疑。",
+          "evaluation": "逻辑并非完全不通，但与基金长期的碳中和/能源主线认知摩擦明显。"
+        }
+      ],
+      "abilityProfile": {
+        "best": "宏观叙事识别与行业主题轮动能力强，能在 AI 能源与碳中和叙事强化期拿到极高超额收益。",
+        "worst": "多基金管理质量分化极大，高换手带来的策略连贯性弱，回撤控制也偏被动。",
+        "goodEnv": [
+          "政策密集催化期",
+          "新叙事爆发初期",
+          "行业主线清晰的单边趋势市"
+        ],
+        "badEnv": [
+          "主题退潮期",
+          "高估值压缩期",
+          "缺乏明确主线的震荡市"
+        ]
+      },
+      "strengths": [
+        "宏观叙事感知强",
+        "主题轮动果断",
+        "在顺风赛道里 Alpha 能力很强",
+        "季报表述与核心仓位匹配度高"
+      ],
+      "weaknesses": [
+        "多基金业绩分化严重",
+        "换手率高",
+        "高位追踪难度大",
+        "管理疲劳风险已触发"
+      ]
     },
     "history": [
-      { "name": "郑澄然", "start": "2024-06-12", "end": null, "tenure": "约23个月", "return": 105.25, "note": "成立即担任，从未更换；2025年精准从光伏切换至高端制造，捕捉+96.47%年度涨幅；但历史管理基金业绩高度分化（广发兴诚混合A同期-49.97%），本基金业绩有2024年6月低位成立的时间优势" }
+      {
+        "name": "郑澄然",
+        "role": "创设以来独任",
+        "start": "2024-06-12",
+        "end": null,
+        "tenure": "约1年11个月",
+        "return": 108.44,
+        "note": "自基金成立以来一直独立管理，是基金所有风格判断的核心锚点。"
+      }
+    ]
+  },
+  "navHistory": [
+    {
+      "date": "2024-06-12",
+      "nav": 1.0
+    },
+    {
+      "date": "2024-06-14",
+      "nav": 0.9999
+    },
+    {
+      "date": "2024-06-21",
+      "nav": 0.9972
+    },
+    {
+      "date": "2024-06-28",
+      "nav": 0.9808
+    },
+    {
+      "date": "2024-06-30",
+      "nav": 0.9808
+    },
+    {
+      "date": "2024-07-05",
+      "nav": 0.9783
+    },
+    {
+      "date": "2024-07-12",
+      "nav": 1.0062
+    },
+    {
+      "date": "2024-07-19",
+      "nav": 1.0433
+    },
+    {
+      "date": "2024-07-26",
+      "nav": 1.0374
+    },
+    {
+      "date": "2024-08-02",
+      "nav": 1.0312
+    },
+    {
+      "date": "2024-08-09",
+      "nav": 1.037
+    },
+    {
+      "date": "2024-08-12",
+      "nav": 1.0329
+    },
+    {
+      "date": "2024-08-13",
+      "nav": 1.0402
+    },
+    {
+      "date": "2024-08-14",
+      "nav": 1.0343
+    },
+    {
+      "date": "2024-08-15",
+      "nav": 1.0382
+    },
+    {
+      "date": "2024-08-16",
+      "nav": 1.0326
+    },
+    {
+      "date": "2024-08-19",
+      "nav": 1.0331
+    },
+    {
+      "date": "2024-08-20",
+      "nav": 1.0303
+    },
+    {
+      "date": "2024-08-21",
+      "nav": 1.0234
+    },
+    {
+      "date": "2024-08-22",
+      "nav": 1.015
+    },
+    {
+      "date": "2024-08-23",
+      "nav": 1.0134
+    },
+    {
+      "date": "2024-08-26",
+      "nav": 1.0195
+    },
+    {
+      "date": "2024-08-27",
+      "nav": 1.0172
+    },
+    {
+      "date": "2024-08-28",
+      "nav": 1.0132
+    },
+    {
+      "date": "2024-08-29",
+      "nav": 1.0384
+    },
+    {
+      "date": "2024-08-30",
+      "nav": 1.0421
+    },
+    {
+      "date": "2024-09-02",
+      "nav": 1.0307
+    },
+    {
+      "date": "2024-09-03",
+      "nav": 1.0355
+    },
+    {
+      "date": "2024-09-04",
+      "nav": 1.033
+    },
+    {
+      "date": "2024-09-05",
+      "nav": 1.0391
+    },
+    {
+      "date": "2024-09-06",
+      "nav": 1.0274
+    },
+    {
+      "date": "2024-09-09",
+      "nav": 1.0254
+    },
+    {
+      "date": "2024-09-10",
+      "nav": 1.0335
+    },
+    {
+      "date": "2024-09-11",
+      "nav": 1.0498
+    },
+    {
+      "date": "2024-09-12",
+      "nav": 1.0457
+    },
+    {
+      "date": "2024-09-13",
+      "nav": 1.031
+    },
+    {
+      "date": "2024-09-18",
+      "nav": 1.0251
+    },
+    {
+      "date": "2024-09-19",
+      "nav": 1.0329
+    },
+    {
+      "date": "2024-09-20",
+      "nav": 1.0223
+    },
+    {
+      "date": "2024-09-23",
+      "nav": 1.0078
+    },
+    {
+      "date": "2024-09-24",
+      "nav": 1.0249
+    },
+    {
+      "date": "2024-09-25",
+      "nav": 1.0238
+    },
+    {
+      "date": "2024-09-26",
+      "nav": 1.044
+    },
+    {
+      "date": "2024-09-27",
+      "nav": 1.0972
+    },
+    {
+      "date": "2024-09-30",
+      "nav": 1.1773
+    },
+    {
+      "date": "2024-10-08",
+      "nav": 1.2526
+    },
+    {
+      "date": "2024-10-09",
+      "nav": 1.131
+    },
+    {
+      "date": "2024-10-10",
+      "nav": 1.135
+    },
+    {
+      "date": "2024-10-11",
+      "nav": 1.1018
+    },
+    {
+      "date": "2024-10-14",
+      "nav": 1.1119
+    },
+    {
+      "date": "2024-10-15",
+      "nav": 1.095
+    },
+    {
+      "date": "2024-10-16",
+      "nav": 1.066
+    },
+    {
+      "date": "2024-10-17",
+      "nav": 1.0596
+    },
+    {
+      "date": "2024-10-18",
+      "nav": 1.0951
+    },
+    {
+      "date": "2024-10-21",
+      "nav": 1.1198
+    },
+    {
+      "date": "2024-10-22",
+      "nav": 1.1444
+    },
+    {
+      "date": "2024-10-23",
+      "nav": 1.1989
+    },
+    {
+      "date": "2024-10-24",
+      "nav": 1.1613
+    },
+    {
+      "date": "2024-10-25",
+      "nav": 1.2621
+    },
+    {
+      "date": "2024-10-28",
+      "nav": 1.2352
+    },
+    {
+      "date": "2024-10-29",
+      "nav": 1.1965
+    },
+    {
+      "date": "2024-10-30",
+      "nav": 1.1945
+    },
+    {
+      "date": "2024-10-31",
+      "nav": 1.2159
+    },
+    {
+      "date": "2024-11-01",
+      "nav": 1.1861
+    },
+    {
+      "date": "2024-11-04",
+      "nav": 1.1812
+    },
+    {
+      "date": "2024-11-05",
+      "nav": 1.2027
+    },
+    {
+      "date": "2024-11-06",
+      "nav": 1.1977
+    },
+    {
+      "date": "2024-11-07",
+      "nav": 1.186
+    },
+    {
+      "date": "2024-11-08",
+      "nav": 1.2012
+    },
+    {
+      "date": "2024-11-11",
+      "nav": 1.2306
+    },
+    {
+      "date": "2024-11-12",
+      "nav": 1.2233
+    },
+    {
+      "date": "2024-11-13",
+      "nav": 1.2246
+    },
+    {
+      "date": "2024-11-14",
+      "nav": 1.2072
+    },
+    {
+      "date": "2024-11-15",
+      "nav": 1.1838
+    },
+    {
+      "date": "2024-11-18",
+      "nav": 1.1504
+    },
+    {
+      "date": "2024-11-19",
+      "nav": 1.1795
+    },
+    {
+      "date": "2024-11-20",
+      "nav": 1.1745
+    },
+    {
+      "date": "2024-11-21",
+      "nav": 1.1718
+    },
+    {
+      "date": "2024-11-22",
+      "nav": 1.1254
+    },
+    {
+      "date": "2024-11-25",
+      "nav": 1.1305
+    },
+    {
+      "date": "2024-11-26",
+      "nav": 1.1318
+    },
+    {
+      "date": "2024-11-27",
+      "nav": 1.1505
+    },
+    {
+      "date": "2024-11-28",
+      "nav": 1.1474
+    },
+    {
+      "date": "2024-11-29",
+      "nav": 1.1691
+    },
+    {
+      "date": "2024-12-02",
+      "nav": 1.1817
+    },
+    {
+      "date": "2024-12-03",
+      "nav": 1.1817
+    },
+    {
+      "date": "2024-12-04",
+      "nav": 1.1533
+    },
+    {
+      "date": "2024-12-05",
+      "nav": 1.1499
+    },
+    {
+      "date": "2024-12-06",
+      "nav": 1.1533
+    },
+    {
+      "date": "2024-12-09",
+      "nav": 1.1422
+    },
+    {
+      "date": "2024-12-10",
+      "nav": 1.1392
+    },
+    {
+      "date": "2024-12-11",
+      "nav": 1.1398
+    },
+    {
+      "date": "2024-12-12",
+      "nav": 1.1467
+    },
+    {
+      "date": "2024-12-13",
+      "nav": 1.1252
+    },
+    {
+      "date": "2024-12-16",
+      "nav": 1.1074
+    },
+    {
+      "date": "2024-12-17",
+      "nav": 1.1008
+    },
+    {
+      "date": "2024-12-18",
+      "nav": 1.0966
+    },
+    {
+      "date": "2024-12-19",
+      "nav": 1.0917
+    },
+    {
+      "date": "2024-12-20",
+      "nav": 1.0852
+    },
+    {
+      "date": "2024-12-23",
+      "nav": 1.077
+    },
+    {
+      "date": "2024-12-24",
+      "nav": 1.0969
+    },
+    {
+      "date": "2024-12-25",
+      "nav": 1.089
+    },
+    {
+      "date": "2024-12-26",
+      "nav": 1.089
+    },
+    {
+      "date": "2024-12-27",
+      "nav": 1.0725
+    },
+    {
+      "date": "2024-12-30",
+      "nav": 1.0711
+    },
+    {
+      "date": "2024-12-31",
+      "nav": 1.0499
+    },
+    {
+      "date": "2025-01-02",
+      "nav": 1.0285
+    },
+    {
+      "date": "2025-01-03",
+      "nav": 1.0161
+    },
+    {
+      "date": "2025-01-06",
+      "nav": 1.0238
+    },
+    {
+      "date": "2025-01-07",
+      "nav": 1.0271
+    },
+    {
+      "date": "2025-01-08",
+      "nav": 1.0255
+    },
+    {
+      "date": "2025-01-09",
+      "nav": 1.021
+    },
+    {
+      "date": "2025-01-10",
+      "nav": 0.998
+    },
+    {
+      "date": "2025-01-13",
+      "nav": 0.9983
+    },
+    {
+      "date": "2025-01-14",
+      "nav": 1.0216
+    },
+    {
+      "date": "2025-01-15",
+      "nav": 1.0294
+    },
+    {
+      "date": "2025-01-16",
+      "nav": 1.0372
+    },
+    {
+      "date": "2025-01-17",
+      "nav": 1.0359
+    },
+    {
+      "date": "2025-01-20",
+      "nav": 1.0369
+    },
+    {
+      "date": "2025-01-21",
+      "nav": 1.0233
+    },
+    {
+      "date": "2025-01-22",
+      "nav": 1.0239
+    },
+    {
+      "date": "2025-01-23",
+      "nav": 1.0079
+    },
+    {
+      "date": "2025-01-24",
+      "nav": 1.0244
+    },
+    {
+      "date": "2025-01-27",
+      "nav": 0.9939
+    },
+    {
+      "date": "2025-02-05",
+      "nav": 1.0002
+    },
+    {
+      "date": "2025-02-06",
+      "nav": 1.0242
+    },
+    {
+      "date": "2025-02-07",
+      "nav": 1.0606
+    },
+    {
+      "date": "2025-02-10",
+      "nav": 1.0529
+    },
+    {
+      "date": "2025-02-11",
+      "nav": 1.0369
+    },
+    {
+      "date": "2025-02-12",
+      "nav": 1.0448
+    },
+    {
+      "date": "2025-02-13",
+      "nav": 1.022
+    },
+    {
+      "date": "2025-02-14",
+      "nav": 1.0315
+    },
+    {
+      "date": "2025-02-17",
+      "nav": 1.0462
+    },
+    {
+      "date": "2025-02-18",
+      "nav": 1.0317
+    },
+    {
+      "date": "2025-02-19",
+      "nav": 1.0547
+    },
+    {
+      "date": "2025-02-20",
+      "nav": 1.0515
+    },
+    {
+      "date": "2025-02-21",
+      "nav": 1.1168
+    },
+    {
+      "date": "2025-02-24",
+      "nav": 1.1238
+    },
+    {
+      "date": "2025-02-25",
+      "nav": 1.1006
+    },
+    {
+      "date": "2025-02-26",
+      "nav": 1.1301
+    },
+    {
+      "date": "2025-02-27",
+      "nav": 1.1231
+    },
+    {
+      "date": "2025-02-28",
+      "nav": 1.0901
+    },
+    {
+      "date": "2025-03-03",
+      "nav": 1.1023
+    },
+    {
+      "date": "2025-03-04",
+      "nav": 1.0926
+    },
+    {
+      "date": "2025-03-05",
+      "nav": 1.1089
+    },
+    {
+      "date": "2025-03-06",
+      "nav": 1.1311
+    },
+    {
+      "date": "2025-03-07",
+      "nav": 1.1201
+    },
+    {
+      "date": "2025-03-10",
+      "nav": 1.1124
+    },
+    {
+      "date": "2025-03-11",
+      "nav": 1.1214
+    },
+    {
+      "date": "2025-03-12",
+      "nav": 1.1195
+    },
+    {
+      "date": "2025-03-13",
+      "nav": 1.1057
+    },
+    {
+      "date": "2025-03-14",
+      "nav": 1.1154
+    },
+    {
+      "date": "2025-03-17",
+      "nav": 1.119
+    },
+    {
+      "date": "2025-03-18",
+      "nav": 1.1285
+    },
+    {
+      "date": "2025-03-19",
+      "nav": 1.1223
+    },
+    {
+      "date": "2025-03-20",
+      "nav": 1.1175
+    },
+    {
+      "date": "2025-03-21",
+      "nav": 1.1208
+    },
+    {
+      "date": "2025-03-24",
+      "nav": 1.1205
+    },
+    {
+      "date": "2025-03-25",
+      "nav": 1.1017
+    },
+    {
+      "date": "2025-03-26",
+      "nav": 1.1062
+    },
+    {
+      "date": "2025-03-27",
+      "nav": 1.0966
+    },
+    {
+      "date": "2025-03-28",
+      "nav": 1.0828
+    },
+    {
+      "date": "2025-03-31",
+      "nav": 1.0645
+    },
+    {
+      "date": "2025-04-01",
+      "nav": 1.0692
+    },
+    {
+      "date": "2025-04-02",
+      "nav": 1.0703
+    },
+    {
+      "date": "2025-04-03",
+      "nav": 1.0433
+    },
+    {
+      "date": "2025-04-07",
+      "nav": 0.9353
+    },
+    {
+      "date": "2025-04-08",
+      "nav": 0.9466
+    },
+    {
+      "date": "2025-04-09",
+      "nav": 0.9647
+    },
+    {
+      "date": "2025-04-10",
+      "nav": 0.9749
+    },
+    {
+      "date": "2025-04-11",
+      "nav": 0.9757
+    },
+    {
+      "date": "2025-04-14",
+      "nav": 0.9892
+    },
+    {
+      "date": "2025-04-15",
+      "nav": 0.9828
+    },
+    {
+      "date": "2025-04-16",
+      "nav": 0.9717
+    },
+    {
+      "date": "2025-04-17",
+      "nav": 0.9717
+    },
+    {
+      "date": "2025-04-18",
+      "nav": 0.9825
+    },
+    {
+      "date": "2025-04-21",
+      "nav": 0.9904
+    },
+    {
+      "date": "2025-04-22",
+      "nav": 0.9856
+    },
+    {
+      "date": "2025-04-23",
+      "nav": 0.9943
+    },
+    {
+      "date": "2025-04-24",
+      "nav": 0.9864
+    },
+    {
+      "date": "2025-04-25",
+      "nav": 0.9932
+    },
+    {
+      "date": "2025-04-28",
+      "nav": 1.0041
+    },
+    {
+      "date": "2025-04-29",
+      "nav": 1.0061
+    },
+    {
+      "date": "2025-04-30",
+      "nav": 1.006
+    },
+    {
+      "date": "2025-05-06",
+      "nav": 1.0272
+    },
+    {
+      "date": "2025-05-07",
+      "nav": 1.0325
+    },
+    {
+      "date": "2025-05-08",
+      "nav": 1.0447
+    },
+    {
+      "date": "2025-05-09",
+      "nav": 1.0401
+    },
+    {
+      "date": "2025-05-12",
+      "nav": 1.0664
+    },
+    {
+      "date": "2025-05-13",
+      "nav": 1.0662
+    },
+    {
+      "date": "2025-05-14",
+      "nav": 1.0599
+    },
+    {
+      "date": "2025-05-15",
+      "nav": 1.0487
+    },
+    {
+      "date": "2025-05-16",
+      "nav": 1.0473
+    },
+    {
+      "date": "2025-05-19",
+      "nav": 1.0464
+    },
+    {
+      "date": "2025-05-20",
+      "nav": 1.0487
+    },
+    {
+      "date": "2025-05-21",
+      "nav": 1.0513
+    },
+    {
+      "date": "2025-05-22",
+      "nav": 1.0378
+    },
+    {
+      "date": "2025-05-23",
+      "nav": 1.0289
+    },
+    {
+      "date": "2025-05-26",
+      "nav": 1.0247
+    },
+    {
+      "date": "2025-05-27",
+      "nav": 1.0217
+    },
+    {
+      "date": "2025-05-28",
+      "nav": 1.0178
+    },
+    {
+      "date": "2025-05-29",
+      "nav": 1.0254
+    },
+    {
+      "date": "2025-05-30",
+      "nav": 1.0167
+    },
+    {
+      "date": "2025-06-03",
+      "nav": 1.0101
+    },
+    {
+      "date": "2025-06-04",
+      "nav": 1.023
+    },
+    {
+      "date": "2025-06-05",
+      "nav": 1.0443
+    },
+    {
+      "date": "2025-06-06",
+      "nav": 1.045
+    },
+    {
+      "date": "2025-06-09",
+      "nav": 1.0571
+    },
+    {
+      "date": "2025-06-10",
+      "nav": 1.056
+    },
+    {
+      "date": "2025-06-11",
+      "nav": 1.063
+    },
+    {
+      "date": "2025-06-12",
+      "nav": 1.0567
+    },
+    {
+      "date": "2025-06-13",
+      "nav": 1.047
+    },
+    {
+      "date": "2025-06-16",
+      "nav": 1.0554
+    },
+    {
+      "date": "2025-06-17",
+      "nav": 1.0502
+    },
+    {
+      "date": "2025-06-18",
+      "nav": 1.0568
+    },
+    {
+      "date": "2025-06-19",
+      "nav": 1.043
+    },
+    {
+      "date": "2025-06-20",
+      "nav": 1.0391
+    },
+    {
+      "date": "2025-06-23",
+      "nav": 1.0476
+    },
+    {
+      "date": "2025-06-24",
+      "nav": 1.0635
+    },
+    {
+      "date": "2025-06-25",
+      "nav": 1.0737
+    },
+    {
+      "date": "2025-06-26",
+      "nav": 1.0633
+    },
+    {
+      "date": "2025-06-27",
+      "nav": 1.0708
+    },
+    {
+      "date": "2025-06-30",
+      "nav": 1.0949
+    },
+    {
+      "date": "2025-07-01",
+      "nav": 1.096
+    },
+    {
+      "date": "2025-07-02",
+      "nav": 1.1137
+    },
+    {
+      "date": "2025-07-03",
+      "nav": 1.1203
+    },
+    {
+      "date": "2025-07-04",
+      "nav": 1.1109
+    },
+    {
+      "date": "2025-07-07",
+      "nav": 1.1036
+    },
+    {
+      "date": "2025-07-08",
+      "nav": 1.1656
+    },
+    {
+      "date": "2025-07-09",
+      "nav": 1.1648
+    },
+    {
+      "date": "2025-07-10",
+      "nav": 1.1937
+    },
+    {
+      "date": "2025-07-11",
+      "nav": 1.1791
+    },
+    {
+      "date": "2025-07-14",
+      "nav": 1.18
+    },
+    {
+      "date": "2025-07-15",
+      "nav": 1.1654
+    },
+    {
+      "date": "2025-07-16",
+      "nav": 1.1675
+    },
+    {
+      "date": "2025-07-17",
+      "nav": 1.1741
+    },
+    {
+      "date": "2025-07-18",
+      "nav": 1.1688
+    },
+    {
+      "date": "2025-07-21",
+      "nav": 1.1838
+    },
+    {
+      "date": "2025-07-22",
+      "nav": 1.2247
+    },
+    {
+      "date": "2025-07-23",
+      "nav": 1.2053
+    },
+    {
+      "date": "2025-07-24",
+      "nav": 1.2266
+    },
+    {
+      "date": "2025-07-25",
+      "nav": 1.2227
+    },
+    {
+      "date": "2025-07-28",
+      "nav": 1.2046
+    },
+    {
+      "date": "2025-07-29",
+      "nav": 1.2314
+    },
+    {
+      "date": "2025-07-30",
+      "nav": 1.2349
+    },
+    {
+      "date": "2025-07-31",
+      "nav": 1.1981
+    },
+    {
+      "date": "2025-08-01",
+      "nav": 1.1952
+    },
+    {
+      "date": "2025-08-04",
+      "nav": 1.1916
+    },
+    {
+      "date": "2025-08-05",
+      "nav": 1.2075
+    },
+    {
+      "date": "2025-08-06",
+      "nav": 1.2067
+    },
+    {
+      "date": "2025-08-07",
+      "nav": 1.1949
+    },
+    {
+      "date": "2025-08-08",
+      "nav": 1.2074
+    },
+    {
+      "date": "2025-08-11",
+      "nav": 1.2196
+    },
+    {
+      "date": "2025-08-12",
+      "nav": 1.2194
+    },
+    {
+      "date": "2025-08-13",
+      "nav": 1.2309
+    },
+    {
+      "date": "2025-08-14",
+      "nav": 1.2242
+    },
+    {
+      "date": "2025-08-15",
+      "nav": 1.2802
+    },
+    {
+      "date": "2025-08-18",
+      "nav": 1.2913
+    },
+    {
+      "date": "2025-08-19",
+      "nav": 1.2751
+    },
+    {
+      "date": "2025-08-20",
+      "nav": 1.2789
+    },
+    {
+      "date": "2025-08-21",
+      "nav": 1.2712
+    },
+    {
+      "date": "2025-08-22",
+      "nav": 1.2758
+    },
+    {
+      "date": "2025-08-25",
+      "nav": 1.2946
+    },
+    {
+      "date": "2025-08-26",
+      "nav": 1.2894
+    },
+    {
+      "date": "2025-08-27",
+      "nav": 1.2595
+    },
+    {
+      "date": "2025-08-28",
+      "nav": 1.2763
+    },
+    {
+      "date": "2025-08-29",
+      "nav": 1.2921
+    },
+    {
+      "date": "2025-09-01",
+      "nav": 1.2991
+    },
+    {
+      "date": "2025-09-02",
+      "nav": 1.2749
+    },
+    {
+      "date": "2025-09-03",
+      "nav": 1.2992
+    },
+    {
+      "date": "2025-09-04",
+      "nav": 1.3198
+    },
+    {
+      "date": "2025-09-05",
+      "nav": 1.4147
+    },
+    {
+      "date": "2025-09-08",
+      "nav": 1.4162
+    },
+    {
+      "date": "2025-09-09",
+      "nav": 1.3996
+    },
+    {
+      "date": "2025-09-10",
+      "nav": 1.3595
+    },
+    {
+      "date": "2025-09-11",
+      "nav": 1.3887
+    },
+    {
+      "date": "2025-09-12",
+      "nav": 1.3845
+    },
+    {
+      "date": "2025-09-15",
+      "nav": 1.4072
+    },
+    {
+      "date": "2025-09-16",
+      "nav": 1.4176
+    },
+    {
+      "date": "2025-09-17",
+      "nav": 1.4369
+    },
+    {
+      "date": "2025-09-18",
+      "nav": 1.403
+    },
+    {
+      "date": "2025-09-19",
+      "nav": 1.3977
+    },
+    {
+      "date": "2025-09-22",
+      "nav": 1.391
+    },
+    {
+      "date": "2025-09-23",
+      "nav": 1.3974
+    },
+    {
+      "date": "2025-09-24",
+      "nav": 1.447
+    },
+    {
+      "date": "2025-09-25",
+      "nav": 1.4793
+    },
+    {
+      "date": "2025-09-26",
+      "nav": 1.4709
+    },
+    {
+      "date": "2025-09-29",
+      "nav": 1.5404
+    },
+    {
+      "date": "2025-09-30",
+      "nav": 1.5837
+    },
+    {
+      "date": "2025-10-09",
+      "nav": 1.605
+    },
+    {
+      "date": "2025-10-10",
+      "nav": 1.5512
+    },
+    {
+      "date": "2025-10-13",
+      "nav": 1.562
+    },
+    {
+      "date": "2025-10-14",
+      "nav": 1.5275
+    },
+    {
+      "date": "2025-10-15",
+      "nav": 1.5609
+    },
+    {
+      "date": "2025-10-16",
+      "nav": 1.5584
+    },
+    {
+      "date": "2025-10-17",
+      "nav": 1.4768
+    },
+    {
+      "date": "2025-10-20",
+      "nav": 1.4719
+    },
+    {
+      "date": "2025-10-21",
+      "nav": 1.4937
+    },
+    {
+      "date": "2025-10-22",
+      "nav": 1.4866
+    },
+    {
+      "date": "2025-10-23",
+      "nav": 1.4999
+    },
+    {
+      "date": "2025-10-24",
+      "nav": 1.5257
+    },
+    {
+      "date": "2025-10-27",
+      "nav": 1.5283
+    },
+    {
+      "date": "2025-10-28",
+      "nav": 1.5212
+    },
+    {
+      "date": "2025-10-29",
+      "nav": 1.6105
+    },
+    {
+      "date": "2025-10-30",
+      "nav": 1.6514
+    },
+    {
+      "date": "2025-10-31",
+      "nav": 1.6487
+    },
+    {
+      "date": "2025-11-03",
+      "nav": 1.6837
+    },
+    {
+      "date": "2025-11-04",
+      "nav": 1.6505
+    },
+    {
+      "date": "2025-11-05",
+      "nav": 1.7164
+    },
+    {
+      "date": "2025-11-06",
+      "nav": 1.7356
+    },
+    {
+      "date": "2025-11-07",
+      "nav": 1.7625
+    },
+    {
+      "date": "2025-11-10",
+      "nav": 1.7672
+    },
+    {
+      "date": "2025-11-11",
+      "nav": 1.776
+    },
+    {
+      "date": "2025-11-12",
+      "nav": 1.7408
+    },
+    {
+      "date": "2025-11-13",
+      "nav": 1.8253
+    },
+    {
+      "date": "2025-11-14",
+      "nav": 1.8106
+    },
+    {
+      "date": "2025-11-17",
+      "nav": 1.8234
+    },
+    {
+      "date": "2025-11-18",
+      "nav": 1.7708
+    },
+    {
+      "date": "2025-11-19",
+      "nav": 1.7779
+    },
+    {
+      "date": "2025-11-20",
+      "nav": 1.773
+    },
+    {
+      "date": "2025-11-21",
+      "nav": 1.6921
+    },
+    {
+      "date": "2025-11-24",
+      "nav": 1.6845
+    },
+    {
+      "date": "2025-11-25",
+      "nav": 1.7087
+    },
+    {
+      "date": "2025-11-26",
+      "nav": 1.7081
+    },
+    {
+      "date": "2025-11-27",
+      "nav": 1.7105
+    },
+    {
+      "date": "2025-11-28",
+      "nav": 1.7522
+    },
+    {
+      "date": "2025-12-01",
+      "nav": 1.7447
+    },
+    {
+      "date": "2025-12-02",
+      "nav": 1.7241
+    },
+    {
+      "date": "2025-12-03",
+      "nav": 1.7183
+    },
+    {
+      "date": "2025-12-04",
+      "nav": 1.711
+    },
+    {
+      "date": "2025-12-05",
+      "nav": 1.7311
+    },
+    {
+      "date": "2025-12-08",
+      "nav": 1.7509
+    },
+    {
+      "date": "2025-12-09",
+      "nav": 1.6508
+    },
+    {
+      "date": "2025-12-10",
+      "nav": 1.648
+    },
+    {
+      "date": "2025-12-11",
+      "nav": 1.6336
+    },
+    {
+      "date": "2025-12-12",
+      "nav": 1.6292
+    },
+    {
+      "date": "2025-12-15",
+      "nav": 1.6179
+    },
+    {
+      "date": "2025-12-16",
+      "nav": 1.5925
+    },
+    {
+      "date": "2025-12-17",
+      "nav": 1.654
+    },
+    {
+      "date": "2025-12-18",
+      "nav": 1.6023
+    },
+    {
+      "date": "2025-12-19",
+      "nav": 1.6166
+    },
+    {
+      "date": "2025-12-22",
+      "nav": 1.6403
+    },
+    {
+      "date": "2025-12-23",
+      "nav": 1.7004
+    },
+    {
+      "date": "2025-12-24",
+      "nav": 1.7113
+    },
+    {
+      "date": "2025-12-25",
+      "nav": 1.7018
+    },
+    {
+      "date": "2025-12-26",
+      "nav": 1.7798
+    },
+    {
+      "date": "2025-12-29",
+      "nav": 1.727
+    },
+    {
+      "date": "2025-12-30",
+      "nav": 1.7416
+    },
+    {
+      "date": "2025-12-31",
+      "nav": 1.7199
+    },
+    {
+      "date": "2026-01-05",
+      "nav": 1.7512
+    },
+    {
+      "date": "2026-01-06",
+      "nav": 1.7647
+    },
+    {
+      "date": "2026-01-07",
+      "nav": 1.752
+    },
+    {
+      "date": "2026-01-08",
+      "nav": 1.7121
+    },
+    {
+      "date": "2026-01-09",
+      "nav": 1.7037
+    },
+    {
+      "date": "2026-01-12",
+      "nav": 1.7246
+    },
+    {
+      "date": "2026-01-13",
+      "nav": 1.7468
+    },
+    {
+      "date": "2026-01-14",
+      "nav": 1.7052
+    },
+    {
+      "date": "2026-01-15",
+      "nav": 1.7052
+    },
+    {
+      "date": "2026-01-16",
+      "nav": 1.671
+    },
+    {
+      "date": "2026-01-19",
+      "nav": 1.6965
+    },
+    {
+      "date": "2026-01-20",
+      "nav": 1.6657
+    },
+    {
+      "date": "2026-01-21",
+      "nav": 1.709
+    },
+    {
+      "date": "2026-01-22",
+      "nav": 1.713
+    },
+    {
+      "date": "2026-01-23",
+      "nav": 1.765
+    },
+    {
+      "date": "2026-01-26",
+      "nav": 1.7317
+    },
+    {
+      "date": "2026-01-27",
+      "nav": 1.7351
+    },
+    {
+      "date": "2026-01-28",
+      "nav": 1.7081
+    },
+    {
+      "date": "2026-01-29",
+      "nav": 1.6795
+    },
+    {
+      "date": "2026-01-30",
+      "nav": 1.6572
+    },
+    {
+      "date": "2026-02-02",
+      "nav": 1.6177
+    },
+    {
+      "date": "2026-02-03",
+      "nav": 1.6819
+    },
+    {
+      "date": "2026-02-04",
+      "nav": 1.7041
+    },
+    {
+      "date": "2026-02-05",
+      "nav": 1.6495
+    },
+    {
+      "date": "2026-02-06",
+      "nav": 1.6683
+    },
+    {
+      "date": "2026-02-09",
+      "nav": 1.7131
+    },
+    {
+      "date": "2026-02-10",
+      "nav": 1.7242
+    },
+    {
+      "date": "2026-02-11",
+      "nav": 1.7357
+    },
+    {
+      "date": "2026-02-12",
+      "nav": 1.801
+    },
+    {
+      "date": "2026-02-13",
+      "nav": 1.7694
+    },
+    {
+      "date": "2026-02-24",
+      "nav": 1.8336
+    },
+    {
+      "date": "2026-02-25",
+      "nav": 1.8526
+    },
+    {
+      "date": "2026-02-26",
+      "nav": 1.9143
+    },
+    {
+      "date": "2026-02-27",
+      "nav": 1.9172
+    },
+    {
+      "date": "2026-03-02",
+      "nav": 1.8898
+    },
+    {
+      "date": "2026-03-03",
+      "nav": 1.8283
+    },
+    {
+      "date": "2026-03-04",
+      "nav": 1.8506
+    },
+    {
+      "date": "2026-03-05",
+      "nav": 1.9134
+    },
+    {
+      "date": "2026-03-06",
+      "nav": 1.9434
+    },
+    {
+      "date": "2026-03-09",
+      "nav": 1.9542
+    },
+    {
+      "date": "2026-03-10",
+      "nav": 1.9604
+    },
+    {
+      "date": "2026-03-11",
+      "nav": 1.9508
+    },
+    {
+      "date": "2026-03-12",
+      "nav": 1.9488
+    },
+    {
+      "date": "2026-03-13",
+      "nav": 1.907
+    },
+    {
+      "date": "2026-03-16",
+      "nav": 1.8953
+    },
+    {
+      "date": "2026-03-17",
+      "nav": 1.853
+    },
+    {
+      "date": "2026-03-18",
+      "nav": 1.8644
+    },
+    {
+      "date": "2026-03-19",
+      "nav": 1.8217
+    },
+    {
+      "date": "2026-03-20",
+      "nav": 1.8271
+    },
+    {
+      "date": "2026-03-23",
+      "nav": 1.7852
+    },
+    {
+      "date": "2026-03-24",
+      "nav": 1.8228
+    },
+    {
+      "date": "2026-03-25",
+      "nav": 1.8262
+    },
+    {
+      "date": "2026-03-26",
+      "nav": 1.7972
+    },
+    {
+      "date": "2026-03-27",
+      "nav": 1.8094
+    },
+    {
+      "date": "2026-03-30",
+      "nav": 1.8093
+    },
+    {
+      "date": "2026-03-31",
+      "nav": 1.7694
+    },
+    {
+      "date": "2026-04-01",
+      "nav": 1.814
+    },
+    {
+      "date": "2026-04-02",
+      "nav": 1.7931
+    },
+    {
+      "date": "2026-04-03",
+      "nav": 1.7776
+    },
+    {
+      "date": "2026-04-07",
+      "nav": 1.7629
+    },
+    {
+      "date": "2026-04-08",
+      "nav": 1.8448
+    },
+    {
+      "date": "2026-04-09",
+      "nav": 1.8508
+    },
+    {
+      "date": "2026-04-10",
+      "nav": 1.8954
+    },
+    {
+      "date": "2026-04-13",
+      "nav": 1.8925
+    },
+    {
+      "date": "2026-04-14",
+      "nav": 1.887
+    },
+    {
+      "date": "2026-04-15",
+      "nav": 1.865
+    },
+    {
+      "date": "2026-04-16",
+      "nav": 1.9106
+    },
+    {
+      "date": "2026-04-17",
+      "nav": 1.8845
+    },
+    {
+      "date": "2026-04-20",
+      "nav": 1.8901
+    },
+    {
+      "date": "2026-04-21",
+      "nav": 1.8979
+    },
+    {
+      "date": "2026-04-22",
+      "nav": 1.9161
+    },
+    {
+      "date": "2026-04-23",
+      "nav": 1.9201
+    },
+    {
+      "date": "2026-04-24",
+      "nav": 1.9165
+    },
+    {
+      "date": "2026-04-27",
+      "nav": 1.8944
+    },
+    {
+      "date": "2026-04-28",
+      "nav": 1.8753
+    },
+    {
+      "date": "2026-04-29",
+      "nav": 1.9499
+    },
+    {
+      "date": "2026-04-30",
+      "nav": 1.9494
+    },
+    {
+      "date": "2026-05-06",
+      "nav": 2.0171
+    },
+    {
+      "date": "2026-05-07",
+      "nav": 2.0043
+    },
+    {
+      "date": "2026-05-08",
+      "nav": 1.959
+    },
+    {
+      "date": "2026-05-11",
+      "nav": 1.9767
+    },
+    {
+      "date": "2026-05-12",
+      "nav": 1.9689
+    },
+    {
+      "date": "2026-05-13",
+      "nav": 1.9894
+    }
+  ],
+  "company": {
+    "name": "广发基金管理有限公司",
+    "shortName": "广发基金",
+    "foundYear": 2003,
+    "aumDesc": "约 16061.99 亿元，旗下 916 只基金，行业前五的头部公募平台。",
+    "industryRank": "国内头部公募基金公司，权益、固收、指数和主题产品线完整，平台能力强。",
+    "complianceResult": "通过",
+    "complianceSummary": "公司层面无重大合规污点，也未触发一票否决项；真正需要持续跟踪的是郑澄然在管 12 只基金带来的管理疲劳，以及广发基金 2026 年绩效考核收紧后的人事调整风险。",
+    "complianceChecks": [
+      {
+        "item": "黑名单核查",
+        "pass": true,
+        "detail": "广发基金与郑澄然均未命中黑名单。"
+      },
+      {
+        "item": "近3年重大处罚记录",
+        "pass": true,
+        "detail": "未检出公司层面的重大处罚记录。"
+      },
+      {
+        "item": "内幕交易传闻",
+        "pass": true,
+        "detail": "未发现针对郑澄然或 018419 的内幕交易相关公开记录。"
+      },
+      {
+        "item": "基金经理离任风险",
+        "pass": true,
+        "warn": true,
+        "detail": "2026-04-21 郑澄然已卸任 015904/015905，可能是优化精力的积极信号，但也说明公司正在推进人事与绩效调整。"
+      },
+      {
+        "item": "管理疲劳风险",
+        "pass": true,
+        "warn": true,
+        "detail": "当前在管 12 只基金，已超过 10 只预警阈值，是最主要的可见运营风险。"
+      }
     ]
   },
   "policy": {
     "tags": [
-      { "label": "高端制造",   "strength": "high",   "color": "#4492F7" },
-      { "label": "能源转型",   "strength": "high",   "color": "#2DC78E" },
-      { "label": "国产替代",   "strength": "high",   "color": "#F7C744" },
-      { "label": "氢能经济",   "strength": "medium", "color": "#0ea5e9" },
-      { "label": "碳中和",     "strength": "medium", "color": "#10b981" },
-      { "label": "贵金属避险", "strength": "low",    "color": "#D4A017" }
-    ],
-    "scenarios": [
       {
-        "type": "悲观",
-        "color": "#ef4444",
-        "probability": 20,
-        "trigger": "中美关税战全面升级，东方电缆海外合同取消，光伏「反内卷」失败价格再次大跌，市场风险偏好急剧下降",
-        "returnLow": -24,
-        "returnHigh": -6
+        "label": "碳中和红利",
+        "strength": "high",
+        "color": "#2DC78E"
       },
       {
-        "type": "基准",
-        "color": "#3b82f6",
-        "probability": 55,
-        "trigger": "中美关税谈判取得进展，新能源装机持续旺盛，高端制造国产替代有序推进",
-        "returnLow": 0,
-        "returnHigh": 12
+        "label": "AI 能源",
+        "strength": "high",
+        "color": "#F54E48"
       },
       {
-        "type": "乐观",
-        "color": "#10b981",
-        "probability": 25,
-        "trigger": "央行再次降准降息，政策大礼包再现，海上风电装机超预期，赤峰黄金受益金价创历史新高",
-        "returnLow": 12,
-        "returnHigh": 33
+        "label": "核电审批加速",
+        "strength": "high",
+        "color": "#4492F7"
+      },
+      {
+        "label": "储能扩容",
+        "strength": "medium",
+        "color": "#D4A017"
+      },
+      {
+        "label": "海上风电",
+        "strength": "medium",
+        "color": "#58A6FF"
+      },
+      {
+        "label": "贸易摩擦",
+        "strength": "low",
+        "color": "#E8813A"
       }
     ],
+    "industryOverview": [
+      {
+        "point": "全球 AI 能源需求",
+        "detail": "数据中心用电量爆发推动燃气轮机、储能和电网扩容成为新的全球能源主线。"
+      },
+      {
+        "point": "碳中和政策底座",
+        "detail": "十五五期间新能源、储能、核电和海上风电都处于政策红利兑现期。"
+      },
+      {
+        "point": "核电审批加速",
+        "detail": "国家能源局持续批量核准核电项目，设备链长期景气度明显抬升。"
+      },
+      {
+        "point": "储能与锂价修复",
+        "detail": "储能装机扩容仍然明确，锂矿与材料链具备阶段性弹性，但波动也更大。"
+      },
+      {
+        "point": "外部摩擦",
+        "detail": "中美贸易摩擦已阶段性缓和，但结构性博弈未解，新能源出口链仍有外部风险。"
+      }
+    ],
+    "cyclePeriod": "碳中和红利期",
+    "cycleReason": "碳中和、核电、储能与 AI 能源叙事在 2025-2030 年形成多主题共振，当前仍处于政策红利集中兑现而非衰退阶段。",
     "policyBreakdown": [
       {
-        "sector": "清洁能源装备与能源转型",
-        "color": "#2DC78E",
+        "sector": "AI 能源 / 燃气轮机",
         "icon": "⚡",
-        "horizon": "中长期（2-5年）",
-        "logic": "全球清洁能源投资持续扩大，东方电气（风电/水电/核电设备）和东方电缆（海底电缆）是能源转型基础设施的直接受益者；2026年3月光伏装机持续旺盛，福斯特订单持稳",
-        "stocks": ["东方电气（电力设备）", "东方电缆（海底电缆）", "福斯特（光伏封装材料）"]
+        "color": "#F54E48",
+        "logic": "AI 数据中心与全球电力短缺将燃气轮机需求从周期交易推升为 2030 年前的长期缺口。",
+        "stocks": [
+          "东方电气",
+          "应流股份",
+          "潍柴动力",
+          "万泽股份"
+        ]
       },
       {
-        "sector": "高端制造与航空航天国产替代",
-        "color": "#4492F7",
+        "sector": "核电 / 电力基础设施",
         "icon": "🏭",
-        "horizon": "中长期（3-5年）",
-        "logic": "十五五「科技自立自强」将航空发动机铸件和镍基超合金列为「卡脖子」技术突破重点；商业航天+低空经济立法落地为高端铸件提供增量需求，是2025年基金超额的主要来源",
-        "stocks": ["应流股份（航空铸件）", "万泽股份（镍基超合金）"]
+        "color": "#4492F7",
+        "logic": "核电审批常态化和海上风电建设共同抬升设备链和海缆的中长期确定性。",
+        "stocks": [
+          "东方电气",
+          "东方电缆"
+        ]
       },
       {
-        "sector": "新能源全链条与储能",
-        "color": "#F7C744",
+        "sector": "储能与能源材料",
         "icon": "🔋",
-        "horizon": "中期（1-3年）",
-        "logic": "从电池材料（振华股份/中矿资源）到动力电池（宁德时代）到氢能（潍柴动力），覆盖新能源完整产业链；固态电池「揭榜挂帅」和氢燃料商用车补贴延续提供持续催化",
-        "stocks": ["宁德时代（固态电池）", "振华股份（电池锰）", "潍柴动力（氢燃料电池）", "中矿资源（锂矿）"]
-      },
-      {
-        "sector": "贵金属与大宗资源避险",
-        "color": "#D4A017",
-        "icon": "🪙",
-        "horizon": "短中期（1-2年）",
-        "logic": "全球央行增持黄金+去美元化趋势+地缘政治风险溢价，金价长期上行逻辑清晰；赤峰黄金作为组合的风险对冲配置，在制造业受关税压制时起到一定对冲作用",
-        "stocks": ["赤峰黄金（黄金矿业）"]
+        "color": "#2DC78E",
+        "logic": "配储政策持续落地，储能与能源材料链仍有政策顺风，但同时承担更高波动。",
+        "stocks": [
+          "宁德时代",
+          "振华股份",
+          "中矿资源",
+          "福斯特"
+        ]
       }
     ],
     "fifteenFive": [
       {
-        "direction": "科技自立自强",
-        "color": "#4492F7",
-        "description": "十五五规划将航空发动机、镍基超合金等高端制造列为核心「卡脖子」突破方向；应流股份、万泽股份是政策最直接的受益标的",
-        "holdings": "应流股份（5.31%）、万泽股份（4.76%）"
-      },
-      {
-        "direction": "能源转型与双碳目标",
+        "direction": "新能源装机抬升",
         "color": "#2DC78E",
-        "description": "双碳目标推进下，海上风电、光伏装机持续放量；东方电气、东方电缆、福斯特是能源装备和材料端最确定受益者",
-        "holdings": "东方电气（6.98%）、东方电缆（5.36%）、福斯特（5.93%）"
+        "description": "新能源、储能和海上风电装机目标显著提升，政策支持期长达五年。",
+        "holdings": "宁德时代、东方电缆、福斯特、振华股份"
       },
       {
-        "direction": "氢能与新型储能",
-        "color": "#0ea5e9",
-        "description": "十五五将氢能列为重点发展方向，固态电池「揭榜挂帅」支持新型储能研发；潍柴动力SOFC+宁德时代固态电池是该方向最具代表性的持仓",
-        "holdings": "潍柴动力（4.40%）、宁德时代（4.33%）"
+        "direction": "核电与高端能源装备",
+        "color": "#4492F7",
+        "description": "核电审批常态化与能源安全诉求提升，设备链进入更长的资本开支周期。",
+        "holdings": "东方电气、应流股份、万泽股份、潍柴动力"
       },
       {
-        "direction": "资源安全与矿产自给",
-        "color": "#ef4444",
-        "description": "关键矿产资源安全是十五五重要战略支撑；中矿资源锂云母采选代表新能源上游原材料国产化方向",
-        "holdings": "中矿资源（4.14%）"
+        "direction": "AI 驱动电力需求扩张",
+        "color": "#F54E48",
+        "description": "AI 数据中心需求将缺电叙事拉长到 2030 年，使燃气轮机与电力设备成为新主线。",
+        "holdings": "东方电气、应流股份、储能链整体"
       }
     ],
     "longTermRisks": [
-      { "risk": "熊市防御能力未验证",   "signal": "基金成立于2024年6月低位，目前仅经历上升周期；郑澄然管理的广发兴诚混合A在2021-2022年熊市中亏损-49.97%（同类倒数2%），本基金熊市防御能力存疑", "level": "high"   },
-      { "risk": "主题漂移与信息披露",   "signal": "持仓已大幅偏离「碳中和」命名，含黄金矿业、航空铸件等无关标的；若投资者因名称误判风险敞口，可能引发大额赎回；也不符合本人投资组合的「碳中和」配置初衷", "level": "high"   },
-      { "risk": "中美贸易摩擦持续化",   "signal": "东方电缆（海外收入约30%）、潍柴动力（出口导向）等重仓股直接受关税影响；若2026年关税谈判破裂，这些标的将持续承压", "level": "medium" },
-      { "risk": "行业轮动精准性可持续性","signal": "基金经理2025年精准从光伏切换至高端制造，但预判难度高；若未来行业轮动判断失误（如2022年成长股大跌），超额将迅速消失", "level": "medium" },
-      { "risk": "规模偏小清盘风险",     "signal": "规模7.39亿，若市场下行引发赎回潮，规模跌破3亿将面临清盘风险；发起式基金通常有特殊保护机制，但规模稳定性需持续关注", "level": "low"    }
+      {
+        "risk": "高位估值回撤",
+        "signal": "当前 NAV 处于约 97% 历史分位，高位买入更容易遭遇 10%-20% 级别回撤。",
+        "level": "high"
+      },
+      {
+        "risk": "主题叙事失效",
+        "signal": "若 AI 能源或核电主线不再强化，基金的高换手主题策略可能迅速失去超额来源。",
+        "level": "high"
+      },
+      {
+        "risk": "经理调整",
+        "signal": "广发基金绩效考核收紧，郑澄然若因其他基金业绩问题被调整，会直接动摇本基金核心逻辑。",
+        "level": "medium"
+      },
+      {
+        "risk": "C类规模持续缩水",
+        "signal": "若份额继续显著下降，会强化被动卖出与流动性压力。",
+        "level": "medium"
+      },
+      {
+        "risk": "贸易摩擦反复",
+        "signal": "新能源及相关供应链在出口预期受挫时会再次承压。",
+        "level": "medium"
+      }
     ],
-    "timeline": [
-      { "year": "2024年6-9月",     "event": "成立建仓期，防守配置", "return": "净值缓慢爬升",          "note": "市场低位成立，初始建仓以大盘价值为主（含宁德时代等权重股），稳健起步", "type": "neutral"   },
-      { "year": "2024年9-12月",    "event": "924行情，净值大幅跃升", "return": "估算+50%~+70%",        "note": "924政策大礼包驱动A股历史性反弹，制造业+新能源重仓股大涨；成立时间优势显现", "type": "highlight" },
-      { "year": "2025年上半年",    "event": "主动调仓，从光伏转高端制造", "return": "估算-5%~+10%",   "note": "郑澄然提前减持传统光伏标的，加仓应流股份、万泽股份等航空铸件；调仓期短暂震荡，但为下半年爆发埋下伏笔", "type": "positive"  },
-      { "year": "2025年下半年",    "event": "高端制造爆发，净值翻倍", "return": "估算+40%~+60%",       "note": "高端制造国产替代+低空经济立法+氢能政策多催化共振；持仓完美契合政策方向，近1年+96.47%", "type": "highlight" },
-      { "year": "2026年4-5月初",   "event": "⚠️ 近期回调，关税压力",  "return": "近1周+0.49%（弱于同类）", "note": "中美关税摩擦升级，东方电缆等出口标的承压；净值从高点2.04回调至1.96，近1周/1月排名落后同类", "type": "warning"   }
+    "adaptability": [
+      {
+        "env": "🟢 政策催化 + 主题共振",
+        "perf": "最适合郑澄然的叙事轮动打法，也是基金最容易取得超额收益的环境。",
+        "color": "#2DC78E"
+      },
+      {
+        "env": "🟡 高位震荡 / 风格轮动",
+        "perf": "收益仍可能为正，但经理频繁换仓会抬高投资者跟随难度和组合波动。",
+        "color": "#D4A017"
+      },
+      {
+        "env": "🔴 主题退潮 / 外部冲击",
+        "perf": "当主线失效或贸易冲击再起时，基金容易出现 Beta 与 Alpha 双损。",
+        "color": "#F54E48"
+      }
+    ],
+    "scenarios": [
+      {
+        "type": "悲观",
+        "probability": 20,
+        "color": "#EF4444",
+        "returnLow": -20,
+        "returnHigh": -8,
+        "trigger": "高位估值压缩叠加 AI 能源叙事降温，或中美贸易摩擦再次全面升级。"
+      },
+      {
+        "type": "基准",
+        "probability": 50,
+        "color": "#3B82F6",
+        "returnLow": 5,
+        "returnHigh": 15,
+        "trigger": "碳中和与核电政策继续兑现，基金在高位震荡中维持正收益，但超额显著低于过去一年。"
+      },
+      {
+        "type": "乐观",
+        "probability": 30,
+        "color": "#10B981",
+        "returnLow": 18,
+        "returnHigh": 35,
+        "trigger": "AI 能源和燃气轮机主线继续强化，核电与储能产业链轮番共振，经理再次踩中主升浪。"
+      }
     ],
     "dualTimeline": [
       {
-        "period": "2024年6-9月",
-        "manager": { "event": "低位成立，大盘价值防守性建仓", "return": "缓慢建仓，净值小幅上行", "note": "郑澄然以防守姿态建仓，重仓宁德时代等大盘权重股；市场低迷期低位介入为后续暴涨奠定低成本基础", "type": "neutral" },
-        "market":  { "event": "A股低迷，双碳政策稳步推进", "note": "2024年上半年A股持续调整，但国家能源转型政策持续推进；新能源装机数据稳健但市场情绪低落，是宽基配置的历史底部区域", "type": "neutral" }
+        "period": "2024-06 ~ 2024-10",
+        "manager": {
+          "event": "光伏主题建仓并快速起势",
+          "return": "+25.26%",
+          "note": "初始组合高度集中于光伏估值修复。",
+          "type": "positive"
+        },
+        "market": {
+          "event": "924 行情抬升新能源情绪",
+          "note": "光伏阶段性修复，市场 Beta 明显贡献收益。",
+          "type": "bull"
+        }
       },
       {
-        "period": "2024年9-12月",
-        "manager": { "event": "🏆 924政策行情，持仓全面受益大涨", "return": "估算+50%~+70%（阶段性）", "note": "924政策大礼包触发A股历史性反弹，制造业+新能源重仓全面受益；成立6个月即迎来政策大行情，时间优势极大", "type": "highlight" },
-        "market":  { "event": "924政策大礼包，A股历史性反弹", "note": "降准50bp+LPR下调+SFISF5000亿元，924行情下上证指数单月涨幅超25%；是2024年A股最重要的历史节点", "type": "bull" }
+        "period": "2024-10 ~ 2025-04",
+        "manager": {
+          "event": "从光伏转风电/电缆，经历主力回撤",
+          "return": "-25.89%最大回撤",
+          "note": "换仓过渡和外部冲击叠加，是任期最痛苦的阶段。",
+          "type": "warning"
+        },
+        "market": {
+          "event": "光伏过剩 + 关税冲击",
+          "note": "新能源板块持续承压，Alpha 和 Beta 同时受损。",
+          "type": "bear"
+        }
       },
       {
-        "period": "2025年上半年",
-        "manager": { "event": "主动调仓：光伏→高端制造+航空铸件", "return": "震荡调整，相对平稳", "note": "提前判断光伏「反内卷」压力，减持福斯特，加仓应流股份、万泽股份；调仓期短暂震荡，但体现了前瞻性行业轮动能力", "type": "positive" },
-        "market":  { "event": "光伏「反内卷」政策落地，新能源结构分化", "note": "工信部推动光伏行业兼并重组，产能过剩问题凸显；市场从「所有新能源」分化为「优质能源设备/材料」，选股能力成为超额关键", "type": "neutral" }
+        "period": "2025-04 ~ 2025-10",
+        "manager": {
+          "event": "AI 能源主升浪精准兑现",
+          "return": "+71.60%",
+          "note": "郑澄然最强判断力阶段，收益和言行一致性都非常突出。",
+          "type": "highlight"
+        },
+        "market": {
+          "event": "关税缓和 + AI 能源叙事爆发",
+          "note": "储能、海缆和新能源链条同步转强，形成全年最强交易主线。",
+          "type": "bull"
+        }
       },
       {
-        "period": "2025年下半年",
-        "manager": { "event": "🏆 高端制造爆发，近1年+96.47%", "return": "估算+40%~+60%（阶段性）", "note": "低空经济立法、商业航天布局、氢能政策三重催化，应流/万泽/东方电气/东方电缆组合完美捕捉高端制造牛市；近1年同类前11%", "type": "highlight" },
-        "market":  { "event": "高端制造+国产替代全面爆发，中小盘牛市", "note": "低空经济成国家战略、大基金三期催化半导体+高端装备、氢能商业化突破；高端制造赛道在2025年成为市场最强主线之一", "type": "bull" }
+        "period": "2025-10 ~ 2026-02",
+        "manager": {
+          "event": "锂矿资源转向，高位震荡",
+          "return": "区间震荡",
+          "note": "收益没有失控，但主题漂移争议显著增加。",
+          "type": "neutral"
+        },
+        "market": {
+          "event": "高位轮动，主线分化",
+          "note": "市场仍有机会，但对经理踩点要求更高。",
+          "type": "neutral"
+        }
       },
       {
-        "period": "2026年4-5月",
-        "manager": { "event": "⚠️ 净值小幅回调，近1周排名后25%", "return": "近1周+0.49%（弱于同类+2.61%）", "note": "中美关税压力导致出口导向重仓股（东方电缆、潍柴动力）承压；净值从高点2.04回调至1.96，属正常涨幅后获利了结叠加关税担忧", "type": "warning" },
-        "market":  { "event": "中美关税摩擦升级，市场震荡", "note": "2026年4月特朗普关税上调引发全球风险偏好下降；出口导向型制造业承压，市场近期弱于科技/内需板块", "type": "bear" }
+        "period": "2026-02 ~ 2026-05",
+        "manager": {
+          "event": "再切燃气轮机 / 核电并创新高",
+          "return": "+22.97%",
+          "note": "围绕全球缺电主线形成更纯粹的能源供应链表达。",
+          "type": "positive"
+        },
+        "market": {
+          "event": "核电 / AI 能源叙事强化",
+          "note": "即便大盘并不强，能源主线仍能提供超额收益土壤。",
+          "type": "policy"
+        }
       }
     ],
-    "note": "广发碳中和主题混合发起式C的核心逻辑：郑澄然的行业轮动能力（2025年精准从光伏切换至高端制造）是近1年超额的主要来源；基金实质上是「高端制造+能源转型+资源」的主题混合基金，与「碳中和」名称有所偏差。核心风险：未经历完整熊市验证、主题漂移、行业集中度高（制造业70.56%）。"
+    "note": "018419 不是普通新能源主题基金，而是一个高度依赖宏观叙事和行业轮动节奏的高弹性主题工具。基金本身质地不错，但当前位置并不适合追高。"
   },
-  "exclusionCheck": [
-    { "item": "基金公司黑名单",         "pass": true,  "note": "广发基金不在黑名单，国内TOP10公募，合规经营，无重大监管处罚" },
-    { "item": "基金经理黑名单",         "pass": true,  "note": "郑澄然不在黑名单，执业资质正常" },
-    { "item": "规模过小（<1亿）",       "pass": true,  "note": "7.39亿元，超过1亿安全线；距3亿清盘警戒线尚有余量，但需持续监控" },
-    { "item": "成立不足1年",            "pass": true,  "note": "已成立约23个月（2024-06-12），超过1年基础门槛，但不满3年，历史验证不完整" },
-    { "item": "基金经理任职不足1年",    "pass": true,  "note": "郑澄然从成立即担任至今，在任23个月，从未更换" },
-    { "item": "近1年收益排名后50%",     "pass": true,  "note": "近1年排名479/4515（前10.6%），大幅领先同类" },
-    { "item": "费率总计>2%",            "pass": true,  "note": "管理费1.20%+托管费0.20%+销售服务费0.50%=1.90%/年，低于2%否决线" },
-    { "item": "行业集中度>70%",         "pass": false, "note": "制造业占净资产70.56%，单一行业接近且基本达到70%集中度警戒线；配合持仓主题漂移，整体风险集中问题突出" },
-    { "item": "主题严重背离基金名称",   "pass": false, "note": "名为「碳中和主题」，但含赤峰黄金（黄金矿业/避险）、应流股份（航空铸件）、万泽股份（镍基超合金）等与碳中和关联度低甚至无关的标的；实质为高端制造+资源混合基金" },
-    { "item": "基金经理历史业绩严重分化","pass": false, "note": "广发兴诚混合A（-49.97%，同类倒数2%）、广发诚享混合A（-43.78%）、广发成长新动能混合C（-21.70%）等在2021-2022年熊市表现极差；本基金业绩具有时间点优势（低位成立）" }
-  ],
   "scoring": {
-    "total": 72,
-    "dimensions": [
-      { "name": "历史业绩", "score": 9.5, "note": "近1年+96.47%（同类前10.6%），夏普3.29，成立以来翻倍+105.25%；但仅23个月历史，且成立于2024年6月低位，时间优势显著；不足：无完整年度数据，无熊市验证" },
-      { "name": "风险控制", "score": 6.0, "note": "夏普3.29来自顺风行情；波动率28.87%高于同类；行业集中度70.56%极高；郑澄然历史熊市管理（兴诚混合-49.97%）表明风控偏弱；最大回撤未公开" },
-      { "name": "持仓质量", "score": 5.0, "note": "「碳中和」名实不符，含黄金矿业等偏离主题标的；行业高度集中（制造业70.56%）；前十大49.68%中等集中；持仓透明度存疑（主题漂移未充分说明）" },
-      { "name": "基金经理", "score": 7.5, "note": "2025年行业轮动精准（光伏→高端制造），018419任期+105.25%突出；但历史基金业绩严重分化（兴诚混合-49.97%），整体评价两极分化；属进攻型选手，熊市防御待验证" },
-      { "name": "政策匹配", "score": 7.0, "note": "持仓契合十五五「高端制造+能源转型+国产替代」；但主题漂移（碳中和名称与实际持仓不符）降低了政策匹配的精准性评分；中美关税风险也制约出口导向制造业标的" },
-      { "name": "估值时机", "score": 6.0, "note": "规模7.39亿偏小，大额赎回冲击风险存在；净值经历大幅上涨后处于相对高位（1.96元）；近期回调提供一定买点，但关税风险尚未完全出清" }
-    ],
-    "recommendation": "谨慎关注，逢调整适量配置",
+    "total": 77,
+    "grade": "良好",
+    "recommendation": "谨慎",
     "recommendationType": "cautious",
-    "reasoning": [
-      { "positive": true,  "text": "近1年+96.47%，同类前10.6%，夏普3.29极高；行业轮动能力突出，2025年精准从光伏切换至高端制造，超额来源清晰" },
-      { "positive": true,  "text": "持仓覆盖十五五核心政策方向：高端制造/国产替代+能源转型+氢能+储能，政策逻辑中长期有效；净值近期回调约6%提供阶段性买点" },
-      { "positive": false, "text": "成立仅23个月，仅经历上升周期，无完整熊市验证；郑澄然历史熊市管理基金（广发兴诚混合A）跌幅-49.97%，防御能力存疑" },
-      { "positive": false, "text": "基金名称「碳中和主题」与实际持仓严重背离（含黄金矿业等），投资者应以实际持仓而非名称判断风险；主题漂移降低了投资精准性" },
-      { "positive": false, "text": "制造业集中度高达70.56%，叠加中美关税摩擦，东方电缆等出口导向重仓股短期压力较大；高风险需匹配高风险承受能力" }
+    "rating": "⭐⭐",
+    "logic": "基金质量 77/100，本身质地优良且政策共振清晰，但 NAV 已处于历史约 97% 分位，同时 C 类规模单季缩水 53.6%，新资金当前的赔率明显偏差。",
+    "dimensions": [
+      {
+        "name": "超额收益能力",
+        "score": 26,
+        "maxScore": 30,
+        "pros": [
+          "近1年超额约 +50.15%（vs 基准 +23.90%）",
+          "近6月超额约 +16.09%",
+          "成立以来相对基准超额约 +50.84%"
+        ],
+        "cons": [
+          "成立仅约2年，无完整3年数据"
+        ]
+      },
+      {
+        "name": "风险控制",
+        "score": 14,
+        "maxScore": 20,
+        "pros": [
+          "最大回撤 -25.89%，未破 -30% 红线",
+          "全期夏普 1.48，近1年高达 3.29"
+        ],
+        "cons": [
+          "年化波动率 31.37% 偏高",
+          "最大回撤持续约 5.5 个月"
+        ]
+      },
+      {
+        "name": "基金经理能力",
+        "score": 13,
+        "maxScore": 20,
+        "pros": [
+          "证券从业约 10.7 年，研究背景扎实",
+          "2026Q1 全球缺电叙事与持仓高度一致"
+        ],
+        "cons": [
+          "在管 12 只基金，管理疲劳风险高",
+          "其他在管基金业绩分化严重"
+        ]
+      },
+      {
+        "name": "持仓质量",
+        "score": 11,
+        "maxScore": 15,
+        "pros": [
+          "前十持仓 49.68%，仍在合理区间",
+          "燃气轮机 + 海缆 + 储能的核心主线逻辑清晰"
+        ],
+        "cons": [
+          "主题漂移风险高",
+          "赤峰黄金与碳中和主题相关性偏弱"
+        ]
+      },
+      {
+        "name": "政策匹配度",
+        "score": 13,
+        "maxScore": 15,
+        "pros": [
+          "碳中和、核电、储能均处于十五五重点方向",
+          "AI 能源叙事与燃气轮机持仓高度吻合"
+        ],
+        "cons": [
+          "锂矿 / 贵金属轮动与政策主线的依附度有限"
+        ]
+      }
     ],
-    "conclusion": "广发碳中和主题混合发起式C（018419）近1年以+96.47%的惊艳表现证明了基金经理郑澄然在顺风期的行业轮动能力，但其「碳中和」名称与实际高端制造+资源+避险的混合持仓存在明显背离，投资者需以实际持仓判断风险。成立23个月无熊市验证、制造业70.56%高集中、历史其他基金表现分化（兴诚混合-49.97%）是三大主要担忧。当前净值从高位回调约6%，若中美关税摩擦缓解，存在阶段性配置机会，但建议配置比例不超过组合的15%，并设置明确止损和跟踪预警。",
-    "suitableFor": [
-      { "label": "高风险承受能力，可承受20%以上阶段性回撤的投资者",    "fit": true  },
-      { "label": "看好高端制造+国产替代+能源转型长期逻辑，持有1-3年以上", "fit": true  },
-      { "label": "已具备低风险压舱石（如债券基金），希望增加弹性仓位",   "fit": true  },
-      { "label": "低风险偏好、无法接受短期大幅波动的稳健投资者",         "fit": false },
-      { "label": "纯碳中和主题配置需求（实际持仓并非纯碳中和）",         "fit": false },
-      { "label": "持有期限短于6个月的短线投资者",                        "fit": false }
+    "policyItems": [
+      {
+        "name": "十五五规划纲要（碳中和专项）",
+        "date": "2025-03",
+        "content": "2025-2030年新能源装机目标大幅上调，风电、光伏、储能全面强化。",
+        "impact": "strong_pos",
+        "impactLabel": "🟢 强利好"
+      },
+      {
+        "name": "核电审批加速",
+        "date": "2025",
+        "content": "国家能源局推动核电项目批量核准，设备链长期景气抬升。",
+        "impact": "strong_pos",
+        "impactLabel": "🟢 强利好"
+      },
+      {
+        "name": "AI 数据中心能源叙事",
+        "date": "2025全年",
+        "content": "全球 AI 算力扩张推动电力短缺与燃气轮机需求爆发。",
+        "impact": "strong_pos",
+        "impactLabel": "🟢 强利好"
+      },
+      {
+        "name": "储能政策密集落地",
+        "date": "2024-2025",
+        "content": "各省配储要求和储能调度优先政策持续强化。",
+        "impact": "pos",
+        "impactLabel": "🟡 中等利好"
+      },
+      {
+        "name": "中美关税摩擦",
+        "date": "2025-04起",
+        "content": "新能源出口与供应链风险溢价上升。",
+        "impact": "neg",
+        "impactLabel": "🔴 短期逆风"
+      }
+    ],
+    "marketStatus": [
+      {
+        "dim": "净值位置",
+        "status": "约97% 历史分位",
+        "statusType": "warning",
+        "detail": "当前 NAV 接近历史峰值，对新资金而言回撤风险已明显大于赔率优势。"
+      },
+      {
+        "dim": "近期趋势",
+        "status": "短期回落",
+        "statusType": "cautious",
+        "detail": "近1周和近1月排名均偏后，说明短期动能已有减弱迹象。"
+      },
+      {
+        "dim": "夏普趋势",
+        "status": "显著改善",
+        "statusType": "positive",
+        "detail": "近1年夏普 3.29 远高于全期 1.48，反映主升浪的高质量回报。"
+      },
+      {
+        "dim": "宏观流动性",
+        "status": "中性偏友好",
+        "statusType": "neutral",
+        "detail": "国内仍偏宽松，但边际支持不如主升浪时期强。"
+      },
+      {
+        "dim": "行业景气",
+        "status": "分化高景气",
+        "statusType": "positive",
+        "detail": "燃气轮机与 AI 能源链景气度高，光伏仍处修复阶段，储能稳健。"
+      },
+      {
+        "dim": "外部风险",
+        "status": "需持续关注",
+        "statusType": "cautious",
+        "detail": "中美摩擦虽缓和但未解除，新能源供应链仍受外部政策干扰。"
+      }
+    ],
+    "risks": [
+      {
+        "type": "C类规模单季大幅缩水",
+        "level": "high",
+        "note": "2026Q1 C 类份额从 9.01 亿份降至 4.18 亿份，降幅 53.6%，远超 30% 警戒线。"
+      },
+      {
+        "type": "净值高位风险",
+        "level": "medium",
+        "note": "当前 NAV 处于历史约 97% 分位，高位追入面临 10%-20% 的正常回撤风险。"
+      },
+      {
+        "type": "基金经理管理疲劳",
+        "level": "medium",
+        "note": "郑澄然在管 12 只基金，且旧基金业绩分化显著，说明其成功高度依赖赛道选择。"
+      },
+      {
+        "type": "持仓高度轮动",
+        "level": "medium",
+        "note": "7期持仓完成 6 次主题切换，连贯性弱，依赖经理持续踩准节奏。"
+      },
+      {
+        "type": "成立年限短",
+        "level": "medium",
+        "note": "基金成立约 23 个月，尚未经历完整市场周期。"
+      }
     ],
     "allocationSuggestions": [
-      { "scenario": "当前（关税摩擦，净值回调）",   "ratio": "≤15%",     "note": "关税风险尚未出清，作为弹性仓位适量配置；若中美谈判出现实质性进展可考虑加至15%" },
-      { "scenario": "中美关税全面缓和信号出现",     "ratio": "可加至20%", "note": "加仓信号：中美贸易协议框架达成，东方电缆海外订单恢复；届时出口制造业标的将迎来修复行情" },
-      { "scenario": "郑澄然离任或净值大幅跑输同类", "ratio": "清仓或减仓", "note": "郑澄然是本基金超额的核心；离任后需重新评估，不应以基金名称继续持有" }
+      {
+        "scenario": "存量持有人",
+        "action": "继续持有，但不宜在 NAV>1.9 位置大幅追加",
+        "note": "更适合把它当作高弹性主题仓位的持有，而不是继续在高位追涨。"
+      },
+      {
+        "scenario": "新入场投资者",
+        "action": "等待回落到 1.75-1.85 区间再考虑建仓",
+        "note": "若大盘或关税谈判恶化带来系统性调整，可能出现更好的赔率。"
+      },
+      {
+        "scenario": "组合仓位",
+        "action": "单只产品控制在总资产 15% 以内",
+        "note": "更适合作为主题工具仓，不适合作为组合绝对主仓。"
+      }
+    ],
+    "suitableFor": [
+      "已低成本持仓、能承受 -30% 级别短期回撤且持有期 3 年以上的投资者",
+      "看好碳中和 / AI 能源 / 核电赛道，并具备相应行业判断能力的投资者",
+      "将其作为组合中行业主题工具仓位的进阶投资者"
+    ],
+    "notSuitableFor": [
+      "在 NAV>1.9 高位追涨、持有期短于 2 年且无法承受较大回撤的投资者",
+      "追求低波动和资金安全的稳健型资金",
+      "希望稳定分红的投资者",
+      "风险承受能力低于 R3 的投资者"
+    ],
+    "termAdvice": [
+      {
+        "term": "短期（1-3个月）",
+        "icon": "⚠️",
+        "level": "cautious",
+        "advice": "高位 + 规模缩水 + 动能减弱三重因素叠加，新资金不宜入场，存量可适度锁定 5%-10% 收益。"
+      },
+      {
+        "term": "中期（6-12个月）",
+        "icon": "🟡",
+        "level": "neutral",
+        "advice": "AI 能源叙事与十五五政策仍有持续性，但更可能先经历一段高位消化，适合等待回调后分批布局。"
+      },
+      {
+        "term": "长期（3年以上）",
+        "icon": "🟢",
+        "level": "positive",
+        "advice": "若碳中和和 AI 能源主线持续成立，基金仍有中长期价值，但需严守仓位上限，并以 NAV 1.50 作为硬复核线。"
+      }
     ]
   },
-  "navHistory": [],
   "tracking": {
     "weekly": [
-      "关注东方电缆、潍柴动力等出口导向标的受关税影响情况（重大订单取消或关税新政即时反应）",
-      "对比近1周/1月同类排名，若持续后50%超过1个月需评估调仓",
-      "关注中美贸易谈判进展（直接影响出口制造业估值修复节奏）"
+      "净值方向验证：观察基金涨跌是否仍与东方电气、应流股份、东方电缆等核心仓位方向一致。",
+      "AI 能源叙事验证：持续跟踪全球数据中心用电、燃气轮机订单和电力短缺相关新闻。",
+      "锂价与原材料：中矿资源受锂价影响较大，若锂价再度大幅走弱需重估边际贡献。",
+      "赎回动态：关注 C 类份额公告，若份额继续显著缩水，需警惕被动减仓风险。",
+      "经理动态：广发官方是否出现郑澄然管理职务调整或进一步卸任公告。"
     ],
     "quarterly": [
-      "季报发布后确认郑澄然仍在任，关注广发基金人事公告",
-      "检查持仓是否已调整应对关税（如减持东方电缆、潍柴动力，加仓内需标的）",
-      "核对赤峰黄金配置比例是否变化（黄金行情判断指标）",
-      "确认基金规模未跌破5亿（7.39亿→若跌破5亿开始关注流动性风险）",
-      "与广发高端制造股票A（004997）进行横向对比，评估策略有效性"
+      "持仓变化：燃气轮机 + 海缆 + 储能合计占比最好仍高于 35%，否则说明主线已经明显漂移。",
+      "集中度变化：前十持仓合理区间约 45%-65%，低于 40% 或高于 65% 都需要解释。",
+      "规模变化：C 类份额应尽量稳定在 4 亿份以上，再次大幅缩水会直接改变风险结构。",
+      "同类排名：近1年最好继续维持前 30%，跌到后 50% 需重新评估赛道和经理有效性。",
+      "年化超额：相对官方基准的年化超额应继续保持正值，不能只剩历史光环。"
     ],
     "alerts": [
-      { "level": "critical", "icon": "🚨", "text": "郑澄然离任公告（行业轮动超额的唯一来源，离任后立即评估是否清仓）" },
-      { "level": "critical", "icon": "🚨", "text": "基金规模跌破3亿元（清盘警戒线，发起式基金有一定保护但需核实条款）" },
-      { "level": "warning",  "icon": "⚠️", "text": "连续3个月同类排名后50%（策略失效早期信号，类2022年熊市情景）" },
-      { "level": "warning",  "icon": "⚠️", "text": "中美关税超预期大幅升级（东方电缆等海外收入标的将直接承压，触发仓位评估）" },
-      { "level": "warning",  "icon": "⚠️", "text": "宁德时代固态电池商业化进展不及预期（2026年商业化若推迟超2年，电池链估值承压）" },
-      { "level": "info",     "icon": "ℹ️", "text": "国家能源局月度新能源装机数据（光伏/风电装机放量直接利好福斯特、东方电气等持仓）" },
-      { "level": "info",     "icon": "ℹ️", "text": "低空经济相关法规和商业航天重大进展（直接催化应流股份、万泽股份估值重估）" }
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "基金经理更换：属于一票否决级别风险，需立即重新完整评估接任者。"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "单季度回撤超过 -25% 且同类排名落入倒数15%：说明主线可能系统性失效。"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "AI 数据中心能源需求叙事崩溃：若燃气轮机订单和全球缺电逻辑显著弱化，核心投资逻辑会动摇。"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "中美贸易摩擦再次全面升级到关税>25%：新能源供应链将承受系统性风险。"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "C类份额再次单季度缩水超过 30%：若进一步降到 2 亿份附近，流动性与存续风险都会显著抬升。"
+      },
+      {
+        "level": "warning",
+        "icon": "⚠️",
+        "text": "季报持仓大幅偏离全球缺电主线：若大量出现消费、医药等无关方向，需要核查经理是否悄然转型。"
+      }
     ]
-  }
+  },
+  "exclusionCheck": [
+    {
+      "item": "基金公司或经理是否进入黑名单",
+      "pass": true,
+      "note": "广发基金与郑澄然均不在黑名单内。"
+    },
+    {
+      "item": "是否存在直接重大合规处罚",
+      "pass": true,
+      "note": "公司层面未发现重大处罚，郑澄然亦无直接违规记录。"
+    },
+    {
+      "item": "是否存在内幕交易传闻",
+      "pass": true,
+      "note": "未发现与本基金或经理直接相关的可信公开线索。"
+    },
+    {
+      "item": "基金经理离任风险是否可忽略",
+      "pass": false,
+      "note": "2026 年广发基金推进绩效考核改革，郑澄然虽管理旗舰产品，但人事调整风险不能视为零。"
+    },
+    {
+      "item": "是否存在明显管理疲劳",
+      "pass": false,
+      "note": "在管 12 只基金，已明显高于预警阈值。"
+    },
+    {
+      "item": "是否处于明显高位不宜追涨",
+      "pass": false,
+      "note": "当前 NAV 位于历史约 97% 分位，新资金赔率偏差。"
+    }
+  ]
 }

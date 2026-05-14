@@ -1,363 +1,7571 @@
 {
   "id": "009520",
   "meta": {
-    "reportDate": "2026-05-03",
-    "dataDate": "2026-04-29",
+    "dataDate": "2026-05-14",
+    "reportDate": "2026-05-14",
     "disclaimer": "本报告仅供个人学习和信息整理使用，所有分析内容均不构成任何投资建议。投资有风险，入市需谨慎，请依据自身判断做出投资决策。"
   },
   "basic": {
     "code": "009520",
-    "fullName": "中欧鼎利债券型证券投资基金C",
+    "fullName": "中欧鼎利债券型证券投资基金",
     "shortName": "中欧鼎利债券C",
-    "type": "债券型",
-    "subType": "混合二级（固收+）",
-    "riskLevel": "中低风险",
-    "riskCode": 2,
-    "foundDate": "2020-06-03",
-    "issueDate": "2020-06-03",
-    "manager": "中欧基金管理有限公司",
-    "managerScale": null,
-    "managerFundCount": null,
-    "custodian": "中信银行股份有限公司",
-    "benchmark": "中证800指数收益率×15%+中证可转换债券指数×25%+中债综合财富指数收益率×60%",
-    "navFallback": 1.4574,
-    "navDateFallback": "2026-04-29",
-    "inceptionReturn": 31.56,
-    "dividendCount": null,
-    "status": "开放申购 / 开放赎回",
-    "companyShort": "中欧"
+    "type": "债券型-混合二级",
+    "riskLevel": "R3",
+    "riskCode": 3,
+    "foundDate": "2020年06月03日",
+    "manager": "中欧基金",
+    "companyShort": "中欧基金",
+    "custodian": "中信银行",
+    "benchmark": "中证800指数收益率*15%+中证可转换债券指数*25%+中债综合财富指数收益率*60%",
+    "navFallback": 1.4911,
+    "inceptionReturn": "35.17%"
   },
   "fees": {
-    "management": 0.70,
-    "custodian": 0.10,
-    "salesService": 0.35,
-    "subscriptionMax": 0.00,
-    "subscriptionDiscounted": 0.00,
-    "redemptionMax": 1.5,
-    "breakdown": [
-      { "name": "管理费",   "value": 0.70 },
-      { "name": "托管费",   "value": 0.10 },
-      { "name": "销售服务费（C类）", "value": 0.35 },
-      { "name": "申购费",   "value": 0.00 }
-    ]
+    "management": "0.70%（每年）",
+    "custodian": "0.10%（每年）",
+    "salesService": "0.40%（每年）",
+    "subscriptionMax": "0.00%",
+    "breakdown": {
+      "rule_lt_7d": "1.50%",
+      "rule_ge_7d": "0.00%",
+      "note": "短期持有惩罚性费率，具体以基金合同为准"
+    }
   },
   "scale": {
-    "nav": 19.54,
-    "shares": 13.8642,
-    "date": "2026-03-31"
-  },
-  "performance": {
-    "stages": [
-      { "period": "近1月",  "fund": 1.5,   "peer": 0.8,  "hs300": null, "rank": null, "rankTotal": null, "quartile": "优秀" },
-      { "period": "近3月",  "fund": 3.2,   "peer": 1.5,  "hs300": null, "rank": null, "rankTotal": null, "quartile": "优秀" },
-      { "period": "近6月",  "fund": 5.8,   "peer": 3.2,  "hs300": null, "rank": null, "rankTotal": null, "quartile": "优秀" },
-      { "period": "近1年",  "fund": 16.46, "peer": 3.83, "hs300": null, "rank": null, "rankTotal": null, "quartile": "优秀" },
-      { "period": "今年来", "fund": 4.61,  "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null },
-      { "period": "成立以来", "fund": 31.56, "peer": null, "hs300": null, "rank": 425, "rankTotal": 830, "quartile": "优秀" }
-    ],
-    "annual": [
-      { "year": 2022, "fund": -13.78, "peer": null, "hs300": -21.63, "rank": 826, "rankTotal": 912,  "quartile": "不佳" },
-      { "year": 2023, "fund": -2.45,  "peer": null, "hs300": -11.38, "rank": 89,  "rankTotal": 867,  "quartile": "优秀" },
-      { "year": 2024, "fund": 3.83,   "peer": null, "hs300": 14.68,  "rank": 3,   "rankTotal": 1030, "quartile": "优秀" },
-      { "year": 2025, "fund": 12.70,  "peer": 8.04, "hs300": 17.66,  "rank": 1,   "rankTotal": 1142, "quartile": "优秀" }
-    ],
-    "quarterly": [
-      { "quarter": "2024Q2", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null },
-      { "quarter": "2024Q3", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null },
-      { "quarter": "2024Q4", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null },
-      { "quarter": "2025Q1", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null },
-      { "quarter": "2025Q2", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null },
-      { "quarter": "2025Q3", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null },
-      { "quarter": "2025Q4", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null },
-      { "quarter": "2026Q1", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null }
-    ]
+    "nav": "19.54亿元"
   },
   "risk": {
-    "volatility": 6.31,
-    "sharpe": 2.27,
-    "maxDrawdown": -21.68,
-    "riskLevel": "中低风险",
-    "excessReturn1Y": 12.63,
+    "volatility": 0.0999,
+    "annualReturn": 0.0483,
+    "sharpe": 0.18,
+    "calmar": 0.22,
+    "maxDrawdown": -0.2168,
+    "maxDrawdownPeriod": "2021-11-30 → 2024-09-13",
+    "periodMetrics": [
+      {
+        "label": "近1年",
+        "volatility": 0.0643,
+        "sharpe": 2.42
+      },
+      {
+        "label": "近2年",
+        "volatility": 0.0905,
+        "sharpe": 0.95
+      },
+      {
+        "label": "近3年",
+        "volatility": 0.0859,
+        "sharpe": 0.3
+      }
+    ],
+    "relativeMetrics": {
+      "beta": 0.4107,
+      "alpha": 0.0292,
+      "informationRatio": -0.0321,
+      "trackingError": 0.1262,
+      "r2": 0.5608
+    },
+    "navPercentile": 100.0,
+    "maxDrawdownMonths": 34,
+    "recentPerf": [
+      {
+        "period": "近1周",
+        "fund": 1.32,
+        "peer": 0.47,
+        "hs300": 2.49,
+        "excess": 0.85,
+        "rank": 167,
+        "rankTotal": 1618,
+        "warn": false,
+        "note": ""
+      },
+      {
+        "period": "近1月",
+        "fund": 4.0,
+        "peer": 1.83,
+        "hs300": 7.58,
+        "excess": 2.17,
+        "rank": 195,
+        "rankTotal": 1612,
+        "warn": false,
+        "note": ""
+      },
+      {
+        "period": "近3月",
+        "fund": 3.85,
+        "peer": 1.24,
+        "hs300": 7.25,
+        "excess": 2.61,
+        "rank": 144,
+        "rankTotal": 1572,
+        "warn": false,
+        "note": ""
+      },
+      {
+        "period": "近6月",
+        "fund": 7.59,
+        "peer": 3.01,
+        "hs300": 6.3,
+        "excess": 4.58,
+        "rank": 129,
+        "rankTotal": 1455,
+        "warn": false,
+        "note": ""
+      },
+      {
+        "period": "近1年",
+        "fund": 16.59,
+        "peer": 8.59,
+        "hs300": 28.29,
+        "excess": 8.0,
+        "rank": 170,
+        "rankTotal": 1290,
+        "warn": false,
+        "note": "前13%"
+      },
+      {
+        "period": "近2年",
+        "fund": 23.3,
+        "peer": 13.22,
+        "hs300": 36.39,
+        "excess": 10.08,
+        "rank": 151,
+        "rankTotal": 1094,
+        "warn": false,
+        "note": "前14%"
+      }
+    ],
     "radarDimensions": [
-      { "name": "历史业绩", "value": 8.0, "max": 10 },
-      { "name": "风险控制", "value": 6.0, "max": 10 },
-      { "name": "持仓质量", "value": 7.0, "max": 10 },
-      { "name": "基金经理", "value": 8.5, "max": 10 },
-      { "name": "政策匹配", "value": 6.0, "max": 10 },
-      { "name": "估值时机", "value": 7.5, "max": 10 }
+      {
+        "name": "绝对收益",
+        "score": 76
+      },
+      {
+        "name": "风险控制",
+        "score": 58
+      },
+      {
+        "name": "持仓质量",
+        "score": 72
+      },
+      {
+        "name": "经理执行",
+        "score": 84
+      },
+      {
+        "name": "政策环境",
+        "score": 67
+      },
+      {
+        "name": "赔率位置",
+        "score": 60
+      }
     ],
-    "positionHistory": [
-      { "date": "2025-03-31", "stock": 15.0, "cash": 1.5, "scale": 17.0 },
-      { "date": "2025-06-30", "stock": 16.0, "cash": 1.0, "scale": 18.0 },
-      { "date": "2025-09-30", "stock": 16.5, "cash": 1.0, "scale": 19.0 },
-      { "date": "2025-12-31", "stock": 16.0, "cash": 0.8, "scale": 19.2 },
-      { "date": "2026-03-31", "stock": 16.16,"cash": 0.9, "scale": 19.54 }
-    ],
-    "positionSignal": null,
-    "riskBreakdown": [
-      { "type": "历史回撤风险",   "level": "medium", "stars": 3, "maxStars": 5, "note": "历史最大回撤-21.68%，对债券型基金偏高；主因2022年权益敞口超20%叠加股债双杀，需关注" },
-      { "type": "权益集中风险",   "level": "medium", "stars": 3, "maxStars": 5, "note": "制造业股票占净值16.16%，行业集中度高；若制造业出现系统性调整，权益端将拖累整体净值" },
-      { "type": "利率风险",       "level": "low",    "stars": 2, "maxStars": 5, "note": "债券久期中性配置，中美利差-250bp制约降息空间；但当前信用债AAA占81.8%，信用风险低" },
-      { "type": "经理变更风险",   "level": "low",    "stars": 2, "maxStars": 5, "note": "2024-2025年经理组合重构（洪慧梅离任→赵宇澄+邓欣雨），当前双管已运行约1-2年，风格趋于稳定" },
-      { "type": "规模适中风险",   "level": "low",    "stars": 1, "maxStars": 5, "note": "19.54亿元规模适中，申赎流动性良好；当前规模既不过小也不过大，不影响策略执行" },
-      { "type": "信用违约风险",   "level": "low",    "stars": 1, "maxStars": 5, "note": "债券持仓AAA级占81.8%，以政策性金融债和高等级信用债为主，信用违约风险极低" }
-    ],
-    "volatilityNote": "年化波动6.31%（近1年），远低于纯股票基金；固收+特性使波动显著低于权益类",
-    "sharpeNote": "近1年夏普2.27优秀，单位风险获取2.27单位超额回报；近3年夏普0.34偏低（2022年重创影响）",
-    "drawdownNote": "历史最大回撤-21.68%（2022年股债双杀），对债券型基金偏高；2022年后邓欣雨优化策略，近1-2年回撤控制改善",
-    "excessNote": "近1年超额+12.63%（16.46%-3.83%），大幅领先同类均值"
+    "riskBreakdown": {
+      "volatilityRating": "年化波动 9.99%，明显高于纯债，但仍低于偏股基金",
+      "sharpeRating": "近1年夏普 2.42 极强，全期 0.18 偏低",
+      "drawdownRating": "历史最大 -21.68%，修复期约 34 个月",
+      "yearlyMaxDrawdowns": [
+        {
+          "year": 2020,
+          "fund": 3.24,
+          "hs300": 4.53
+        },
+        {
+          "year": 2021,
+          "fund": 4.16,
+          "hs300": 4.16
+        },
+        {
+          "year": 2022,
+          "fund": 13.06,
+          "hs300": 14.82
+        },
+        {
+          "year": 2023,
+          "fund": 4.67,
+          "hs300": 6.88
+        },
+        {
+          "year": 2024,
+          "fund": 0.97,
+          "hs300": 15.52
+        },
+        {
+          "year": 2025,
+          "fund": 0.34,
+          "hs300": 17.7
+        },
+        {
+          "year": 2026,
+          "fund": 0.64,
+          "hs300": 10.43
+        }
+      ]
+    },
+    "riskWarnings": [
+      {
+        "level": "high",
+        "category": "内部",
+        "text": "历史最大回撤 -21.68%，对二级债明显偏大，且修复耗时约 34 个月。"
+      },
+      {
+        "level": "medium",
+        "category": "内部",
+        "text": "当前管理阶段近1年夏普 2.42 显著改善，但全期夏普仅 0.18，历史包袱仍未完全消化。"
+      },
+      {
+        "level": "medium",
+        "category": "内部",
+        "text": "组合并非纯债替代，2026Q1 股票增强仍是最活跃收益来源，回撤来自增强仓而非底仓。"
+      },
+      {
+        "level": "medium",
+        "category": "内部",
+        "text": "经理口径存在抓取错位，任职历史可参考，但对在管数量和精力分配需持续跟踪。"
+      },
+      {
+        "level": "high",
+        "category": "外部",
+        "text": "当前净值处于历史新高，赔率已明显收敛，新资金追高的安全边际弱于 2024Q4-2025Q1。"
+      },
+      {
+        "level": "medium",
+        "category": "外部",
+        "text": "若 10 年国债收益率重新上破 2.0%，债券底仓的估值与久期逻辑都会显著转弱。"
+      },
+      {
+        "level": "medium",
+        "category": "外部",
+        "text": "低评级信用债利差继续走阔并向理财赎回传导时，可能重演 2022Q4 的流动性冲击。"
+      },
+      {
+        "level": "medium",
+        "category": "外部",
+        "text": "中东冲突、油价与美联储高利率共同抬升宏观扰动，对股票增强和长端利率都不友好。"
+      }
+    ]
   },
   "holdings": {
-    "date": "2026-03-31",
-    "stockRatio": 16.16,
-    "cashRatio": 0.90,
+    "date": "2026Q1（截至 2026-03-31）",
+    "top10": [
+      {
+        "rank": 1,
+        "name": "华通线缆",
+        "code": "605196",
+        "ratio": 1.19,
+        "sector": "出口制造",
+        "color": "#2DC78E"
+      },
+      {
+        "rank": 2,
+        "name": "万华化学",
+        "code": "600309",
+        "ratio": 0.65,
+        "sector": "化工涨价链",
+        "color": "#F7C744"
+      },
+      {
+        "rank": 3,
+        "name": "华鲁恒升",
+        "code": "600426",
+        "ratio": 0.64,
+        "sector": "化工涨价链",
+        "color": "#F7C744"
+      },
+      {
+        "rank": 4,
+        "name": "中际旭创",
+        "code": "300308",
+        "ratio": 0.61,
+        "sector": "AI 光模块",
+        "color": "#58a6ff"
+      },
+      {
+        "rank": 5,
+        "name": "桐昆股份",
+        "code": "601233",
+        "ratio": 0.6,
+        "sector": "化工涨价链",
+        "color": "#F7C744"
+      },
+      {
+        "rank": 6,
+        "name": "天赐材料",
+        "code": "002709",
+        "ratio": 0.52,
+        "sector": "锂电材料",
+        "color": "#58a6ff"
+      },
+      {
+        "rank": 7,
+        "name": "科达利",
+        "code": "002850",
+        "ratio": 0.49,
+        "sector": "高端制造",
+        "color": "#2DC78E"
+      },
+      {
+        "rank": 8,
+        "name": "紫金矿业",
+        "code": "601899",
+        "ratio": 0.45,
+        "sector": "资源对冲",
+        "color": "#E8813A"
+      },
+      {
+        "rank": 9,
+        "name": "安集科技",
+        "code": "688019",
+        "ratio": 0.43,
+        "sector": "半导体材料",
+        "color": "#58a6ff"
+      },
+      {
+        "rank": 10,
+        "name": "中钨高新",
+        "code": "000657",
+        "ratio": 0.42,
+        "sector": "金属材料",
+        "color": "#2DC78E"
+      }
+    ],
     "top10Total": 6.0,
-    "concentrationLabel": "个股高度分散型",
-    "top10": [],
+    "top10TotalRatio": 6.0,
     "sectors": [
-      { "name": "固定收益（债券）", "value": 84.29, "color": "#4492F7" },
-      { "name": "制造业（股票）",   "value": 16.16, "color": "#2DC78E" },
-      { "name": "采矿业（股票）",   "value": 0.77,  "color": "#D4A017" },
-      { "name": "综合行业（股票）", "value": 0.09,  "color": "#9B72F0" },
-      { "name": "银行存款+其他",    "value": 1.27,  "color": "#21262d" }
+      {
+        "name": "制造业",
+        "ratio": 16.16
+      },
+      {
+        "name": "信息技术业",
+        "ratio": 0.0
+      },
+      {
+        "name": "采矿业",
+        "ratio": 0.77
+      },
+      {
+        "name": "金融业",
+        "ratio": 0.17
+      },
+      {
+        "name": "综合",
+        "ratio": 0.09
+      }
+    ],
+    "stockRatio": 16.73,
+    "bondRatio": 82.03,
+    "cashRatio": 1.24,
+    "concentrationLabel": "高度分散、主动轮动型",
+    "themeTitle": "高等级债底仓 + 涨价/出口制造链",
+    "themeSubtitle": "保留少量 AI 科技成长弹性，核心不是纯债票息，而是股票增强效率",
+    "themeGroups": [
+      {
+        "name": "化工与涨价链",
+        "color": "#F7C744",
+        "ratio": 2.41,
+        "stocks": "万华化学 / 华鲁恒升 / 桐昆股份 / 天赐材料",
+        "note": "当前股票增强里最鲜明的一条主线，逻辑来自价格修复、制造业盈利改善和反内卷预期。"
+      },
+      {
+        "name": "出口与高端制造",
+        "color": "#2DC78E",
+        "ratio": 2.1,
+        "stocks": "华通线缆 / 科达利 / 中钨高新",
+        "note": "体现经理对海外需求、材料升级与制造弹性的押注。"
+      },
+      {
+        "name": "科技成长",
+        "color": "#58a6ff",
+        "ratio": 1.04,
+        "stocks": "中际旭创 / 安集科技",
+        "note": "并未完全退出科技，而是保留核心弹性仓位，维持结构市进攻能力。"
+      },
+      {
+        "name": "资源对冲",
+        "color": "#E8813A",
+        "ratio": 0.45,
+        "stocks": "紫金矿业",
+        "note": "在宏观扰动和涨价逻辑中提供一定资源品对冲。"
+      }
     ],
     "bondStructure": [
-      { "type": "政策性金融债", "note": "AAA级，安全性最高，提供稳定票息",    "color": "#4492F7" },
-      { "type": "普通金融债",  "note": "中高等级，收益适中",                  "color": "#0ea5e9" },
-      { "type": "可转债",      "note": "双低增强策略，提供权益弹性，占约11.66%", "color": "#2DC78E" },
-      { "type": "信用债",      "note": "AAA占比81.8%，信用风险低",            "color": "#06b6d4" }
+      {
+        "type": "政策性金融债",
+        "note": "占金融债中的核心部分，底仓安全性最高，是组合稳定器。",
+        "color": "#4492F7"
+      },
+      {
+        "type": "普通金融债",
+        "note": "金融债合计 66.43%，构成当前债券底仓主体。",
+        "color": "#0ea5e9"
+      },
+      {
+        "type": "国债与中票",
+        "note": "国债 8.03%，中票 4.70%，用于补充流动性和票息来源。",
+        "color": "#58a6ff"
+      },
+      {
+        "type": "可转债",
+        "note": "占净值约 4.10%，当前明显压低高估值转债仓位，更多作为弹性补充。",
+        "color": "#2DC78E"
+      }
+    ],
+    "evolutionHighlights": [
+      {
+        "quarter": "2021Q2",
+        "type": "positive",
+        "change": "重回锂电、汽车与制造链",
+        "return": "+6.91%",
+        "theme": "制造成长强化",
+        "insight": "阶段性加回华友钴业、宁德时代、比亚迪、福耀玻璃，顺应新能源与制造主线。"
+      },
+      {
+        "quarter": "2022Q1",
+        "type": "warning",
+        "change": "转向资源、地产稳增长与能源",
+        "return": "-8.81%",
+        "theme": "高波动切换失效",
+        "insight": "虽然尝试切到稳增长和资源，但组合暴露仍大，在股债双杀环境中承压明显。"
+      },
+      {
+        "quarter": "2023Q1",
+        "type": "positive",
+        "change": "切向央企通信、基建与 AI 硬件",
+        "return": "+3.70%",
+        "theme": "防守向成长切换",
+        "insight": "从纯防守转回成长与央企主线，说明风格轮动能力开始恢复。"
+      },
+      {
+        "quarter": "2025Q3",
+        "type": "positive",
+        "change": "提股降转，集中景气成长",
+        "return": "+7.61%",
+        "theme": "科技成长主导",
+        "insight": "季报与持仓高度一致，是现任团队执行力最强的一次验证。"
+      },
+      {
+        "quarter": "2026Q1",
+        "type": "positive",
+        "change": "继续压缩转债，保留涨价链与出口链",
+        "return": "+0.64%",
+        "theme": "景气制造与出口链",
+        "insight": "组合继续延续景气择券思路，把股票增强的重点放在涨价周期链条和海外需求受益方向。"
+      }
     ],
     "policyLinks": [
-      { "sector": "高端制造业", "stocks": "制造业龙头（精密制造/机械）", "policyNote": "十五五制造业升级战略，高端制造国产化加速，受益于政策持续支持", "color": "#2DC78E" },
-      { "sector": "可转债市场", "stocks": "双低策略可转债组合",           "policyNote": "A股结构性行情持续，可转债提供攻守兼备的弹性敞口，适合当前震荡市", "color": "#4492F7" }
+      {
+        "sector": "高端制造与出口链",
+        "color": "#2DC78E",
+        "stocks": "华通线缆 / 科达利 / 中钨高新",
+        "policyNote": "政治局会议强调保持制造业合理比重、整治内卷，利好高端制造和出口链方向。"
+      },
+      {
+        "sector": "化工涨价链",
+        "color": "#F7C744",
+        "stocks": "万华化学 / 华鲁恒升 / 桐昆股份 / 天赐材料",
+        "policyNote": "制造业盈利改善与反内卷预期共同抬升化工与涨价链的景气弹性。"
+      },
+      {
+        "sector": "债券底仓",
+        "color": "#4492F7",
+        "stocks": "政策性金融债 / 普通金融债 / 高等级信用债",
+        "policyNote": "资金利率维持 1.4% 附近，对高等级债底仓稳定有利，但资本利得空间有限。"
+      }
+    ]
+  },
+  "performance": {
+    "annual": [
+      {
+        "year": 2020,
+        "fund": 10.57,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2021,
+        "fund": 10.39,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2022,
+        "fund": -13.39,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2023,
+        "fund": -2.94,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2024,
+        "fund": 3.92,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2025,
+        "fund": 13.58,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2026,
+        "fund": 6.45,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      }
+    ],
+    "quarterly": [
+      {
+        "year": 2020,
+        "quarter": "2020Q2",
+        "fund": 3.24,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2020,
+        "quarter": "2020Q3",
+        "fund": 2.65,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2020,
+        "quarter": "2020Q4",
+        "fund": 2.91,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2021,
+        "quarter": "2021Q1",
+        "fund": -4.16,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2021,
+        "quarter": "2021Q2",
+        "fund": 6.91,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2021,
+        "quarter": "2021Q3",
+        "fund": 3.71,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2021,
+        "quarter": "2021Q4",
+        "fund": 4.73,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2022,
+        "quarter": "2022Q1",
+        "fund": -8.81,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2022,
+        "quarter": "2022Q2",
+        "fund": 4.69,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2022,
+        "quarter": "2022Q3",
+        "fund": -5.21,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2022,
+        "quarter": "2022Q4",
+        "fund": -3.89,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2023,
+        "quarter": "2023Q1",
+        "fund": 3.7,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2023,
+        "quarter": "2023Q2",
+        "fund": 0.27,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2023,
+        "quarter": "2023Q3",
+        "fund": -4.67,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2023,
+        "quarter": "2023Q4",
+        "fund": -3.21,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q1",
+        "fund": 0.5,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q2",
+        "fund": -0.97,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q3",
+        "fund": 0.61,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q4",
+        "fund": -0.08,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q1",
+        "fund": 4.05,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q2",
+        "fund": 1.23,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q3",
+        "fund": 7.61,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q4",
+        "fund": -0.34,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2026,
+        "quarter": "2026Q1",
+        "fund": 0.64,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2026,
+        "quarter": "2026Q2",
+        "fund": 5.21,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      }
+    ],
+    "milestones": [
+      {
+        "date": "2020-06-03",
+        "nav": 1.1383,
+        "label": "首个可得净值样本",
+        "type": "neutral"
+      },
+      {
+        "date": "2021-11-30",
+        "nav": 1.4181,
+        "label": "第一轮成长顺风期高点",
+        "type": "peak"
+      },
+      {
+        "date": "2024-09-13",
+        "nav": 1.1107,
+        "label": "历史最低点，旧经理阶段调整见底",
+        "type": "low"
+      },
+      {
+        "date": "2025-03-31",
+        "nav": 1.2725,
+        "label": "修复进入加速阶段",
+        "type": "neutral"
+      },
+      {
+        "date": "2025-09-30",
+        "nav": 1.39,
+        "label": "双管阶段科技成长主线强化",
+        "type": "peak"
+      },
+      {
+        "date": "2026-05-13",
+        "nav": 1.4911,
+        "label": "历史最高点，当前净值",
+        "type": "current"
+      }
+    ],
+    "stages": [
+      {
+        "period": "近1周",
+        "fund": 1.32,
+        "peer": 0.47,
+        "hs300": 2.49,
+        "rank": 167,
+        "rankTotal": 1618,
+        "quartile": null
+      },
+      {
+        "period": "近1月",
+        "fund": 4.0,
+        "peer": 1.83,
+        "hs300": 7.58,
+        "rank": 195,
+        "rankTotal": 1612,
+        "quartile": null
+      },
+      {
+        "period": "近3月",
+        "fund": 3.85,
+        "peer": 1.24,
+        "hs300": 7.25,
+        "rank": 144,
+        "rankTotal": 1572,
+        "quartile": null
+      },
+      {
+        "period": "近6月",
+        "fund": 7.59,
+        "peer": 3.01,
+        "hs300": 6.3,
+        "rank": 129,
+        "rankTotal": 1455,
+        "quartile": null
+      },
+      {
+        "period": "近1年",
+        "fund": 16.59,
+        "peer": 8.59,
+        "hs300": 28.29,
+        "rank": 170,
+        "rankTotal": 1290,
+        "quartile": null
+      },
+      {
+        "period": "近2年",
+        "fund": 23.3,
+        "peer": 13.22,
+        "hs300": 36.39,
+        "rank": 151,
+        "rankTotal": 1094,
+        "quartile": null
+      },
+      {
+        "period": "近3年",
+        "fund": 19.14,
+        "peer": 14.97,
+        "hs300": 26.93,
+        "rank": 238,
+        "rankTotal": 907,
+        "quartile": null
+      },
+      {
+        "period": "近5年",
+        "fund": 20.2,
+        "peer": 18.95,
+        "hs300": 0.11,
+        "rank": 260,
+        "rankTotal": 596,
+        "quartile": null
+      },
+      {
+        "period": "今年来",
+        "fund": 7.34,
+        "peer": 3.22,
+        "hs300": 7.96,
+        "rank": 148,
+        "rankTotal": 1525,
+        "quartile": null
+      },
+      {
+        "period": "成立来",
+        "fund": 35.17,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      }
+    ]
+  },
+  "stageAnalysis": {
+    "inflectionPoints": [
+      {
+        "id": 1,
+        "stageId": 1,
+        "startDate": "2020-06-03",
+        "endDate": "2021-01-25",
+        "startNav": 1.1383,
+        "endNav": 1.3367,
+        "changePct": 17.43,
+        "type": "peak",
+        "env": "疫情后流动性宽松，成长、消费、化工与金融均出现修复。",
+        "managerAction": "建仓期先布局消费、电子、光伏，随后迅速加入万华化学、东方财富、中国平安、五粮液等。",
+        "attribution": "Beta 贡献为主，属于跟随市场主线的顺风上涨。"
+      },
+      {
+        "id": 2,
+        "stageId": 1,
+        "startDate": "2021-01-25",
+        "endDate": "2021-03-24",
+        "startNav": 1.3367,
+        "endNav": 1.2138,
+        "changePct": -9.19,
+        "type": "trough",
+        "env": "核心资产估值压缩，春节后赛道股快速杀估值。",
+        "managerAction": "持仓向银行、航空、周期方向切换，但仍未完全躲开高估值回吐。",
+        "attribution": "Beta 负贡献明显，Alpha 防守不足。"
+      },
+      {
+        "id": 3,
+        "stageId": 1,
+        "startDate": "2021-03-24",
+        "endDate": "2021-11-30",
+        "startNav": 1.2138,
+        "endNav": 1.4181,
+        "changePct": 16.83,
+        "type": "peak",
+        "env": "新能源、汽车链与制造升级成为市场主线。",
+        "managerAction": "增配华友钴业、宁德时代、比亚迪、福耀玻璃等，强化制造与新能源暴露。",
+        "attribution": "行业 Beta 为主，选股也贡献了一定 Alpha。"
+      },
+      {
+        "id": 4,
+        "stageId": 2,
+        "startDate": "2021-11-30",
+        "endDate": "2022-04-26",
+        "startNav": 1.4181,
+        "endNav": 1.2399,
+        "changePct": -12.57,
+        "type": "trough",
+        "env": "疫情反复、地产下行、成长风格继续杀估值。",
+        "managerAction": "2022Q1 在稳增长、传统周期、新能源半导体和高股息三线并行，组合暴露较多。",
+        "attribution": "思路并非完全错误，但执行后的抗压效果较弱。"
+      },
+      {
+        "id": 5,
+        "stageId": 2,
+        "startDate": "2022-04-26",
+        "endDate": "2022-08-17",
+        "startNav": 1.2399,
+        "endNav": 1.388,
+        "changePct": 11.94,
+        "type": "peak",
+        "env": "疫情冲击缓和，成长与新能源板块出现反弹。",
+        "managerAction": "组合重新加回宁德时代、德方纳米、汇川技术等，新能源制造权重再次抬升。",
+        "attribution": "Beta 贡献较大，基金在风险回暖时弹性不弱。"
+      },
+      {
+        "id": 6,
+        "stageId": 2,
+        "startDate": "2022-08-17",
+        "endDate": "2022-12-23",
+        "startNav": 1.388,
+        "endNav": 1.2067,
+        "changePct": -13.06,
+        "type": "trough",
+        "env": "海外加息、国内弱现实，理财赎回引发信用债与转债流动性冲击。",
+        "managerAction": "债券端降低久期和杠杆、提升高等级信用债占比，但股票端切换不彻底。",
+        "attribution": "底仓防守比年初更明确，但股票端仍拖累净值。"
+      },
+      {
+        "id": 7,
+        "stageId": 3,
+        "startDate": "2022-12-23",
+        "endDate": "2023-06-19",
+        "startNav": 1.2067,
+        "endNav": 1.3078,
+        "changePct": 8.38,
+        "type": "peak",
+        "env": "疫后修复预期抬升，央企、通信与 AI 硬件逐渐活跃。",
+        "managerAction": "组合切向中国移动、中国铁建、中际旭创、北方华创等，重心从纯防守切回成长与央企。",
+        "attribution": "Alpha 与风格轮动开始回升，但持续性仍不足。"
+      },
+      {
+        "id": 8,
+        "stageId": 3,
+        "startDate": "2023-06-19",
+        "endDate": "2024-09-13",
+        "startNav": 1.3078,
+        "endNav": 1.1107,
+        "changePct": -15.07,
+        "type": "trough",
+        "env": "弱复苏、资金面扰动、股市缺乏明确主线。",
+        "managerAction": "组合在均衡与进攻之间摇摆，一度维持偏高股票仓位并逆势增配转债。",
+        "attribution": "比股指更稳，但自身始终没有形成修复主升浪。"
+      },
+      {
+        "id": 9,
+        "stageId": 4,
+        "startDate": "2024-09-13",
+        "endDate": "2026-05-13",
+        "startNav": 1.1107,
+        "endNav": 1.4911,
+        "changePct": 34.25,
+        "type": "peak",
+        "env": "A 股进入结构性慢牛，政治局会议强化稳定资本市场信心与制造业合理比重。",
+        "managerAction": "2025Q1 从红利转成长，2025Q3 提股降转，2025Q4 切涨价链，2026Q1 延续景气制造与出口链。",
+        "attribution": "低 Beta 框架下的 Alpha 贡献显著，是本轮修复的核心来源。"
+      }
+    ],
+    "totalInflectionPoints": 9,
+    "stages": [
+      {
+        "id": 1,
+        "name": "建仓顺风期",
+        "emoji": "🌱",
+        "period": "2020-06 → 2021-11",
+        "returnPct": 24.58,
+        "color": "#F54E48",
+        "description": "成立初期受益于宽流动性与成长修复，整体以跟随市场主线的顺风上涨为主。",
+        "env": "疫情后股债双牛、成长制造风格修复。",
+        "managerAction": "消费、制造、新能源与金融间快速轮动建仓。",
+        "attribution": "收益主要来自市场顺风，Alpha 并不突出。"
+      },
+      {
+        "id": 2,
+        "name": "双杀回撤期",
+        "emoji": "⚠️",
+        "period": "2021-11 → 2022-12",
+        "returnPct": -14.91,
+        "color": "#2DC78E",
+        "description": "成长杀估值、疫情冲击和理财赎回共同作用，基金进入成立以来最艰难阶段。",
+        "env": "股债双杀、信用与转债流动性承压。",
+        "managerAction": "尝试在稳增长、资源、新能源与防守价值之间切换，但防守不彻底。",
+        "attribution": "Beta 和执行质量同时承压，绝对回撤对二级债偏大。"
+      },
+      {
+        "id": 3,
+        "name": "弱复苏磨底期",
+        "emoji": "🔄",
+        "period": "2022-12 → 2024-09",
+        "returnPct": -7.96,
+        "color": "#2DC78E",
+        "description": "组合在央企红利、科技、资源、地产等方向间反复切换，但始终未形成持续主升浪。",
+        "env": "弱复苏、资金面扰动、市场缺少明确主线。",
+        "managerAction": "一度保持偏高股票仓位并逆势加转债，风格摇摆较多。",
+        "attribution": "相对指数更稳，但自身修复弹性不足。"
+      },
+      {
+        "id": 4,
+        "name": "双管修复期",
+        "emoji": "🚀",
+        "period": "2024-09 → 2026-05",
+        "returnPct": 34.25,
+        "color": "#F54E48",
+        "description": "新管理阶段进入主升浪，通过快速轮动科技成长、涨价链和出口制造显著修复净值。",
+        "env": "流动性宽松、A 股结构性慢牛、资本市场信心修复。",
+        "managerAction": "先从红利转成长，再切涨价链，并主动压低可转债仓位。",
+        "attribution": "低 Beta 框架下的 Alpha 贡献显著，是本轮修复核心。"
+      }
     ]
   },
   "managers": {
     "current": {
+      "managerId": "30821429",
+      "allManagerIds": [
+        "30821429",
+        "30064759",
+        "30397261",
+        "30802856",
+        "30180167",
+        "30691820"
+      ],
       "name": "赵宇澄 / 邓欣雨",
-      "startDate": "2025-05-26",
-      "tenure": "约1年（双管）",
-      "tenureReturn": 14.81,
+      "experience": 11.0,
+      "education": "、硕士学位。曾担任博时基金管理有限公司基金经理助理兼高级研究员(2018.07-2024.01)。2024年01月加入中欧基金管理有限公司",
+      "fundCount": 15,
+      "totalScale": 236.92,
+      "title": "联席基金经理",
+      "style": "主动轮动固收+",
+      "manageDate": "2025-05-26",
+      "manageYears": 1.0,
+      "tenureReturn": 17.81,
       "peerAvgReturn": null,
       "rankInPeer": 1,
       "rankTotal": 1142,
-      "education": "硕士学位（均为研究生学历）",
-      "experience": "邓欣雨：15年+（博时基金2008-2023→中欧基金2023至今）；赵宇澄：约8年（博时基金2018-2024→中欧基金2024至今）",
-      "fundCount": null,
-      "totalScale": null,
       "historicalFunds": [
-        { "name": "中欧鼎利债券C",     "code": "009520", "tenure": "邓：约1年/赵：约2年", "return": 21.74, "peerAvg": null, "alpha": null, "rank": 1, "rankTotal": 1142, "percentile": 0.1, "grade": "good", "isCurrent": true  },
-        { "name": "中欧鼎利债券E",     "code": null,     "tenure": "同期",               "return": null,  "peerAvg": null, "alpha": null, "rank": null, "rankTotal": null, "percentile": null, "grade": "good", "isCurrent": true  },
-        { "name": "中欧稳泰120天持有债券", "code": null,  "tenure": "赵宇澄",            "return": null,  "peerAvg": null, "alpha": null, "rank": null, "rankTotal": null, "percentile": null, "grade": "ok",   "isCurrent": true  },
-        { "name": "中欧瑾灵灵活配置混合", "code": null,   "tenure": "邓欣雨",            "return": null,  "peerAvg": null, "alpha": null, "rank": null, "rankTotal": null, "percentile": null, "grade": "ok",   "isCurrent": true  }
+        {
+          "name": "中欧稳泰120天持有债券A",
+          "type": "债券型",
+          "tenure": "2026-03-16 ~ 至今",
+          "return": 0.49
+        },
+        {
+          "name": "中欧稳宁9个月持有债券A",
+          "type": "债券型",
+          "tenure": "2024-05-17 ~ 至今",
+          "return": 12.97
+        },
+        {
+          "name": "中欧鼎利债券A",
+          "type": "混合二级债基",
+          "tenure": "2024-04-26 ~ 至今",
+          "return": 26.31
+        },
+        {
+          "name": "中欧瑾添混合A",
+          "type": "固收+混合",
+          "tenure": "2024-04-26 ~ 至今",
+          "return": 17.44
+        }
       ],
-      "managerId": "30821429"
+      "philosophy": [
+        {
+          "label": "核心投资理念",
+          "text": "以高等级债券做稳定底仓，用股票与可转债在结构市里寻找增强收益。"
+        },
+        {
+          "label": "选股方法论",
+          "text": "围绕景气成长、涨价链、出口链和阶段性价值修复快速轮动，不长期死守单一行业。"
+        },
+        {
+          "label": "仓位管理风格",
+          "text": "属于主动择时的中高强度增强型，股票仓位活跃，可转债会在高位主动收缩。"
+        },
+        {
+          "label": "风格稳定性",
+          "text": "债券底仓相对稳定，股票增强会随市场主线切换，更像主动轮动型经理。"
+        }
+      ],
+      "consistencyAudit": [
+        {
+          "period": "2025Q3 季报 · 科技成长主导阶段",
+          "result": "pass",
+          "label": "一致",
+          "stated": "降低组合久期，逐步降低可转债仓位，提升股票仓位，主要在景气成长领域配置。",
+          "actual": "安集科技 1.03%、京仪装备 0.97%、澜起科技 0.90%，持仓明显向半导体与电子制造集中。",
+          "evaluation": "表述与持仓高度对应，且季度收益 +7.61%，执行效果很强。"
+        },
+        {
+          "period": "2026Q1 季报 · 涨价链与出口链阶段",
+          "result": "pass",
+          "label": "一致",
+          "stated": "在高位降低转债配置，股票延续景气择券，重点考虑涨价周期链条与海外需求受益方向。",
+          "actual": "华通线缆 1.19%、万华化学 0.65%、华鲁恒升 0.64%，同时将可转债压至 4.10%。",
+          "evaluation": "组合形态与季报表达高度匹配，是当前修复阶段最核心的执行证据。"
+        },
+        {
+          "period": "2022Q4 季报 · 理财赎回冲击阶段",
+          "result": "warn",
+          "label": "部分一致",
+          "stated": "债券降低久期和杠杆，股票逐步减持成长板块并增持价值板块。",
+          "actual": "东方财富 1.45%、山西汾酒 1.28%、坚朗五金 1.11%，股票端并未完全切成低波价值。",
+          "evaluation": "债券端防守动作成立，但股票端仍偏进攻，导致防守效果有限。"
+        }
+      ],
+      "abilityProfile": {
+        "best": "结构性行情中的风格切换与股票增强执行力，能在慢牛与结构市中迅速调整到有效主线。",
+        "worst": "熊市和信用收缩期的回撤控制仍不够硬，系统性风险来临时并非纯防守型。",
+        "goodEnv": [
+          "流动性宽松",
+          "制造业或科技成长有主线",
+          "A 股处于慢牛或结构市"
+        ],
+        "badEnv": [
+          "股债双杀",
+          "信用利差快速走阔",
+          "成长风格系统性去估值"
+        ]
+      },
+      "strengths": [
+        "结构市中的主动轮动效率高",
+        "股票增强执行力强",
+        "会主动压低高估值转债仓位"
+      ],
+      "weaknesses": [
+        "系统性风险来临时回撤仍偏大",
+        "经理口径存在抓取错位",
+        "在管基金数量偏多，存在管理疲劳观察点"
+      ]
     },
     "history": [
-      { "name": "赵宇澄+邓欣雨", "start": "2025-05-26", "end": null,         "tenure": "约1年",  "return": 14.81, "note": "双管组合，2025年同类排名第1；邓欣雨记分卡体系+赵宇澄固收研究互补" },
-      { "name": "赵宇澄",        "start": "2024-04-26", "end": null,         "tenure": "约2年",  "return": 21.74, "note": "赵宇澄自2024年4月起管理，任职总回报约21.74%" },
-      { "name": "洪慧梅",        "start": "2020-06-03", "end": "2024-04-25", "tenure": "约4年",  "return": 6.13,  "note": "成立初期管理，4年仅6.13%，2022年-13.78%大回撤；离任后赵/邓接手改善显著" }
+      {
+        "name": "洪慧梅 + 邵洁",
+        "role": "初始双管",
+        "start": "2020-06-03",
+        "end": "2021-12-27",
+        "tenure": "约 1.6 年",
+        "return": 26.38,
+        "note": "站上疫情后顺风期，更多受益于市场环境。"
+      },
+      {
+        "name": "洪慧梅",
+        "role": "独任",
+        "start": "2021-12-28",
+        "end": "2024-01-15",
+        "tenure": "约 2.0 年",
+        "return": -15.93,
+        "note": "覆盖 2022 双杀与 2023 弱复苏，是基金最艰难阶段。"
+      },
+      {
+        "name": "张跃鹏 + 苏佳",
+        "role": "过渡共管",
+        "start": "2024-01-16",
+        "end": "2024-04-25",
+        "tenure": "约 3 个月",
+        "return": 1.54,
+        "note": "典型过渡期，时间较短，结论有限。"
+      },
+      {
+        "name": "张跃鹏 + 苏佳 + 赵宇澄",
+        "role": "引入新经理",
+        "start": "2024-04-26",
+        "end": "2025-03-02",
+        "tenure": "约 10 个月",
+        "return": 7.53,
+        "note": "赵宇澄开始介入，组合逐步转主动。"
+      },
+      {
+        "name": "赵宇澄",
+        "role": "短暂独任",
+        "start": "2025-03-03",
+        "end": "2025-05-25",
+        "tenure": "约 3 个月",
+        "return": -1.09,
+        "note": "时间短，不宜过度解读，但已显现积极轮动倾向。"
+      },
+      {
+        "name": "赵宇澄 + 邓欣雨",
+        "role": "双管修复",
+        "start": "2025-05-26",
+        "end": null,
+        "tenure": "约 1 年",
+        "return": 17.81,
+        "note": "当前最有效的管理阶段，净值斜率显著改善。"
+      }
+    ]
+  },
+  "navHistory": [
+    {
+      "date": "2020-06-03",
+      "nav": 1.1383
+    },
+    {
+      "date": "2020-06-04",
+      "nav": 1.1391
+    },
+    {
+      "date": "2020-06-05",
+      "nav": 1.1384
+    },
+    {
+      "date": "2020-06-08",
+      "nav": 1.1383
+    },
+    {
+      "date": "2020-06-09",
+      "nav": 1.1402
+    },
+    {
+      "date": "2020-06-10",
+      "nav": 1.1441
+    },
+    {
+      "date": "2020-06-11",
+      "nav": 1.1414
+    },
+    {
+      "date": "2020-06-12",
+      "nav": 1.1449
+    },
+    {
+      "date": "2020-06-15",
+      "nav": 1.1443
+    },
+    {
+      "date": "2020-06-16",
+      "nav": 1.1523
+    },
+    {
+      "date": "2020-06-17",
+      "nav": 1.1529
+    },
+    {
+      "date": "2020-06-18",
+      "nav": 1.1527
+    },
+    {
+      "date": "2020-06-19",
+      "nav": 1.1577
+    },
+    {
+      "date": "2020-06-22",
+      "nav": 1.1553
+    },
+    {
+      "date": "2020-06-23",
+      "nav": 1.157
+    },
+    {
+      "date": "2020-06-24",
+      "nav": 1.1586
+    },
+    {
+      "date": "2020-06-29",
+      "nav": 1.162
+    },
+    {
+      "date": "2020-06-30",
+      "nav": 1.1752
+    },
+    {
+      "date": "2020-07-01",
+      "nav": 1.1749
+    },
+    {
+      "date": "2020-07-02",
+      "nav": 1.1818
+    },
+    {
+      "date": "2020-07-03",
+      "nav": 1.1912
+    },
+    {
+      "date": "2020-07-06",
+      "nav": 1.2132
+    },
+    {
+      "date": "2020-07-07",
+      "nav": 1.218
+    },
+    {
+      "date": "2020-07-08",
+      "nav": 1.2323
+    },
+    {
+      "date": "2020-07-09",
+      "nav": 1.2453
+    },
+    {
+      "date": "2020-07-10",
+      "nav": 1.2366
+    },
+    {
+      "date": "2020-07-13",
+      "nav": 1.2554
+    },
+    {
+      "date": "2020-07-14",
+      "nav": 1.2503
+    },
+    {
+      "date": "2020-07-15",
+      "nav": 1.2362
+    },
+    {
+      "date": "2020-07-16",
+      "nav": 1.1963
+    },
+    {
+      "date": "2020-07-17",
+      "nav": 1.2002
+    },
+    {
+      "date": "2020-07-20",
+      "nav": 1.2139
+    },
+    {
+      "date": "2020-07-21",
+      "nav": 1.2192
+    },
+    {
+      "date": "2020-07-22",
+      "nav": 1.227
+    },
+    {
+      "date": "2020-07-23",
+      "nav": 1.2359
+    },
+    {
+      "date": "2020-07-24",
+      "nav": 1.2062
+    },
+    {
+      "date": "2020-07-27",
+      "nav": 1.2074
+    },
+    {
+      "date": "2020-07-28",
+      "nav": 1.2147
+    },
+    {
+      "date": "2020-07-29",
+      "nav": 1.2368
+    },
+    {
+      "date": "2020-07-30",
+      "nav": 1.237
+    },
+    {
+      "date": "2020-07-31",
+      "nav": 1.2499
+    },
+    {
+      "date": "2020-08-03",
+      "nav": 1.2646
+    },
+    {
+      "date": "2020-08-04",
+      "nav": 1.2605
+    },
+    {
+      "date": "2020-08-05",
+      "nav": 1.2745
+    },
+    {
+      "date": "2020-08-06",
+      "nav": 1.2739
+    },
+    {
+      "date": "2020-08-07",
+      "nav": 1.2679
+    },
+    {
+      "date": "2020-08-10",
+      "nav": 1.2592
+    },
+    {
+      "date": "2020-08-11",
+      "nav": 1.2495
+    },
+    {
+      "date": "2020-08-12",
+      "nav": 1.234
+    },
+    {
+      "date": "2020-08-13",
+      "nav": 1.2364
+    },
+    {
+      "date": "2020-08-14",
+      "nav": 1.245
+    },
+    {
+      "date": "2020-08-17",
+      "nav": 1.2562
+    },
+    {
+      "date": "2020-08-18",
+      "nav": 1.2634
+    },
+    {
+      "date": "2020-08-19",
+      "nav": 1.2476
+    },
+    {
+      "date": "2020-08-20",
+      "nav": 1.2365
+    },
+    {
+      "date": "2020-08-21",
+      "nav": 1.2383
+    },
+    {
+      "date": "2020-08-24",
+      "nav": 1.2413
+    },
+    {
+      "date": "2020-08-25",
+      "nav": 1.2403
+    },
+    {
+      "date": "2020-08-26",
+      "nav": 1.2268
+    },
+    {
+      "date": "2020-08-27",
+      "nav": 1.2336
+    },
+    {
+      "date": "2020-08-28",
+      "nav": 1.2448
+    },
+    {
+      "date": "2020-08-31",
+      "nav": 1.2448
+    },
+    {
+      "date": "2020-09-01",
+      "nav": 1.2511
+    },
+    {
+      "date": "2020-09-02",
+      "nav": 1.2543
+    },
+    {
+      "date": "2020-09-03",
+      "nav": 1.2483
+    },
+    {
+      "date": "2020-09-04",
+      "nav": 1.2431
+    },
+    {
+      "date": "2020-09-07",
+      "nav": 1.2226
+    },
+    {
+      "date": "2020-09-08",
+      "nav": 1.2137
+    },
+    {
+      "date": "2020-09-09",
+      "nav": 1.1942
+    },
+    {
+      "date": "2020-09-10",
+      "nav": 1.1927
+    },
+    {
+      "date": "2020-09-11",
+      "nav": 1.2049
+    },
+    {
+      "date": "2020-09-14",
+      "nav": 1.2085
+    },
+    {
+      "date": "2020-09-15",
+      "nav": 1.2138
+    },
+    {
+      "date": "2020-09-16",
+      "nav": 1.2113
+    },
+    {
+      "date": "2020-09-17",
+      "nav": 1.2123
+    },
+    {
+      "date": "2020-09-18",
+      "nav": 1.2178
+    },
+    {
+      "date": "2020-09-21",
+      "nav": 1.2125
+    },
+    {
+      "date": "2020-09-22",
+      "nav": 1.2077
+    },
+    {
+      "date": "2020-09-23",
+      "nav": 1.2109
+    },
+    {
+      "date": "2020-09-24",
+      "nav": 1.1962
+    },
+    {
+      "date": "2020-09-25",
+      "nav": 1.1935
+    },
+    {
+      "date": "2020-09-28",
+      "nav": 1.1937
+    },
+    {
+      "date": "2020-09-29",
+      "nav": 1.2019
+    },
+    {
+      "date": "2020-09-30",
+      "nav": 1.206
+    },
+    {
+      "date": "2020-10-09",
+      "nav": 1.223
+    },
+    {
+      "date": "2020-10-12",
+      "nav": 1.2376
+    },
+    {
+      "date": "2020-10-13",
+      "nav": 1.2429
+    },
+    {
+      "date": "2020-10-14",
+      "nav": 1.2396
+    },
+    {
+      "date": "2020-10-15",
+      "nav": 1.2345
+    },
+    {
+      "date": "2020-10-16",
+      "nav": 1.2303
+    },
+    {
+      "date": "2020-10-19",
+      "nav": 1.2228
+    },
+    {
+      "date": "2020-10-20",
+      "nav": 1.2326
+    },
+    {
+      "date": "2020-10-21",
+      "nav": 1.2271
+    },
+    {
+      "date": "2020-10-22",
+      "nav": 1.2268
+    },
+    {
+      "date": "2020-10-23",
+      "nav": 1.2161
+    },
+    {
+      "date": "2020-10-26",
+      "nav": 1.2192
+    },
+    {
+      "date": "2020-10-27",
+      "nav": 1.2278
+    },
+    {
+      "date": "2020-10-28",
+      "nav": 1.2367
+    },
+    {
+      "date": "2020-10-29",
+      "nav": 1.2431
+    },
+    {
+      "date": "2020-10-30",
+      "nav": 1.2367
+    },
+    {
+      "date": "2020-11-02",
+      "nav": 1.2441
+    },
+    {
+      "date": "2020-11-03",
+      "nav": 1.2452
+    },
+    {
+      "date": "2020-11-04",
+      "nav": 1.2493
+    },
+    {
+      "date": "2020-11-05",
+      "nav": 1.2637
+    },
+    {
+      "date": "2020-11-06",
+      "nav": 1.2609
+    },
+    {
+      "date": "2020-11-09",
+      "nav": 1.2675
+    },
+    {
+      "date": "2020-11-10",
+      "nav": 1.2623
+    },
+    {
+      "date": "2020-11-11",
+      "nav": 1.2546
+    },
+    {
+      "date": "2020-11-12",
+      "nav": 1.2559
+    },
+    {
+      "date": "2020-11-13",
+      "nav": 1.2516
+    },
+    {
+      "date": "2020-11-16",
+      "nav": 1.2521
+    },
+    {
+      "date": "2020-11-17",
+      "nav": 1.2444
+    },
+    {
+      "date": "2020-11-18",
+      "nav": 1.2421
+    },
+    {
+      "date": "2020-11-19",
+      "nav": 1.2451
+    },
+    {
+      "date": "2020-11-20",
+      "nav": 1.2492
+    },
+    {
+      "date": "2020-11-23",
+      "nav": 1.2544
+    },
+    {
+      "date": "2020-11-24",
+      "nav": 1.2533
+    },
+    {
+      "date": "2020-11-25",
+      "nav": 1.2447
+    },
+    {
+      "date": "2020-11-26",
+      "nav": 1.2413
+    },
+    {
+      "date": "2020-11-27",
+      "nav": 1.2454
+    },
+    {
+      "date": "2020-11-30",
+      "nav": 1.2453
+    },
+    {
+      "date": "2020-12-01",
+      "nav": 1.257
+    },
+    {
+      "date": "2020-12-02",
+      "nav": 1.2556
+    },
+    {
+      "date": "2020-12-03",
+      "nav": 1.2517
+    },
+    {
+      "date": "2020-12-04",
+      "nav": 1.2525
+    },
+    {
+      "date": "2020-12-07",
+      "nav": 1.2515
+    },
+    {
+      "date": "2020-12-08",
+      "nav": 1.2513
+    },
+    {
+      "date": "2020-12-09",
+      "nav": 1.2461
+    },
+    {
+      "date": "2020-12-10",
+      "nav": 1.2486
+    },
+    {
+      "date": "2020-12-11",
+      "nav": 1.2432
+    },
+    {
+      "date": "2020-12-14",
+      "nav": 1.2485
+    },
+    {
+      "date": "2020-12-15",
+      "nav": 1.2491
+    },
+    {
+      "date": "2020-12-16",
+      "nav": 1.2496
+    },
+    {
+      "date": "2020-12-17",
+      "nav": 1.253
+    },
+    {
+      "date": "2020-12-18",
+      "nav": 1.2557
+    },
+    {
+      "date": "2020-12-21",
+      "nav": 1.2718
+    },
+    {
+      "date": "2020-12-22",
+      "nav": 1.2237
+    },
+    {
+      "date": "2020-12-23",
+      "nav": 1.2357
+    },
+    {
+      "date": "2020-12-24",
+      "nav": 1.2338
+    },
+    {
+      "date": "2020-12-25",
+      "nav": 1.2445
+    },
+    {
+      "date": "2020-12-28",
+      "nav": 1.246
+    },
+    {
+      "date": "2020-12-29",
+      "nav": 1.2334
+    },
+    {
+      "date": "2020-12-30",
+      "nav": 1.2453
+    },
+    {
+      "date": "2020-12-31",
+      "nav": 1.2586
+    },
+    {
+      "date": "2021-01-04",
+      "nav": 1.2785
+    },
+    {
+      "date": "2021-01-05",
+      "nav": 1.2916
+    },
+    {
+      "date": "2021-01-06",
+      "nav": 1.295
+    },
+    {
+      "date": "2021-01-07",
+      "nav": 1.3096
+    },
+    {
+      "date": "2021-01-08",
+      "nav": 1.3028
+    },
+    {
+      "date": "2021-01-11",
+      "nav": 1.2965
+    },
+    {
+      "date": "2021-01-12",
+      "nav": 1.3126
+    },
+    {
+      "date": "2021-01-13",
+      "nav": 1.3078
+    },
+    {
+      "date": "2021-01-14",
+      "nav": 1.2942
+    },
+    {
+      "date": "2021-01-15",
+      "nav": 1.2946
+    },
+    {
+      "date": "2021-01-18",
+      "nav": 1.2999
+    },
+    {
+      "date": "2021-01-19",
+      "nav": 1.2906
+    },
+    {
+      "date": "2021-01-20",
+      "nav": 1.3006
+    },
+    {
+      "date": "2021-01-21",
+      "nav": 1.3201
+    },
+    {
+      "date": "2021-01-22",
+      "nav": 1.3301
+    },
+    {
+      "date": "2021-01-25",
+      "nav": 1.3367
+    },
+    {
+      "date": "2021-01-26",
+      "nav": 1.3226
+    },
+    {
+      "date": "2021-01-27",
+      "nav": 1.3262
+    },
+    {
+      "date": "2021-01-28",
+      "nav": 1.2971
+    },
+    {
+      "date": "2021-01-29",
+      "nav": 1.2874
+    },
+    {
+      "date": "2021-02-01",
+      "nav": 1.2965
+    },
+    {
+      "date": "2021-02-02",
+      "nav": 1.3094
+    },
+    {
+      "date": "2021-02-03",
+      "nav": 1.3038
+    },
+    {
+      "date": "2021-02-04",
+      "nav": 1.2902
+    },
+    {
+      "date": "2021-02-05",
+      "nav": 1.2805
+    },
+    {
+      "date": "2021-02-08",
+      "nav": 1.2919
+    },
+    {
+      "date": "2021-02-09",
+      "nav": 1.3158
+    },
+    {
+      "date": "2021-02-10",
+      "nav": 1.3293
+    },
+    {
+      "date": "2021-02-18",
+      "nav": 1.336
+    },
+    {
+      "date": "2021-02-19",
+      "nav": 1.3263
+    },
+    {
+      "date": "2021-02-22",
+      "nav": 1.3143
+    },
+    {
+      "date": "2021-02-23",
+      "nav": 1.3067
+    },
+    {
+      "date": "2021-02-24",
+      "nav": 1.2858
+    },
+    {
+      "date": "2021-02-25",
+      "nav": 1.2851
+    },
+    {
+      "date": "2021-02-26",
+      "nav": 1.27
+    },
+    {
+      "date": "2021-03-01",
+      "nav": 1.284
+    },
+    {
+      "date": "2021-03-02",
+      "nav": 1.2785
+    },
+    {
+      "date": "2021-03-03",
+      "nav": 1.2875
+    },
+    {
+      "date": "2021-03-04",
+      "nav": 1.266
+    },
+    {
+      "date": "2021-03-05",
+      "nav": 1.2609
+    },
+    {
+      "date": "2021-03-08",
+      "nav": 1.2367
+    },
+    {
+      "date": "2021-03-09",
+      "nav": 1.2262
+    },
+    {
+      "date": "2021-03-10",
+      "nav": 1.2292
+    },
+    {
+      "date": "2021-03-11",
+      "nav": 1.2444
+    },
+    {
+      "date": "2021-03-12",
+      "nav": 1.2464
+    },
+    {
+      "date": "2021-03-15",
+      "nav": 1.2343
+    },
+    {
+      "date": "2021-03-16",
+      "nav": 1.2387
+    },
+    {
+      "date": "2021-03-17",
+      "nav": 1.2404
+    },
+    {
+      "date": "2021-03-18",
+      "nav": 1.2455
+    },
+    {
+      "date": "2021-03-19",
+      "nav": 1.2331
+    },
+    {
+      "date": "2021-03-22",
+      "nav": 1.2359
+    },
+    {
+      "date": "2021-03-23",
+      "nav": 1.2281
+    },
+    {
+      "date": "2021-03-24",
+      "nav": 1.2138
+    },
+    {
+      "date": "2021-03-25",
+      "nav": 1.2157
+    },
+    {
+      "date": "2021-03-26",
+      "nav": 1.2268
+    },
+    {
+      "date": "2021-03-29",
+      "nav": 1.227
+    },
+    {
+      "date": "2021-03-30",
+      "nav": 1.2321
+    },
+    {
+      "date": "2021-03-31",
+      "nav": 1.2253
+    },
+    {
+      "date": "2021-04-01",
+      "nav": 1.232
+    },
+    {
+      "date": "2021-04-02",
+      "nav": 1.237
+    },
+    {
+      "date": "2021-04-06",
+      "nav": 1.2385
+    },
+    {
+      "date": "2021-04-07",
+      "nav": 1.2359
+    },
+    {
+      "date": "2021-04-08",
+      "nav": 1.2379
+    },
+    {
+      "date": "2021-04-09",
+      "nav": 1.2333
+    },
+    {
+      "date": "2021-04-12",
+      "nav": 1.2184
+    },
+    {
+      "date": "2021-04-13",
+      "nav": 1.2165
+    },
+    {
+      "date": "2021-04-14",
+      "nav": 1.2257
+    },
+    {
+      "date": "2021-04-15",
+      "nav": 1.2259
+    },
+    {
+      "date": "2021-04-16",
+      "nav": 1.2295
+    },
+    {
+      "date": "2021-04-19",
+      "nav": 1.2481
+    },
+    {
+      "date": "2021-04-20",
+      "nav": 1.2493
+    },
+    {
+      "date": "2021-04-21",
+      "nav": 1.2488
+    },
+    {
+      "date": "2021-04-22",
+      "nav": 1.2495
+    },
+    {
+      "date": "2021-04-23",
+      "nav": 1.2507
+    },
+    {
+      "date": "2021-04-26",
+      "nav": 1.2484
+    },
+    {
+      "date": "2021-04-27",
+      "nav": 1.2468
+    },
+    {
+      "date": "2021-04-28",
+      "nav": 1.2507
+    },
+    {
+      "date": "2021-04-29",
+      "nav": 1.2547
+    },
+    {
+      "date": "2021-04-30",
+      "nav": 1.2579
+    },
+    {
+      "date": "2021-05-06",
+      "nav": 1.2568
+    },
+    {
+      "date": "2021-05-07",
+      "nav": 1.2461
+    },
+    {
+      "date": "2021-05-10",
+      "nav": 1.2479
+    },
+    {
+      "date": "2021-05-11",
+      "nav": 1.2441
+    },
+    {
+      "date": "2021-05-12",
+      "nav": 1.2489
+    },
+    {
+      "date": "2021-05-13",
+      "nav": 1.2405
+    },
+    {
+      "date": "2021-05-14",
+      "nav": 1.2494
+    },
+    {
+      "date": "2021-05-17",
+      "nav": 1.2608
+    },
+    {
+      "date": "2021-05-18",
+      "nav": 1.2608
+    },
+    {
+      "date": "2021-05-19",
+      "nav": 1.262
+    },
+    {
+      "date": "2021-05-20",
+      "nav": 1.2631
+    },
+    {
+      "date": "2021-05-21",
+      "nav": 1.2626
+    },
+    {
+      "date": "2021-05-24",
+      "nav": 1.2634
+    },
+    {
+      "date": "2021-05-25",
+      "nav": 1.2779
+    },
+    {
+      "date": "2021-05-26",
+      "nav": 1.2787
+    },
+    {
+      "date": "2021-05-27",
+      "nav": 1.2818
+    },
+    {
+      "date": "2021-05-28",
+      "nav": 1.2842
+    },
+    {
+      "date": "2021-05-31",
+      "nav": 1.2943
+    },
+    {
+      "date": "2021-06-01",
+      "nav": 1.2926
+    },
+    {
+      "date": "2021-06-02",
+      "nav": 1.2867
+    },
+    {
+      "date": "2021-06-03",
+      "nav": 1.2825
+    },
+    {
+      "date": "2021-06-04",
+      "nav": 1.2845
+    },
+    {
+      "date": "2021-06-07",
+      "nav": 1.2808
+    },
+    {
+      "date": "2021-06-08",
+      "nav": 1.2758
+    },
+    {
+      "date": "2021-06-09",
+      "nav": 1.2765
+    },
+    {
+      "date": "2021-06-10",
+      "nav": 1.2869
+    },
+    {
+      "date": "2021-06-11",
+      "nav": 1.2852
+    },
+    {
+      "date": "2021-06-15",
+      "nav": 1.2793
+    },
+    {
+      "date": "2021-06-16",
+      "nav": 1.2598
+    },
+    {
+      "date": "2021-06-17",
+      "nav": 1.266
+    },
+    {
+      "date": "2021-06-18",
+      "nav": 1.2759
+    },
+    {
+      "date": "2021-06-21",
+      "nav": 1.2851
+    },
+    {
+      "date": "2021-06-22",
+      "nav": 1.2937
+    },
+    {
+      "date": "2021-06-23",
+      "nav": 1.2974
+    },
+    {
+      "date": "2021-06-24",
+      "nav": 1.2957
+    },
+    {
+      "date": "2021-06-25",
+      "nav": 1.3039
+    },
+    {
+      "date": "2021-06-28",
+      "nav": 1.3091
+    },
+    {
+      "date": "2021-06-29",
+      "nav": 1.3097
+    },
+    {
+      "date": "2021-06-30",
+      "nav": 1.3171
+    },
+    {
+      "date": "2021-07-01",
+      "nav": 1.3078
+    },
+    {
+      "date": "2021-07-02",
+      "nav": 1.296
+    },
+    {
+      "date": "2021-07-05",
+      "nav": 1.3046
+    },
+    {
+      "date": "2021-07-06",
+      "nav": 1.3046
+    },
+    {
+      "date": "2021-07-07",
+      "nav": 1.3234
+    },
+    {
+      "date": "2021-07-08",
+      "nav": 1.329
+    },
+    {
+      "date": "2021-07-09",
+      "nav": 1.3355
+    },
+    {
+      "date": "2021-07-12",
+      "nav": 1.351
+    },
+    {
+      "date": "2021-07-13",
+      "nav": 1.351
+    },
+    {
+      "date": "2021-07-14",
+      "nav": 1.3396
+    },
+    {
+      "date": "2021-07-15",
+      "nav": 1.3472
+    },
+    {
+      "date": "2021-07-16",
+      "nav": 1.3425
+    },
+    {
+      "date": "2021-07-19",
+      "nav": 1.3337
+    },
+    {
+      "date": "2021-07-20",
+      "nav": 1.3384
+    },
+    {
+      "date": "2021-07-21",
+      "nav": 1.3699
+    },
+    {
+      "date": "2021-07-22",
+      "nav": 1.3797
+    },
+    {
+      "date": "2021-07-23",
+      "nav": 1.3765
+    },
+    {
+      "date": "2021-07-26",
+      "nav": 1.3694
+    },
+    {
+      "date": "2021-07-27",
+      "nav": 1.3464
+    },
+    {
+      "date": "2021-07-28",
+      "nav": 1.34
+    },
+    {
+      "date": "2021-07-29",
+      "nav": 1.3781
+    },
+    {
+      "date": "2021-07-30",
+      "nav": 1.3802
+    },
+    {
+      "date": "2021-08-02",
+      "nav": 1.3856
+    },
+    {
+      "date": "2021-08-03",
+      "nav": 1.3592
+    },
+    {
+      "date": "2021-08-04",
+      "nav": 1.3823
+    },
+    {
+      "date": "2021-08-05",
+      "nav": 1.3839
+    },
+    {
+      "date": "2021-08-06",
+      "nav": 1.3903
+    },
+    {
+      "date": "2021-08-09",
+      "nav": 1.3795
+    },
+    {
+      "date": "2021-08-10",
+      "nav": 1.3807
+    },
+    {
+      "date": "2021-08-11",
+      "nav": 1.3842
+    },
+    {
+      "date": "2021-08-12",
+      "nav": 1.3887
+    },
+    {
+      "date": "2021-08-13",
+      "nav": 1.3858
+    },
+    {
+      "date": "2021-08-16",
+      "nav": 1.375
+    },
+    {
+      "date": "2021-08-17",
+      "nav": 1.3579
+    },
+    {
+      "date": "2021-08-18",
+      "nav": 1.3553
+    },
+    {
+      "date": "2021-08-19",
+      "nav": 1.3617
+    },
+    {
+      "date": "2021-08-20",
+      "nav": 1.3573
+    },
+    {
+      "date": "2021-08-23",
+      "nav": 1.3745
+    },
+    {
+      "date": "2021-08-24",
+      "nav": 1.3864
+    },
+    {
+      "date": "2021-08-25",
+      "nav": 1.3966
+    },
+    {
+      "date": "2021-08-26",
+      "nav": 1.3916
+    },
+    {
+      "date": "2021-08-27",
+      "nav": 1.3947
+    },
+    {
+      "date": "2021-08-30",
+      "nav": 1.4096
+    },
+    {
+      "date": "2021-08-31",
+      "nav": 1.4013
+    },
+    {
+      "date": "2021-09-01",
+      "nav": 1.3859
+    },
+    {
+      "date": "2021-09-02",
+      "nav": 1.4039
+    },
+    {
+      "date": "2021-09-03",
+      "nav": 1.3846
+    },
+    {
+      "date": "2021-09-06",
+      "nav": 1.3899
+    },
+    {
+      "date": "2021-09-07",
+      "nav": 1.4062
+    },
+    {
+      "date": "2021-09-08",
+      "nav": 1.3992
+    },
+    {
+      "date": "2021-09-09",
+      "nav": 1.3991
+    },
+    {
+      "date": "2021-09-10",
+      "nav": 1.4014
+    },
+    {
+      "date": "2021-09-13",
+      "nav": 1.3991
+    },
+    {
+      "date": "2021-09-14",
+      "nav": 1.3924
+    },
+    {
+      "date": "2021-09-15",
+      "nav": 1.3949
+    },
+    {
+      "date": "2021-09-16",
+      "nav": 1.3668
+    },
+    {
+      "date": "2021-09-17",
+      "nav": 1.3686
+    },
+    {
+      "date": "2021-09-22",
+      "nav": 1.3809
+    },
+    {
+      "date": "2021-09-23",
+      "nav": 1.3754
+    },
+    {
+      "date": "2021-09-24",
+      "nav": 1.3689
+    },
+    {
+      "date": "2021-09-27",
+      "nav": 1.354
+    },
+    {
+      "date": "2021-09-28",
+      "nav": 1.3528
+    },
+    {
+      "date": "2021-09-29",
+      "nav": 1.3401
+    },
+    {
+      "date": "2021-09-30",
+      "nav": 1.3563
+    },
+    {
+      "date": "2021-10-08",
+      "nav": 1.3477
+    },
+    {
+      "date": "2021-10-11",
+      "nav": 1.3399
+    },
+    {
+      "date": "2021-10-12",
+      "nav": 1.3249
+    },
+    {
+      "date": "2021-10-13",
+      "nav": 1.3365
+    },
+    {
+      "date": "2021-10-14",
+      "nav": 1.3434
+    },
+    {
+      "date": "2021-10-15",
+      "nav": 1.3548
+    },
+    {
+      "date": "2021-10-18",
+      "nav": 1.3584
+    },
+    {
+      "date": "2021-10-19",
+      "nav": 1.3629
+    },
+    {
+      "date": "2021-10-20",
+      "nav": 1.3665
+    },
+    {
+      "date": "2021-10-21",
+      "nav": 1.3627
+    },
+    {
+      "date": "2021-10-22",
+      "nav": 1.3555
+    },
+    {
+      "date": "2021-10-25",
+      "nav": 1.3699
+    },
+    {
+      "date": "2021-10-26",
+      "nav": 1.3719
+    },
+    {
+      "date": "2021-10-27",
+      "nav": 1.3741
+    },
+    {
+      "date": "2021-10-28",
+      "nav": 1.3645
+    },
+    {
+      "date": "2021-10-29",
+      "nav": 1.3754
+    },
+    {
+      "date": "2021-11-01",
+      "nav": 1.3779
+    },
+    {
+      "date": "2021-11-02",
+      "nav": 1.372
+    },
+    {
+      "date": "2021-11-03",
+      "nav": 1.3645
+    },
+    {
+      "date": "2021-11-04",
+      "nav": 1.3748
+    },
+    {
+      "date": "2021-11-05",
+      "nav": 1.3616
+    },
+    {
+      "date": "2021-11-08",
+      "nav": 1.3699
+    },
+    {
+      "date": "2021-11-09",
+      "nav": 1.3782
+    },
+    {
+      "date": "2021-11-10",
+      "nav": 1.3735
+    },
+    {
+      "date": "2021-11-11",
+      "nav": 1.3808
+    },
+    {
+      "date": "2021-11-12",
+      "nav": 1.3939
+    },
+    {
+      "date": "2021-11-15",
+      "nav": 1.381
+    },
+    {
+      "date": "2021-11-16",
+      "nav": 1.3714
+    },
+    {
+      "date": "2021-11-17",
+      "nav": 1.3831
+    },
+    {
+      "date": "2021-11-18",
+      "nav": 1.3837
+    },
+    {
+      "date": "2021-11-19",
+      "nav": 1.3929
+    },
+    {
+      "date": "2021-11-22",
+      "nav": 1.41
+    },
+    {
+      "date": "2021-11-23",
+      "nav": 1.4035
+    },
+    {
+      "date": "2021-11-24",
+      "nav": 1.3999
+    },
+    {
+      "date": "2021-11-25",
+      "nav": 1.3919
+    },
+    {
+      "date": "2021-11-26",
+      "nav": 1.3993
+    },
+    {
+      "date": "2021-11-29",
+      "nav": 1.4168
+    },
+    {
+      "date": "2021-11-30",
+      "nav": 1.4181
+    },
+    {
+      "date": "2021-12-01",
+      "nav": 1.4164
+    },
+    {
+      "date": "2021-12-02",
+      "nav": 1.4147
+    },
+    {
+      "date": "2021-12-03",
+      "nav": 1.4176
+    },
+    {
+      "date": "2021-12-06",
+      "nav": 1.4009
+    },
+    {
+      "date": "2021-12-07",
+      "nav": 1.376
+    },
+    {
+      "date": "2021-12-08",
+      "nav": 1.3881
+    },
+    {
+      "date": "2021-12-09",
+      "nav": 1.3918
+    },
+    {
+      "date": "2021-12-10",
+      "nav": 1.403
+    },
+    {
+      "date": "2021-12-13",
+      "nav": 1.4043
+    },
+    {
+      "date": "2021-12-14",
+      "nav": 1.3985
+    },
+    {
+      "date": "2021-12-15",
+      "nav": 1.3978
+    },
+    {
+      "date": "2021-12-16",
+      "nav": 1.4008
+    },
+    {
+      "date": "2021-12-17",
+      "nav": 1.3922
+    },
+    {
+      "date": "2021-12-20",
+      "nav": 1.3781
+    },
+    {
+      "date": "2021-12-21",
+      "nav": 1.3884
+    },
+    {
+      "date": "2021-12-22",
+      "nav": 1.3996
+    },
+    {
+      "date": "2021-12-23",
+      "nav": 1.4072
+    },
+    {
+      "date": "2021-12-24",
+      "nav": 1.3954
+    },
+    {
+      "date": "2021-12-27",
+      "nav": 1.3941
+    },
+    {
+      "date": "2021-12-28",
+      "nav": 1.3971
+    },
+    {
+      "date": "2021-12-29",
+      "nav": 1.3949
+    },
+    {
+      "date": "2021-12-30",
+      "nav": 1.4001
+    },
+    {
+      "date": "2021-12-31",
+      "nav": 1.4114
+    },
+    {
+      "date": "2022-01-04",
+      "nav": 1.405
+    },
+    {
+      "date": "2022-01-05",
+      "nav": 1.3872
+    },
+    {
+      "date": "2022-01-06",
+      "nav": 1.3911
+    },
+    {
+      "date": "2022-01-07",
+      "nav": 1.3876
+    },
+    {
+      "date": "2022-01-10",
+      "nav": 1.3908
+    },
+    {
+      "date": "2022-01-11",
+      "nav": 1.3752
+    },
+    {
+      "date": "2022-01-12",
+      "nav": 1.3866
+    },
+    {
+      "date": "2022-01-13",
+      "nav": 1.3749
+    },
+    {
+      "date": "2022-01-14",
+      "nav": 1.3752
+    },
+    {
+      "date": "2022-01-17",
+      "nav": 1.3839
+    },
+    {
+      "date": "2022-01-18",
+      "nav": 1.3863
+    },
+    {
+      "date": "2022-01-19",
+      "nav": 1.3819
+    },
+    {
+      "date": "2022-01-20",
+      "nav": 1.3804
+    },
+    {
+      "date": "2022-01-21",
+      "nav": 1.3739
+    },
+    {
+      "date": "2022-01-24",
+      "nav": 1.3788
+    },
+    {
+      "date": "2022-01-25",
+      "nav": 1.358
+    },
+    {
+      "date": "2022-01-26",
+      "nav": 1.3648
+    },
+    {
+      "date": "2022-01-27",
+      "nav": 1.3501
+    },
+    {
+      "date": "2022-01-28",
+      "nav": 1.3522
+    },
+    {
+      "date": "2022-02-07",
+      "nav": 1.3619
+    },
+    {
+      "date": "2022-02-08",
+      "nav": 1.3549
+    },
+    {
+      "date": "2022-02-09",
+      "nav": 1.359
+    },
+    {
+      "date": "2022-02-10",
+      "nav": 1.3592
+    },
+    {
+      "date": "2022-02-11",
+      "nav": 1.3531
+    },
+    {
+      "date": "2022-02-14",
+      "nav": 1.3316
+    },
+    {
+      "date": "2022-02-15",
+      "nav": 1.3248
+    },
+    {
+      "date": "2022-02-16",
+      "nav": 1.3283
+    },
+    {
+      "date": "2022-02-17",
+      "nav": 1.3334
+    },
+    {
+      "date": "2022-02-18",
+      "nav": 1.3393
+    },
+    {
+      "date": "2022-02-21",
+      "nav": 1.339
+    },
+    {
+      "date": "2022-02-22",
+      "nav": 1.3317
+    },
+    {
+      "date": "2022-02-23",
+      "nav": 1.3391
+    },
+    {
+      "date": "2022-02-24",
+      "nav": 1.332
+    },
+    {
+      "date": "2022-02-25",
+      "nav": 1.3369
+    },
+    {
+      "date": "2022-02-28",
+      "nav": 1.3412
+    },
+    {
+      "date": "2022-03-01",
+      "nav": 1.3453
+    },
+    {
+      "date": "2022-03-02",
+      "nav": 1.3408
+    },
+    {
+      "date": "2022-03-03",
+      "nav": 1.3312
+    },
+    {
+      "date": "2022-03-04",
+      "nav": 1.3242
+    },
+    {
+      "date": "2022-03-07",
+      "nav": 1.3099
+    },
+    {
+      "date": "2022-03-08",
+      "nav": 1.291
+    },
+    {
+      "date": "2022-03-09",
+      "nav": 1.287
+    },
+    {
+      "date": "2022-03-10",
+      "nav": 1.3018
+    },
+    {
+      "date": "2022-03-11",
+      "nav": 1.3005
+    },
+    {
+      "date": "2022-03-14",
+      "nav": 1.2899
+    },
+    {
+      "date": "2022-03-15",
+      "nav": 1.2687
+    },
+    {
+      "date": "2022-03-16",
+      "nav": 1.2879
+    },
+    {
+      "date": "2022-03-17",
+      "nav": 1.2918
+    },
+    {
+      "date": "2022-03-18",
+      "nav": 1.2993
+    },
+    {
+      "date": "2022-03-21",
+      "nav": 1.3014
+    },
+    {
+      "date": "2022-03-22",
+      "nav": 1.2958
+    },
+    {
+      "date": "2022-03-23",
+      "nav": 1.2931
+    },
+    {
+      "date": "2022-03-24",
+      "nav": 1.2859
+    },
+    {
+      "date": "2022-03-25",
+      "nav": 1.2773
+    },
+    {
+      "date": "2022-03-28",
+      "nav": 1.2743
+    },
+    {
+      "date": "2022-03-29",
+      "nav": 1.2771
+    },
+    {
+      "date": "2022-03-30",
+      "nav": 1.2838
+    },
+    {
+      "date": "2022-03-31",
+      "nav": 1.2812
+    },
+    {
+      "date": "2022-04-01",
+      "nav": 1.2879
+    },
+    {
+      "date": "2022-04-06",
+      "nav": 1.2856
+    },
+    {
+      "date": "2022-04-07",
+      "nav": 1.2795
+    },
+    {
+      "date": "2022-04-08",
+      "nav": 1.2825
+    },
+    {
+      "date": "2022-04-11",
+      "nav": 1.2721
+    },
+    {
+      "date": "2022-04-12",
+      "nav": 1.2732
+    },
+    {
+      "date": "2022-04-13",
+      "nav": 1.2739
+    },
+    {
+      "date": "2022-04-14",
+      "nav": 1.2796
+    },
+    {
+      "date": "2022-04-15",
+      "nav": 1.277
+    },
+    {
+      "date": "2022-04-18",
+      "nav": 1.2735
+    },
+    {
+      "date": "2022-04-19",
+      "nav": 1.2758
+    },
+    {
+      "date": "2022-04-20",
+      "nav": 1.2632
+    },
+    {
+      "date": "2022-04-21",
+      "nav": 1.2536
+    },
+    {
+      "date": "2022-04-22",
+      "nav": 1.2565
+    },
+    {
+      "date": "2022-04-25",
+      "nav": 1.2401
+    },
+    {
+      "date": "2022-04-26",
+      "nav": 1.2399
+    },
+    {
+      "date": "2022-04-27",
+      "nav": 1.2524
+    },
+    {
+      "date": "2022-04-28",
+      "nav": 1.258
+    },
+    {
+      "date": "2022-04-29",
+      "nav": 1.2685
+    },
+    {
+      "date": "2022-05-05",
+      "nav": 1.2701
+    },
+    {
+      "date": "2022-05-06",
+      "nav": 1.2556
+    },
+    {
+      "date": "2022-05-09",
+      "nav": 1.2544
+    },
+    {
+      "date": "2022-05-10",
+      "nav": 1.261
+    },
+    {
+      "date": "2022-05-11",
+      "nav": 1.268
+    },
+    {
+      "date": "2022-05-12",
+      "nav": 1.2656
+    },
+    {
+      "date": "2022-05-13",
+      "nav": 1.2715
+    },
+    {
+      "date": "2022-05-16",
+      "nav": 1.272
+    },
+    {
+      "date": "2022-05-17",
+      "nav": 1.2797
+    },
+    {
+      "date": "2022-05-18",
+      "nav": 1.2782
+    },
+    {
+      "date": "2022-05-19",
+      "nav": 1.2828
+    },
+    {
+      "date": "2022-05-20",
+      "nav": 1.2877
+    },
+    {
+      "date": "2022-05-23",
+      "nav": 1.2872
+    },
+    {
+      "date": "2022-05-24",
+      "nav": 1.2746
+    },
+    {
+      "date": "2022-05-25",
+      "nav": 1.2793
+    },
+    {
+      "date": "2022-05-26",
+      "nav": 1.2833
+    },
+    {
+      "date": "2022-05-27",
+      "nav": 1.2859
+    },
+    {
+      "date": "2022-05-30",
+      "nav": 1.2902
+    },
+    {
+      "date": "2022-05-31",
+      "nav": 1.2934
+    },
+    {
+      "date": "2022-06-01",
+      "nav": 1.2936
+    },
+    {
+      "date": "2022-06-02",
+      "nav": 1.2956
+    },
+    {
+      "date": "2022-06-06",
+      "nav": 1.3108
+    },
+    {
+      "date": "2022-06-07",
+      "nav": 1.3117
+    },
+    {
+      "date": "2022-06-08",
+      "nav": 1.3185
+    },
+    {
+      "date": "2022-06-09",
+      "nav": 1.3166
+    },
+    {
+      "date": "2022-06-10",
+      "nav": 1.3259
+    },
+    {
+      "date": "2022-06-13",
+      "nav": 1.3261
+    },
+    {
+      "date": "2022-06-14",
+      "nav": 1.3247
+    },
+    {
+      "date": "2022-06-15",
+      "nav": 1.3224
+    },
+    {
+      "date": "2022-06-16",
+      "nav": 1.3221
+    },
+    {
+      "date": "2022-06-17",
+      "nav": 1.3282
+    },
+    {
+      "date": "2022-06-20",
+      "nav": 1.3299
+    },
+    {
+      "date": "2022-06-21",
+      "nav": 1.3245
+    },
+    {
+      "date": "2022-06-22",
+      "nav": 1.3247
+    },
+    {
+      "date": "2022-06-23",
+      "nav": 1.3349
+    },
+    {
+      "date": "2022-06-24",
+      "nav": 1.3416
+    },
+    {
+      "date": "2022-06-27",
+      "nav": 1.3494
+    },
+    {
+      "date": "2022-06-28",
+      "nav": 1.3518
+    },
+    {
+      "date": "2022-06-29",
+      "nav": 1.34
+    },
+    {
+      "date": "2022-06-30",
+      "nav": 1.3483
+    },
+    {
+      "date": "2022-07-01",
+      "nav": 1.348
+    },
+    {
+      "date": "2022-07-04",
+      "nav": 1.3584
+    },
+    {
+      "date": "2022-07-05",
+      "nav": 1.36
+    },
+    {
+      "date": "2022-07-06",
+      "nav": 1.3512
+    },
+    {
+      "date": "2022-07-07",
+      "nav": 1.3592
+    },
+    {
+      "date": "2022-07-08",
+      "nav": 1.3529
+    },
+    {
+      "date": "2022-07-11",
+      "nav": 1.3459
+    },
+    {
+      "date": "2022-07-12",
+      "nav": 1.3391
+    },
+    {
+      "date": "2022-07-13",
+      "nav": 1.3422
+    },
+    {
+      "date": "2022-07-14",
+      "nav": 1.3524
+    },
+    {
+      "date": "2022-07-15",
+      "nav": 1.351
+    },
+    {
+      "date": "2022-07-18",
+      "nav": 1.3589
+    },
+    {
+      "date": "2022-07-19",
+      "nav": 1.3586
+    },
+    {
+      "date": "2022-07-20",
+      "nav": 1.3605
+    },
+    {
+      "date": "2022-07-21",
+      "nav": 1.3559
+    },
+    {
+      "date": "2022-07-22",
+      "nav": 1.3526
+    },
+    {
+      "date": "2022-07-25",
+      "nav": 1.3466
+    },
+    {
+      "date": "2022-07-26",
+      "nav": 1.359
+    },
+    {
+      "date": "2022-07-27",
+      "nav": 1.3669
+    },
+    {
+      "date": "2022-07-28",
+      "nav": 1.3668
+    },
+    {
+      "date": "2022-07-29",
+      "nav": 1.3704
+    },
+    {
+      "date": "2022-08-01",
+      "nav": 1.3807
+    },
+    {
+      "date": "2022-08-02",
+      "nav": 1.3737
+    },
+    {
+      "date": "2022-08-03",
+      "nav": 1.361
+    },
+    {
+      "date": "2022-08-04",
+      "nav": 1.359
+    },
+    {
+      "date": "2022-08-05",
+      "nav": 1.3593
+    },
+    {
+      "date": "2022-08-08",
+      "nav": 1.3667
+    },
+    {
+      "date": "2022-08-09",
+      "nav": 1.3719
+    },
+    {
+      "date": "2022-08-10",
+      "nav": 1.3701
+    },
+    {
+      "date": "2022-08-11",
+      "nav": 1.3729
+    },
+    {
+      "date": "2022-08-12",
+      "nav": 1.3686
+    },
+    {
+      "date": "2022-08-15",
+      "nav": 1.3763
+    },
+    {
+      "date": "2022-08-16",
+      "nav": 1.3856
+    },
+    {
+      "date": "2022-08-17",
+      "nav": 1.388
+    },
+    {
+      "date": "2022-08-18",
+      "nav": 1.3857
+    },
+    {
+      "date": "2022-08-19",
+      "nav": 1.3708
+    },
+    {
+      "date": "2022-08-22",
+      "nav": 1.3751
+    },
+    {
+      "date": "2022-08-23",
+      "nav": 1.3805
+    },
+    {
+      "date": "2022-08-24",
+      "nav": 1.3554
+    },
+    {
+      "date": "2022-08-25",
+      "nav": 1.3427
+    },
+    {
+      "date": "2022-08-26",
+      "nav": 1.3342
+    },
+    {
+      "date": "2022-08-29",
+      "nav": 1.3333
+    },
+    {
+      "date": "2022-08-30",
+      "nav": 1.3271
+    },
+    {
+      "date": "2022-08-31",
+      "nav": 1.3054
+    },
+    {
+      "date": "2022-09-01",
+      "nav": 1.3056
+    },
+    {
+      "date": "2022-09-02",
+      "nav": 1.308
+    },
+    {
+      "date": "2022-09-05",
+      "nav": 1.3138
+    },
+    {
+      "date": "2022-09-06",
+      "nav": 1.3317
+    },
+    {
+      "date": "2022-09-07",
+      "nav": 1.3399
+    },
+    {
+      "date": "2022-09-08",
+      "nav": 1.3323
+    },
+    {
+      "date": "2022-09-09",
+      "nav": 1.3289
+    },
+    {
+      "date": "2022-09-13",
+      "nav": 1.329
+    },
+    {
+      "date": "2022-09-14",
+      "nav": 1.3245
+    },
+    {
+      "date": "2022-09-15",
+      "nav": 1.307
+    },
+    {
+      "date": "2022-09-16",
+      "nav": 1.2998
+    },
+    {
+      "date": "2022-09-19",
+      "nav": 1.297
+    },
+    {
+      "date": "2022-09-20",
+      "nav": 1.3017
+    },
+    {
+      "date": "2022-09-21",
+      "nav": 1.3023
+    },
+    {
+      "date": "2022-09-22",
+      "nav": 1.3047
+    },
+    {
+      "date": "2022-09-23",
+      "nav": 1.2953
+    },
+    {
+      "date": "2022-09-26",
+      "nav": 1.2955
+    },
+    {
+      "date": "2022-09-27",
+      "nav": 1.3006
+    },
+    {
+      "date": "2022-09-28",
+      "nav": 1.2883
+    },
+    {
+      "date": "2022-09-29",
+      "nav": 1.2864
+    },
+    {
+      "date": "2022-09-30",
+      "nav": 1.2778
+    },
+    {
+      "date": "2022-10-10",
+      "nav": 1.2661
+    },
+    {
+      "date": "2022-10-11",
+      "nav": 1.2705
+    },
+    {
+      "date": "2022-10-12",
+      "nav": 1.2886
+    },
+    {
+      "date": "2022-10-13",
+      "nav": 1.2862
+    },
+    {
+      "date": "2022-10-14",
+      "nav": 1.297
+    },
+    {
+      "date": "2022-10-17",
+      "nav": 1.2927
+    },
+    {
+      "date": "2022-10-18",
+      "nav": 1.2946
+    },
+    {
+      "date": "2022-10-19",
+      "nav": 1.2936
+    },
+    {
+      "date": "2022-10-20",
+      "nav": 1.284
+    },
+    {
+      "date": "2022-10-21",
+      "nav": 1.2829
+    },
+    {
+      "date": "2022-10-24",
+      "nav": 1.278
+    },
+    {
+      "date": "2022-10-25",
+      "nav": 1.2795
+    },
+    {
+      "date": "2022-10-26",
+      "nav": 1.2892
+    },
+    {
+      "date": "2022-10-27",
+      "nav": 1.2828
+    },
+    {
+      "date": "2022-10-28",
+      "nav": 1.2652
+    },
+    {
+      "date": "2022-10-31",
+      "nav": 1.2676
+    },
+    {
+      "date": "2022-11-01",
+      "nav": 1.2787
+    },
+    {
+      "date": "2022-11-02",
+      "nav": 1.2886
+    },
+    {
+      "date": "2022-11-03",
+      "nav": 1.2913
+    },
+    {
+      "date": "2022-11-04",
+      "nav": 1.3022
+    },
+    {
+      "date": "2022-11-07",
+      "nav": 1.2933
+    },
+    {
+      "date": "2022-11-08",
+      "nav": 1.2876
+    },
+    {
+      "date": "2022-11-09",
+      "nav": 1.2849
+    },
+    {
+      "date": "2022-11-10",
+      "nav": 1.2692
+    },
+    {
+      "date": "2022-11-11",
+      "nav": 1.2733
+    },
+    {
+      "date": "2022-11-14",
+      "nav": 1.2563
+    },
+    {
+      "date": "2022-11-15",
+      "nav": 1.2747
+    },
+    {
+      "date": "2022-11-16",
+      "nav": 1.2607
+    },
+    {
+      "date": "2022-11-17",
+      "nav": 1.2568
+    },
+    {
+      "date": "2022-11-18",
+      "nav": 1.2448
+    },
+    {
+      "date": "2022-11-21",
+      "nav": 1.2553
+    },
+    {
+      "date": "2022-11-22",
+      "nav": 1.2481
+    },
+    {
+      "date": "2022-11-23",
+      "nav": 1.2497
+    },
+    {
+      "date": "2022-11-24",
+      "nav": 1.2555
+    },
+    {
+      "date": "2022-11-25",
+      "nav": 1.2476
+    },
+    {
+      "date": "2022-11-28",
+      "nav": 1.2443
+    },
+    {
+      "date": "2022-11-29",
+      "nav": 1.2515
+    },
+    {
+      "date": "2022-11-30",
+      "nav": 1.2499
+    },
+    {
+      "date": "2022-12-01",
+      "nav": 1.2578
+    },
+    {
+      "date": "2022-12-02",
+      "nav": 1.2598
+    },
+    {
+      "date": "2022-12-05",
+      "nav": 1.2633
+    },
+    {
+      "date": "2022-12-06",
+      "nav": 1.2624
+    },
+    {
+      "date": "2022-12-07",
+      "nav": 1.2548
+    },
+    {
+      "date": "2022-12-08",
+      "nav": 1.2521
+    },
+    {
+      "date": "2022-12-09",
+      "nav": 1.2543
+    },
+    {
+      "date": "2022-12-12",
+      "nav": 1.2485
+    },
+    {
+      "date": "2022-12-13",
+      "nav": 1.2383
+    },
+    {
+      "date": "2022-12-14",
+      "nav": 1.2331
+    },
+    {
+      "date": "2022-12-15",
+      "nav": 1.2339
+    },
+    {
+      "date": "2022-12-16",
+      "nav": 1.2254
+    },
+    {
+      "date": "2022-12-19",
+      "nav": 1.2179
+    },
+    {
+      "date": "2022-12-20",
+      "nav": 1.2132
+    },
+    {
+      "date": "2022-12-21",
+      "nav": 1.2114
+    },
+    {
+      "date": "2022-12-22",
+      "nav": 1.209
+    },
+    {
+      "date": "2022-12-23",
+      "nav": 1.2067
+    },
+    {
+      "date": "2022-12-26",
+      "nav": 1.2155
+    },
+    {
+      "date": "2022-12-27",
+      "nav": 1.2223
+    },
+    {
+      "date": "2022-12-28",
+      "nav": 1.2182
+    },
+    {
+      "date": "2022-12-29",
+      "nav": 1.2166
+    },
+    {
+      "date": "2022-12-30",
+      "nav": 1.2169
+    },
+    {
+      "date": "2022-12-31",
+      "nav": 1.2169
+    },
+    {
+      "date": "2023-01-03",
+      "nav": 1.223
+    },
+    {
+      "date": "2023-01-04",
+      "nav": 1.2286
+    },
+    {
+      "date": "2023-01-05",
+      "nav": 1.2394
+    },
+    {
+      "date": "2023-01-06",
+      "nav": 1.2437
+    },
+    {
+      "date": "2023-01-09",
+      "nav": 1.246
+    },
+    {
+      "date": "2023-01-10",
+      "nav": 1.2452
+    },
+    {
+      "date": "2023-01-11",
+      "nav": 1.2404
+    },
+    {
+      "date": "2023-01-12",
+      "nav": 1.2393
+    },
+    {
+      "date": "2023-01-13",
+      "nav": 1.2396
+    },
+    {
+      "date": "2023-01-16",
+      "nav": 1.2467
+    },
+    {
+      "date": "2023-01-17",
+      "nav": 1.2481
+    },
+    {
+      "date": "2023-01-18",
+      "nav": 1.2484
+    },
+    {
+      "date": "2023-01-19",
+      "nav": 1.2519
+    },
+    {
+      "date": "2023-01-20",
+      "nav": 1.2552
+    },
+    {
+      "date": "2023-01-30",
+      "nav": 1.2605
+    },
+    {
+      "date": "2023-01-31",
+      "nav": 1.2576
+    },
+    {
+      "date": "2023-02-01",
+      "nav": 1.265
+    },
+    {
+      "date": "2023-02-02",
+      "nav": 1.2671
+    },
+    {
+      "date": "2023-02-03",
+      "nav": 1.2623
+    },
+    {
+      "date": "2023-02-06",
+      "nav": 1.2527
+    },
+    {
+      "date": "2023-02-07",
+      "nav": 1.2546
+    },
+    {
+      "date": "2023-02-08",
+      "nav": 1.2502
+    },
+    {
+      "date": "2023-02-09",
+      "nav": 1.2615
+    },
+    {
+      "date": "2023-02-10",
+      "nav": 1.2563
+    },
+    {
+      "date": "2023-02-13",
+      "nav": 1.2643
+    },
+    {
+      "date": "2023-02-14",
+      "nav": 1.2635
+    },
+    {
+      "date": "2023-02-15",
+      "nav": 1.2644
+    },
+    {
+      "date": "2023-02-16",
+      "nav": 1.2548
+    },
+    {
+      "date": "2023-02-17",
+      "nav": 1.24
+    },
+    {
+      "date": "2023-02-20",
+      "nav": 1.252
+    },
+    {
+      "date": "2023-02-21",
+      "nav": 1.2528
+    },
+    {
+      "date": "2023-02-22",
+      "nav": 1.2515
+    },
+    {
+      "date": "2023-02-23",
+      "nav": 1.2483
+    },
+    {
+      "date": "2023-02-24",
+      "nav": 1.2445
+    },
+    {
+      "date": "2023-02-27",
+      "nav": 1.2417
+    },
+    {
+      "date": "2023-02-28",
+      "nav": 1.2447
+    },
+    {
+      "date": "2023-03-01",
+      "nav": 1.2569
+    },
+    {
+      "date": "2023-03-02",
+      "nav": 1.2561
+    },
+    {
+      "date": "2023-03-03",
+      "nav": 1.2546
+    },
+    {
+      "date": "2023-03-06",
+      "nav": 1.256
+    },
+    {
+      "date": "2023-03-07",
+      "nav": 1.2438
+    },
+    {
+      "date": "2023-03-08",
+      "nav": 1.2462
+    },
+    {
+      "date": "2023-03-09",
+      "nav": 1.2491
+    },
+    {
+      "date": "2023-03-10",
+      "nav": 1.2432
+    },
+    {
+      "date": "2023-03-13",
+      "nav": 1.2531
+    },
+    {
+      "date": "2023-03-14",
+      "nav": 1.2539
+    },
+    {
+      "date": "2023-03-15",
+      "nav": 1.2501
+    },
+    {
+      "date": "2023-03-16",
+      "nav": 1.2446
+    },
+    {
+      "date": "2023-03-17",
+      "nav": 1.2564
+    },
+    {
+      "date": "2023-03-20",
+      "nav": 1.2503
+    },
+    {
+      "date": "2023-03-21",
+      "nav": 1.2549
+    },
+    {
+      "date": "2023-03-22",
+      "nav": 1.2603
+    },
+    {
+      "date": "2023-03-23",
+      "nav": 1.2686
+    },
+    {
+      "date": "2023-03-24",
+      "nav": 1.2704
+    },
+    {
+      "date": "2023-03-27",
+      "nav": 1.2701
+    },
+    {
+      "date": "2023-03-28",
+      "nav": 1.2634
+    },
+    {
+      "date": "2023-03-29",
+      "nav": 1.2679
+    },
+    {
+      "date": "2023-03-30",
+      "nav": 1.2596
+    },
+    {
+      "date": "2023-03-31",
+      "nav": 1.2683
+    },
+    {
+      "date": "2023-04-03",
+      "nav": 1.2859
+    },
+    {
+      "date": "2023-04-04",
+      "nav": 1.2902
+    },
+    {
+      "date": "2023-04-06",
+      "nav": 1.295
+    },
+    {
+      "date": "2023-04-07",
+      "nav": 1.3016
+    },
+    {
+      "date": "2023-04-10",
+      "nav": 1.2878
+    },
+    {
+      "date": "2023-04-11",
+      "nav": 1.2867
+    },
+    {
+      "date": "2023-04-12",
+      "nav": 1.2936
+    },
+    {
+      "date": "2023-04-13",
+      "nav": 1.2832
+    },
+    {
+      "date": "2023-04-14",
+      "nav": 1.2955
+    },
+    {
+      "date": "2023-04-17",
+      "nav": 1.2948
+    },
+    {
+      "date": "2023-04-18",
+      "nav": 1.2982
+    },
+    {
+      "date": "2023-04-19",
+      "nav": 1.2963
+    },
+    {
+      "date": "2023-04-20",
+      "nav": 1.3069
+    },
+    {
+      "date": "2023-04-21",
+      "nav": 1.2851
+    },
+    {
+      "date": "2023-04-24",
+      "nav": 1.2797
+    },
+    {
+      "date": "2023-04-25",
+      "nav": 1.2762
+    },
+    {
+      "date": "2023-04-26",
+      "nav": 1.2695
+    },
+    {
+      "date": "2023-04-27",
+      "nav": 1.2693
+    },
+    {
+      "date": "2023-04-28",
+      "nav": 1.2871
+    },
+    {
+      "date": "2023-05-04",
+      "nav": 1.281
+    },
+    {
+      "date": "2023-05-05",
+      "nav": 1.2727
+    },
+    {
+      "date": "2023-05-08",
+      "nav": 1.2793
+    },
+    {
+      "date": "2023-05-09",
+      "nav": 1.2713
+    },
+    {
+      "date": "2023-05-10",
+      "nav": 1.2645
+    },
+    {
+      "date": "2023-05-11",
+      "nav": 1.2637
+    },
+    {
+      "date": "2023-05-12",
+      "nav": 1.2516
+    },
+    {
+      "date": "2023-05-15",
+      "nav": 1.2572
+    },
+    {
+      "date": "2023-05-16",
+      "nav": 1.2528
+    },
+    {
+      "date": "2023-05-17",
+      "nav": 1.2566
+    },
+    {
+      "date": "2023-05-18",
+      "nav": 1.2671
+    },
+    {
+      "date": "2023-05-19",
+      "nav": 1.2642
+    },
+    {
+      "date": "2023-05-22",
+      "nav": 1.2612
+    },
+    {
+      "date": "2023-05-23",
+      "nav": 1.2541
+    },
+    {
+      "date": "2023-05-24",
+      "nav": 1.256
+    },
+    {
+      "date": "2023-05-25",
+      "nav": 1.2569
+    },
+    {
+      "date": "2023-05-26",
+      "nav": 1.2662
+    },
+    {
+      "date": "2023-05-29",
+      "nav": 1.2692
+    },
+    {
+      "date": "2023-05-30",
+      "nav": 1.2789
+    },
+    {
+      "date": "2023-05-31",
+      "nav": 1.279
+    },
+    {
+      "date": "2023-06-01",
+      "nav": 1.282
+    },
+    {
+      "date": "2023-06-02",
+      "nav": 1.2828
+    },
+    {
+      "date": "2023-06-05",
+      "nav": 1.2845
+    },
+    {
+      "date": "2023-06-06",
+      "nav": 1.2736
+    },
+    {
+      "date": "2023-06-07",
+      "nav": 1.2754
+    },
+    {
+      "date": "2023-06-08",
+      "nav": 1.2742
+    },
+    {
+      "date": "2023-06-09",
+      "nav": 1.2852
+    },
+    {
+      "date": "2023-06-12",
+      "nav": 1.2876
+    },
+    {
+      "date": "2023-06-13",
+      "nav": 1.2927
+    },
+    {
+      "date": "2023-06-14",
+      "nav": 1.3015
+    },
+    {
+      "date": "2023-06-15",
+      "nav": 1.2989
+    },
+    {
+      "date": "2023-06-16",
+      "nav": 1.3057
+    },
+    {
+      "date": "2023-06-19",
+      "nav": 1.3078
+    },
+    {
+      "date": "2023-06-20",
+      "nav": 1.3077
+    },
+    {
+      "date": "2023-06-21",
+      "nav": 1.2923
+    },
+    {
+      "date": "2023-06-26",
+      "nav": 1.2828
+    },
+    {
+      "date": "2023-06-27",
+      "nav": 1.2889
+    },
+    {
+      "date": "2023-06-28",
+      "nav": 1.2855
+    },
+    {
+      "date": "2023-06-29",
+      "nav": 1.2872
+    },
+    {
+      "date": "2023-06-30",
+      "nav": 1.2894
+    },
+    {
+      "date": "2023-07-03",
+      "nav": 1.2891
+    },
+    {
+      "date": "2023-07-04",
+      "nav": 1.2893
+    },
+    {
+      "date": "2023-07-05",
+      "nav": 1.2827
+    },
+    {
+      "date": "2023-07-06",
+      "nav": 1.2839
+    },
+    {
+      "date": "2023-07-07",
+      "nav": 1.2791
+    },
+    {
+      "date": "2023-07-10",
+      "nav": 1.2742
+    },
+    {
+      "date": "2023-07-11",
+      "nav": 1.2795
+    },
+    {
+      "date": "2023-07-12",
+      "nav": 1.2696
+    },
+    {
+      "date": "2023-07-13",
+      "nav": 1.2783
+    },
+    {
+      "date": "2023-07-14",
+      "nav": 1.2798
+    },
+    {
+      "date": "2023-07-17",
+      "nav": 1.2758
+    },
+    {
+      "date": "2023-07-18",
+      "nav": 1.2739
+    },
+    {
+      "date": "2023-07-19",
+      "nav": 1.2736
+    },
+    {
+      "date": "2023-07-20",
+      "nav": 1.2627
+    },
+    {
+      "date": "2023-07-21",
+      "nav": 1.26
+    },
+    {
+      "date": "2023-07-24",
+      "nav": 1.2585
+    },
+    {
+      "date": "2023-07-25",
+      "nav": 1.2665
+    },
+    {
+      "date": "2023-07-26",
+      "nav": 1.2616
+    },
+    {
+      "date": "2023-07-27",
+      "nav": 1.2568
+    },
+    {
+      "date": "2023-07-28",
+      "nav": 1.2689
+    },
+    {
+      "date": "2023-07-31",
+      "nav": 1.2734
+    },
+    {
+      "date": "2023-08-01",
+      "nav": 1.2707
+    },
+    {
+      "date": "2023-08-02",
+      "nav": 1.2714
+    },
+    {
+      "date": "2023-08-03",
+      "nav": 1.276
+    },
+    {
+      "date": "2023-08-04",
+      "nav": 1.2801
+    },
+    {
+      "date": "2023-08-07",
+      "nav": 1.2778
+    },
+    {
+      "date": "2023-08-08",
+      "nav": 1.2734
+    },
+    {
+      "date": "2023-08-09",
+      "nav": 1.2666
+    },
+    {
+      "date": "2023-08-10",
+      "nav": 1.2672
+    },
+    {
+      "date": "2023-08-11",
+      "nav": 1.2586
+    },
+    {
+      "date": "2023-08-14",
+      "nav": 1.2589
+    },
+    {
+      "date": "2023-08-15",
+      "nav": 1.257
+    },
+    {
+      "date": "2023-08-16",
+      "nav": 1.2526
+    },
+    {
+      "date": "2023-08-17",
+      "nav": 1.256
+    },
+    {
+      "date": "2023-08-18",
+      "nav": 1.2487
+    },
+    {
+      "date": "2023-08-21",
+      "nav": 1.244
+    },
+    {
+      "date": "2023-08-22",
+      "nav": 1.2501
+    },
+    {
+      "date": "2023-08-23",
+      "nav": 1.2413
+    },
+    {
+      "date": "2023-08-24",
+      "nav": 1.2402
+    },
+    {
+      "date": "2023-08-25",
+      "nav": 1.2325
+    },
+    {
+      "date": "2023-08-28",
+      "nav": 1.2354
+    },
+    {
+      "date": "2023-08-29",
+      "nav": 1.2438
+    },
+    {
+      "date": "2023-08-30",
+      "nav": 1.2489
+    },
+    {
+      "date": "2023-08-31",
+      "nav": 1.2447
+    },
+    {
+      "date": "2023-09-01",
+      "nav": 1.244
+    },
+    {
+      "date": "2023-09-04",
+      "nav": 1.2482
+    },
+    {
+      "date": "2023-09-05",
+      "nav": 1.2426
+    },
+    {
+      "date": "2023-09-06",
+      "nav": 1.2442
+    },
+    {
+      "date": "2023-09-07",
+      "nav": 1.2318
+    },
+    {
+      "date": "2023-09-08",
+      "nav": 1.2306
+    },
+    {
+      "date": "2023-09-11",
+      "nav": 1.2327
+    },
+    {
+      "date": "2023-09-12",
+      "nav": 1.2313
+    },
+    {
+      "date": "2023-09-13",
+      "nav": 1.2249
+    },
+    {
+      "date": "2023-09-14",
+      "nav": 1.2215
+    },
+    {
+      "date": "2023-09-15",
+      "nav": 1.2216
+    },
+    {
+      "date": "2023-09-18",
+      "nav": 1.2202
+    },
+    {
+      "date": "2023-09-19",
+      "nav": 1.2175
+    },
+    {
+      "date": "2023-09-20",
+      "nav": 1.2156
+    },
+    {
+      "date": "2023-09-21",
+      "nav": 1.2126
+    },
+    {
+      "date": "2023-09-22",
+      "nav": 1.2227
+    },
+    {
+      "date": "2023-09-25",
+      "nav": 1.2208
+    },
+    {
+      "date": "2023-09-26",
+      "nav": 1.2229
+    },
+    {
+      "date": "2023-09-27",
+      "nav": 1.2241
+    },
+    {
+      "date": "2023-09-28",
+      "nav": 1.2289
+    },
+    {
+      "date": "2023-10-09",
+      "nav": 1.2265
+    },
+    {
+      "date": "2023-10-10",
+      "nav": 1.224
+    },
+    {
+      "date": "2023-10-11",
+      "nav": 1.2228
+    },
+    {
+      "date": "2023-10-12",
+      "nav": 1.2226
+    },
+    {
+      "date": "2023-10-13",
+      "nav": 1.2186
+    },
+    {
+      "date": "2023-10-16",
+      "nav": 1.2127
+    },
+    {
+      "date": "2023-10-17",
+      "nav": 1.2103
+    },
+    {
+      "date": "2023-10-18",
+      "nav": 1.2012
+    },
+    {
+      "date": "2023-10-19",
+      "nav": 1.1954
+    },
+    {
+      "date": "2023-10-20",
+      "nav": 1.1873
+    },
+    {
+      "date": "2023-10-23",
+      "nav": 1.1759
+    },
+    {
+      "date": "2023-10-24",
+      "nav": 1.1852
+    },
+    {
+      "date": "2023-10-25",
+      "nav": 1.1888
+    },
+    {
+      "date": "2023-10-26",
+      "nav": 1.1892
+    },
+    {
+      "date": "2023-10-27",
+      "nav": 1.1943
+    },
+    {
+      "date": "2023-10-30",
+      "nav": 1.1977
+    },
+    {
+      "date": "2023-10-31",
+      "nav": 1.1927
+    },
+    {
+      "date": "2023-11-01",
+      "nav": 1.1887
+    },
+    {
+      "date": "2023-11-02",
+      "nav": 1.1841
+    },
+    {
+      "date": "2023-11-03",
+      "nav": 1.1935
+    },
+    {
+      "date": "2023-11-06",
+      "nav": 1.2072
+    },
+    {
+      "date": "2023-11-07",
+      "nav": 1.2126
+    },
+    {
+      "date": "2023-11-08",
+      "nav": 1.2166
+    },
+    {
+      "date": "2023-11-09",
+      "nav": 1.2114
+    },
+    {
+      "date": "2023-11-10",
+      "nav": 1.2093
+    },
+    {
+      "date": "2023-11-13",
+      "nav": 1.2119
+    },
+    {
+      "date": "2023-11-14",
+      "nav": 1.2174
+    },
+    {
+      "date": "2023-11-15",
+      "nav": 1.2178
+    },
+    {
+      "date": "2023-11-16",
+      "nav": 1.2114
+    },
+    {
+      "date": "2023-11-17",
+      "nav": 1.2129
+    },
+    {
+      "date": "2023-11-20",
+      "nav": 1.2183
+    },
+    {
+      "date": "2023-11-21",
+      "nav": 1.2098
+    },
+    {
+      "date": "2023-11-22",
+      "nav": 1.2014
+    },
+    {
+      "date": "2023-11-23",
+      "nav": 1.204
+    },
+    {
+      "date": "2023-11-24",
+      "nav": 1.1941
+    },
+    {
+      "date": "2023-11-27",
+      "nav": 1.1971
+    },
+    {
+      "date": "2023-11-28",
+      "nav": 1.2003
+    },
+    {
+      "date": "2023-11-29",
+      "nav": 1.1999
+    },
+    {
+      "date": "2023-11-30",
+      "nav": 1.1987
+    },
+    {
+      "date": "2023-12-01",
+      "nav": 1.2028
+    },
+    {
+      "date": "2023-12-04",
+      "nav": 1.2027
+    },
+    {
+      "date": "2023-12-05",
+      "nav": 1.1931
+    },
+    {
+      "date": "2023-12-06",
+      "nav": 1.1941
+    },
+    {
+      "date": "2023-12-07",
+      "nav": 1.1948
+    },
+    {
+      "date": "2023-12-08",
+      "nav": 1.1994
+    },
+    {
+      "date": "2023-12-11",
+      "nav": 1.206
+    },
+    {
+      "date": "2023-12-12",
+      "nav": 1.2043
+    },
+    {
+      "date": "2023-12-13",
+      "nav": 1.1972
+    },
+    {
+      "date": "2023-12-14",
+      "nav": 1.1942
+    },
+    {
+      "date": "2023-12-15",
+      "nav": 1.1899
+    },
+    {
+      "date": "2023-12-18",
+      "nav": 1.1841
+    },
+    {
+      "date": "2023-12-19",
+      "nav": 1.1845
+    },
+    {
+      "date": "2023-12-20",
+      "nav": 1.1777
+    },
+    {
+      "date": "2023-12-21",
+      "nav": 1.183
+    },
+    {
+      "date": "2023-12-22",
+      "nav": 1.1758
+    },
+    {
+      "date": "2023-12-25",
+      "nav": 1.1751
+    },
+    {
+      "date": "2023-12-26",
+      "nav": 1.1656
+    },
+    {
+      "date": "2023-12-27",
+      "nav": 1.1721
+    },
+    {
+      "date": "2023-12-28",
+      "nav": 1.1793
+    },
+    {
+      "date": "2023-12-29",
+      "nav": 1.1871
+    },
+    {
+      "date": "2023-12-31",
+      "nav": 1.1871
+    },
+    {
+      "date": "2024-01-02",
+      "nav": 1.1861
+    },
+    {
+      "date": "2024-01-03",
+      "nav": 1.182
+    },
+    {
+      "date": "2024-01-04",
+      "nav": 1.1806
+    },
+    {
+      "date": "2024-01-05",
+      "nav": 1.1769
+    },
+    {
+      "date": "2024-01-08",
+      "nav": 1.1721
+    },
+    {
+      "date": "2024-01-09",
+      "nav": 1.1734
+    },
+    {
+      "date": "2024-01-10",
+      "nav": 1.1715
+    },
+    {
+      "date": "2024-01-11",
+      "nav": 1.1746
+    },
+    {
+      "date": "2024-01-12",
+      "nav": 1.1731
+    },
+    {
+      "date": "2024-01-15",
+      "nav": 1.172
+    },
+    {
+      "date": "2024-01-16",
+      "nav": 1.1708
+    },
+    {
+      "date": "2024-01-17",
+      "nav": 1.1662
+    },
+    {
+      "date": "2024-01-18",
+      "nav": 1.1675
+    },
+    {
+      "date": "2024-01-19",
+      "nav": 1.1667
+    },
+    {
+      "date": "2024-01-22",
+      "nav": 1.1591
+    },
+    {
+      "date": "2024-01-23",
+      "nav": 1.1608
+    },
+    {
+      "date": "2024-01-24",
+      "nav": 1.1606
+    },
+    {
+      "date": "2024-01-25",
+      "nav": 1.1679
+    },
+    {
+      "date": "2024-01-26",
+      "nav": 1.1667
+    },
+    {
+      "date": "2024-01-29",
+      "nav": 1.1609
+    },
+    {
+      "date": "2024-01-30",
+      "nav": 1.1561
+    },
+    {
+      "date": "2024-01-31",
+      "nav": 1.1515
+    },
+    {
+      "date": "2024-02-01",
+      "nav": 1.1524
+    },
+    {
+      "date": "2024-02-02",
+      "nav": 1.1478
+    },
+    {
+      "date": "2024-02-05",
+      "nav": 1.1429
+    },
+    {
+      "date": "2024-02-06",
+      "nav": 1.156
+    },
+    {
+      "date": "2024-02-07",
+      "nav": 1.1608
+    },
+    {
+      "date": "2024-02-08",
+      "nav": 1.1674
+    },
+    {
+      "date": "2024-02-19",
+      "nav": 1.173
+    },
+    {
+      "date": "2024-02-20",
+      "nav": 1.1776
+    },
+    {
+      "date": "2024-02-21",
+      "nav": 1.1797
+    },
+    {
+      "date": "2024-02-22",
+      "nav": 1.1821
+    },
+    {
+      "date": "2024-02-23",
+      "nav": 1.1838
+    },
+    {
+      "date": "2024-02-26",
+      "nav": 1.1835
+    },
+    {
+      "date": "2024-02-27",
+      "nav": 1.1887
+    },
+    {
+      "date": "2024-02-28",
+      "nav": 1.1787
+    },
+    {
+      "date": "2024-02-29",
+      "nav": 1.1862
+    },
+    {
+      "date": "2024-03-01",
+      "nav": 1.1876
+    },
+    {
+      "date": "2024-03-04",
+      "nav": 1.1879
+    },
+    {
+      "date": "2024-03-05",
+      "nav": 1.1853
+    },
+    {
+      "date": "2024-03-06",
+      "nav": 1.1879
+    },
+    {
+      "date": "2024-03-07",
+      "nav": 1.186
+    },
+    {
+      "date": "2024-03-08",
+      "nav": 1.19
+    },
+    {
+      "date": "2024-03-11",
+      "nav": 1.1945
+    },
+    {
+      "date": "2024-03-12",
+      "nav": 1.1949
+    },
+    {
+      "date": "2024-03-13",
+      "nav": 1.1955
+    },
+    {
+      "date": "2024-03-14",
+      "nav": 1.1925
+    },
+    {
+      "date": "2024-03-15",
+      "nav": 1.1969
+    },
+    {
+      "date": "2024-03-18",
+      "nav": 1.2029
+    },
+    {
+      "date": "2024-03-19",
+      "nav": 1.2022
+    },
+    {
+      "date": "2024-03-20",
+      "nav": 1.2038
+    },
+    {
+      "date": "2024-03-21",
+      "nav": 1.2032
+    },
+    {
+      "date": "2024-03-22",
+      "nav": 1.198
+    },
+    {
+      "date": "2024-03-25",
+      "nav": 1.1919
+    },
+    {
+      "date": "2024-03-26",
+      "nav": 1.1903
+    },
+    {
+      "date": "2024-03-27",
+      "nav": 1.1824
+    },
+    {
+      "date": "2024-03-28",
+      "nav": 1.1876
+    },
+    {
+      "date": "2024-03-29",
+      "nav": 1.192
+    },
+    {
+      "date": "2024-04-01",
+      "nav": 1.2008
+    },
+    {
+      "date": "2024-04-02",
+      "nav": 1.2013
+    },
+    {
+      "date": "2024-04-03",
+      "nav": 1.2011
+    },
+    {
+      "date": "2024-04-08",
+      "nav": 1.1945
+    },
+    {
+      "date": "2024-04-09",
+      "nav": 1.1993
+    },
+    {
+      "date": "2024-04-10",
+      "nav": 1.1938
+    },
+    {
+      "date": "2024-04-11",
+      "nav": 1.196
+    },
+    {
+      "date": "2024-04-12",
+      "nav": 1.1982
+    },
+    {
+      "date": "2024-04-15",
+      "nav": 1.1913
+    },
+    {
+      "date": "2024-04-16",
+      "nav": 1.1765
+    },
+    {
+      "date": "2024-04-17",
+      "nav": 1.1929
+    },
+    {
+      "date": "2024-04-18",
+      "nav": 1.1929
+    },
+    {
+      "date": "2024-04-19",
+      "nav": 1.1897
+    },
+    {
+      "date": "2024-04-22",
+      "nav": 1.1873
+    },
+    {
+      "date": "2024-04-23",
+      "nav": 1.1864
+    },
+    {
+      "date": "2024-04-24",
+      "nav": 1.1913
+    },
+    {
+      "date": "2024-04-25",
+      "nav": 1.1901
+    },
+    {
+      "date": "2024-04-26",
+      "nav": 1.1958
+    },
+    {
+      "date": "2024-04-29",
+      "nav": 1.1999
+    },
+    {
+      "date": "2024-04-30",
+      "nav": 1.2008
+    },
+    {
+      "date": "2024-05-06",
+      "nav": 1.2087
+    },
+    {
+      "date": "2024-05-07",
+      "nav": 1.2116
+    },
+    {
+      "date": "2024-05-08",
+      "nav": 1.2075
+    },
+    {
+      "date": "2024-05-09",
+      "nav": 1.2143
+    },
+    {
+      "date": "2024-05-10",
+      "nav": 1.2121
+    },
+    {
+      "date": "2024-05-13",
+      "nav": 1.2093
+    },
+    {
+      "date": "2024-05-14",
+      "nav": 1.2112
+    },
+    {
+      "date": "2024-05-15",
+      "nav": 1.2081
+    },
+    {
+      "date": "2024-05-16",
+      "nav": 1.208
+    },
+    {
+      "date": "2024-05-17",
+      "nav": 1.209
+    },
+    {
+      "date": "2024-05-20",
+      "nav": 1.2123
+    },
+    {
+      "date": "2024-05-21",
+      "nav": 1.2084
+    },
+    {
+      "date": "2024-05-22",
+      "nav": 1.21
+    },
+    {
+      "date": "2024-05-23",
+      "nav": 1.2037
+    },
+    {
+      "date": "2024-05-24",
+      "nav": 1.2003
+    },
+    {
+      "date": "2024-05-27",
+      "nav": 1.2047
+    },
+    {
+      "date": "2024-05-28",
+      "nav": 1.2019
+    },
+    {
+      "date": "2024-05-29",
+      "nav": 1.2032
+    },
+    {
+      "date": "2024-05-30",
+      "nav": 1.2022
+    },
+    {
+      "date": "2024-05-31",
+      "nav": 1.2023
+    },
+    {
+      "date": "2024-06-03",
+      "nav": 1.1996
+    },
+    {
+      "date": "2024-06-04",
+      "nav": 1.2021
+    },
+    {
+      "date": "2024-06-05",
+      "nav": 1.1974
+    },
+    {
+      "date": "2024-06-06",
+      "nav": 1.1937
+    },
+    {
+      "date": "2024-06-07",
+      "nav": 1.1949
+    },
+    {
+      "date": "2024-06-11",
+      "nav": 1.1984
+    },
+    {
+      "date": "2024-06-12",
+      "nav": 1.2015
+    },
+    {
+      "date": "2024-06-13",
+      "nav": 1.1993
+    },
+    {
+      "date": "2024-06-14",
+      "nav": 1.2015
+    },
+    {
+      "date": "2024-06-17",
+      "nav": 1.2003
+    },
+    {
+      "date": "2024-06-18",
+      "nav": 1.2041
+    },
+    {
+      "date": "2024-06-19",
+      "nav": 1.2002
+    },
+    {
+      "date": "2024-06-20",
+      "nav": 1.1942
+    },
+    {
+      "date": "2024-06-21",
+      "nav": 1.1932
+    },
+    {
+      "date": "2024-06-24",
+      "nav": 1.1802
+    },
+    {
+      "date": "2024-06-25",
+      "nav": 1.1801
+    },
+    {
+      "date": "2024-06-26",
+      "nav": 1.1896
+    },
+    {
+      "date": "2024-06-27",
+      "nav": 1.185
+    },
+    {
+      "date": "2024-06-28",
+      "nav": 1.1891
+    },
+    {
+      "date": "2024-06-30",
+      "nav": 1.1891
+    },
+    {
+      "date": "2024-07-01",
+      "nav": 1.1934
+    },
+    {
+      "date": "2024-07-02",
+      "nav": 1.1885
+    },
+    {
+      "date": "2024-07-03",
+      "nav": 1.1837
+    },
+    {
+      "date": "2024-07-04",
+      "nav": 1.1779
+    },
+    {
+      "date": "2024-07-05",
+      "nav": 1.1822
+    },
+    {
+      "date": "2024-07-08",
+      "nav": 1.1733
+    },
+    {
+      "date": "2024-07-09",
+      "nav": 1.1796
+    },
+    {
+      "date": "2024-07-10",
+      "nav": 1.1759
+    },
+    {
+      "date": "2024-07-11",
+      "nav": 1.1826
+    },
+    {
+      "date": "2024-07-12",
+      "nav": 1.1797
+    },
+    {
+      "date": "2024-07-15",
+      "nav": 1.1768
+    },
+    {
+      "date": "2024-07-16",
+      "nav": 1.1754
+    },
+    {
+      "date": "2024-07-17",
+      "nav": 1.1685
+    },
+    {
+      "date": "2024-07-18",
+      "nav": 1.1692
+    },
+    {
+      "date": "2024-07-19",
+      "nav": 1.1725
+    },
+    {
+      "date": "2024-07-22",
+      "nav": 1.1688
+    },
+    {
+      "date": "2024-07-23",
+      "nav": 1.1541
+    },
+    {
+      "date": "2024-07-24",
+      "nav": 1.145
+    },
+    {
+      "date": "2024-07-25",
+      "nav": 1.1445
+    },
+    {
+      "date": "2024-07-26",
+      "nav": 1.1546
+    },
+    {
+      "date": "2024-07-29",
+      "nav": 1.1507
+    },
+    {
+      "date": "2024-07-30",
+      "nav": 1.1472
+    },
+    {
+      "date": "2024-07-31",
+      "nav": 1.1608
+    },
+    {
+      "date": "2024-08-01",
+      "nav": 1.1593
+    },
+    {
+      "date": "2024-08-02",
+      "nav": 1.1545
+    },
+    {
+      "date": "2024-08-05",
+      "nav": 1.1446
+    },
+    {
+      "date": "2024-08-06",
+      "nav": 1.1468
+    },
+    {
+      "date": "2024-08-07",
+      "nav": 1.1478
+    },
+    {
+      "date": "2024-08-08",
+      "nav": 1.1457
+    },
+    {
+      "date": "2024-08-09",
+      "nav": 1.1429
+    },
+    {
+      "date": "2024-08-12",
+      "nav": 1.1389
+    },
+    {
+      "date": "2024-08-13",
+      "nav": 1.1397
+    },
+    {
+      "date": "2024-08-14",
+      "nav": 1.1361
+    },
+    {
+      "date": "2024-08-15",
+      "nav": 1.1341
+    },
+    {
+      "date": "2024-08-16",
+      "nav": 1.1249
+    },
+    {
+      "date": "2024-08-19",
+      "nav": 1.1267
+    },
+    {
+      "date": "2024-08-20",
+      "nav": 1.1172
+    },
+    {
+      "date": "2024-08-21",
+      "nav": 1.115
+    },
+    {
+      "date": "2024-08-22",
+      "nav": 1.1118
+    },
+    {
+      "date": "2024-08-23",
+      "nav": 1.1129
+    },
+    {
+      "date": "2024-08-26",
+      "nav": 1.1198
+    },
+    {
+      "date": "2024-08-27",
+      "nav": 1.1158
+    },
+    {
+      "date": "2024-08-28",
+      "nav": 1.1176
+    },
+    {
+      "date": "2024-08-29",
+      "nav": 1.1217
+    },
+    {
+      "date": "2024-08-30",
+      "nav": 1.1304
+    },
+    {
+      "date": "2024-09-02",
+      "nav": 1.1239
+    },
+    {
+      "date": "2024-09-03",
+      "nav": 1.1241
+    },
+    {
+      "date": "2024-09-04",
+      "nav": 1.123
+    },
+    {
+      "date": "2024-09-05",
+      "nav": 1.1276
+    },
+    {
+      "date": "2024-09-06",
+      "nav": 1.1235
+    },
+    {
+      "date": "2024-09-09",
+      "nav": 1.1179
+    },
+    {
+      "date": "2024-09-10",
+      "nav": 1.1158
+    },
+    {
+      "date": "2024-09-11",
+      "nav": 1.1129
+    },
+    {
+      "date": "2024-09-12",
+      "nav": 1.1123
+    },
+    {
+      "date": "2024-09-13",
+      "nav": 1.1107
+    },
+    {
+      "date": "2024-09-18",
+      "nav": 1.1108
+    },
+    {
+      "date": "2024-09-19",
+      "nav": 1.1146
+    },
+    {
+      "date": "2024-09-20",
+      "nav": 1.1123
+    },
+    {
+      "date": "2024-09-23",
+      "nav": 1.1125
+    },
+    {
+      "date": "2024-09-24",
+      "nav": 1.1342
+    },
+    {
+      "date": "2024-09-25",
+      "nav": 1.1397
+    },
+    {
+      "date": "2024-09-26",
+      "nav": 1.1554
+    },
+    {
+      "date": "2024-09-27",
+      "nav": 1.1688
+    },
+    {
+      "date": "2024-09-30",
+      "nav": 1.2007
+    },
+    {
+      "date": "2024-10-08",
+      "nav": 1.2336
+    },
+    {
+      "date": "2024-10-09",
+      "nav": 1.1846
+    },
+    {
+      "date": "2024-10-10",
+      "nav": 1.1864
+    },
+    {
+      "date": "2024-10-11",
+      "nav": 1.1693
+    },
+    {
+      "date": "2024-10-14",
+      "nav": 1.185
+    },
+    {
+      "date": "2024-10-15",
+      "nav": 1.1767
+    },
+    {
+      "date": "2024-10-16",
+      "nav": 1.1779
+    },
+    {
+      "date": "2024-10-17",
+      "nav": 1.1797
+    },
+    {
+      "date": "2024-10-18",
+      "nav": 1.1971
+    },
+    {
+      "date": "2024-10-21",
+      "nav": 1.2026
+    },
+    {
+      "date": "2024-10-22",
+      "nav": 1.2042
+    },
+    {
+      "date": "2024-10-23",
+      "nav": 1.2032
+    },
+    {
+      "date": "2024-10-24",
+      "nav": 1.1963
+    },
+    {
+      "date": "2024-10-25",
+      "nav": 1.2031
+    },
+    {
+      "date": "2024-10-28",
+      "nav": 1.2029
+    },
+    {
+      "date": "2024-10-29",
+      "nav": 1.1948
+    },
+    {
+      "date": "2024-10-30",
+      "nav": 1.1927
+    },
+    {
+      "date": "2024-10-31",
+      "nav": 1.1967
+    },
+    {
+      "date": "2024-11-01",
+      "nav": 1.1928
+    },
+    {
+      "date": "2024-11-04",
+      "nav": 1.2032
+    },
+    {
+      "date": "2024-11-05",
+      "nav": 1.2165
+    },
+    {
+      "date": "2024-11-06",
+      "nav": 1.2153
+    },
+    {
+      "date": "2024-11-07",
+      "nav": 1.2276
+    },
+    {
+      "date": "2024-11-08",
+      "nav": 1.227
+    },
+    {
+      "date": "2024-11-11",
+      "nav": 1.2452
+    },
+    {
+      "date": "2024-11-12",
+      "nav": 1.2394
+    },
+    {
+      "date": "2024-11-13",
+      "nav": 1.2399
+    },
+    {
+      "date": "2024-11-14",
+      "nav": 1.2282
+    },
+    {
+      "date": "2024-11-15",
+      "nav": 1.2184
+    },
+    {
+      "date": "2024-11-18",
+      "nav": 1.2087
+    },
+    {
+      "date": "2024-11-19",
+      "nav": 1.2178
+    },
+    {
+      "date": "2024-11-20",
+      "nav": 1.2246
+    },
+    {
+      "date": "2024-11-21",
+      "nav": 1.223
+    },
+    {
+      "date": "2024-11-22",
+      "nav": 1.2084
+    },
+    {
+      "date": "2024-11-25",
+      "nav": 1.2081
+    },
+    {
+      "date": "2024-11-26",
+      "nav": 1.2048
+    },
+    {
+      "date": "2024-11-27",
+      "nav": 1.2217
+    },
+    {
+      "date": "2024-11-28",
+      "nav": 1.2202
+    },
+    {
+      "date": "2024-11-29",
+      "nav": 1.2291
+    },
+    {
+      "date": "2024-12-02",
+      "nav": 1.2347
+    },
+    {
+      "date": "2024-12-03",
+      "nav": 1.2313
+    },
+    {
+      "date": "2024-12-04",
+      "nav": 1.2223
+    },
+    {
+      "date": "2024-12-05",
+      "nav": 1.2262
+    },
+    {
+      "date": "2024-12-06",
+      "nav": 1.2356
+    },
+    {
+      "date": "2024-12-09",
+      "nav": 1.236
+    },
+    {
+      "date": "2024-12-10",
+      "nav": 1.242
+    },
+    {
+      "date": "2024-12-11",
+      "nav": 1.2542
+    },
+    {
+      "date": "2024-12-12",
+      "nav": 1.2586
+    },
+    {
+      "date": "2024-12-13",
+      "nav": 1.2498
+    },
+    {
+      "date": "2024-12-16",
+      "nav": 1.2402
+    },
+    {
+      "date": "2024-12-17",
+      "nav": 1.2298
+    },
+    {
+      "date": "2024-12-18",
+      "nav": 1.2357
+    },
+    {
+      "date": "2024-12-19",
+      "nav": 1.2362
+    },
+    {
+      "date": "2024-12-20",
+      "nav": 1.2414
+    },
+    {
+      "date": "2024-12-23",
+      "nav": 1.2317
+    },
+    {
+      "date": "2024-12-24",
+      "nav": 1.2365
+    },
+    {
+      "date": "2024-12-25",
+      "nav": 1.232
+    },
+    {
+      "date": "2024-12-26",
+      "nav": 1.2399
+    },
+    {
+      "date": "2024-12-27",
+      "nav": 1.2417
+    },
+    {
+      "date": "2024-12-30",
+      "nav": 1.2433
+    },
+    {
+      "date": "2024-12-31",
+      "nav": 1.2326
+    },
+    {
+      "date": "2025-01-02",
+      "nav": 1.223
+    },
+    {
+      "date": "2025-01-03",
+      "nav": 1.2153
+    },
+    {
+      "date": "2025-01-06",
+      "nav": 1.2118
+    },
+    {
+      "date": "2025-01-07",
+      "nav": 1.2255
+    },
+    {
+      "date": "2025-01-08",
+      "nav": 1.2259
+    },
+    {
+      "date": "2025-01-09",
+      "nav": 1.2305
+    },
+    {
+      "date": "2025-01-10",
+      "nav": 1.2263
+    },
+    {
+      "date": "2025-01-13",
+      "nav": 1.2239
+    },
+    {
+      "date": "2025-01-14",
+      "nav": 1.2448
+    },
+    {
+      "date": "2025-01-15",
+      "nav": 1.2431
+    },
+    {
+      "date": "2025-01-16",
+      "nav": 1.2424
+    },
+    {
+      "date": "2025-01-17",
+      "nav": 1.2471
+    },
+    {
+      "date": "2025-01-20",
+      "nav": 1.2487
+    },
+    {
+      "date": "2025-01-21",
+      "nav": 1.2563
+    },
+    {
+      "date": "2025-01-22",
+      "nav": 1.2562
+    },
+    {
+      "date": "2025-01-23",
+      "nav": 1.254
+    },
+    {
+      "date": "2025-01-24",
+      "nav": 1.2645
+    },
+    {
+      "date": "2025-01-27",
+      "nav": 1.2558
+    },
+    {
+      "date": "2025-02-05",
+      "nav": 1.2593
+    },
+    {
+      "date": "2025-02-06",
+      "nav": 1.2742
+    },
+    {
+      "date": "2025-02-07",
+      "nav": 1.2789
+    },
+    {
+      "date": "2025-02-10",
+      "nav": 1.2818
+    },
+    {
+      "date": "2025-02-11",
+      "nav": 1.2774
+    },
+    {
+      "date": "2025-02-12",
+      "nav": 1.2839
+    },
+    {
+      "date": "2025-02-13",
+      "nav": 1.2772
+    },
+    {
+      "date": "2025-02-14",
+      "nav": 1.281
+    },
+    {
+      "date": "2025-02-17",
+      "nav": 1.284
+    },
+    {
+      "date": "2025-02-18",
+      "nav": 1.2723
+    },
+    {
+      "date": "2025-02-19",
+      "nav": 1.2852
+    },
+    {
+      "date": "2025-02-20",
+      "nav": 1.2878
+    },
+    {
+      "date": "2025-02-21",
+      "nav": 1.3
+    },
+    {
+      "date": "2025-02-24",
+      "nav": 1.2964
+    },
+    {
+      "date": "2025-02-25",
+      "nav": 1.2956
+    },
+    {
+      "date": "2025-02-26",
+      "nav": 1.3026
+    },
+    {
+      "date": "2025-02-27",
+      "nav": 1.2962
+    },
+    {
+      "date": "2025-02-28",
+      "nav": 1.2797
+    },
+    {
+      "date": "2025-03-03",
+      "nav": 1.2791
+    },
+    {
+      "date": "2025-03-04",
+      "nav": 1.2847
+    },
+    {
+      "date": "2025-03-05",
+      "nav": 1.2912
+    },
+    {
+      "date": "2025-03-06",
+      "nav": 1.3029
+    },
+    {
+      "date": "2025-03-07",
+      "nav": 1.3004
+    },
+    {
+      "date": "2025-03-10",
+      "nav": 1.2987
+    },
+    {
+      "date": "2025-03-11",
+      "nav": 1.2919
+    },
+    {
+      "date": "2025-03-12",
+      "nav": 1.2938
+    },
+    {
+      "date": "2025-03-13",
+      "nav": 1.2834
+    },
+    {
+      "date": "2025-03-14",
+      "nav": 1.297
+    },
+    {
+      "date": "2025-03-17",
+      "nav": 1.2947
+    },
+    {
+      "date": "2025-03-18",
+      "nav": 1.2974
+    },
+    {
+      "date": "2025-03-19",
+      "nav": 1.293
+    },
+    {
+      "date": "2025-03-20",
+      "nav": 1.2913
+    },
+    {
+      "date": "2025-03-21",
+      "nav": 1.2774
+    },
+    {
+      "date": "2025-03-24",
+      "nav": 1.277
+    },
+    {
+      "date": "2025-03-25",
+      "nav": 1.2744
+    },
+    {
+      "date": "2025-03-26",
+      "nav": 1.2796
+    },
+    {
+      "date": "2025-03-27",
+      "nav": 1.28
+    },
+    {
+      "date": "2025-03-28",
+      "nav": 1.277
+    },
+    {
+      "date": "2025-03-31",
+      "nav": 1.2725
+    },
+    {
+      "date": "2025-04-01",
+      "nav": 1.2733
+    },
+    {
+      "date": "2025-04-02",
+      "nav": 1.2766
+    },
+    {
+      "date": "2025-04-03",
+      "nav": 1.2687
+    },
+    {
+      "date": "2025-04-07",
+      "nav": 1.2258
+    },
+    {
+      "date": "2025-04-08",
+      "nav": 1.2299
+    },
+    {
+      "date": "2025-04-09",
+      "nav": 1.2387
+    },
+    {
+      "date": "2025-04-10",
+      "nav": 1.2483
+    },
+    {
+      "date": "2025-04-11",
+      "nav": 1.2508
+    },
+    {
+      "date": "2025-04-14",
+      "nav": 1.2515
+    },
+    {
+      "date": "2025-04-15",
+      "nav": 1.249
+    },
+    {
+      "date": "2025-04-16",
+      "nav": 1.2449
+    },
+    {
+      "date": "2025-04-17",
+      "nav": 1.2456
+    },
+    {
+      "date": "2025-04-18",
+      "nav": 1.2457
+    },
+    {
+      "date": "2025-04-21",
+      "nav": 1.2526
+    },
+    {
+      "date": "2025-04-22",
+      "nav": 1.2522
+    },
+    {
+      "date": "2025-04-23",
+      "nav": 1.2583
+    },
+    {
+      "date": "2025-04-24",
+      "nav": 1.2543
+    },
+    {
+      "date": "2025-04-25",
+      "nav": 1.2577
+    },
+    {
+      "date": "2025-04-28",
+      "nav": 1.2543
+    },
+    {
+      "date": "2025-04-29",
+      "nav": 1.2617
+    },
+    {
+      "date": "2025-04-30",
+      "nav": 1.2689
+    },
+    {
+      "date": "2025-05-06",
+      "nav": 1.2786
+    },
+    {
+      "date": "2025-05-07",
+      "nav": 1.2747
+    },
+    {
+      "date": "2025-05-08",
+      "nav": 1.2818
+    },
+    {
+      "date": "2025-05-09",
+      "nav": 1.2735
+    },
+    {
+      "date": "2025-05-12",
+      "nav": 1.2796
+    },
+    {
+      "date": "2025-05-13",
+      "nav": 1.2789
+    },
+    {
+      "date": "2025-05-14",
+      "nav": 1.2771
+    },
+    {
+      "date": "2025-05-15",
+      "nav": 1.2697
+    },
+    {
+      "date": "2025-05-16",
+      "nav": 1.273
+    },
+    {
+      "date": "2025-05-19",
+      "nav": 1.2743
+    },
+    {
+      "date": "2025-05-20",
+      "nav": 1.276
+    },
+    {
+      "date": "2025-05-21",
+      "nav": 1.2731
+    },
+    {
+      "date": "2025-05-22",
+      "nav": 1.2693
+    },
+    {
+      "date": "2025-05-23",
+      "nav": 1.2657
+    },
+    {
+      "date": "2025-05-26",
+      "nav": 1.2644
+    },
+    {
+      "date": "2025-05-27",
+      "nav": 1.2606
+    },
+    {
+      "date": "2025-05-28",
+      "nav": 1.2598
+    },
+    {
+      "date": "2025-05-29",
+      "nav": 1.2657
+    },
+    {
+      "date": "2025-05-30",
+      "nav": 1.2625
+    },
+    {
+      "date": "2025-06-03",
+      "nav": 1.2644
+    },
+    {
+      "date": "2025-06-04",
+      "nav": 1.2683
+    },
+    {
+      "date": "2025-06-05",
+      "nav": 1.2736
+    },
+    {
+      "date": "2025-06-06",
+      "nav": 1.2745
+    },
+    {
+      "date": "2025-06-09",
+      "nav": 1.2767
+    },
+    {
+      "date": "2025-06-10",
+      "nav": 1.2708
+    },
+    {
+      "date": "2025-06-11",
+      "nav": 1.2754
+    },
+    {
+      "date": "2025-06-12",
+      "nav": 1.2733
+    },
+    {
+      "date": "2025-06-13",
+      "nav": 1.2685
+    },
+    {
+      "date": "2025-06-16",
+      "nav": 1.2706
+    },
+    {
+      "date": "2025-06-17",
+      "nav": 1.2694
+    },
+    {
+      "date": "2025-06-18",
+      "nav": 1.2702
+    },
+    {
+      "date": "2025-06-19",
+      "nav": 1.2674
+    },
+    {
+      "date": "2025-06-20",
+      "nav": 1.2626
+    },
+    {
+      "date": "2025-06-23",
+      "nav": 1.2649
+    },
+    {
+      "date": "2025-06-24",
+      "nav": 1.2742
+    },
+    {
+      "date": "2025-06-25",
+      "nav": 1.2828
+    },
+    {
+      "date": "2025-06-26",
+      "nav": 1.2805
+    },
+    {
+      "date": "2025-06-27",
+      "nav": 1.2824
+    },
+    {
+      "date": "2025-06-30",
+      "nav": 1.289
+    },
+    {
+      "date": "2025-07-01",
+      "nav": 1.2917
+    },
+    {
+      "date": "2025-07-02",
+      "nav": 1.2868
+    },
+    {
+      "date": "2025-07-03",
+      "nav": 1.2899
+    },
+    {
+      "date": "2025-07-04",
+      "nav": 1.2901
+    },
+    {
+      "date": "2025-07-07",
+      "nav": 1.2876
+    },
+    {
+      "date": "2025-07-08",
+      "nav": 1.2929
+    },
+    {
+      "date": "2025-07-09",
+      "nav": 1.2905
+    },
+    {
+      "date": "2025-07-10",
+      "nav": 1.2896
+    },
+    {
+      "date": "2025-07-11",
+      "nav": 1.2928
+    },
+    {
+      "date": "2025-07-14",
+      "nav": 1.289
+    },
+    {
+      "date": "2025-07-15",
+      "nav": 1.2883
+    },
+    {
+      "date": "2025-07-16",
+      "nav": 1.291
+    },
+    {
+      "date": "2025-07-17",
+      "nav": 1.2955
+    },
+    {
+      "date": "2025-07-18",
+      "nav": 1.296
+    },
+    {
+      "date": "2025-07-21",
+      "nav": 1.2985
+    },
+    {
+      "date": "2025-07-22",
+      "nav": 1.2997
+    },
+    {
+      "date": "2025-07-23",
+      "nav": 1.2988
+    },
+    {
+      "date": "2025-07-24",
+      "nav": 1.3019
+    },
+    {
+      "date": "2025-07-25",
+      "nav": 1.3022
+    },
+    {
+      "date": "2025-07-28",
+      "nav": 1.3018
+    },
+    {
+      "date": "2025-07-29",
+      "nav": 1.3016
+    },
+    {
+      "date": "2025-07-30",
+      "nav": 1.3027
+    },
+    {
+      "date": "2025-07-31",
+      "nav": 1.2972
+    },
+    {
+      "date": "2025-08-01",
+      "nav": 1.2967
+    },
+    {
+      "date": "2025-08-04",
+      "nav": 1.3028
+    },
+    {
+      "date": "2025-08-05",
+      "nav": 1.3069
+    },
+    {
+      "date": "2025-08-06",
+      "nav": 1.3112
+    },
+    {
+      "date": "2025-08-07",
+      "nav": 1.3123
+    },
+    {
+      "date": "2025-08-08",
+      "nav": 1.3112
+    },
+    {
+      "date": "2025-08-11",
+      "nav": 1.3143
+    },
+    {
+      "date": "2025-08-12",
+      "nav": 1.3138
+    },
+    {
+      "date": "2025-08-13",
+      "nav": 1.321
+    },
+    {
+      "date": "2025-08-14",
+      "nav": 1.3142
+    },
+    {
+      "date": "2025-08-15",
+      "nav": 1.3222
+    },
+    {
+      "date": "2025-08-18",
+      "nav": 1.3267
+    },
+    {
+      "date": "2025-08-19",
+      "nav": 1.3292
+    },
+    {
+      "date": "2025-08-20",
+      "nav": 1.3318
+    },
+    {
+      "date": "2025-08-21",
+      "nav": 1.3331
+    },
+    {
+      "date": "2025-08-22",
+      "nav": 1.3447
+    },
+    {
+      "date": "2025-08-25",
+      "nav": 1.3528
+    },
+    {
+      "date": "2025-08-26",
+      "nav": 1.3535
+    },
+    {
+      "date": "2025-08-27",
+      "nav": 1.3445
+    },
+    {
+      "date": "2025-08-28",
+      "nav": 1.3512
+    },
+    {
+      "date": "2025-08-29",
+      "nav": 1.3502
+    },
+    {
+      "date": "2025-09-01",
+      "nav": 1.3579
+    },
+    {
+      "date": "2025-09-02",
+      "nav": 1.3452
+    },
+    {
+      "date": "2025-09-03",
+      "nav": 1.3463
+    },
+    {
+      "date": "2025-09-04",
+      "nav": 1.3325
+    },
+    {
+      "date": "2025-09-05",
+      "nav": 1.3489
+    },
+    {
+      "date": "2025-09-08",
+      "nav": 1.3543
+    },
+    {
+      "date": "2025-09-09",
+      "nav": 1.3418
+    },
+    {
+      "date": "2025-09-10",
+      "nav": 1.3411
+    },
+    {
+      "date": "2025-09-11",
+      "nav": 1.3582
+    },
+    {
+      "date": "2025-09-12",
+      "nav": 1.3635
+    },
+    {
+      "date": "2025-09-15",
+      "nav": 1.3626
+    },
+    {
+      "date": "2025-09-16",
+      "nav": 1.3662
+    },
+    {
+      "date": "2025-09-17",
+      "nav": 1.3765
+    },
+    {
+      "date": "2025-09-18",
+      "nav": 1.3739
+    },
+    {
+      "date": "2025-09-19",
+      "nav": 1.3697
+    },
+    {
+      "date": "2025-09-22",
+      "nav": 1.3734
+    },
+    {
+      "date": "2025-09-23",
+      "nav": 1.3733
+    },
+    {
+      "date": "2025-09-24",
+      "nav": 1.3844
+    },
+    {
+      "date": "2025-09-25",
+      "nav": 1.3846
+    },
+    {
+      "date": "2025-09-26",
+      "nav": 1.3788
+    },
+    {
+      "date": "2025-09-29",
+      "nav": 1.3857
+    },
+    {
+      "date": "2025-09-30",
+      "nav": 1.39
+    },
+    {
+      "date": "2025-10-09",
+      "nav": 1.3939
+    },
+    {
+      "date": "2025-10-10",
+      "nav": 1.384
+    },
+    {
+      "date": "2025-10-13",
+      "nav": 1.3758
+    },
+    {
+      "date": "2025-10-14",
+      "nav": 1.3661
+    },
+    {
+      "date": "2025-10-15",
+      "nav": 1.372
+    },
+    {
+      "date": "2025-10-16",
+      "nav": 1.3687
+    },
+    {
+      "date": "2025-10-17",
+      "nav": 1.3603
+    },
+    {
+      "date": "2025-10-20",
+      "nav": 1.3618
+    },
+    {
+      "date": "2025-10-21",
+      "nav": 1.3728
+    },
+    {
+      "date": "2025-10-22",
+      "nav": 1.3694
+    },
+    {
+      "date": "2025-10-23",
+      "nav": 1.369
+    },
+    {
+      "date": "2025-10-24",
+      "nav": 1.38
+    },
+    {
+      "date": "2025-10-27",
+      "nav": 1.3888
+    },
+    {
+      "date": "2025-10-28",
+      "nav": 1.3888
+    },
+    {
+      "date": "2025-10-29",
+      "nav": 1.3983
+    },
+    {
+      "date": "2025-10-30",
+      "nav": 1.3905
+    },
+    {
+      "date": "2025-10-31",
+      "nav": 1.3861
+    },
+    {
+      "date": "2025-11-03",
+      "nav": 1.3877
+    },
+    {
+      "date": "2025-11-04",
+      "nav": 1.3802
+    },
+    {
+      "date": "2025-11-05",
+      "nav": 1.3827
+    },
+    {
+      "date": "2025-11-06",
+      "nav": 1.3886
+    },
+    {
+      "date": "2025-11-07",
+      "nav": 1.3856
+    },
+    {
+      "date": "2025-11-10",
+      "nav": 1.3832
+    },
+    {
+      "date": "2025-11-11",
+      "nav": 1.3806
+    },
+    {
+      "date": "2025-11-12",
+      "nav": 1.3785
+    },
+    {
+      "date": "2025-11-13",
+      "nav": 1.3859
+    },
+    {
+      "date": "2025-11-14",
+      "nav": 1.3772
+    },
+    {
+      "date": "2025-11-17",
+      "nav": 1.3747
+    },
+    {
+      "date": "2025-11-18",
+      "nav": 1.3711
+    },
+    {
+      "date": "2025-11-19",
+      "nav": 1.371
+    },
+    {
+      "date": "2025-11-20",
+      "nav": 1.3686
+    },
+    {
+      "date": "2025-11-21",
+      "nav": 1.3583
+    },
+    {
+      "date": "2025-11-24",
+      "nav": 1.3614
+    },
+    {
+      "date": "2025-11-25",
+      "nav": 1.3661
+    },
+    {
+      "date": "2025-11-26",
+      "nav": 1.3665
+    },
+    {
+      "date": "2025-11-27",
+      "nav": 1.3642
+    },
+    {
+      "date": "2025-11-28",
+      "nav": 1.368
+    },
+    {
+      "date": "2025-12-01",
+      "nav": 1.372
+    },
+    {
+      "date": "2025-12-02",
+      "nav": 1.3696
+    },
+    {
+      "date": "2025-12-03",
+      "nav": 1.3675
+    },
+    {
+      "date": "2025-12-04",
+      "nav": 1.3685
+    },
+    {
+      "date": "2025-12-05",
+      "nav": 1.3733
+    },
+    {
+      "date": "2025-12-08",
+      "nav": 1.3789
+    },
+    {
+      "date": "2025-12-09",
+      "nav": 1.3764
+    },
+    {
+      "date": "2025-12-10",
+      "nav": 1.3784
+    },
+    {
+      "date": "2025-12-11",
+      "nav": 1.3764
+    },
+    {
+      "date": "2025-12-12",
+      "nav": 1.3795
+    },
+    {
+      "date": "2025-12-15",
+      "nav": 1.374
+    },
+    {
+      "date": "2025-12-16",
+      "nav": 1.3677
+    },
+    {
+      "date": "2025-12-17",
+      "nav": 1.3748
+    },
+    {
+      "date": "2025-12-18",
+      "nav": 1.3731
+    },
+    {
+      "date": "2025-12-19",
+      "nav": 1.3759
+    },
+    {
+      "date": "2025-12-22",
+      "nav": 1.3794
+    },
+    {
+      "date": "2025-12-23",
+      "nav": 1.3811
+    },
+    {
+      "date": "2025-12-24",
+      "nav": 1.3856
+    },
+    {
+      "date": "2025-12-25",
+      "nav": 1.3896
+    },
+    {
+      "date": "2025-12-26",
+      "nav": 1.3911
+    },
+    {
+      "date": "2025-12-29",
+      "nav": 1.3886
+    },
+    {
+      "date": "2025-12-30",
+      "nav": 1.3915
+    },
+    {
+      "date": "2025-12-31",
+      "nav": 1.3891
+    },
+    {
+      "date": "2026-01-05",
+      "nav": 1.4008
+    },
+    {
+      "date": "2026-01-06",
+      "nav": 1.4081
+    },
+    {
+      "date": "2026-01-07",
+      "nav": 1.4105
+    },
+    {
+      "date": "2026-01-08",
+      "nav": 1.4093
+    },
+    {
+      "date": "2026-01-09",
+      "nav": 1.4145
+    },
+    {
+      "date": "2026-01-12",
+      "nav": 1.4183
+    },
+    {
+      "date": "2026-01-13",
+      "nav": 1.4159
+    },
+    {
+      "date": "2026-01-14",
+      "nav": 1.4171
+    },
+    {
+      "date": "2026-01-15",
+      "nav": 1.4224
+    },
+    {
+      "date": "2026-01-16",
+      "nav": 1.4274
+    },
+    {
+      "date": "2026-01-19",
+      "nav": 1.4311
+    },
+    {
+      "date": "2026-01-20",
+      "nav": 1.4278
+    },
+    {
+      "date": "2026-01-21",
+      "nav": 1.4353
+    },
+    {
+      "date": "2026-01-22",
+      "nav": 1.4361
+    },
+    {
+      "date": "2026-01-23",
+      "nav": 1.4402
+    },
+    {
+      "date": "2026-01-26",
+      "nav": 1.4389
+    },
+    {
+      "date": "2026-01-27",
+      "nav": 1.4407
+    },
+    {
+      "date": "2026-01-28",
+      "nav": 1.4459
+    },
+    {
+      "date": "2026-01-29",
+      "nav": 1.4376
+    },
+    {
+      "date": "2026-01-30",
+      "nav": 1.4348
+    },
+    {
+      "date": "2026-02-02",
+      "nav": 1.421
+    },
+    {
+      "date": "2026-02-03",
+      "nav": 1.4321
+    },
+    {
+      "date": "2026-02-04",
+      "nav": 1.4298
+    },
+    {
+      "date": "2026-02-05",
+      "nav": 1.4223
+    },
+    {
+      "date": "2026-02-06",
+      "nav": 1.4252
+    },
+    {
+      "date": "2026-02-09",
+      "nav": 1.4328
+    },
+    {
+      "date": "2026-02-10",
+      "nav": 1.4336
+    },
+    {
+      "date": "2026-02-11",
+      "nav": 1.4362
+    },
+    {
+      "date": "2026-02-12",
+      "nav": 1.441
+    },
+    {
+      "date": "2026-02-13",
+      "nav": 1.4358
+    },
+    {
+      "date": "2026-02-24",
+      "nav": 1.4417
+    },
+    {
+      "date": "2026-02-25",
+      "nav": 1.4466
+    },
+    {
+      "date": "2026-02-26",
+      "nav": 1.4468
+    },
+    {
+      "date": "2026-02-27",
+      "nav": 1.4473
+    },
+    {
+      "date": "2026-03-02",
+      "nav": 1.4523
+    },
+    {
+      "date": "2026-03-03",
+      "nav": 1.4397
+    },
+    {
+      "date": "2026-03-04",
+      "nav": 1.4396
+    },
+    {
+      "date": "2026-03-05",
+      "nav": 1.4427
+    },
+    {
+      "date": "2026-03-06",
+      "nav": 1.4414
+    },
+    {
+      "date": "2026-03-09",
+      "nav": 1.4355
+    },
+    {
+      "date": "2026-03-10",
+      "nav": 1.4403
+    },
+    {
+      "date": "2026-03-11",
+      "nav": 1.4412
+    },
+    {
+      "date": "2026-03-12",
+      "nav": 1.4378
+    },
+    {
+      "date": "2026-03-13",
+      "nav": 1.4331
+    },
+    {
+      "date": "2026-03-16",
+      "nav": 1.4289
+    },
+    {
+      "date": "2026-03-17",
+      "nav": 1.4198
+    },
+    {
+      "date": "2026-03-18",
+      "nav": 1.4235
+    },
+    {
+      "date": "2026-03-19",
+      "nav": 1.412
+    },
+    {
+      "date": "2026-03-20",
+      "nav": 1.41
+    },
+    {
+      "date": "2026-03-23",
+      "nav": 1.4013
+    },
+    {
+      "date": "2026-03-24",
+      "nav": 1.4105
+    },
+    {
+      "date": "2026-03-25",
+      "nav": 1.4187
+    },
+    {
+      "date": "2026-03-26",
+      "nav": 1.4133
+    },
+    {
+      "date": "2026-03-27",
+      "nav": 1.4169
+    },
+    {
+      "date": "2026-03-30",
+      "nav": 1.4193
+    },
+    {
+      "date": "2026-03-31",
+      "nav": 1.4097
+    },
+    {
+      "date": "2026-04-01",
+      "nav": 1.4173
+    },
+    {
+      "date": "2026-04-02",
+      "nav": 1.4116
+    },
+    {
+      "date": "2026-04-03",
+      "nav": 1.4104
+    },
+    {
+      "date": "2026-04-07",
+      "nav": 1.4143
+    },
+    {
+      "date": "2026-04-08",
+      "nav": 1.431
+    },
+    {
+      "date": "2026-04-09",
+      "nav": 1.4315
+    },
+    {
+      "date": "2026-04-10",
+      "nav": 1.435
+    },
+    {
+      "date": "2026-04-13",
+      "nav": 1.4338
+    },
+    {
+      "date": "2026-04-14",
+      "nav": 1.4398
+    },
+    {
+      "date": "2026-04-15",
+      "nav": 1.4366
+    },
+    {
+      "date": "2026-04-16",
+      "nav": 1.4463
+    },
+    {
+      "date": "2026-04-17",
+      "nav": 1.4488
+    },
+    {
+      "date": "2026-04-20",
+      "nav": 1.4508
+    },
+    {
+      "date": "2026-04-21",
+      "nav": 1.4523
+    },
+    {
+      "date": "2026-04-22",
+      "nav": 1.4602
+    },
+    {
+      "date": "2026-04-23",
+      "nav": 1.455
+    },
+    {
+      "date": "2026-04-24",
+      "nav": 1.4531
+    },
+    {
+      "date": "2026-04-27",
+      "nav": 1.454
+    },
+    {
+      "date": "2026-04-28",
+      "nav": 1.4516
+    },
+    {
+      "date": "2026-04-29",
+      "nav": 1.4574
+    },
+    {
+      "date": "2026-04-30",
+      "nav": 1.4599
+    },
+    {
+      "date": "2026-05-06",
+      "nav": 1.4717
+    },
+    {
+      "date": "2026-05-07",
+      "nav": 1.4767
+    },
+    {
+      "date": "2026-05-08",
+      "nav": 1.4732
+    },
+    {
+      "date": "2026-05-11",
+      "nav": 1.4796
+    },
+    {
+      "date": "2026-05-12",
+      "nav": 1.4795
+    },
+    {
+      "date": "2026-05-13",
+      "nav": 1.4911
+    }
+  ],
+  "company": {
+    "name": "中欧基金管理有限公司",
+    "shortName": "中欧基金",
+    "foundYear": 2006,
+    "aumDesc": "约 7274.54 亿元，旗下 505 只基金、68 名基金经理（2026-05-07 口径）",
+    "industryRank": "行业前 20 的综合基金公司，固收、量化和主动权益均有布局",
+    "complianceResult": "通过",
+    "complianceSummary": "合规检查通过，无一票否决项；当前主要关注点不是处罚，而是经理切换频率与潜在管理疲劳。",
+    "complianceChecks": [
+      {
+        "item": "黑名单核查",
+        "pass": true,
+        "warn": false,
+        "detail": "blacklist.json 显示公司与现任经理均未进入黑名单。"
+      },
+      {
+        "item": "近3年处罚记录",
+        "pass": true,
+        "warn": false,
+        "detail": "快速网页检索未抓到中欧基金或现任经理的高优先级处罚标题。"
+      },
+      {
+        "item": "内幕交易传闻",
+        "pass": true,
+        "warn": false,
+        "detail": "当前搜索未见直接指向本基金管理团队的重大公开传闻。"
+      },
+      {
+        "item": "基金经理离职风险",
+        "pass": false,
+        "warn": true,
+        "detail": "2024-2025 年本基金经历多次经理组合变化，虽当前双管稳定，仍需持续观察。"
+      },
+      {
+        "item": "管理疲劳风险",
+        "pass": false,
+        "warn": true,
+        "detail": "当前在管 15 只基金、236.92 亿元，已高于 10 只基金的警戒线。"
+      }
     ]
   },
   "policy": {
     "tags": [
-      { "label": "固收+策略",   "strength": "high",   "color": "#4492F7" },
-      { "label": "可转债增强",  "strength": "high",   "color": "#2DC78E" },
-      { "label": "高端制造",    "strength": "medium", "color": "#F7C744" },
-      { "label": "降息受益",    "strength": "medium", "color": "#0ea5e9" },
-      { "label": "稳健增值",    "strength": "medium", "color": "#9B72F0" }
+      {
+        "label": "宽货币",
+        "strength": "high",
+        "color": "#4492F7"
+      },
+      {
+        "label": "高等级信用债",
+        "strength": "high",
+        "color": "#58a6ff"
+      },
+      {
+        "label": "制造业景气",
+        "strength": "medium",
+        "color": "#2DC78E"
+      },
+      {
+        "label": "结构性慢牛",
+        "strength": "medium",
+        "color": "#F7C744"
+      }
+    ],
+    "industryOverview": [
+      {
+        "point": "债券底仓环境",
+        "detail": "资金利率维持在 1.4% 附近，10 年国债收益率预期区间 1.6%-1.9%，属于票息可拿、资本利得有限的环境。"
+      },
+      {
+        "point": "信用环境",
+        "detail": "当前最大的信用风险不是普遍违约，而是低评级信用债利差可能继续分化走阔，因此高等级信用债仍更有吸引力。"
+      },
+      {
+        "point": "股票增强环境",
+        "detail": "A 股处于震荡上行、结构为王的慢牛格局，电子、高端制造、部分涨价链与出口链仍有结构机会。"
+      }
+    ],
+    "cyclePeriod": "政策观察期",
+    "cycleReason": "宏观货币与资本市场支持明确，但基金受益的是宽流动性、稳资本市场和制造业景气改善的组合环境，而不是某一行业的独占政策红利，因此更适合逢回撤布局而非高位追涨。",
+    "fifteenFive": [
+      {
+        "direction": "制造业合理比重与升级",
+        "color": "#2DC78E",
+        "description": "保持制造业合理比重、整治内卷，有利于化工、出口制造和高端制造链景气方向。",
+        "holdings": "华通线缆 / 万华化学 / 华鲁恒升 / 科达利"
+      },
+      {
+        "direction": "资本市场信心修复",
+        "color": "#F7C744",
+        "description": "稳定和增强资本市场信心，有利于股票增强仓继续发挥，而非单靠债券久期赚钱。",
+        "holdings": "中际旭创 / 安集科技 / 整体股票增强仓"
+      },
+      {
+        "direction": "流动性稳中偏松",
+        "color": "#4492F7",
+        "description": "市场已获得接近降息的流动性支持，对高等级债底仓稳定有利，但资本利得空间有限。",
+        "holdings": "政策性金融债 / 普通金融债 / 高等级信用债"
+      }
+    ],
+    "longTermRisks": [
+      {
+        "risk": "股债双杀重演",
+        "level": "high",
+        "signal": "油价与美债利率继续上冲、A 股风险偏好回落并伴随利率上行时，会重演 2022 年的历史教训。"
+      },
+      {
+        "risk": "信用利差分化",
+        "level": "medium",
+        "signal": "低评级信用债利差继续走阔，若传导到理财赎回，会同时影响转债和信用债情绪。"
+      },
+      {
+        "risk": "容量约束",
+        "level": "medium",
+        "signal": "若规模快速上破 40-50 亿元，主动轮动型二级债的交易效率会被摊薄。"
+      }
+    ],
+    "adaptability": [
+      {
+        "env": "🐂 宽货币 + 结构市",
+        "perf": "最适合当前组合形态，债券底仓稳定，股票增强更容易跑赢同类。",
+        "color": "#F54E48"
+      },
+      {
+        "env": "🟡 利率低位震荡",
+        "perf": "底仓票息可拿，但资本利得有限，未来收益更依赖股票增强是否持续有效。",
+        "color": "#D4A017"
+      },
+      {
+        "env": "⚠️ 股债双杀 / 信用收缩",
+        "perf": "是最不利环境，2022 年的历史回撤已经证明组合并非纯防守型。",
+        "color": "#2DC78E"
+      }
     ],
     "scenarios": [
       {
         "type": "悲观",
-        "color": "#ef4444",
         "probability": 20,
-        "trigger": "中美关系再度恶化引发A股大跌，叠加国内利率上行（超预期加息），股债双杀重演2022年",
-        "returnLow": -10,
-        "returnHigh": -5
+        "color": "#ef4444",
+        "returnLow": -8,
+        "returnHigh": -3,
+        "trigger": "油价与美债利率继续上冲，A 股回撤且信用利差走阔，重演股债双杀。"
       },
       {
         "type": "基准",
+        "probability": 55,
         "color": "#3b82f6",
-        "probability": 60,
-        "trigger": "经济平稳复苏，货币政策维持宽松，A股温和震荡，可转债策略持续贡献弹性收益",
-        "returnLow": 8,
-        "returnHigh": 15
+        "returnLow": 4,
+        "returnHigh": 10,
+        "trigger": "流动性维持宽松，A 股延续结构轮动，基金继续依靠股票增强跑赢同类。"
       },
       {
         "type": "乐观",
+        "probability": 25,
         "color": "#10b981",
-        "probability": 20,
-        "trigger": "国内出台大规模刺激政策，A股牛市启动，可转债+权益双双大涨",
-        "returnLow": 15,
-        "returnHigh": 25
+        "returnLow": 10,
+        "returnHigh": 16,
+        "trigger": "资本市场信心继续修复，制造业与科技主线共振，股票增强明显超预期。"
       }
     ],
     "policyBreakdown": [
       {
-        "sector": "可转债双低策略",
-        "color": "#2DC78E",
-        "icon": "📊",
-        "horizon": "短中期（1-2年）",
-        "logic": "邓欣雨的「双低增强」策略（低转股溢价率+低绝对价格）在A股结构性行情中持续有效；2025年该策略贡献了主要超额收益",
-        "stocks": ["可转债组合（含转债基金仓位约11.66%）"]
-      },
-      {
-        "sector": "高端制造配置",
-        "color": "#F7C744",
-        "icon": "🏭",
-        "horizon": "中期（1-3年）",
-        "logic": "权益仓位聚焦景气成长，制造业16.16%是最大权益配置方向，契合十五五制造业升级主线",
-        "stocks": ["制造业景气成长个股（分散配置，前十大个股合计约6%）"]
-      },
-      {
-        "sector": "降息周期债券受益",
-        "color": "#4492F7",
+        "sector": "底仓流动性环境",
         "icon": "📉",
-        "horizon": "短期（1年内）",
-        "logic": "国内货币政策偏宽松，LPR有进一步下调空间；债券久期中性策略在降息周期中可获取资本利得",
-        "stocks": ["政策性金融债、AAA信用债组合"]
-      }
-    ],
-    "fifteenFive": [
-      {
-        "direction": "制造业转型升级",
-        "color": "#F7C744",
-        "description": "十五五规划着力高端制造业发展，权益仓位聚焦的制造业景气成长方向与政策主线契合",
-        "holdings": "制造业分散持仓（占净值约16.16%）"
-      },
-      {
-        "direction": "资本市场改革深化",
-        "color": "#2DC78E",
-        "description": "可转债市场持续发展，信息披露完善；双低策略在成熟可转债市场中具备长期有效性",
-        "holdings": "可转债组合（占净值约11.66%）"
-      },
-      {
-        "direction": "货币政策稳中宽松",
         "color": "#4492F7",
-        "description": "十五五规划期间经济转型需要持续宽松流动性支持，有利于债券资产收益率中枢维持合理水平",
-        "holdings": "政策性金融债+高等级信用债（占净值约84%）"
+        "logic": "DR007 维持在 1.4% 附近、10 年国债收益率处于 1.6%-1.9% 区间，利好高等级债底仓稳定，但资本利得空间有限。",
+        "stocks": [
+          "政策性金融债",
+          "普通金融债"
+        ]
+      },
+      {
+        "sector": "制造业景气与反内卷",
+        "icon": "🏭",
+        "color": "#2DC78E",
+        "logic": "政治局会议强调保持制造业合理比重、整治内卷，利好化工材料、出口制造和涨价链。",
+        "stocks": [
+          "华通线缆",
+          "万华化学",
+          "华鲁恒升",
+          "桐昆股份"
+        ]
+      },
+      {
+        "sector": "资本市场信心修复",
+        "icon": "📈",
+        "color": "#F7C744",
+        "logic": "稳定和增强资本市场信心，有利于股票增强仓继续发挥，而不是单靠债券久期赚钱。",
+        "stocks": [
+          "中际旭创",
+          "安集科技",
+          "整体股票增强仓"
+        ]
       }
-    ],
-    "longTermRisks": [
-      { "risk": "股债双杀风险",   "signal": "中美冲突升级叠加国内利率超预期上行，2022年历史已有先例；此风险将使近期12.63%超额瞬间蒸发", "level": "high"   },
-      { "risk": "策略容量风险",   "signal": "若规模快速扩张（如超过50亿），可转债双低策略的可投标的数量有限，策略容量可能受制约",            "level": "medium" },
-      { "risk": "基金经理稳定性", "signal": "赵宇澄+邓欣雨组合仅运行约1年，双管分工成熟度仍需进一步验证；尤其邓欣雨是近期业绩的核心贡献者",   "level": "medium" },
-      { "risk": "利率上行风险",   "signal": "若美联储再度加息或国内通胀超预期，长久期债券将面临估值压力，固收端贡献或降低",                  "level": "low"    },
-      { "risk": "可转债估值风险", "signal": "若A股全面调整，可转债正股下跌将导致转债价格下行，但债底保护提供了绝对价值支撑",                  "level": "low"    }
-    ],
-    "timeline": [
-      { "year": "2020-2021", "event": "成立并稳步积累收益",      "return": "成立来+约15%（2年）",  "note": "疫情后股债双牛，固收+策略顺风顺水，积累初始安全垫", "type": "positive" },
-      { "year": "2022",      "event": "股债双杀，历史最大回撤",  "return": "-13.78%（年度）",      "note": "权益敞口超20%叠加股债双杀；成立以来最大单年亏损", "type": "warning"  },
-      { "year": "2024",      "event": "赵宇澄接管，业绩快速改善","return": "+3.83%（年度第3/1030）","note": "2024年经理更迭带来策略优化，同类排名大幅提升", "type": "positive" },
-      { "year": "2025",      "event": "邓欣雨加入，同类排名第1", "return": "+12.70%（年度第1/1142）","note": "双管组合+双低策略共振，2025年成为该类基金最佳年度", "type": "highlight" },
-      { "year": "2026",      "event": "延续强势，今年来约+4.61%","return": "+4.61%（今年来）",      "note": "结构性行情下固收+弹性持续体现，近1年+16.46%", "type": "positive"  }
     ],
     "dualTimeline": [
       {
-        "period": "2020",
-        "manager": { "event": "洪慧梅建仓，首年稳健起步", "return": "成立首年正收益", "note": "疫情后经济复苏，股债均有表现；固收+策略天然适应复苏初期环境", "type": "positive" },
-        "market":  { "event": "新冠疫情后经济复苏，股债双牛", "note": "货币政策极度宽松，利率下行红利+股市反弹，固收+基金整体处于最优市场环境", "type": "bull" }
-      },
-      {
-        "period": "2021",
-        "manager": { "event": "洪慧梅管理，收益积累，权益占比提升", "return": "续涨，安全垫充足", "note": "A股结构性行情，可转债市场活跃，权益持仓贡献主要超额", "type": "positive" },
-        "market":  { "event": "A股结构性行情，可转债市场高景气", "note": "新能源/科技赛道牛市，可转债溢价率高企，固收+获取丰厚权益收益", "type": "bull" }
+        "period": "2020-2021",
+        "manager": {
+          "event": "建仓顺风期，初始阶段稳步积累收益",
+          "return": "+24.58%",
+          "note": "疫情后宽流动性与成长修复阶段，组合以消费、制造、新能源和金融轮动为主。",
+          "type": "positive"
+        },
+        "market": {
+          "event": "股债双牛、成长制造主线占优",
+          "note": "这一阶段对固收+最友好，债券底仓与权益增强都处于顺风环境。",
+          "type": "bull"
+        }
       },
       {
         "period": "2022",
-        "manager": { "event": "⚠️ 最差年度 -13.78%，同类倒数（826/912）", "return": "-13.78%（同类第826/912）", "note": "权益敞口超20%+股债双杀，为成立以来最大亏损年；洪慧梅风控不足，2024年被替换", "type": "warning" },
-        "market":  { "event": "A股全面熊市，债券收益率上行，股债双杀", "note": "美联储激进加息传导，国内经济下行+疫情冲击，史上少见的股债双杀年", "type": "bear" }
+        "manager": {
+          "event": "双杀回撤，成立以来最差年度",
+          "return": "阶段 -14.91%",
+          "note": "虽然尝试在稳增长、资源、新能源和防守价值间切换，但防守不彻底。",
+          "type": "warning"
+        },
+        "market": {
+          "event": "股债双杀与理财赎回冲击",
+          "note": "美联储加息、疫情冲击和信用收缩共同作用，是本基金历史上最不利的市场环境。",
+          "type": "bear"
+        }
       },
       {
-        "period": "2023",
-        "manager": { "event": "洪慧梅末期，小幅亏损 -2.45%", "return": "-2.45%（同类第89/867）", "note": "2023年债券市场企稳，权益仍疲软；亏损收窄，同类排名回升至前11%", "type": "neutral" },
-        "market":  { "event": "经济弱复苏，债券企稳，A股震荡", "note": "政策宽松但需求复苏不及预期；债券略有回暖，股市未见明显牛市", "type": "neutral" }
+        "period": "2023-2024",
+        "manager": {
+          "event": "弱复苏磨底，风格轮动恢复但弹性不足",
+          "return": "阶段 -7.96%",
+          "note": "组合在央企红利、科技、资源、地产等方向间反复切换，未形成持续主升浪。",
+          "type": "neutral"
+        },
+        "market": {
+          "event": "弱复苏、资金面扰动、市场缺主线",
+          "note": "债券底仓更稳，但权益端没有形成顺风主线，组合持续磨底。",
+          "type": "neutral"
+        }
       },
       {
-        "period": "2024",
-        "manager": { "event": "赵宇澄接棒，策略优化，年度第3/1030", "return": "+3.83%（同类第3/1030）", "note": "赵宇澄优化权益配置和可转债策略，同类排名从倒数飙升至前1%", "type": "positive" },
-        "market":  { "event": "924政策反弹，债市持续牛市，转债跟涨", "note": "9月24日一揽子政策推动A股强反弹，可转债同步上行；债市在宽松预期下持续走强", "type": "bull" }
-      },
-      {
-        "period": "2025",
-        "manager": { "event": "🏆 邓欣雨加入，双管双低，年度第1/1142", "return": "+12.70%（同类第1/1142）", "note": "邓欣雨15年固收+经验+记分卡体系，双低可转债策略精准捕捉结构性行情；2025年成为该类最佳", "type": "highlight" },
-        "market":  { "event": "A股结构性牛市，可转债市场全面回暖", "note": "DeepSeek+半导体国产替代+新能源储能多主线共振；可转债修复行情持续，双低策略空间充裕", "type": "bull" }
-      },
-      {
-        "period": "2026Q1",
-        "manager": { "event": "延续强势，今年来+4.61%，近1年+16.46%", "return": "+4.61%（今年来）", "note": "双管稳定运营，近1年超额+12.63%显著领先；当前A股震荡上行，固收+策略适应性强", "type": "positive" },
-        "market":  { "event": "A股震荡上行，债市稳健，固收+环境较优", "note": "宏观经济稳步复苏，货币政策偏宽松，股债均无系统性大风险，固收+策略处于适宜期", "type": "neutral" }
+        "period": "2025-2026",
+        "manager": {
+          "event": "赵宇澄 + 邓欣雨双管修复，净值斜率明显改善",
+          "return": "阶段 +34.25%",
+          "note": "先从红利转成长，再切涨价链，并主动压低可转债仓位，是当前最有效的管理阶段。",
+          "type": "highlight"
+        },
+        "market": {
+          "event": "结构性慢牛 + 资本市场信心修复",
+          "note": "宽流动性、制造业合理比重和稳资本市场政策共同构成组合顺风，但仍不是无脑高位追涨的环境。",
+          "type": "policy"
+        }
       }
     ],
-    "note": "中欧鼎利债券C的核心逻辑：邓欣雨的记分卡体系+双低可转债策略是近1-2年超额的主要来源；2022年股债双杀的历史教训已推动基金在权益配置和风控上进行了系统性改进。"
+    "note": "009520 当前受益于宽流动性、高等级债底仓稳定和结构性慢牛中的股票增强机会，但赔率已明显收敛，更适合逢回撤布局而不是高位追涨。"
   },
-  "exclusionCheck": [
-    { "item": "基金公司黑名单",      "pass": true,  "note": "中欧基金未列入黑名单" },
-    { "item": "基金经理黑名单",      "pass": true,  "note": "赵宇澄、邓欣雨均未列入黑名单" },
-    { "item": "规模过小（<1亿）",    "pass": true,  "note": "19.54亿元，规模适中，流动性充裕" },
-    { "item": "成立不足1年",         "pass": true,  "note": "成立近6年（2020-06-03），历经完整牛熊" },
-    { "item": "基金经理频繁更换",    "pass": true,  "note": "2024-2025年经理组合更迭（洪慧梅→赵宇澄→赵宇澄+邓欣雨），当前双管已稳定运营约1年，属正常传承" },
-    { "item": "历史最差年跌幅>50%",  "pass": true,  "note": "历史最差年度2022年-13.78%，远低于50%否决线；历史最大回撤-21.68%同样未触发" },
-    { "item": "单一重仓>30%",        "pass": true,  "note": "前十大个股合计仅约6%，分散度极高；债券+可转债也未见单一超集中" },
-    { "item": "行业集中度>70%",      "pass": true,  "note": "债券占净值84%，股票制造业仅16.16%，整体行业高度分散，未触发行业集中否决" },
-    { "item": "近1年排名后50%",      "pass": true,  "note": "2025年同类第1/1142（前0.1%），近1年+16.46%大幅领先同类均值3.83%" },
-    { "item": "费率结构异常",        "pass": true,  "note": "管理费0.70%+托管0.10%+C类销售服务费0.35%=1.15%，C类合理；申购免费，持有≥7天赎回免费" }
-  ],
   "scoring": {
-    "total": 72,
+    "total": 77,
+    "grade": "良好",
+    "recommendation": "观望（谨慎建仓）",
+    "recommendationType": "cautious",
+    "rating": "★★★",
+    "logic": "这是一只典型的二级债，不应按纯债思路理解。债券底仓稳定，但净值已修复到历史新高，未来收益更依赖股票增强继续跑赢。",
     "dimensions": [
-      { "name": "历史业绩", "score": 8.0, "note": "2025年同类第1，近1年+16.46%远超同类；但2022年-13.78%和2023年-2.45%历史有明显瑕疵" },
-      { "name": "风险控制", "score": 6.0, "note": "近1年夏普2.27优秀；但历史最大回撤-21.68%对债基偏高，近3年夏普仅0.34受2022年拖累" },
-      { "name": "持仓质量", "score": 7.0, "note": "债券AAA占比81.8%，信用风险极低；权益个股高度分散；可转债双低策略成熟有效" },
-      { "name": "基金经理", "score": 8.5, "note": "邓欣雨15年固收+资深经验，记分卡体系清晰；2025年表现验证能力，但双管组合成熟度仍需观察" },
-      { "name": "政策匹配", "score": 6.0, "note": "固收+天然稳健，缺乏对新能源/科技等政策热点的主动倾斜；政策受益程度中等偏低" },
-      { "name": "估值时机", "score": 7.5, "note": "当前债市合理偏贵但未泡沫化；可转债双低策略空间尚存；权益16%的敞口在震荡市有弹性" }
+      {
+        "name": "绝对收益稳定性",
+        "score": 21,
+        "maxScore": 30,
+        "pros": [
+          "近1年收益 16.59%，近2年 23.30%，二级债里有弹性"
+        ],
+        "cons": [
+          "成立以来最大回撤 -21.68%，2022-2024 修复时间偏长"
+        ]
+      },
+      {
+        "name": "信用风险控制",
+        "score": 22,
+        "maxScore": 25,
+        "pros": [
+          "2026Q1 金融债 66.43%，政策性金融债 20.32%，高等级底仓清晰"
+        ],
+        "cons": [
+          "对信用利差扩张仍缺乏天然免疫"
+        ]
+      },
+      {
+        "name": "久期与底仓管理",
+        "score": 13,
+        "maxScore": 20,
+        "pros": [
+          "2022Q4 后明显强调高等级信用债、降低久期和杠杆"
+        ],
+        "cons": [
+          "收益主驱动并非久期管理，底仓更偏稳而非强"
+        ]
+      },
+      {
+        "name": "流动性与容量",
+        "score": 13,
+        "maxScore": 15,
+        "pros": [
+          "19.54 亿元规模适中，底仓多为高流动性债券"
+        ],
+        "cons": [
+          "规模若明显扩张，会摊薄股票增强轮动效率"
+        ]
+      },
+      {
+        "name": "基金公司债券实力",
+        "score": 8,
+        "maxScore": 10,
+        "pros": [
+          "中欧基金管理规模 7274.54 亿元，行业前 20，固收平台不弱"
+        ],
+        "cons": [
+          "不是纯债绝对头部公司，产品线较分散"
+        ]
+      }
     ],
-    "recommendation": "稳健配置 固收增强 债基首选",
-    "recommendationType": "buy",
-    "reasoning": [
-      { "positive": true,  "text": "2025年同类排名第1/1142，近1年收益16.46%是同类均值4倍，当前经理组合能力得到充分验证" },
-      { "positive": true,  "text": "邓欣雨15年固收+经验，记分卡体系+双低可转债策略成熟，超额来源清晰可解释" },
-      { "positive": true,  "text": "债券持仓AAA级81.8%，申购免费+持有≥7天赎回免费，对稳健投资者摩擦成本极低" },
-      { "positive": false, "text": "历史最大回撤-21.68%，2022年单年-13.78%，对债券型基金偏高；股债双杀情景下风控仍是短板" },
-      { "positive": false, "text": "双管组合（赵宇澄+邓欣雨）运行仅约1年，分工协作成熟度有限；单纯依赖邓欣雨的能力集中度仍高" }
+    "risks": [
+      {
+        "type": "权益增强回撤风险",
+        "level": "high",
+        "note": "成立以来最大回撤 -21.68%，明显高于纯债基金，说明股票增强既是收益来源也是回撤来源。"
+      },
+      {
+        "type": "经理切换与共管磨合",
+        "level": "medium",
+        "note": "2024-2025 年经历多次经理组合变化，当前双管运行时间仍不算长。"
+      },
+      {
+        "type": "高位追涨性价比一般",
+        "level": "medium",
+        "note": "当前净值处于历史新高，底仓赔率不高，新资金追高的安全边际弱于上一轮回撤区间。"
+      },
+      {
+        "type": "管理疲劳风险",
+        "level": "medium",
+        "note": "一侧经理当前在管 15 只基金、236.92 亿元，数量已高于 10 只警戒线。"
+      }
     ],
-    "conclusion": "中欧鼎利债券C（009520）是目前自选基金中唯一的债券型固收+产品，邓欣雨接管后于2025年摘得同类第1，近1年+16.46%的表现令人惊艳；在当前A股震荡、债市偏暖的宏观环境下，固收+策略的攻守兼备特性优势明显；适合作为组合中的稳定器，与高风险股票基金搭配使用，建议作为稳健仓位的核心配置。",
-    "suitableFor": [
-      { "label": "中低风险偏好，追求稳健收益的投资者（R2级别）",   "fit": true  },
-      { "label": "已有高风险股票仓位、需要低波动压舱石的投资者",   "fit": true  },
-      { "label": "看好固收+可转债策略在震荡市中的超额机会",         "fit": true  },
-      { "label": "追求高收益、不在乎短期波动的激进型投资者",         "fit": false },
-      { "label": "无法承受任何亏损、只接受银行存款级稳定的投资者", "fit": false }
+    "policyItems": [
+      {
+        "name": "中共中央政治局会议",
+        "date": "2026-04-28",
+        "content": "适度宽松货币、保持流动性充裕、保持制造业合理比重、整治内卷、稳定和增强资本市场信心。",
+        "impact": "strong_pos",
+        "impactLabel": "🟢 强利好"
+      },
+      {
+        "name": "资金利率维持 1.4%",
+        "date": "2026-04-29",
+        "content": "市场已获得接近降息的流动性支持，利好底仓稳定，但资本利得空间有限。",
+        "impact": "pos",
+        "impactLabel": "🟡 中等利好"
+      },
+      {
+        "name": "5 月资本市场展望",
+        "date": "2026-05-03",
+        "content": "震荡上行、结构为王，电子与高端制造是核心主线。",
+        "impact": "pos",
+        "impactLabel": "🟡 结构利好"
+      }
+    ],
+    "marketStatus": [
+      {
+        "dim": "净值位置",
+        "status": "100% 历史分位",
+        "statusType": "warning",
+        "detail": "当前净值创历史新高，对二级债更像赔率收窄，而非典型权益高估。"
+      },
+      {
+        "dim": "近期趋势",
+        "status": "偏强",
+        "statusType": "positive",
+        "detail": "近1月 +4.00%，近3月 +3.85%，均显著好于同类平均。"
+      },
+      {
+        "dim": "夏普趋势",
+        "status": "明显改善",
+        "statusType": "positive",
+        "detail": "1Y 夏普 2.42，显著高于 2Y 的 0.95 和 3Y 的 0.30。"
+      },
+      {
+        "dim": "宏观流动性",
+        "status": "友好但不极致",
+        "statusType": "neutral",
+        "detail": "DR007 维持在 1.4% 附近，10Y 国债 1.6%-1.9%，底仓不差但难靠久期赚大钱。"
+      },
+      {
+        "dim": "底仓 + 增强环境",
+        "status": "中性偏正",
+        "statusType": "positive",
+        "detail": "债券底仓平稳，股票增强受益于制造业与景气成长轮动，可转债仓位已主动压低。"
+      },
+      {
+        "dim": "外部风险",
+        "status": "需关注",
+        "statusType": "cautious",
+        "detail": "中东冲突、油价和美联储高利率仍可能扰动长端利率与风险偏好。"
+      }
     ],
     "allocationSuggestions": [
-      { "scenario": "当前（震荡市，固收+适宜期）",   "ratio": "10%-20%",  "note": "作为组合稳定器，与股票基金搭配；一次性或分2-3次建仓均可" },
-      { "scenario": "股市出现系统性大跌（>20%）",    "ratio": "可提升至30%", "note": "股债跷跷板效应下，固收+防御价值上升" },
-      { "scenario": "基金经理（尤其邓欣雨）离任",    "ratio": "减仓或清仓",  "note": "邓欣雨是近期超额的核心，离任后需重新评估" }
+      {
+        "scenario": "存量持有人",
+        "action": "继续持有，不宜在 1.49 附近大幅加仓",
+        "note": "更适合把它当成组合中的进攻型债基，而不是现金替代。"
+      },
+      {
+        "scenario": "新入场投资者",
+        "action": "等待回撤后分批建仓",
+        "note": "不建议在历史新高附近一次性追入，回撤到更有赔率的位置再布局更合理。"
+      },
+      {
+        "scenario": "长期配置仓位",
+        "action": "组合仓位控制在 10%-15%",
+        "note": "更适合作为主动型固收+增强工具，而非纯防守仓位。"
+      }
+    ],
+    "suitableFor": [
+      "能接受二级债不等于纯债、理解股票增强会带来明显波动的投资者",
+      "希望在债券底仓之外获取一定权益弹性、但又不想直接买偏股基金的投资者",
+      "持有周期至少 6-12 个月、愿意等待波动消化的配置型投资者"
+    ],
+    "notSuitableFor": [
+      "把债券基金等同于低波定存替代、不能接受单季 -5% 到 -9% 波动的投资者",
+      "习惯在历史新高附近追涨、持有周期短于 3 个月的短线资金",
+      "只希望赚债券票息、不想承担股票轮动风险的保守投资者",
+      "风险承受能力低于 R3 的投资者"
+    ],
+    "termAdvice": [
+      {
+        "term": "短期（1-3个月）",
+        "icon": "⚠️",
+        "level": "cautious",
+        "advice": "净值新高、赔率收敛，但股票增强环境仍不差，只适合轻仓试探；若无回撤，不建议重仓追买。"
+      },
+      {
+        "term": "中期（6-12个月）",
+        "icon": "🟡",
+        "level": "neutral",
+        "advice": "若 A 股维持结构性慢牛，基金仍有望跑赢同类；可分两批布局，优先等回落至 1.40-1.43，再看 1.32-1.35。"
+      },
+      {
+        "term": "长期（3年以上）",
+        "icon": "🟢",
+        "level": "positive",
+        "advice": "适合作为主动型固收+增强工具长期配置，但组合仓位不宜过高，且需持续跟踪经理轮动效率。"
+      }
     ]
   },
-  "navHistory": [],
   "tracking": {
     "weekly": [
-      "关注净值日涨跌幅是否正常（±1%以内为正常，超±2%需排查原因）",
-      "跟踪10年期国债收益率走势（利率上行对债券持仓不利）",
-      "可转债市场平均溢价率和中证转债指数走势"
+      "净值方向验证：观察日净值是否仍与制造业、化工、AI 光模块等增强方向同步。",
+      "流动性指标：跟踪 DR007，若明显抬升到 1.8% 以上，需要重估债券底仓环境。",
+      "利率指标：跟踪 10 年期国债收益率，若重新上破 2.0%，底仓估值压力会明显增加。",
+      "增强仓主线：持续观察化工涨价链、出口制造链和 AI 光模块的景气变化。",
+      "经理动态：季报措辞若突然明显转向大幅防守，要警惕风格变化。"
     ],
     "quarterly": [
-      "季报披露后检查权益仓位比例变化（若超过25%须重新评估风险）",
-      "确认赵宇澄和邓欣雨均在任，关注基金公告",
-      "与同类基金排名对比，若跌出前20%需深入分析原因",
-      "复核可转债持仓的双低策略有效性（转股溢价率+绝对价格分布）"
+      "持仓变化：股票增强方向是否仍围绕制造业、景气成长和出口链，不应无解释地偏离当前主线。",
+      "集中度变化：前十集中度是否突然飙升或骤降，合理区间约 5%-10%。",
+      "规模变化：总规模若明显上破 40 亿元，需要重估主动轮动型二级债的容量约束。",
+      "同类排名：近 1 年排名是否跌出后 50%，至少应尽量维持前 30%-40%。",
+      "年化超额：相对同类二级债是否仍保持正超额，不能只靠历史修复故事支撑。"
     ],
     "alerts": [
-      { "level": "critical", "icon": "🚨", "text": "邓欣雨离任公告（近期超额核心，需立即评估是否继续持有）" },
-      { "level": "critical", "icon": "🚨", "text": "A股单月下跌超-15%叠加债券收益率大幅上行（股债双杀再现风险）" },
-      { "level": "warning",  "icon": "⚠️", "text": "权益仓位季报显示超过25%（风控边界，历史上高仓位加剧回撤）" },
-      { "level": "warning",  "icon": "⚠️", "text": "月度单月回撤超过-3%（超出正常波动范围）" },
-      { "level": "warning",  "icon": "⚠️", "text": "基金规模快速扩张超过50亿（可转债双低策略容量受限风险）" },
-      { "level": "info",     "icon": "ℹ️", "text": "央行降准降息公告（利好债券端，关注组合久期调整方向）" },
-      { "level": "info",     "icon": "ℹ️", "text": "中证转债指数月度走势（可转债市场景气度指标）" }
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "基金经理再次明显变更：本基金近两年已多次接力，再变动就应重新完整评估。"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "单季度回撤超过 -6% 且同类排名落入后 10%：说明不只是系统性波动，而是个基控制失效。"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "10 年期国债收益率持续高于 2.0%：底仓估值与票息优势都在恶化。"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "低评级信用债利差明显走阔并传导到理财赎回：会复制 2022Q4 的流动性冲击风险。"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "规模半年内迅速上破 40 亿元：对主动轮动型二级债，容量约束会明显增强。"
+      },
+      {
+        "level": "warning",
+        "icon": "⚠️",
+        "text": "季报持仓突然远离制造业、景气成长和涨价链，且没有清楚解释：需警惕策略漂移。"
+      }
     ]
-  }
+  },
+  "exclusionCheck": [
+    {
+      "item": "基金公司或经理是否进入黑名单",
+      "pass": true,
+      "note": "blacklist.json 显示公司与现任经理均未进入黑名单。"
+    },
+    {
+      "item": "近3年是否存在高优先级处罚记录",
+      "pass": true,
+      "note": "快速网页检索未抓到中欧基金或现任经理的高优先级处罚标题。"
+    },
+    {
+      "item": "是否存在重大内幕交易传闻",
+      "pass": true,
+      "note": "当前搜索未见直接指向本基金管理团队的重大公开传闻。"
+    },
+    {
+      "item": "基金经理离职风险是否可忽略",
+      "pass": false,
+      "note": "2024-2025 年本基金经历多次经理组合变化，当前虽稳定，但不能视作零风险。"
+    },
+    {
+      "item": "是否存在明显管理疲劳",
+      "pass": false,
+      "note": "当前在管 15 只基金，已高于 10 只基金的警戒线。"
+    }
+  ]
 }
