@@ -1,8 +1,8 @@
 {
   "id": "166301",
   "meta": {
-    "reportDate": "2026-05-08",
-    "dataDate": "2026-05-07",
+    "reportDate": "2026-05-15",
+    "dataDate": "2026-05-14",
     "disclaimer": "本报告仅供个人学习和信息整理使用，所有分析内容均不构成任何投资建议。投资有风险，入市需谨慎，请依据自身判断做出投资决策。"
   },
   "basic": {
@@ -10,416 +10,3568 @@
     "fullName": "华商新趋势优选灵活配置混合型证券投资基金",
     "shortName": "华商新趋势优选灵活配置混合",
     "type": "混合型",
-    "subType": "灵活配置",
-    "riskLevel": "中高风险",
-    "riskCode": 4,
-    "foundDate": "2012-09-06",
-    "issueDate": "2012-08-01",
-    "manager": "华商基金管理有限公司",
-    "managerScale": "2029.3亿",
-    "managerFundCount": 172,
-    "custodian": "中国工商银行",
-    "benchmark": "沪深300指数×65% + 上证国债指数×35%",
-    "navFallback": 18.089,
-    "navDateFallback": "2026-05-07",
-    "inceptionReturn": 1708.9,
-    "dividendCount": 0,
-    "status": "开放申购 / 开放赎回",
-    "companyShort": "华商"
+    "riskLevel": "R3",
+    "riskCode": 3,
+    "foundDate": "2012年09月06日",
+    "manager": "华商基金",
+    "companyShort": "华商基金",
+    "custodian": "工商银行",
+    "benchmark": "沪深300指数收益率×65%+上证国债指数收益率×35%",
+    "navFallback": 17.987,
+    "inceptionReturn": 1698.7,
+    "subType": "灵活",
+    "navDateFallback": "2026-05-14",
+    "status": "开放申购 / 开放赎回"
   },
   "fees": {
     "management": 1.2,
     "custodian": 0.2,
     "salesService": 0.0,
-    "subscriptionMax": 1.5,
-    "subscriptionDiscounted": 0.15,
-    "redemptionMax": 1.5,
+    "subscriptionMax": 0.0,
     "breakdown": [
-      { "name": "管理费", "value": 1.2 },
-      { "name": "托管费", "value": 0.2 },
-      { "name": "认购费(折后)", "value": 0.15 }
-    ]
+      {
+        "name": "管理费",
+        "value": 1.2
+      },
+      {
+        "name": "托管费",
+        "value": 0.2
+      },
+      {
+        "name": "申购费",
+        "value": 0.0,
+        "actualRate": 0.15
+      },
+      {
+        "name": "赎回费",
+        "value": 1.5,
+        "rate": 1.5,
+        "rules": [
+          {
+            "label": "持有少于7天",
+            "rate": 1.5
+          },
+          {
+            "label": "持有7天及以上",
+            "rate": 0.0
+          }
+        ],
+        "note": "短期持有惩罚性费率，具体以基金合同为准"
+      }
+    ],
+    "subscriptionDiscounted": 0.15,
+    "redemptionMax": 1.5
   },
   "scale": {
     "nav": 57.57,
-    "shares": 3.8037,
-    "date": "2026-03-31"
+    "date": "2026-05-14"
+  },
+  "risk": {
+    "volatility": 0.243,
+    "annualReturn": 0.2452,
+    "sharpe": 0.89,
+    "calmar": 0.58,
+    "maxDrawdown": -0.4202,
+    "maxDrawdownPeriod": "2015-06-12 → 2016-01-28",
+    "periodMetrics": [
+      {
+        "label": "近1年",
+        "volatility": 0.2271,
+        "sharpe": 3.47,
+        "maxDrawdown": -0.147
+      },
+      {
+        "label": "近2年",
+        "volatility": 0.2365,
+        "sharpe": 1.46,
+        "maxDrawdown": -0.2037
+      },
+      {
+        "label": "近3年",
+        "volatility": 0.2174,
+        "sharpe": 0.88,
+        "maxDrawdown": -0.2919
+      }
+    ],
+    "relativeMetrics": {
+      "beta": 0.8651,
+      "alpha": 0.1738,
+      "informationRatio": 1.0093,
+      "trackingError": 0.1604,
+      "r2": 0.5796
+    },
+    "navPercentile": 99.9,
+    "maxDrawdownMonths": 7.5,
+    "recentPerf": [
+      {
+        "period": "近1周",
+        "fund": -0.56,
+        "peer": 0.36,
+        "hs300": 0.29,
+        "excess": -0.85,
+        "rank": 1500,
+        "rankTotal": 2324,
+        "warn": false,
+        "note": "短期波动"
+      },
+      {
+        "period": "近1月",
+        "fund": 10.49,
+        "peer": 6.16,
+        "hs300": 4.54,
+        "excess": 5.95,
+        "rank": 588,
+        "rankTotal": 2324,
+        "warn": false,
+        "note": "前25%"
+      },
+      {
+        "period": "近3月",
+        "fund": 9.18,
+        "peer": 6.22,
+        "hs300": 5.45,
+        "excess": 3.73,
+        "rank": 679,
+        "rankTotal": 2319,
+        "warn": false,
+        "note": "前30%"
+      },
+      {
+        "period": "近6月",
+        "fund": 32.37,
+        "peer": 14.23,
+        "hs300": 6.19,
+        "excess": 26.18,
+        "rank": 367,
+        "rankTotal": 2303,
+        "warn": false,
+        "note": "前16%"
+      },
+      {
+        "period": "近1年",
+        "fund": 78.89,
+        "peer": 37.61,
+        "hs300": 24.63,
+        "excess": 54.26,
+        "rank": 339,
+        "rankTotal": 2267,
+        "warn": false,
+        "note": "前15%"
+      },
+      {
+        "period": "近2年",
+        "fund": 85.43,
+        "peer": 45.78,
+        "hs300": 34.39,
+        "excess": 51.04,
+        "rank": 409,
+        "rankTotal": 2181,
+        "warn": false,
+        "note": "前19%"
+      }
+    ],
+    "radarDimensions": [
+      {
+        "name": "收益能力",
+        "score": 95
+      },
+      {
+        "name": "风险控制",
+        "score": 55
+      },
+      {
+        "name": "稳定性",
+        "score": 60
+      },
+      {
+        "name": "选股能力",
+        "score": 90
+      },
+      {
+        "name": "择时能力",
+        "score": 70
+      }
+    ],
+    "riskBreakdown": {
+      "volatilityRating": "偏高波动（24.30%，高于宽基指数）",
+      "sharpeRating": "近1年极强（3.47），全期可接受（0.89）",
+      "drawdownRating": "历史最大-42.02%（7.5个月），近1年相对温和",
+      "historicalMaxDrawdown": 42.02,
+      "yearlyMaxDrawdowns": [
+        {
+          "year": 2026,
+          "fund": 14.7,
+          "hs300": 7.78
+        },
+        {
+          "year": 2025,
+          "fund": 9.56,
+          "hs300": 10.49
+        },
+        {
+          "year": 2024,
+          "fund": 20.37,
+          "hs300": 14.41
+        },
+        {
+          "year": 2023,
+          "fund": 18.15,
+          "hs300": 21.51
+        },
+        {
+          "year": 2022,
+          "fund": 20.21,
+          "hs300": 28.65
+        },
+        {
+          "year": 2021,
+          "fund": 25.67,
+          "hs300": 18.19
+        },
+        {
+          "year": 2020,
+          "fund": 16.67,
+          "hs300": 16.08
+        },
+        {
+          "year": 2019,
+          "fund": 17.21,
+          "hs300": 13.49
+        },
+        {
+          "year": 2018,
+          "fund": 26.19,
+          "hs300": 31.88
+        },
+        {
+          "year": 2017,
+          "fund": 11.19,
+          "hs300": 6.07
+        },
+        {
+          "year": 2016,
+          "fund": 23.45,
+          "hs300": 19.38
+        },
+        {
+          "year": 2015,
+          "fund": 40.95,
+          "hs300": 43.48
+        },
+        {
+          "year": 2014,
+          "fund": 12.48,
+          "hs300": 10.12
+        },
+        {
+          "year": 2013,
+          "fund": 14.31,
+          "hs300": 22.16
+        },
+        {
+          "year": 2012,
+          "fund": 13.49,
+          "hs300": 22.41
+        }
+      ]
+    },
+    "riskWarnings": [
+      {
+        "level": "high",
+        "text": "高位买入赔率差：基金当前净值处于历史99.88%分位，'基金好不好'和'现在值不值得追'已经是两件事",
+        "category": "内部"
+      },
+      {
+        "level": "high",
+        "text": "历史回撤深，回撤来得快：历史最大回撤达到-42.02%，峰值到谷值集中发生在2015-06-12至2016-01-28",
+        "category": "内部"
+      },
+      {
+        "level": "medium",
+        "text": "风格切换带来的阶段性失手：基金在科技、军工、周期制造之间主动轮动，在2024年风格切换阶段也出现了相对跑输",
+        "category": "内部"
+      },
+      {
+        "level": "low",
+        "text": "管理边界需要持续监控：童立当前在管9只基金、83.54亿元，尚未触发明显失控信号，但已经进入需要重点观察的区间",
+        "category": "内部"
+      },
+      {
+        "level": "high",
+        "text": "地缘冲突、高位估值压缩和风格切换，都会放大这类高弹性产品的回撤",
+        "category": "外部"
+      },
+      {
+        "level": "medium",
+        "text": "一旦主线逆风，基金净值回撤速度会明显快于低波动产品",
+        "category": "外部"
+      }
+    ]
+  },
+  "holdings": {
+    "date": "2026年1季度股票投资明细",
+    "top10": [
+      {
+        "rank": 1,
+        "name": "招商轮船",
+        "code": "601872",
+        "ratio": 4.01,
+        "sector": "航运周期",
+        "color": "#E8813A"
+      },
+      {
+        "rank": 2,
+        "name": "索通发展",
+        "code": "603612",
+        "ratio": 3.37,
+        "sector": "碳材料/双碳",
+        "color": "#E8813A"
+      },
+      {
+        "rank": 3,
+        "name": "江丰电子",
+        "code": "300666",
+        "ratio": 2.9,
+        "sector": "半导体材料",
+        "color": "#58a6ff"
+      },
+      {
+        "rank": 4,
+        "name": "光迅科技",
+        "code": "002281",
+        "ratio": 2.34,
+        "sector": "光模块/算力",
+        "color": "#58a6ff"
+      },
+      {
+        "rank": 5,
+        "name": "洪都航空",
+        "code": "600316",
+        "ratio": 2.27,
+        "sector": "军工制造",
+        "color": "#F54E48"
+      },
+      {
+        "rank": 6,
+        "name": "北方稀土",
+        "code": "600111",
+        "ratio": 2.07,
+        "sector": "稀土新材料",
+        "color": "#E8813A"
+      },
+      {
+        "rank": 7,
+        "name": "英科医疗",
+        "code": "300677",
+        "ratio": 2.04,
+        "sector": "医疗器械出口",
+        "color": "#2DC78E"
+      },
+      {
+        "rank": 8,
+        "name": "烽火通信",
+        "code": "600498",
+        "ratio": 2.02,
+        "sector": "光通信/算力",
+        "color": "#58a6ff"
+      },
+      {
+        "rank": 9,
+        "name": "航发动力",
+        "code": "600893",
+        "ratio": 2.0,
+        "sector": "航空发动机",
+        "color": "#F54E48"
+      },
+      {
+        "rank": 10,
+        "name": "海光信息",
+        "code": "688041",
+        "ratio": 1.83,
+        "sector": "国产算力芯片",
+        "color": "#58a6ff"
+      }
+    ],
+    "top10Total": 24.85,
+    "top10TotalRatio": 24.85,
+    "sectors": [
+      {
+        "name": "制造业",
+        "ratio": 56.43
+      },
+      {
+        "name": "信息技术业",
+        "ratio": 3.21
+      },
+      {
+        "name": "交通运输、仓储和邮政业",
+        "ratio": 4.96
+      },
+      {
+        "name": "采矿业",
+        "ratio": 3.27
+      },
+      {
+        "name": "金融业",
+        "ratio": 1.9
+      },
+      {
+        "name": "水利、环境和公共设施管理业",
+        "ratio": 1.32
+      },
+      {
+        "name": "综合",
+        "ratio": 0.53
+      },
+      {
+        "name": "电力、热力、燃气及水生产和供应业",
+        "ratio": 0.46
+      },
+      {
+        "name": "科学研究和技术服务业",
+        "ratio": 0.18
+      }
+    ],
+    "stockRatio": 72.27,
+    "bondRatio": 0,
+    "cashRatio": 27.44,
+    "themeTitle": "AI算力×军工×双碳材料三线叠加",
+    "themeSubtitle": "智能经济+双碳经济配置框架",
+    "concentrationLabel": "分散型（前十24.85%）",
+    "themeGroups": [
+      {
+        "name": "AI算力与国产替代",
+        "color": "#58a6ff",
+        "ratio": 9.09,
+        "stocks": "江丰电子 / 光迅科技 / 烽火通信 / 海光信息",
+        "note": "布局半导体材料、光模块/光通信、国产算力芯片等AI算力基础设施核心环节"
+      },
+      {
+        "name": "军工与高端制造",
+        "color": "#F54E48",
+        "ratio": 4.27,
+        "stocks": "洪都航空 / 航发动力",
+        "note": "军工制造与航空发动机，受益国防采购与装备升级"
+      },
+      {
+        "name": "周期制造与双碳材料",
+        "color": "#E8813A",
+        "ratio": 9.45,
+        "stocks": "招商轮船 / 索通发展 / 北方稀土",
+        "note": "航运周期、碳材料/双碳、稀土新材料，受益能源转型与通胀大周期"
+      }
+    ],
+    "evolutionHighlights": [
+      {
+        "quarter": "2015Q2",
+        "type": "warning",
+        "change": "集中度突然抬升到45.81%",
+        "return": "+19.38%",
+        "theme": "高弹性进攻",
+        "insight": "基金第一次完整暴露出高弹性进攻底色，随后2015Q3也因此遭遇重创"
+      },
+      {
+        "quarter": "2019-2021",
+        "type": "positive",
+        "change": "围绕科技、制造升级和资源链条做轮动",
+        "return": "+269.66%",
+        "theme": "制造升级主升浪",
+        "insight": "成立以来最重要的收益来源，Beta和Alpha双强贡献"
+      },
+      {
+        "quarter": "2022-2024",
+        "type": "neutral",
+        "change": "前十集中度明显下移",
+        "return": "+22.97%",
+        "theme": "框架式选股",
+        "insight": "组合开始更多依赖框架式选股而不是单点重注，结构性超额为主"
+      },
+      {
+        "quarter": "2025Q4",
+        "type": "positive",
+        "change": "大幅切向高弹性科技",
+        "return": "+3.43%",
+        "theme": "科技成长",
+        "insight": "浪潮信息、海光信息、锐捷网络等进入前十，股票仓位91.07%"
+      },
+      {
+        "quarter": "2026Q1",
+        "type": "neutral",
+        "change": "迅速转成'科技+周期制造+军工+高现金'",
+        "return": "+5.30%",
+        "theme": "高位防守",
+        "insight": "童立在高位阶段更重视波动管理，股票仓位降至72.27%，现金及结算备付金占总资产27.44%"
+      }
+    ],
+    "policyLinks": [
+      {
+        "sector": "AI算力与国产替代",
+        "color": "#58a6ff",
+        "stocks": "江丰电子 / 光迅科技 / 烽火通信 / 海光信息",
+        "policyNote": "受益AI数据中心建设带动光纤价格和需求同步上行，光模块/光通信链条景气强化；国产算力芯片受益科技自主可控政策"
+      },
+      {
+        "sector": "军工与高端制造",
+        "color": "#F54E48",
+        "stocks": "洪都航空 / 航发动力",
+        "policyNote": "受益国防采购节奏、装备订单、国产替代链条景气变化"
+      },
+      {
+        "sector": "周期制造与双碳材料",
+        "color": "#E8813A",
+        "stocks": "招商轮船 / 索通发展 / 北方稀土",
+        "policyNote": "受益双碳目标、能源转型、关键矿产安全保障政策；航运周期受益全球贸易复苏"
+      }
+    ]
   },
   "performance": {
     "stages": [
-      { "period": "近1周",  "fund": 4.62,  "peer": null,  "hs300": 1.94,  "rank": null, "rankTotal": null, "quartile": null },
-      { "period": "近1月",  "fund": 18.2,  "peer": 11.19, "hs300": 10.36, "rank": 491,  "rankTotal": 2324, "quartile": "优秀" },
-      { "period": "近3月",  "fund": 17.6,  "peer": 7.14,  "hs300": 5.53,  "rank": 386,  "rankTotal": 2316, "quartile": "优秀" },
-      { "period": "近6月",  "fund": 33.59, "peer": 12.88, "hs300": 4.74,  "rank": 314,  "rankTotal": 2267, "quartile": "优秀" },
-      { "period": "今年来", "fund": 25.85, "peer": 11.6,  "hs300": 5.84,  "rank": 350,  "rankTotal": 2181, "quartile": "优秀" },
-      { "period": "近1年",  "fund": 79.24, "peer": 38.06, "hs300": 27.9,  "rank": 314,  "rankTotal": 2267, "quartile": "优秀" },
-      { "period": "近2年",  "fund": 88.47, "peer": 45.01, "hs300": 33.93, "rank": 350,  "rankTotal": 2181, "quartile": "优秀" },
-      { "period": "近3年",  "fund": 84.94, "peer": 31.94, "hs300": 22.0,  "rank": 202,  "rankTotal": 2075, "quartile": "优秀" }
+      {
+        "period": "近1周",
+        "fund": -0.56,
+        "peer": 0.36,
+        "hs300": 0.29,
+        "rank": 1500,
+        "rankTotal": 2324,
+        "quartile": null
+      },
+      {
+        "period": "近1月",
+        "fund": 10.49,
+        "peer": 6.16,
+        "hs300": 4.54,
+        "rank": 588,
+        "rankTotal": 2324,
+        "quartile": null
+      },
+      {
+        "period": "近3月",
+        "fund": 9.18,
+        "peer": 6.22,
+        "hs300": 5.45,
+        "rank": 679,
+        "rankTotal": 2319,
+        "quartile": null
+      },
+      {
+        "period": "近6月",
+        "fund": 32.37,
+        "peer": 14.23,
+        "hs300": 6.19,
+        "rank": 367,
+        "rankTotal": 2303,
+        "quartile": null
+      },
+      {
+        "period": "近1年",
+        "fund": 78.89,
+        "peer": 37.61,
+        "hs300": 24.63,
+        "rank": 339,
+        "rankTotal": 2267,
+        "quartile": null
+      },
+      {
+        "period": "近2年",
+        "fund": 85.43,
+        "peer": 45.78,
+        "hs300": 34.39,
+        "rank": 409,
+        "rankTotal": 2181,
+        "quartile": null
+      },
+      {
+        "period": "近3年",
+        "fund": 90.38,
+        "peer": 35.11,
+        "hs300": 24.81,
+        "rank": 214,
+        "rankTotal": 2076,
+        "quartile": null
+      },
+      {
+        "period": "近5年",
+        "fund": 165.92,
+        "peer": 23.76,
+        "hs300": -3.83,
+        "rank": 41,
+        "rankTotal": 1801,
+        "quartile": null
+      },
+      {
+        "period": "今年来",
+        "fund": 25.14,
+        "peer": 12.0,
+        "hs300": 6.15,
+        "rank": 411,
+        "rankTotal": 2314,
+        "quartile": null
+      },
+      {
+        "period": "成立来",
+        "fund": 1698.7,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      }
     ],
     "annual": [
-      { "year": 2018, "fund": -14.83, "peer": -13.04, "hs300": -25.31, "rank": 817,  "rankTotal": 1913, "quartile": "良好" },
-      { "year": 2019, "fund": 69.6,   "peer": 40.38,  "hs300": 36.07,  "rank": 74,   "rankTotal": 1974, "quartile": "优秀" },
-      { "year": 2020, "fund": 77.42,  "peer": 33.59,  "hs300": 27.21,  "rank": 219,  "rankTotal": 2086, "quartile": "优秀" },
-      { "year": 2021, "fund": 22.85,  "peer": 10.17,  "hs300": -5.2,   "rank": 314,  "rankTotal": 2205, "quartile": "优秀" },
-      { "year": 2022, "fund": 13.6,   "peer": -15.54, "hs300": -21.63, "rank": 9,    "rankTotal": 2299, "quartile": "优秀" },
-      { "year": 2023, "fund": 0.85,   "peer": -9.01,  "hs300": -11.38, "rank": 339,  "rankTotal": 2330, "quartile": "优秀" },
-      { "year": 2024, "fund": 7.34,   "peer": 4.14,   "hs300": 14.68,  "rank": 752,  "rankTotal": 2336, "quartile": "良好" },
-      { "year": 2025, "fund": 50.43,  "peer": 26.17,  "hs300": 17.66,  "rank": 320,  "rankTotal": 2338, "quartile": "优秀" }
+      {
+        "year": 2012,
+        "fund": 1.9,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2013,
+        "fund": 10.65,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2014,
+        "fund": 25.18,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2015,
+        "fund": 62.63,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2016,
+        "fund": -0.46,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2017,
+        "fund": 13.63,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2018,
+        "fund": -14.83,
+        "peer": -13.04,
+        "hs300": -25.31,
+        "rank": 817,
+        "rankTotal": 1913,
+        "quartile": "良好"
+      },
+      {
+        "year": 2019,
+        "fund": 69.6,
+        "peer": 33.59,
+        "hs300": 36.07,
+        "rank": 74,
+        "rankTotal": 1974,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2020,
+        "fund": 77.42,
+        "peer": 40.38,
+        "hs300": 27.21,
+        "rank": 219,
+        "rankTotal": 2086,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2021,
+        "fund": 22.85,
+        "peer": 10.17,
+        "hs300": -5.2,
+        "rank": 314,
+        "rankTotal": 2205,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2022,
+        "fund": 13.6,
+        "peer": -15.54,
+        "hs300": -21.63,
+        "rank": 9,
+        "rankTotal": 2299,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2023,
+        "fund": 0.85,
+        "peer": -9.01,
+        "hs300": -11.38,
+        "rank": 339,
+        "rankTotal": 2330,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2024,
+        "fund": 7.34,
+        "peer": 4.14,
+        "hs300": 14.68,
+        "rank": 752,
+        "rankTotal": 2336,
+        "quartile": "良好"
+      },
+      {
+        "year": 2025,
+        "fund": 50.43,
+        "peer": 26.17,
+        "hs300": 17.66,
+        "rank": 320,
+        "rankTotal": 2338,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2026,
+        "fund": 25.14,
+        "peer": 12.0,
+        "hs300": 6.15,
+        "rank": 411,
+        "rankTotal": 2314,
+        "quartile": null
+      }
     ],
     "quarterly": [
-      { "quarter": "2024Q2", "fund": -0.99, "peer": -2.03, "hs300": -2.14, "rank": 1116, "rankTotal": 2326, "quartile": "良好" },
-      { "quarter": "2024Q3", "fund": 10.02, "peer": 8.56,  "hs300": 16.07, "rank": 865,  "rankTotal": 2322, "quartile": "良好" },
-      { "quarter": "2024Q4", "fund": -4.79, "peer": -0.35, "hs300": -2.06, "rank": 1816, "rankTotal": 2336, "quartile": "不佳" },
-      { "quarter": "2025Q1", "fund": 6.86,  "peer": 2.61,  "hs300": -1.21, "rank": 395,  "rankTotal": 2331, "quartile": "优秀" },
-      { "quarter": "2025Q2", "fund": 1.95,  "peer": 2.52,  "hs300": 1.25,  "rank": 956,  "rankTotal": 2353, "quartile": "良好" },
-      { "quarter": "2025Q3", "fund": 33.52, "peer": 19.69, "hs300": 17.9,  "rank": 435,  "rankTotal": 2347, "quartile": "优秀" },
-      { "quarter": "2025Q4", "fund": 3.43,  "peer": 0.2,   "hs300": -0.23, "rank": 467,  "rankTotal": 2338, "quartile": "优秀" },
-      { "quarter": "2026Q1", "fund": 5.3,   "peer": -0.3,  "hs300": -3.89, "rank": 290,  "rankTotal": 2333, "quartile": "优秀" }
+      {
+        "year": 2012,
+        "quarter": "2012Q3",
+        "fund": 0.2,
+        "peer": null,
+        "hs300": -6.98,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2012,
+        "quarter": "2012Q4",
+        "fund": 1.7,
+        "peer": null,
+        "hs300": 11.14,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2013,
+        "quarter": "2013Q1",
+        "fund": 3.34,
+        "peer": null,
+        "hs300": -1.16,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2013,
+        "quarter": "2013Q2",
+        "fund": -5.32,
+        "peer": null,
+        "hs300": -11.73,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2013,
+        "quarter": "2013Q3",
+        "fund": 15.15,
+        "peer": null,
+        "hs300": 8.84,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2013,
+        "quarter": "2013Q4",
+        "fund": -2.26,
+        "peer": null,
+        "hs300": -4.58,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2014,
+        "quarter": "2014Q1",
+        "fund": -1.52,
+        "peer": null,
+        "hs300": -7.57,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2014,
+        "quarter": "2014Q2",
+        "fund": 1.63,
+        "peer": null,
+        "hs300": 0.09,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2014,
+        "quarter": "2014Q3",
+        "fund": 21.46,
+        "peer": null,
+        "hs300": 13.23,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2014,
+        "quarter": "2014Q4",
+        "fund": 3.52,
+        "peer": null,
+        "hs300": 42.58,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2015,
+        "quarter": "2015Q1",
+        "fund": 33.78,
+        "peer": null,
+        "hs300": 11.25,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2015,
+        "quarter": "2015Q2",
+        "fund": 19.38,
+        "peer": null,
+        "hs300": 8.47,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2015,
+        "quarter": "2015Q3",
+        "fund": -19.91,
+        "peer": null,
+        "hs300": -24.69,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2015,
+        "quarter": "2015Q4",
+        "fund": 29.4,
+        "peer": null,
+        "hs300": 13.18,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2016,
+        "quarter": "2016Q1",
+        "fund": -10.87,
+        "peer": null,
+        "hs300": -7.23,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2016,
+        "quarter": "2016Q2",
+        "fund": -0.58,
+        "peer": null,
+        "hs300": -2.11,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2016,
+        "quarter": "2016Q3",
+        "fund": 3.48,
+        "peer": null,
+        "hs300": 3.14,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2016,
+        "quarter": "2016Q4",
+        "fund": 0.47,
+        "peer": null,
+        "hs300": 0.49,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2017,
+        "quarter": "2017Q1",
+        "fund": 6.18,
+        "peer": null,
+        "hs300": 3.41,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2017,
+        "quarter": "2017Q2",
+        "fund": -3.41,
+        "peer": null,
+        "hs300": 4.65,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2017,
+        "quarter": "2017Q3",
+        "fund": 4.08,
+        "peer": null,
+        "hs300": 5.09,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2017,
+        "quarter": "2017Q4",
+        "fund": 7.4,
+        "peer": null,
+        "hs300": 3.83,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2018,
+        "quarter": "2018Q1",
+        "fund": 2.84,
+        "peer": null,
+        "hs300": -4.62,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2018,
+        "quarter": "2018Q2",
+        "fund": -2.48,
+        "peer": null,
+        "hs300": -9.67,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2018,
+        "quarter": "2018Q3",
+        "fund": -4.53,
+        "peer": null,
+        "hs300": 0.91,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2018,
+        "quarter": "2018Q4",
+        "fund": -11.05,
+        "peer": null,
+        "hs300": -8.52,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2019,
+        "quarter": "2019Q1",
+        "fund": 37.63,
+        "peer": null,
+        "hs300": 30.4,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2019,
+        "quarter": "2019Q2",
+        "fund": -6.05,
+        "peer": null,
+        "hs300": -3.73,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2019,
+        "quarter": "2019Q3",
+        "fund": 12.8,
+        "peer": null,
+        "hs300": -3.08,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2019,
+        "quarter": "2019Q4",
+        "fund": 16.28,
+        "peer": null,
+        "hs300": 6.75,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2020,
+        "quarter": "2020Q1",
+        "fund": 6.37,
+        "peer": null,
+        "hs300": -11.22,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2020,
+        "quarter": "2020Q2",
+        "fund": 13.16,
+        "peer": null,
+        "hs300": 13.3,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2020,
+        "quarter": "2020Q3",
+        "fund": 8.3,
+        "peer": null,
+        "hs300": 8.0,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2020,
+        "quarter": "2020Q4",
+        "fund": 36.11,
+        "peer": null,
+        "hs300": 11.33,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2021,
+        "quarter": "2021Q1",
+        "fund": 0.4,
+        "peer": null,
+        "hs300": -4.16,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2021,
+        "quarter": "2021Q2",
+        "fund": 7.35,
+        "peer": null,
+        "hs300": 2.22,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2021,
+        "quarter": "2021Q3",
+        "fund": 23.98,
+        "peer": null,
+        "hs300": -6.95,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2021,
+        "quarter": "2021Q4",
+        "fund": -8.07,
+        "peer": null,
+        "hs300": 0.21,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2022,
+        "quarter": "2022Q1",
+        "fund": 5.74,
+        "peer": null,
+        "hs300": -14.14,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2022,
+        "quarter": "2022Q2",
+        "fund": 3.32,
+        "peer": null,
+        "hs300": 4.88,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2022,
+        "quarter": "2022Q3",
+        "fund": -3.32,
+        "peer": null,
+        "hs300": -14.82,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2022,
+        "quarter": "2022Q4",
+        "fund": 7.55,
+        "peer": null,
+        "hs300": 4.05,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2023,
+        "quarter": "2023Q1",
+        "fund": 12.98,
+        "peer": null,
+        "hs300": 4.19,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2023,
+        "quarter": "2023Q2",
+        "fund": -3.32,
+        "peer": null,
+        "hs300": -6.07,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2023,
+        "quarter": "2023Q3",
+        "fund": -3.78,
+        "peer": null,
+        "hs300": -5.22,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2023,
+        "quarter": "2023Q4",
+        "fund": -4.05,
+        "peer": null,
+        "hs300": -6.88,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q1",
+        "fund": 3.49,
+        "peer": null,
+        "hs300": 4.46,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q2",
+        "fund": -0.99,
+        "peer": -2.03,
+        "hs300": -2.14,
+        "rank": 1116,
+        "rankTotal": 2326,
+        "quartile": "良好"
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q3",
+        "fund": 10.02,
+        "peer": 8.56,
+        "hs300": 16.07,
+        "rank": 865,
+        "rankTotal": 2322,
+        "quartile": "良好"
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q4",
+        "fund": -4.79,
+        "peer": -0.35,
+        "hs300": -2.06,
+        "rank": 1816,
+        "rankTotal": 2336,
+        "quartile": "不佳"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q1",
+        "fund": 6.86,
+        "peer": 2.61,
+        "hs300": -1.21,
+        "rank": 395,
+        "rankTotal": 2331,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q2",
+        "fund": 1.95,
+        "peer": 2.52,
+        "hs300": 1.25,
+        "rank": 956,
+        "rankTotal": 2353,
+        "quartile": "良好"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q3",
+        "fund": 33.52,
+        "peer": 19.69,
+        "hs300": 17.9,
+        "rank": 435,
+        "rankTotal": 2347,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q4",
+        "fund": 3.43,
+        "peer": 0.2,
+        "hs300": -0.23,
+        "rank": 467,
+        "rankTotal": 2338,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2026,
+        "quarter": "2026Q1",
+        "fund": 5.3,
+        "peer": -0.3,
+        "hs300": -3.89,
+        "rank": 290,
+        "rankTotal": 2333,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2026,
+        "quarter": "2026Q2",
+        "fund": 17.24,
+        "peer": null,
+        "hs300": 8.58,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      }
+    ],
+    "milestones": [
+      {
+        "date": "2012-09-06",
+        "nav": 1,
+        "label": "成立日",
+        "type": "neutral"
+      },
+      {
+        "date": "2012-12-03",
+        "nav": 0.872,
+        "label": "历史最低点",
+        "type": "low"
+      },
+      {
+        "date": "2020-12-31",
+        "nav": 6.325,
+        "label": "第一轮长期主升浪完成",
+        "type": "high"
+      },
+      {
+        "date": "2022-12-31",
+        "nav": 8.827,
+        "label": "熊市中仍维持更高平台",
+        "type": "neutral"
+      },
+      {
+        "date": "2024-02-05",
+        "nav": 7.422,
+        "label": "近年关键调整低点",
+        "type": "low"
+      },
+      {
+        "date": "2025-10-09",
+        "nav": 14.084,
+        "label": "童立阶段主升浪确认",
+        "type": "high"
+      },
+      {
+        "date": "2026-05-13",
+        "nav": 18.535,
+        "label": "历史最高点",
+        "type": "peak"
+      },
+      {
+        "date": "2026-05-14",
+        "nav": 17.987,
+        "label": "当前净值（历史99.88%分位）",
+        "type": "current"
+      }
     ]
   },
-  "risk": {
-    "volatility": 22.24,
-    "sharpe": 3.5,
-    "maxDrawdown": -20.5,
-    "riskLevel": "中高风险",
-    "excessReturn1Y": 41.18,
-    "radarDimensions": [
-      { "name": "历史业绩", "value": 9.5, "max": 10 },
-      { "name": "风险控制", "value": 8.0, "max": 10 },
-      { "name": "持仓质量", "value": 8.5, "max": 10 },
-      { "name": "基金经理", "value": 8.5, "max": 10 },
-      { "name": "政策匹配", "value": 9.0, "max": 10 },
-      { "name": "估值时机", "value": 7.0, "max": 10 }
+  "stageAnalysis": {
+    "inflectionPoints": [
+      {
+        "id": 1,
+        "startDate": "2012-10-22",
+        "endDate": "2012-12-03",
+        "startNav": 1.008,
+        "endNav": 0.872,
+        "changePct": -13.49,
+        "type": "trough"
+      },
+      {
+        "id": 2,
+        "startDate": "2012-12-03",
+        "endDate": "2013-03-01",
+        "startNav": 0.872,
+        "endNav": 1.114,
+        "changePct": 27.75,
+        "type": "peak"
+      },
+      {
+        "id": 3,
+        "startDate": "2013-03-01",
+        "endDate": "2013-04-15",
+        "startNav": 1.114,
+        "endNav": 1.024,
+        "changePct": -8.08,
+        "type": "trough"
+      },
+      {
+        "id": 4,
+        "startDate": "2013-04-15",
+        "endDate": "2013-05-30",
+        "startNav": 1.024,
+        "endNav": 1.16,
+        "changePct": 13.28,
+        "type": "peak"
+      },
+      {
+        "id": 5,
+        "startDate": "2013-05-30",
+        "endDate": "2013-06-25",
+        "startNav": 1.16,
+        "endNav": 0.994,
+        "changePct": -14.31,
+        "type": "trough"
+      },
+      {
+        "id": 6,
+        "startDate": "2013-06-25",
+        "endDate": "2013-10-15",
+        "startNav": 0.994,
+        "endNav": 1.202,
+        "changePct": 20.93,
+        "type": "peak"
+      },
+      {
+        "id": 7,
+        "startDate": "2013-10-15",
+        "endDate": "2013-11-13",
+        "startNav": 1.202,
+        "endNav": 1.071,
+        "changePct": -10.9,
+        "type": "trough"
+      },
+      {
+        "id": 8,
+        "startDate": "2013-11-13",
+        "endDate": "2013-12-10",
+        "startNav": 1.071,
+        "endNav": 1.159,
+        "changePct": 8.22,
+        "type": "peak"
+      },
+      {
+        "id": 9,
+        "startDate": "2013-12-10",
+        "endDate": "2014-01-13",
+        "startNav": 1.159,
+        "endNav": 1.062,
+        "changePct": -8.37,
+        "type": "trough"
+      },
+      {
+        "id": 10,
+        "startDate": "2014-01-13",
+        "endDate": "2014-02-17",
+        "startNav": 1.062,
+        "endNav": 1.21,
+        "changePct": 13.94,
+        "type": "peak"
+      },
+      {
+        "id": 11,
+        "startDate": "2014-02-17",
+        "endDate": "2014-04-28",
+        "startNav": 1.21,
+        "endNav": 1.059,
+        "changePct": -12.48,
+        "type": "trough"
+      },
+      {
+        "id": 12,
+        "startDate": "2014-04-28",
+        "endDate": "2014-12-16",
+        "startNav": 1.059,
+        "endNav": 1.493,
+        "changePct": 40.98,
+        "type": "peak"
+      },
+      {
+        "id": 13,
+        "startDate": "2014-12-16",
+        "endDate": "2014-12-23",
+        "startNav": 1.493,
+        "endNav": 1.382,
+        "changePct": -7.43,
+        "type": "trough"
+      },
+      {
+        "id": 14,
+        "startDate": "2014-12-23",
+        "endDate": "2015-01-27",
+        "startNav": 1.382,
+        "endNav": 1.53,
+        "changePct": 10.71,
+        "type": "peak"
+      },
+      {
+        "id": 15,
+        "startDate": "2015-01-27",
+        "endDate": "2015-02-09",
+        "startNav": 1.53,
+        "endNav": 1.438,
+        "changePct": -6.01,
+        "type": "trough"
+      },
+      {
+        "id": 16,
+        "startDate": "2015-02-09",
+        "endDate": "2015-04-27",
+        "startNav": 1.438,
+        "endNav": 2.2,
+        "changePct": 52.99,
+        "type": "peak"
+      },
+      {
+        "id": 17,
+        "startDate": "2015-04-27",
+        "endDate": "2015-05-07",
+        "startNav": 2.2,
+        "endNav": 2.041,
+        "changePct": -7.23,
+        "type": "trough"
+      },
+      {
+        "id": 18,
+        "startDate": "2015-05-07",
+        "endDate": "2015-06-12",
+        "startNav": 2.041,
+        "endNav": 2.877,
+        "changePct": 40.96,
+        "type": "peak"
+      },
+      {
+        "id": 19,
+        "startDate": "2015-06-12",
+        "endDate": "2015-07-08",
+        "startNav": 2.877,
+        "endNav": 1.751,
+        "changePct": -39.14,
+        "type": "trough"
+      },
+      {
+        "id": 20,
+        "startDate": "2015-07-08",
+        "endDate": "2015-07-23",
+        "startNav": 1.751,
+        "endNav": 2.232,
+        "changePct": 27.47,
+        "type": "peak"
+      },
+      {
+        "id": 21,
+        "startDate": "2015-07-23",
+        "endDate": "2015-08-03",
+        "startNav": 2.232,
+        "endNav": 1.935,
+        "changePct": -13.31,
+        "type": "trough"
+      },
+      {
+        "id": 22,
+        "startDate": "2015-08-03",
+        "endDate": "2015-08-17",
+        "startNav": 1.935,
+        "endNav": 2.216,
+        "changePct": 14.52,
+        "type": "peak"
+      },
+      {
+        "id": 23,
+        "startDate": "2015-08-17",
+        "endDate": "2015-08-26",
+        "startNav": 2.216,
+        "endNav": 1.776,
+        "changePct": -19.86,
+        "type": "trough"
+      },
+      {
+        "id": 24,
+        "startDate": "2015-08-26",
+        "endDate": "2015-08-28",
+        "startNav": 1.776,
+        "endNav": 1.889,
+        "changePct": 6.36,
+        "type": "peak"
+      },
+      {
+        "id": 25,
+        "startDate": "2015-08-28",
+        "endDate": "2015-09-07",
+        "startNav": 1.889,
+        "endNav": 1.75,
+        "changePct": -7.36,
+        "type": "trough"
+      },
+      {
+        "id": 26,
+        "startDate": "2015-09-07",
+        "endDate": "2015-09-11",
+        "startNav": 1.75,
+        "endNav": 1.872,
+        "changePct": 6.97,
+        "type": "peak"
+      },
+      {
+        "id": 27,
+        "startDate": "2015-09-11",
+        "endDate": "2015-09-15",
+        "startNav": 1.872,
+        "endNav": 1.699,
+        "changePct": -9.24,
+        "type": "trough"
+      },
+      {
+        "id": 28,
+        "startDate": "2015-09-15",
+        "endDate": "2015-12-22",
+        "startNav": 1.699,
+        "endNav": 2.397,
+        "changePct": 41.08,
+        "type": "peak"
+      },
+      {
+        "id": 29,
+        "startDate": "2015-12-22",
+        "endDate": "2016-01-28",
+        "startNav": 2.397,
+        "endNav": 1.668,
+        "changePct": -30.41,
+        "type": "trough"
+      },
+      {
+        "id": 30,
+        "startDate": "2016-01-28",
+        "endDate": "2016-02-22",
+        "startNav": 1.668,
+        "endNav": 1.933,
+        "changePct": 15.89,
+        "type": "peak"
+      },
+      {
+        "id": 31,
+        "startDate": "2016-02-22",
+        "endDate": "2016-02-29",
+        "startNav": 1.933,
+        "endNav": 1.716,
+        "changePct": -11.23,
+        "type": "trough"
+      },
+      {
+        "id": 32,
+        "startDate": "2016-02-29",
+        "endDate": "2016-04-15",
+        "startNav": 1.716,
+        "endNav": 2.157,
+        "changePct": 25.7,
+        "type": "peak"
+      },
+      {
+        "id": 33,
+        "startDate": "2016-04-15",
+        "endDate": "2016-05-30",
+        "startNav": 2.157,
+        "endNav": 1.925,
+        "changePct": -10.76,
+        "type": "trough"
+      },
+      {
+        "id": 34,
+        "startDate": "2016-05-30",
+        "endDate": "2017-03-24",
+        "startNav": 1.925,
+        "endNav": 2.342,
+        "changePct": 21.66,
+        "type": "peak"
+      },
+      {
+        "id": 35,
+        "startDate": "2017-03-24",
+        "endDate": "2017-08-11",
+        "startNav": 2.342,
+        "endNav": 2.08,
+        "changePct": -11.19,
+        "type": "trough"
+      },
+      {
+        "id": 36,
+        "startDate": "2017-08-11",
+        "endDate": "2017-11-22",
+        "startNav": 2.08,
+        "endNav": 2.523,
+        "changePct": 21.3,
+        "type": "peak"
+      },
+      {
+        "id": 37,
+        "startDate": "2017-11-22",
+        "endDate": "2017-12-07",
+        "startNav": 2.523,
+        "endNav": 2.37,
+        "changePct": -6.06,
+        "type": "trough"
+      },
+      {
+        "id": 38,
+        "startDate": "2017-12-07",
+        "endDate": "2018-01-09",
+        "startNav": 2.37,
+        "endNav": 2.549,
+        "changePct": 7.55,
+        "type": "peak"
+      },
+      {
+        "id": 39,
+        "startDate": "2018-01-09",
+        "endDate": "2018-02-09",
+        "startNav": 2.549,
+        "endNav": 2.296,
+        "changePct": -9.93,
+        "type": "trough"
+      },
+      {
+        "id": 40,
+        "startDate": "2018-02-09",
+        "endDate": "2018-03-12",
+        "startNav": 2.296,
+        "endNav": 2.586,
+        "changePct": 12.63,
+        "type": "peak"
+      },
+      {
+        "id": 41,
+        "startDate": "2018-03-12",
+        "endDate": "2018-03-23",
+        "startNav": 2.586,
+        "endNav": 2.41,
+        "changePct": -6.81,
+        "type": "trough"
+      },
+      {
+        "id": 42,
+        "startDate": "2018-03-23",
+        "endDate": "2018-05-22",
+        "startNav": 2.41,
+        "endNav": 2.73,
+        "changePct": 13.28,
+        "type": "peak"
+      },
+      {
+        "id": 43,
+        "startDate": "2018-05-22",
+        "endDate": "2018-06-25",
+        "startNav": 2.73,
+        "endNav": 2.352,
+        "changePct": -13.85,
+        "type": "trough"
+      },
+      {
+        "id": 44,
+        "startDate": "2018-06-25",
+        "endDate": "2018-07-25",
+        "startNav": 2.352,
+        "endNav": 2.556,
+        "changePct": 8.67,
+        "type": "peak"
+      },
+      {
+        "id": 45,
+        "startDate": "2018-07-25",
+        "endDate": "2018-08-06",
+        "startNav": 2.556,
+        "endNav": 2.279,
+        "changePct": -10.84,
+        "type": "trough"
+      },
+      {
+        "id": 46,
+        "startDate": "2018-08-06",
+        "endDate": "2018-08-28",
+        "startNav": 2.279,
+        "endNav": 2.473,
+        "changePct": 8.51,
+        "type": "peak"
+      },
+      {
+        "id": 47,
+        "startDate": "2018-08-28",
+        "endDate": "2018-10-18",
+        "startNav": 2.473,
+        "endNav": 2.015,
+        "changePct": -18.52,
+        "type": "trough"
+      },
+      {
+        "id": 48,
+        "startDate": "2018-10-18",
+        "endDate": "2018-11-16",
+        "startNav": 2.015,
+        "endNav": 2.346,
+        "changePct": 16.43,
+        "type": "peak"
+      },
+      {
+        "id": 49,
+        "startDate": "2018-11-16",
+        "endDate": "2019-01-03",
+        "startNav": 2.346,
+        "endNav": 2.064,
+        "changePct": -12.02,
+        "type": "trough"
+      },
+      {
+        "id": 50,
+        "startDate": "2019-01-03",
+        "endDate": "2019-03-12",
+        "startNav": 2.064,
+        "endNav": 2.992,
+        "changePct": 44.96,
+        "type": "peak"
+      },
+      {
+        "id": 51,
+        "startDate": "2019-03-12",
+        "endDate": "2019-03-28",
+        "startNav": 2.992,
+        "endNav": 2.791,
+        "changePct": -6.72,
+        "type": "trough"
+      },
+      {
+        "id": 52,
+        "startDate": "2019-03-28",
+        "endDate": "2019-04-04",
+        "startNav": 2.791,
+        "endNav": 3.12,
+        "changePct": 11.79,
+        "type": "peak"
+      },
+      {
+        "id": 53,
+        "startDate": "2019-04-04",
+        "endDate": "2019-06-06",
+        "startNav": 3.12,
+        "endNav": 2.583,
+        "changePct": -17.21,
+        "type": "trough"
+      },
+      {
+        "id": 54,
+        "startDate": "2019-06-06",
+        "endDate": "2019-07-02",
+        "startNav": 2.583,
+        "endNav": 2.806,
+        "changePct": 8.63,
+        "type": "peak"
+      },
+      {
+        "id": 55,
+        "startDate": "2019-07-02",
+        "endDate": "2019-08-07",
+        "startNav": 2.806,
+        "endNav": 2.621,
+        "changePct": -6.59,
+        "type": "trough"
+      },
+      {
+        "id": 56,
+        "startDate": "2019-08-07",
+        "endDate": "2019-09-09",
+        "startNav": 2.621,
+        "endNav": 3.267,
+        "changePct": 24.65,
+        "type": "peak"
+      },
+      {
+        "id": 57,
+        "startDate": "2019-09-09",
+        "endDate": "2019-10-08",
+        "startNav": 3.267,
+        "endNav": 3.038,
+        "changePct": -7.01,
+        "type": "trough"
+      },
+      {
+        "id": 58,
+        "startDate": "2019-10-08",
+        "endDate": "2020-01-22",
+        "startNav": 3.038,
+        "endNav": 3.928,
+        "changePct": 29.3,
+        "type": "peak"
+      },
+      {
+        "id": 59,
+        "startDate": "2020-01-22",
+        "endDate": "2020-02-03",
+        "startNav": 3.928,
+        "endNav": 3.545,
+        "changePct": -9.75,
+        "type": "trough"
+      },
+      {
+        "id": 60,
+        "startDate": "2020-02-03",
+        "endDate": "2020-02-24",
+        "startNav": 3.545,
+        "endNav": 4.524,
+        "changePct": 27.62,
+        "type": "peak"
+      },
+      {
+        "id": 61,
+        "startDate": "2020-02-24",
+        "endDate": "2020-04-01",
+        "startNav": 4.524,
+        "endNav": 3.77,
+        "changePct": -16.67,
+        "type": "trough"
+      },
+      {
+        "id": 62,
+        "startDate": "2020-04-01",
+        "endDate": "2020-07-13",
+        "startNav": 3.77,
+        "endNav": 5.194,
+        "changePct": 37.77,
+        "type": "peak"
+      },
+      {
+        "id": 63,
+        "startDate": "2020-07-13",
+        "endDate": "2020-07-24",
+        "startNav": 5.194,
+        "endNav": 4.612,
+        "changePct": -11.21,
+        "type": "trough"
+      },
+      {
+        "id": 64,
+        "startDate": "2020-07-24",
+        "endDate": "2020-08-06",
+        "startNav": 4.612,
+        "endNav": 5.164,
+        "changePct": 11.97,
+        "type": "peak"
+      },
+      {
+        "id": 65,
+        "startDate": "2020-08-06",
+        "endDate": "2020-09-10",
+        "startNav": 5.164,
+        "endNav": 4.636,
+        "changePct": -10.22,
+        "type": "trough"
+      },
+      {
+        "id": 66,
+        "startDate": "2020-09-10",
+        "endDate": "2020-09-18",
+        "startNav": 4.636,
+        "endNav": 4.989,
+        "changePct": 7.61,
+        "type": "peak"
+      },
+      {
+        "id": 67,
+        "startDate": "2020-09-18",
+        "endDate": "2020-09-28",
+        "startNav": 4.989,
+        "endNav": 4.608,
+        "changePct": -7.64,
+        "type": "trough"
+      },
+      {
+        "id": 68,
+        "startDate": "2020-09-28",
+        "endDate": "2021-01-25",
+        "startNav": 4.608,
+        "endNav": 6.768,
+        "changePct": 46.88,
+        "type": "peak"
+      },
+      {
+        "id": 69,
+        "startDate": "2021-01-25",
+        "endDate": "2021-02-05",
+        "startNav": 6.768,
+        "endNav": 6.282,
+        "changePct": -7.18,
+        "type": "trough"
+      },
+      {
+        "id": 70,
+        "startDate": "2021-02-05",
+        "endDate": "2021-02-22",
+        "startNav": 6.282,
+        "endNav": 7.177,
+        "changePct": 14.25,
+        "type": "peak"
+      },
+      {
+        "id": 71,
+        "startDate": "2021-02-22",
+        "endDate": "2021-03-24",
+        "startNav": 7.177,
+        "endNav": 6.156,
+        "changePct": -14.23,
+        "type": "trough"
+      },
+      {
+        "id": 72,
+        "startDate": "2021-03-24",
+        "endDate": "2021-09-13",
+        "startNav": 6.156,
+        "endNav": 9.912,
+        "changePct": 61.01,
+        "type": "peak"
+      },
+      {
+        "id": 73,
+        "startDate": "2021-09-13",
+        "endDate": "2021-11-16",
+        "startNav": 9.912,
+        "endNav": 7.368,
+        "changePct": -25.67,
+        "type": "trough"
+      },
+      {
+        "id": 74,
+        "startDate": "2021-11-16",
+        "endDate": "2022-01-21",
+        "startNav": 7.368,
+        "endNav": 8.23,
+        "changePct": 11.7,
+        "type": "peak"
+      },
+      {
+        "id": 75,
+        "startDate": "2022-01-21",
+        "endDate": "2022-01-28",
+        "startNav": 8.23,
+        "endNav": 7.661,
+        "changePct": -6.91,
+        "type": "trough"
+      },
+      {
+        "id": 76,
+        "startDate": "2022-01-28",
+        "endDate": "2022-03-03",
+        "startNav": 7.661,
+        "endNav": 8.75,
+        "changePct": 14.21,
+        "type": "peak"
+      },
+      {
+        "id": 77,
+        "startDate": "2022-03-03",
+        "endDate": "2022-03-15",
+        "startNav": 8.75,
+        "endNav": 7.512,
+        "changePct": -14.15,
+        "type": "trough"
+      },
+      {
+        "id": 78,
+        "startDate": "2022-03-15",
+        "endDate": "2022-03-24",
+        "startNav": 7.512,
+        "endNav": 8.334,
+        "changePct": 10.94,
+        "type": "peak"
+      },
+      {
+        "id": 79,
+        "startDate": "2022-03-24",
+        "endDate": "2022-04-26",
+        "startNav": 8.334,
+        "endNav": 6.982,
+        "changePct": -16.22,
+        "type": "trough"
+      },
+      {
+        "id": 80,
+        "startDate": "2022-04-26",
+        "endDate": "2022-06-28",
+        "startNav": 6.982,
+        "endNav": 8.636,
+        "changePct": 23.69,
+        "type": "peak"
+      },
+      {
+        "id": 81,
+        "startDate": "2022-06-28",
+        "endDate": "2022-07-15",
+        "startNav": 8.636,
+        "endNav": 8.095,
+        "changePct": -6.26,
+        "type": "trough"
+      },
+      {
+        "id": 82,
+        "startDate": "2022-07-15",
+        "endDate": "2022-08-23",
+        "startNav": 8.095,
+        "endNav": 8.936,
+        "changePct": 10.39,
+        "type": "peak"
+      },
+      {
+        "id": 83,
+        "startDate": "2022-08-23",
+        "endDate": "2022-10-11",
+        "startNav": 8.936,
+        "endNav": 8.104,
+        "changePct": -9.31,
+        "type": "trough"
+      },
+      {
+        "id": 84,
+        "startDate": "2022-10-11",
+        "endDate": "2023-04-17",
+        "startNav": 8.104,
+        "endNav": 10.482,
+        "changePct": 29.34,
+        "type": "peak"
+      },
+      {
+        "id": 85,
+        "startDate": "2023-04-17",
+        "endDate": "2023-08-25",
+        "startNav": 10.482,
+        "endNav": 8.997,
+        "changePct": -14.17,
+        "type": "trough"
+      },
+      {
+        "id": 86,
+        "startDate": "2023-08-25",
+        "endDate": "2023-09-04",
+        "startNav": 8.997,
+        "endNav": 9.569,
+        "changePct": 6.36,
+        "type": "peak"
+      },
+      {
+        "id": 87,
+        "startDate": "2023-09-04",
+        "endDate": "2023-10-23",
+        "startNav": 9.569,
+        "endNav": 8.579,
+        "changePct": -10.35,
+        "type": "trough"
+      },
+      {
+        "id": 88,
+        "startDate": "2023-10-23",
+        "endDate": "2023-11-20",
+        "startNav": 8.579,
+        "endNav": 9.212,
+        "changePct": 7.38,
+        "type": "peak"
+      },
+      {
+        "id": 89,
+        "startDate": "2023-11-20",
+        "endDate": "2024-02-05",
+        "startNav": 9.212,
+        "endNav": 7.422,
+        "changePct": -19.43,
+        "type": "trough"
+      },
+      {
+        "id": 90,
+        "startDate": "2024-02-05",
+        "endDate": "2024-05-20",
+        "startNav": 7.422,
+        "endNav": 9.941,
+        "changePct": 33.94,
+        "type": "peak"
+      },
+      {
+        "id": 91,
+        "startDate": "2024-05-20",
+        "endDate": "2024-09-13",
+        "startNav": 9.941,
+        "endNav": 7.916,
+        "changePct": -20.37,
+        "type": "trough"
+      },
+      {
+        "id": 92,
+        "startDate": "2024-09-13",
+        "endDate": "2024-10-08",
+        "startNav": 7.916,
+        "endNav": 10.493,
+        "changePct": 32.55,
+        "type": "peak"
+      },
+      {
+        "id": 93,
+        "startDate": "2024-10-08",
+        "endDate": "2024-10-17",
+        "startNav": 10.493,
+        "endNav": 9.545,
+        "changePct": -9.03,
+        "type": "trough"
+      },
+      {
+        "id": 94,
+        "startDate": "2024-10-17",
+        "endDate": "2024-11-11",
+        "startNav": 9.545,
+        "endNav": 10.567,
+        "changePct": 10.71,
+        "type": "peak"
+      },
+      {
+        "id": 95,
+        "startDate": "2024-11-11",
+        "endDate": "2025-01-06",
+        "startNav": 10.567,
+        "endNav": 9.228,
+        "changePct": -12.67,
+        "type": "trough"
+      },
+      {
+        "id": 96,
+        "startDate": "2025-01-06",
+        "endDate": "2025-03-14",
+        "startNav": 9.228,
+        "endNav": 10.518,
+        "changePct": 13.98,
+        "type": "peak"
+      },
+      {
+        "id": 97,
+        "startDate": "2025-03-14",
+        "endDate": "2025-04-07",
+        "startNav": 10.518,
+        "endNav": 9.513,
+        "changePct": -9.56,
+        "type": "trough"
+      },
+      {
+        "id": 98,
+        "startDate": "2025-04-07",
+        "endDate": "2025-09-01",
+        "startNav": 9.513,
+        "endNav": 12.92,
+        "changePct": 35.81,
+        "type": "peak"
+      },
+      {
+        "id": 99,
+        "startDate": "2025-09-01",
+        "endDate": "2025-09-04",
+        "startNav": 12.92,
+        "endNav": 12.041,
+        "changePct": -6.8,
+        "type": "trough"
+      },
+      {
+        "id": 100,
+        "startDate": "2025-09-04",
+        "endDate": "2025-10-09",
+        "startNav": 12.041,
+        "endNav": 14.084,
+        "changePct": 16.97,
+        "type": "peak"
+      },
+      {
+        "id": 101,
+        "startDate": "2025-10-09",
+        "endDate": "2025-10-20",
+        "startNav": 14.084,
+        "endNav": 12.739,
+        "changePct": -9.55,
+        "type": "trough"
+      },
+      {
+        "id": 102,
+        "startDate": "2025-10-20",
+        "endDate": "2025-11-13",
+        "startNav": 12.739,
+        "endNav": 13.82,
+        "changePct": 8.49,
+        "type": "peak"
+      },
+      {
+        "id": 103,
+        "startDate": "2025-11-13",
+        "endDate": "2025-11-21",
+        "startNav": 13.82,
+        "endNav": 12.943,
+        "changePct": -6.35,
+        "type": "trough"
+      },
+      {
+        "id": 104,
+        "startDate": "2025-11-21",
+        "endDate": "2026-01-28",
+        "startNav": 12.943,
+        "endNav": 16.306,
+        "changePct": 25.98,
+        "type": "peak"
+      },
+      {
+        "id": 105,
+        "startDate": "2026-01-28",
+        "endDate": "2026-02-02",
+        "startNav": 16.306,
+        "endNav": 15.239,
+        "changePct": -6.54,
+        "type": "trough"
+      },
+      {
+        "id": 106,
+        "startDate": "2026-02-02",
+        "endDate": "2026-03-02",
+        "startNav": 15.239,
+        "endNav": 17.594,
+        "changePct": 15.45,
+        "type": "peak"
+      },
+      {
+        "id": 107,
+        "startDate": "2026-03-02",
+        "endDate": "2026-03-23",
+        "startNav": 17.594,
+        "endNav": 15.007,
+        "changePct": -14.7,
+        "type": "trough"
+      },
+      {
+        "id": 108,
+        "startDate": "2026-03-23",
+        "endDate": "2026-05-13",
+        "startNav": 15.007,
+        "endNav": 18.535,
+        "changePct": 23.51,
+        "type": "peak"
+      }
     ],
-    "positionHistory": [
-      { "date": "2025-03-31", "stock": 68.82, "cash": 31.18, "scale": 53.90 },
-      { "date": "2025-06-30", "stock": 82.96, "cash": 20.62, "scale": 44.69 },
-      { "date": "2025-09-30", "stock": 91.79, "cash": 8.45,  "scale": 45.66 },
-      { "date": "2025-12-31", "stock": 91.07, "cash": 9.05,  "scale": 44.62 },
-      { "date": "2026-03-31", "stock": 72.27, "cash": 27.64, "scale": 57.57 }
-    ],
-    "positionSignal": "⚠️ 2026Q1：基金经理将股票仓位从91.07%主动降至72.27%，同步大幅增持现金至27.64%，表明对当前估值有所警惕，采取防御姿态。",
-    "riskBreakdown": [
-      { "type": "市场波动风险", "level": "medium", "stars": 3, "maxStars": 5, "note": "波动率22.24%与偏股混合均值相当；但当前主动降仓至72%，防御缓冲较充足" },
-      { "type": "政策依赖风险", "level": "medium", "stars": 3, "maxStars": 5, "note": "军工+AI+国产替代均依赖政策持续支撑；若中美关系大幅改善或国防预算削减，持仓预期将受影响" },
-      { "type": "经理变更风险", "level": "low",    "stars": 2, "maxStars": 5, "note": "童立接管仅1年57天，但其旗舰基金华商研究精选A（8年+353%，同类前3.2%）经历多轮完整牛熊验证" },
-      { "type": "行业集中风险", "level": "low",    "stars": 2, "maxStars": 5, "note": "制造业56.43%，未超70%否决线；交通运输/采矿/信息技术分散补充，行业覆盖较宽" },
-      { "type": "集中度风险",   "level": "low",    "stars": 1, "maxStars": 5, "note": "前十大仓位合计仅24.85%，单仓最大4.01%，属高度分散型，个股黑天鹅风险极低" },
-      { "type": "流动性风险",   "level": "low",    "stars": 1, "maxStars": 5, "note": "规模57.57亿，重仓均为A股主板大中盘股，申赎流动性充裕" }
-    ],
-    "volatilityNote": "灵活配置型，仓位弹性大，当前主动降仓至72%",
-    "sharpeNote": ">3 极高，多年穿越牛熊的风险调整后收益",
-    "drawdownNote": "历史最差年度2018年-14.83%，防守能力强于同类",
-    "excessNote": "相对灵活配置混合同类均值，+41.18%"
-  },
-  "holdings": {
-    "date": "2026-03-31",
-    "stockRatio": 72.27,
-    "cashRatio": 27.64,
-    "top10Total": 24.85,
-    "top10": [
-      { "rank": 1,  "code": "601872", "name": "招商轮船", "ratio": 4.01, "sector": "航运/资源",     "color": "#4492F7" },
-      { "rank": 2,  "code": "603612", "name": "索通发展", "ratio": 3.37, "sector": "碳素新材料",   "color": "#9B72F0" },
-      { "rank": 3,  "code": "300666", "name": "江丰电子", "ratio": 2.90, "sector": "半导体靶材",   "color": "#06b6d4" },
-      { "rank": 4,  "code": "002281", "name": "光迅科技", "ratio": 2.34, "sector": "光模块/AI算力", "color": "#8b5cf6" },
-      { "rank": 5,  "code": "600316", "name": "洪都航空", "ratio": 2.27, "sector": "军工飞机",     "color": "#ef4444" },
-      { "rank": 6,  "code": "600111", "name": "北方稀土", "ratio": 2.07, "sector": "稀土/新材料",  "color": "#F7C744" },
-      { "rank": 7,  "code": "300677", "name": "英科医疗", "ratio": 2.04, "sector": "医疗耗材出口", "color": "#2DC78E" },
-      { "rank": 8,  "code": "600498", "name": "烽火通信", "ratio": 2.02, "sector": "军用通信",     "color": "#dc2626" },
-      { "rank": 9,  "code": "600893", "name": "航发动力", "ratio": 2.00, "sector": "航空发动机",   "color": "#b91c1c" },
-      { "rank": 10, "code": "688041", "name": "海光信息", "ratio": 1.83, "sector": "国产CPU/AI芯片","color": "#0ea5e9" }
-    ],
-    "sectors": [
-      { "name": "制造业(军工+半导体+新材料)", "value": 56.43, "color": "#4492F7" },
-      { "name": "交通运输(航运)",             "value": 4.96,  "color": "#9B72F0" },
-      { "name": "采矿业(稀土)",               "value": 3.27,  "color": "#F7C744" },
-      { "name": "信息技术服务",               "value": 3.21,  "color": "#2DC78E" },
-      { "name": "金融业",                     "value": 1.90,  "color": "#E8813A" },
-      { "name": "水利环保",                   "value": 1.32,  "color": "#8b5cf6" },
-      { "name": "现金及其他",                 "value": 28.91, "color": "#21262d" }
-    ],
-    "concentrationLabel": "高度分散型",
-    "policyLinks": [
-      { "sector": "军工装备", "stocks": "洪都航空、航发动力、烽火通信", "policyNote": "\"十五五\"强军战略，国防预算年增7%+，军工现代化加速", "color": "#ef4444" },
-      { "sector": "半导体国产替代", "stocks": "江丰电子、海光信息", "policyNote": "大基金三期3440亿，AI算力爆发，国产替代加速", "color": "#06b6d4" },
-      { "sector": "AI算力基础设施", "stocks": "光迅科技", "policyNote": "全球数据中心建设潮，光模块需求爆发", "color": "#8b5cf6" },
-      { "sector": "新材料/大宗", "stocks": "索通发展、北方稀土、招商轮船", "policyNote": "供应链重构，战略资源国产化，航运复苏", "color": "#F7C744" }
+    "totalInflectionPoints": 108,
+    "stages": [
+      {
+        "id": 1,
+        "name": "起步与转型前摸索",
+        "emoji": "🔄",
+        "period": "2012-09 → 2014-12",
+        "returnPct": 41.14,
+        "hs300Pct": 39.91,
+        "excessPct": 1.23,
+        "driverType": "beta",
+        "driverLabel": "🔄 风格摸索",
+        "color": "#6b7280",
+        "description": "产品处于华商中证500指数分级阶段，以跟踪指数为主，超额贡献低",
+        "env": "中证500作为高弹性中盘指数波动较大，2014年中小盘风格显著占优",
+        "managerAction": "严格执行指数基金管理流程，跟踪中证500指数",
+        "attribution": "Beta贡献主导，Alpha贡献低，净值弹性主要来自中证500与中小盘风格波动"
+      },
+      {
+        "id": 2,
+        "name": "高弹性爆发",
+        "emoji": "⚡",
+        "period": "2015-01 → 2015-12",
+        "returnPct": 62.63,
+        "hs300Pct": 2.86,
+        "excessPct": 59.77,
+        "driverType": "alpha",
+        "driverLabel": "⚡ Alpha显著",
+        "color": "#F54E48",
+        "description": "2015-05-14转型为灵活配置混合，在牛市中后期创造高弹性收益，但也经历股灾深回撤",
+        "env": "降准降息与'互联网+'催化牛市后半程，成长股风险偏好极高，随后6-8月去杠杆与流动性踩踏",
+        "managerAction": "转型后赶上牛市中后期，6月中旬后清理场外配资导致净值大幅回撤",
+        "attribution": "Beta和Alpha双高贡献，系统性冲击下深回撤-39.14%，典型高弹性组合特征"
+      },
+      {
+        "id": 3,
+        "name": "熊市重整",
+        "emoji": "🌊",
+        "period": "2016-01 → 2018-12",
+        "returnPct": -3.67,
+        "hs300Pct": -16.99,
+        "excessPct": 13.33,
+        "driverType": "defense",
+        "driverLabel": "🌊 防守优于指数",
+        "color": "#3b82f6",
+        "description": "经历熊断冲击后震荡修复，组合在成长、医药、TMT和航空之间切换，防守优于指数",
+        "env": "2016年初汇率波动与熔断机制触发股灾3.0，2018年信用收缩与风险偏好下行压制权益市场",
+        "managerAction": "年初仓位较高，在下跌过程中逐步加仓，但品种和行业选择上承压；长期持有成长型公司，集中在医药和TMT",
+        "attribution": "Beta贡献为负，Alpha贡献承压，但回撤小于指数，防守相对有效"
+      },
+      {
+        "id": 4,
+        "name": "制造升级主升浪",
+        "emoji": "⚡",
+        "period": "2019-01 → 2021-12",
+        "returnPct": 269.66,
+        "hs300Pct": 64.09,
+        "excessPct": 205.57,
+        "driverType": "both",
+        "driverLabel": "⚡ Alpha + Beta 双强",
+        "color": "#10b981",
+        "description": "科技成长与顺周期主线交替强化，基金在科技、制造升级和资源链条做轮动，创造成立以来最重要收益来源",
+        "env": "2019年市场从2018年深跌中修复，科创板与科技成长提升高Beta板块表现；2020年疫情冲击后流动性宽松；2021年宏观前高后低，新能源、半导体和军工表现较好",
+        "managerAction": "2019年抓住科技板块科创板刺激；2020年始终遵循科技+顺周期配置思路；2021年在顺周期与成长之间主动切换",
+        "attribution": "Beta和Alpha双强贡献，这一阶段是基金长期强势的核心积累期"
+      },
+      {
+        "id": 5,
+        "name": "熊市防守与风格重配",
+        "emoji": "⚡",
+        "period": "2022-01 → 2024-12",
+        "returnPct": 22.97,
+        "hs300Pct": -20.35,
+        "excessPct": 43.33,
+        "driverType": "alpha",
+        "driverLabel": "⚡ 结构性超额",
+        "color": "#f59e0b",
+        "description": "地产周期、疫情与美元加息压制风险偏好，组合保持均衡配置，创造结构性超额，但2024年风格切换阶段落后",
+        "env": "2022年经济受地产周期和疫情影响低迷，市场风险偏好下行；2023年经济持续低于预期，防御红利与AI主题活跃；2024年全年节奏呈V型，前期需求偏弱，9月底增量政策后风险偏好修复",
+        "managerAction": "2022年保持均衡配置；2023年持有价值类资产并阶段性参与AI机会；2024年应对V型走势，但在风格切换阶段失手",
+        "attribution": "Beta贡献中性偏正，Alpha贡献结构性超额，但2024年风格切换导致阶段性跑输"
+      },
+      {
+        "id": 6,
+        "name": "童立接棒后的再进攻",
+        "emoji": "⚡",
+        "period": "2025-01 → 2026-05",
+        "returnPct": 88.25,
+        "hs300Pct": 24.9,
+        "excessPct": 63.35,
+        "driverType": "alpha",
+        "driverLabel": "⚡ 高弹性延续",
+        "color": "#8b5cf6",
+        "description": "童立2025-03-12接任，延续高弹性框架，强调高位仓位调节，围绕'智能经济+双碳经济'创造强势超额",
+        "env": "2025年一季度DeepSeek与民营企业座谈会抬升科技成长风险偏好；2026年初高弹性科技与制造链延续强势，3月受地缘冲突扰动后重新交易主线",
+        "managerAction": "2025年3月后采取减仓操作，10月后降低组合仓位和风险偏好，12月重新调整为更具进攻性；2026年3月后对市场风险偏好过高采取减仓，随后继续看好科技与新质生产力",
+        "attribution": "Beta和Alpha双高贡献，高弹性延续，近1年夏普3.47，但更强调高位波动管理"
+      }
     ]
   },
   "managers": {
     "current": {
+      "managerId": "30442435",
+      "allManagerIds": [
+        "30442435",
+        "30284340",
+        "30198251",
+        "30276894",
+        "30059582"
+      ],
       "name": "童立",
-      "startDate": "2025-03-12",
-      "tenure": "1年57天",
-      "tenureReturn": 72.97,
-      "peerAvgReturn": 35.39,
-      "rankInPeer": 987,
-      "rankTotal": 8154,
       "education": "经济学硕士",
-      "experience": "约15年（2011年加入华商基金）",
+      "joinDate": "2011-07",
+      "experience": "14.5-14.7年（证券从业）",
       "fundCount": 9,
       "totalScale": 83.54,
+      "title": "公司研究总监、投资决策委员会委员、公募权益投资决策委员会委员",
+      "style": "高弹性成长",
+      "manageDate": "2025-03-12",
+      "manageYears": 1.2,
+      "bestReturn": 349.02,
+      "worstReturn": -17.05,
+      "tenureReturn": 71.99,
+      "peerAvgReturn": null,
+      "rankInPeer": "339",
+      "rankTotal": 2267,
       "historicalFunds": [
-        { "name": "华商研究精选A",         "code": "004423", "tenure": "8年140天", "return": 353.77, "peerAvg": 106.75, "alpha": 247.02, "rank": 63,   "rankTotal": 1977, "percentile": 3.2,  "grade": "good", "isCurrent": true },
-        { "name": "华商上游产业A",         "code": "005161", "tenure": "5年364天", "return": 106.58, "peerAvg": 19.20,  "alpha": 87.38,  "rank": 20,   "rankTotal": 740,  "percentile": 2.7,  "grade": "good", "isCurrent": true },
-        { "name": "华商科技创新混合",      "code": "008961", "tenure": "6年64天",  "return": 162.72, "peerAvg": 65.53,  "alpha": 97.19,  "rank": 233,  "rankTotal": 2893, "percentile": 8.1,  "grade": "good", "isCurrent": true },
-        { "name": "华商研究精选C",         "code": "016069", "tenure": "3年306天", "return": 70.29,  "peerAvg": 19.47,  "alpha": 50.82,  "rank": 471,  "rankTotal": 5967, "percentile": 7.9,  "grade": "good", "isCurrent": true },
-        { "name": "华商高端装备制造A",     "code": "008009", "tenure": "1年16天",  "return": 84.13,  "peerAvg": 43.41,  "alpha": 40.72,  "rank": 98,   "rankTotal": 1285, "percentile": 7.6,  "grade": "good", "isCurrent": true },
-        { "name": "华商主题精选混合",      "code": "630011", "tenure": "2年297天", "return": 142.98, "peerAvg": 84.43,  "alpha": 58.55,  "rank": 425,  "rankTotal": 2781, "percentile": 15.3, "grade": "good", "isCurrent": true },
-        { "name": "华商研究回报一年持有A", "code": "016045", "tenure": "3年63天",  "return": 53.69,  "peerAvg": 29.63,  "alpha": 24.06,  "rank": 1229, "rankTotal": 6569, "percentile": 18.7, "grade": "ok",   "isCurrent": true },
-        { "name": "华商新趋势优选",        "code": "166301", "tenure": "1年57天",  "return": 72.97,  "peerAvg": 35.39,  "alpha": 37.58,  "rank": 987,  "rankTotal": 8154, "percentile": 12.1, "grade": "good", "isCurrent": true },
-        { "name": "华商均衡成长A",         "code": "011369", "tenure": "2年290天", "return": 5.41,   "peerAvg": -3.90,  "alpha": 9.31,   "rank": 1725, "rankTotal": 6291, "percentile": 27.4, "grade": "ok",   "isCurrent": true },
-        { "name": "华商核心引力A",         "code": "012491", "tenure": "3年304天", "return": -17.05, "peerAvg": -15.29, "alpha": -1.76,  "rank": 2327, "rankTotal": 4680, "percentile": 49.7, "grade": "weak", "isCurrent": true },
-        { "name": "华商万众创新A",         "code": "002669", "tenure": "3年9天",   "return": -6.78,  "peerAvg": -5.02,  "alpha": -1.76,  "rank": 3510, "rankTotal": 6258, "percentile": 56.1, "grade": "weak", "isCurrent": true },
-        { "name": "华商新锐产业混合",      "code": "000654", "tenure": "9年138天", "return": 108.86, "peerAvg": 129.67, "alpha": -20.81, "rank": 778,  "rankTotal": 1692, "percentile": 46.0, "grade": "weak", "isCurrent": false }
+        {
+          "name": "华商研究精选灵活配置A",
+          "code": "004423",
+          "type": "混合型",
+          "tenure": "2017-12-21 ~ 至今",
+          "return": 349.02,
+          "rank": 321,
+          "rankTotal": 2267,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "华商科技创新混合",
+          "code": "008961",
+          "type": "混合型",
+          "tenure": "2020-03-06 ~ 至今",
+          "return": 159.87,
+          "rank": 1009,
+          "rankTotal": 4495,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "华商新锐产业混合",
+          "code": "000654",
+          "type": "混合型",
+          "tenure": "2016-12-23 ~ 至今",
+          "return": 106.48,
+          "rank": 333,
+          "rankTotal": 2267,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "华商研究回报一年持有混合A",
+          "code": "016045",
+          "type": "混合型",
+          "tenure": "2023-03-07 ~ 至今",
+          "return": 52.36,
+          "rank": 1124,
+          "rankTotal": 4495,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "华商新趋势优选灵活配置混合",
+          "code": "166301",
+          "type": "混合型",
+          "tenure": "2025-03-12 ~ 至今",
+          "return": 71.99,
+          "rank": 339,
+          "rankTotal": 2267,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "华商研究驱动混合A",
+          "code": "022092",
+          "type": "混合型",
+          "tenure": "2025-03-11 ~ 至今",
+          "return": 70.95,
+          "rank": 961,
+          "rankTotal": 4495,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "华商上游产业股票A",
+          "code": "005161",
+          "type": "股票型",
+          "tenure": "2017-12-27 ~ 2023-12-25",
+          "return": 106.58,
+          "grade": "top",
+          "isCurrent": false
+        },
+        {
+          "name": "华商核心引力混合A",
+          "code": "012491",
+          "type": "混合型",
+          "tenure": "2021-07-28 ~ 2025-05-27",
+          "return": -17.05,
+          "grade": "weak",
+          "isCurrent": false
+        },
+        {
+          "name": "华商万众创新混合A",
+          "code": "002669",
+          "type": "混合型",
+          "tenure": "2022-05-19 ~ 2025-05-27",
+          "return": -6.78,
+          "grade": "weak",
+          "isCurrent": false
+        }
       ],
-      "managerId": "30442435"
+      "philosophy": [
+        {
+          "label": "核心投资理念",
+          "text": "围绕'智能经济+双碳经济+新质生产力'去寻找有景气、有弹性、有产业逻辑的公司"
+        },
+        {
+          "label": "选股方法论",
+          "text": "既做自上而下的产业筛选，也做自下而上的个股优选，从持仓看更偏中高景气产业链龙头或弹性品种"
+        },
+        {
+          "label": "仓位管理风格",
+          "text": "不是长期死守满仓，也不是彻底防守型，而是在高位阶段主动降仓、低位和顺风期重新进攻"
+        },
+        {
+          "label": "风格稳定性",
+          "text": "主线相对稳定，都是科技、制造、资源、新材料相关，但细分行业切换很快"
+        }
+      ],
+      "consistencyAudit": [
+        {
+          "period": "2025年年报·策略延续",
+          "result": "pass",
+          "label": "基本一致",
+          "stated": "2025年3月之后采取了减仓操作，10月之后降低了组合的仓位和风险偏好，12月重新将组合调整为更具进攻性",
+          "actual": "2025Q4前十大为浪潮信息、海光信息、锐捷网络、中国平安、光迅科技、沪电股份、华泰证券、盛达资源、航天电子、华润微，股票仓位91.07%",
+          "evaluation": "年报说的是年内两次风险收缩和年末再进攻，持仓结构也确实表现出从周期资源切向高弹性科技的过程"
+        },
+        {
+          "period": "2026Q1·高位防守",
+          "result": "pass",
+          "label": "一致但偏防守",
+          "stated": "经历了3月份的市场调整，我们对二季度的市场表现预期较为积极和乐观，行业层面仍重点关注'智能经济'+'双碳经济'",
+          "actual": "2026Q1前十大切换为招商轮船、索通发展、江丰电子、光迅科技、洪都航空、北方稀土、英科医疗、烽火通信、航发动力、海光信息，股票仓位降至72.27%",
+          "evaluation": "经理没有放弃主线，但没有把仓位重新打满，说明他对高位波动是有所防范的"
+        }
+      ],
+      "abilityProfile": {
+        "best": "在高景气赛道里做主动切换和集中进攻。004423、000654、166301三只代表产品近1年都处于强势区，说明并非单产品偶发走强。",
+        "worst": "回撤控制一般。166301全历史最大回撤-42.02%，高位遇到风格压缩时净值回撤会很快放大。",
+        "goodEnv": [
+          "科技制造景气上行",
+          "风险偏好改善",
+          "产业趋势清晰的阶段"
+        ],
+        "badEnv": [
+          "高位估值压缩",
+          "景气下修",
+          "风格急切换或地缘冲击导致风险偏好快速收缩的阶段"
+        ]
+      },
+      "strengths": [
+        "跨产品样本丰富，代表产品长期收益强",
+        "在科技、制造、资源、新材料之间切换能力较强",
+        "高景气赛道里的主动收益能力突出"
+      ],
+      "weaknesses": [
+        "同时管理9只基金，精力边界需要持续跟踪",
+        "回撤控制一般，高位遇到风格压缩时净值回撤会很快放大",
+        "产品波动容忍度明显高于均衡型经理"
+      ]
     },
     "history": [
-      { "name": "童立",        "start": "2025-03-12", "end": null,         "tenure": "1年57天",  "return": 72.97,  "note": "现任经理，接棒后延续超额" },
-      { "name": "周海栋",      "start": "2015-10-08", "end": "2025-03-11", "tenure": "9年157天", "return": 479.07, "note": "传奇任期，2022年熊市同类第9" },
-      { "name": "费鹏+周海栋", "start": "2015-05-14", "end": "2015-10-07", "tenure": "146天",   "return": -19.98, "note": "双管短暂过渡" },
-      { "name": "费鹏",        "start": "2014-06-10", "end": "2015-05-13", "tenure": "337天",   "return": 106.87, "note": "牛市受益" },
-      { "name": "路阳",        "start": "2013-12-30", "end": "2014-06-09", "tenure": "161天",   "return": -2.24,  "note": "" },
-      { "name": "田明圣",      "start": "2012-09-06", "end": "2013-12-29", "tenure": "1年114天","return": 11.60,  "note": "成立初期" }
+      {
+        "name": "田明圣",
+        "role": "独任",
+        "start": "2012-09-06",
+        "end": "2013-12-29",
+        "tenure": "约1年4个月",
+        "return": 11.6,
+        "note": "建仓期，产品尚无成熟风格。"
+      },
+      {
+        "name": "路阳",
+        "role": "独任",
+        "start": "2013-12-30",
+        "end": "2014-06-09",
+        "tenure": "约5个月",
+        "return": -2.24,
+        "note": "单人接棒阶段，风格延续性一般。"
+      },
+      {
+        "name": "费鹏",
+        "role": "独任",
+        "start": "2014-06-10",
+        "end": "2015-05-13",
+        "tenure": "约11个月",
+        "return": 106.87,
+        "note": "高弹性行情放大收益，阶段进攻性极强。"
+      },
+      {
+        "name": "费鹏+周海栋",
+        "role": "共管",
+        "start": "2015-05-14",
+        "end": "2015-10-07",
+        "tenure": "约5个月",
+        "return": -19.98,
+        "note": "恰逢牛熊切换，共管过渡期回撤较大。"
+      },
+      {
+        "name": "周海栋",
+        "role": "独任",
+        "start": "2015-10-08",
+        "end": "2025-03-11",
+        "tenure": "约9年5个月",
+        "return": 479.07,
+        "note": "166301长期业绩底座主要在这一阶段建立。"
+      },
+      {
+        "name": "童立",
+        "role": "独任",
+        "start": "2025-03-12",
+        "end": null,
+        "tenure": "约1年2个月",
+        "return": 71.99,
+        "note": "接棒后延续高弹性框架，但更强调高位仓位调节。"
+      }
+    ]
+  },
+  "company": {
+    "name": "华商基金管理有限公司",
+    "shortName": "华商基金",
+    "foundYear": 2005,
+    "aumDesc": "旗下172只基金，公募管理规模约2029.3亿元，中型公募平台",
+    "industryRank": "中型公募，主动权益风格鲜明",
+    "complianceResult": "通过",
+    "complianceSummary": "合规检查通过，无一票否决项触发。当前主要需要持续跟踪童立在管产品是否进一步扩张，以及公司层面的监管动态是否出现边际变化。",
+    "complianceChecks": [
+      {
+        "item": "黑名单核查",
+        "pass": true,
+        "warn": false,
+        "detail": "blacklist.json 显示华商基金与童立均未命中黑名单。"
+      },
+      {
+        "item": "近3年处罚记录",
+        "pass": true,
+        "warn": false,
+        "detail": "2025年年报披露本报告期内基金管理人不存在受调查或处罚的情况。"
+      },
+      {
+        "item": "内幕交易传闻",
+        "pass": true,
+        "warn": false,
+        "detail": "本轮未检到足以推翻结论的权威负面线索。"
+      },
+      {
+        "item": "基金经理离职风险",
+        "pass": true,
+        "warn": false,
+        "detail": "经理身份清晰，未见失联或异常更换信号。"
+      },
+      {
+        "item": "管理疲劳风险",
+        "pass": false,
+        "warn": true,
+        "detail": "童立当前同时管理9只基金，需要持续跟踪，但尚未出现明显失控迹象。"
+      }
+    ]
+  },
+  "navHistory": [
+    {
+      "date": "2025-12-24",
+      "nav": 14.33
+    },
+    {
+      "date": "2025-12-25",
+      "nav": 14.463
+    },
+    {
+      "date": "2025-12-26",
+      "nav": 14.511
+    },
+    {
+      "date": "2025-12-29",
+      "nav": 14.538
+    },
+    {
+      "date": "2025-12-30",
+      "nav": 14.442
+    },
+    {
+      "date": "2025-12-31",
+      "nav": 14.374
+    },
+    {
+      "date": "2026-01-05",
+      "nav": 14.772
+    },
+    {
+      "date": "2026-01-06",
+      "nav": 14.952
+    },
+    {
+      "date": "2026-01-07",
+      "nav": 15.139
+    },
+    {
+      "date": "2026-01-08",
+      "nav": 15.086
+    },
+    {
+      "date": "2026-01-09",
+      "nav": 15.259
+    },
+    {
+      "date": "2026-01-12",
+      "nav": 15.472
+    },
+    {
+      "date": "2026-01-13",
+      "nav": 15.144
+    },
+    {
+      "date": "2026-01-14",
+      "nav": 15.458
+    },
+    {
+      "date": "2026-01-15",
+      "nav": 15.619
+    },
+    {
+      "date": "2026-01-16",
+      "nav": 15.676
+    },
+    {
+      "date": "2026-01-19",
+      "nav": 15.673
+    },
+    {
+      "date": "2026-01-20",
+      "nav": 15.496
+    },
+    {
+      "date": "2026-01-21",
+      "nav": 15.813
+    },
+    {
+      "date": "2026-01-22",
+      "nav": 15.88
+    },
+    {
+      "date": "2026-01-23",
+      "nav": 15.908
+    },
+    {
+      "date": "2026-01-26",
+      "nav": 15.991
+    },
+    {
+      "date": "2026-01-27",
+      "nav": 16.162
+    },
+    {
+      "date": "2026-01-28",
+      "nav": 16.306
+    },
+    {
+      "date": "2026-01-29",
+      "nav": 16.017
+    },
+    {
+      "date": "2026-01-30",
+      "nav": 15.941
+    },
+    {
+      "date": "2026-02-02",
+      "nav": 15.239
+    },
+    {
+      "date": "2026-02-03",
+      "nav": 15.782
+    },
+    {
+      "date": "2026-02-04",
+      "nav": 15.699
+    },
+    {
+      "date": "2026-02-05",
+      "nav": 15.389
+    },
+    {
+      "date": "2026-02-06",
+      "nav": 15.382
+    },
+    {
+      "date": "2026-02-09",
+      "nav": 15.829
+    },
+    {
+      "date": "2026-02-10",
+      "nav": 15.933
+    },
+    {
+      "date": "2026-02-11",
+      "nav": 15.814
+    },
+    {
+      "date": "2026-02-12",
+      "nav": 16.464
+    },
+    {
+      "date": "2026-02-13",
+      "nav": 16.474
+    },
+    {
+      "date": "2026-02-24",
+      "nav": 16.506
+    },
+    {
+      "date": "2026-02-25",
+      "nav": 16.814
+    },
+    {
+      "date": "2026-02-26",
+      "nav": 17.308
+    },
+    {
+      "date": "2026-02-27",
+      "nav": 17.565
+    },
+    {
+      "date": "2026-03-02",
+      "nav": 17.594
+    },
+    {
+      "date": "2026-03-03",
+      "nav": 16.678
+    },
+    {
+      "date": "2026-03-04",
+      "nav": 16.637
+    },
+    {
+      "date": "2026-03-05",
+      "nav": 16.679
+    },
+    {
+      "date": "2026-03-06",
+      "nav": 16.632
+    },
+    {
+      "date": "2026-03-09",
+      "nav": 16.385
+    },
+    {
+      "date": "2026-03-10",
+      "nav": 16.698
+    },
+    {
+      "date": "2026-03-11",
+      "nav": 16.617
+    },
+    {
+      "date": "2026-03-12",
+      "nav": 16.438
+    },
+    {
+      "date": "2026-03-13",
+      "nav": 16.171
+    },
+    {
+      "date": "2026-03-16",
+      "nav": 16.068
+    },
+    {
+      "date": "2026-03-17",
+      "nav": 15.642
+    },
+    {
+      "date": "2026-03-18",
+      "nav": 15.928
+    },
+    {
+      "date": "2026-03-19",
+      "nav": 15.615
+    },
+    {
+      "date": "2026-03-20",
+      "nav": 15.395
+    },
+    {
+      "date": "2026-03-23",
+      "nav": 15.007
+    },
+    {
+      "date": "2026-03-24",
+      "nav": 15.249
+    },
+    {
+      "date": "2026-03-25",
+      "nav": 15.459
+    },
+    {
+      "date": "2026-03-26",
+      "nav": 15.184
+    },
+    {
+      "date": "2026-03-27",
+      "nav": 15.441
+    },
+    {
+      "date": "2026-03-30",
+      "nav": 15.476
+    },
+    {
+      "date": "2026-03-31",
+      "nav": 15.136
+    },
+    {
+      "date": "2026-04-01",
+      "nav": 15.342
+    },
+    {
+      "date": "2026-04-02",
+      "nav": 15.216
+    },
+    {
+      "date": "2026-04-03",
+      "nav": 15.234
+    },
+    {
+      "date": "2026-04-07",
+      "nav": 15.304
+    },
+    {
+      "date": "2026-04-08",
+      "nav": 15.739
+    },
+    {
+      "date": "2026-04-09",
+      "nav": 15.813
+    },
+    {
+      "date": "2026-04-10",
+      "nav": 15.932
+    },
+    {
+      "date": "2026-04-13",
+      "nav": 16.035
+    },
+    {
+      "date": "2026-04-14",
+      "nav": 16.28
+    },
+    {
+      "date": "2026-04-15",
+      "nav": 16.068
+    },
+    {
+      "date": "2026-04-16",
+      "nav": 16.288
+    },
+    {
+      "date": "2026-04-17",
+      "nav": 16.55
+    },
+    {
+      "date": "2026-04-20",
+      "nav": 16.712
+    },
+    {
+      "date": "2026-04-21",
+      "nav": 16.832
+    },
+    {
+      "date": "2026-04-22",
+      "nav": 17.006
+    },
+    {
+      "date": "2026-04-23",
+      "nav": 16.673
+    },
+    {
+      "date": "2026-04-24",
+      "nav": 16.709
+    },
+    {
+      "date": "2026-04-27",
+      "nav": 16.94
+    },
+    {
+      "date": "2026-04-28",
+      "nav": 16.848
+    },
+    {
+      "date": "2026-04-29",
+      "nav": 17.174
+    },
+    {
+      "date": "2026-04-30",
+      "nav": 17.29
+    },
+    {
+      "date": "2026-05-06",
+      "nav": 17.985
+    },
+    {
+      "date": "2026-05-07",
+      "nav": 18.089
+    },
+    {
+      "date": "2026-05-08",
+      "nav": 17.971
+    },
+    {
+      "date": "2026-05-11",
+      "nav": 18.29
+    },
+    {
+      "date": "2026-05-12",
+      "nav": 18.152
+    },
+    {
+      "date": "2026-05-13",
+      "nav": 18.535
+    },
+    {
+      "date": "2026-05-14",
+      "nav": 17.987
+    }
+  ],
+  "scoring": {
+    "total": 83,
+    "grade": "良好偏优",
+    "recommendation": "推荐但不追高",
+    "recommendationType": "cautious",
+    "rating": "★★★★",
+    "logic": "基金质量较强，行业主线仍有景气支撑，但当前净值已经处于历史99.88%分位，赔率明显差于胜率。",
+    "dimensions": [
+      {
+        "name": "收益能力",
+        "score": 28,
+        "maxScore": 30,
+        "pros": [
+          "近1年78.89%",
+          "近2年85.43%",
+          "年化Alpha 17.38%",
+          "信息比率1.01"
+        ],
+        "cons": [
+          "2024年有阶段性失手"
+        ]
+      },
+      {
+        "name": "风险收益比",
+        "score": 15,
+        "maxScore": 20,
+        "pros": [
+          "近1年夏普3.47",
+          "近2年夏普1.46"
+        ],
+        "cons": [
+          "历史最大回撤-42.02%",
+          "波动率24.30%"
+        ]
+      },
+      {
+        "name": "基金经理能力",
+        "score": 17,
+        "maxScore": 20,
+        "pros": [
+          "童立跨产品样本丰富",
+          "代表产品长期收益强"
+        ],
+        "cons": [
+          "同时管理9只基金",
+          "精力边界要跟踪"
+        ]
+      },
+      {
+        "name": "持仓质量",
+        "score": 10,
+        "maxScore": 15,
+        "pros": [
+          "当前组合分散",
+          "前十仅24.85%"
+        ],
+        "cons": [
+          "主线较杂",
+          "不是纯赛道高纯度产品"
+        ]
+      },
+      {
+        "name": "政策与景气匹配",
+        "score": 13,
+        "maxScore": 15,
+        "pros": [
+          "持仓与AI算力、光通信、军工、高端制造、双碳材料相关"
+        ],
+        "cons": [
+          "国家级政策正文本轮抓取不稳定",
+          "政策验证以正式季报/年报和行业景气为主"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "type": "高位风险",
+        "level": "high",
+        "note": "最新净值17.9870，距离历史高点18.5350很近，已处于历史99.88%分位"
+      },
+      {
+        "type": "深回撤风险",
+        "level": "high",
+        "note": "全历史最大回撤-42.02%，说明风格一旦逆风，回撤会很快放大"
+      },
+      {
+        "type": "风格波动风险",
+        "level": "medium",
+        "note": "组合在科技、军工、周期制造之间主动切换，高景气时很强，错节奏时也会明显落后"
+      },
+      {
+        "type": "管理边界风险",
+        "level": "low",
+        "note": "童立现管9只基金、83.54亿元，尚可控，但已进入需要持续跟踪的区间"
+      }
+    ],
+    "policyItems": [
+      {
+        "name": "2025年年报展望",
+        "date": "2026-03",
+        "content": "明确提出2026年继续看好科技与新质生产力，并坚持'智能经济+双碳经济'大配置方向",
+        "impact": "strong_pos",
+        "impactLabel": "🟢 对当前持仓主线形成直接支撑"
+      },
+      {
+        "name": "2026Q1季报表述",
+        "date": "2026-04",
+        "content": "经理继续将'智能经济+双碳经济'作为二季度重点关注方向",
+        "impact": "strong_pos",
+        "impactLabel": "🟢 表述与实际仓位调整方向一致"
+      },
+      {
+        "name": "光纤光通信量价齐升",
+        "date": "2026-05",
+        "content": "AI数据中心建设带动光纤价格和需求同步上行，光模块/光通信链条景气强化",
+        "impact": "strong_pos",
+        "impactLabel": "🟢 直接利好光迅科技、烽火通信等算力链持仓"
+      }
+    ],
+    "marketStatus": [
+      {
+        "dim": "净值位置",
+        "status": "99.88%历史分位",
+        "statusType": "warning",
+        "detail": "距离历史高点仅一步之遥，胜率未坏，但赔率已经明显下降"
+      },
+      {
+        "dim": "近期趋势",
+        "status": "强势后高位震荡",
+        "statusType": "cautious",
+        "detail": "近1月+10.49%、近3月+9.18%，但近1周-0.56%，说明高位波动开始放大"
+      },
+      {
+        "dim": "夏普趋势",
+        "status": "明显改善",
+        "statusType": "positive",
+        "detail": "近1年夏普3.47 > 近2年1.46 > 近3年0.88，过去一年是典型顺风窗口"
+      },
+      {
+        "dim": "宏观流动性",
+        "status": "中性偏友好",
+        "statusType": "neutral",
+        "detail": "2026Q1市场在3月受地缘扰动后调整，但经理对二季度风险偏好仍偏乐观"
+      },
+      {
+        "dim": "持仓主线景气",
+        "status": "改善",
+        "statusType": "positive",
+        "detail": "AI算力、光通信、军工和高端制造仍有产业景气支撑，基金没有失去主线"
+      },
+      {
+        "dim": "外部风险",
+        "status": "需关注",
+        "statusType": "cautious",
+        "detail": "地缘冲突、高位估值压缩和风格切换，都会放大这类高弹性产品的回撤"
+      }
+    ],
+    "allocationSuggestions": [
+      {
+        "scenario": "存量持有人",
+        "action": "可以继续持有，但不建议在历史高位附近明显加仓",
+        "note": "当前更像'拿着等验证'，不是'放量追买'"
+      },
+      {
+        "scenario": "新入场投资者",
+        "action": "不建议把当前净值位置当作舒适买点",
+        "note": "若必须参与，适合先用计划仓位的30%左右试探，等待回撤确认后再决定是否加仓"
+      }
+    ],
+    "suitableFor": [
+      "能承受较大回撤、愿意持有3年以上的高风险偏好投资者",
+      "愿意持续跟踪经理调仓和产业景气，而不是只看短期净值涨跌的人",
+      "需要一只高弹性主动权益产品作为卫星仓配置工具的人"
+    ],
+    "notSuitableFor": [
+      "追求低波动、低回撤和稳定现金流的投资者",
+      "只打算持有6-12个月、且无法接受阶段性大幅波动的人",
+      "看到高收益就想在历史高位一次性重仓追涨的人"
+    ],
+    "termAdvice": [
+      {
+        "term": "短期（1-3个月）",
+        "icon": "⚠️",
+        "level": "cautious",
+        "advice": "高位震荡概率高，二季度虽然延续强势，但净值已接近极值。不追高，观察回撤质量。"
+      },
+      {
+        "term": "中期（6-12个月）",
+        "icon": "🟡",
+        "level": "neutral",
+        "advice": "若AI算力、光通信、军工、高端制造景气持续，基金仍有超额潜力。等回调后分两批建仓更合理。"
+      },
+      {
+        "term": "长期（3年以上）",
+        "icon": "🟢",
+        "level": "positive",
+        "advice": "经理具备跨产品主动收益能力，基金长期累计超额明显。适合作为高弹性卫星仓，单只仓位不宜过重。"
+      }
     ]
   },
   "policy": {
     "tags": [
-      { "label": "军工装备",   "strength": "high",   "color": "#ef4444" },
-      { "label": "半导体国产替代", "strength": "high", "color": "#06b6d4" },
-      { "label": "AI算力",     "strength": "high",   "color": "#8b5cf6" },
-      { "label": "稀土新材料", "strength": "medium", "color": "#F7C744" },
-      { "label": "航运复苏",   "strength": "medium", "color": "#4492F7" },
-      { "label": "十五五规划", "strength": "high",   "color": "#2DC78E" }
+      {
+        "label": "智能经济",
+        "strength": "high",
+        "color": "#58a6ff"
+      },
+      {
+        "label": "双碳经济",
+        "strength": "high",
+        "color": "#10b981"
+      },
+      {
+        "label": "新质生产力",
+        "strength": "high",
+        "color": "#8b5cf6"
+      }
     ],
+    "industryOverview": [
+      {
+        "point": "光纤光通信行业量价齐升",
+        "detail": "2026年3月中国G.652D裸光纤现货价格较1月大涨165%，同比涨幅达到418%"
+      },
+      {
+        "point": "全球AI数据中心建设",
+        "detail": "2026年全球数据中心光纤需求预计达到9160万芯公里，同比增长32%"
+      },
+      {
+        "point": "基金重仓布局AI算力与国产替代",
+        "detail": "光迅科技、烽火通信、海光信息、江丰电子围绕AI算力与国产替代展开"
+      }
+    ],
+    "cyclePeriod": "观察期偏红利",
+    "cycleReason": "基金经理对'智能经济+双碳经济'的持续表述与当前持仓主线高度一致；光纤光通信量价齐升说明AI算力基础设施景气已落到产业链数据；但官方政策正文抓取仍不稳定，因此不能机械写成'强政策红利期'，更稳妥的判断是：产业景气顺风仍在，但政策证据链还需继续补强。",
+    "fifteenFive": [],
+    "longTermRisks": [
+      {
+        "risk": "高位估值压缩",
+        "level": "high",
+        "signal": "净值处历史99.88%分位，距离历史高点很近，新入场存在高位套牢风险"
+      },
+      {
+        "risk": "地缘冲突与风格切换",
+        "level": "medium",
+        "signal": "地缘冲突、高位估值压缩和风格切换都会放大高弹性产品的回撤"
+      }
+    ],
+    "adaptability": [],
     "scenarios": [
       {
         "type": "悲观",
-        "color": "#ef4444",
-        "probability": 20,
-        "trigger": "全球经济衰退，大宗商品崩溃，中美科技摩擦缓和反而压低军工预期",
-        "returnLow": -25,
-        "returnHigh": -15
+        "probability": 25,
+        "color": "#f85149",
+        "returnLow": -20,
+        "returnHigh": -5,
+        "trigger": "若 AI 算力与光通信景气不及预期，叠加高位估值压缩、地缘冲突反复和风格快速切换，这类高弹性组合可能先遭遇杀估值，再出现净值回撤放大。"
       },
       {
         "type": "基准",
-        "color": "#3b82f6",
-        "probability": 55,
-        "trigger": "中国经济平稳增长，政策连续性强，科技国产替代稳步推进",
-        "returnLow": 20,
-        "returnHigh": 35
+        "probability": 50,
+        "color": "#58a6ff",
+        "returnLow": 8,
+        "returnHigh": 18,
+        "trigger": "若“智能经济 + 双碳经济”主线继续维持中等景气，光通信、国产算力、军工和周期制造的景气度没有被证伪，基金大概率维持正收益，但因为当前净值已接近历史高位，收益弹性会明显低于过去一年。"
       },
       {
         "type": "乐观",
-        "color": "#10b981",
         "probability": 25,
-        "trigger": "AI技术突破加速，军工采购超预期，人民币升值，大宗涨价",
-        "returnLow": 40,
-        "returnHigh": 60
+        "color": "#10b981",
+        "returnLow": 20,
+        "returnHigh": 35,
+        "trigger": "若 AI 数据中心建设继续加速，光纤光模块量价齐升扩散到更广产业链，叠加军工和高端制造订单改善，童立继续在高景气方向上做出有效切换，则基金仍可能延续高弹性超额。"
       }
     ],
     "policyBreakdown": [
       {
-        "sector": "军工装备",
-        "color": "#ef4444",
-        "icon": "🛡️",
-        "horizon": "短期（1年内）",
-        "logic": "国防预算2025年增长约7.2%，'十五五'装备采购进入加速期，国际局势紧张强化军费刚性需求",
-        "stocks": ["洪都航空（军机）", "航发动力（发动机）", "烽火通信（军用通信）"]
-      },
-      {
-        "sector": "半导体/AI算力",
-        "color": "#8b5cf6",
+        "sector": "AI算力",
         "icon": "💻",
-        "horizon": "短期（1年内）",
-        "logic": "中美科技脱钩背景下，国产替代进程提速；AI算力需求爆发推动光模块订单暴增；华为生态链受益",
-        "stocks": ["海光信息（国产CPU）", "江丰电子（溅射靶材）", "光迅科技（光模块）"]
+        "color": "#58a6ff",
+        "logic": "AI数据中心建设带动光纤价格和需求同步上行，光模块/光通信链条景气强化；国产算力芯片受益科技自主可控政策",
+        "stocks": [
+          "江丰电子",
+          "光迅科技",
+          "烽火通信",
+          "海光信息"
+        ]
       },
       {
-        "sector": "大宗商品/航运",
-        "color": "#f59e0b",
-        "icon": "⚓",
-        "horizon": "短期（1年内）",
-        "logic": "全球供应链重构下的航运复苏，稀土出口管制驱动价格上行，碳素材料需求随工业景气回升",
-        "stocks": ["招商轮船（航运）", "北方稀土（稀土）", "索通发展（石油焦碳素）"]
+        "sector": "军工与高端制造",
+        "icon": "✈️",
+        "color": "#F54E48",
+        "logic": "受益国防采购节奏、装备订单、国产替代链条景气变化",
+        "stocks": [
+          "洪都航空",
+          "航发动力"
+        ]
+      },
+      {
+        "sector": "双碳材料",
+        "icon": "⚡",
+        "color": "#E8813A",
+        "logic": "受益双碳目标、能源转型、关键矿产安全保障政策",
+        "stocks": [
+          "索通发展",
+          "北方稀土"
+        ]
       }
     ],
-    "fifteenFive": [
-      {
-        "direction": "高端装备制造",
-        "color": "#ef4444",
-        "description": "航空发动机自主化、船舶新材料、精密加工",
-        "holdings": "洪都航空、航发动力"
-      },
-      {
-        "direction": "算力基础设施",
-        "color": "#8b5cf6",
-        "description": "国产芯片、光通信、AI服务器、数据中心",
-        "holdings": "海光信息、光迅科技、江丰电子"
-      },
-      {
-        "direction": "新材料",
-        "color": "#2DC78E",
-        "description": "稀土功能材料、碳素材料、新型工业原料",
-        "holdings": "北方稀土、索通发展"
-      }
-    ],
-    "longTermRisks": [
-      { "risk": "大宗商品周期", "signal": "全球经济衰退下，航运、稀土、碳素需求可能大幅回落",        "level": "high"   },
-      { "risk": "基金经理风险", "signal": "童立已有8-9年历史验证，但若再次更换基金经理仍需高度警惕", "level": "high"   },
-      { "risk": "估值过高",     "signal": "当前持仓平均PE若超过40倍，历史均值回归压力增大",           "level": "medium" },
-      { "risk": "政策转向",     "signal": "若中美关系大幅改善，军工板块可能面临预期修正",              "level": "medium" },
-      { "risk": "行业景气拐点", "signal": "全球AI投资热潮若降温，算力/光模块供给过剩风险",             "level": "medium" }
-    ],
-    "timeline": [
-      { "year": "2019-2020", "event": "新材料+工业品+新经济大牛市", "return": "+70%/+77%",  "note": "精准布局涨价产业链，连续两年同类前5%", "type": "positive" },
-      { "year": "2021",      "event": "+22.85%，跑赢同类与沪深300",  "return": "+22.85%",    "note": "坚守中国制造升级赛道", "type": "positive" },
-      { "year": "2022",      "event": "全市场熊市逆涨+13.6%",        "return": "同类排名第9/2299", "note": "防守神操作，逆市大涨，接近全国最优", "type": "positive" },
-      { "year": "2023",      "event": "守住+0.85%",                  "return": "同类平均-9%", "note": "连续逆势防守，持续正收益", "type": "highlight" },
-      { "year": "2025",      "event": "童立接棒，全年+50.43%",        "return": "+50.43%",    "note": "科技AI+军工+新材料全面共振爆发", "type": "positive" },
-      { "year": "2026",      "event": "主动降仓至72%，谨慎防御高位", "return": "+5.3%（Q1）","note": "基金经理主动减仓，防御高估值", "type": "warning" }
-    ],
+    "note": "本轮尝试抓取2026年政府工作报告等官方政策全文，但工具未稳定抽出正文，因此本章只采用可核验的正式定期报告与行业景气证据，不使用未核实的政策摘录。",
     "dualTimeline": [
       {
-        "period": "2012-2013",
-        "manager": { "event": "田明圣主管，基金初创，逐步建仓", "return": "+11.60%", "note": "建仓期稳健运营，奠定初始持仓框架", "type": "neutral" },
-        "market":  { "event": "A股底部区域，经济转型探底", "note": "沪深300处于低位，政策托底，成长股初步萌芽", "type": "neutral" }
+        "period": "2012-09 → 2014-12",
+        "manager": {
+          "type": "neutral",
+          "event": "指数跟踪为主，收益基本贴近宽基",
+          "return": "+41.14%（HS300 +39.91%）",
+          "note": "华商中证500指数分级阶段，以中证500 Beta 映射为主，超额仅 +1.23%，主动选股特征很弱。"
+        },
+        "market": {
+          "type": "neutral",
+          "event": "中小盘风格活跃，指数分级阶段受益",
+          "note": "2013-2014 成长和中小盘风格反复占优，2014 年中证500 走势尤其强，产品主要分享指数行情。"
+        }
       },
       {
-        "period": "2014",
-        "manager": { "event": "费鹏主管，精准踩准牛市起点", "return": "+106.87%", "note": "大幅跑赢同类，完整抓住A股改革牛启动行情", "type": "positive" },
-        "market":  { "event": "改革红利+货币宽松，A股大牛市启动", "note": "沪深300年内大涨，改革预期强烈，外资开始关注A股", "type": "bull" }
+        "period": "2015-01 → 2015-12",
+        "manager": {
+          "type": "positive",
+          "event": "转型后高弹性进攻，全年大幅跑赢",
+          "return": "+62.63%（HS300 +2.86%）",
+          "note": "2015-05-14 转型为灵活配置混合后迅速切向高弹性成长股，全年超额 +59.77%，但也完整暴露了股灾期的大回撤。"
+        },
+        "market": {
+          "type": "warning",
+          "event": "牛市后半程冲顶后转入股灾",
+          "note": "降准降息与“互联网+”推升风险偏好，随后 6-8 月去杠杆与流动性踩踏引发剧烈股灾。"
+        }
       },
       {
-        "period": "2015上半年",
-        "manager": { "event": "费鹏+周海栋联合主管，享受加杠杆疯牛红利", "note": "仓位较高随市上涨，参与疯牛行情", "type": "positive" },
-        "market":  { "event": "两融破2万亿，A股飙涨至5178点历史高位", "note": "全民炒股，估值严重泡沫化，政策开始收紧两融", "type": "bull" }
+        "period": "2016-01 → 2018-12",
+        "manager": {
+          "type": "warning",
+          "event": "熊市重整，绝对收益承压但防守优于指数",
+          "return": "-3.67%（HS300 -16.99%）",
+          "note": "经历股灾 3.0、经济复苏切换和 2018 信用收缩后，组合虽未完全摆脱回撤，但累计仍实现超额 +13.33%。"
+        },
+        "market": {
+          "type": "bear",
+          "event": "熔断冲击叠加信用收缩，成长风格大幅承压",
+          "note": "2016 年初汇率与熔断触发急跌，2018 年信用收缩和风险偏好下行再度压制医药、TMT 与成长板块。"
+        }
       },
       {
-        "period": "2015下半年",
-        "manager": { "event": "股灾系统性重创，任期亏损 -19.98%", "return": "-19.98%", "note": "三次股灾难以规避，属于系统性风险，非选股失误", "type": "warning" },
-        "market":  { "event": "三次股灾，千股跌停，强制去杠杆", "note": "6月至9月沪深300暴跌约40%，市场出现流动性危机", "type": "bear" }
+        "period": "2019-01 → 2021-12",
+        "manager": {
+          "type": "positive",
+          "event": "科技+顺周期轮动，制造升级主升浪确立",
+          "return": "+269.66%（HS300 +64.09%）",
+          "note": "抓住科创板、疫情后流动性宽松及 2021 年新能源/军工主线，长期超额达到 +205.57%，是本基金最核心的收益积累期。"
+        },
+        "market": {
+          "type": "bull",
+          "event": "科技成长、顺周期与新能源主线轮番强化",
+          "note": "2019 年修复行情、2020 年宽松环境与 2021 年新能源/半导体/军工景气共振，给高弹性组合提供了最优土壤。"
+        }
       },
       {
-        "period": "2016-2017",
-        "manager": { "event": "周海栋接管，重构「中国制造升级」选股体系", "note": "深研工业品、新材料、周期成长，建立独特的自上而下选股框架", "type": "highlight" },
-        "market":  { "event": "供给侧改革去产能，周期股强势复苏", "note": "A股白马+价值股启动，煤炭钢铁率先反弹，改革红利释放", "type": "bull" }
+        "period": "2022-01 → 2024-12",
+        "manager": {
+          "type": "positive",
+          "event": "均衡配置扛住熊市，结构性超额明显",
+          "return": "+22.97%（HS300 -20.35%）",
+          "note": "在地产周期、疫情和美元加息压制下仍获得正收益，累计超额 +43.33%；但 2024 年风格切换阶段也出现过阶段性失手。"
+        },
+        "market": {
+          "type": "warning",
+          "event": "宏观逆风持续，后期靠政策修复带来反弹",
+          "note": "2022-2023 风险偏好长期受压，2024 年节奏呈 V 型，9 月底增量政策出台后市场风险偏好才明显修复。"
+        }
       },
       {
-        "period": "2018",
-        "manager": { "event": "主动控仓防御，跑赢沪深300逾10个百分点", "return": "-14.83%（沪深300 -25.31%）", "note": "熊市展现防守能力，同类良好分位，选股框架逆境下经受考验", "type": "highlight" },
-        "market":  { "event": "中美贸易战全面爆发，A股全面熊市", "note": "沪深300跌25.31%，贸易战+去杠杆双重压制，几乎所有板块大跌", "type": "bear" }
-      },
-      {
-        "period": "2019-2020",
-        "manager": { "event": "连续两年同类前5%，+69.6% / +77.4%", "return": "+69.60% / +77.42%", "note": "精准布局新材料+工业品涨价+新经济，选股框架全面验证，持续创造超额", "type": "positive" },
-        "market":  { "event": "货币宽松，科创板开板，成长+价值双牛", "note": "中美贸易战阶段缓和，A股外资持续流入，流动性宽裕推动全面牛市", "type": "bull" }
-      },
-      {
-        "period": "2021",
-        "manager": { "event": "+22.85%，在沪深300下跌时跑赢27个百分点", "return": "+22.85%（vs 沪深300 -5.20%）", "note": "白马股抱团瓦解后逆势跑赢，制造升级+周期持续贡献超额收益", "type": "positive" },
-        "market":  { "event": "白马股抱团瓦解，沪深300全年 -5.20%", "note": "消费医药龙头大幅回调，制造业/科技结构性走强，市场风格剧烈分化", "type": "neutral" }
-      },
-      {
-        "period": "2022",
-        "manager": { "event": "🏆 神操作：全市场熊市逆涨 +13.6%，同类排名第 9/2299", "return": "+13.60%（同类平均 -15.54%）", "note": "能源转型+工业品涨价主线精准押注，接近全国最佳，是基金13年最高光时刻", "type": "highlight" },
-        "market":  { "event": "美联储激进加息，俄乌战争，A股系统性熊市", "note": "沪深300全年 -21.63%，几乎所有资产下跌，极端市场考验选股和仓位管理能力", "type": "bear" }
-      },
-      {
-        "period": "2023",
-        "manager": { "event": "逆市守住 +0.85%，同类平均亏损 9%", "return": "+0.85%（同类平均 -9.01%）", "note": "连续第二年在负面市场中维持正收益，防守稳定性极强，下行保护能力卓越", "type": "highlight" },
-        "market":  { "event": "经济弱复苏，房地产拖累，市场信心低迷", "note": "沪深300全年 -11.38%，消费复苏不及预期，外资阶段性流出，市场整体萎靡", "type": "bear" }
-      },
-      {
-        "period": "2024",
-        "manager": { "event": "Q4踩错风格落后，全年 +7.34% 仍跑赢同类", "return": "+7.34%（Q4单季 -4.79%，后20%）", "note": "Q4持仓与科技主线短暂偏离，13年来最明显阶段性失误，但2025年完全翻盘", "type": "warning" },
-        "market":  { "event": "924政策反弹，科技AI主导，风格快速切换", "note": "沪深300全年+14.68%，科技成长领涨，旧能源/工业品阶段落后，风格切换极快", "type": "neutral" }
-      },
-      {
-        "period": "2025",
-        "manager": { "event": "童立接棒，DeepSeek行情爆发，+50.43%", "return": "+50.43%（同类平均+26.17%，前14%）", "note": "周海栋3月离任，童立无缝衔接，军工+AI+新材料三线共振，任期1年已+72.97%", "type": "positive" },
-        "market":  { "event": "DeepSeek发布，AI+军工+国产替代结构大牛市", "note": "2025年A股最强结构牛，科技军工新材料轮番上攻，持仓方向与行情完美共振", "type": "bull" }
-      },
-      {
-        "period": "2026Q1",
-        "manager": { "event": "主动将仓位从 91% 降至 72%，大幅增持现金至 27.64%", "return": "+5.30%（Q1，同类 -0.30%）", "note": "规模增至57.57亿时主动降仓，警惕高估值，防御姿态明确，仍逆市跑赢同类", "type": "highlight" },
-        "market":  { "event": "A股高位震荡，关税博弈升温，沪深300 -3.89%", "note": "美元走强，国际局势复杂，获利了结压力上升，市场进入消化期", "type": "bear" }
+        "period": "2025-01 → 2026-05",
+        "manager": {
+          "type": "positive",
+          "event": "童立接棒后延续高弹性，同时强化仓位管理",
+          "return": "+88.25%（HS300 +24.90%）",
+          "note": "围绕“智能经济+双碳经济”主线持续进攻，3 月后通过减仓和结构切换控制高位波动，阶段超额达到 +63.35%。"
+        },
+        "market": {
+          "type": "policy",
+          "event": "DeepSeek 提升科技风险偏好，地缘扰动后主线回归",
+          "note": "2025 年一季度 AI 与新质生产力交易升温，2026 年初高弹性科技和制造链延续强势，3 月受地缘冲击后重新回到主线交易。"
+        }
       }
+    ]
+  },
+  "tracking": {
+    "weekly": [
+      "跟踪AI算力、光通信景气：光纤价格、CPO/光模块订单、数据中心资本开支",
+      "跟踪军工和高端制造：国防采购节奏、装备订单、国产替代链条景气变化",
+      "跟踪经理表达：是否仍坚持'智能经济+双碳经济'，还是明显偏离主线",
+      "跟踪仓位：如果股票仓位继续大幅下滑，需要判断是防守升级还是主线被证伪"
     ],
-    "adaptability": [
-      { "env": "牛市（2019/2020/2025）",    "perf": "大幅跑赢，同类前10%",    "color": "#F54E48" },
-      { "env": "熊市（2022）",              "perf": "逆涨+13.6%，神操作第9名", "color": "#F54E48" },
-      { "env": "震荡市（2023-2024）",       "perf": "守住正收益，整体稳健",    "color": "#D4A017" },
-      { "env": "高位调整（2026Q1至今）",    "perf": "主动降仓，防御布局",      "color": "#2DC78E" }
+    "quarterly": [
+      "持仓变化：前十持仓是否仍围绕当前三大主线，主线权重应保持清晰",
+      "集中度变化：前十集中度是否异常飙升或骤降，合理区间22%-35%",
+      "规模变化：规模是否过快膨胀，若半年内逼近90亿需警惕稀释",
+      "同类排名：近1年排名是否跌出后50%，应尽量维持前40%",
+      "滚动超额：对沪深300的滚动1年超额是否仍为正，应保持正值"
+    ],
+    "alerts": [
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "童立离任，或管理基金数量明显超过当前水平"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "单季度回撤超过-15%，且排名跌到同类后10%"
+      },
+      {
+        "level": "warning",
+        "icon": "⚠️",
+        "text": "AI算力与光通信景气连续走弱，核心持仓逻辑被削弱"
+      },
+      {
+        "level": "warning",
+        "icon": "⚠️",
+        "text": "军工、制造、科技链同时走弱，而基金仍维持高风险暴露"
+      },
+      {
+        "level": "warning",
+        "icon": "⚠️",
+        "text": "基金规模半年内快速扩到90亿以上，影响高弹性策略效率"
+      }
     ]
   },
   "exclusionCheck": [
-    { "item": "基金公司黑名单",      "pass": true,  "note": "华商基金未列入黑名单" },
-    { "item": "基金经理黑名单",      "pass": true,  "note": "童立未列入黑名单" },
-    { "item": "规模过小（<1亿）",    "pass": true,  "note": "57.57亿，规模健康" },
-    { "item": "成立不足1年",         "pass": true,  "note": "成立13.5年，历经完整牛熊" },
-    { "item": "基金经理频繁更换",    "pass": true,  "note": "童立旗舰华商研究精选A（8年+353%，同类前3.2%），非无根基新人" },
-    { "item": "历史最差年跌幅>50%",  "pass": true,  "note": "历史最差2018年-14.83%，远未触发" },
-    { "item": "单一重仓>30%",        "pass": true,  "note": "最大4.01%（招商轮船），高度分散" },
-    { "item": "行业集中度>70%",      "pass": true,  "note": "最大行业制造业56.43%，未超阈值" },
-    { "item": "近1年排名后50%",      "pass": true,  "note": "近1年排名314/2267，前14%" },
-    { "item": "费率结构异常",        "pass": true,  "note": "管理费1.2%，天天基金1折优惠，合理" }
-  ],
-  "scoring": {
-    "total": 86,
-    "dimensions": [
-      { "name": "历史业绩", "score": 9.5, "note": "成立来+1708%，2022年熊市同类第9，多轮牛熊验证" },
-      { "name": "风险控制", "score": 8.0, "note": "夏普3.5极高，主动降仓，最差年-14.83%防守能力强" },
-      { "name": "持仓质量", "score": 8.5, "note": "军工+半导体+AI+新材料，政策高景气赛道" },
-      { "name": "基金经理", "score": 8.5, "note": "童立旗舰产品前3.2%，8-9年完整周期验证，选股一流" },
-      { "name": "政策匹配", "score": 9.0, "note": "强军战略+国产替代+AI算力，十五五规划全面顺风" },
-      { "name": "估值时机", "score": 7.0, "note": "净值18元历史高位，近1年+79%，基金经理自身已降仓" }
-    ],
-    "recommendation": "观望等待回调，分批建仓",
-    "recommendationType": "cautious",
-    "reasoning": [
-      { "positive": true,  "text": "长期看，这是一只经过13年市场验证、多轮牛熊检验的优质灵活配置混合基金" },
-      { "positive": true,  "text": "政策顺风，军工+国产替代+新材料+AI算力，契合十五五规划核心战略主线" },
-      { "positive": false, "text": "近1年+79%、近3月+17.6%，短期涨幅较大，已部分兑现未来预期" },
-      { "positive": false, "text": "基金经理本人已主动将股票仓位从91%降至72%，同步大幅增持现金，这是一个谨慎信号" },
-      { "positive": false, "text": "净值18元处于历史高位，规模57亿，继续大规模扩张对超额收益有一定摊薄效应" }
-    ],
-    "conclusion": "华商新趋势优选（166301）是一只经过验证的高质量基金，现任经理童立旗舰产品同类前3.2%；当前处于短期高位，建议耐心等待合理回调窗口，中长期定投或分批布局。",
-    "suitableFor": [
-      { "label": "看好中国高端制造+军工+AI长期逻辑",  "fit": true },
-      { "label": "能承受20%以内的短期回撤",           "fit": true },
-      { "label": "投资期限3年以上",                   "fit": true },
-      { "label": "风险偏好低或追求稳定分红",           "fit": false },
-      { "label": "短期流动性需求强",                   "fit": false }
-    ],
-    "allocationSuggestions": [
-      { "scenario": "中长期底仓（3年+）", "ratio": "5%-15%", "note": "指数回调5%-10%时分批建仓，不追高" },
-      { "scenario": "定投策略",           "ratio": "每月定投", "note": "高波动基金定投效果优于一次性买入" },
-      { "scenario": "短期机会型",         "ratio": "不建议",  "note": "近1年+79%，追高风险高" }
-    ]
-  },
-  "navHistory": [],
-  "tracking": {
-    "weekly": [
-      "关注净值与军工板块（国防ETF）、半导体指数的联动关系",
-      "监控招商轮船、洪都航空等重仓股日涨跌",
-      "观察基金是否公告仓位重新提升至90%（加仓信号）"
-    ],
-    "quarterly": [
-      "查看季报持仓：军工/半导体/AI比例是否维持主线",
-      "股票仓位变化：若恢复至90%+说明经理重新看好行情",
-      "规模监控：若超100亿，关注超额收益摊薄风险",
-      "童立是否有新的公开发言或路演，判断投资方向变化"
-    ],
-    "alerts": [
-      { "level": "critical", "icon": "🚨", "text": "基金经理童立离任公告（一票否决级别）" },
-      { "level": "critical", "icon": "🚨", "text": "规模急速扩张至150亿以上（流动性管理压力）" },
-      { "level": "warning",  "icon": "⚠️", "text": "单季度回撤超过-20%且排名落至后30%" },
-      { "level": "warning",  "icon": "⚠️", "text": "国防预算增速骤降或军工政策大幅收窄" },
-      { "level": "warning",  "icon": "⚠️", "text": "全球大宗商品进入系统性下行（影响航运、稀土、碳素）" },
-      { "level": "info",     "icon": "ℹ️", "text": "每季末公告仓位变化，判断经理对市场的态度" },
-      { "level": "info",     "icon": "ℹ️", "text": "AI算力/数据中心建设季报数据，判断光模块需求趋势" }
-    ]
-  }
+    {
+      "item": "成立时间是否不足3年",
+      "pass": true,
+      "note": "成立于2012年09月06日，已运行约13.7年。"
+    },
+    {
+      "item": "规模是否过小或过大",
+      "pass": true,
+      "note": "当前规模约57.57亿元，未触发<1亿元或>200亿元红线。"
+    },
+    {
+      "item": "基金经理任职是否不足2年",
+      "pass": false,
+      "note": "现任经理自2025-03-12起管理本基金，任职约1.2年。"
+    },
+    {
+      "item": "近3年业绩是否落入后30%",
+      "pass": true,
+      "note": "近3年排名 214/2076。"
+    },
+    {
+      "item": "最大回撤是否显著劣于同类",
+      "pass": false,
+      "note": "历史最大回撤 42.02%，当前按混合型产品阈值 40% 进行保守校验。"
+    },
+    {
+      "item": "基金经理是否在黑名单中",
+      "pass": true,
+      "note": "现有合规检查与黑名单核查结果均未显示基金经理命中黑名单。"
+    },
+    {
+      "item": "基金公司是否在黑名单中",
+      "pass": true,
+      "note": "现有合规检查与黑名单核查结果均未显示基金公司命中黑名单。"
+    },
+    {
+      "item": "是否频繁更换基金经理",
+      "pass": true,
+      "note": "未见近3年异常频繁经理更换。"
+    },
+    {
+      "item": "是否存在严重风格漂移",
+      "pass": true,
+      "note": "一致性审计未见 fail 级别结论，未认定严重风格漂移。"
+    },
+    {
+      "item": "费率是否显著高于同类平均",
+      "pass": true,
+      "note": "综合费率约1.40%/年，未见明显高于同类且无合理解释。"
+    }
+  ]
 }
