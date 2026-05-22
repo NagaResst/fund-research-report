@@ -238,5 +238,21 @@
     "navFallback": 1.8371,
       "reportDate": "2026-05-19",
     "manager": "张金志"
+  },
+  {
+    "id": "014194",
+    "shortName": "汇添富中证芯片产业指数增强发起式C",
+    "type": "指数型",
+    "subType": "行业主题指数增强",
+    "riskLevel": "R3",
+    "riskCode": 3,
+    "return1Y": 124.0,
+    "return3Y": 148.32,
+    "score": 68,
+    "recommendation": "谨慎，高位不追",
+    "recommendationType": "cautious",
+    "navFallback": 1.8361,
+    "reportDate": "2026-05-20",
+    "manager": "马磊"
   }
 ]
