@@ -1,8 +1,8 @@
 {
   "id": "014194",
   "meta": {
-    "reportDate": "2026-05-20",
-    "dataDate": "2026-05-19",
+    "reportDate": "2026-05-21",
+    "dataDate": "2026-05-20",
     "disclaimer": "本报告仅供个人学习和信息整理使用，所有分析内容均不构成任何投资建议。投资有风险，入市需谨慎，请依据自身判断做出投资决策。"
   },
   "basic": {
@@ -18,9 +18,9 @@
     "companyShort": "汇添富基金",
     "custodian": "民生银行",
     "benchmark": "中证芯片产业指数收益率*95%+银行人民币活期存款利率(税后)*5%",
-    "navFallback": 1.8361,
-    "navDateFallback": "2026-05-19",
-    "inceptionReturn": 83.61,
+    "navFallback": 1.9258,
+    "navDateFallback": "2026-05-20",
+    "inceptionReturn": 92.58,
     "status": "开放申购 / 开放赎回"
   },
   "fees": {
@@ -68,32 +68,32 @@
   },
   "scale": {
     "nav": 5.58,
-    "date": "2026-05-19"
+    "date": "2026-05-20"
   },
   "risk": {
-    "volatility": 0.3359,
-    "annualReturn": 0.1529,
-    "sharpe": 0.37,
-    "calmar": 0.31,
+    "volatility": 0.3365,
+    "annualReturn": 0.1657,
+    "sharpe": 0.4,
+    "calmar": 0.34,
     "maxDrawdown": -0.4901,
     "maxDrawdownPeriod": "2021-12-02 → 2024-02-02",
     "periodMetrics": [
       {
         "label": "近1年",
-        "volatility": 0.3624,
-        "sharpe": 3.02,
+        "volatility": 0.3651,
+        "sharpe": 3.32,
         "maxDrawdown": -0.1936
       },
       {
         "label": "近2年",
-        "volatility": 0.3747,
-        "sharpe": 2.03,
+        "volatility": 0.3754,
+        "sharpe": 2.22,
         "maxDrawdown": -0.1936
       },
       {
         "label": "近3年",
-        "volatility": 0.3433,
-        "sharpe": 0.85,
+        "volatility": 0.3439,
+        "sharpe": 0.86,
         "maxDrawdown": -0.3969
       }
     ],
@@ -127,86 +127,86 @@
         {
           "year": 2021,
           "fund": 5.8,
-          "hs300": 10.05
+          "hs300": 18.19
         }
       ],
-      "volatilityRating": "高波动（33.59%），属于高弹性主题工具",
-      "sharpeRating": "全期一般（0.37），但近1年极强（3.02）",
-      "drawdownRating": "历史最大回撤 -49.01%（约26个月），顺风期强、逆风期伤害也大",
+      "volatilityRating": "高波动（33.65%），属于强进攻型科技主题工具",
+      "sharpeRating": "近1年极强（3.32），但全期仍只有0.40",
+      "drawdownRating": "历史最大回撤-49.01%，持续约26个月，顺风期强、逆风期伤害也大",
       "historicalMaxDrawdown": 49.01
     },
     "relativeMetrics": {
-      "beta": 1.2262,
-      "alpha": 0.1917,
-      "informationRatio": 0.743,
-      "trackingError": 0.2598,
-      "r2": 0.4182
+      "beta": 1.2261,
+      "alpha": 0.2031,
+      "informationRatio": 0.7841,
+      "trackingError": 0.2607,
+      "r2": 0.4161
     },
     "navPercentile": 100.0,
     "maxDrawdownMonths": 26,
     "recentPerf": [
       {
         "period": "近1周",
-        "fund": 5.96,
-        "peer": -1.39,
-        "hs300": -1.92,
-        "excess": 7.88,
-        "rank": 45,
-        "rankTotal": 5074,
+        "fund": 8.36,
+        "peer": -2.25,
+        "hs300": -2.95,
+        "excess": 11.31,
+        "rank": 37,
+        "rankTotal": 5079,
         "warn": false,
         "note": "短线动能极强"
       },
       {
         "period": "近1月",
-        "fund": 32.95,
-        "peer": 3.84,
-        "hs300": 2.63,
-        "excess": 30.32,
-        "rank": 44,
-        "rankTotal": 5040,
+        "fund": 37.69,
+        "peer": 3.43,
+        "hs300": 1.96,
+        "excess": 35.73,
+        "rank": 38,
+        "rankTotal": 5041,
         "warn": false,
-        "note": "主升浪延续"
+        "note": "主升浪仍在延续"
       },
       {
         "period": "近3月",
-        "fund": 27.9,
-        "peer": 4.23,
-        "hs300": 4.13,
-        "excess": 23.77,
-        "rank": 205,
+        "fund": 34.15,
+        "peer": 4.43,
+        "hs300": 4.08,
+        "excess": 30.07,
+        "rank": 113,
         "rankTotal": 4919,
         "warn": false,
         "note": "显著强于同类与大盘"
       },
       {
         "period": "近6月",
-        "fund": 55.12,
-        "peer": 11.38,
-        "hs300": 5.77,
-        "excess": 49.35,
-        "rank": 117,
-        "rankTotal": 4638,
+        "fund": 65.22,
+        "peer": 12.29,
+        "hs300": 6.26,
+        "excess": 58.96,
+        "rank": 77,
+        "rankTotal": 4640,
         "warn": false,
         "note": "科技景气窗口下弹性极强"
       },
       {
         "period": "近1年",
-        "fund": 124.0,
-        "peer": 38.02,
-        "hs300": 25.17,
-        "excess": 98.83,
-        "rank": 117,
-        "rankTotal": 3854,
+        "fund": 134.34,
+        "peer": 37.41,
+        "hs300": 24.44,
+        "excess": 109.9,
+        "rank": 96,
+        "rankTotal": 3863,
         "warn": false,
-        "note": "前3%左右"
+        "note": "维持同类前列"
       },
       {
         "period": "近2年",
-        "fund": 217.61,
-        "peer": 54.05,
-        "hs300": 31.94,
-        "excess": 185.67,
-        "rank": 38,
+        "fund": 232.09,
+        "peer": 53.65,
+        "hs300": 31.42,
+        "excess": 200.67,
+        "rank": 35,
         "rankTotal": 2746,
         "warn": false,
         "note": "长期超额极强"
@@ -219,50 +219,40 @@
       },
       {
         "name": "风险控制",
-        "score": 45
+        "score": 35
       },
       {
         "name": "稳定性",
-        "score": 55
+        "score": 60
       },
       {
         "name": "增强效率",
-        "score": 78
+        "score": 88
       },
       {
         "name": "配置时机",
-        "score": 25
+        "score": 20
       }
     ],
     "riskWarnings": [
       {
         "level": "high",
-        "text": "当前净值处历史 100% 分位，高位追涨风险显著。",
-        "category": "外部"
+        "text": "历史最大回撤-49.01%，属于高波动深回撤产品。",
+        "category": "内部"
+      },
+      {
+        "level": "medium",
+        "text": "马磊当前在管13只基金，存在管理疲劳风险。",
+        "category": "内部"
       },
       {
         "level": "high",
-        "text": "全期最大回撤 -49.01%，接近 -50% 红线。",
-        "category": "内部"
-      },
-      {
-        "level": "medium",
-        "text": "年化跟踪误差 25.98%，并非低偏离的纯被动指数工具。",
-        "category": "内部"
-      },
-      {
-        "level": "medium",
-        "text": "经理当前在管 13 只基金，存在管理负荷偏高问题。",
-        "category": "内部"
-      },
-      {
-        "level": "medium",
-        "text": "美国贸易战与地缘冲击仍可能压制科技板块风险偏好。",
+        "text": "当前净值位于历史100%分位，高位追涨风险显著。",
         "category": "外部"
       },
       {
         "level": "medium",
-        "text": "前十大集中度 70.1%，组合对单一科技主线的依赖很强。",
+        "text": "前十大持仓占比70.12%，赛道集中度高，风格回撤时缺乏缓冲。",
         "category": "外部"
       }
     ]
@@ -361,91 +351,76 @@
         "ratio": 0.0
       }
     ],
-    "themeTitle": "国产算力芯片 + 半导体设备",
-    "themeSubtitle": "AI算力芯片、设备链与设计服务高弹性组合",
-    "concentrationLabel": "高度集中（前十 70.12%）",
+    "themeTitle": "AI算力芯片 + 半导体设备材料 + 存储与高端设计链",
+    "themeSubtitle": "算力、设备、存储与设计链四线共振的高弹性芯片组合",
+    "concentrationLabel": "高度集中（前十70.12%）",
     "themeGroups": [
       {
-        "name": "AI算力芯片/设计链",
+        "name": "AI算力与网络芯片",
         "color": "#2563eb",
-        "ratio": 29.39,
-        "stocks": "海光信息 / 芯原股份 / 澜起科技 / 寒武纪",
-        "note": "这是组合最具弹性的部分，直接受益于国产算力与 AI 芯片需求上升。"
+        "ratio": 19.14,
+        "stocks": "海光信息 / 寒武纪 / 盛科通信",
+        "note": "直接对应经理在季报中反复强调的国产AI GPU、ASIC和交换芯片主线。"
       },
       {
-        "name": "半导体设备链",
+        "name": "半导体设备制造链",
         "color": "#16a34a",
-        "ratio": 23.64,
-        "stocks": "中微公司 / 北方华创 / 拓荆科技",
-        "note": "对应先进制程、自主可控与资本开支主线，是政策与产业景气的直接映射。"
+        "ratio": 28.26,
+        "stocks": "中微公司 / 北方华创 / 拓荆科技 / 中科飞测",
+        "note": "对应先进制程、设备材料与检测设备等国产替代核心环节。"
       },
       {
-        "name": "存储与控制芯片",
+        "name": "设计 / 存储 / 接口链",
         "color": "#d97706",
-        "ratio": 7.94,
-        "stocks": "兆易创新",
-        "note": "承担景气扩散中的弹性补充。"
-      },
-      {
-        "name": "检测与网络通信",
-        "color": "#7c3aed",
-        "ratio": 9.15,
-        "stocks": "中科飞测 / 盛科通信",
-        "note": "补充半导体检测和算力基础设施环节。"
+        "ratio": 22.72,
+        "stocks": "芯原股份 / 兆易创新 / 澜起科技",
+        "note": "受益于存储涨价、接口芯片与SoC/IP设计景气扩散。"
       }
     ],
     "evolutionHighlights": [
       {
-        "quarter": "2022Q2",
-        "type": "neutral",
-        "change": "集中度从 62.2% 降至 54.8%",
-        "return": "+1.00%",
-        "theme": "极端下跌后的去集中化尝试",
-        "insight": "更偏向减缓波动，而非立即追求收益修复。"
-      },
-      {
-        "quarter": "2024Q2-2024Q3",
+        "quarter": "2023Q4",
         "type": "positive",
-        "change": "强化海光信息、设备链与 AI 相关标的",
-        "return": "2024Q3 +15.36%，2024Q4 +18.34%",
-        "theme": "马磊独任后的主线集中",
-        "insight": "这一轮加集中显著正确，奠定后续主升浪基础。"
+        "change": "海光信息进入核心组合，算力主线成形",
+        "return": "-0.14%",
+        "theme": "从传统设计链切向AI算力",
+        "insight": "事后看，这一调整为2024Q4至2026Q2主升浪奠定了最重要的底层暴露。"
       },
       {
-        "quarter": "2025Q2-2025Q3",
+        "quarter": "2025Q3",
         "type": "positive",
-        "change": "集中度升至 66.1%，新进芯原股份并强化寒武纪",
-        "return": "2025Q3 +54.93%",
-        "theme": "AI算力与设备主升浪确认",
-        "insight": "成为独任阶段最关键的利润放大段。"
+        "change": "新进芯原股份、重新提高拓荆科技，全面强化AI算力+设备+存储三主线",
+        "return": "+54.93%",
+        "theme": "高景气三主线完全同频",
+        "insight": "单季净值大涨54.93%，验证组合方向与产业主线的高度一致。"
       },
       {
-        "quarter": "2025Q4-2026Q1",
+        "quarter": "2026Q1",
         "type": "warning",
-        "change": "高位继续提升到约 70% 集中度",
-        "return": "2026-05-19 创历史新高",
-        "theme": "高位延续高弹性押注",
-        "insight": "经理没有转入保守模式，继续用高集中换取顺风弹性，同时也放大了回撤风险。"
+        "change": "引入盛科通信，继续强化算力网络链",
+        "return": "-1.97%",
+        "theme": "地缘冲击后的再进攻",
+        "insight": "经理没有防守式降仓，而是继续进攻；事后至2026-05-20净值从1.1955拉升到1.9258。"
       }
     ],
     "policyLinks": [
       {
         "sector": "AI算力芯片",
         "color": "#2563eb",
-        "stocks": "海光信息 / 寒武纪 / 芯原股份 / 澜起科技",
-        "policyNote": "科技自立自强与关键核心技术攻关直接支持国产算力与芯片设计服务链。"
+        "stocks": "海光信息 / 寒武纪 / 盛科通信",
+        "policyNote": "科技自立自强与算力需求扩张共同支撑国产算力芯片和网络芯片链。"
       },
       {
-        "sector": "半导体设备",
+        "sector": "半导体设备材料",
         "color": "#16a34a",
         "stocks": "中微公司 / 北方华创 / 拓荆科技 / 中科飞测",
-        "policyNote": "国发〔2020〕8号对设备、材料、先进制程环节形成长期制度底座。"
+        "policyNote": "集成电路税收优惠清单连续延续，为设备、材料与先进制程环节提供制度底座。"
       },
       {
-        "sector": "算力基础设施配套",
+        "sector": "存储与高端设计链",
         "color": "#d97706",
-        "stocks": "兆易创新 / 盛科通信",
-        "policyNote": "AI+ 与算力基础设施扩张提高对存储、网络与控制芯片的需求。"
+        "stocks": "芯原股份 / 兆易创新 / 澜起科技",
+        "policyNote": "AI推理需求与国产替代共振，带动存储、接口芯片和设计服务链需求提升。"
       }
     ]
   },
@@ -453,79 +428,79 @@
     "stages": [
       {
         "period": "近1周",
-        "fund": 5.96,
-        "peer": -1.39,
-        "hs300": -1.92,
-        "rank": 45,
-        "rankTotal": 5074,
+        "fund": 8.36,
+        "peer": -2.25,
+        "hs300": -2.95,
+        "rank": 37,
+        "rankTotal": 5079,
         "quartile": null
       },
       {
         "period": "近1月",
-        "fund": 32.95,
-        "peer": 3.84,
-        "hs300": 2.63,
-        "rank": 44,
-        "rankTotal": 5040,
+        "fund": 37.69,
+        "peer": 3.43,
+        "hs300": 1.96,
+        "rank": 38,
+        "rankTotal": 5041,
         "quartile": null
       },
       {
         "period": "近3月",
-        "fund": 27.9,
-        "peer": 4.23,
-        "hs300": 4.13,
-        "rank": 205,
+        "fund": 34.15,
+        "peer": 4.43,
+        "hs300": 4.08,
+        "rank": 113,
         "rankTotal": 4919,
         "quartile": null
       },
       {
         "period": "近6月",
-        "fund": 55.12,
-        "peer": 11.38,
-        "hs300": 5.77,
-        "rank": 117,
-        "rankTotal": 4638,
+        "fund": 65.22,
+        "peer": 12.29,
+        "hs300": 6.26,
+        "rank": 77,
+        "rankTotal": 4640,
         "quartile": null
       },
       {
         "period": "近1年",
-        "fund": 124.0,
-        "peer": 38.02,
-        "hs300": 25.17,
-        "rank": 117,
-        "rankTotal": 3854,
+        "fund": 134.34,
+        "peer": 37.41,
+        "hs300": 24.44,
+        "rank": 96,
+        "rankTotal": 3863,
         "quartile": null
       },
       {
         "period": "近2年",
-        "fund": 217.61,
-        "peer": 54.05,
-        "hs300": 31.94,
-        "rank": 38,
+        "fund": 232.09,
+        "peer": 53.65,
+        "hs300": 31.42,
+        "rank": 35,
         "rankTotal": 2746,
         "quartile": null
       },
       {
         "period": "近3年",
-        "fund": 148.32,
-        "peer": 39.66,
-        "hs300": 23.03,
-        "rank": 24,
+        "fund": 160.45,
+        "peer": 39.92,
+        "hs300": 22.97,
+        "rank": 22,
         "rankTotal": 2121,
         "quartile": null
       },
       {
         "period": "今年来",
-        "fund": 50.56,
-        "peer": 9.48,
-        "hs300": 4.82,
-        "rank": 52,
+        "fund": 57.92,
+        "peer": 9.69,
+        "hs300": 4.77,
+        "rank": 48,
         "rankTotal": 4796,
         "quartile": null
       },
       {
         "period": "成立来",
-        "fund": 83.61,
+        "fund": 92.58,
         "peer": null,
         "hs300": null,
         "rank": null,
@@ -581,10 +556,10 @@
       },
       {
         "year": 2026,
-        "fund": 50.56,
-        "peer": 9.48,
-        "hs300": 4.82,
-        "rank": 52,
+        "fund": 57.92,
+        "peer": 9.69,
+        "hs300": 4.77,
+        "rank": 48,
         "rankTotal": 4796,
         "quartile": null
       }
@@ -773,9 +748,9 @@
       {
         "year": 2026,
         "quarter": "2026Q2",
-        "fund": 47.93,
+        "fund": 55.16,
         "peer": null,
-        "hs300": 7.22,
+        "hs300": 7.17,
         "rank": null,
         "rankTotal": null,
         "quartile": null
@@ -795,10 +770,22 @@
         "type": "low"
       },
       {
+        "date": "2024-10-08",
+        "nav": 0.7923,
+        "label": "单波50.83%反弹高点",
+        "type": "high"
+      },
+      {
         "date": "2025-08-22",
         "nav": 1.0314,
-        "label": "时隔近3年重回面值",
+        "label": "首次重新站回面值上方",
         "type": "neutral"
+      },
+      {
+        "date": "2025-09-30",
+        "nav": 1.2878,
+        "label": "2025Q3主升浪阶段性收官",
+        "type": "high"
       },
       {
         "date": "2026-04-30",
@@ -807,14 +794,14 @@
         "type": "high"
       },
       {
-        "date": "2026-05-19",
-        "nav": 1.8361,
+        "date": "2026-05-20",
+        "nav": 1.9258,
         "label": "历史最高点",
         "type": "peak"
       },
       {
-        "date": "2026-05-19",
-        "nav": 1.8361,
+        "date": "2026-05-20",
+        "nav": 1.9258,
         "label": "当前净值（历史100.0%分位）",
         "type": "current"
       }
@@ -825,279 +812,597 @@
       {
         "id": 1,
         "startDate": "2021-12-02",
-        "endDate": "2022-04-26",
+        "endDate": "2022-02-14",
         "startNav": 1.0,
-        "endNav": 0.599,
-        "changePct": -40.1,
-        "type": "trough"
+        "endNav": 0.8023,
+        "changePct": -19.77,
+        "type": "trough",
+        "stageId": 1,
+        "holdingsSummary": "成立即进入芯片景气下行与估值压缩区间，净值快速下探。",
+        "env": "半导体下行周期叠加成长风格杀估值。",
+        "managerAction": "早期高集中建仓，以设计链和核心芯片标的为主。",
+        "attribution": "单一赛道高Beta在逆风期被显著放大。"
       },
       {
         "id": 2,
-        "startDate": "2022-04-26",
-        "endDate": "2022-08-11",
-        "startNav": 0.599,
-        "endNav": 0.8087,
-        "changePct": 35.01,
-        "type": "peak"
+        "startDate": "2022-02-14",
+        "endDate": "2022-02-28",
+        "startNav": 0.8023,
+        "endNav": 0.8808,
+        "changePct": 9.78,
+        "type": "peak",
+        "stageId": 1,
+        "holdingsSummary": "成立即进入芯片景气下行与估值压缩区间，净值快速下探。",
+        "env": "半导体下行周期叠加成长风格杀估值。",
+        "managerAction": "早期高集中建仓，以设计链和核心芯片标的为主。",
+        "attribution": "单一赛道高Beta在逆风期被显著放大。"
       },
       {
         "id": 3,
+        "startDate": "2022-02-28",
+        "endDate": "2022-04-26",
+        "startNav": 0.8808,
+        "endNav": 0.599,
+        "changePct": -31.99,
+        "type": "trough",
+        "stageId": 1,
+        "holdingsSummary": "成立即进入芯片景气下行与估值压缩区间，净值快速下探。",
+        "env": "半导体下行周期叠加成长风格杀估值。",
+        "managerAction": "早期高集中建仓，以设计链和核心芯片标的为主。",
+        "attribution": "单一赛道高Beta在逆风期被显著放大。"
+      },
+      {
+        "id": 4,
+        "startDate": "2022-04-26",
+        "endDate": "2022-06-06",
+        "startNav": 0.599,
+        "endNav": 0.7661,
+        "changePct": 27.9,
+        "type": "peak",
+        "stageId": 1,
+        "holdingsSummary": "成立即进入芯片景气下行与估值压缩区间，净值快速下探。",
+        "env": "半导体下行周期叠加成长风格杀估值。",
+        "managerAction": "早期高集中建仓，以设计链和核心芯片标的为主。",
+        "attribution": "单一赛道高Beta在逆风期被显著放大。"
+      },
+      {
+        "id": 5,
+        "startDate": "2022-06-06",
+        "endDate": "2022-06-22",
+        "startNav": 0.7661,
+        "endNav": 0.6968,
+        "changePct": -9.05,
+        "type": "trough",
+        "stageId": 1,
+        "holdingsSummary": "成立即进入芯片景气下行与估值压缩区间，净值快速下探。",
+        "env": "半导体下行周期叠加成长风格杀估值。",
+        "managerAction": "早期高集中建仓，以设计链和核心芯片标的为主。",
+        "attribution": "单一赛道高Beta在逆风期被显著放大。"
+      },
+      {
+        "id": 6,
+        "startDate": "2022-06-22",
+        "endDate": "2022-08-11",
+        "startNav": 0.6968,
+        "endNav": 0.8087,
+        "changePct": 16.06,
+        "type": "peak",
+        "stageId": 1,
+        "holdingsSummary": "成立即进入芯片景气下行与估值压缩区间，净值快速下探。",
+        "env": "半导体下行周期叠加成长风格杀估值。",
+        "managerAction": "早期高集中建仓，以设计链和核心芯片标的为主。",
+        "attribution": "单一赛道高Beta在逆风期被显著放大。"
+      },
+      {
+        "id": 7,
         "startDate": "2022-08-11",
         "endDate": "2022-10-11",
         "startNav": 0.8087,
         "endNav": 0.595,
         "changePct": -26.43,
-        "type": "trough"
+        "type": "trough",
+        "stageId": 1,
+        "holdingsSummary": "成立即进入芯片景气下行与估值压缩区间，净值快速下探。",
+        "env": "半导体下行周期叠加成长风格杀估值。",
+        "managerAction": "早期高集中建仓，以设计链和核心芯片标的为主。",
+        "attribution": "单一赛道高Beta在逆风期被显著放大。"
       },
       {
-        "id": 4,
+        "id": 8,
         "startDate": "2022-10-11",
         "endDate": "2022-11-17",
         "startNav": 0.595,
         "endNav": 0.7276,
         "changePct": 22.29,
-        "type": "peak"
+        "type": "peak",
+        "stageId": 2,
+        "holdingsSummary": "国产替代与科技成长修复带来第一轮明显反弹。",
+        "env": "赛道情绪修复，AI 与国产替代叙事重新强化。",
+        "managerAction": "持仓从极高集中向相对均衡过渡，逐步压低单一暴露。",
+        "attribution": "主题修复弹性开始体现，行业Beta贡献为主。"
       },
       {
-        "id": 5,
+        "id": 9,
         "startDate": "2022-11-17",
         "endDate": "2022-12-23",
         "startNav": 0.7276,
         "endNav": 0.6418,
         "changePct": -11.79,
-        "type": "trough"
+        "type": "trough",
+        "stageId": 2,
+        "holdingsSummary": "国产替代与科技成长修复带来第一轮明显反弹。",
+        "env": "赛道情绪修复，AI 与国产替代叙事重新强化。",
+        "managerAction": "持仓从极高集中向相对均衡过渡，逐步压低单一暴露。",
+        "attribution": "主题修复弹性开始体现，行业Beta贡献为主。"
       },
       {
-        "id": 6,
+        "id": 10,
         "startDate": "2022-12-23",
         "endDate": "2023-04-20",
         "startNav": 0.6418,
         "endNav": 0.8454,
         "changePct": 31.72,
-        "type": "peak"
+        "type": "peak",
+        "stageId": 2,
+        "holdingsSummary": "国产替代与科技成长修复带来第一轮明显反弹。",
+        "env": "赛道情绪修复，AI 与国产替代叙事重新强化。",
+        "managerAction": "持仓从极高集中向相对均衡过渡，逐步压低单一暴露。",
+        "attribution": "主题修复弹性开始体现，行业Beta贡献为主。"
       },
       {
-        "id": 7,
+        "id": 11,
         "startDate": "2023-04-20",
-        "endDate": "2023-08-25",
+        "endDate": "2023-05-12",
         "startNav": 0.8454,
+        "endNav": 0.7041,
+        "changePct": -16.71,
+        "type": "trough",
+        "stageId": 3,
+        "holdingsSummary": "行业在缺少强催化的情况下反复下探，经历两次超过 -26% 的主要回撤。",
+        "env": "科技成长冲高回落，市场等待产业主线重新明朗。",
+        "managerAction": "共管期到独任初期，组合逐渐向高弹性科技主线再集中。",
+        "attribution": "风格切换与赛道拥挤度回吐共同造成长期震荡。"
+      },
+      {
+        "id": 12,
+        "startDate": "2023-05-12",
+        "endDate": "2023-06-19",
+        "startNav": 0.7041,
+        "endNav": 0.77,
+        "changePct": 9.36,
+        "type": "peak",
+        "stageId": 3,
+        "holdingsSummary": "行业在缺少强催化的情况下反复下探，经历两次超过 -26% 的主要回撤。",
+        "env": "科技成长冲高回落，市场等待产业主线重新明朗。",
+        "managerAction": "共管期到独任初期，组合逐渐向高弹性科技主线再集中。",
+        "attribution": "风格切换与赛道拥挤度回吐共同造成长期震荡。"
+      },
+      {
+        "id": 13,
+        "startDate": "2023-06-19",
+        "endDate": "2023-08-25",
+        "startNav": 0.77,
         "endNav": 0.6233,
-        "changePct": -26.27,
-        "type": "trough"
+        "changePct": -19.05,
+        "type": "trough",
+        "stageId": 3,
+        "holdingsSummary": "行业在缺少强催化的情况下反复下探，经历两次超过 -26% 的主要回撤。",
+        "env": "科技成长冲高回落，市场等待产业主线重新明朗。",
+        "managerAction": "共管期到独任初期，组合逐渐向高弹性科技主线再集中。",
+        "attribution": "风格切换与赛道拥挤度回吐共同造成长期震荡。"
       },
       {
-        "id": 8,
+        "id": 14,
         "startDate": "2023-08-25",
-        "endDate": "2023-11-08",
+        "endDate": "2023-09-06",
         "startNav": 0.6233,
-        "endNav": 0.6965,
-        "changePct": 11.74,
-        "type": "peak"
+        "endNav": 0.694,
+        "changePct": 11.34,
+        "type": "peak",
+        "stageId": 3,
+        "holdingsSummary": "行业在缺少强催化的情况下反复下探，经历两次超过 -26% 的主要回撤。",
+        "env": "科技成长冲高回落，市场等待产业主线重新明朗。",
+        "managerAction": "共管期到独任初期，组合逐渐向高弹性科技主线再集中。",
+        "attribution": "风格切换与赛道拥挤度回吐共同造成长期震荡。"
       },
       {
-        "id": 9,
+        "id": 15,
+        "startDate": "2023-09-06",
+        "endDate": "2023-10-23",
+        "startNav": 0.694,
+        "endNav": 0.6336,
+        "changePct": -8.7,
+        "type": "trough",
+        "stageId": 3,
+        "holdingsSummary": "行业在缺少强催化的情况下反复下探，经历两次超过 -26% 的主要回撤。",
+        "env": "科技成长冲高回落，市场等待产业主线重新明朗。",
+        "managerAction": "共管期到独任初期，组合逐渐向高弹性科技主线再集中。",
+        "attribution": "风格切换与赛道拥挤度回吐共同造成长期震荡。"
+      },
+      {
+        "id": 16,
+        "startDate": "2023-10-23",
+        "endDate": "2023-11-08",
+        "startNav": 0.6336,
+        "endNav": 0.6965,
+        "changePct": 9.93,
+        "type": "peak",
+        "stageId": 3,
+        "holdingsSummary": "行业在缺少强催化的情况下反复下探，经历两次超过 -26% 的主要回撤。",
+        "env": "科技成长冲高回落，市场等待产业主线重新明朗。",
+        "managerAction": "共管期到独任初期，组合逐渐向高弹性科技主线再集中。",
+        "attribution": "风格切换与赛道拥挤度回吐共同造成长期震荡。"
+      },
+      {
+        "id": 17,
         "startDate": "2023-11-08",
         "endDate": "2024-02-02",
         "startNav": 0.6965,
         "endNav": 0.5099,
         "changePct": -26.79,
-        "type": "trough"
+        "type": "trough",
+        "stageId": 3,
+        "holdingsSummary": "行业在缺少强催化的情况下反复下探，经历两次超过 -26% 的主要回撤。",
+        "env": "科技成长冲高回落，市场等待产业主线重新明朗。",
+        "managerAction": "共管期到独任初期，组合逐渐向高弹性科技主线再集中。",
+        "attribution": "风格切换与赛道拥挤度回吐共同造成长期震荡。"
       },
       {
-        "id": 10,
+        "id": 18,
         "startDate": "2024-02-02",
         "endDate": "2024-03-18",
         "startNav": 0.5099,
         "endNav": 0.6322,
         "changePct": 23.99,
-        "type": "peak"
+        "type": "peak",
+        "stageId": 3,
+        "holdingsSummary": "行业在缺少强催化的情况下反复下探，经历两次超过 -26% 的主要回撤。",
+        "env": "科技成长冲高回落，市场等待产业主线重新明朗。",
+        "managerAction": "共管期到独任初期，组合逐渐向高弹性科技主线再集中。",
+        "attribution": "风格切换与赛道拥挤度回吐共同造成长期震荡。"
       },
       {
-        "id": 11,
+        "id": 19,
         "startDate": "2024-03-18",
         "endDate": "2024-04-23",
         "startNav": 0.6322,
         "endNav": 0.55,
         "changePct": -13.0,
-        "type": "trough"
+        "type": "trough",
+        "stageId": 3,
+        "holdingsSummary": "行业在缺少强催化的情况下反复下探，经历两次超过 -26% 的主要回撤。",
+        "env": "科技成长冲高回落，市场等待产业主线重新明朗。",
+        "managerAction": "共管期到独任初期，组合逐渐向高弹性科技主线再集中。",
+        "attribution": "风格切换与赛道拥挤度回吐共同造成长期震荡。"
       },
       {
-        "id": 12,
+        "id": 20,
         "startDate": "2024-04-23",
         "endDate": "2024-07-19",
         "startNav": 0.55,
         "endNav": 0.646,
         "changePct": 17.45,
-        "type": "peak"
+        "type": "peak",
+        "stageId": 3,
+        "holdingsSummary": "行业在缺少强催化的情况下反复下探，经历两次超过 -26% 的主要回撤。",
+        "env": "科技成长冲高回落，市场等待产业主线重新明朗。",
+        "managerAction": "共管期到独任初期，组合逐渐向高弹性科技主线再集中。",
+        "attribution": "风格切换与赛道拥挤度回吐共同造成长期震荡。"
       },
       {
-        "id": 13,
+        "id": 21,
         "startDate": "2024-07-19",
         "endDate": "2024-09-23",
         "startNav": 0.646,
         "endNav": 0.5253,
         "changePct": -18.68,
-        "type": "trough"
+        "type": "trough",
+        "stageId": 3,
+        "holdingsSummary": "行业在缺少强催化的情况下反复下探，经历两次超过 -26% 的主要回撤。",
+        "env": "科技成长冲高回落，市场等待产业主线重新明朗。",
+        "managerAction": "共管期到独任初期，组合逐渐向高弹性科技主线再集中。",
+        "attribution": "风格切换与赛道拥挤度回吐共同造成长期震荡。"
       },
       {
-        "id": 14,
+        "id": 22,
         "startDate": "2024-09-23",
         "endDate": "2024-10-08",
         "startNav": 0.5253,
         "endNav": 0.7923,
         "changePct": 50.83,
-        "type": "peak"
+        "type": "peak",
+        "stageId": 4,
+        "holdingsSummary": "AI 算力、先进制程设备与国产替代三条主线共振，是本基金最重要的盈利阶段。",
+        "env": "风险偏好和产业景气同时回升，科技成长被快速重估。",
+        "managerAction": "马磊独任后持续提升集中度，强化海光、寒武纪、设备链仓位。",
+        "attribution": "行业Beta顺风下，集中增强策略把盈利弹性进一步放大。"
       },
       {
-        "id": 15,
+        "id": 23,
         "startDate": "2024-10-08",
         "endDate": "2024-10-16",
         "startNav": 0.7923,
         "endNav": 0.7042,
         "changePct": -11.12,
-        "type": "trough"
+        "type": "trough",
+        "stageId": 4,
+        "holdingsSummary": "AI 算力、先进制程设备与国产替代三条主线共振，是本基金最重要的盈利阶段。",
+        "env": "风险偏好和产业景气同时回升，科技成长被快速重估。",
+        "managerAction": "马磊独任后持续提升集中度，强化海光、寒武纪、设备链仓位。",
+        "attribution": "行业Beta顺风下，集中增强策略把盈利弹性进一步放大。"
       },
       {
-        "id": 16,
+        "id": 24,
         "startDate": "2024-10-16",
         "endDate": "2024-11-11",
         "startNav": 0.7042,
         "endNav": 0.8892,
         "changePct": 26.27,
-        "type": "peak"
+        "type": "peak",
+        "stageId": 4,
+        "holdingsSummary": "AI 算力、先进制程设备与国产替代三条主线共振，是本基金最重要的盈利阶段。",
+        "env": "风险偏好和产业景气同时回升，科技成长被快速重估。",
+        "managerAction": "马磊独任后持续提升集中度，强化海光、寒武纪、设备链仓位。",
+        "attribution": "行业Beta顺风下，集中增强策略把盈利弹性进一步放大。"
       },
       {
-        "id": 17,
+        "id": 25,
         "startDate": "2024-11-11",
         "endDate": "2024-12-17",
         "startNav": 0.8892,
         "endNav": 0.7745,
         "changePct": -12.9,
-        "type": "trough"
+        "type": "trough",
+        "stageId": 4,
+        "holdingsSummary": "AI 算力、先进制程设备与国产替代三条主线共振，是本基金最重要的盈利阶段。",
+        "env": "风险偏好和产业景气同时回升，科技成长被快速重估。",
+        "managerAction": "马磊独任后持续提升集中度，强化海光、寒武纪、设备链仓位。",
+        "attribution": "行业Beta顺风下，集中增强策略把盈利弹性进一步放大。"
       },
       {
-        "id": 18,
+        "id": 26,
         "startDate": "2024-12-17",
         "endDate": "2024-12-26",
         "startNav": 0.7745,
         "endNav": 0.8534,
         "changePct": 10.19,
-        "type": "peak"
+        "type": "peak",
+        "stageId": 4,
+        "holdingsSummary": "AI 算力、先进制程设备与国产替代三条主线共振，是本基金最重要的盈利阶段。",
+        "env": "风险偏好和产业景气同时回升，科技成长被快速重估。",
+        "managerAction": "马磊独任后持续提升集中度，强化海光、寒武纪、设备链仓位。",
+        "attribution": "行业Beta顺风下，集中增强策略把盈利弹性进一步放大。"
       },
       {
-        "id": 19,
+        "id": 27,
         "startDate": "2024-12-26",
         "endDate": "2025-01-06",
         "startNav": 0.8534,
         "endNav": 0.763,
         "changePct": -10.59,
-        "type": "trough"
+        "type": "trough",
+        "stageId": 4,
+        "holdingsSummary": "AI 算力、先进制程设备与国产替代三条主线共振，是本基金最重要的盈利阶段。",
+        "env": "风险偏好和产业景气同时回升，科技成长被快速重估。",
+        "managerAction": "马磊独任后持续提升集中度，强化海光、寒武纪、设备链仓位。",
+        "attribution": "行业Beta顺风下，集中增强策略把盈利弹性进一步放大。"
       },
       {
-        "id": 20,
+        "id": 28,
         "startDate": "2025-01-06",
         "endDate": "2025-02-26",
         "startNav": 0.763,
         "endNav": 0.9394,
         "changePct": 23.12,
-        "type": "peak"
+        "type": "peak",
+        "stageId": 4,
+        "holdingsSummary": "AI 算力、先进制程设备与国产替代三条主线共振，是本基金最重要的盈利阶段。",
+        "env": "风险偏好和产业景气同时回升，科技成长被快速重估。",
+        "managerAction": "马磊独任后持续提升集中度，强化海光、寒武纪、设备链仓位。",
+        "attribution": "行业Beta顺风下，集中增强策略把盈利弹性进一步放大。"
       },
       {
-        "id": 21,
+        "id": 29,
         "startDate": "2025-02-26",
         "endDate": "2025-04-08",
         "startNav": 0.9394,
         "endNav": 0.7658,
         "changePct": -18.48,
-        "type": "trough"
+        "type": "trough",
+        "stageId": 4,
+        "holdingsSummary": "AI 算力、先进制程设备与国产替代三条主线共振，是本基金最重要的盈利阶段。",
+        "env": "风险偏好和产业景气同时回升，科技成长被快速重估。",
+        "managerAction": "马磊独任后持续提升集中度，强化海光、寒武纪、设备链仓位。",
+        "attribution": "行业Beta顺风下，集中增强策略把盈利弹性进一步放大。"
       },
       {
-        "id": 22,
+        "id": 30,
         "startDate": "2025-04-08",
-        "endDate": "2025-08-28",
+        "endDate": "2025-05-06",
         "startNav": 0.7658,
-        "endNav": 1.1179,
-        "changePct": 45.98,
-        "type": "peak"
+        "endNav": 0.8645,
+        "changePct": 12.89,
+        "type": "peak",
+        "stageId": 4,
+        "holdingsSummary": "AI 算力、先进制程设备与国产替代三条主线共振，是本基金最重要的盈利阶段。",
+        "env": "风险偏好和产业景气同时回升，科技成长被快速重估。",
+        "managerAction": "马磊独任后持续提升集中度，强化海光、寒武纪、设备链仓位。",
+        "attribution": "行业Beta顺风下，集中增强策略把盈利弹性进一步放大。"
       },
       {
-        "id": 23,
+        "id": 31,
+        "startDate": "2025-05-06",
+        "endDate": "2025-06-17",
+        "startNav": 0.8645,
+        "endNav": 0.7814,
+        "changePct": -9.61,
+        "type": "trough",
+        "stageId": 4,
+        "holdingsSummary": "AI 算力、先进制程设备与国产替代三条主线共振，是本基金最重要的盈利阶段。",
+        "env": "风险偏好和产业景气同时回升，科技成长被快速重估。",
+        "managerAction": "马磊独任后持续提升集中度，强化海光、寒武纪、设备链仓位。",
+        "attribution": "行业Beta顺风下，集中增强策略把盈利弹性进一步放大。"
+      },
+      {
+        "id": 32,
+        "startDate": "2025-06-17",
+        "endDate": "2025-08-28",
+        "startNav": 0.7814,
+        "endNav": 1.1179,
+        "changePct": 43.06,
+        "type": "peak",
+        "stageId": 4,
+        "holdingsSummary": "AI 算力、先进制程设备与国产替代三条主线共振，是本基金最重要的盈利阶段。",
+        "env": "风险偏好和产业景气同时回升，科技成长被快速重估。",
+        "managerAction": "马磊独任后持续提升集中度，强化海光、寒武纪、设备链仓位。",
+        "attribution": "行业Beta顺风下，集中增强策略把盈利弹性进一步放大。"
+      },
+      {
+        "id": 33,
         "startDate": "2025-08-28",
         "endDate": "2025-09-04",
         "startNav": 1.1179,
         "endNav": 0.9875,
         "changePct": -11.66,
-        "type": "trough"
+        "type": "trough",
+        "stageId": 4,
+        "holdingsSummary": "AI 算力、先进制程设备与国产替代三条主线共振，是本基金最重要的盈利阶段。",
+        "env": "风险偏好和产业景气同时回升，科技成长被快速重估。",
+        "managerAction": "马磊独任后持续提升集中度，强化海光、寒武纪、设备链仓位。",
+        "attribution": "行业Beta顺风下，集中增强策略把盈利弹性进一步放大。"
       },
       {
-        "id": 24,
+        "id": 34,
         "startDate": "2025-09-04",
         "endDate": "2025-10-09",
         "startNav": 0.9875,
         "endNav": 1.3263,
         "changePct": 34.31,
-        "type": "peak"
+        "type": "peak",
+        "stageId": 4,
+        "holdingsSummary": "AI 算力、先进制程设备与国产替代三条主线共振，是本基金最重要的盈利阶段。",
+        "env": "风险偏好和产业景气同时回升，科技成长被快速重估。",
+        "managerAction": "马磊独任后持续提升集中度，强化海光、寒武纪、设备链仓位。",
+        "attribution": "行业Beta顺风下，集中增强策略把盈利弹性进一步放大。"
       },
       {
-        "id": 25,
+        "id": 35,
         "startDate": "2025-10-09",
         "endDate": "2025-10-17",
         "startNav": 1.3263,
         "endNav": 1.161,
         "changePct": -12.46,
-        "type": "trough"
+        "type": "trough",
+        "stageId": 4,
+        "holdingsSummary": "AI 算力、先进制程设备与国产替代三条主线共振，是本基金最重要的盈利阶段。",
+        "env": "风险偏好和产业景气同时回升，科技成长被快速重估。",
+        "managerAction": "马磊独任后持续提升集中度，强化海光、寒武纪、设备链仓位。",
+        "attribution": "行业Beta顺风下，集中增强策略把盈利弹性进一步放大。"
       },
       {
-        "id": 26,
+        "id": 36,
         "startDate": "2025-10-17",
         "endDate": "2025-10-27",
         "startNav": 1.161,
         "endNav": 1.3113,
         "changePct": 12.95,
-        "type": "peak"
+        "type": "peak",
+        "stageId": 4,
+        "holdingsSummary": "AI 算力、先进制程设备与国产替代三条主线共振，是本基金最重要的盈利阶段。",
+        "env": "风险偏好和产业景气同时回升，科技成长被快速重估。",
+        "managerAction": "马磊独任后持续提升集中度，强化海光、寒武纪、设备链仓位。",
+        "attribution": "行业Beta顺风下，集中增强策略把盈利弹性进一步放大。"
       },
       {
-        "id": 27,
+        "id": 37,
         "startDate": "2025-10-27",
         "endDate": "2025-11-21",
         "startNav": 1.3113,
         "endNav": 1.1095,
         "changePct": -15.39,
-        "type": "trough"
+        "type": "trough",
+        "stageId": 5,
+        "holdingsSummary": "进入高位后净值波动显著放大，但产业景气与政策主线并未被证伪。",
+        "env": "高位震荡中仍有官方产量和产业景气数据持续验证芯片强势。",
+        "managerAction": "维持 70% 左右前十大集中度，继续贯彻高景气判断。",
+        "attribution": "顺风期仍有收益，但赔率和波动都明显变差。"
       },
       {
-        "id": 28,
+        "id": 38,
         "startDate": "2025-11-21",
         "endDate": "2026-01-28",
         "startNav": 1.1095,
         "endNav": 1.4826,
         "changePct": 33.63,
-        "type": "peak"
+        "type": "peak",
+        "stageId": 5,
+        "holdingsSummary": "进入高位后净值波动显著放大，但产业景气与政策主线并未被证伪。",
+        "env": "高位震荡中仍有官方产量和产业景气数据持续验证芯片强势。",
+        "managerAction": "维持 70% 左右前十大集中度，继续贯彻高景气判断。",
+        "attribution": "顺风期仍有收益，但赔率和波动都明显变差。"
       },
       {
-        "id": 29,
+        "id": 39,
         "startDate": "2026-01-28",
-        "endDate": "2026-03-31",
+        "endDate": "2026-02-06",
         "startNav": 1.4826,
-        "endNav": 1.1955,
-        "changePct": -19.36,
-        "type": "trough"
+        "endNav": 1.3409,
+        "changePct": -9.56,
+        "type": "trough",
+        "stageId": 5,
+        "holdingsSummary": "进入高位后净值波动显著放大，但产业景气与政策主线并未被证伪。",
+        "env": "高位震荡中仍有官方产量和产业景气数据持续验证芯片强势。",
+        "managerAction": "维持 70% 左右前十大集中度，继续贯彻高景气判断。",
+        "attribution": "顺风期仍有收益，但赔率和波动都明显变差。"
       },
       {
-        "id": 30,
+        "id": 40,
+        "startDate": "2026-02-06",
+        "endDate": "2026-02-26",
+        "startNav": 1.3409,
+        "endNav": 1.4529,
+        "changePct": 8.35,
+        "type": "peak",
+        "stageId": 5,
+        "holdingsSummary": "进入高位后净值波动显著放大，但产业景气与政策主线并未被证伪。",
+        "env": "高位震荡中仍有官方产量和产业景气数据持续验证芯片强势。",
+        "managerAction": "维持 70% 左右前十大集中度，继续贯彻高景气判断。",
+        "attribution": "顺风期仍有收益，但赔率和波动都明显变差。"
+      },
+      {
+        "id": 41,
+        "startDate": "2026-02-26",
+        "endDate": "2026-03-31",
+        "startNav": 1.4529,
+        "endNav": 1.1955,
+        "changePct": -17.72,
+        "type": "trough",
+        "stageId": 5,
+        "holdingsSummary": "进入高位后净值波动显著放大，但产业景气与政策主线并未被证伪。",
+        "env": "高位震荡中仍有官方产量和产业景气数据持续验证芯片强势。",
+        "managerAction": "维持 70% 左右前十大集中度，继续贯彻高景气判断。",
+        "attribution": "顺风期仍有收益，但赔率和波动都明显变差。"
+      },
+      {
+        "id": 42,
         "startDate": "2026-03-31",
-        "endDate": "2026-05-19",
+        "endDate": "2026-05-20",
         "startNav": 1.1955,
-        "endNav": 1.8361,
-        "changePct": 53.58,
-        "type": "peak"
+        "endNav": 1.9258,
+        "changePct": 61.09,
+        "type": "peak",
+        "stageId": 5,
+        "holdingsSummary": "进入高位后净值波动显著放大，但产业景气与政策主线并未被证伪。",
+        "env": "高位震荡中仍有官方产量和产业景气数据持续验证芯片强势。",
+        "managerAction": "维持 70% 左右前十大集中度，继续贯彻高景气判断。",
+        "attribution": "顺风期仍有收益，但赔率和波动都明显变差。"
       }
     ],
-    "totalInflectionPoints": 30,
+    "totalInflectionPoints": 42,
     "stages": [
       {
         "id": 1,
-        "name": "建仓承压",
+        "name": "成立即遇成长杀估值",
         "emoji": "🔴",
         "period": "2021-12 → 2022-10",
         "returnPct": -40.5,
@@ -1106,14 +1411,14 @@
         "driverType": "double_loss",
         "driverLabel": "🔴 Beta+Alpha双损",
         "color": "#b42318",
-        "description": "成立即进入芯片景气下行与估值压缩区间，净值快速下探。",
-        "env": "半导体下行周期叠加成长风格杀估值。",
-        "managerAction": "早期高集中建仓，以设计链和核心芯片标的为主。",
-        "attribution": "单一赛道高Beta在逆风期被显著放大。"
+        "description": "基金成立后即遭遇半导体景气下行与成长股估值压缩，早期并未体现增强优势。",
+        "env": "半导体景气下行与成长风格杀估值同步发生。",
+        "managerAction": "早期组合以设计链和高景气芯片股为主，高集中建仓承受了较大系统性压力。",
+        "attribution": "单一赛道高Beta叠加增强失效，形成Beta与Alpha双损。"
       },
       {
         "id": 2,
-        "name": "首轮修复",
+        "name": "AI预期驱动的首次修复",
         "emoji": "🟢",
         "period": "2022-10 → 2023-04",
         "returnPct": 42.08,
@@ -1122,14 +1427,14 @@
         "driverType": "beta",
         "driverLabel": "🌊 行业Beta主导",
         "color": "#16a34a",
-        "description": "国产替代与科技成长修复带来第一轮明显反弹。",
-        "env": "赛道情绪修复，AI 与国产替代叙事重新强化。",
+        "description": "芯片板块跟随AI主题和周期修复迎来第一轮反弹，但更像行业系统修复而非稳定Alpha兑现。",
+        "env": "AI与国产替代叙事重新升温，赛道情绪修复。",
         "managerAction": "持仓从极高集中向相对均衡过渡，逐步压低单一暴露。",
-        "attribution": "主题修复弹性开始体现，行业Beta贡献为主。"
+        "attribution": "反弹主要来自行业Beta修复。"
       },
       {
         "id": 3,
-        "name": "震荡消化",
+        "name": "二次探底与底部震荡",
         "emoji": "🔄",
         "period": "2023-04 → 2024-09",
         "returnPct": -37.86,
@@ -1138,42 +1443,26 @@
         "driverType": "both",
         "driverLabel": "🔄 风格切换期",
         "color": "#6b7280",
-        "description": "行业在缺少强催化的情况下反复下探，经历两次超过 -26% 的主要回撤。",
+        "description": "芯片板块再次进入震荡磨底，基金在2024-02-02跌至0.5099历史最低点。",
         "env": "科技成长冲高回落，市场等待产业主线重新明朗。",
-        "managerAction": "共管期到独任初期，组合逐渐向高弹性科技主线再集中。",
-        "attribution": "风格切换与赛道拥挤度回吐共同造成长期震荡。"
+        "managerAction": "马磊在2023-08进入共管并逐步接棒，独任初期仍主要承受行业贝塔压力。",
+        "attribution": "赛道拥挤回吐与风格切换共同导致长期震荡。"
       },
       {
         "id": 4,
-        "name": "AI主升浪",
+        "name": "AI算力与国产替代共振主升浪",
         "emoji": "⚡",
-        "period": "2024-09 → 2025-10",
-        "returnPct": 152.49,
+        "period": "2024-09 → 2026-05",
+        "returnPct": 266.61,
         "hs300Pct": 0,
         "excessPct": 0,
         "driverType": "alpha",
         "driverLabel": "⚡ Alpha贡献显著",
         "color": "#2563eb",
-        "description": "AI 算力、先进制程设备与国产替代三条主线共振，是本基金最重要的盈利阶段。",
-        "env": "风险偏好和产业景气同时回升，科技成长被快速重估。",
-        "managerAction": "马磊独任后持续提升集中度，强化海光、寒武纪、设备链仓位。",
-        "attribution": "行业Beta顺风下，集中增强策略把盈利弹性进一步放大。"
-      },
-      {
-        "id": 5,
-        "name": "高位续强",
-        "emoji": "🟡",
-        "period": "2025-10 → 2026-05",
-        "returnPct": 38.44,
-        "hs300Pct": 0,
-        "excessPct": 0,
-        "driverType": "beta",
-        "driverLabel": "🌊 行业Beta主导",
-        "color": "#d97706",
-        "description": "进入高位后净值波动显著放大，但产业景气与政策主线并未被证伪。",
-        "env": "高位震荡中仍有官方产量和产业景气数据持续验证芯片强势。",
-        "managerAction": "维持 70% 左右前十大集中度，继续贯彻高景气判断。",
-        "attribution": "顺风期仍有收益，但赔率和波动都明显变差。"
+        "description": "这是基金真正证明自身价值的时期，既吃到行业贝塔，也体现出增强选股的正贡献。",
+        "env": "风险偏好和产业景气同时回升，AI算力、设备材料和国产替代三条主线共振。",
+        "managerAction": "持续提高海光信息、寒武纪、中微公司、北方华创等高弹性标的权重。",
+        "attribution": "行业Beta顺风下，集中增强策略进一步放大盈利弹性。"
       }
     ]
   },
@@ -1193,7 +1482,7 @@
           "code": "025881",
           "type": "混合型-偏股",
           "tenure": "2026-01-20 ~ 至今",
-          "return": 40.01,
+          "return": 41.83,
           "rank": null,
           "rankTotal": null,
           "grade": null,
@@ -1204,7 +1493,7 @@
           "code": "025880",
           "type": "混合型-偏股",
           "tenure": "2026-01-20 ~ 至今",
-          "return": 40.19,
+          "return": 42.02,
           "rank": null,
           "rankTotal": null,
           "grade": null,
@@ -1222,17 +1511,6 @@
           "isCurrent": false
         },
         {
-          "name": "汇添富策略增长灵活配置混合",
-          "code": "009715",
-          "type": "混合型-灵活",
-          "tenure": "2025-11-07 ~ 2026-04-20",
-          "return": 14.41,
-          "rank": null,
-          "rankTotal": null,
-          "grade": null,
-          "isCurrent": false
-        },
-        {
           "name": "汇添富优势企业精选混合C",
           "code": "016173",
           "type": "混合型-偏股",
@@ -1244,11 +1522,22 @@
           "isCurrent": false
         },
         {
+          "name": "汇添富策略增长灵活配置混合",
+          "code": "009715",
+          "type": "混合型-灵活",
+          "tenure": "2025-11-07 ~ 2026-04-20",
+          "return": 14.41,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": false
+        },
+        {
           "name": "汇添富港股通科技精选混合发起式C",
           "code": "025545",
           "type": "混合型-偏股",
           "tenure": "2025-10-28 ~ 至今",
-          "return": 13.85,
+          "return": 17.72,
           "rank": null,
           "rankTotal": null,
           "grade": null,
@@ -1259,7 +1548,7 @@
           "code": "025544",
           "type": "混合型-偏股",
           "tenure": "2025-10-28 ~ 至今",
-          "return": 14.23,
+          "return": 18.11,
           "rank": null,
           "rankTotal": null,
           "grade": null,
@@ -1270,21 +1559,10 @@
           "code": "007639",
           "type": "混合型-灵活",
           "tenure": "2025-10-14 ~ 至今",
-          "return": 70.4,
-          "rank": 264,
-          "rankTotal": 2270,
+          "return": 82.26,
+          "rank": 213,
+          "rankTotal": 2271,
           "grade": "top",
-          "isCurrent": true
-        },
-        {
-          "name": "汇添富北交所创新精选两年定开混合A",
-          "code": "014279",
-          "type": "混合型-偏股",
-          "tenure": "2024-12-10 ~ 至今",
-          "return": 60.65,
-          "rank": 3617,
-          "rankTotal": 4497,
-          "grade": "weak",
           "isCurrent": true
         },
         {
@@ -1292,9 +1570,20 @@
           "code": "014280",
           "type": "混合型-偏股",
           "tenure": "2024-12-10 ~ 至今",
-          "return": 59.72,
-          "rank": 3644,
-          "rankTotal": 4497,
+          "return": 62.16,
+          "rank": 3729,
+          "rankTotal": 4499,
+          "grade": "weak",
+          "isCurrent": true
+        },
+        {
+          "name": "汇添富北交所创新精选两年定开混合A",
+          "code": "014279",
+          "type": "混合型-偏股",
+          "tenure": "2024-12-10 ~ 至今",
+          "return": 63.11,
+          "rank": 3709,
+          "rankTotal": 4499,
           "grade": "weak",
           "isCurrent": true
         },
@@ -1303,9 +1592,9 @@
           "code": "011399",
           "type": "混合型-偏股",
           "tenure": "2024-11-08 ~ 至今",
-          "return": 132.58,
-          "rank": 149,
-          "rankTotal": 4497,
+          "return": 137.78,
+          "rank": 162,
+          "rankTotal": 4499,
           "grade": "top",
           "isCurrent": true
         },
@@ -1314,9 +1603,9 @@
           "code": "011400",
           "type": "混合型-偏股",
           "tenure": "2024-11-08 ~ 至今",
-          "return": 130.72,
-          "rank": 156,
-          "rankTotal": 4497,
+          "return": 135.88,
+          "rank": 166,
+          "rankTotal": 4499,
           "grade": "top",
           "isCurrent": true
         },
@@ -1325,9 +1614,9 @@
           "code": "013370",
           "type": "混合型-偏股",
           "tenure": "2024-04-30 ~ 至今",
-          "return": 253.22,
-          "rank": 66,
-          "rankTotal": 4497,
+          "return": 259.16,
+          "rank": 65,
+          "rankTotal": 4499,
           "grade": "top",
           "isCurrent": true
         },
@@ -1336,9 +1625,9 @@
           "code": "013369",
           "type": "混合型-偏股",
           "tenure": "2024-04-30 ~ 至今",
-          "return": 256.16,
-          "rank": 63,
-          "rankTotal": 4497,
+          "return": 262.15,
+          "rank": 61,
+          "rankTotal": 4499,
           "grade": "top",
           "isCurrent": true
         },
@@ -1347,9 +1636,9 @@
           "code": "014193",
           "type": "指数型-股票",
           "tenure": "2023-08-07 ~ 至今",
-          "return": 166.05,
-          "rank": 115,
-          "rankTotal": 3854,
+          "return": 179.06,
+          "rank": 90,
+          "rankTotal": 3863,
           "grade": "top",
           "isCurrent": true
         },
@@ -1358,39 +1647,39 @@
           "code": "014194",
           "type": "指数型-股票",
           "tenure": "2023-08-07 ~ 至今",
-          "return": 163.77,
-          "rank": 117,
-          "rankTotal": 3854,
+          "return": 176.66,
+          "rank": 96,
+          "rankTotal": 3863,
           "grade": "top",
           "isCurrent": true
         }
       ],
-      "bestReturn": 256.16,
-      "worstReturn": 13.85,
+      "bestReturn": 262.15,
+      "worstReturn": 14.41,
       "manageDate": "2023-08-07",
       "manageYears": 2.8,
-      "tenureReturn": 163.77,
-      "rankInPeer": 117,
-      "rankTotal": 3854,
+      "tenureReturn": 176.66,
+      "rankInPeer": 96,
+      "rankTotal": 3863,
       "title": "基金经理",
-      "style": "科技成长 / 指数增强",
+      "style": "芯片产业增强 / 科技成长",
       "experience": "2.8年（公募管理口径）",
       "philosophy": [
         {
           "label": "核心投资理念",
-          "text": "围绕科技创新主线，优先押注能从 AI、国产算力、先进制程设备中直接受益的高景气链条。"
+          "text": "围绕芯片产业基准，在国产替代、AI算力、设备材料和存储链中挑选高弹性Alpha个股。"
         },
         {
           "label": "选股方法论",
-          "text": "更偏重景气方向和产业链核心位置，而不是单纯分散复制指数；海光信息、寒武纪、中微公司、北方华创等都指向算力芯片与半导体设备主线。"
+          "text": "更偏产业主线加高弹性环节，而不是纯粹低偏离增强，代表标的是海光信息、寒武纪、中微公司、北方华创、拓荆科技和兆易创新。"
         },
         {
           "label": "仓位管理风格",
-          "text": "高仓位、高集中度、主动强化行业暴露；顺风期弹性极强，但回撤控制偏弱，容易承受 15%-20% 级别季度波动。"
+          "text": "高仓位进攻型，2026-04-21至2026-05-20多日股票仓位约99.19%，5月中旬才阶段性回落到73.42%。"
         },
         {
-          "label": "风格稳定性",
-          "text": "独任后风格更稳定，集中度从 2024Q2 的 56.1% 抬升到 2026Q1 的 70.1%，持续强化 AI 算力与设备主线。"
+          "label": "历史风格稳定性",
+          "text": "自2023Q4起持续聚焦AI算力、设备材料、存储与设计链，没有明显漂移到非芯片主题。"
         }
       ],
       "consistencyAudit": [
@@ -1398,44 +1687,55 @@
           "period": "2025年Q3季报",
           "result": "pass",
           "label": "一致",
-          "stated": "A股市场表现强势，沪深300 指数上涨17.9%，中信半导体指数上涨48.6%，以 AI 为代表的新技术加快普及，芯片半导体板块产业趋势向上。",
-          "actual": "寒武纪 8.84%、兆易创新 8.43%、中微公司 8.03%，组合以更高集中度直接拥抱 AI 算力与半导体设备景气上行。",
+          "stated": "加大配置了国产AI算力芯片、晶圆代工、半导体设备和材料板块，以及国产存储器芯片产业链。",
+          "actual": "寒武纪8.84%、兆易创新8.43%、中微公司8.03%，组合以更高集中度直接拥抱AI算力与半导体设备景气上行。",
           "evaluation": "季报表达与实际持仓高度一致，主升浪盈利质量高。"
+        },
+        {
+          "period": "2025年Q4季报",
+          "result": "pass",
+          "label": "一致",
+          "stated": "增加了半导体设备、晶圆代工板块的配置，并加大配置了国产存储器芯片产业链。",
+          "actual": "北方华创9.74%、寒武纪9.68%、海光信息8.80%，持仓继续维持高景气主线。",
+          "evaluation": "高位震荡期没有明显风格偏移，方向与表述仍高度一致。"
         },
         {
           "period": "2026年Q1季报",
           "result": "pass",
           "label": "一致",
-          "stated": "全球科技创新发展趋势持续加速，中国企业有望抓住新一轮 AI 科技革命的红利，特别是在芯片半导体领域。",
-          "actual": "海光信息 8.86%、中微公司 8.75%、芯原股份 8.11%，前排仓位进一步向算力芯片、设备和设计服务链聚焦。",
+          "stated": "加大配置了国产AI算力芯片，增加了半导体设备材料的配置，并看好存储器芯片同时受益于AI需求拉动和国产替代。",
+          "actual": "海光信息8.86%、中微公司8.75%、芯原股份8.11%，前排仓位进一步向算力芯片、设备和设计服务链聚焦。",
           "evaluation": "景气判断与持仓结构高度一致，但也意味着回撤控制仍然依赖行业顺风。"
         }
       ],
       "abilityProfile": {
-        "best": "在科技景气主升浪中放大利润，独任以来本基金阶段收益约 +200%。",
-        "worst": "回撤管理偏弱，高位震荡阶段仍常承受双位数回吐。",
+        "best": "围绕芯片主线做增强选股，能在高景气子环节前置布局，独任阶段回报+214.72%。",
+        "worst": "回撤控制能力弱，风格逆风期容易深度回撤，同时在管13只产品带来管理负荷压力。",
         "goodEnv": [
-          "科技景气上行期",
-          "AI产业链扩散期",
-          "风险偏好改善期",
-          "政策强调科技自立自强的阶段"
+          "科技成长景气扩张阶段",
+          "AI资本开支上行阶段",
+          "国产替代强化阶段",
+          "风险偏好提升阶段"
         ],
         "badEnv": [
-          "单一赛道估值过热阶段",
-          "外部贸易冲击强化阶段",
-          "市场快速切向防御与红利风格阶段"
+          "成长股杀估值阶段",
+          "地缘风险放大阶段",
+          "市场风格切向高股息防御阶段",
+          "半导体价格周期回落阶段"
         ]
       },
       "strengths": [
-        "敢于在景气上行时集中押注",
-        "科技成长与高弹性主题把握能力强",
-        "言行一致性较高"
+        "围绕芯片主线做增强选股的能力强",
+        "能在高景气子环节前置布局",
+        "季报表述与实际持仓高度一致"
       ],
       "weaknesses": [
-        "缺乏明显防守降仓动作",
-        "高集中度放大组合波动",
-        "在管产品较多，存在精力分散风险"
-      ]
+        "回撤控制能力弱",
+        "高仓位高集中度会放大净值波动",
+        "在管13只产品带来管理负荷压力"
+      ],
+      "education": "博士研究生；电子和通信行业研究背景",
+      "joinDate": "2018-07"
     },
     "history": [
       {
@@ -1445,7 +1745,7 @@
         "end": "2023-08-06",
         "tenure": "约1年8个月",
         "return": -30.39,
-        "note": "建仓期直接遭遇芯片下行周期，时点不利大于选股错误。"
+        "note": "基金成立后经历芯片板块熊市，业绩主要受行业系统性下行影响。"
       },
       {
         "name": "许一尊 + 马磊",
@@ -1454,7 +1754,7 @@
         "end": "2024-07-10",
         "tenure": "约11个月",
         "return": -12.1,
-        "note": "共管期仍以消化前期回撤为主，风格尚未完全切换。"
+        "note": "过渡阶段仍处行业底部震荡，经理切换尚未立即反映为净值改善。"
       },
       {
         "name": "马磊",
@@ -1462,16 +1762,12 @@
         "start": "2024-07-11",
         "end": null,
         "tenure": "约10个月",
-        "return": 200.07,
-        "note": "独任后显著强化 AI 算力与设备主线，顺风期盈利能力极强。"
+        "return": 214.72,
+        "note": "独任后完整踩中AI算力、设备材料和存储链主升浪，是基金历史最强阶段。"
       }
     ]
   },
   "navHistory": [
-    {
-      "date": "2025-12-29",
-      "nav": 1.2312
-    },
     {
       "date": "2025-12-30",
       "nav": 1.2362
@@ -1827,39 +2123,43 @@
     {
       "date": "2026-05-19",
       "nav": 1.8361
+    },
+    {
+      "date": "2026-05-20",
+      "nav": 1.9258
     }
   ],
   "scoring": {
-    "total": 68,
+    "total": 72,
     "grade": "良好",
-    "recommendation": "谨慎，高位不追",
+    "recommendation": "谨慎，等待回撤",
     "recommendationType": "cautious",
     "rating": "★★",
-    "logic": "单一行业主题指数增强型基金，质量端仍有较强 Alpha 和产业顺风，但当前净值已处历史最高区间，赔率明显弱于 2024 年底和 2025 年中段。",
+    "logic": "芯片行业主题与增强选股能力仍强，但当前净值已处历史100%分位，更适合存量持有和等待回撤分批，而不是高位重仓追入。",
     "dimensions": [
       {
         "name": "超额Alpha稳定性",
-        "score": 27,
+        "score": 28,
         "maxScore": 30,
         "pros": [
-          "年化Alpha 19.17%",
-          "信息比率 0.743",
-          "2024-2026 持续显著跑赢沪深300"
+          "年化 Alpha 20.31%，显著高于一般指数增强产品",
+          "近1年、近2年、近3年均显著跑赢沪深300和同类"
         ],
         "cons": [
-          "当前独任经理完整独任样本仍不足2年"
+          "2022年大幅回撤期未体现稳定超额"
         ]
       },
       {
         "name": "跟踪误差控制",
-        "score": 6,
+        "score": 11,
         "maxScore": 20,
         "pros": [
-          "增强效果显著"
+          "偏离并非无效冒险，年化Alpha 20.31%、信息比率0.78",
+          "作为芯片行业指数增强，当前偏离更多体现主题增强弹性"
         ],
         "cons": [
-          "年化跟踪误差 25.98% 明显偏高",
-          "R² 仅 0.4182，偏离基准较大"
+          "26.07%主要是相对沪深300的风格偏离参考，不能机械等同于相对芯片指数的跟踪失控",
+          "整体偏离幅度仍然不低"
         ]
       },
       {
@@ -1867,68 +2167,69 @@
         "score": 20,
         "maxScore": 20,
         "pros": [
-          "当前规模 5.58 亿元，处于 5-30 亿较优区间"
+          "当前规模 5.58 亿元，处于指数增强较舒适区间",
+          "尚未出现超大规模摊薄问题"
         ],
         "cons": []
       },
       {
         "name": "费率性价比",
-        "score": 3,
+        "score": 2,
         "maxScore": 15,
         "pros": [
-          "C类免申购费"
+          "C类无申购费、7天后免赎回费"
         ],
         "cons": [
-          "年化持有成本约 1.70%，对指数工具偏高"
+          "年化综合费率约 1.70%，相对指数增强产品偏贵"
         ]
       },
       {
         "name": "量化团队实力",
-        "score": 12,
+        "score": 11,
         "maxScore": 15,
         "pros": [
-          "汇添富为头部公募平台",
-          "科技与指数增强产品线较丰富"
+          "经理在科技成长线多只产品近1年排名靠前",
+          "本基金近2年和年内超额非常显著"
         ],
         "cons": [
-          "当前经理独任时间尚短，持续性待观察"
+          "经理任期与公开可核验履历仍偏短，在管13只产品存在分散压力"
         ]
       }
     ],
     "risks": [
       {
+        "type": "高波动深回撤风险",
+        "level": "high",
+        "note": "历史最大回撤 -49.01%，持续约26个月，逆风期净值可能接近腰斩。"
+      },
+      {
+        "type": "管理疲劳风险",
+        "level": "medium",
+        "note": "马磊当前在管13只基金、管理规模169.95亿元，超过10只产品观察阈值。"
+      },
+      {
         "type": "高位追涨风险",
         "level": "high",
-        "note": "当前净值位于历史100%分位，安全边际明显偏弱。"
-      },
-      {
-        "type": "回撤承受要求高",
-        "level": "high",
-        "note": "全期最大回撤 -49.01%，接近 -50% 红线。"
-      },
-      {
-        "type": "经理管理负荷偏高",
-        "level": "medium",
-        "note": "马磊当前在管 13 只基金，高于 10 只警戒线。"
+        "note": "当前净值位于历史100%分位，近1年收益134.34%，短期再向上需要更强产业验证。"
       },
       {
         "type": "单一赛道集中风险",
         "level": "medium",
-        "note": "2026Q1 前十大集中度 70.1%，核心集中于 AI 算力芯片与设备链。"
+        "note": "前十大持仓占比70.12%，几乎全部集中在芯片设备、算力、设计和存储链。"
       }
     ],
     "policyItems": [
       {
-        "name": "国发〔2020〕8号",
+        "name": "2024年集成电路税收优惠清单通知",
         "impactLabel": "🟢 强利好"
       },
       {
-        "name": "十五五集成电路攻关部署",
+        "name": "2025年集成电路税收优惠清单通知",
         "impactLabel": "🟢 强利好"
       },
       {
-        "name": "2026年科技保险政策",
-        "impactLabel": "🟡 间接利好"
+        "name": "2026年集成电路税收优惠清单通知",
+        "impactLabel": "🟢 强利好"
       }
     ],
     "marketStatus": [
@@ -1936,80 +2237,80 @@
         "dim": "净值位置",
         "status": "100.0% 历史分位",
         "statusType": "warning",
-        "detail": "当前净值等于历史新高，属于高位区间。"
+        "detail": "当前净值1.9258已创历史新高，赔率显著收敛。"
       },
       {
         "dim": "近期趋势",
-        "status": "强势上行后高位震荡",
+        "status": "高位加速后波动",
         "statusType": "warning",
-        "detail": "近1月 +32.95%、近6月 +55.12%，短期动能很强，但筹码更拥挤。"
+        "detail": "近1周+8.36%、近1月+37.69%、近3月+34.15%，更接近主升浪后半段而非低位布局。"
       },
       {
         "dim": "夏普趋势",
         "status": "明显改善",
         "statusType": "positive",
-        "detail": "近1年夏普 3.02，显著高于近2年 2.03 和近3年 0.85。"
+        "detail": "近1年夏普3.32，明显高于近2年2.22和近3年0.86。"
       },
       {
         "dim": "宏观流动性",
         "status": "中性偏友好",
         "statusType": "neutral",
-        "detail": "现有证据未见明显流动性收紧压制科技成长。"
+        "detail": "集成电路税收优惠政策连续三年延续，对科技资本开支和国产替代提供中期支持。"
       },
       {
-        "dim": "行业景气",
+        "dim": "持仓主线景气",
         "status": "改善",
         "statusType": "positive",
-        "detail": "工信部和国家统计局口径均验证芯片与算力硬件需求上行。"
+        "detail": "季报连续三个季度强调半导体周期回升，AI算力、存储涨价和设备国产替代是明确主线。"
       },
       {
         "dim": "外部风险",
         "status": "需关注",
         "statusType": "neutral",
-        "detail": "美国贸易战与地缘冲击仍可能影响市场风险偏好。"
+        "detail": "2026Q1季报明确提到3月中东地区战争冲击全球市场，短期风险偏好下降。"
       }
     ],
     "allocationSuggestions": [
       {
         "scenario": "存量持有人",
-        "action": "继续持有但不追高",
-        "note": "更适合把当前仓位视作利润仓管理，而不是继续在新高附近重仓加码。"
+        "action": "继续持有但不过度加仓",
+        "note": "更适合把它当作高弹性科技仓位，而不是组合核心底仓；若科技仓位已超过15%，应逐步平衡。"
       },
       {
         "scenario": "新入场投资者",
         "action": "等待回撤再分批布局",
-        "note": "优先等待 10%-20% 的正常回撤后，再观察景气验证是否延续。"
+        "note": "优先等待净值回落到1.60-1.70，甚至1.30-1.40区间后，再考虑分批建仓。"
       }
     ],
     "suitableFor": [
-      "能接受单一科技赛道高波动、持有周期至少3年的投资者",
-      "需要集中暴露国产芯片、AI算力和半导体设备主线的投资者",
-      "已有利润垫、愿意用回撤换取高弹性超额的进阶型配置者"
+      "能接受-30%以上中途波动、持有周期至少3年的投资者",
+      "对AI算力、半导体设备、国产替代逻辑有明确长期判断的人",
+      "愿意把本基金作为组合中高弹性主题工具且总仓位控制在15%以内的进阶投资者"
     ],
     "notSuitableFor": [
-      "持有期不足1年或无法承受 -20% 至 -40% 波动的人",
-      "希望获得低误差行业指数跟踪工具的投资者",
-      "需要稳定现金流或低波动体验的投资者",
-      "风险承受能力偏保守、会在深跌时被动止损的投资者"
+      "持有期小于1年、习惯高位追涨、无法承受大幅回撤的投资者",
+      "需要稳定现金流或偏好分红型产品的投资者",
+      "希望用一只基金完成均衡配置、规避行业集中风险的投资者",
+      "风险承受能力低于R3、无法承受科技成长高波动的人"
     ],
     "termAdvice": [
       {
         "term": "短期（1-3个月）",
         "icon": "⚠️",
         "level": "cautious",
-        "advice": "高位强势但赔率偏低，以观察为主，不追高；若快速回撤至 1.60-1.68 区间，再考虑小仓位试探。"
+        "advice": "等待回撤，不追涨；若已有利润，可考虑小比例锁定收益。"
       },
       {
         "term": "中期（6-12个月）",
         "icon": "🟡",
         "level": "neutral",
-        "advice": "政策底座仍在，产业景气偏正面，但波动仍会很大；采用分批建仓，首批 30%-40%。"
+        "advice": "分批建仓，首批40%，回撤到1.60-1.70再评估第二批。"
       },
       {
         "term": "长期（3年以上）",
         "icon": "🟢",
         "level": "positive",
-        "advice": "科技自立自强与国产算力链长期方向仍成立，但仅适合作为高波动行业工具配置，组合仓位建议不高于 10%-15%。"
+        "advice": "长期逻辑仍成立，但组合仓位上限建议控制在15%以内。"
       }
     ]
   },
@@ -2017,95 +2318,95 @@
     "name": "汇添富基金管理股份有限公司",
     "shortName": "汇添富基金",
     "foundYear": 2005,
-    "aumDesc": "全部管理规模约 11298.67 亿元，旗下 804 只基金，属于头部公募平台。",
-    "industryRank": "天天基金公司排名页第7位，属于头部综合型公募。",
+    "aumDesc": "约11298.67亿元，旗下804只基金，属于大型头部公募平台。",
+    "industryRank": "大型头部公募，天相评级五星，经理人数105人。",
     "complianceResult": "通过",
-    "complianceSummary": "合规检查通过，无一票否决项触发。当前需要持续跟踪的核心风险是马磊在科技成长赛道上同时管理多只产品带来的管理负荷。",
+    "complianceSummary": "合规检查通过，无一票否决项触发。需要持续跟踪的主要软风险是马磊在管13只产品带来的管理负荷。",
     "complianceChecks": [
       {
         "item": "黑名单核查",
         "pass": true,
         "warn": false,
-        "detail": "本地黑名单检查中，公司和经理均未命中。"
+        "detail": "公司与经理均未命中黑名单。"
       },
       {
         "item": "近3年处罚记录",
         "pass": true,
         "warn": false,
-        "detail": "未检出指向汇添富基金经理马磊本人的高相关处罚结果。"
+        "detail": "对csrc.gov.cn和amac.org.cn定向检索，未检出高相关公开处罚记录。"
       },
       {
         "item": "内幕交易传闻",
         "pass": true,
         "warn": false,
-        "detail": "定向检索未见高相关、可确认的公开结果。"
+        "detail": "未检出与公司或经理直接相关的高可信公开材料。"
       },
       {
         "item": "基金经理离职风险",
         "pass": true,
         "warn": false,
-        "detail": "当前经理仍在任，tenure_history 显示 2024-07-11 起独任至今。"
+        "detail": "未见离职、失联或被调查迹象。"
       },
       {
         "item": "管理疲劳风险",
         "pass": false,
         "warn": true,
-        "detail": "马磊当前在管 13 只基金，高于 10 只警戒线。"
+        "detail": "马磊在管13只基金，超过10只观察阈值。"
       }
     ]
   },
   "policy": {
     "tags": [
       {
-        "label": "科技自立自强",
+        "label": "税收优惠延续",
         "strength": "high",
         "color": "#F54E48"
       },
       {
-        "label": "集成电路攻关",
+        "label": "科技自立自强",
         "strength": "high",
         "color": "#E8813A"
       },
       {
-        "label": "AI算力需求",
+        "label": "AI景气上行",
         "strength": "medium",
         "color": "#58a6ff"
       }
     ],
     "industryOverview": [
       {
-        "point": "集成电路产量",
-        "detail": "工信部披露 2026Q1 集成电路等产品产量同比增长 33.2%、24.3%。"
+        "point": "半导体周期",
+        "detail": "全球半导体周期自2024年下半年开始回升，2025年持续复苏，2026年进一步走强。"
       },
       {
-        "point": "AI+ 带动芯片需求",
-        "detail": "国家统计局指出人工智能+高速发展带动存储芯片、服务器产量分别增长 22.8%、12.6%。"
+        "point": "板块景气共振",
+        "detail": "2025Q3季报显示中信半导体指数单季上涨48.6%，板块景气与风险偏好高度共振。"
       },
       {
-        "point": "基金主线匹配",
-        "detail": "当前组合更偏 AI 算力芯片、半导体设备与国产设计服务链，而非传统消费电子。"
+        "point": "产业兑现",
+        "detail": "2025Q4和2026Q1季报连续强调NAND和DRAM供需紧张、价格上涨强劲，AI推理需求开始转向业绩兑现。"
       }
     ],
     "cyclePeriod": "政策红利期",
-    "cycleReason": "芯片与集成电路仍处于科技自立自强和关键核心技术攻关主线，政策方向没有逆转；但近6个月新增中央层面专项强刺激偏少，更像旧红利延续与高层方向确认。",
+    "cycleReason": "2024至2026连续三年都能找到发改委关于集成电路税收优惠清单的官方通知，说明政策支持是持续性的制度安排而非一次性刺激。",
     "fifteenFive": [
       {
-        "direction": "关键核心技术攻关",
+        "direction": "集成电路税收优惠清单连续延续",
         "color": "#F54E48",
-        "description": "十五五相关官方材料明确把集成电路列入重点攻关领域。",
-        "holdings": "海光信息 / 芯原股份 / 寒武纪"
-      },
-      {
-        "direction": "先进制程与设备自主可控",
-        "color": "#16a34a",
-        "description": "国发〔2020〕8号长期支持设备、材料与先进制程环节。",
+        "description": "连续三年通知意味着产业扶持具有制度化延续性。",
         "holdings": "中微公司 / 北方华创 / 拓荆科技 / 中科飞测"
       },
       {
-        "direction": "科技保险与创新容错",
+        "direction": "科技自立自强与国产替代",
+        "color": "#16a34a",
+        "description": "基金重仓的AI算力、设备材料、先进制程与设计链均属于科技自立自强核心方向。",
+        "holdings": "海光信息 / 寒武纪 / 芯原股份"
+      },
+      {
+        "direction": "AI推理与存储景气上行",
         "color": "#58a6ff",
-        "description": "2026年科技保险政策为泛科技创新活动提供风险缓释支持。",
-        "holdings": "整体科技成长主线受益"
+        "description": "AI需求扩张推动存储、接口芯片与算力基础设施景气提升。",
+        "holdings": "兆易创新 / 澜起科技 / 盛科通信"
       }
     ],
     "longTermRisks": [
@@ -2115,57 +2416,57 @@
         "signal": "净值已创历史新高，若盈利增速放缓则估值回吐压力会放大。"
       },
       {
-        "risk": "外部贸易摩擦升级",
+        "risk": "地缘冲突放大波动",
         "level": "medium",
-        "signal": "美国贸易战与地缘冲击会压制科技板块风险偏好。"
+        "signal": "2026年3月中东地区战争冲击全球市场，短期会压制科技风险偏好。"
       },
       {
-        "risk": "单一赛道拥挤",
+        "risk": "景气验证回落",
         "level": "medium",
-        "signal": "组合高度集中于算力芯片和设备链，风格切换时波动会更大。"
+        "signal": "若AI资本开支、NAND/DRAM价格或设备订单转弱，高弹性逻辑会明显受损。"
       }
     ],
     "adaptability": [
       {
         "env": "🚀 科技景气主升浪",
-        "perf": "最适合的环境，2024Q4 与 2025Q3 都取得大幅正超额。",
+        "perf": "最适合的环境，基金能够同时兑现行业Beta和增强Alpha。",
         "color": "#16a34a"
       },
       {
-        "env": "🔄 风格切换震荡期",
-        "perf": "能靠选股维持部分超额，但绝对收益波动很大。",
+        "env": "🔄 高位震荡扩散期",
+        "perf": "仍可能赚钱，但赔率下降、波动加大，更适合分批而不是追高。",
         "color": "#E8813A"
       },
       {
-        "env": "🧊 赛道估值压缩期",
-        "perf": "历史表现较弱，2022-2024 初期曾承受深回撤。",
+        "env": "🧊 成长杀估值阶段",
+        "perf": "历史表现较弱，2022至2024年初曾承受深回撤。",
         "color": "#F54E48"
       }
     ],
     "scenarios": [
       {
         "type": "悲观",
-        "probability": 25,
+        "probability": 30,
         "color": "#F54E48",
-        "returnLow": -30,
-        "returnHigh": -10,
-        "trigger": "历史高位估值压缩、AI资本开支不及预期、外部贸易摩擦升级、市场切向防御。"
+        "returnLow": -25,
+        "returnHigh": -5,
+        "trigger": "AI资本开支不及预期、NAND或DRAM价格回落、高位估值压缩、科技风格切回防御。"
       },
       {
         "type": "基准",
         "probability": 50,
         "color": "#58a6ff",
-        "returnLow": 0,
+        "returnLow": 5,
         "returnHigh": 25,
-        "trigger": "产业景气维持偏强，但高位限制继续单边拔估值，基金以波动换取中低双位数收益。"
+        "trigger": "政策支持延续、芯片景气维持修复，但高位波动显著增加，净值进入宽幅震荡上行。"
       },
       {
         "type": "乐观",
-        "probability": 25,
+        "probability": 20,
         "color": "#16a34a",
         "returnLow": 25,
-        "returnHigh": 60,
-        "trigger": "AI算力需求继续超预期，官方产量与资本开支持续验证，风险偏好重新提升。"
+        "returnHigh": 50,
+        "trigger": "AI算力需求继续加速、设备材料国产替代深化、存储涨价延续，经理继续在高弹性子环节保持有效增强。"
       }
     ],
     "policyBreakdown": [
@@ -2173,19 +2474,18 @@
         "sector": "AI算力芯片",
         "icon": "🧠",
         "color": "#2563eb",
-        "logic": "科技自立自强与算力需求扩张共同支撑国产算力芯片与设计链。",
+        "logic": "科技自立自强与AI需求扩张共同支撑国产算力芯片与网络芯片链。",
         "stocks": [
           "海光信息",
           "寒武纪",
-          "芯原股份",
-          "澜起科技"
+          "盛科通信"
         ]
       },
       {
-        "sector": "半导体设备",
+        "sector": "半导体设备材料",
         "icon": "⚙️",
         "color": "#16a34a",
-        "logic": "先进制程和设备自主可控直接受益于长期制度底座和资本开支扩张。",
+        "logic": "集成电路税收优惠清单连续延续，直接利好设备、材料与先进制程国产替代。",
         "stocks": [
           "中微公司",
           "北方华创",
@@ -2194,13 +2494,14 @@
         ]
       },
       {
-        "sector": "算力基础设施配套",
+        "sector": "存储与高端设计链",
         "icon": "🌐",
         "color": "#d97706",
-        "logic": "AI+ 推动存储、网络与控制芯片需求同步提升。",
+        "logic": "AI推理需求与国产替代推动存储、接口芯片和设计服务链景气提升。",
         "stocks": [
+          "芯原股份",
           "兆易创新",
-          "盛科通信"
+          "澜起科技"
         ]
       }
     ],
@@ -2276,52 +2577,52 @@
         }
       }
     ],
-    "note": "当前更像旧红利延续与高层方向确认，不应把政策理解为短期专项刺激。"
+    "note": "当前政策更像制度化延续与方向确认，不应把它理解为短期专项刺激。"
   },
   "tracking": {
     "weekly": [
-      "净值方向验证：观察基金日度涨跌是否仍与芯片、算力、设备链行情一致。",
-      "跟踪工信部和国家统计局口径的集成电路、存储芯片、服务器产量变化。",
-      "观察前十大集中度逻辑是否被新季报延续。",
-      "关注马磊公开表述是否继续围绕 AI 算力与设备主线。"
+      "净值方向验证：若基金5个交易日相对中证芯片产业指数连续偏离超过5个百分点，需检查是否出现大额申赎或风格漂移。",
+      "NAND/DRAM价格趋势：若现货价格连续2个月回落超过15%，需重新评估存储涨价主线是否减弱。",
+      "股票仓位估算：若公开测算仓位连续两周高于95%或低于70%，要判断经理是在加速进攻还是开始收缩风险暴露。",
+      "经理动态：关注季报、路演和采访中是否继续围绕AI算力、设备材料、存储设计三条主线表述。"
     ],
     "quarterly": [
-      "持仓变化：新季报前十持仓是否仍围绕 AI 算力芯片与设备主线。",
-      "集中度变化：前十集中度是否继续高于 70% 或明显跌破 55%。",
-      "规模变化：基金规模若接近 20-30 亿，需要重新评估增强策略容量。",
-      "同类排名：近1年排名应尽量维持前30%左右。",
-      "年化超额：对比沪深300 的年化超额应继续保持为正。"
+      "持仓变化：新季报前十持仓是否维持AI算力、设备材料、存储设计三主线，合计应大于60%。",
+      "集中度变化：前十持仓集中度应处于55%-72%合理区间。",
+      "规模变化：当前规模5.58亿，若逼近30亿需重点关注容量问题。",
+      "同类排名：近1年同类排名应尽量维持前30%以内。",
+      "年化超额：对比基准和沪深300的年化超额应继续保持为正，理想状态大于10%/年。"
     ],
     "alerts": [
       {
         "level": "critical",
         "icon": "🚨",
-        "text": "基金经理更换：需要重做完整经理评估。"
+        "text": "基金经理更换：一票否决级别风险，需要重新完整评估接任者。"
       },
       {
         "level": "critical",
         "icon": "🚨",
-        "text": "单季度回撤 > -15% 且同类排名落入后10%：说明出现超越行业系统性因素的失真。"
+        "text": "单季度回撤> -15%且同类排名倒数10%：属于个基崩溃信号。"
       },
       {
         "level": "critical",
         "icon": "🚨",
-        "text": "集成电路或算力相关官方产量数据明显转弱：高景气逻辑被削弱。"
+        "text": "芯片产业指数连续两个季度为负且本基金同步跑输业绩基准：说明增强逻辑与行业逻辑同时失效。"
       },
       {
         "level": "critical",
         "icon": "🚨",
-        "text": "组合主线漂移：若季报持仓大幅离开芯片、算力、设备链，需要重新评估。"
+        "text": "集成电路税收优惠清单连续一年未延续或政策支持明显弱化：科技自主主线若弱化，将直接影响估值溢价。"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "规模半年内扩张超过20亿元：可能削弱选股增强效率。"
       },
       {
         "level": "warning",
         "icon": "⚠️",
-        "text": "管理负荷继续抬升：在管基金数升至15只以上需警惕执行分散。"
-      },
-      {
-        "level": "warning",
-        "icon": "⚠️",
-        "text": "跟踪误差继续扩大：增强风格若过度冒险，可能在逆风时更快失真。"
+        "text": "季报持仓大幅偏离AI算力、设备材料、存储设计主线：需要核查经理是否已悄然转型。"
       }
     ]
   },
@@ -2329,27 +2630,27 @@
     {
       "item": "成立时间是否不足3年",
       "pass": true,
-      "note": "成立于 2021-12-02，截至研究日已超过4年。"
+      "note": "成立于2021-12-02，截至研究日已超过4年。"
     },
     {
       "item": "规模是否过小或过大",
       "pass": true,
-      "note": "当前规模 5.58 亿元，未触发 <1 亿元或 >200 亿元红线。"
+      "note": "当前规模5.58亿元，未触发小于1亿元或大于200亿元红线。"
     },
     {
       "item": "基金经理任职是否不足2年",
       "pass": true,
-      "note": "马磊自 2023-08-07 起参与管理，累计任职已超过2年。"
+      "note": "马磊自2023-08-07起参与管理，累计任职已超过2年。"
     },
     {
       "item": "近3年业绩是否落入后30%",
       "pass": true,
-      "note": "近3年收益 148.32%，排名 24/2121，明显不在后30%。"
+      "note": "近3年收益和排名保持在同类前列，未落入后30%。"
     },
     {
       "item": "最大回撤是否显著劣于同类",
       "pass": false,
-      "note": "全期最大回撤 -49.01%，虽然未越过 -50% 红线，但已处高风险边缘。"
+      "note": "全期最大回撤-49.01%，虽然未越过-50%红线，但已处高风险边缘。"
     },
     {
       "item": "基金经理是否在黑名单中",
@@ -2364,7 +2665,7 @@
     {
       "item": "是否频繁更换基金经理",
       "pass": true,
-      "note": "成立以来经历独任、共管、独任三阶段，但未出现近3年内2次以上异常更换。"
+      "note": "成立以来经历独任、共管、独任三阶段，但未出现近3年内两次以上异常更换。"
     },
     {
       "item": "是否存在严重风格漂移",
@@ -2374,7 +2675,7 @@
     {
       "item": "费率是否显著高于同类平均",
       "pass": false,
-      "note": "年化持有成本约 1.70%，对指数增强工具偏高，需要持续超额覆盖。"
+      "note": "年化持有成本约1.70%，对指数增强工具偏高，需要持续超额覆盖。"
     }
   ]
 }
