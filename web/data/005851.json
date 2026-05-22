@@ -1,0 +1,385 @@
+{
+  "id": "005851",
+  "meta": {
+    "reportDate": "2026-05-06",
+    "dataDate": "2026-04-30",
+    "disclaimer": "本报告仅供个人学习和信息整理使用，所有分析内容均不构成任何投资建议。投资有风险，入市需谨慎，请依据自身判断做出投资决策。"
+  },
+  "basic": {
+    "code": "005851",
+    "fullName": "财通新视野灵活配置混合型证券投资基金A",
+    "shortName": "财通新视野灵活配置混合A",
+    "type": "混合型",
+    "subType": "灵活配置",
+    "riskLevel": "中高风险",
+    "riskCode": 4,
+    "foundDate": "2018-06-25",
+    "issueDate": "2018-06-25",
+    "manager": "财通基金管理有限公司",
+    "managerScale": "891亿",
+    "managerFundCount": 127,
+    "custodian": "暂未公示",
+    "benchmark": "沪深300指数×60%+中债综合指数×40%",
+    "navFallback": 4.7689,
+    "navDateFallback": "2026-04-30",
+    "inceptionReturn": 376.89,
+    "dividendCount": 0,
+    "status": "开放申购 / 开放赎回",
+    "companyShort": "财通"
+  },
+  "fees": {
+    "management": 1.2,
+    "custodian": 0.2,
+    "salesService": 0.0,
+    "subscriptionMax": 1.5,
+    "subscriptionDiscounted": 0.15,
+    "redemptionMax": 1.5,
+    "breakdown": [
+      { "name": "管理费",     "value": 1.2  },
+      { "name": "托管费",     "value": 0.2  },
+      { "name": "申购费(折后)", "value": 0.15 }
+    ]
+  },
+  "scale": {
+    "nav": 6.55,
+    "shares": 1.858,
+    "date": "2026-03-31"
+  },
+  "performance": {
+    "stages": [
+      { "period": "近1周",  "fund": 3.46,   "peer": 1.04,  "hs300": 0.44,  "rank": 258,  "rankTotal": 2325, "quartile": "优秀" },
+      { "period": "近1月",  "fund": 35.36,  "peer": 9.23,  "hs300": 8.03,  "rank": 20,   "rankTotal": 2337, "quartile": "优秀" },
+      { "period": "近3月",  "fund": 25.35,  "peer": 2.64,  "hs300": 2.15,  "rank": 64,   "rankTotal": 2330, "quartile": "优秀" },
+      { "period": "近6月",  "fund": 38.37,  "peer": 10.34, "hs300": 3.59,  "rank": 123,  "rankTotal": 2317, "quartile": "优秀" },
+      { "period": "今年来", "fund": 36.46,  "peer": 8.90,  "hs300": 3.83,  "rank": 69,   "rankTotal": 2328, "quartile": "优秀" },
+      { "period": "近1年",  "fund": 137.53, "peer": 36.45, "hs300": 27.50, "rank": 68,   "rankTotal": 2279, "quartile": "优秀" },
+      { "period": "近2年",  "fund": 164.38, "peer": 43.43, "hs300": 33.37, "rank": 49,   "rankTotal": 2195, "quartile": "优秀" },
+      { "period": "近3年",  "fund": 156.67, "peer": 27.52, "hs300": 19.32, "rank": 38,   "rankTotal": 2087, "quartile": "优秀" }
+    ],
+    "annual": [
+      { "year": 2018, "fund": null, "peer": null, "hs300": -25.31, "rank": null, "rankTotal": null, "quartile": null },
+      { "year": 2019, "fund": null, "peer": null, "hs300": 36.07,  "rank": null, "rankTotal": null, "quartile": null },
+      { "year": 2020, "fund": null, "peer": null, "hs300": 27.21,  "rank": null, "rankTotal": null, "quartile": null },
+      { "year": 2021, "fund": null, "peer": null, "hs300": -5.20,  "rank": null, "rankTotal": null, "quartile": null },
+      { "year": 2022, "fund": null, "peer": null, "hs300": -21.63, "rank": null, "rankTotal": null, "quartile": null },
+      { "year": 2023, "fund": null, "peer": null, "hs300": -11.38, "rank": null, "rankTotal": null, "quartile": null },
+      { "year": 2024, "fund": null, "peer": null, "hs300": 14.68,  "rank": null, "rankTotal": null, "quartile": null },
+      { "year": 2025, "fund": null, "peer": null, "hs300": 17.66,  "rank": null, "rankTotal": null, "quartile": null }
+    ],
+    "quarterly": [
+      { "quarter": "2024Q2", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null },
+      { "quarter": "2024Q3", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null },
+      { "quarter": "2024Q4", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null },
+      { "quarter": "2025Q1", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null },
+      { "quarter": "2025Q2", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null },
+      { "quarter": "2025Q3", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null },
+      { "quarter": "2025Q4", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null },
+      { "quarter": "2026Q1", "fund": null, "peer": null, "hs300": null, "rank": null, "rankTotal": null, "quartile": null }
+    ]
+  },
+  "risk": {
+    "volatility": 29.30,
+    "sharpe": 4.64,
+    "maxDrawdown": -33.81,
+    "riskLevel": "中高风险",
+    "excessReturn1Y": 101.08,
+    "radarDimensions": [
+      { "name": "历史业绩", "value": 9.5, "max": 10 },
+      { "name": "风险控制", "value": 6.5, "max": 10 },
+      { "name": "持仓质量", "value": 8.0, "max": 10 },
+      { "name": "基金经理", "value": 9.0, "max": 10 },
+      { "name": "政策匹配", "value": 9.0, "max": 10 },
+      { "name": "估值时机", "value": 7.5, "max": 10 }
+    ],
+    "positionHistory": [
+      { "date": "2025-03-31", "stock": 91.0, "cash": 4.5,  "scale": 4.50  },
+      { "date": "2025-06-30", "stock": 91.5, "cash": 4.0,  "scale": 4.80  },
+      { "date": "2025-09-30", "stock": 92.0, "cash": 3.5,  "scale": 5.50  },
+      { "date": "2025-12-31", "stock": 91.0, "cash": 4.0,  "scale": 6.00  },
+      { "date": "2026-03-31", "stock": 91.0, "cash": 4.0,  "scale": 6.55  }
+    ],
+    "positionSignal": null,
+    "riskBreakdown": [
+      { "type": "集中度风险",   "level": "high",   "stars": 5, "maxStars": 5, "note": "前十大仓位合计68.74%，所有持仓聚焦半导体+光模块同一科技叙事，高度相关，无任何分散对冲效果" },
+      { "type": "行业周期风险", "level": "medium", "stars": 3, "maxStars": 5, "note": "半导体行业景气强周期性；全历史最大回撤实测-33.81%（2022-07-11峰值→2024-09-09谷底），2022年单年跌幅-13.29%，优于报告估算" },
+      { "type": "市场波动风险", "level": "high",   "stars": 4, "maxStars": 5, "note": "年化波动率29.30%，高仓位+高集中度在市场risk-off时加速放大净值回撤，日内可轻松±5%" },
+      { "type": "政策依赖风险", "level": "medium", "stars": 3, "maxStars": 5, "note": "中美科技博弈是核心变量，新一轮管制升级（实体清单/EDA禁令）可短期大幅压制持仓股情绪" },
+      { "type": "规模扩张风险", "level": "low",    "stars": 2, "maxStars": 5, "note": "当前6.55亿规模适中；但若行情持续吸引大量资金涌入超过30亿，将影响持仓流动性和策略容量" },
+      { "type": "经理变更风险", "level": "low",    "stars": 2, "maxStars": 5, "note": "沈犁深耕该基金5年+，风格极为稳定；财通基金体量相对偏小，人才保留难度略高于头部公募" }
+    ],
+    "volatilityNote": "年化波动29.30%，高仓位科技集中型基金，随半导体/AI行业周期大幅波动",
+    "sharpeNote": "近1年夏普4.64极为罕见，意味着每承担1单位风险可获取4.64单位超额回报（2022-2023年深度回撤期则显著偏低）",
+    "drawdownNote": "全历史最大回撤实测-33.81%（2022-07-11→2024-09-09），2022单年跌幅仅-13.29%，远优于报告初始估算的-40%~-50%；沈犁坚守+持仓质量使实际回撤明显低于行业板块均值",
+    "excessNote": "近1年相对灵活配置混合同类均值超额+101.08%（137.53%-36.45%），超越同类整整一倍"
+  },
+  "holdings": {
+    "date": "2026-03-31",
+    "stockRatio": 91.0,
+    "cashRatio": 4.0,
+    "top10Total": 68.74,
+    "concentrationLabel": "高度集中型",
+    "top10": [
+      { "rank": 1,  "code": "688037", "name": "芯源微",   "ratio": 8.75, "sector": "半导体设备（匀胶显影机）", "color": "#06b6d4" },
+      { "rank": 2,  "code": "688498", "name": "源杰科技", "ratio": 8.59, "sector": "半导体材料（InP外延片）", "color": "#0ea5e9" },
+      { "rank": 3,  "code": "300502", "name": "新易盛",   "ratio": 7.75, "sector": "光模块/CPO（AI算力）",    "color": "#4492F7" },
+      { "rank": 4,  "code": "688372", "name": "伟测科技", "ratio": 6.74, "sector": "半导体测试",              "color": "#7c3aed" },
+      { "rank": 5,  "code": "688012", "name": "中微公司", "ratio": 6.66, "sector": "刻蚀设备（国产替代龙头）","color": "#2563eb" },
+      { "rank": 6,  "code": "300548", "name": "长芯博创", "ratio": 6.51, "sector": "高速互联芯片",            "color": "#9B72F0" },
+      { "rank": 7,  "code": "600105", "name": "永鼎股份", "ratio": 6.10, "sector": "光纤/光缆/光模块",        "color": "#2DC78E" },
+      { "rank": 8,  "code": "300658", "name": "延江股份", "ratio": 6.08, "sector": "半导体封装材料",          "color": "#3b82f6" },
+      { "rank": 9,  "code": "002384", "name": "东山精密", "ratio": 5.82, "sector": "PCB/射频/精密制造",       "color": "#64748b" },
+      { "rank": 10, "code": "601208", "name": "东材科技", "ratio": 5.74, "sector": "光学膜/半导体材料",       "color": "#0891b2" }
+    ],
+    "sectors": [
+      { "name": "制造业（半导体+光模块）", "value": 82.31, "color": "#4492F7"  },
+      { "name": "科学研究技术服务",        "value": 6.74,  "color": "#7c3aed"  },
+      { "name": "信息技术服务",            "value": 2.85,  "color": "#2DC78E"  },
+      { "name": "批发零售",                "value": 2.74,  "color": "#F7C744"  },
+      { "name": "债券+现金",               "value": 5.36,  "color": "#21262d"  }
+    ],
+    "policyLinks": [
+      { "sector": "半导体国产替代", "stocks": "芯源微、中微公司、源杰科技、伟测科技、延江股份、东材科技", "policyNote": "大基金三期3440亿（2024年5月成立），持续支持设备/材料/测试全产业链国产化；中美管制倒逼替代需求加速", "color": "#06b6d4" },
+      { "sector": "AI算力光模块",   "stocks": "新易盛、永鼎股份、长芯博创",                           "policyNote": "全球AI数据中心建设高峰（2024-2026），每颗训练芯片需配套5-10个光模块端口，需求爆炸式增长",         "color": "#4492F7" }
+    ]
+  },
+  "managers": {
+    "current": {
+      "name": "沈犁",
+      "startDate": "2021-01-27",
+      "tenure": "5年100天",
+      "tenureReturn": 167.54,
+      "peerAvgReturn": null,
+      "rankInPeer": null,
+      "rankTotal": null,
+      "education": "MBA（上海交通大学高级金融学院）+ 文学学士",
+      "experience": "约15年（普华永道→中金公司研究员→交银施罗德→惠理集团→财通基金2020）",
+      "fundCount": 10,
+      "totalScale": 27.23,
+      "historicalFunds": [
+        { "name": "财通新视野灵活配置混合A", "code": "005851", "tenure": "5年100天",  "return": 167.54, "peerAvg": null, "alpha": null, "rank": null, "rankTotal": null, "percentile": null, "grade": "good", "isCurrent": true  },
+        { "name": "财通多策略升级混合(LOF)A","code": "501015", "tenure": "约5年",      "return": 187.67, "peerAvg": null, "alpha": null, "rank": null, "rankTotal": null, "percentile": null, "grade": "good", "isCurrent": true  },
+        { "name": "财通景气行业混合A",        "code": "010418", "tenure": "约4年",      "return": 145.25, "peerAvg": null, "alpha": null, "rank": null, "rankTotal": null, "percentile": null, "grade": "good", "isCurrent": true  },
+        { "name": "财通内需增长12个月定开混合","code": "009970", "tenure": "约1.5年",   "return": 139.20, "peerAvg": null, "alpha": null, "rank": null, "rankTotal": null, "percentile": null, "grade": "good", "isCurrent": true  },
+        { "name": "财通景气行业混合C",        "code": "016234", "tenure": "约3.5年",    "return": 125.00, "peerAvg": null, "alpha": null, "rank": null, "rankTotal": null, "percentile": null, "grade": "good", "isCurrent": true  }
+      ],
+      "managerId": "30724468"
+    },
+    "history": [
+      { "name": "沈犁",   "start": "2021-01-27", "end": null,         "tenure": "5年100天", "return": 167.54, "note": "接棒后深度布局半导体+AI算力，任期内持续超额" },
+      { "name": "谈洁颖", "start": "2018-06-25", "end": "2021-01-26", "tenure": "2年7个月", "return": 78.25,  "note": "成立初期多元化布局，经历2018熊市+2019/2020牛市，年化约24%" }
+    ]
+  },
+  "policy": {
+    "tags": [
+      { "label": "半导体国产替代", "strength": "high",   "color": "#06b6d4" },
+      { "label": "AI算力爆发",     "strength": "high",   "color": "#4492F7" },
+      { "label": "光模块/CPO",     "strength": "high",   "color": "#2DC78E" },
+      { "label": "大基金三期",     "strength": "high",   "color": "#F7C744" },
+      { "label": "十五五先进制造", "strength": "medium", "color": "#9B72F0" },
+      { "label": "中美科技博弈",   "strength": "medium", "color": "#ef4444" }
+    ],
+    "scenarios": [
+      {
+        "type": "悲观",
+        "color": "#ef4444",
+        "probability": 20,
+        "trigger": "美国对华新一轮大幅管制升级（实体清单扩大/EDA禁令升级）或全球AI泡沫阶段性破裂，资金撤离高估值科技股",
+        "returnLow": -50,
+        "returnHigh": -30
+      },
+      {
+        "type": "基准",
+        "color": "#3b82f6",
+        "probability": 55,
+        "trigger": "中美科技博弈保持现状，AI算力建设正常推进，半导体国产替代按预期推进",
+        "returnLow": 30,
+        "returnHigh": 60
+      },
+      {
+        "type": "乐观",
+        "color": "#10b981",
+        "probability": 25,
+        "trigger": "国产半导体技术取得突破（如5nm刻蚀）+ AI应用超预期爆发 + 国内大规模科技刺激政策",
+        "returnLow": 80,
+        "returnHigh": 150
+      }
+    ],
+    "policyBreakdown": [
+      {
+        "sector": "半导体国产替代加速",
+        "color": "#06b6d4",
+        "icon": "🔬",
+        "horizon": "中期（1-3年）",
+        "logic": "大基金三期3440亿（2024年5月成立），聚焦设备/材料/EDA国产化；美国管制反而倒逼替代需求加速，中微/芯源微直接受益",
+        "stocks": ["芯源微（匀胶显影机）", "中微公司（刻蚀设备）", "源杰科技（InP外延片）", "伟测科技（测试）"]
+      },
+      {
+        "sector": "AI算力光模块爆发",
+        "color": "#4492F7",
+        "icon": "⚡",
+        "horizon": "短期（1年内）",
+        "logic": "全球AI数据中心建设高峰（2024-2026年），每颗AI训练芯片需配套5-10个光模块端口；DeepSeek降本增效反而扩大算力需求",
+        "stocks": ["新易盛（CPO光模块）", "永鼎股份（光纤光缆）", "长芯博创（高速互联芯片）"]
+      },
+      {
+        "sector": "十五五先进制造政策",
+        "color": "#9B72F0",
+        "icon": "🏭",
+        "horizon": "中期（1-3年）",
+        "logic": "十五五规划着力先进制造、新一代信息技术；国产替代进入政策强支撑期，28nm以上设备国产化率目标80%+",
+        "stocks": ["芯源微", "中微公司", "东山精密（精密制造）"]
+      }
+    ],
+    "fifteenFive": [
+      {
+        "direction": "集成电路自主化",
+        "color": "#06b6d4",
+        "description": "十五五明确攻克28nm以上制程国产化率80%+目标；半导体设备/材料/测试全产业链加速国产替代",
+        "holdings": "芯源微、中微公司、源杰科技、伟测科技"
+      },
+      {
+        "direction": "AI算力基础设施",
+        "color": "#4492F7",
+        "description": "东数西算深化，国内云厂商算力扩容加速，光互联和高速芯片需求持续高增，CPO商业化推进",
+        "holdings": "新易盛、永鼎股份、长芯博创"
+      },
+      {
+        "direction": "先进制造业升级",
+        "color": "#9B72F0",
+        "description": "精密制造国产化加速，半导体封装材料、光学膜等基础材料需求随国产化率提升而高增",
+        "holdings": "东山精密、延江股份、东材科技"
+      }
+    ],
+    "longTermRisks": [
+      { "risk": "中美科技脱钩升级",   "signal": "美国进一步扩大实体清单或禁止EDA软件出口，可直接打压行业情绪和持仓股估值，为最高级别外部风险", "level": "high"   },
+      { "risk": "高估值杀估值",       "signal": "半导体/AI板块PE处于历史相对高位，近1年+137.53%已兑现大量预期；任何业绩不及预期或叙事降温均可引发大幅回撤", "level": "high"   },
+      { "risk": "行业景气周期下行",   "signal": "半导体行业强周期性；若AI算力需求增速放缓或出现产能过剩，国内设备/材料需求将快速降温", "level": "medium" },
+      { "risk": "基金经理离任",       "signal": "沈犁是基金超额收益的核心来源；财通基金规模偏小，若其离职将造成基金核心竞争力缺失", "level": "medium" },
+      { "risk": "规模过快扩张",       "signal": "若超级行情持续，资金大量涌入导致规模快速超过30亿，将影响持仓流动性和策略容量，进而压制超额收益", "level": "low"    }
+    ],
+    "timeline": [
+      { "year": "2018-2020", "event": "成立→贸易战熊市→科技牛市",    "return": "+78.25%（谈洁颖管理期）", "note": "2018年贸易战，2019/2020年科技大牛市；任期年化约24%", "type": "positive" },
+      { "year": "2021",      "event": "沈犁接手，深度布局半导体",     "return": "沈犁任期起始",          "note": "国产替代叙事强烈，完成持仓转型，深度布局设备/材料", "type": "highlight" },
+      { "year": "2022",      "event": "深度回调，逆势坚守",           "return": "估算约-40%至-50%",       "note": "A股科技股集体杀跌，美国CHIPS法案出台，逆势坚守未清仓", "type": "warning"  },
+      { "year": "2023",      "event": "AI算力爆发，浴火重生",         "return": "大幅反弹",               "note": "ChatGPT引爆AI热潮，新易盛等光模块股暴涨，净值快速修复", "type": "positive" },
+      { "year": "2025-2026", "event": "近1年+137.53%，历史高位",       "return": "+137.53%（近1年）",      "note": "DeepSeek催化算力需求，光模块+半导体双主线共振爆发", "type": "positive" }
+    ],
+    "dualTimeline": [
+      {
+        "period": "2018",
+        "manager": { "event": "谈洁颖创立，成立即遭遇贸易战熊市", "return": "首年遭遇-25.31%（沪深300）", "note": "分散持仓策略有效降低了绝对跌幅；成立初期稳健运营", "type": "neutral" },
+        "market":  { "event": "中美贸易战爆发，A股全面熊市",       "note": "沪深300全年-25.31%，成长股跌幅更深，市场情绪极度悲观",                                   "type": "bear"    }
+      },
+      {
+        "period": "2019-2020",
+        "manager": { "event": "科技牛市，谈洁颖任期收益+78.25%（年化~24%）", "return": "+78.25%（2.5年合计）", "note": "2019年科技股反弹+2020年数字化加速+科创板设立，持仓逐步积累超额", "type": "positive" },
+        "market":  { "event": "科创板开市，数字化加速，成长股牛市",          "note": "2020年新冠促使数字化加速，科技股普涨，科创板打开估值想象空间",                        "type": "bull"    }
+      },
+      {
+        "period": "2021",
+        "manager": { "event": "沈犁接手，完成持仓大切换，重仓半导体设备/光模块", "return": "沈犁接手后约+5%至+10%", "note": "接手时净值约1.78，完成从多元化→半导体+AI算力的深度持仓转型，奠定后续超额基础", "type": "highlight" },
+        "market":  { "event": "华为受制裁→国产替代叙事激活，半导体景气高位", "note": "大基金二期加速投放，华为Kirin芯片受阻反而激发「必须国产替代」的强烈政策意志",     "type": "bull"    }
+      },
+      {
+        "period": "2022",
+        "manager": { "event": "最大回撤-33.81%，2022年单年仅-13.29%，逆势坚守优于行业", "return": "2022单年-13.29%（行业指数-40%+）", "note": "科技股全面杀估值+美国CHIPS法案打压；沈犁坚守核心持仓，实测2022年跌幅远低于A股半导体指数，持仓质量和风控明显优于板块均值", "type": "warning" },
+        "market":  { "event": "美联储激进加息，CHIPS法案，全球科技熊市",     "note": "美国费城半导体指数-36%，A股半导体指数跌超-40%，估值大幅压缩",                       "type": "bear"    }
+      },
+      {
+        "period": "2023",
+        "manager": { "event": "AI浪潮引爆，新易盛等光模块股暴涨，净值快速修复", "return": "大幅反弹，近3年+156.67%的基础奠定", "note": "ChatGPT 2023年3月席卷全球，AI算力需求爆发，新易盛/永鼎股份等已布局标的进入爆发期", "type": "positive" },
+        "market":  { "event": "ChatGPT引爆AI革命，算力需求指数级增长",       "note": "AI大模型训练对光模块需求暴增，中国云厂商算力建设加速，半导体国产替代叙事重新激活",     "type": "bull"    }
+      },
+      {
+        "period": "2024",
+        "manager": { "event": "大基金三期催化，算力景气持续，规模增长至6亿+", "return": "持续超额，近2年+164.38%", "note": "大基金三期3440亿成立，半导体需求持续高景气；光模块需求随数据中心建设高峰继续爆发", "type": "positive" },
+        "market":  { "event": "大基金三期成立，AI数据中心建设持续高峰",      "note": "华为Mate60 Pro证明国产替代可行；全球数据中心投资创历史新高，光模块单季出货量记录不断刷新", "type": "bull"    }
+      },
+      {
+        "period": "2025",
+        "manager": { "event": "🏆 近1年+137.53%，同类前3%（68/2279），历史高位", "return": "+137.53%（近1年）", "note": "DeepSeek R1 2025年1月发布，降低训练成本但扩大算力总需求；光模块+半导体双主线共振爆发", "type": "positive" },
+        "market":  { "event": "DeepSeek颠覆AI格局，算力需求再超预期",        "note": "国产大模型突破降低了AI门槛，推动算力需求端加速普及；半导体国产化进度超市场预期",      "type": "bull"    }
+      },
+      {
+        "period": "2026Q1",
+        "manager": { "event": "近1月+35.36%，近1周+3.46%，持续强势", "return": "+36.46%（今年来）", "note": "4月22日单日+5.17%说明板块仍在强势博弈；但近1年已翻倍，高位风险需关注", "type": "positive" },
+        "market":  { "event": "AI算力和半导体主题仍是市场最强主线", "note": "全球各大AI模型持续迭代，算力军备竞赛短期未见终点；但高估值背景下波动率也同步上升",  "type": "neutral"  }
+      }
+    ],
+    "adaptability": [
+      { "env": "AI/科技牛市（2019-2020/2023-2026）", "perf": "大幅超额，景气期持续超越同类", "color": "#F54E48" },
+      { "env": "科技熊市（2022）",                   "perf": "深度超跌，集中型高仓位加速回撤", "color": "#2DC78E" },
+      { "env": "价值/大盘风格主导",                  "perf": "超额收益降低，风格错配",         "color": "#F7C744" },
+      { "env": "震荡横盘期",                         "perf": "依赖主题催化，缺乏政策时表现一般", "color": "#9B72F0" }
+    ],
+    "note": "沈犁旗下5只以上基金均呈现持续超额收益（167%-188%），说明超额具有可复制性；但该基金属于深度科技主题基金，不适合低风险偏好投资者，更不适合短线追高。"
+  },
+  "exclusionCheck": [
+    { "item": "基金公司黑名单",      "pass": true,  "note": "财通基金未列入黑名单" },
+    { "item": "基金经理黑名单",      "pass": true,  "note": "沈犁未列入黑名单" },
+    { "item": "规模过小（<1亿）",    "pass": true,  "note": "6.55亿元，规模合理适中" },
+    { "item": "成立不足1年",         "pass": true,  "note": "成立近8年（2018-06-25），历经完整牛熊周期" },
+    { "item": "基金经理频繁更换",    "pass": true,  "note": "沈犁2021年1月接手至今5年+，风格高度稳定" },
+    { "item": "历史最差年跌幅>50%",  "pass": true,  "note": "实测：2022单年跌幅-13.29%，全历史最大回撤-33.81%（2022-07-11→2024-09-09），远未触发否决线" },
+    { "item": "单一重仓>30%",        "pass": true,  "note": "最大持仓芯源微8.75%，未触发否决线" },
+    { "item": "行业集中度>70%",      "pass": false, "note": "制造业82.31%显著超过70%阈值；属于深度科技主题基金的设计特性，但需投资者充分理解集中风险" },
+    { "item": "近1年排名后50%",      "pass": true,  "note": "近1年排名68/2279（前3%），持续极优秀" },
+    { "item": "费率结构异常",        "pass": true,  "note": "管理费1.2%+托管费0.2%=1.4%，偏高但在合理范围；申购1折0.15%可接受" }
+  ],
+  "scoring": {
+    "total": 85,
+    "dimensions": [
+      { "name": "历史业绩", "score": 9.5, "note": "成立+376.89%，近3年+156.67%（同类前2%），近1年+137.53%，各时间维度持续超越，超额具有可复制性" },
+      { "name": "风险控制", "score": 6.5, "note": "近1年夏普4.64极高；但历史最大回撤约-50%，年化波动30%，历史高位时回撤控制能力相对薄弱" },
+      { "name": "持仓质量", "score": 8.0, "note": "持仓聚焦半导体国产替代+AI算力顶级赛道；细分龙头集中持股，逻辑清晰，但集中度风险极高" },
+      { "name": "基金经理", "score": 9.0, "note": "沈犁旗下多只基金均呈持续超额，非单基金偶然；惠理价值投资背景+科技产业前瞻性的稀缺组合" },
+      { "name": "政策匹配", "score": 9.0, "note": "大基金三期+十五五先进制造+AI算力爆发，三重政策顺风明确；短中期政策能见度极高" },
+      { "name": "估值时机", "score": 7.5, "note": "近1年+137.53%已大幅兑现景气预期，高估值下的安全边际收窄；行情延续但高位风险上升" }
+    ],
+    "recommendation": "风口行业 业绩卓越 谨慎择时 控制仓位",
+    "recommendationType": "cautious",
+    "reasoning": [
+      { "positive": true,  "text": "近1年+137.53%、近3年+156.67%，各时间维度均大幅领先同类（前2%-5%），超额收益稳定可复制" },
+      { "positive": true,  "text": "沈犁旗下5只以上基金持续超额（+125%至+188%），背景稀缺（惠理价值投资训练+科技产业前瞻）" },
+      { "positive": true,  "text": "半导体国产替代+AI算力双主线政策顺风明确，大基金三期3440亿持续催化，中期能见度高" },
+      { "positive": false, "text": "前十大仓位68.74%，全历史最大回撤实测-33.81%（2022-07-11→2024-09-09），高集中度在行业逆风时仍会产生明显超跌风险" },
+      { "positive": false, "text": "近1年+137.53%已大幅兑现行业景气；高估值下任何负面信号（管制升级/AI叙事降温）均可能引发大幅杀估值" }
+    ],
+    "conclusion": "财通新视野（005851）是一只专注半导体国产替代+AI算力双主线的深度科技主题基金，沈犁5年+深耕持续超越（近3年同类前2%），超额具有可复制性；实测全历史最大回撤-33.81%（优于行业板块均值），抗跌能力强于报告初始估算；当前AI算力景气高峰期有条件推荐，但68.74%的极高集中度仍要求投资者具备充足风险承受能力，建议分批配置，严控总仓位上限。",
+    "suitableFor": [
+      { "label": "激进型投资者，可承受50%以上最大回撤",       "fit": true  },
+      { "label": "看好半导体国产替代+AI算力中长期逻辑",       "fit": true  },
+      { "label": "已有宽基配置，希望获取科技主题超额收益",     "fit": true  },
+      { "label": "稳健型或低风险偏好投资者",                   "fit": false },
+      { "label": "已大量持有半导体/AI主题ETF（避免过度重叠）", "fit": false }
+    ],
+    "allocationSuggestions": [
+      { "scenario": "当前（景气延续确认）",     "ratio": "3%-8%",     "note": "分批定投建仓，不一次性重仓；激进型可至10%-15%" },
+      { "scenario": "半导体板块回调>15%",       "ratio": "可适当加仓","note": "行业性机会，逢调加仓；总仓位不超过15%" },
+      { "scenario": "管制升级或AI叙事明显降温", "ratio": "降至3%以下", "note": "外部风险触发时优先减仓，基金经理离职需清仓" }
+    ]
+  },
+  "navHistory": [],
+  "tracking": {
+    "weekly": [
+      "关注芯源微、中微公司、新易盛等重仓股日涨跌，与费城半导体指数对比",
+      "跟踪美国对华科技管制动态（BIS、商务部通告）",
+      "云厂商（亚马逊、微软、谷歌）资本支出动向（季报口径）"
+    ],
+    "quarterly": [
+      "季报披露后检查前十大重仓股变化，关注是否新增不熟悉方向或核心标的减持",
+      "确认基金经理沈犁仍在任，关注财通基金官方公告",
+      "与近1年同类排名对比，若跌出前20%需深入分析原因",
+      "规模监控：若规模超过20亿须重新评估策略容量风险"
+    ],
+    "alerts": [
+      { "level": "critical", "icon": "🚨", "text": "沈犁离职公告（一票否决级别，需立即评估）" },
+      { "level": "critical", "icon": "🚨", "text": "美国显著升级对华管制（含芯源微/中微公司相关供应链）" },
+      { "level": "warning",  "icon": "⚠️", "text": "主要云厂商（AWS/Azure/谷歌云）下调下一财年资本支出预期" },
+      { "level": "warning",  "icon": "⚠️", "text": "芯源微/中微公司/新易盛季度业绩大幅低于预期" },
+      { "level": "warning",  "icon": "⚠️", "text": "费城半导体指数跌幅超-20%（全球科技风险信号）" },
+      { "level": "info",     "icon": "ℹ️", "text": "国内AI大模型新版本发布及配套算力需求变化（DeepSeek等）" },
+      { "level": "info",     "icon": "ℹ️", "text": "大基金三期投资进展及重点投资标的公告" }
+    ]
+  }
+}
