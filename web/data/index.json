@@ -22,13 +22,13 @@
     "subType": "普通股票型",
     "riskLevel": "中高风险",
     "riskCode": 4,
-    "return1Y": 83.43,
-    "return3Y": 50.71,
-    "score": 77,
-    "recommendation": "谨慎，等待回调",
+    "return1Y": 74.36,
+    "return3Y": 42.44,
+    "score": 73,
+    "recommendation": "谨慎，不抄短底",
     "recommendationType": "cautious",
-    "navFallback": 3.2904,
-    "reportDate": "2026-05-13",
+    "navFallback": 3.0731,
+    "reportDate": "2026-05-20",
     "manager": "姚志鹏"
   },
   {
@@ -254,5 +254,21 @@
     "navFallback": 1.8361,
     "reportDate": "2026-05-20",
     "manager": "马磊"
+  },
+  {
+    "id": "014777",
+    "shortName": "富国中证芯片产业ETF发起式联接C",
+    "type": "指数型",
+    "subType": "被动行业主题指数",
+    "riskLevel": "R3",
+    "riskCode": 3,
+    "return1Y": 96.51,
+    "return3Y": 109.04,
+    "score": 71,
+    "recommendation": "谨慎，高位不追",
+    "recommendationType": "cautious",
+    "navFallback": 1.744,
+    "reportDate": "2026-05-20",
+    "manager": "张圣贤"
   }
 ]

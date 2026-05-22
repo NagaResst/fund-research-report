@@ -1,8 +1,8 @@
 {
   "id": "003984",
   "meta": {
-    "reportDate": "2026-05-15",
-    "dataDate": "2026-05-15",
+    "reportDate": "2026-05-20",
+    "dataDate": "2026-05-19",
     "disclaimer": "本报告仅供个人学习和信息整理使用，不构成任何投资建议。投资有风险，入市需谨慎。"
   },
   "basic": {
@@ -14,12 +14,14 @@
     "riskLevel": "R4",
     "riskCode": 4,
     "foundDate": "2017年03月16日",
-    "manager": "嘉实基金",
+    "manager": "姚志鹏",
     "companyShort": "嘉实基金",
-    "navFallback": 3.2904,
-    "inceptionReturn": "229.04%",
+    "navFallback": 3.0731,
+    "inceptionReturn": 207.31,
     "custodian": "中国银行",
-    "benchmark": "中证全指一级行业能源指数收益率×40%+中证全指一级行业材料指数收益率×40%+中债综合指数收益率×20%"
+    "benchmark": "中证全指一级行业能源指数收益率×40%+中证全指一级行业材料指数收益率×40%+中债综合指数收益率×20%",
+    "navDateFallback": "2026-05-19",
+    "status": "开放申购 / 开放赎回"
   },
   "fees": {
     "management": 1.2,
@@ -41,7 +43,8 @@
       },
       {
         "name": "申购费",
-        "value": 1.5
+        "value": 1.5,
+        "actualRate": 0.15
       },
       {
         "name": "赎回费",
@@ -72,87 +75,105 @@
         "note": "持有满2年免赎回费，具体以基金合同为准"
       }
     ],
-    "subscriptionDiscounted": null,
+    "subscriptionDiscounted": 0.15,
     "redemptionMax": 1.5
   },
   "scale": {
-    "nav": "31.51亿元",
+    "nav": 31.51,
     "shares": 10.87,
-    "date": "2026-03-31"
+    "date": "2026-05-19"
   },
   "performance": {
     "stages": [
       {
+        "period": "近1周",
+        "fund": -6.6,
+        "peer": -1.67,
+        "hs300": -1.92,
+        "rank": 1007,
+        "rankTotal": 1076,
+        "quartile": null
+      },
+      {
         "period": "近1月",
-        "fund": 26.06,
-        "peer": null,
-        "hs300": null,
-        "rank": null,
-        "rankTotal": null,
+        "fund": -3.94,
+        "peer": 3.71,
+        "hs300": 2.63,
+        "rank": 871,
+        "rankTotal": 1077,
         "quartile": null
       },
       {
         "period": "近3月",
-        "fund": 26.1,
+        "fund": 6.08,
+        "peer": 5.47,
+        "hs300": 4.13,
+        "rank": 422,
+        "rankTotal": 1071,
+        "quartile": null
+      },
+      {
+        "period": "近6月",
+        "fund": 5.49,
+        "peer": 14.44,
+        "hs300": 5.77,
+        "rank": 647,
+        "rankTotal": 1041,
+        "quartile": null
+      },
+      {
+        "period": "近1年",
+        "fund": 74.36,
+        "peer": 43.25,
+        "hs300": 25.17,
+        "rank": 230,
+        "rankTotal": 988,
+        "quartile": null
+      },
+      {
+        "period": "近2年",
+        "fund": 100.76,
+        "peer": 53.46,
+        "hs300": 31.94,
+        "rank": 168,
+        "rankTotal": 906,
+        "quartile": null
+      },
+      {
+        "period": "近3年",
+        "fund": 42.44,
+        "peer": 36.54,
+        "hs300": 23.03,
+        "rank": 321,
+        "rankTotal": 809,
+        "quartile": null
+      },
+      {
+        "period": "近5年",
+        "fund": 10.26,
+        "peer": 16.65,
+        "hs300": -6.17,
+        "rank": 277,
+        "rankTotal": 573,
+        "quartile": null
+      },
+      {
+        "period": "今年来",
+        "fund": 10.15,
+        "peer": 12.05,
+        "hs300": 4.82,
+        "rank": 498,
+        "rankTotal": 1055,
+        "quartile": null
+      },
+      {
+        "period": "成立来",
+        "fund": 207.31,
         "peer": null,
         "hs300": null,
         "rank": null,
         "rankTotal": null,
         "quartile": null
-      },
-      {
-        "period": "近6月",
-        "fund": 25.78,
-        "peer": 9.98,
-        "hs300": null,
-        "rank": 215,
-        "rankTotal": 1037,
-        "quartile": "优秀"
-      },
-      {
-        "period": "近1年",
-        "fund": 103.41,
-        "peer": 42.44,
-        "hs300": 28.06,
-        "rank": 82,
-        "rankTotal": 987,
-        "quartile": "前10%"
-      },
-      {
-        "period": "近2年",
-        "fund": 125.55,
-        "peer": 53.03,
-        "hs300": null,
-        "rank": 81,
-        "rankTotal": 902,
-        "quartile": "优秀"
-      },
-      {
-        "period": "近3年",
-        "fund": 58.83,
-        "peer": 30.96,
-        "hs300": null,
-        "rank": 161,
-        "rankTotal": 803,
-        "quartile": "良好"
-      },
-      {
-        "period": "今年以来",
-        "fund": 19.93,
-        "peer": null,
-        "hs300": 6.95,
-        "rank": 268,
-        "rankTotal": 1087,
-        "quartile": "良好"
-      },
-      {
-        "period": "成立以来",
-        "fund": 234.61,
-        "peer": null,
-        "hs300": 43.71,
-        "rank": 95,
-        "rankTotal": 1087,
-        "quartile": "优秀"
       }
     ],
     "annual": [
@@ -185,7 +206,7 @@
       },
       {
         "year": 2020,
-        "fund": 108,
+        "fund": 108.0,
         "peer": 57.41,
         "hs300": 27.21,
         "rank": 18,
@@ -239,10 +260,10 @@
       },
       {
         "year": 2026,
-        "fund": 16.84,
-        "peer": 14.97,
-        "hs300": 6.15,
-        "rank": 413,
+        "fund": 10.15,
+        "peer": 12.05,
+        "hs300": 4.82,
+        "rank": 498,
         "rankTotal": 1055,
         "quartile": null
       }
@@ -253,7 +274,7 @@
         "quarter": "2017Q1",
         "fund": -0.82,
         "peer": null,
-        "hs300": 3.41,
+        "hs300": null,
         "rank": null,
         "rankTotal": null,
         "quartile": null
@@ -263,7 +284,7 @@
         "quarter": "2017Q2",
         "fund": -0.87,
         "peer": null,
-        "hs300": 4.65,
+        "hs300": null,
         "rank": null,
         "rankTotal": null,
         "quartile": null
@@ -273,7 +294,7 @@
         "quarter": "2017Q3",
         "fund": 16.61,
         "peer": null,
-        "hs300": 5.09,
+        "hs300": null,
         "rank": null,
         "rankTotal": null,
         "quartile": null
@@ -283,7 +304,7 @@
         "quarter": "2017Q4",
         "fund": 1.2,
         "peer": null,
-        "hs300": 3.83,
+        "hs300": null,
         "rank": null,
         "rankTotal": null,
         "quartile": null
@@ -293,7 +314,7 @@
         "quarter": "2018Q1",
         "fund": -5.29,
         "peer": null,
-        "hs300": -4.62,
+        "hs300": null,
         "rank": null,
         "rankTotal": null,
         "quartile": null
@@ -303,7 +324,7 @@
         "quarter": "2018Q2",
         "fund": -15.77,
         "peer": null,
-        "hs300": -9.67,
+        "hs300": null,
         "rank": null,
         "rankTotal": null,
         "quartile": null
@@ -313,7 +334,7 @@
         "quarter": "2018Q3",
         "fund": -8.19,
         "peer": null,
-        "hs300": 0.91,
+        "hs300": null,
         "rank": null,
         "rankTotal": null,
         "quartile": null
@@ -323,7 +344,7 @@
         "quarter": "2018Q4",
         "fund": -1.2,
         "peer": null,
-        "hs300": -8.52,
+        "hs300": null,
         "rank": null,
         "rankTotal": null,
         "quartile": null
@@ -333,7 +354,7 @@
         "quarter": "2019Q1",
         "fund": 29.59,
         "peer": null,
-        "hs300": 30.4,
+        "hs300": null,
         "rank": null,
         "rankTotal": null,
         "quartile": null
@@ -343,7 +364,7 @@
         "quarter": "2019Q2",
         "fund": -3.81,
         "peer": null,
-        "hs300": -3.73,
+        "hs300": null,
         "rank": null,
         "rankTotal": null,
         "quartile": null
@@ -353,7 +374,7 @@
         "quarter": "2019Q3",
         "fund": 13.9,
         "peer": null,
-        "hs300": -3.08,
+        "hs300": null,
         "rank": null,
         "rankTotal": null,
         "quartile": null
@@ -363,7 +384,7 @@
         "quarter": "2019Q4",
         "fund": 13.72,
         "peer": null,
-        "hs300": 6.75,
+        "hs300": null,
         "rank": null,
         "rankTotal": null,
         "quartile": null
@@ -373,7 +394,7 @@
         "quarter": "2020Q1",
         "fund": 0.98,
         "peer": null,
-        "hs300": -11.22,
+        "hs300": null,
         "rank": null,
         "rankTotal": null,
         "quartile": null
@@ -383,7 +404,7 @@
         "quarter": "2020Q2",
         "fund": 31.81,
         "peer": null,
-        "hs300": 13.3,
+        "hs300": null,
         "rank": null,
         "rankTotal": null,
         "quartile": null
@@ -393,7 +414,7 @@
         "quarter": "2020Q3",
         "fund": 15.84,
         "peer": null,
-        "hs300": 8,
+        "hs300": null,
         "rank": null,
         "rankTotal": null,
         "quartile": null
@@ -403,7 +424,7 @@
         "quarter": "2020Q4",
         "fund": 34.9,
         "peer": null,
-        "hs300": 11.33,
+        "hs300": null,
         "rank": null,
         "rankTotal": null,
         "quartile": null
@@ -413,7 +434,7 @@
         "quarter": "2021Q1",
         "fund": -8.83,
         "peer": null,
-        "hs300": -4.16,
+        "hs300": null,
         "rank": null,
         "rankTotal": null,
         "quartile": null
@@ -423,7 +444,7 @@
         "quarter": "2021Q2",
         "fund": 26.93,
         "peer": null,
-        "hs300": 2.22,
+        "hs300": -0.59,
         "rank": null,
         "rankTotal": null,
         "quartile": null
@@ -511,7 +532,7 @@
       {
         "year": 2023,
         "quarter": "2023Q3",
-        "fund": -16,
+        "fund": -16.0,
         "peer": null,
         "hs300": -5.22,
         "rank": null,
@@ -621,9 +642,9 @@
       {
         "year": 2026,
         "quarter": "2026Q2",
-        "fund": 12.95,
+        "fund": 6.48,
         "peer": null,
-        "hs300": 10.43,
+        "hs300": 7.22,
         "rank": null,
         "rankTotal": null,
         "quartile": null
@@ -673,121 +694,113 @@
         "type": "low"
       },
       {
-        "date": "2026-05-12",
-        "nav": 3.2904,
-        "label": "当前净值（历史81.3%分位）",
+        "date": "2026-05-19",
+        "nav": 3.0731,
+        "label": "当前净值（历史88.9%分位）",
         "type": "current"
       }
     ]
   },
   "risk": {
     "volatility": 0.2904,
-    "annualReturn": 0.1458,
-    "sharpe": 0.4,
-    "calmar": 0.21,
+    "annualReturn": 0.1366,
+    "sharpe": 0.37,
+    "calmar": 0.2,
     "maxDrawdown": -0.6931,
     "maxDrawdownPeriod": "2021-11-29 → 2024-09-23",
     "maxDrawdownMonths": 34,
     "periodMetrics": [
       {
         "label": "近1年",
-        "volatility": 0.3053,
-        "sharpe": 2.98
+        "volatility": 0.3076,
+        "sharpe": 2.39,
+        "maxDrawdown": -0.1324
       },
       {
         "label": "近2年",
-        "volatility": 0.3433,
-        "sharpe": 1.21
+        "volatility": 0.3412,
+        "sharpe": 1.18,
+        "maxDrawdown": -0.2543
       },
       {
         "label": "近3年",
-        "volatility": 0.32,
-        "sharpe": 0.32
+        "volatility": 0.3206,
+        "sharpe": 0.25,
+        "maxDrawdown": -0.4902
       }
     ],
     "relativeMetrics": {
-      "beta": 1.0249,
-      "alpha": 0.0871,
-      "informationRatio": 0.4301,
-      "trackingError": 0.2031,
-      "r2": 0.4929
+      "beta": 1.233,
+      "alpha": 0.0577,
+      "informationRatio": 0.2565,
+      "trackingError": 0.2239,
+      "r2": 0.4919
     },
     "recentPerf": [
       {
         "period": "近1周",
-        "fund": -4.22,
-        "peer": -3.64,
-        "hs300": -2.93,
-        "excess": -0.58,
-        "rank": 1070,
-        "rankTotal": 1075,
+        "fund": -6.6,
+        "peer": -1.67,
+        "hs300": -1.92,
+        "excess": -4.93,
+        "rank": 1007,
+        "rankTotal": 1076,
         "warn": true,
-        "note": "行业系统性调整"
+        "note": "明显弱于同类"
       },
       {
         "period": "近1月",
-        "fund": 9.05,
-        "peer": 8.46,
-        "hs300": 6.72,
-        "excess": 0.59,
-        "rank": 432,
-        "rankTotal": 1075,
-        "warn": false,
-        "note": ""
+        "fund": -3.94,
+        "peer": 3.71,
+        "hs300": 2.63,
+        "excess": -7.65,
+        "rank": 871,
+        "rankTotal": 1077,
+        "warn": true,
+        "note": "失守后仍在消化"
       },
       {
         "period": "近3月",
-        "fund": 12.87,
-        "peer": 5.93,
-        "hs300": 4.84,
-        "excess": 6.94,
-        "rank": 272,
+        "fund": 6.08,
+        "peer": 5.47,
+        "hs300": 4.13,
+        "excess": 0.61,
+        "rank": 422,
         "rankTotal": 1071,
         "warn": false,
-        "note": ""
+        "note": "勉强保持正超额"
       },
       {
         "period": "近6月",
-        "fund": 17.72,
-        "peer": 14.42,
-        "hs300": 6.5,
-        "excess": 3.3,
-        "rank": 387,
+        "fund": 5.49,
+        "peer": 14.44,
+        "hs300": 5.77,
+        "excess": -8.95,
+        "rank": 647,
         "rankTotal": 1041,
-        "warn": false,
-        "note": ""
+        "warn": true,
+        "note": "明显弱于同类修复节奏"
       },
       {
         "period": "近1年",
-        "fund": 84.39,
-        "peer": 44.75,
-        "hs300": 27.18,
-        "excess": 39.64,
-        "rank": 164,
+        "fund": 74.36,
+        "peer": 43.25,
+        "hs300": 25.17,
+        "excess": 31.11,
+        "rank": 230,
         "rankTotal": 988,
         "warn": false,
-        "note": "前17%"
-      },
-      {
-        "period": "近2年",
-        "fund": 110.98,
-        "peer": 55.75,
-        "hs300": 34.96,
-        "excess": 55.23,
-        "rank": 137,
-        "rankTotal": 904,
-        "warn": false,
-        "note": "前15%"
+        "note": "仍属优秀"
       }
     ],
     "radarDimensions": [
       {
         "name": "收益能力",
-        "score": 90
+        "score": 92
       },
       {
         "name": "风险控制",
-        "score": 45
+        "score": 40
       },
       {
         "name": "稳定性",
@@ -795,30 +808,35 @@
       },
       {
         "name": "选股能力",
-        "score": 95
+        "score": 93
       },
       {
         "name": "择时能力",
-        "score": 40
+        "score": 35
       }
     ],
     "riskBreakdown": {
       "volatilityRating": "高波动（29.04%，远超宽基指数）",
       "volatilityPercentile": 19,
-      "sharpeRating": "近1年极强（2.98），全期偏低（0.40）",
+      "sharpeRating": "近1年极强（2.39），全期偏低（0.37）",
       "sharpePercentile": 97,
-      "drawdownRating": "历史最大 -69.31%（34个月），近1年 -12.97%",
+      "drawdownRating": "历史最大 -69.31%（34个月），近1年 -13.24%",
       "drawdownPercentile": 64,
       "historicalMaxDrawdown": 69.31,
       "yearlyMaxDrawdowns": [
         {
+          "year": 2026,
+          "fund": 13.24,
+          "hs300": 0
+        },
+        {
           "year": 2025,
           "fund": 18.52,
-          "hs300": 10.49
+          "hs300": 0
         },
         {
           "year": 2024,
-          "fund": 29.79,
+          "fund": 28,
           "hs300": 14.41
         },
         {
@@ -828,28 +846,33 @@
         },
         {
           "year": 2022,
-          "fund": 35.35,
+          "fund": 34.48,
           "hs300": 28.65
         },
         {
           "year": 2021,
           "fund": 20.4,
-          "hs300": 18.19
+          "hs300": 10.05
         },
         {
           "year": 2020,
           "fund": 24.58,
-          "hs300": 16.08
+          "hs300": 0
         },
         {
           "year": 2019,
           "fund": 16.05,
-          "hs300": 13.49
+          "hs300": 0
         },
         {
           "year": 2018,
           "fund": 40.46,
-          "hs300": 31.88
+          "hs300": 0
+        },
+        {
+          "year": 2017,
+          "fund": 9.65,
+          "hs300": 0
         }
       ]
     },
@@ -861,112 +884,122 @@
       },
       {
         "level": "high",
-        "text": "卡玛比率仅0.21，年化收益不足以补偿历史回撤风险",
+        "text": "卡玛比率仅0.20，年化收益不足以补偿历史回撤风险",
         "category": "内部"
       },
       {
         "level": "medium",
-        "text": "全期夏普0.40偏低；近1年急速好转（2.98），但高位位置（81%分位）带来未来回撤压力",
+        "text": "全期夏普0.37偏低；近1年好转（2.39），但高位位置（88.9%分位）带来未来回撤压力",
         "category": "内部"
       },
       {
         "level": "medium",
-        "text": "年化波动率29.04%，高波动；R²=0.49，约一半波动由行业Beta驱动",
+        "text": "年化波动率29.04%，高波动；R²=0.49，约一半波动可由市场解释",
         "category": "内部"
       },
       {
         "level": "low",
-        "text": "近1年超额+39.64%，选股Alpha有效；近1周行业性调整非个基问题",
+        "text": "近1年超额+31.11%，选股Alpha有效；近1周行业性调整非个基问题",
         "category": "内部"
       },
       {
         "level": "high",
         "category": "外部",
-        "text": "当前净值处历史高位（81.3%分位），距历史峰值-15.2%，新入场存在高位套牢风险，建议等待回调至NAV≈2.8-3.0再分批布局"
+        "text": "当前净值处历史高位（88.9%分位），距历史峰值-20.8%，新入场存在高位套牢风险，建议等待回调至NAV≈2.7-2.8再分批布局"
       },
       {
         "level": "high",
         "category": "外部",
-        "text": "行业集中风险：锂矿/锂电持仓高度集中（前十57.3%），一旦碳酸锂价格再次下行，回撤将非常剧烈"
+        "text": "行业集中风险：锂矿/锂电持仓高度集中（前十57.3%），一旦碳酸锂价格再次系统性下行，回撤将非常剧烈"
       },
       {
         "level": "medium",
         "category": "外部",
-        "text": "策略转型未验证：\"通胀受益+能源\"新框架成立时间较短（约1-2个季度），长期有效性有待检验"
+        "text": "策略转型未验证：通胀受益+能源新框架成立时间较短（约1-2个季度），长期有效性有待检验"
       },
       {
         "level": "medium",
         "category": "外部",
-        "text": "中美贸易摩擦：关税清单包含部分新能源材料，出口受压；特朗普访华带来短期缓和，但长期不确定性仍存"
-      },
-      {
-        "level": "medium",
-        "category": "外部",
-        "text": "欧盟新能源关税：对华新能源出口加税17-38%，出口路径受阻，主要依赖国内内需及东南亚市场对冲"
-      },
-      {
-        "level": "low",
-        "category": "外部",
-        "text": "中东地缘冲突缓和风险：若地缘局势大幅降温，油价回落，\"能源安全+通胀受益\"叙事减弱，上游锂矿资源估值逻辑受压"
+        "text": "欧盟关税：对华新能源出口加税，出口路径受阻，主要依赖国内内需及东南亚市场对冲"
       }
     ],
-    "navPercentile": 92.6
+    "navPercentile": 88.9
   },
   "holdings": {
     "date": "2026年1季度股票投资明细",
-    "stockRatio": 93.7,
+    "stockRatio": 92.78,
     "bondRatio": 3.5,
-    "cashRatio": 2.8,
+    "cashRatio": 3.72,
     "top10": [
       {
-        "name": null,
-        "code": null,
-        "ratio": null
+        "rank": 1,
+        "name": "宁德时代",
+        "code": "300750",
+        "ratio": 8.92,
+        "sector": "产业链龙头"
       },
       {
-        "name": null,
-        "code": null,
-        "ratio": null
+        "rank": 2,
+        "name": "湖南裕能",
+        "code": "301358",
+        "ratio": 6.29,
+        "sector": "中游材料"
       },
       {
-        "name": null,
-        "code": null,
-        "ratio": null
+        "rank": 3,
+        "name": "盐湖股份",
+        "code": "000792",
+        "ratio": 6.1,
+        "sector": "上游锂矿"
       },
       {
-        "name": null,
-        "code": null,
-        "ratio": null
+        "rank": 4,
+        "name": "天赐材料",
+        "code": "002709",
+        "ratio": 5.87,
+        "sector": "中游材料"
       },
       {
-        "name": null,
-        "code": null,
-        "ratio": null
+        "rank": 5,
+        "name": "赣锋锂业",
+        "code": "002460",
+        "ratio": 5.86,
+        "sector": "上游锂矿"
       },
       {
-        "name": null,
-        "code": null,
-        "ratio": null
+        "rank": 6,
+        "name": "雅化集团",
+        "code": "002497",
+        "ratio": 5.2,
+        "sector": "上游锂矿"
       },
       {
-        "name": null,
-        "code": null,
-        "ratio": null
+        "rank": 7,
+        "name": "天齐锂业",
+        "code": "002466",
+        "ratio": 5.04,
+        "sector": "上游锂矿"
       },
       {
-        "name": null,
-        "code": null,
-        "ratio": null
+        "rank": 8,
+        "name": "璞泰来",
+        "code": "603659",
+        "ratio": 4.96,
+        "sector": "中游材料"
       },
       {
-        "name": null,
-        "code": null,
-        "ratio": null
+        "rank": 9,
+        "name": "中矿资源",
+        "code": "002738",
+        "ratio": 4.61,
+        "sector": "上游锂矿"
       },
       {
-        "name": null,
-        "code": null,
-        "ratio": null
+        "rank": 10,
+        "name": "华友钴业",
+        "code": "603799",
+        "ratio": 4.43,
+        "sector": "中游材料"
       }
     ],
     "top10TotalRatio": 57.28,
@@ -990,6 +1023,14 @@
       {
         "name": "科学研究和技术服务业",
         "ratio": 0.01
+      },
+      {
+        "name": "批发和零售业",
+        "ratio": 0.0
+      },
+      {
+        "name": "交通运输、仓储和邮政业",
+        "ratio": 0.0
       }
     ],
     "bondStructure": null,
@@ -1018,28 +1059,28 @@
     "themeGroups": [
       {
         "name": "上游锂矿资源",
-        "ratio": 26.8,
+        "ratio": 26.81,
         "color": "#E8813A",
-        "stocks": "盐湖股份 6.10% / 赣锋锂业 5.86% / 雅化集团 5.20% / 天齐锂业 5.04% / 中矿资源 4.61%",
-        "note": "押注碳酸锂价格从底部反弹，通胀大周期下的受益资产。盐湖股份兼具钾肥/化工属性。"
+        "stocks": "盐湖股份6.10% / 赣锋锂业5.86% / 雅化集团5.20% / 天齐锂业5.04% / 中矿资源4.61%",
+        "note": "押注碳酸锂价格从底部反弹，通胀大周期下的受益资产。盐湖股份同时兼具钾肥/化工属性，与通胀受益主题高度契合。"
       },
       {
         "name": "中游材料",
         "ratio": 21.55,
         "color": "#58a6ff",
-        "stocks": "天赐材料 5.87% / 湖南裕能 6.29% / 璞泰来 4.96% / 华友钴业 4.43%",
+        "stocks": "天赐材料5.87% / 湖南裕能6.29% / 璞泰来4.96% / 华友钴业4.43%",
         "note": "布局电解液+正极材料+负极材料核心环节，受益锂电产业链景气复苏。"
       },
       {
         "name": "产业链龙头压舱石",
         "ratio": 8.92,
         "color": "#F54E48",
-        "stocks": "宁德时代 8.92%",
+        "stocks": "宁德时代8.92%",
         "note": "单一最大持仓，压舱石地位，同时受益能源转型与规模效应扩张。"
       }
     ],
-    "themeTitle": "通胀受益 + 能源转型",
-    "themeSubtitle": "锂电上游资源 + 中游材料，聚焦碳酸锂价格修复预期",
+    "themeTitle": "锂电中上游盈利修复",
+    "themeSubtitle": "以锂矿、正极、电解液和电池龙头为核心，押注产业链盈利再分配",
     "evolutionHighlights": [
       {
         "quarter": "2019Q4",
@@ -1057,7 +1098,7 @@
         "concentration": "58-65%",
         "return": "-33.36% / -28.74%（年度）",
         "type": "warning",
-        "insight": "面对行业-60%跌幅全程承受，持有人近3年-69%回撤——坚守信念的代价。"
+        "insight": "面对行业-60%跌幅全程承受，持有人近3年-69%回撤，坚守信念的代价。"
       },
       {
         "quarter": "2025Q3",
@@ -1075,14 +1116,14 @@
         "concentration": "51.8%",
         "return": "+0.56%",
         "type": "positive",
-        "insight": "加速向\"通胀受益\"叙事转型。"
+        "insight": "加速向通胀受益叙事转型。"
       },
       {
         "quarter": "2026Q1",
         "change": "↑新进赣锋锂业/天齐锂业/中矿资源/湖南裕能",
         "theme": "上游锂矿全面布局，清仓中游制造部分",
         "concentration": "57.3%",
-        "return": "+1.26%",
+        "return": "+3.87%",
         "type": "positive",
         "insight": "策略转型完成，当前持仓即本阶段结果。"
       }
@@ -1092,15 +1133,15 @@
     "current": {
       "name": "姚志鹏",
       "title": "副总经理、股票投研首席投资官",
-      "education": "北京大学化学系本科，清华大学-MIT国际工商管理硕士",
-      "experience": 10,
+      "education": "硕士研究生，2011年加入嘉实基金，曾任股票研究部研究员",
+      "experience": 10.1,
       "joinDate": "2011-07",
       "manageDate": "2017-03-16",
       "manageYears": 9.2,
       "fundCount": 14,
       "totalScale": 176.16,
-      "bestReturn": 244.95,
-      "worstReturn": -8.39,
+      "bestReturn": 218.58,
+      "worstReturn": -15.16,
       "managerId": "30447865",
       "style": "聚焦高景气赛道，长期主义，深度研究驱动",
       "strengths": [
@@ -1116,170 +1157,232 @@
       ],
       "historicalFunds": [
         {
-          "name": "嘉实智能汽车股票",
-          "code": "002168",
-          "managePeriod": "2016-04-30 ~ 至今",
-          "isCurrent": true,
-          "return": 236.61
-        },
-        {
-          "name": "嘉实新能源新材料股票A",
-          "code": "003984",
-          "managePeriod": "2017-03-16 ~ 至今",
-          "isCurrent": true,
-          "return": 229.04
-        },
-        {
-          "name": "嘉实新能源新材料股票C",
-          "code": "003985",
-          "managePeriod": "2017-03-16 ~ 至今",
-          "isCurrent": true,
-          "return": 216.43
-        },
-        {
-          "name": "嘉实环保低碳股票",
-          "code": "001616",
-          "managePeriod": "2018-03-21 ~ 至今",
-          "isCurrent": true,
-          "return": 134.56
+          "name": "嘉实积极配置一年持有混合C",
+          "code": "017148",
+          "type": "混合型-偏股",
+          "tenure": "2022-11-29 ~ 至今",
+          "return": 49.45,
+          "rank": 2293,
+          "rankTotal": 4497,
+          "grade": "ok",
+          "isCurrent": true
         },
         {
           "name": "嘉实积极配置一年持有混合A",
           "code": "017147",
-          "managePeriod": "2022-11-29 ~ 至今",
-          "isCurrent": true,
-          "return": 57.65
-        },
-        {
-          "name": "嘉实积极配置一年持有混合C",
-          "code": "017148",
-          "managePeriod": "2022-11-29 ~ 至今",
-          "isCurrent": true,
-          "return": 55.73
-        },
-        {
-          "name": "嘉实产业先锋混合A",
-          "code": "009869",
-          "managePeriod": "2020-07-21 ~ 至今",
-          "isCurrent": true,
-          "return": 13.08
-        },
-        {
-          "name": "嘉实产业先锋混合C",
-          "code": "009870",
-          "managePeriod": "2020-07-21 ~ 至今",
-          "isCurrent": true,
-          "return": 7.94
-        },
-        {
-          "name": "嘉实动力先锋混合A",
-          "code": "009909",
-          "managePeriod": "2020-11-23 ~ 至今",
-          "isCurrent": true,
-          "return": 2.8
-        },
-        {
-          "name": "嘉实动力先锋混合C",
-          "code": "009910",
-          "managePeriod": "2020-11-23 ~ 至今",
-          "isCurrent": true,
-          "return": -1.63
-        },
-        {
-          "name": "嘉实时代先锋三年持有混合A",
-          "code": "011643",
-          "managePeriod": "2021-07-27 ~ 至今",
-          "isCurrent": true,
-          "return": -6.26
-        },
-        {
-          "name": "嘉实时代先锋三年持有混合C",
-          "code": "011644",
-          "managePeriod": "2021-07-27 ~ 至今",
-          "isCurrent": true,
-          "return": -8.05
+          "type": "混合型-偏股",
+          "tenure": "2022-11-29 ~ 至今",
+          "return": 51.3,
+          "rank": 2271,
+          "rankTotal": 4497,
+          "grade": "ok",
+          "isCurrent": true
         },
         {
           "name": "嘉实远见先锋一年持有期混合A",
           "code": "012852",
-          "managePeriod": "2021-08-31 ~ 至今",
-          "isCurrent": true,
-          "return": -8.49
+          "type": "混合型-偏股",
+          "tenure": "2021-08-31 ~ 至今",
+          "return": -13.13,
+          "rank": 3086,
+          "rankTotal": 4497,
+          "grade": "ok",
+          "isCurrent": true
         },
         {
           "name": "嘉实远见先锋一年持有期混合C",
           "code": "012853",
-          "managePeriod": "2021-08-31 ~ 至今",
-          "isCurrent": true,
-          "return": -10.61
+          "type": "混合型-偏股",
+          "tenure": "2021-08-31 ~ 至今",
+          "return": -15.16,
+          "rank": 3115,
+          "rankTotal": 4497,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "嘉实时代先锋三年持有混合A",
+          "code": "011643",
+          "type": "混合型-偏股",
+          "tenure": "2021-07-27 ~ 至今",
+          "return": -10.83,
+          "rank": 2859,
+          "rankTotal": 4497,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "嘉实时代先锋三年持有混合C",
+          "code": "011644",
+          "type": "混合型-偏股",
+          "tenure": "2021-07-27 ~ 至今",
+          "return": -12.55,
+          "rank": 2878,
+          "rankTotal": 4497,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "嘉实动力先锋混合A",
+          "code": "009909",
+          "type": "混合型-偏股",
+          "tenure": "2020-11-23 ~ 至今",
+          "return": -2.96,
+          "rank": 3060,
+          "rankTotal": 4497,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "嘉实动力先锋混合C",
+          "code": "009910",
+          "type": "混合型-偏股",
+          "tenure": "2020-11-23 ~ 至今",
+          "return": -7.15,
+          "rank": 3111,
+          "rankTotal": 4497,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "嘉实产业先锋混合C",
+          "code": "009870",
+          "type": "混合型-偏股",
+          "tenure": "2020-07-21 ~ 至今",
+          "return": 1.6,
+          "rank": 3187,
+          "rankTotal": 4497,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "嘉实产业先锋混合A",
+          "code": "009869",
+          "type": "混合型-偏股",
+          "tenure": "2020-07-21 ~ 至今",
+          "return": 6.46,
+          "rank": 3139,
+          "rankTotal": 4497,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "嘉实环保低碳股票",
+          "code": "001616",
+          "type": "股票型",
+          "tenure": "2018-03-21 ~ 至今",
+          "return": 121.03,
+          "rank": 316,
+          "rankTotal": 988,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "嘉实新能源新材料股票C",
+          "code": "003985",
+          "type": "股票型",
+          "tenure": "2017-03-16 ~ 至今",
+          "return": 195.5,
+          "rank": 236,
+          "rankTotal": 988,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "嘉实新能源新材料股票A",
+          "code": "003984",
+          "type": "股票型",
+          "tenure": "2017-03-16 ~ 至今",
+          "return": 207.31,
+          "rank": 230,
+          "rankTotal": 988,
+          "grade": "top",
+          "isCurrent": true
         },
         {
           "name": "嘉实新收益混合",
           "code": "000870",
-          "managePeriod": "2016-12-28 ~ 2020-07-22",
-          "isCurrent": false,
-          "return": 70.2
+          "type": "混合型-灵活",
+          "tenure": "2016-12-28 ~ 2020-07-22",
+          "return": 70.2,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": false
         },
         {
           "name": "嘉实价值优势混合A",
           "code": "070019",
-          "managePeriod": "2016-05-03 ~ 2016-11-23",
-          "isCurrent": false,
-          "return": 6.28
+          "type": "混合型-偏股",
+          "tenure": "2016-05-03 ~ 2016-11-23",
+          "return": 6.28,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": false
+        },
+        {
+          "name": "嘉实智能汽车股票",
+          "code": "002168",
+          "type": "股票型",
+          "tenure": "2016-04-30 ~ 至今",
+          "return": 218.58,
+          "rank": 257,
+          "rankTotal": 988,
+          "grade": "good",
+          "isCurrent": true
         }
       ],
-      "tenureReturn": 229.04,
-      "peerAvgReturn": 44.75,
-      "rankInPeer": 164,
+      "tenureReturn": 207.31,
+      "peerAvgReturn": 43.25,
+      "rankInPeer": 230,
       "rankTotal": 988,
       "philosophy": [
         {
           "label": "核心投资理念",
-          "text": "深度产业研究驱动，聚焦新能源+新材料产业趋势，寻找行业景气拐点，长周期持股。2026年升级为“通胀受益+能源”大主题下的能源转型资产。"
+          "text": "深度产业研究驱动，围绕新能源与新材料的中长期景气切换做集中配置。2025Q3以前重点强调盈利改善预期与成长风格修复，2026Q1进一步升级为再通胀+能源安全框架。"
         },
         {
           "label": "选股方法论",
-          "text": "优先选择产业链龙头（宁德时代长期持仓），配合上下游弹性品种（碳酸锂上游+电解液+隔膜）。重视行业供需结构变化，特别是产能出清后的盈利弹性。"
+          "text": "优先重仓产业链龙头，再配高弹性环节。宁德时代长期作为压舱石，阶段性大幅增配盐湖股份、赣锋锂业、天齐锂业、湖南裕能等中上游品种，押注利润修复。"
         },
         {
           "label": "仓位管理风格",
-          "text": "全程高仓位（90-95%），几乎不做防御性择时。带来强大牛市弹性，但熊市几乎不做保护（最大回撤-69.31%）。"
+          "text": "长期高仓位，2026Q1股票资产占总资产92.78%，对行情方向判断要求极高。牛市弹性强，但行业回撤来临时缺乏缓冲垫。"
         },
         {
           "label": "风格稳定性",
-          "text": "主题一致性高，始终围绕新能源/新材料。细分方向有漂移：2017年偏光伏/整车→2019年锂电中游→2025年底转向上游锂矿资源。"
+          "text": "主线始终是新能源/新材料，但内部切换明显：2017年偏光伏与整车，2019-2024年偏锂电中游制造，2025Q3起明显提升上游资源与再通胀敞口。"
         }
       ],
       "consistencyAudit": [
         {
-          "period": "2026年Q1季报 · 策略转型",
+          "period": "2025年Q3季报·风格修复阶段",
           "result": "pass",
           "label": "一致",
-          "stated": "本基金聚焦通胀受益+能源主线，中东战争导致全球能源危机，油价持续高位（>$100/桶），中国新能源资产在全球成本领先，当前估值处于历史低位，是历史性买入时机。",
-          "actual": "宁德时代8.92%、湖南裕能6.29%、盐湖股份6.10%、天赐材料5.87%、赣锋锂业5.86%（大量上游锂矿资源）",
-          "evaluation": "季报“通胀受益+能源”叙事与持仓大幅调入锂矿/碳酸锂上游完全对应。"
+          "stated": "我们三季度围绕企业盈利改善预期和目前的估值分位继续重点配置锂电池产业链和智能驾驶产业链，并随着市场的节奏适当增加上游资源品资产的比例。",
+          "actual": "宁德时代8.49%、亿纬锂能6.34%、璞泰来6.02%、湖南裕能5.81%、天赐材料5.18%",
+          "evaluation": "一致。季报先强调锂电与智能驾驶，再提高上游资源占比，持仓确实体现了从中游制造向资源品的过渡。"
         },
         {
-          "period": "2022年熊市最深处 · 满仓死守",
+          "period": "2026年Q1季报·再通胀/能源安全框架",
           "result": "warn",
-          "label": "一致但滞后",
-          "stated": "继续满仓持有核心标的，坚守长期投资逻辑，认为锂电产业中长期趋势不变。",
-          "actual": "宁德时代14.5%+恩捷股份12.4%+璞泰来10.5%（前三大即37%），高度集中且全程未减仓",
-          "evaluation": "坚持长期投资理念固然正确，但面对-69%历史级别回撤完全不做风控，对持有人损失代价极大。"
+          "label": "一致但阶段性兑现不足",
+          "stated": "我们将从前期的新能源、新科技、新消费和创新药为代表的四新资产，转为更聚焦于未来受益于全球通胀相关受益资产的能源和消费。在新能源相关资产内部，我们会更关注锂电池中上游潜在的盈利修复空间和机遇。",
+          "actual": "宁德时代8.92%、湖南裕能6.29%、盐湖股份6.10%、天赐材料5.87%、赣锋锂业5.86%",
+          "evaluation": "一致但阶段性兑现不足。持仓与表述高度一致，但基金一季度净值增长率仅3.87%，明显跑输业绩基准9.92%。"
         }
       ],
       "abilityProfile": {
-        "best": "行业选择与产业趋势把握（三只旗舰基金同类排名均长期靠前，任职回报134%~236%）",
-        "worst": "回撤控制能力差（最大回撤-69.31%，整个熊市从未减仓）",
+        "best": "能在产业周期拐点前做较大幅度的方向切换，并长期重仓核心赛道龙头",
+        "worst": "回撤控制弱，且在高仓位框架下容易把产业判断正确变成净值路径难熬",
         "goodEnv": [
-          "新能源产业景气上行期",
-          "政策强力催化期",
-          "流动性充裕期"
+          "政策顺风、产业盈利修复明确",
+          "市场愿意给成长制造与资源品风险溢价"
         ],
         "badEnv": [
-          "产能过剩期（如2022-2023锂价崩跌）",
-          "利率收紧期",
-          "行业估值大幅压缩期"
+          "需求塌缩、产能过剩、再通胀逻辑证伪",
+          "市场从高弹性赛道普遍切向低波防御"
         ]
       },
       "allManagerIds": [
@@ -1304,84 +1407,58 @@
         "end": "2026-01-21",
         "tenure": "约5年",
         "return": -5.26,
-        "note": "共管期间恰逢行业最长熊市，阶段负收益主要归因于行业Beta损耗"
+        "note": "共管期间恰逢行业最长熊市，阶段负收益主要归因于行业Beta损耗而非共管本身"
       },
       {
         "name": "姚志鹏",
         "role": "独任",
         "start": "2026-01-22",
         "end": null,
-        "tenure": "约4个月",
-        "return": 12.5,
-        "note": "熊昱洲离任后恢复独任，时间窗口过短"
+        "tenure": "至今",
+        "return": 5.07,
+        "note": "独任后延续上游资源修复思路，但Q1对基准落后，短期仍需观察"
       }
     ]
   },
   "policy": {
     "tags": [
       {
-        "label": "十五五能源规划",
+        "label": "零碳工厂建设",
         "strength": "high",
         "color": "#F54E48"
       },
       {
-        "label": "新能源反内卷",
+        "label": "节能降碳",
         "strength": "high",
         "color": "#F54E48"
       },
       {
-        "label": "碳达峰碳中和",
+        "label": "新能源汽车十五五规划",
         "strength": "high",
         "color": "#F54E48"
       },
       {
-        "label": "中东能源危机叙事",
-        "strength": "high",
-        "color": "#F54E48"
-      },
-      {
-        "label": "电动车购车补贴",
+        "label": "锂电池产业链盈利修复",
         "strength": "medium",
         "color": "#E8813A"
       },
       {
-        "label": "公募加码新能源",
+        "label": "能源安全叙事",
         "strength": "medium",
         "color": "#E8813A"
       },
       {
-        "label": "动力电池盈利拐点",
-        "strength": "medium",
-        "color": "#E8813A"
-      },
-      {
-        "label": "欧盟关税压制",
-        "strength": "low",
-        "color": "#2DC78E"
-      },
-      {
-        "label": "中美关税摩擦",
+        "label": "欧盟关税",
         "strength": "low",
         "color": "#2DC78E"
       }
     ],
     "policyBreakdown": [
       {
-        "sector": "十五五能源规划",
-        "icon": "🏛️",
+        "sector": "零碳工厂建设",
+        "icon": "🏭",
         "color": "#F54E48",
-        "logic": "国家发改委/能源局2025-03发布，新能源装机倍增、储能列为重点方向，国家级战略背书",
-        "stocks": [
-          "盐湖股份",
-          "赣锋锂业",
-          "宁德时代"
-        ]
-      },
-      {
-        "sector": "新能源反内卷政策",
-        "icon": "⚙️",
-        "color": "#E8813A",
-        "logic": "工信部2025-06推出，限制恶性价格竞争，加速落后产能退出，利于龙头盈利修复",
+        "logic": "2026-01-19工信部等五部门发布，2026年起遴选零碳工厂，到2027年在汽车、锂电池、光伏等行业培育一批零碳工厂，直接提升锂电制造链中长期景气想象空间",
         "stocks": [
           "宁德时代",
           "湖南裕能",
@@ -1389,36 +1466,38 @@
         ]
       },
       {
-        "sector": "中东地缘冲突",
-        "icon": "🌍",
+        "sector": "节能降碳",
+        "icon": "🌱",
         "color": "#F54E48",
-        "logic": "2025Q3起霍尔木兹海峡风险+油价>$100，全球能源安全优先级提升，强化新能源转型叙事",
+        "logic": "2026-04-22中共中央办公厅、国务院办公厅发布，强调发展非化石能源、新型储能，推进重点行业节能降碳和标准升级，为新能源与新材料链条提供制度性顺风",
         "stocks": [
+          "天赐材料",
           "盐湖股份",
-          "天齐锂业",
-          "中矿资源"
+          "赣锋锂业"
         ]
       },
       {
-        "sector": "储能爆发需求",
-        "icon": "⚡",
-        "color": "#58a6ff",
-        "logic": "AI算力用电飙升+全球能源安全，储能装机量高速增长，成为锂电需求第二增长极",
+        "sector": "新能源汽车十五五规划",
+        "icon": "🚗",
+        "color": "#E8813A",
+        "logic": "2026-04-22工信部发布会提出加快编制智能网联新能源汽车等十五五规划，落实汽车、电力装备稳增长方案，并规范产业竞争秩序，利于需求预期和供给秩序修复",
         "stocks": [
           "宁德时代",
-          "天赐材料",
-          "华友钴业"
+          "湖南裕能",
+          "天赐材料"
         ]
       },
       {
-        "sector": "碳中和长期目标",
-        "icon": "🌱",
-        "color": "#3fb950",
-        "logic": "2030碳达峰、2060碳中和目标坚定，长期为新能源产业链提供政策底色",
+        "sector": "能源安全与再通胀",
+        "icon": "⚡",
+        "color": "#E8813A",
+        "logic": "全球再通胀和油价冲击背景下，上游锂矿资源受益于\"能源独立+低碳替代\"叙事，但兑现路径仍需验证",
         "stocks": [
           "盐湖股份",
           "赣锋锂业",
-          "湖南裕能"
+          "天齐锂业",
+          "雅化集团",
+          "中矿资源"
         ]
       }
     ],
@@ -1426,42 +1505,37 @@
       {
         "direction": "关键矿产安全保障",
         "color": "#F54E48",
-        "description": "锂资源提升至国家安全高度，强化国内开采+海外布局，2025-2027阶段重点",
+        "description": "锂资源提升至国家安全高度，强化国内开采+海外布局",
         "holdings": "盐湖股份 / 赣锋锂业 / 天齐锂业 / 雅化集团 / 中矿资源"
       },
       {
-        "direction": "固态电池产业化",
-        "color": "#58a6ff",
-        "description": "推动固态电池从实验室到量产，2028-2029进入产业化关键期，带动材料体系革新",
-        "holdings": "宁德时代（研发+制造）/ 华友钴业（材料）"
+        "direction": "新能源汽车产业发展",
+        "color": "#E8813A",
+        "description": "加快编制智能网联新能源汽车等十五五规划，落实稳增长方案",
+        "holdings": "宁德时代 / 湖南裕能 / 天赐材料"
       },
       {
-        "direction": "新型储能全面市场化",
-        "color": "#3fb950",
-        "description": "2030年储能装机目标100GW+，峰谷电价机制完善，储能盈利模式打通",
-        "holdings": "宁德时代 / 天赐材料 / 湖南裕能"
+        "direction": "节能降碳与绿色制造",
+        "color": "#58a6ff",
+        "description": "零碳工厂建设，推进重点行业节能降碳和标准升级",
+        "holdings": "宁德时代 / 湖南裕能 / 璞泰来"
       }
     ],
     "longTermRisks": [
-      {
-        "risk": "氢能技术突破替代锂电",
-        "level": "low",
-        "signal": "若氢燃料电池成本曲线加速下降至$50/kW以下，可能在重型交通+长距离储能场景替代锂电，关注政策资金流向"
-      },
       {
         "risk": "碳酸锂产能过剩再现",
         "level": "medium",
         "signal": "若全球锂矿资本开支在2026-2027集中投产，碳酸锂价格可能再次承压，当前上游锂矿逻辑将受冲击"
       },
       {
-        "risk": "国际贸易壁垒持续加剧",
+        "risk": "欧盟关税持续压制",
         "level": "medium",
-        "signal": "美欧对华新能源材料+电池关税持续升级，若出口依赖高的企业（华友钴业/璞泰来）受压，影响持仓估值"
+        "signal": "欧盟对华新能源关税持续，出口路径受阻，依赖国内内需及东南亚市场对冲"
       },
       {
-        "risk": "新能源车渗透率见顶",
-        "level": "low",
-        "signal": "国内渗透率逼近60%高位后增速放缓，需求侧增量减少，关注2027年后国内销量数据拐点"
+        "risk": "全球需求波动",
+        "level": "medium",
+        "signal": "全球需求变化、油价波动和AI资本开支链条调整，都可能影响新能源资产的估值框架"
       }
     ],
     "scenarios": [
@@ -1469,149 +1543,145 @@
         "type": "乐观",
         "probability": 25,
         "color": "#3fb950",
-        "returnLow": 40,
-        "returnHigh": 60,
-        "trigger": "储能需求超预期爆发+固态电池技术突破+中东冲突维持高油价+中美贸易短期缓和，碳酸锂价格修复至30万/吨以上"
+        "returnLow": 30,
+        "returnHigh": 50,
+        "trigger": "锂电中上游盈利修复超预期兑现，政策继续加码，碳酸锂价格企稳回升，全球需求修复"
       },
       {
         "type": "基准",
         "probability": 55,
         "color": "#58a6ff",
-        "returnLow": 20,
-        "returnHigh": 30,
-        "trigger": "政策按预期推进，新能源车渗透率稳步提升，碳酸锂价格在15-25万/吨区间企稳，全球经济温和复苏"
+        "returnLow": 10,
+        "returnHigh": 20,
+        "trigger": "政策按预期推进，锂电中上游盈利缓慢修复，碳酸锂价格震荡，基金逐步扭转对基准落后"
       },
       {
         "type": "悲观",
         "probability": 20,
         "color": "#F54E48",
-        "returnLow": -10,
-        "returnHigh": 10,
-        "trigger": "储能需求不及预期+中东局势缓和油价回落+碳酸锂产能过剩再现+欧美贸易壁垒持续加剧"
+        "returnLow": -15,
+        "returnHigh": 0,
+        "trigger": "碳酸锂价格再次下行，盈利修复证伪，欧盟关税持续压制，全球需求不及预期"
       }
     ],
     "industryOverview": [
       {
-        "point": "新能源汽车渗透率",
-        "detail": "2026年预计突破55%，EV需求持续强支撑"
+        "point": "制造业与高技术景气仍在",
+        "detail": "2026年一季度规模以上工业增加值同比增长 6.1%，装备制造业增长 8.9%，高技术制造业增长 12.5%"
       },
       {
-        "point": "碳酸锂价格修复",
-        "detail": "从60万/吨崩至7万/吨后，2025年供给侧出清推动价格恢复，反内卷加速"
+        "point": "政策支持绿色制造+能源安全",
+        "detail": "零碳工厂、节能降碳、新型储能和新能源汽车中长期规划，利好产业链效率提升与供给秩序优化"
       },
       {
-        "point": "储能爆发",
-        "detail": "AI算力用电飙升+全球能源安全驱动，储能装机成锂电需求第二增长极"
+        "point": "锂电中上游盈利修复",
+        "detail": "基金重仓锂电中上游，押注产业链利润修复，但兑现速度仍需观察"
       },
       {
-        "point": "公募加码新能源",
-        "detail": "2026Q1公募对电力设备及新能源配置比例升至10.15%，ETF密集上市"
-      },
-      {
-        "point": "动力电池盈利拐点",
-        "detail": "多家机构确认2025Q4盈利拐点，2026年有望进入快速增长通道"
+        "point": "市场从叙事转向兑现",
+        "detail": "2025Q3宏观叙事驱动已过，2026Q1基金跑输业绩基准6.05个百分点，市场更挑剔盈利兑现"
       }
     ],
-    "cyclePeriod": "政策红利期",
-    "cycleReason": "国内政策供给端（反内卷）+需求端（新能源补贴）双向支撑；中东冲突提升新能源转型优先级；动力电池行业盈利拐点已确认，产业景气回升中",
-    "note": "📋 三情景基于2026年5月时点研判，中期（6-12个月）基准情景为主，若能源行情叙事持续，乐观情景概率上升",
+    "cyclePeriod": "🟢 红利期",
+    "cycleReason": "2026年上半年官方政策连续强化绿色制造、节能降碳、新型储能和新能源汽车规划，行业方向仍在顺风区；但基金当前押注的锂电中上游盈利修复兑现速度不等于政策推进速度",
+    "note": "当前处于政策红利期，但市场已从叙事先行转向盈利兑现，基金2026Q1跑输基准说明新框架仍需时间验证",
     "dualTimeline": [
       {
         "period": "2017-03 → 2017-12",
         "manager": {
-          "type": "warning",
-          "event": "光伏赛道初步建仓，略落后指数",
-          "return": "+16.03%（HS300 +21.78%）",
-          "note": "重仓阳光电源、通威股份，跟随行业Beta，选股尚处探索期，超额-5.75%"
+          "type": "neutral",
+          "event": "建仓探索期，布局传统清洁能源",
+          "return": "+16.03%（沪深300 +21.78%）",
+          "note": "Beta收益为主，跑输沪深300，行业选择方向正确但仓位轮动频繁"
         },
         "market": {
           "type": "bull",
-          "event": "光伏装机快速增长，补贴政策持续",
-          "note": "国内光伏新增装机53GW，全球第一；上网补贴尚未退坡，行业高景气度"
+          "event": "新能源汽车月销量持续突破历史记录",
+          "note": "国家首批双积分政策征求意见稿落地，光伏装机高速增长"
         }
       },
       {
         "period": "2018-01 → 2018-12",
         "manager": {
           "type": "warning",
-          "event": "坚守光伏仓位，未作任何防御",
-          "return": "-28.85%（HS300 -25.31%）",
-          "note": "531新政冲击下全程高仓坚守，无止损操作，Alpha/Beta均为负贡献，超额-3.54%"
+          "event": "行业熊市期，坚守未减仓",
+          "return": "-28.85%（沪深300 -25.31%）",
+          "note": "531光伏新政冲击，坚守未减仓，Beta+Alpha双损"
         },
         "market": {
           "type": "bear",
-          "event": "光伏531新政削减补贴，中美贸易战打响",
-          "note": "补贴大幅退坡，装机腰斩；中美贸易战第一轮开打，光伏企业出口受阻"
+          "event": "531新政削减光伏补贴，中美贸易战打响",
+          "note": "新能源行业系统性熊市叠加贸易战冲击"
         }
       },
       {
         "period": "2019-01 → 2019-12",
         "manager": {
           "type": "positive",
-          "event": "精准切仓至动力电池产业链",
-          "return": "+61.99%（HS300 +36.07%）",
-          "note": "年内从光伏切换至宁德时代+天赐材料，提前布局动力电池中游，超额+25.92%"
+          "event": "精准预判电动车产业链崛起",
+          "return": "+61.99%（沪深300 +36.07%）",
+          "note": "果断将核心仓位从光伏切换至宁德时代+天赐材料，提前布局动力电池中游"
         },
         "market": {
           "type": "bull",
-          "event": "新能源车政策回暖，渗透率加速",
-          "note": "双积分政策推动车企电动化，宁德时代A股上市后配置热情持续升温"
+          "event": "双积分政策推动，电动车产业链估值修复",
+          "note": "新能源车政策回暖，渗透率加速"
         }
       },
       {
         "period": "2020-01 → 2021-11",
         "manager": {
           "type": "positive",
-          "event": "满仓锂电，双碳红利全收，创历史峰值",
-          "return": "+234.5%（HS300 +42.3%）",
-          "note": "仓位高度集中宁德时代+璞泰来+恩捷股份，NAV从1.38飙至3.88，超额+192.2%"
+          "event": "锂电大牛市，满仓高弹性",
+          "return": "+234.5%（沪深300 +42.3%）",
+          "note": "双碳目标发布，锂电全产业链暴涨，NAV从1.38飙升至历史峰值3.88"
         },
         "market": {
           "type": "policy",
-          "event": "「双碳」目标发布，新能源车补贴延续",
-          "note": "碳中和政策驱动全球锂电需求爆发，电动车渗透率从5%跃升至15%+，产业资本疯狂涌入"
+          "event": "双碳目标发布，电动车渗透率加速",
+          "note": "碳中和政策驱动全球锂电需求爆发"
         }
       },
       {
         "period": "2021-12 → 2024-09",
         "manager": {
           "type": "warning",
-          "event": "全程高仓坚守恩捷+璞泰来，零止损",
-          "return": "-69.31%（HS300 -25.0%）",
-          "note": "长达33个月无任何减仓/换仓操作，风控短板充分暴露；超额-44.3%，Alpha反为负"
+          "event": "双熊叠加，全程高仓坚守",
+          "return": "-69.31%（沪深300 -25.0%）",
+          "note": "持续33个月，坚守恩捷股份+璞泰来，没有任何止损操作，最大回撤成为本基金最重要的风险标签"
         },
         "market": {
           "type": "bear",
-          "event": "美联储加息+碳酸锂产能严重过剩",
-          "note": "碳酸锂从60万/吨崩至7万/吨，产能严重过剩；全球流动性收紧，估值大幅压缩"
+          "event": "美联储加息周期，碳酸锂价格从60万/吨崩至7万/吨",
+          "note": "产能严重过剩，行业悲观情绪蔓延"
         }
       },
       {
         "period": "2024-09 → 2025-12",
         "manager": {
           "type": "positive",
-          "event": "调仓上游锂矿，924行情精准参与",
-          "return": "+79.7%（HS300 +22.8%）",
-          "note": "仓位从中游制造向盐湖股份等上游资源迁移，2025Q3单季超额+53.40%，策略重回正轨"
+          "event": "底部反弹期，调仓上游锂矿",
+          "return": "+79.7%（沪深300 +22.8%）",
+          "note": "924行情催化，基本面拐点+市场情绪双修复，开始从中游制造向上游锂矿资源迁移"
         },
         "market": {
           "type": "policy",
-          "event": "924一揽子政策催化，储能需求爆发",
-          "note": "央行降准降息+证监会救市，叠加AI储能用电需求爆发，新能源板块情绪全面修复"
+          "event": "924一揽子政策催化，基本面拐点+市场情绪双修复",
+          "note": "央行降准降息+证监会救市"
         }
       },
       {
         "period": "2026-01 → 2026-05",
         "manager": {
-          "type": "positive",
-          "event": "策略转型「通胀+能源安全」叙事",
-          "return": "+17.9%（HS300 +6.87%）",
-          "note": "中东战争催化下盐湖股份/赣锋/天齐替代中游制造，4个月窗口期新策略初步奏效"
+          "type": "neutral",
+          "event": "策略转型期，但跑输基准",
+          "return": "+10.15%（沪深300 +4.82%）",
+          "note": "进一步收敛到能源与消费，聚焦锂电中上游盈利修复，但2026Q1基金收益仅3.87%，明显落后业绩基准9.92%"
         },
         "market": {
-          "type": "bull",
-          "event": "中东局势升级，原油超100美元",
-          "note": "地缘政治驱动能源通胀，上游锂矿资源叙事从「电动车」扩展至「广义能源安全」"
+          "type": "neutral",
+          "event": "宏观叙事先行，盈利兑现跟进路径不平滑",
+          "note": "5月中旬以来净值再度回撤，短线支撑已被削弱"
         }
       }
     ],
@@ -1660,12 +1730,12 @@
     "adaptability": [
       {
         "env": "🐂 新能源产业顺风期（政策+需求双驱）",
-        "perf": "极强。典型期：2020-2021双碳大牛市+234.5%，2024底部反弹+79.7%，充分捕捉板块Beta",
+        "perf": "极强。2020-2021双碳大牛市+234.5%，2024底部反弹+79.7%，充分捕捉板块Beta",
         "color": "#F54E48"
       },
       {
         "env": "⚡ 结构分化行情（Alpha主导）",
-        "perf": "强。典型期：2019年精准切换动力电池+61.99%，选股超额+25.92%；2026年转型通胀叙事超额+11%",
+        "perf": "强。2019年精准切换动力电池+61.99%，选股超额+25.92%；2026年转型通胀叙事超额+5.33%",
         "color": "#4492F7"
       },
       {
@@ -1675,12 +1745,7 @@
       },
       {
         "env": "🐻 新能源行业熊市（政策逆风+产能过剩）",
-        "perf": "极弱。典型期：2018年-28.85%、2021-2024年-69.31%。经理不做止损，回撤随Beta完全兑现",
-        "color": "#2DC78E"
-      },
-      {
-        "env": "📉 全市场下跌（系统性风险）",
-        "perf": "极弱。高仓位+高集中度策略在系统性下跌中无防御能力，历史最大回撤-69.31%验证",
+        "perf": "极弱。2018年-28.85%、2021-2024年-69.31%。经理不做止损，回撤随Beta完全兑现",
         "color": "#2DC78E"
       }
     ]
@@ -1689,262 +1754,233 @@
     {
       "item": "成立时间是否不足3年",
       "pass": true,
-      "note": "成立于2017年03月16日，已运行约9.2年。"
+      "note": "成立于2017-03-16，已运行超过9年"
     },
     {
       "item": "规模是否过小或过大",
       "pass": true,
-      "note": "当前规模约31.51亿元，未触发<1亿元或>200亿元红线。"
+      "note": "当前规模31.51亿元，未触发<1亿元或>200亿元红线"
     },
     {
       "item": "基金经理任职是否不足2年",
       "pass": true,
-      "note": "现任经理自2017-03-16起管理本基金，任职约9.2年。"
+      "note": "姚志鹏自2017-03-16起管理本基金，任职超过9年"
     },
     {
       "item": "近3年业绩是否落入后30%",
       "pass": true,
-      "note": "近3年排名 161/803。"
+      "note": "近3年业绩排名321/809，位于中上游，未落入同类后30%"
     },
     {
       "item": "最大回撤是否显著劣于同类",
       "pass": false,
-      "note": "历史最大回撤 69.31%，当前按股票型产品阈值 50% 进行保守校验。"
+      "note": "最大回撤-69.31%远超主题基金可接受范围，虽然属行业系统性风险，但仍构成重大风险警示"
     },
     {
       "item": "基金经理是否在黑名单中",
       "pass": true,
-      "note": "现有合规检查与黑名单核查结果均未显示基金经理命中黑名单。"
+      "note": "黑名单核查未命中姚志鹏"
     },
     {
       "item": "基金公司是否在黑名单中",
       "pass": true,
-      "note": "现有合规检查与黑名单核查结果均未显示基金公司命中黑名单。"
+      "note": "黑名单核查未命中嘉实基金"
     },
     {
       "item": "是否频繁更换基金经理",
-      "pass": false,
-      "note": "近3年经理变更次数约为2次。"
+      "pass": true,
+      "note": "仅有2次经理变更（2021-01-26共管、2026-01-22独任），均为正常调整，非异常更换"
     },
     {
       "item": "是否存在严重风格漂移",
       "pass": true,
-      "note": "一致性审计未见 fail 级别结论，未认定严重风格漂移。"
+      "note": "主线始终围绕新能源/新材料，内部从光伏→锂电中游→锂矿上游，属策略调整非漂移"
     },
     {
       "item": "费率是否显著高于同类平均",
       "pass": true,
-      "note": "综合费率约1.40%/年，未见明显高于同类且无合理解释。"
+      "note": "管理费1.20%+托管费0.20%=1.40%/年，处于股票型基金正常水平"
     }
   ],
   "scoring": {
-    "total": 77,
+    "total": 73,
     "grade": "良好",
-    "recommendation": "谨慎（等待回调再建仓）",
+    "recommendation": "谨慎",
     "recommendationType": "cautious",
     "rating": "★★",
-    "logic": "基金质量77/100（良好）×政策状态红利期×市场状态高位谨慎（81%历史分位）→ 谨慎（等待回调再建仓）。",
+    "logic": "基金质量 73/100（良好）× 政策状态 🟢 红利期 × 市场状态 🔴 高位转弱（88.9%历史分位）→ 谨慎（不抄短底，等趋势修复或更深回调）",
     "dimensions": [
       {
         "name": "超额收益能力",
-        "score": 24,
+        "score": 23,
         "maxScore": 25,
         "pros": [
-          "成立以来+229%，显著跑赢大盘",
-          "近1年夏普2.98，近期Alpha极强",
-          "近1年+84.39%，同类前17%"
+          "近1年收益 74.36%，显著高于同类平均 43.25%",
+          "成立以来回报 207.31%，长期超越沪深300",
+          "2025 年收益 63.67%，同类排名 87/1065"
         ],
         "cons": [
-          "全期夏普仅0.40，中等偏低",
-          "2022-2023连续两年负收益"
+          "2022-2024 三年里有两年明显跑输同类",
+          "2026 年以来边际超额已收敛"
         ]
       },
       {
         "name": "回撤与波动控制",
-        "score": 10,
+        "score": 8,
         "maxScore": 20,
         "pros": [
-          "2025年以来强势修复"
+          "近1年最大回撤收敛至 -13.24%",
+          "近1年夏普 2.39，修复力度强"
         ],
         "cons": [
-          "最大回撤-69.31%，远超-50%红线",
-          "全程高仓（92-95%）从不防御",
-          "卡玛比率仅0.21，极低"
+          "最大回撤 -69.31%，远超主题基金可接受阈值",
+          "全期夏普仅 0.37、卡玛仅 0.20",
+          "高仓位风格使净值对行业回撤缺乏缓冲"
         ]
       },
       {
         "name": "基金经理能力",
-        "score": 17,
+        "score": 16,
         "maxScore": 20,
         "pros": [
-          "本基金任职9年+，长期稳定",
-          "旗舰基金嘉实智能汽车+236%",
-          "副总经理/股票投研首席，业界地位高"
+          "姚志鹏自 2017-03-16 起管理本基金，任期长且风格稳定",
+          "旗舰产品嘉实智能汽车任职回报 218.58%",
+          "现任公司副总经理、股票投研首席投资官"
         ],
         "cons": [
-          "在管基金16只超过10只上限⚠️",
-          "管理疲劳风险客观存在"
+          "当前在管公募基金 14 只，明显高于 10 只的经验上限",
+          "2021-2024 熊市阶段回撤控制不足"
         ]
       },
       {
         "name": "主题纯度与持仓一致性",
-        "score": 13,
+        "score": 14,
         "maxScore": 15,
         "pros": [
-          "锂电+新能源核心标的",
-          "2026Q1精准布局通胀受益主线",
-          "中高集中度（57%）逻辑清晰"
+          "2026Q1 前十重仓全部围绕锂电池产业链",
+          "季报口径与持仓一致，明确转向锂电中上游盈利修复",
+          "前十持仓 57.28%，主题表达清晰"
         ],
         "cons": [
-          "上游锂资源高度集中，波动极大"
+          "单一产业链暴露过深，顺风时弹性强，逆风时杀伤力也大"
         ]
       },
       {
         "name": "行业周期与政策匹配度",
-        "score": 13,
+        "score": 12,
         "maxScore": 20,
         "pros": [
-          "能源安全+新能源转型双重政策红利",
-          "中东地缘冲突强化叙事",
-          "公募加码能源产业链布局共识"
+          "2026 年政策继续支持零碳工厂、节能降碳和新能源汽车规划",
+          "经理主动转向受益再通胀与能源安全的资产"
         ],
         "cons": [
-          "关税冲突对新能源出口有压制风险"
+          "2026Q1 基金收益 3.87%，显著跑输业绩基准 9.92%",
+          "欧盟关税、全球需求波动和油价路径仍是高扰动变量"
         ]
       }
     ],
-    "reasoning": "基金质量良好（77/100），超额收益能力突出，经理能力强；但最大回撤-69.31%，回撤与波动控制明显不足。当前NAV处于历史81.3%高位，新入场风险较高，建议等待NAV回落后再分批建仓。",
-    "conclusion": "存量持仓成本较低者可继续持有；新入场应等待更好回调位置，不建议当前高位追涨。",
+    "reasoning": "基金质量 73/100，超额收益能力仍强，但历史最大回撤 -69.31% 说明风控短板依旧明显。当前净值处于 88.9% 历史分位且近1周回撤 6.60%，更像高位失守后的再定价，不适合把短线回撤直接当成深度低估。",
+    "conclusion": "低成本存量仓位可继续观察；新增资金不抄短底，等待趋势修复或更深回调后再分批布局。",
     "suitableFor": [
       "已持仓、成本较低（均价<2.0），能承受-40%以上短期回撤、持仓周期3年以上的长期投资者",
-      "深度看好中国新能源产业链全球竞争力，且能忍受行业波动的信仰者",
+      "深度看好中国新能源产业链全球竞争力、能源转型大趋势，且能忍受行业波动的信仰者",
       "将该基金作为分散化组合中新能源配置工具（仓位<15%）的进阶投资者"
     ],
     "notSuitableFor": [
       "新入场高位追涨、持有期<2年、无法承受-30%以上短期亏损的投资者",
-      "希望稳定现金流的投资者（成立以来从未分红）",
-      "追求均衡配置、规避行业集中风险的投资者",
+      "希望稳定现金流的投资者（该基金成立以来从未分红）",
+      "希望规避行业集中风险、追求均衡配置的投资者",
       "风险承受能力评级低于R4的投资者"
     ],
     "allocationSuggestions": [
       {
-        "scenario": "存量持有人（成本<3.0）",
-        "action": "继续持有",
-        "note": "关注能源行情持续性"
-      },
-      {
-        "scenario": "存量持有人（成本>3.5）",
-        "action": "逐步降低持仓",
-        "note": "等待市场调整后再布局"
+        "scenario": "存量持有人",
+        "action": "若持仓成本明显低于 3.0 且能承受 20% 以上波动，可继续持有观察",
+        "note": "若成本接近 3.1 以上且本轮回撤已影响持仓纪律，不建议在失守后的第一时间盲目补仓"
       },
       {
         "scenario": "新入场投资者",
-        "action": "暂不建仓",
-        "note": "等待NAV回落至≤2.8~2.9时分批建仓"
+        "action": "⚠️ 不建议在当前 3.07 一带把短期回撤误判为深度低估",
+        "note": "更合理的做法是等待净值回落至 2.7~2.8 区间，或等待下一份季报确认一季度相对基准的落后已被扭转"
       }
     ],
     "risks": [
       {
         "type": "极端回撤风险",
         "level": "high",
-        "note": "历史最大回撤-69.31%（2021-11-29至2024-09-23，持续近3年），远超-50%红线"
+        "note": "历史最大回撤-69.31%（2021-11-29至2024-09-23，持续近3年），远超-50%红线，投资者需有极强心理承受能力"
       },
       {
-        "type": "高位净值风险",
+        "type": "高位转弱风险",
         "level": "high",
-        "note": "当前NAV处于81.3%历史分位，新入场高位追涨风险较高"
+        "note": "当前净值仍处88.9%历史分位，但近1周已回撤6.60%，属于高位失守后的再定价阶段"
       },
       {
-        "type": "管理精力分散",
+        "type": "管理人精力分散",
         "level": "medium",
-        "note": "姚志鹏在管基金16只（超10只上限），管理疲劳风险存在"
+        "note": "姚志鹏当前在管公募基金14只，明显高于经验上限，管理疲劳风险仍需警惕"
+      },
+      {
+        "type": "公司级合规风险",
+        "level": "medium",
+        "note": "2025年年报披露，嘉实基金于2025-11-03收到北京证监局行政监管措施，涉及合规内控、投资运作、公司治理"
       },
       {
         "type": "行业集中风险",
-        "level": "medium",
-        "note": "前十持仓集中度57%，行业系统性风险时回撤剧烈"
+        "level": "high",
+        "note": "前十大重仓合计57.28%，且几乎全部围绕锂电池中上游，单一产业链风险暴露极高"
       }
     ],
     "policyItems": [
       {
-        "name": "「十五五」能源规划",
-        "date": "2025-03",
-        "content": "明确新能源装机倍增目标，储能+电动车为核心",
-        "impact": "strong_pos",
+        "name": "《关于开展零碳工厂建设工作的指导意见》解读",
         "impactLabel": "🟢 强利好"
       },
       {
-        "name": "反内卷政策（行业出清）",
-        "date": "2025-06",
-        "content": "工信部限制新能源恶性竞争，碳酸锂产能收缩",
-        "impact": "strong_pos",
+        "name": "《关于更高水平更高质量做好节能降碳工作的意见》",
         "impactLabel": "🟢 强利好"
       },
       {
-        "name": "中东地缘冲突（油价>$100）",
-        "date": "2025-Q3起",
-        "content": "霍尔木兹海峡受威胁，全球能源危机叙事确立",
-        "impact": "strong_pos",
-        "impactLabel": "🟢 强利好"
-      },
-      {
-        "name": "动力电池Q4业绩拐点",
-        "date": "2025-Q4",
-        "content": "宁德时代等核心标的业绩拐点确认，2026年进入增长通道",
-        "impact": "strong_pos",
-        "impactLabel": "🟢 强利好"
-      },
-      {
-        "name": "欧盟关税升级",
-        "date": "2025年持续",
-        "content": "对中国新能源出口加税，但国内+东南亚消化",
-        "impact": "neutral",
-        "impactLabel": "🟡 中性"
-      },
-      {
-        "name": "中美贸易摩擦",
-        "date": "2025-2026",
-        "content": "关税清单包含部分新能源材料，出口受压",
-        "impact": "light_neg",
-        "impactLabel": "🔴 轻度利空"
+        "name": "工信部 2026Q1 工业和信息化发展发布会",
+        "impactLabel": "🟢 中强利好"
       }
     ],
     "marketStatus": [
       {
         "dim": "净值位置",
-        "status": "81.3% 历史分位",
+        "status": "88.9% 历史分位",
         "statusType": "warning",
-        "detail": "⚠️ 处于高位区间。当前NAV 3.2904距历史高点3.8813仍有-15.2%，但相较历史低点0.7169已修复83%"
+        "detail": "当前净值 3.0731 仍处历史高位，距离历史高点 3.8813 约 -20.8%，并不便宜；\"失守\"更像高位回撤，不是深度低估"
       },
       {
         "dim": "近期趋势",
-        "status": "短期回调",
+        "status": "短线转弱",
         "statusType": "warning",
-        "detail": "近1周-4.22%，排名1070/1075（倒数），近3月+12.87%（前25%），短期受市场调整拖累"
+        "detail": "近1周 -6.60%，排名 1007/1076；近1月 -3.94%，排名 871/1077。虽然近3月仍为 +6.08%，但短期趋势已明显弱于 2025Q3-2026Q1 的强势阶段"
       },
       {
         "dim": "夏普趋势",
-        "status": "快速改善后高位",
-        "statusType": "positive",
-        "detail": "1Y夏普2.98 >> 2Y夏普1.21 >> 3Y夏普0.32，近一年极为突出，但高位存在回撤压力"
+        "status": "改善但不再极端",
+        "statusType": "neutral",
+        "detail": "1Y 夏普 2.39 > 2Y 夏普 1.18 > 3Y 夏普 0.25，说明修复仍有效，但高景气与高波动并存"
       },
       {
         "dim": "宏观流动性",
-        "status": "友好",
-        "statusType": "positive",
-        "detail": "国内货币政策维持宽松方向，有助于风险资产估值提升"
+        "status": "中性偏友好",
+        "statusType": "neutral",
+        "detail": "国内稳增长与扩内需取向延续，但全球再通胀和油价冲击可能压缩高估值资产风险偏好"
       },
       {
-        "dim": "行业景气",
-        "status": "改善明显",
-        "statusType": "positive",
-        "detail": "锂价从底部强力回升，动力电池盈利拐点确认，公募加码布局新能源产业链"
+        "dim": "持仓主线景气",
+        "status": "分化修复",
+        "statusType": "cautious",
+        "detail": "锂电中上游存在盈利修复逻辑，但基金一季度相对业绩基准落后，说明主线并非无条件顺风"
       },
       {
         "dim": "外部风险",
         "status": "需关注",
-        "statusType": "neutral",
-        "detail": "中美贸易摩擦持续，特朗普2026年5月访华带来短期缓和，但长期不确定性存在"
+        "statusType": "cautious",
+        "detail": "欧盟关税、全球需求变化、油价波动和 AI 资本开支链条调整，都可能影响新能源资产的估值框架"
       }
     ],
     "termAdvice": [
@@ -1952,43 +1988,23 @@
         "term": "短期（1-3个月）",
         "icon": "⚠️",
         "level": "cautious",
-        "advice": "谨慎。近1周-4.22%出现技术性回调，81%历史分位偏高，建议不追高，等待回调至NAV≈2.8-3.0时分批布局。"
+        "advice": "不抢反弹。等待净值重新站稳 3.20 或回落到 2.7~2.8 再考虑动作"
       },
       {
         "term": "中期（6-12个月）",
         "icon": "🟡",
         "level": "neutral",
-        "advice": "中性偏积极。能源行情叙事（中东冲突+碳酸锂修复）如能持续，中期仍有上涨空间。现有持仓持有，新资金分批建仓。"
+        "advice": "已有仓位可持有观察；新增资金建议分两批进场，首批不超过计划仓位的 30%-40%"
       },
       {
         "term": "长期（3年以上）",
-        "icon": "🟢",
-        "level": "positive",
-        "advice": "积极。姚志鹏长期任职稳定，新能源产业长期趋势明确，如当前「通胀受益+能源」策略得到验证，长期持有者受益显著。"
+        "icon": "🟡",
+        "level": "neutral",
+        "advice": "仅适合作为高波动行业卫星仓位，建议仓位上限 ≤12%-15%，并保留明确止损/止盈纪律"
       }
     ]
   },
   "navHistory": [
-    {
-      "date": "2025-12-22",
-      "nav": 2.7259
-    },
-    {
-      "date": "2025-12-23",
-      "nav": 2.7875
-    },
-    {
-      "date": "2025-12-24",
-      "nav": 2.8137
-    },
-    {
-      "date": "2025-12-25",
-      "nav": 2.8016
-    },
-    {
-      "date": "2025-12-26",
-      "nav": 2.8733
-    },
     {
       "date": "2025-12-29",
       "nav": 2.7843
@@ -2328,19 +2344,41 @@
     {
       "date": "2026-05-12",
       "nav": 3.2904
+    },
+    {
+      "date": "2026-05-13",
+      "nav": 3.2599
+    },
+    {
+      "date": "2026-05-14",
+      "nav": 3.1419
+    },
+    {
+      "date": "2026-05-15",
+      "nav": 3.1259
+    },
+    {
+      "date": "2026-05-18",
+      "nav": 3.1071
+    },
+    {
+      "date": "2026-05-19",
+      "nav": 3.0731
     }
   ],
   "tracking": {
     "weekly": [
-      "基金净值走势",
-      "重仓股表现",
-      "行业新闻"
+      "净值方向验证：每日净值涨跌是否与锂电/锂矿/新能源板块行情一致",
+      "能源叙事跟踪：布伦特原油价格走势（>$90/桶为再通胀逻辑的重要门槛）",
+      "碳酸锂价格：持续下行>10%时需重新评估上游锂矿持仓逻辑",
+      "经理动态：姚志鹏公开路演/采访/季报措辞，重点关注是否继续强调能源+消费/锂电中上游盈利修复"
     ],
     "quarterly": [
-      "持仓变化分析",
-      "基金经理观点解读",
-      "业绩归因",
-      "风险评估"
+      "持仓变化：新季报前十持仓是否维持通胀受益+能源主线，锂矿资源占比是否稳定",
+      "集中度变化：前十持仓集中度是否异常飙升（>70%）或骤降（<40%）",
+      "规模变化：基金规模是否从31.51亿元快速膨胀，或经理总管规模是否继续上行",
+      "同类排名：近1年同类排名是否持续落入后50%",
+      "相对基准修复：对比业绩基准，季度能否重新转正超额"
     ],
     "alerts": [
       {
@@ -2351,27 +2389,22 @@
       {
         "level": "critical",
         "icon": "🚨",
-        "text": "单季度回撤超过 -25% 且同类排名倒数 10%：这已超出市场系统性因素范围，属于个基崩溃信号"
+        "text": "单季度回撤 > -25% 且同类排名倒数10%：超越市场系统性因素的个基崩溃信号"
       },
       {
         "level": "critical",
         "icon": "🚨",
-        "text": "碳酸锂价格连续 3 个月跌幅超过 20%：上游锂矿策略逻辑可能崩溃，持仓受损风险极高"
-      },
-      {
-        "level": "critical",
-        "icon": "🚨",
-        "text": "油价跌破 70 美元/桶且维持超过 6 周：\"通胀受益 + 能源\"叙事失效，基金策略核心逻辑动摇"
-      },
-      {
-        "level": "critical",
-        "icon": "🚨",
-        "text": "基金规模半年内扩张超过 100 亿：新资金快速涌入可能抬高建仓成本，显著摊薄超额收益"
+        "text": "碳酸锂价格连续3个月跌幅 > 20%：上游锂矿策略逻辑崩溃，持仓重创风险极高"
       },
       {
         "level": "warning",
         "icon": "⚠️",
-        "text": "季报持仓大幅偏离新能源主线，例如明显转向消费或医药，需要核查经理是否在悄悄转型"
+        "text": "规模半年内扩张 > 100亿：新资金涌入可能导致建仓价格不利，超额收益快速摊薄"
+      },
+      {
+        "level": "warning",
+        "icon": "⚠️",
+        "text": "公司整改再次出现新增监管事项：若嘉实基金后续再出现合规或治理层面的新增监管措施，需要上调公司风险权重"
       }
     ]
   },
@@ -2379,934 +2412,969 @@
     "stages": [
       {
         "id": 1,
-        "emoji": "🟢",
         "name": "建仓探索期",
+        "emoji": "🟢",
         "period": "2017-03 → 2017-12",
         "returnPct": 16.03,
         "hs300Pct": 21.78,
         "excessPct": -5.75,
         "driverType": "beta",
         "driverLabel": "🌊 行业Beta主导",
-        "description": "建仓期，布局传统清洁能源（阳光电源+隆基绿能），Beta收益为主，跑输沪深300。行业选择方向正确，但仓位轮动频繁，尚未形成清晰的产业链集中布局。",
-        "color": "#9B72F0"
+        "color": "#6b7280",
+        "description": "建仓期，布局传统清洁能源（阳光电源+隆基绿能），Beta收益为主，跑输沪深300",
+        "env": "新能源汽车月销量持续突破历史记录，国家首批双积分政策征求意见稿落地，光伏装机高速增长，行业整体景气向上",
+        "managerAction": "Q2建仓整车/公交（华域汽车+宇通客车）；Q3果断切换至光伏/储能（阳光电源+新奥股份）",
+        "attribution": "Beta主导，行业选择方向正确，但阶段仍跑输沪深300；仓位从整车向光伏切换较快，说明经理早期已具备行业轮动敏感度。"
       },
       {
         "id": 2,
-        "emoji": "🔴",
         "name": "行业熊市期",
+        "emoji": "🔴",
         "period": "2018-01 → 2018-12",
         "returnPct": -28.85,
         "hs300Pct": -25.31,
         "excessPct": -3.54,
         "driverType": "double_loss",
         "driverLabel": "🔴 Beta+Alpha双损",
-        "description": "新能源行业系统性熊市叠加中美贸易战冲击，坚守未减仓，全部为行业Beta损耗，净值跌至历史低点0.72区间。全年无任何防御性操作，风控短板初步显现。",
-        "color": "#F54E48"
+        "color": "#dc2626",
+        "description": "新能源行业系统性熊市叠加中美贸易战冲击，坚守未减仓，全部为行业Beta损耗",
+        "env": "531光伏新政削减补贴+装机限额，中美贸易战全面升级，A股跌至年度低点",
+        "managerAction": "全年维持通威股份+阳光电源+隆基绿能核心仓，全程未减仓，净值跌至历史最低点0.72区间",
+        "attribution": "Beta+Alpha双损。531新政对光伏冲击不可抵抗，但全程无任何止损操作是最大风控缺陷"
       },
       {
         "id": 3,
-        "emoji": "🟢",
         "name": "能源电车复苏",
+        "emoji": "🟢",
         "period": "2019-01 → 2019-12",
         "returnPct": 61.99,
         "hs300Pct": 36.07,
         "excessPct": 25.92,
         "driverType": "alpha",
         "driverLabel": "⚡ Alpha贡献显著",
-        "description": "精准预判电动车产业链崛起，年内果断将核心仓位从光伏切换至宁德时代+天赐材料，提前布局动力电池中游，超额收益显著，是经理选股能力的早期验证。",
-        "color": "#4492F7"
+        "color": "#22c55e",
+        "description": "精准预判电动车产业链崛起，年内果断将核心仓位从光伏切换至宁德时代+天赐材料",
+        "env": "2018年底政策底出现（中央定调六稳），新能源汽车补贴延续，锂电产业链估值修复",
+        "managerAction": "2019Q1出现重大转型，亿纬锂能首次大幅进入核心仓，标志着从光伏向锂电中游的战略迁移启动",
+        "attribution": "Alpha+Beta双丰收，行业转型判断精准。亿纬锂能2019年涨幅超100%，是重要超额收益来源"
       },
       {
         "id": 4,
-        "emoji": "🟢",
         "name": "锂电大牛市",
+        "emoji": "🟢",
         "period": "2020-01 → 2021-11",
         "returnPct": 234.5,
         "hs300Pct": 42.3,
         "excessPct": 192.2,
         "driverType": "both",
         "driverLabel": "🌊+⚡ Beta盛宴+Alpha",
-        "description": "历史最佳阶段。双碳目标发布、电动车渗透率加速，锂电全产业链暴涨，满仓高弹性使NAV从1.38飙升至历史峰值3.88，接近翻3倍。行业判断与布局均属顶级，成就了本基金的核心Alpha记录。",
-        "color": "#2DC78E"
+        "color": "#22c55e",
+        "description": "历史最佳阶段。双碳目标发布、电动车渗透率加速，锂电全产业链暴涨，NAV从1.38飙升至历史峰值3.88",
+        "env": "美联储无限量QE，全球流动性泛滥；中国率先复工，新能源汽车政策再加码；欧洲绿色新政",
+        "managerAction": "Q2大幅增持宁德时代+天赐材料，Q3逐步确立宁德+天赐+通威核心三角，高仓位享受政策反弹红利",
+        "attribution": "Alpha贡献突出。宁德时代+天赐材料的同步布局，精准卡位锂电中游最核心两个环节，超额收益来源清晰"
       },
       {
         "id": 5,
-        "emoji": "🔴",
         "name": "双熊叠加",
+        "emoji": "🔴",
         "period": "2021-12 → 2024-09",
         "returnPct": -69.31,
-        "hs300Pct": -25,
+        "hs300Pct": -25.0,
         "excessPct": -44.3,
         "driverType": "double_loss",
         "driverLabel": "🔴 Beta+Alpha双损",
-        "description": "最惨烈阶段，持续长达33个月。美联储加息周期叠加碳酸锂价格从60万/吨崩至7万/吨，产能严重过剩。经理全程维持90%+高仓位，坚守恩捷股份+璞泰来，没有任何止损操作，最终-69.31%的回撤成为本基金最重要的风险标签。",
-        "color": "#F54E48"
+        "color": "#dc2626",
+        "description": "最惨烈阶段，持续长达33个月。碳酸锂价格从60万/吨崩至7万/吨，产能严重过剩",
+        "env": "美联储加息周期叠加碳酸锂价格崩跌，行业悲观情绪蔓延",
+        "managerAction": "全程维持90%+高仓位，坚守恩捷股份+璞泰来，没有任何止损操作，最终-69.31%的回撤成为本基金最重要的风险标签",
+        "attribution": "外因（外资流出）+内因（碳酸锂崩跌）叠加，持仓结构对行业基本面变化响应严重滞后"
       },
       {
         "id": 6,
-        "emoji": "🟢",
         "name": "底部反弹期",
-        "period": "2024-10 → 2025-12",
+        "emoji": "🟢",
+        "period": "2024-09 → 2025-12",
         "returnPct": 79.7,
         "hs300Pct": 22.8,
         "excessPct": 56.9,
         "driverType": "alpha",
         "driverLabel": "⚡ Alpha贡献显著",
-        "description": "924行情催化，基本面拐点+市场情绪双修复。经理开始调整仓位结构，从中游制造向上游锂矿资源迁移，选股重回正轨，2025Q3单季度+53.40%的超额收益印证了新策略的有效性。",
-        "color": "#4492F7"
+        "color": "#22c55e",
+        "description": "924行情催化，基本面拐点+市场情绪双修复",
+        "env": "924一揽子政策催化，叠加AI储能用电需求爆发，新能源板块情绪全面修复",
+        "managerAction": "开始调整仓位结构，从中游制造向上游锂矿资源迁移，选股重回正轨，2025Q3单季度+53.40%的超额收益印证了新策略的有效性",
+        "attribution": "提前嗅到能源通胀主线，持仓从中游制造转向上游资源，Alpha贡献极为显著"
       },
       {
         "id": 7,
-        "emoji": "🟢",
-        "name": "能源通胀转型",
+        "name": "通胀主线兑现后高位震荡",
+        "emoji": "🟡",
         "period": "2026-01 → 2026-05",
-        "returnPct": 17.9,
-        "hs300Pct": 6.87,
-        "excessPct": 11,
-        "driverType": "alpha",
-        "driverLabel": "⚡ Alpha贡献显著",
-        "description": "策略完成转型为“通胀受益+能源”叙事——中东战争、油价超100美元成为核心叙事驱动，上游锂矿资源（盐湖股份/赣锋/天齐）全面替代中游制造。时间窗口尚短（4个月），新策略的长期有效性有待进一步验证。",
-        "color": "#4492F7"
+        "returnPct": 10.15,
+        "hs300Pct": 4.82,
+        "excessPct": 5.33,
+        "driverType": "beta",
+        "driverLabel": "🔄 风格切换期",
+        "color": "#f59e0b",
+        "description": "2026年初经理将组合从四新资产进一步收敛到能源与消费，并在新能源内部聚焦锂电中上游盈利修复",
+        "env": "宏观叙事先行、盈利兑现跟进的路径并不平滑；5月中旬以来官方净值再度回撤，短线支撑已被削弱",
+        "managerAction": "阶段内绝对收益仍为正，但2026Q1基金收益仅3.87%，明显落后业绩基准9.92%",
+        "attribution": "新框架带来了正收益和一定超额，但5月回撤说明市场已从叙事切向兑现检验，当前仍处风格切换后的再定价阶段。"
       }
     ],
     "inflectionPoints": [
       {
-            "id": 1,
-            "startDate": "2017-06-01",
-            "endDate": "2017-11-13",
-            "startNav": 0.9245,
-            "endNav": 1.2327,
-            "changePct": 33.34,
-            "type": "peak",
-            "stageId": 1,
-            "holdingsSummary": "Beta主导，行业选择方向正确，阶段跑赢沪深300。仓位从整车→光伏的切换速度快，说明经理早期已具备行业轮动敏感度。✅ 言行一致。",
-            "env": "新能源汽车月销量持续突破历史记录，国家首批\"双积分\"政策征求意见稿落地，光伏装机高速增长，行业整体景气向上，沪深300同期+16%。",
-            "managerAction": "Q2建仓整车/公交（华域汽车4.95%、宇通客车4.66%）；Q3果断切换至光伏/储能（阳光电源9.86%、新奥股份8.14%），同期新进日科化学布局新材料。2017Q3单季+15.62%。",
-            "attribution": "Beta主导，行业选择方向正确，阶段跑赢沪深300。仓位从整车→光伏的切换速度快，说明经理早期已具备行业轮动敏感度。✅ 言行一致。"
+        "id": 1,
+        "startDate": "2017-06-01",
+        "endDate": "2017-11-13",
+        "startNav": 0.9245,
+        "endNav": 1.2327,
+        "changePct": 33.34,
+        "type": "peak",
+        "stageId": 1,
+        "holdingsSummary": "Beta主导，行业选择方向正确，阶段跑赢沪深300。仓位从整车→光伏的切换速度快，说明经理早期已具备行业轮动敏感度。✅ 言行一致。",
+        "env": "新能源汽车月销量持续突破历史记录，国家首批\"双积分\"政策征求意见稿落地，光伏装机高速增长，行业整体景气向上，沪深300同期+16%。",
+        "managerAction": "Q2建仓整车/公交（华域汽车4.95%、宇通客车4.66%）；Q3果断切换至光伏/储能（阳光电源9.86%、新奥股份8.14%），同期新进日科化学布局新材料。2017Q3单季+15.62%。",
+        "attribution": "Beta主导，行业选择方向正确，阶段跑赢沪深300。仓位从整车→光伏的切换速度快，说明经理早期已具备行业轮动敏感度。✅ 言行一致。"
       },
       {
-            "id": 2,
-            "startDate": "2017-11-13",
-            "endDate": "2017-12-07",
-            "startNav": 1.2327,
-            "endNav": 1.1138,
-            "changePct": -9.65,
-            "type": "trough",
-            "stageId": 1,
-            "holdingsSummary": "Beta调整，短期正常回撤。持仓稳定，体现长期持有逻辑。⚠️ 未做任何止盈，全程Beta暴露。",
-            "env": "A股年末流动性收紧，光伏\"531新政\"预期开始压制情绪，市场获利回吐。",
-            "managerAction": "仓位结构维持（2017Q4：阳光电源9.18%、通威股份6.92%、隆基绿能6.88%），未做防御性减仓。",
-            "attribution": "Beta调整，短期正常回撤。持仓稳定，体现长期持有逻辑。⚠️ 未做任何止盈，全程Beta暴露。"
+        "id": 2,
+        "startDate": "2017-11-13",
+        "endDate": "2017-12-07",
+        "startNav": 1.2327,
+        "endNav": 1.1138,
+        "changePct": -9.65,
+        "type": "trough",
+        "stageId": 1,
+        "holdingsSummary": "Beta调整，短期正常回撤。持仓稳定，体现长期持有逻辑。⚠️ 未做任何止盈，全程Beta暴露。",
+        "env": "A股年末流动性收紧，光伏\"531新政\"预期开始压制情绪，市场获利回吐。",
+        "managerAction": "仓位结构维持（2017Q4：阳光电源9.18%、通威股份6.92%、隆基绿能6.88%），未做防御性减仓。",
+        "attribution": "Beta调整，短期正常回撤。持仓稳定，体现长期持有逻辑。⚠️ 未做任何止盈，全程Beta暴露。"
       },
       {
-            "id": 3,
-            "startDate": "2017-12-07",
-            "endDate": "2018-01-04",
-            "startNav": 1.1138,
-            "endNav": 1.2041,
-            "changePct": 8.11,
-            "type": "peak",
-            "stageId": 2,
-            "holdingsSummary": "Beta反弹，短期脉冲，无明显Alpha。持仓无变化。",
-            "env": "元旦前年末行情，市场短暂乐观，新能源估值修复。",
-            "managerAction": "维持光伏核心仓位（阳光电源+通威+隆基），未发生持仓变化。",
-            "attribution": "Beta反弹，短期脉冲，无明显Alpha。持仓无变化。"
+        "id": 3,
+        "startDate": "2017-12-07",
+        "endDate": "2018-01-04",
+        "startNav": 1.1138,
+        "endNav": 1.2041,
+        "changePct": 8.11,
+        "type": "peak",
+        "stageId": 2,
+        "holdingsSummary": "Beta反弹，短期脉冲，无明显Alpha。持仓无变化。",
+        "env": "元旦前年末行情，市场短暂乐观，新能源估值修复。",
+        "managerAction": "维持光伏核心仓位（阳光电源+通威+隆基），未发生持仓变化。",
+        "attribution": "Beta反弹，短期脉冲，无明显Alpha。持仓无变化。"
       },
       {
-            "id": 4,
-            "startDate": "2018-01-04",
-            "endDate": "2018-02-09",
-            "startNav": 1.2041,
-            "endNav": 1.0043,
-            "changePct": -16.59,
-            "type": "trough",
-            "stageId": 2,
-            "holdingsSummary": "Beta+Alpha双损，光伏板块受贸易战冲击更大。❌ 未做任何防御，回撤加速。",
-            "env": "中美贸易战前夕市场情绪恶化，美股大跌（VIX飙升），A股同步下跌。2018Q1沪深300-11.7%。",
-            "managerAction": "2018Q1持仓不变（阳光电源9.95%、隆基绿能8.43%、通威股份7.91%），无减仓操作。",
-            "attribution": "Beta+Alpha双损，光伏板块受贸易战冲击更大。❌ 未做任何防御，回撤加速。"
+        "id": 4,
+        "startDate": "2018-01-04",
+        "endDate": "2018-02-09",
+        "startNav": 1.2041,
+        "endNav": 1.0043,
+        "changePct": -16.59,
+        "type": "trough",
+        "stageId": 2,
+        "holdingsSummary": "Beta+Alpha双损，光伏板块受贸易战冲击更大。❌ 未做任何防御，回撤加速。",
+        "env": "中美贸易战前夕市场情绪恶化，美股大跌（VIX飙升），A股同步下跌。2018Q1沪深300-11.7%。",
+        "managerAction": "2018Q1持仓不变（阳光电源9.95%、隆基绿能8.43%、通威股份7.91%），无减仓操作。",
+        "attribution": "Beta+Alpha双损，光伏板块受贸易战冲击更大。❌ 未做任何防御，回撤加速。"
       },
       {
-            "id": 5,
-            "startDate": "2018-02-09",
-            "endDate": "2018-03-12",
-            "startNav": 1.0043,
-            "endNav": 1.1531,
-            "changePct": 14.82,
-            "type": "peak",
-            "stageId": 2,
-            "holdingsSummary": "Beta反弹，政策情绪驱动，持续时间短。",
-            "env": "两会政策预期升温，新能源政策维持积极表态，市场反弹。",
-            "managerAction": "维持光伏主仓，无重大调整。",
-            "attribution": "Beta反弹，政策情绪驱动，持续时间短。"
+        "id": 5,
+        "startDate": "2018-02-09",
+        "endDate": "2018-03-12",
+        "startNav": 1.0043,
+        "endNav": 1.1531,
+        "changePct": 14.82,
+        "type": "peak",
+        "stageId": 2,
+        "holdingsSummary": "Beta反弹，政策情绪驱动，持续时间短。",
+        "env": "两会政策预期升温，新能源政策维持积极表态，市场反弹。",
+        "managerAction": "维持光伏主仓，无重大调整。",
+        "attribution": "Beta反弹，政策情绪驱动，持续时间短。"
       },
       {
-            "id": 6,
-            "startDate": "2018-03-12",
-            "endDate": "2018-04-17",
-            "startNav": 1.1531,
-            "endNav": 1.0344,
-            "changePct": -10.29,
-            "type": "trough",
-            "stageId": 2,
-            "holdingsSummary": "Beta损耗为主，但新宙邦的新进显示经理已在预判向锂电中游迁移。⚠️ 方向判断略超前，时机不佳。",
-            "env": "3月22日美国发布对华301关税清单，贸易战正式开打，A股大跌。中美光伏产品首当其冲。",
-            "managerAction": "2018Q2持仓结构略有调整（隆基绿能7.37%取代阳光电源第一，新宙邦7.08%新进前三），开始探索新材料/电解液方向。",
-            "attribution": "Beta损耗为主，但新宙邦的新进显示经理已在预判向锂电中游迁移。⚠️ 方向判断略超前，时机不佳。"
+        "id": 6,
+        "startDate": "2018-03-12",
+        "endDate": "2018-04-17",
+        "startNav": 1.1531,
+        "endNav": 1.0344,
+        "changePct": -10.29,
+        "type": "trough",
+        "stageId": 2,
+        "holdingsSummary": "Beta损耗为主，但新宙邦的新进显示经理已在预判向锂电中游迁移。⚠️ 方向判断略超前，时机不佳。",
+        "env": "3月22日美国发布对华301关税清单，贸易战正式开打，A股大跌。中美光伏产品首当其冲。",
+        "managerAction": "2018Q2持仓结构略有调整（隆基绿能7.37%取代阳光电源第一，新宙邦7.08%新进前三），开始探索新材料/电解液方向。",
+        "attribution": "Beta损耗为主，但新宙邦的新进显示经理已在预判向锂电中游迁移。⚠️ 方向判断略超前，时机不佳。"
       },
       {
-            "id": 7,
-            "startDate": "2018-04-17",
-            "endDate": "2018-05-15",
-            "startNav": 1.0344,
-            "endNav": 1.125,
-            "changePct": 8.76,
-            "type": "peak",
-            "stageId": 2,
-            "holdingsSummary": "Beta反弹，持续不足一个月即见顶，市场信心脆弱。",
-            "env": "中美贸易战谈判阶段性乐观，市场短暂反弹。",
-            "managerAction": "持仓未变，维持观察。",
-            "attribution": "Beta反弹，持续不足一个月即见顶，市场信心脆弱。"
+        "id": 7,
+        "startDate": "2018-04-17",
+        "endDate": "2018-05-15",
+        "startNav": 1.0344,
+        "endNav": 1.125,
+        "changePct": 8.76,
+        "type": "peak",
+        "stageId": 2,
+        "holdingsSummary": "Beta反弹，持续不足一个月即见顶，市场信心脆弱。",
+        "env": "中美贸易战谈判阶段性乐观，市场短暂反弹。",
+        "managerAction": "持仓未变，维持观察。",
+        "attribution": "Beta反弹，持续不足一个月即见顶，市场信心脆弱。"
       },
       {
-            "id": 8,
-            "startDate": "2018-05-15",
-            "endDate": "2018-10-18",
-            "startNav": 1.125,
-            "endNav": 0.7169,
-            "changePct": -36.28,
-            "type": "trough",
-            "stageId": 2,
-            "holdingsSummary": "Beta+Alpha双损。531新政对光伏冲击不可抵抗，但全程无任何止损操作是最大风控缺陷。❌ 言行一致性虽高，但代价极大。",
-            "env": "531光伏新政（2018-06-01，削减补贴+装机限额）直接重创光伏板块，随后贸易战全面升级（2018-07美国加征2000亿关税），A股跌至年度低点。",
-            "managerAction": "2018Q3维持通威股份7.73%+阳光电源6.95%+隆基绿能6.92%（仓位结构无变化），全程未减仓，净值跌至历史最低点0.7169。",
-            "attribution": "Beta+Alpha双损。531新政对光伏冲击不可抵抗，但全程无任何止损操作是最大风控缺陷。❌ 言行一致性虽高，但代价极大。"
+        "id": 8,
+        "startDate": "2018-05-15",
+        "endDate": "2018-10-18",
+        "startNav": 1.125,
+        "endNav": 0.7169,
+        "changePct": -36.28,
+        "type": "trough",
+        "stageId": 2,
+        "holdingsSummary": "Beta+Alpha双损。531新政对光伏冲击不可抵抗，但全程无任何止损操作是最大风控缺陷。❌ 言行一致性虽高，但代价极大。",
+        "env": "531光伏新政（2018-06-01，削减补贴+装机限额）直接重创光伏板块，随后贸易战全面升级（2018-07美国加征2000亿关税），A股跌至年度低点。",
+        "managerAction": "2018Q3维持通威股份7.73%+阳光电源6.95%+隆基绿能6.92%（仓位结构无变化），全程未减仓，净值跌至历史最低点0.7169。",
+        "attribution": "Beta+Alpha双损。531新政对光伏冲击不可抵抗，但全程无任何止损操作是最大风控缺陷。❌ 言行一致性虽高，但代价极大。"
       },
       {
-            "id": 9,
-            "startDate": "2018-10-18",
-            "endDate": "2019-04-19",
-            "startNav": 0.7169,
-            "endNav": 1.1872,
-            "changePct": 65.6,
-            "type": "peak",
-            "stageId": 3,
-            "holdingsSummary": "✅ Alpha+Beta双丰收，行业转型判断精准。亿纬锂能2019年涨幅超100%，是重要超额收益来源。",
-            "env": "2018年底政策底出现（中央定调\"六稳\"），新能源汽车补贴延续，锂电产业链估值修复，同期沪深300+29%。",
-            "managerAction": "2019Q1出现重大转型——前三大变更为亿纬锂能9.73%+通威股份7.53%+隆基绿能7.19%，亿纬锂能首次大幅进入核心仓，标志着从光伏向锂电中游的战略迁移启动。",
-            "attribution": "✅ Alpha+Beta双丰收，行业转型判断精准。亿纬锂能2019年涨幅超100%，是重要超额收益来源。"
+        "id": 9,
+        "startDate": "2018-10-18",
+        "endDate": "2019-04-19",
+        "startNav": 0.7169,
+        "endNav": 1.1872,
+        "changePct": 65.6,
+        "type": "peak",
+        "stageId": 3,
+        "holdingsSummary": "✅ Alpha+Beta双丰收，行业转型判断精准。亿纬锂能2019年涨幅超100%，是重要超额收益来源。",
+        "env": "2018年底政策底出现（中央定调\"六稳\"），新能源汽车补贴延续，锂电产业链估值修复，同期沪深300+29%。",
+        "managerAction": "2019Q1出现重大转型——前三大变更为亿纬锂能9.73%+通威股份7.53%+隆基绿能7.19%，亿纬锂能首次大幅进入核心仓，标志着从光伏向锂电中游的战略迁移启动。",
+        "attribution": "✅ Alpha+Beta双丰收，行业转型判断精准。亿纬锂能2019年涨幅超100%，是重要超额收益来源。"
       },
       {
-            "id": 10,
-            "startDate": "2019-04-19",
-            "endDate": "2019-06-06",
-            "startNav": 1.1872,
-            "endNav": 0.9967,
-            "changePct": -16.05,
-            "type": "trough",
-            "stageId": 3,
-            "holdingsSummary": "Beta调整，持仓切换可能导致节奏略错位，但整体合理。⚠️ 仓位轮动频率较高。",
-            "env": "华为制裁（2019-05-16）引发市场恐慌，A股科技+新能源集体回调，贸易战不确定性压制情绪。",
-            "managerAction": "2019Q2调回光伏主仓（通威股份8.75%+隆基绿能8.3%+阳光电源8.27%），亿纬锂能退出前三，体现阶段性仓位轮动。",
-            "attribution": "Beta调整，持仓切换可能导致节奏略错位，但整体合理。⚠️ 仓位轮动频率较高。"
+        "id": 10,
+        "startDate": "2019-04-19",
+        "endDate": "2019-06-06",
+        "startNav": 1.1872,
+        "endNav": 0.9967,
+        "changePct": -16.05,
+        "type": "trough",
+        "stageId": 3,
+        "holdingsSummary": "Beta调整，持仓切换可能导致节奏略错位，但整体合理。⚠️ 仓位轮动频率较高。",
+        "env": "华为制裁（2019-05-16）引发市场恐慌，A股科技+新能源集体回调，贸易战不确定性压制情绪。",
+        "managerAction": "2019Q2调回光伏主仓（通威股份8.75%+隆基绿能8.3%+阳光电源8.27%），亿纬锂能退出前三，体现阶段性仓位轮动。",
+        "attribution": "Beta调整，持仓切换可能导致节奏略错位，但整体合理。⚠️ 仓位轮动频率较高。"
       },
       {
-            "id": 11,
-            "startDate": "2019-06-06",
-            "endDate": "2019-09-09",
-            "startNav": 0.9967,
-            "endNav": 1.2759,
-            "changePct": 28.01,
-            "type": "peak",
-            "stageId": 3,
-            "holdingsSummary": "Beta行情，选股集中光伏龙头，同步跑赢市场。✅ 持仓与行情匹配。",
-            "env": "G20峰会（2019-06-29）中美贸易战暂停升级，政策面利好，新能源整体修复。",
-            "managerAction": "维持光伏核心仓（阳光电源8.5%+隆基绿能7.53%+通威股份6.74%），结构稳定。",
-            "attribution": "Beta行情，选股集中光伏龙头，同步跑赢市场。✅ 持仓与行情匹配。"
+        "id": 11,
+        "startDate": "2019-06-06",
+        "endDate": "2019-09-09",
+        "startNav": 0.9967,
+        "endNav": 1.2759,
+        "changePct": 28.01,
+        "type": "peak",
+        "stageId": 3,
+        "holdingsSummary": "Beta行情，选股集中光伏龙头，同步跑赢市场。✅ 持仓与行情匹配。",
+        "env": "G20峰会（2019-06-29）中美贸易战暂停升级，政策面利好，新能源整体修复。",
+        "managerAction": "维持光伏核心仓（阳光电源8.5%+隆基绿能7.53%+通威股份6.74%），结构稳定。",
+        "attribution": "Beta行情，选股集中光伏龙头，同步跑赢市场。✅ 持仓与行情匹配。"
       },
       {
-            "id": 12,
-            "startDate": "2019-09-09",
-            "endDate": "2019-11-15",
-            "startNav": 1.2759,
-            "endNav": 1.144,
-            "changePct": -10.34,
-            "type": "trough",
-            "stageId": 3,
-            "holdingsSummary": "持仓出现决定性转变，宁德时代从无到第一，是整个基金历史上最重要的一次配置决策。✅ 对大势判断极其精准，事后证明Alpha来源。",
-            "env": "中美贸易谈判再起波折，10月加征关税预期，A股回调。",
-            "managerAction": "持仓过渡期，2019Q4出现重大变化——宁德时代8.09%首次成为第一大持仓，同时新进先导智能5.16%（锂电设备），显示提前预判锂电第二轮行情。",
-            "attribution": "持仓出现决定性转变，宁德时代从无到第一，是整个基金历史上最重要的一次配置决策。✅ 对大势判断极其精准，事后证明Alpha来源。"
+        "id": 12,
+        "startDate": "2019-09-09",
+        "endDate": "2019-11-15",
+        "startNav": 1.2759,
+        "endNav": 1.144,
+        "changePct": -10.34,
+        "type": "trough",
+        "stageId": 3,
+        "holdingsSummary": "持仓出现决定性转变，宁德时代从无到第一，是整个基金历史上最重要的一次配置决策。✅ 对大势判断极其精准，事后证明Alpha来源。",
+        "env": "中美贸易谈判再起波折，10月加征关税预期，A股回调。",
+        "managerAction": "持仓过渡期，2019Q4出现重大变化——宁德时代8.09%首次成为第一大持仓，同时新进先导智能5.16%（锂电设备），显示提前预判锂电第二轮行情。",
+        "attribution": "持仓出现决定性转变，宁德时代从无到第一，是整个基金历史上最重要的一次配置决策。✅ 对大势判断极其精准，事后证明Alpha来源。"
       },
       {
-            "id": 13,
-            "startDate": "2019-11-15",
-            "endDate": "2020-01-22",
-            "startNav": 1.144,
-            "endNav": 1.5163,
-            "changePct": 32.54,
-            "type": "peak",
-            "stageId": 3,
-            "holdingsSummary": "✅ Alpha贡献显著，宁德时代+先导智能的双龙头布局在2019年Q4实现了系统性超额。",
-            "env": "中美第一阶段协议签署预期升温，A股年末行情，新能源估值全面修复，宁德时代年内涨超50%。",
-            "managerAction": "宁德时代核心仓维持并继续增持，同步布局锂电产业链（先导智能等设备端）。",
-            "attribution": "✅ Alpha贡献显著，宁德时代+先导智能的双龙头布局在2019年Q4实现了系统性超额。"
+        "id": 13,
+        "startDate": "2019-11-15",
+        "endDate": "2020-01-22",
+        "startNav": 1.144,
+        "endNav": 1.5163,
+        "changePct": 32.54,
+        "type": "peak",
+        "stageId": 3,
+        "holdingsSummary": "✅ Alpha贡献显著，宁德时代+先导智能的双龙头布局在2019年Q4实现了系统性超额。",
+        "env": "中美第一阶段协议签署预期升温，A股年末行情，新能源估值全面修复，宁德时代年内涨超50%。",
+        "managerAction": "宁德时代核心仓维持并继续增持，同步布局锂电产业链（先导智能等设备端）。",
+        "attribution": "✅ Alpha贡献显著，宁德时代+先导智能的双龙头布局在2019年Q4实现了系统性超额。"
       },
       {
-            "id": 14,
-            "startDate": "2020-01-22",
-            "endDate": "2020-02-03",
-            "startNav": 1.5163,
-            "endNav": 1.3659,
-            "changePct": -9.92,
-            "type": "trough",
-            "stageId": 4,
-            "holdingsSummary": "Beta暴跌，系统性风险无法规避。⚠️ 短期配置调整方向略有保守。",
-            "env": "新冠疫情武汉封城（2020-01-23），A股春节后第一个交易日（2020-02-03）单日暴跌8%+，市场恐慌性抛售。",
-            "managerAction": "2020Q1持仓大幅调整——上汽集团8.75%进入第一（疫情后政策救市预期），隆基绿能7.24%保持，宁德时代降至5.61%，体现短期防御思路。",
-            "attribution": "Beta暴跌，系统性风险无法规避。⚠️ 短期配置调整方向略有保守。"
+        "id": 14,
+        "startDate": "2020-01-22",
+        "endDate": "2020-02-03",
+        "startNav": 1.5163,
+        "endNav": 1.3659,
+        "changePct": -9.92,
+        "type": "trough",
+        "stageId": 4,
+        "holdingsSummary": "Beta暴跌，系统性风险无法规避。⚠️ 短期配置调整方向略有保守。",
+        "env": "新冠疫情武汉封城（2020-01-23），A股春节后第一个交易日（2020-02-03）单日暴跌8%+，市场恐慌性抛售。",
+        "managerAction": "2020Q1持仓大幅调整——上汽集团8.75%进入第一（疫情后政策救市预期），隆基绿能7.24%保持，宁德时代降至5.61%，体现短期防御思路。",
+        "attribution": "Beta暴跌，系统性风险无法规避。⚠️ 短期配置调整方向略有保守。"
       },
       {
-            "id": 15,
-            "startDate": "2020-02-03",
-            "endDate": "2020-02-25",
-            "startNav": 1.3659,
-            "endNav": 1.7618,
-            "changePct": 28.98,
-            "type": "peak",
-            "stageId": 4,
-            "holdingsSummary": "Beta反弹，政策驱动，涨速快但持续性待观察。",
-            "env": "政府大规模货币财政刺激（2020-02多次降准降息），\"新基建\"政策出台，新能源汽车免购置税延续，板块快速反弹。",
-            "managerAction": "维持\"救市主题\"配置，上汽集团为主。",
-            "attribution": "Beta反弹，政策驱动，涨速快但持续性待观察。"
+        "id": 15,
+        "startDate": "2020-02-03",
+        "endDate": "2020-02-25",
+        "startNav": 1.3659,
+        "endNav": 1.7618,
+        "changePct": 28.98,
+        "type": "peak",
+        "stageId": 4,
+        "holdingsSummary": "Beta反弹，政策驱动，涨速快但持续性待观察。",
+        "env": "政府大规模货币财政刺激（2020-02多次降准降息），\"新基建\"政策出台，新能源汽车免购置税延续，板块快速反弹。",
+        "managerAction": "维持\"救市主题\"配置，上汽集团为主。",
+        "attribution": "Beta反弹，政策驱动，涨速快但持续性待观察。"
       },
       {
-            "id": 16,
-            "startDate": "2020-02-25",
-            "endDate": "2020-03-23",
-            "startNav": 1.7618,
-            "endNav": 1.3287,
-            "changePct": -24.58,
-            "type": "trough",
-            "stageId": 4,
-            "holdingsSummary": "系统性风险，Beta损耗为主。持仓未变符合长期持有策略，但代价较高。",
-            "env": "新冠疫情全球扩散，欧美封锁，美股熔断4次（2020-03），全球资产暴跌，A股联动下跌。油价暴跌（沙特价格战叠加需求崩溃）。",
-            "managerAction": "持仓结构维持（上汽+隆基+宁德），无应急减仓。这是2020年最大单次回撤拐点。",
-            "attribution": "系统性风险，Beta损耗为主。持仓未变符合长期持有策略，但代价较高。"
+        "id": 16,
+        "startDate": "2020-02-25",
+        "endDate": "2020-03-23",
+        "startNav": 1.7618,
+        "endNav": 1.3287,
+        "changePct": -24.58,
+        "type": "trough",
+        "stageId": 4,
+        "holdingsSummary": "系统性风险，Beta损耗为主。持仓未变符合长期持有策略，但代价较高。",
+        "env": "新冠疫情全球扩散，欧美封锁，美股熔断4次（2020-03），全球资产暴跌，A股联动下跌。油价暴跌（沙特价格战叠加需求崩溃）。",
+        "managerAction": "持仓结构维持（上汽+隆基+宁德），无应急减仓。这是2020年最大单次回撤拐点。",
+        "attribution": "系统性风险，Beta损耗为主。持仓未变符合长期持有策略，但代价较高。"
       },
       {
-            "id": 17,
-            "startDate": "2020-03-23",
-            "endDate": "2020-07-13",
-            "startNav": 1.3287,
-            "endNav": 2.1329,
-            "changePct": 60.53,
-            "type": "peak",
-            "stageId": 4,
-            "holdingsSummary": "✅ Alpha贡献突出。宁德时代+天赐材料的同步布局，精准卡位锂电中游最核心两个环节，超额收益来源清晰。",
-            "env": "美联储无限量QE（2020-03-23宣布），全球流动性泛滥；中国率先复工，新能源汽车政策再加码（购置税减免+充电桩新基建）；欧洲绿色新政。2020Q2基金+31.74%，Q3+14.32%。",
-            "managerAction": "Q2大幅增持宁德时代（7.14%），天赐材料（4.91%）首次进入，隆基绿能保持；Q3宁德时代维持7.07%，逐步确立\"宁德+天赐+通威\"核心三角。",
-            "attribution": "✅ Alpha贡献突出。宁德时代+天赐材料的同步布局，精准卡位锂电中游最核心两个环节，超额收益来源清晰。"
+        "id": 17,
+        "startDate": "2020-03-23",
+        "endDate": "2020-07-13",
+        "startNav": 1.3287,
+        "endNav": 2.1329,
+        "changePct": 60.53,
+        "type": "peak",
+        "stageId": 4,
+        "holdingsSummary": "✅ Alpha贡献突出。宁德时代+天赐材料的同步布局，精准卡位锂电中游最核心两个环节，超额收益来源清晰。",
+        "env": "美联储无限量QE（2020-03-23宣布），全球流动性泛滥；中国率先复工，新能源汽车政策再加码（购置税减免+充电桩新基建）；欧洲绿色新政。2020Q2基金+31.74%，Q3+14.32%。",
+        "managerAction": "Q2大幅增持宁德时代（7.14%），天赐材料（4.91%）首次进入，隆基绿能保持；Q3宁德时代维持7.07%，逐步确立\"宁德+天赐+通威\"核心三角。",
+        "attribution": "✅ Alpha贡献突出。宁德时代+天赐材料的同步布局，精准卡位锂电中游最核心两个环节，超额收益来源清晰。"
       },
       {
-            "id": 18,
-            "startDate": "2020-07-13",
-            "endDate": "2020-07-24",
-            "startNav": 2.1329,
-            "endNav": 1.9573,
-            "changePct": -8.23,
-            "type": "trough",
-            "stageId": 4,
-            "holdingsSummary": "Beta短期调整，正常波动区间，持仓不变。",
-            "env": "中美关系再度紧张（美国关闭成都领事馆，2020-07-22），市场情绪短暂波动。",
-            "managerAction": "无重大持仓变化，短期扰动。",
-            "attribution": "Beta短期调整，正常波动区间，持仓不变。"
+        "id": 18,
+        "startDate": "2020-07-13",
+        "endDate": "2020-07-24",
+        "startNav": 2.1329,
+        "endNav": 1.9573,
+        "changePct": -8.23,
+        "type": "trough",
+        "stageId": 4,
+        "holdingsSummary": "Beta短期调整，正常波动区间，持仓不变。",
+        "env": "中美关系再度紧张（美国关闭成都领事馆，2020-07-22），市场情绪短暂波动。",
+        "managerAction": "无重大持仓变化，短期扰动。",
+        "attribution": "Beta短期调整，正常波动区间，持仓不变。"
       },
       {
-            "id": 19,
-            "startDate": "2020-07-24",
-            "endDate": "2020-09-02",
-            "startNav": 1.9573,
-            "endNav": 2.1419,
-            "changePct": 9.43,
-            "type": "peak",
-            "stageId": 4,
-            "holdingsSummary": "持仓稳定驱动，Beta为主。✅ 高仓位策略在牛市中持续产生收益。",
-            "env": "A股科技+新能源继续高位震荡，宁德时代股价突破250元，市场情绪高涨。",
-            "managerAction": "维持核心仓位，无重大调整。",
-            "attribution": "持仓稳定驱动，Beta为主。✅ 高仓位策略在牛市中持续产生收益。"
+        "id": 19,
+        "startDate": "2020-07-24",
+        "endDate": "2020-09-02",
+        "startNav": 1.9573,
+        "endNav": 2.1419,
+        "changePct": 9.43,
+        "type": "peak",
+        "stageId": 4,
+        "holdingsSummary": "持仓稳定驱动，Beta为主。✅ 高仓位策略在牛市中持续产生收益。",
+        "env": "A股科技+新能源继续高位震荡，宁德时代股价突破250元，市场情绪高涨。",
+        "managerAction": "维持核心仓位，无重大调整。",
+        "attribution": "持仓稳定驱动，Beta为主。✅ 高仓位策略在牛市中持续产生收益。"
       },
       {
-            "id": 20,
-            "startDate": "2020-09-02",
-            "endDate": "2020-09-10",
-            "startNav": 2.1419,
-            "endNav": 1.9367,
-            "changePct": -9.58,
-            "type": "trough",
-            "stageId": 4,
-            "holdingsSummary": "系统性回调，Beta损耗，持续仅8天即反转，宁德时代护盘效果显著。",
-            "env": "全球科技股9月调整（美股纳斯达克同期-10%），抱团股短暂松动。",
-            "managerAction": "无持仓变化。",
-            "attribution": "系统性回调，Beta损耗，持续仅8天即反转，宁德时代护盘效果显著。"
+        "id": 20,
+        "startDate": "2020-09-02",
+        "endDate": "2020-09-10",
+        "startNav": 2.1419,
+        "endNav": 1.9367,
+        "changePct": -9.58,
+        "type": "trough",
+        "stageId": 4,
+        "holdingsSummary": "系统性回调，Beta损耗，持续仅8天即反转，宁德时代护盘效果显著。",
+        "env": "全球科技股9月调整（美股纳斯达克同期-10%），抱团股短暂松动。",
+        "managerAction": "无持仓变化。",
+        "attribution": "系统性回调，Beta损耗，持续仅8天即反转，宁德时代护盘效果显著。"
       },
       {
-            "id": 21,
-            "startDate": "2020-09-10",
-            "endDate": "2021-01-22",
-            "startNav": 1.9367,
-            "endNav": 3.089,
-            "changePct": 59.5,
-            "type": "peak",
-            "stageId": 4,
-            "holdingsSummary": "✅ 宁德时代核心仓叠加双碳政策Beta，Alpha+Beta双丰收。寒锐钴业+上游材料的前瞻布局为后续超额埋下伏笔。",
-            "env": "双碳目标（2020-09-22习近平联合国大会宣布），碳中和叙事点燃新能源史诗级行情。宁德时代年底突破历史高点，2020Q4基金+27.02%。",
-            "managerAction": "2020Q4大幅重构——宁德时代6.78%维持，但新进寒锐钴业4.82%（钴矿上游）+航天发展4.61%（军工概念），探索更广泛的新材料叙事。2021Q1：宁德时代7.56%+东方盛虹5.66%（化工/化纤）+华鲁恒升4.96%（化工），仓位向更广泛材料延伸。",
-            "attribution": "✅ 宁德时代核心仓叠加双碳政策Beta，Alpha+Beta双丰收。寒锐钴业+上游材料的前瞻布局为后续超额埋下伏笔。"
+        "id": 21,
+        "startDate": "2020-09-10",
+        "endDate": "2021-01-22",
+        "startNav": 1.9367,
+        "endNav": 3.089,
+        "changePct": 59.5,
+        "type": "peak",
+        "stageId": 4,
+        "holdingsSummary": "✅ 宁德时代核心仓叠加双碳政策Beta，Alpha+Beta双丰收。寒锐钴业+上游材料的前瞻布局为后续超额埋下伏笔。",
+        "env": "双碳目标（2020-09-22习近平联合国大会宣布），碳中和叙事点燃新能源史诗级行情。宁德时代年底突破历史高点，2020Q4基金+27.02%。",
+        "managerAction": "2020Q4大幅重构——宁德时代6.78%维持，但新进寒锐钴业4.82%（钴矿上游）+航天发展4.61%（军工概念），探索更广泛的新材料叙事。2021Q1：宁德时代7.56%+东方盛虹5.66%（化工/化纤）+华鲁恒升4.96%（化工），仓位向更广泛材料延伸。",
+        "attribution": "✅ 宁德时代核心仓叠加双碳政策Beta，Alpha+Beta双丰收。寒锐钴业+上游材料的前瞻布局为后续超额埋下伏笔。"
       },
       {
-            "id": 22,
-            "startDate": "2021-01-22",
-            "endDate": "2021-03-24",
-            "startNav": 3.089,
-            "endNav": 2.4587,
-            "changePct": -20.4,
-            "type": "trough",
-            "stageId": 4,
-            "holdingsSummary": "⚠️ 仓位调整方向一定程度上有效，但东方盛虹等并非最优选择，总体回撤-20%较大。熊昱洲于此时（2021-01-26）加入共管。",
-            "env": "春节后\"抱团股瓦解\"行情（2021-02-18起），白酒/新能源等高估值抱团股集体大跌，宁德时代从最高点-30%+，全球通胀预期升温压制成长股估值。",
-            "managerAction": "2021Q1持仓出现重大调整——宁德时代维持7.56%但配套转向化工（东方盛虹+华鲁恒升），显示经理预判行业短期高估，试图通过化工/新材料分散风险。",
-            "attribution": "⚠️ 仓位调整方向一定程度上有效，但东方盛虹等并非最优选择，总体回撤-20%较大。熊昱洲于此时（2021-01-26）加入共管。"
+        "id": 22,
+        "startDate": "2021-01-22",
+        "endDate": "2021-03-24",
+        "startNav": 3.089,
+        "endNav": 2.4587,
+        "changePct": -20.4,
+        "type": "trough",
+        "stageId": 4,
+        "holdingsSummary": "⚠️ 仓位调整方向一定程度上有效，但东方盛虹等并非最优选择，总体回撤-20%较大。熊昱洲于此时（2021-01-26）加入共管。",
+        "env": "春节后\"抱团股瓦解\"行情（2021-02-18起），白酒/新能源等高估值抱团股集体大跌，宁德时代从最高点-30%+，全球通胀预期升温压制成长股估值。",
+        "managerAction": "2021Q1持仓出现重大调整——宁德时代维持7.56%但配套转向化工（东方盛虹+华鲁恒升），显示经理预判行业短期高估，试图通过化工/新材料分散风险。",
+        "attribution": "⚠️ 仓位调整方向一定程度上有效，但东方盛虹等并非最优选择，总体回撤-20%较大。熊昱洲于此时（2021-01-26）加入共管。"
       },
       {
-            "id": 23,
-            "startDate": "2021-03-24",
-            "endDate": "2021-09-15",
-            "startNav": 2.4587,
-            "endNav": 3.7357,
-            "changePct": 51.94,
-            "type": "peak",
-            "stageId": 4,
-            "holdingsSummary": "✅ Alpha贡献极为显著，宁德/新宙邦/璞泰来全产业链布局恰逢行业最景气时期，累计超额收益巨大。",
-            "env": "碳酸锂价格启动暴涨（2021Q1约5万/吨→Q3约17万/吨），锂电板块估值重估，电动车销量爆发（月度渗透率突破20%）。",
-            "managerAction": "Q2重回锂电中游（宁德时代9.21%+天赐材料6.08%+星宇股份4.13%）；Q3持续（宁德时代9.02%+新宙邦7.31%+璞泰来6.65%），逐步转向隔膜+负极材料布局。",
-            "attribution": "✅ Alpha贡献极为显著，宁德/新宙邦/璞泰来全产业链布局恰逢行业最景气时期，累计超额收益巨大。"
+        "id": 23,
+        "startDate": "2021-03-24",
+        "endDate": "2021-09-15",
+        "startNav": 2.4587,
+        "endNav": 3.7357,
+        "changePct": 51.94,
+        "type": "peak",
+        "stageId": 4,
+        "holdingsSummary": "✅ Alpha贡献极为显著，宁德/新宙邦/璞泰来全产业链布局恰逢行业最景气时期，累计超额收益巨大。",
+        "env": "碳酸锂价格启动暴涨（2021Q1约5万/吨→Q3约17万/吨），锂电板块估值重估，电动车销量爆发（月度渗透率突破20%）。",
+        "managerAction": "Q2重回锂电中游（宁德时代9.21%+天赐材料6.08%+星宇股份4.13%）；Q3持续（宁德时代9.02%+新宙邦7.31%+璞泰来6.65%），逐步转向隔膜+负极材料布局。",
+        "attribution": "✅ Alpha贡献极为显著，宁德/新宙邦/璞泰来全产业链布局恰逢行业最景气时期，累计超额收益巨大。"
       },
       {
-            "id": 24,
-            "startDate": "2021-09-15",
-            "endDate": "2021-09-29",
-            "startNav": 3.7357,
-            "endNav": 3.3928,
-            "changePct": -9.18,
-            "type": "trough",
-            "stageId": 4,
-            "holdingsSummary": "短期宏观扰动，持仓未变，2周内反转。Beta短暂扰动，不影响主线判断。",
-            "env": "全球能源危机（欧洲天然气短缺+国内限电），A股恒大债务危机，市场情绪短暂恐慌。",
-            "managerAction": "维持高仓位锂电组合，未调仓。",
-            "attribution": "短期宏观扰动，持仓未变，2周内反转。Beta短暂扰动，不影响主线判断。"
+        "id": 24,
+        "startDate": "2021-09-15",
+        "endDate": "2021-09-29",
+        "startNav": 3.7357,
+        "endNav": 3.3928,
+        "changePct": -9.18,
+        "type": "trough",
+        "stageId": 4,
+        "holdingsSummary": "短期宏观扰动，持仓未变，2周内反转。Beta短暂扰动，不影响主线判断。",
+        "env": "全球能源危机（欧洲天然气短缺+国内限电），A股恒大债务危机，市场情绪短暂恐慌。",
+        "managerAction": "维持高仓位锂电组合，未调仓。",
+        "attribution": "短期宏观扰动，持仓未变，2周内反转。Beta短暂扰动，不影响主线判断。"
       },
       {
-            "id": 25,
-            "startDate": "2021-09-29",
-            "endDate": "2021-11-29",
-            "startNav": 3.3928,
-            "endNav": 3.8813,
-            "changePct": 14.4,
-            "type": "peak",
-            "env": "碳酸锂继续暴涨（Q4达27万/吨），电动车国内月销量突破50万辆，行业景气达到历史最高点。宁德时代市值突破1.5万亿元。",
-            "managerAction": "2021Q4持仓：宁德时代8.4%+璞泰来7.24%+恩捷股份6.96%，三大中游材料龙头满配，持仓集中度最高的时期。",
-            "attribution": "✅ 持仓与行业顶峰完美共振，是基金历史最佳单一拐点收益。然而，这也是后续-69.31%的起点。",
-            "holdingsSummary": "✅ 持仓与行业顶峰完美共振，是基金历史最佳单一拐点收益。然而，这也是后续-69.31%的起点。",
-            "stageId": 4
+        "id": 25,
+        "startDate": "2021-09-29",
+        "endDate": "2021-11-29",
+        "startNav": 3.3928,
+        "endNav": 3.8813,
+        "changePct": 14.4,
+        "type": "peak",
+        "env": "碳酸锂继续暴涨（Q4达27万/吨），电动车国内月销量突破50万辆，行业景气达到历史最高点。宁德时代市值突破1.5万亿元。",
+        "managerAction": "2021Q4持仓：宁德时代8.4%+璞泰来7.24%+恩捷股份6.96%，三大中游材料龙头满配，持仓集中度最高的时期。",
+        "attribution": "✅ 持仓与行业顶峰完美共振，是基金历史最佳单一拐点收益。然而，这也是后续-69.31%的起点。",
+        "holdingsSummary": "✅ 持仓与行业顶峰完美共振，是基金历史最佳单一拐点收益。然而，这也是后续-69.31%的起点。",
+        "stageId": 4
       },
       {
-            "id": 26,
-            "startDate": "2021-11-29",
-            "endDate": "2022-02-11",
-            "startNav": 3.8813,
-            "endNav": 3.0595,
-            "changePct": -21.17,
-            "type": "trough",
-            "stageId": 5,
-            "holdingsSummary": "❌ 未在历史峰值附近减仓，-21%的第一波回调完全暴露Beta。这是错失风控的关键窗口。",
-            "env": "美联储Taper信号（2021-11），成长股估值收缩开始；碳酸锂从顶点回调，宁德时代年底从高点-30%。",
-            "managerAction": "持仓不变（宁德时代8.96%+恩捷股份8.5%+璞泰来7.94%，2022Q1数据），未做任何止盈减仓。",
-            "attribution": "❌ 未在历史峰值附近减仓，-21%的第一波回调完全暴露Beta。这是错失风控的关键窗口。"
+        "id": 26,
+        "startDate": "2021-11-29",
+        "endDate": "2022-02-11",
+        "startNav": 3.8813,
+        "endNav": 3.0595,
+        "changePct": -21.17,
+        "type": "trough",
+        "stageId": 5,
+        "holdingsSummary": "❌ 未在历史峰值附近减仓，-21%的第一波回调完全暴露Beta。这是错失风控的关键窗口。",
+        "env": "美联储Taper信号（2021-11），成长股估值收缩开始；碳酸锂从顶点回调，宁德时代年底从高点-30%。",
+        "managerAction": "持仓不变（宁德时代8.96%+恩捷股份8.5%+璞泰来7.94%，2022Q1数据），未做任何止盈减仓。",
+        "attribution": "❌ 未在历史峰值附近减仓，-21%的第一波回调完全暴露Beta。这是错失风控的关键窗口。"
       },
       {
-            "id": 27,
-            "startDate": "2022-02-11",
-            "endDate": "2022-02-28",
-            "startNav": 3.0595,
-            "endNav": 3.3283,
-            "changePct": 8.79,
-            "type": "peak",
-            "stageId": 5,
-            "holdingsSummary": "短暂反弹，2周内见顶，Beta脉冲，不具持续性。",
-            "env": "俄乌战争前夕（2022-02-24爆发），市场短暂消化利空后反弹。",
-            "managerAction": "持仓稳定，维持前三大不变。",
-            "attribution": "短暂反弹，2周内见顶，Beta脉冲，不具持续性。"
+        "id": 27,
+        "startDate": "2022-02-11",
+        "endDate": "2022-02-28",
+        "startNav": 3.0595,
+        "endNav": 3.3283,
+        "changePct": 8.79,
+        "type": "peak",
+        "stageId": 5,
+        "holdingsSummary": "短暂反弹，2周内见顶，Beta脉冲，不具持续性。",
+        "env": "俄乌战争前夕（2022-02-24爆发），市场短暂消化利空后反弹。",
+        "managerAction": "持仓稳定，维持前三大不变。",
+        "attribution": "短暂反弹，2周内见顶，Beta脉冲，不具持续性。"
       },
       {
-            "id": 28,
-            "startDate": "2022-02-28",
-            "endDate": "2022-03-09",
-            "startNav": 3.3283,
-            "endNav": 2.873,
-            "changePct": -13.68,
-            "type": "trough",
-            "stageId": 5,
-            "holdingsSummary": "地缘政治冲击，Beta损耗，8日跌14%，速度快。⚠️ 未做任何风险对冲。",
-            "env": "俄乌战争爆发（2022-02-24），全球资产风险情绪急剧恶化，A股外资撤离，新能源板块联动大跌。",
-            "managerAction": "无调仓，持仓锁定。",
-            "attribution": "地缘政治冲击，Beta损耗，8日跌14%，速度快。⚠️ 未做任何风险对冲。"
+        "id": 28,
+        "startDate": "2022-02-28",
+        "endDate": "2022-03-09",
+        "startNav": 3.3283,
+        "endNav": 2.873,
+        "changePct": -13.68,
+        "type": "trough",
+        "stageId": 5,
+        "holdingsSummary": "地缘政治冲击，Beta损耗，8日跌14%，速度快。⚠️ 未做任何风险对冲。",
+        "env": "俄乌战争爆发（2022-02-24），全球资产风险情绪急剧恶化，A股外资撤离，新能源板块联动大跌。",
+        "managerAction": "无调仓，持仓锁定。",
+        "attribution": "地缘政治冲击，Beta损耗，8日跌14%，速度快。⚠️ 未做任何风险对冲。"
       },
       {
-            "id": 29,
-            "startDate": "2022-03-09",
-            "endDate": "2022-03-17",
-            "startNav": 2.873,
-            "endNav": 3.1167,
-            "changePct": 8.48,
-            "type": "peak",
-            "stageId": 5,
-            "holdingsSummary": "政策底反弹，Beta驱动，持续仅8天。",
-            "env": "中国政府释放稳市场信号（国务院金融委2022-03-16特别会议，刘鹤主持），\"16字方针\"提振市场信心，A股单日大涨。",
-            "managerAction": "持仓无变化。",
-            "attribution": "政策底反弹，Beta驱动，持续仅8天。"
+        "id": 29,
+        "startDate": "2022-03-09",
+        "endDate": "2022-03-17",
+        "startNav": 2.873,
+        "endNav": 3.1167,
+        "changePct": 8.48,
+        "type": "peak",
+        "stageId": 5,
+        "holdingsSummary": "政策底反弹，Beta驱动，持续仅8天。",
+        "env": "中国政府释放稳市场信号（国务院金融委2022-03-16特别会议，刘鹤主持），\"16字方针\"提振市场信心，A股单日大涨。",
+        "managerAction": "持仓无变化。",
+        "attribution": "政策底反弹，Beta驱动，持续仅8天。"
       },
       {
-            "id": 30,
-            "startDate": "2022-03-17",
-            "endDate": "2022-04-26",
-            "startNav": 3.1167,
-            "endNav": 2.3101,
-            "changePct": -25.88,
-            "type": "trough",
-            "stageId": 5,
-            "holdingsSummary": "❌ 在供应链危机+加息双重压制下继续加仓集中，风控完全缺失，-25.88%的单段回撤创彼时新高。",
-            "env": "上海封城（2022-03-28起，持续65天），供应链严重受损，新能源车交付停滞，宁德时代/隔膜/电解液全部受冲击；美联储3月首次加息25bp。",
-            "managerAction": "2022Q2持仓调整——宁德时代增至9.96%（继续加仓），璞泰来8.74%+恩捷股份8.43%，高度集中于中游三大，逆势加仓。",
-            "attribution": "❌ 在供应链危机+加息双重压制下继续加仓集中，风控完全缺失，-25.88%的单段回撤创彼时新高。"
+        "id": 30,
+        "startDate": "2022-03-17",
+        "endDate": "2022-04-26",
+        "startNav": 3.1167,
+        "endNav": 2.3101,
+        "changePct": -25.88,
+        "type": "trough",
+        "stageId": 5,
+        "holdingsSummary": "❌ 在供应链危机+加息双重压制下继续加仓集中，风控完全缺失，-25.88%的单段回撤创彼时新高。",
+        "env": "上海封城（2022-03-28起，持续65天），供应链严重受损，新能源车交付停滞，宁德时代/隔膜/电解液全部受冲击；美联储3月首次加息25bp。",
+        "managerAction": "2022Q2持仓调整——宁德时代增至9.96%（继续加仓），璞泰来8.74%+恩捷股份8.43%，高度集中于中游三大，逆势加仓。",
+        "attribution": "❌ 在供应链危机+加息双重压制下继续加仓集中，风控完全缺失，-25.88%的单段回撤创彼时新高。"
       },
       {
-            "id": 31,
-            "startDate": "2022-04-26",
-            "endDate": "2022-06-28",
-            "startNav": 2.3101,
-            "endNav": 3.467,
-            "changePct": 50.08,
-            "type": "peak",
-            "stageId": 5,
-            "holdingsSummary": "✅ 逆势加仓在这一阶段得到回报，+50%的反弹Beta主导，高仓位充分受益。但这仍是熊市中继反弹而非趋势反转。",
-            "env": "上海复工复产（2022-06-01），叠加国务院\"稳增长33条\"（2022-05-31），新能源政策超预期（购置税再减免），碳酸锂价格继续高位（约45-50万/吨）。",
-            "managerAction": "持仓维持（宁德9.96%+璞泰来+恩捷），高仓位享受政策反弹红利。",
-            "attribution": "✅ 逆势加仓在这一阶段得到回报，+50%的反弹Beta主导，高仓位充分受益。但这仍是熊市中继反弹而非趋势反转。"
+        "id": 31,
+        "startDate": "2022-04-26",
+        "endDate": "2022-06-28",
+        "startNav": 2.3101,
+        "endNav": 3.467,
+        "changePct": 50.08,
+        "type": "peak",
+        "stageId": 5,
+        "holdingsSummary": "✅ 逆势加仓在这一阶段得到回报，+50%的反弹Beta主导，高仓位充分受益。但这仍是熊市中继反弹而非趋势反转。",
+        "env": "上海复工复产（2022-06-01），叠加国务院\"稳增长33条\"（2022-05-31），新能源政策超预期（购置税再减免），碳酸锂价格继续高位（约45-50万/吨）。",
+        "managerAction": "持仓维持（宁德9.96%+璞泰来+恩捷），高仓位享受政策反弹红利。",
+        "attribution": "✅ 逆势加仓在这一阶段得到回报，+50%的反弹Beta主导，高仓位充分受益。但这仍是熊市中继反弹而非趋势反转。"
       },
       {
-            "id": 32,
-            "startDate": "2022-06-28",
-            "endDate": "2022-10-28",
-            "startNav": 3.467,
-            "endNav": 2.392,
-            "changePct": -31.01,
-            "type": "trough",
-            "stageId": 5,
-            "holdingsSummary": "❌ -31%的加速下跌中完全无防御，恩捷股份当年跌超50%。碳酸锂见顶是根本性行业逻辑变化，经理未及时识别转折点。",
-            "env": "美联储连续大幅加息（6月+75bp，7月+75bp，9月+75bp），全球流动性极度收紧；中国碳酸锂价格于2022Q4开始从60万/吨见顶下跌；A股二十大前不确定性压制。",
-            "managerAction": "2022Q3-Q4：恩捷股份轮替宁德时代为第一大（8.99%），持仓结构基本不变，全程满仓。",
-            "attribution": "❌ -31%的加速下跌中完全无防御，恩捷股份当年跌超50%。碳酸锂见顶是根本性行业逻辑变化，经理未及时识别转折点。"
+        "id": 32,
+        "startDate": "2022-06-28",
+        "endDate": "2022-10-28",
+        "startNav": 3.467,
+        "endNav": 2.392,
+        "changePct": -31.01,
+        "type": "trough",
+        "stageId": 5,
+        "holdingsSummary": "❌ -31%的加速下跌中完全无防御，恩捷股份当年跌超50%。碳酸锂见顶是根本性行业逻辑变化，经理未及时识别转折点。",
+        "env": "美联储连续大幅加息（6月+75bp，7月+75bp，9月+75bp），全球流动性极度收紧；中国碳酸锂价格于2022Q4开始从60万/吨见顶下跌；A股二十大前不确定性压制。",
+        "managerAction": "2022Q3-Q4：恩捷股份轮替宁德时代为第一大（8.99%），持仓结构基本不变，全程满仓。",
+        "attribution": "❌ -31%的加速下跌中完全无防御，恩捷股份当年跌超50%。碳酸锂见顶是根本性行业逻辑变化，经理未及时识别转折点。"
       },
       {
-            "id": 33,
-            "startDate": "2022-10-28",
-            "endDate": "2022-11-07",
-            "startNav": 2.392,
-            "endNav": 2.6795,
-            "changePct": 12.02,
-            "type": "peak",
-            "stageId": 5,
-            "holdingsSummary": "Beta反弹，政策预期驱动，但基本面（碳酸锂下行）尚未修复，无法持续。",
-            "env": "二十大结束（2022-10-22），市场预期政策明朗化；美联储加息节奏放缓预期升温；A股技术性反弹。",
-            "managerAction": "持仓不变。",
-            "attribution": "Beta反弹，政策预期驱动，但基本面（碳酸锂下行）尚未修复，无法持续。"
+        "id": 33,
+        "startDate": "2022-10-28",
+        "endDate": "2022-11-07",
+        "startNav": 2.392,
+        "endNav": 2.6795,
+        "changePct": 12.02,
+        "type": "peak",
+        "stageId": 5,
+        "holdingsSummary": "Beta反弹，政策预期驱动，但基本面（碳酸锂下行）尚未修复，无法持续。",
+        "env": "二十大结束（2022-10-22），市场预期政策明朗化；美联储加息节奏放缓预期升温；A股技术性反弹。",
+        "managerAction": "持仓不变。",
+        "attribution": "Beta反弹，政策预期驱动，但基本面（碳酸锂下行）尚未修复，无法持续。"
       },
       {
-            "id": 34,
-            "startDate": "2022-11-07",
-            "endDate": "2023-01-04",
-            "startNav": 2.6795,
-            "endNav": 2.354,
-            "changePct": -12.15,
-            "type": "trough",
-            "stageId": 5,
-            "holdingsSummary": "行业基本面转折点出现，持仓未跟进调整。⚠️ 错过规避碳酸锂价格下行冲击的最佳窗口。",
-            "env": "全球宏观压力持续，碳酸锂现货从60万/吨开始持续下滑，锂电板块逻辑开始松动。",
-            "managerAction": "持仓维持宁德时代+恩捷+璞泰来三角组合（2022Q4数据），未做转仓。",
-            "attribution": "行业基本面转折点出现，持仓未跟进调整。⚠️ 错过规避碳酸锂价格下行冲击的最佳窗口。"
+        "id": 34,
+        "startDate": "2022-11-07",
+        "endDate": "2023-01-04",
+        "startNav": 2.6795,
+        "endNav": 2.354,
+        "changePct": -12.15,
+        "type": "trough",
+        "stageId": 5,
+        "holdingsSummary": "行业基本面转折点出现，持仓未跟进调整。⚠️ 错过规避碳酸锂价格下行冲击的最佳窗口。",
+        "env": "全球宏观压力持续，碳酸锂现货从60万/吨开始持续下滑，锂电板块逻辑开始松动。",
+        "managerAction": "持仓维持宁德时代+恩捷+璞泰来三角组合（2022Q4数据），未做转仓。",
+        "attribution": "行业基本面转折点出现，持仓未跟进调整。⚠️ 错过规避碳酸锂价格下行冲击的最佳窗口。"
       },
       {
-            "id": 35,
-            "startDate": "2023-01-04",
-            "endDate": "2023-02-01",
-            "startNav": 2.354,
-            "endNav": 2.6759,
-            "changePct": 13.67,
-            "type": "peak",
-            "stageId": 5,
-            "holdingsSummary": "Beta修复，但碳酸锂已进入下行通道，反弹缺乏基本面支撑，持续时间极短。⚠️ 持仓未能跟随行业基本面变化及时调整。",
-            "env": "2023年初\"疫情放开\"政策转向，A股\"复苏行情\"强烈预期，北向资金大幅流入，新能源板块跟随大盘反弹。",
-            "managerAction": "2023Q1持仓：宁德时代9.2%+恩捷股份9.03%+璞泰来6.86%，与去年相比几乎无变化。",
-            "attribution": "Beta修复，但碳酸锂已进入下行通道，反弹缺乏基本面支撑，持续时间极短。⚠️ 持仓未能跟随行业基本面变化及时调整。"
+        "id": 35,
+        "startDate": "2023-01-04",
+        "endDate": "2023-02-01",
+        "startNav": 2.354,
+        "endNav": 2.6759,
+        "changePct": 13.67,
+        "type": "peak",
+        "stageId": 5,
+        "holdingsSummary": "Beta修复，但碳酸锂已进入下行通道，反弹缺乏基本面支撑，持续时间极短。⚠️ 持仓未能跟随行业基本面变化及时调整。",
+        "env": "2023年初\"疫情放开\"政策转向，A股\"复苏行情\"强烈预期，北向资金大幅流入，新能源板块跟随大盘反弹。",
+        "managerAction": "2023Q1持仓：宁德时代9.2%+恩捷股份9.03%+璞泰来6.86%，与去年相比几乎无变化。",
+        "attribution": "Beta修复，但碳酸锂已进入下行通道，反弹缺乏基本面支撑，持续时间极短。⚠️ 持仓未能跟随行业基本面变化及时调整。"
       },
       {
-            "id": 36,
-            "startDate": "2023-02-01",
-            "endDate": "2023-06-08",
-            "startNav": 2.6759,
-            "endNav": 1.999,
-            "changePct": -25.3,
-            "type": "trough",
-            "stageId": 5,
-            "holdingsSummary": "❌ 碳酸锂价格崩溃是确定性行业逻辑变化，经理未作任何对冲或仓位迁移，连续承受盈利预警+估值压缩双重打击，-25%的跌幅完全可规避。",
-            "env": "碳酸锂价格2023年加速暴跌（Q1约45万→Q2约25万→Q3约18万/吨），产能严重过剩确认，恩捷股份/璞泰来等中游制造商盈利预警密集发布，板块估值重杀。",
-            "managerAction": "2023Q1持仓结构几乎未变（宁德9.2%+恩捷9.03%+璞泰来6.86%），2023Q2轻微调整（宁德9.82%+恩捷8%+璞泰来7.88%），坚守中游主仓。",
-            "attribution": "❌ 碳酸锂价格崩溃是确定性行业逻辑变化，经理未作任何对冲或仓位迁移，连续承受盈利预警+估值压缩双重打击，-25%的跌幅完全可规避。"
+        "id": 36,
+        "startDate": "2023-02-01",
+        "endDate": "2023-06-08",
+        "startNav": 2.6759,
+        "endNav": 1.999,
+        "changePct": -25.3,
+        "type": "trough",
+        "stageId": 5,
+        "holdingsSummary": "❌ 碳酸锂价格崩溃是确定性行业逻辑变化，经理未作任何对冲或仓位迁移，连续承受盈利预警+估值压缩双重打击，-25%的跌幅完全可规避。",
+        "env": "碳酸锂价格2023年加速暴跌（Q1约45万→Q2约25万→Q3约18万/吨），产能严重过剩确认，恩捷股份/璞泰来等中游制造商盈利预警密集发布，板块估值重杀。",
+        "managerAction": "2023Q1持仓结构几乎未变（宁德9.2%+恩捷9.03%+璞泰来6.86%），2023Q2轻微调整（宁德9.82%+恩捷8%+璞泰来7.88%），坚守中游主仓。",
+        "attribution": "❌ 碳酸锂价格崩溃是确定性行业逻辑变化，经理未作任何对冲或仓位迁移，连续承受盈利预警+估值压缩双重打击，-25%的跌幅完全可规避。"
       },
       {
-            "id": 37,
-            "startDate": "2023-06-08",
-            "endDate": "2023-08-04",
-            "startNav": 1.999,
-            "endNav": 2.1716,
-            "changePct": 8.63,
-            "type": "peak",
-            "stageId": 5,
-            "holdingsSummary": "⚠️ 持仓结构边际调整（恩捷→新宙邦），方向略有切换，但整体仍属中游制造。超跌反弹Beta，持续不足2个月。",
-            "env": "国内经济数据超预期+政策刺激预期（\"活跃资本市场\"）使市场短暂乐观，锂电板块超跌反弹。",
-            "managerAction": "2023Q3：宁德时代9.43%+新宙邦7.61%+璞泰来7.5%，恩捷股份退出前三，新宙邦（电解液）重新进入。",
-            "attribution": "⚠️ 持仓结构边际调整（恩捷→新宙邦），方向略有切换，但整体仍属中游制造。超跌反弹Beta，持续不足2个月。"
+        "id": 37,
+        "startDate": "2023-06-08",
+        "endDate": "2023-08-04",
+        "startNav": 1.999,
+        "endNav": 2.1716,
+        "changePct": 8.63,
+        "type": "peak",
+        "stageId": 5,
+        "holdingsSummary": "⚠️ 持仓结构边际调整（恩捷→新宙邦），方向略有切换，但整体仍属中游制造。超跌反弹Beta，持续不足2个月。",
+        "env": "国内经济数据超预期+政策刺激预期（\"活跃资本市场\"）使市场短暂乐观，锂电板块超跌反弹。",
+        "managerAction": "2023Q3：宁德时代9.43%+新宙邦7.61%+璞泰来7.5%，恩捷股份退出前三，新宙邦（电解液）重新进入。",
+        "attribution": "⚠️ 持仓结构边际调整（恩捷→新宙邦），方向略有切换，但整体仍属中游制造。超跌反弹Beta，持续不足2个月。"
       },
       {
-            "id": 38,
-            "startDate": "2023-08-04",
-            "endDate": "2023-10-26",
-            "startNav": 2.1716,
-            "endNav": 1.6617,
-            "changePct": -23.48,
-            "type": "trough",
-            "stageId": 5,
-            "holdingsSummary": "❌ 外因（外资流出）+内因（碳酸锂崩跌）叠加，-23%的跌幅说明持仓结构对行业基本面变化响应严重滞后。",
-            "env": "美国进一步限制对华半导体/新能源投资（IRA法案细则落地），外资撤离A股，碳酸锂价格10月跌破15万/吨，行业悲观情绪蔓延。",
-            "managerAction": "2023Q4：新宙邦8.45%+宁德时代8.09%+恩捷股份7.94%，恩捷股份回归前三，仓位结构仍以中游为主。",
-            "attribution": "❌ 外因（外资流出）+内因（碳酸锂崩跌）叠加，-23%的跌幅说明持仓结构对行业基本面变化响应严重滞后。"
+        "id": 38,
+        "startDate": "2023-08-04",
+        "endDate": "2023-10-26",
+        "startNav": 2.1716,
+        "endNav": 1.6617,
+        "changePct": -23.48,
+        "type": "trough",
+        "stageId": 5,
+        "holdingsSummary": "❌ 外因（外资流出）+内因（碳酸锂崩跌）叠加，-23%的跌幅说明持仓结构对行业基本面变化响应严重滞后。",
+        "env": "美国进一步限制对华半导体/新能源投资（IRA法案细则落地），外资撤离A股，碳酸锂价格10月跌破15万/吨，行业悲观情绪蔓延。",
+        "managerAction": "2023Q4：新宙邦8.45%+宁德时代8.09%+恩捷股份7.94%，恩捷股份回归前三，仓位结构仍以中游为主。",
+        "attribution": "❌ 外因（外资流出）+内因（碳酸锂崩跌）叠加，-23%的跌幅说明持仓结构对行业基本面变化响应严重滞后。"
       },
       {
-            "id": 39,
-            "startDate": "2023-10-26",
-            "endDate": "2023-11-06",
-            "startNav": 1.6617,
-            "endNav": 1.8331,
-            "changePct": 10.31,
-            "type": "peak",
-            "stageId": 5,
-            "holdingsSummary": "Beta脉冲，持续极短。行业基本面无改善，反弹不可持续。",
-            "env": "技术面超跌+政策预期反弹（\"中特估\"概念+托底政策预期），持续11天。",
-            "managerAction": "持仓未变，纯被动Beta反弹。",
-            "attribution": "Beta脉冲，持续极短。行业基本面无改善，反弹不可持续。"
+        "id": 39,
+        "startDate": "2023-10-26",
+        "endDate": "2023-11-06",
+        "startNav": 1.6617,
+        "endNav": 1.8331,
+        "changePct": 10.31,
+        "type": "peak",
+        "stageId": 5,
+        "holdingsSummary": "Beta脉冲，持续极短。行业基本面无改善，反弹不可持续。",
+        "env": "技术面超跌+政策预期反弹（\"中特估\"概念+托底政策预期），持续11天。",
+        "managerAction": "持仓未变，纯被动Beta反弹。",
+        "attribution": "Beta脉冲，持续极短。行业基本面无改善，反弹不可持续。"
       },
       {
-            "id": 40,
-            "startDate": "2023-11-06",
-            "endDate": "2024-02-05",
-            "startNav": 1.8331,
-            "endNav": 1.2816,
-            "changePct": -30.09,
-            "type": "trough",
-            "stageId": 5,
-            "holdingsSummary": "❌ 碳酸锂跌破成本线+A股2月踩踏，净值跌破历史低位（1.28<2018年低点1.28），经理始终未减仓，是整个熊市中损耗最大的单一拐点之一。",
-            "env": "碳酸锂2024年初跌破10万/吨，部分矿山宣告亏损减产；春节前市场流动性危机（量化策略微盘股踩踏，2024-02小盘股暴跌），新能源与市场系统性风险叠加。",
-            "managerAction": "2024Q1持仓：宁德时代9.81%+璞泰来7.25%+恩捷股份6.9%，持仓结构基本不变，恩捷股份退出主角位，但整体仍锁定中游。",
-            "attribution": "❌ 碳酸锂跌破成本线+A股2月踩踏，净值跌破历史低位（1.28<2018年低点1.28），经理始终未减仓，是整个熊市中损耗最大的单一拐点之一。"
+        "id": 40,
+        "startDate": "2023-11-06",
+        "endDate": "2024-02-05",
+        "startNav": 1.8331,
+        "endNav": 1.2816,
+        "changePct": -30.09,
+        "type": "trough",
+        "stageId": 5,
+        "holdingsSummary": "❌ 碳酸锂跌破成本线+A股2月踩踏，净值跌破历史低位（1.28<2018年低点1.28），经理始终未减仓，是整个熊市中损耗最大的单一拐点之一。",
+        "env": "碳酸锂2024年初跌破10万/吨，部分矿山宣告亏损减产；春节前市场流动性危机（量化策略微盘股踩踏，2024-02小盘股暴跌），新能源与市场系统性风险叠加。",
+        "managerAction": "2024Q1持仓：宁德时代9.81%+璞泰来7.25%+恩捷股份6.9%，持仓结构基本不变，恩捷股份退出主角位，但整体仍锁定中游。",
+        "attribution": "❌ 碳酸锂跌破成本线+A股2月踩踏，净值跌破历史低位（1.28<2018年低点1.28），经理始终未减仓，是整个熊市中损耗最大的单一拐点之一。"
       },
       {
-            "id": 41,
-            "startDate": "2024-02-05",
-            "endDate": "2024-03-18",
-            "startNav": 1.2816,
-            "endNav": 1.5962,
-            "changePct": 24.55,
-            "type": "peak",
-            "stageId": 5,
-            "holdingsSummary": "✅ 高仓位在政策救市行情中充分受益，Beta强烈反弹。",
-            "env": "2024年\"国家队\"救市（中央汇金大幅增持ETF），市场情绪触底强烈反弹，新能源板块超跌修复。",
-            "managerAction": "持仓维持，2024Q1：宁德时代9.81%+璞泰来+恩捷，被动受益。",
-            "attribution": "✅ 高仓位在政策救市行情中充分受益，Beta强烈反弹。"
+        "id": 41,
+        "startDate": "2024-02-05",
+        "endDate": "2024-03-18",
+        "startNav": 1.2816,
+        "endNav": 1.5962,
+        "changePct": 24.55,
+        "type": "peak",
+        "stageId": 5,
+        "holdingsSummary": "✅ 高仓位在政策救市行情中充分受益，Beta强烈反弹。",
+        "env": "2024年\"国家队\"救市（中央汇金大幅增持ETF），市场情绪触底强烈反弹，新能源板块超跌修复。",
+        "managerAction": "持仓维持，2024Q1：宁德时代9.81%+璞泰来+恩捷，被动受益。",
+        "attribution": "✅ 高仓位在政策救市行情中充分受益，Beta强烈反弹。"
       },
       {
-            "id": 42,
-            "startDate": "2024-03-18",
-            "endDate": "2024-03-25",
-            "startNav": 1.5962,
-            "endNav": 1.4683,
-            "changePct": -8.01,
-            "type": "trough",
-            "stageId": 5,
-            "holdingsSummary": "宏观扰动，短期波动，Beta调整。",
-            "env": "美联储降息预期延迟，利率高位持续压制成长股，短暂回调。",
-            "managerAction": "无变化，持续1周。",
-            "attribution": "宏观扰动，短期波动，Beta调整。"
+        "id": 42,
+        "startDate": "2024-03-18",
+        "endDate": "2024-03-25",
+        "startNav": 1.5962,
+        "endNav": 1.4683,
+        "changePct": -8.01,
+        "type": "trough",
+        "stageId": 5,
+        "holdingsSummary": "宏观扰动，短期波动，Beta调整。",
+        "env": "美联储降息预期延迟，利率高位持续压制成长股，短暂回调。",
+        "managerAction": "无变化，持续1周。",
+        "attribution": "宏观扰动，短期波动，Beta调整。"
       },
       {
-            "id": 43,
-            "startDate": "2024-03-25",
-            "endDate": "2024-04-09",
-            "startNav": 1.4683,
-            "endNav": 1.6107,
-            "changePct": 9.7,
-            "type": "peak",
-            "stageId": 5,
-            "holdingsSummary": "Beta脉冲，2周见顶。",
-            "env": "市场短暂修复，科技+新能源超跌反弹。",
-            "managerAction": "持仓无变化。",
-            "attribution": "Beta脉冲，2周见顶。"
+        "id": 43,
+        "startDate": "2024-03-25",
+        "endDate": "2024-04-09",
+        "startNav": 1.4683,
+        "endNav": 1.6107,
+        "changePct": 9.7,
+        "type": "peak",
+        "stageId": 5,
+        "holdingsSummary": "Beta脉冲，2周见顶。",
+        "env": "市场短暂修复，科技+新能源超跌反弹。",
+        "managerAction": "持仓无变化。",
+        "attribution": "Beta脉冲，2周见顶。"
       },
       {
-            "id": 44,
-            "startDate": "2024-04-09",
-            "endDate": "2024-04-24",
-            "startNav": 1.6107,
-            "endNav": 1.43,
-            "changePct": -11.22,
-            "type": "trough",
-            "stageId": 5,
-            "holdingsSummary": "⚠️ 持仓结构边际优化（引入科达利），但总体仍中游制造，基本面未根本改变。",
-            "env": "中东局势紧张，油价再度攀升，A股外资流出，锂电板块再遭出货。",
-            "managerAction": "2024Q2：宁德时代9.75%+科达利6.7%+璞泰来6.18%，科达利（锂电精密结构件）新进前三，显示经理开始微调结构向精密制造细分。",
-            "attribution": "⚠️ 持仓结构边际优化（引入科达利），但总体仍中游制造，基本面未根本改变。"
+        "id": 44,
+        "startDate": "2024-04-09",
+        "endDate": "2024-04-24",
+        "startNav": 1.6107,
+        "endNav": 1.43,
+        "changePct": -11.22,
+        "type": "trough",
+        "stageId": 5,
+        "holdingsSummary": "⚠️ 持仓结构边际优化（引入科达利），但总体仍中游制造，基本面未根本改变。",
+        "env": "中东局势紧张，油价再度攀升，A股外资流出，锂电板块再遭出货。",
+        "managerAction": "2024Q2：宁德时代9.75%+科达利6.7%+璞泰来6.18%，科达利（锂电精密结构件）新进前三，显示经理开始微调结构向精密制造细分。",
+        "attribution": "⚠️ 持仓结构边际优化（引入科达利），但总体仍中游制造，基本面未根本改变。"
       },
       {
-            "id": 45,
-            "startDate": "2024-04-24",
-            "endDate": "2024-05-09",
-            "startNav": 1.43,
-            "endNav": 1.5976,
-            "changePct": 11.72,
-            "type": "peak",
-            "stageId": 5,
-            "holdingsSummary": "政策驱动Beta，2024Q2行情结构性分化，锂电底部震荡格局。",
-            "env": "国内政策面利好（\"以旧换新\"政策，新能源汽车补贴扩大），板块短暂反弹。",
-            "managerAction": "持仓稳定。",
-            "attribution": "政策驱动Beta，2024Q2行情结构性分化，锂电底部震荡格局。"
+        "id": 45,
+        "startDate": "2024-04-24",
+        "endDate": "2024-05-09",
+        "startNav": 1.43,
+        "endNav": 1.5976,
+        "changePct": 11.72,
+        "type": "peak",
+        "stageId": 5,
+        "holdingsSummary": "政策驱动Beta，2024Q2行情结构性分化，锂电底部震荡格局。",
+        "env": "国内政策面利好（\"以旧换新\"政策，新能源汽车补贴扩大），板块短暂反弹。",
+        "managerAction": "持仓稳定。",
+        "attribution": "政策驱动Beta，2024Q2行情结构性分化，锂电底部震荡格局。"
       },
       {
-            "id": 46,
-            "startDate": "2024-05-09",
-            "endDate": "2024-09-23",
-            "startNav": 1.5976,
-            "endNav": 1.1913,
-            "changePct": -25.43,
-            "type": "trough",
-            "stageId": 5,
-            "holdingsSummary": "❌ 碳酸锂跌至历史最低叠加外资流出，净值创历史新低1.1913，较2021年高点累计回撤-69.31%。经理在整个33个月熊市中从未进行系统性仓位保护，是本基金风控能力最受质疑的完整证据链。",
-            "env": "碳酸锂价格2024年持续创新低（下跌至7~8万/吨），接近全成本线；行业供需严重失衡确认；美联储未如预期降息，外资持续流出A股。",
-            "managerAction": "2024Q3：宁德时代9.69%+科达利7.42%+欣旺达6.48%，欣旺达（消费电池+动力电池）新进前三，持仓结构持续在中游制造打转，未向上游资源迁移。",
-            "attribution": "❌ 碳酸锂跌至历史最低叠加外资流出，净值创历史新低1.1913，较2021年高点累计回撤-69.31%。经理在整个33个月熊市中从未进行系统性仓位保护，是本基金风控能力最受质疑的完整证据链。"
+        "id": 46,
+        "startDate": "2024-05-09",
+        "endDate": "2024-09-23",
+        "startNav": 1.5976,
+        "endNav": 1.1913,
+        "changePct": -25.43,
+        "type": "trough",
+        "stageId": 5,
+        "holdingsSummary": "❌ 碳酸锂跌至历史最低叠加外资流出，净值创历史新低1.1913，较2021年高点累计回撤-69.31%。经理在整个33个月熊市中从未进行系统性仓位保护，是本基金风控能力最受质疑的完整证据链。",
+        "env": "碳酸锂价格2024年持续创新低（下跌至7~8万/吨），接近全成本线；行业供需严重失衡确认；美联储未如预期降息，外资持续流出A股。",
+        "managerAction": "2024Q3：宁德时代9.69%+科达利7.42%+欣旺达6.48%，欣旺达（消费电池+动力电池）新进前三，持仓结构持续在中游制造打转，未向上游资源迁移。",
+        "attribution": "❌ 碳酸锂跌至历史最低叠加外资流出，净值创历史新低1.1913，较2021年高点累计回撤-69.31%。经理在整个33个月熊市中从未进行系统性仓位保护，是本基金风控能力最受质疑的完整证据链。"
       },
       {
-            "id": 47,
-            "startDate": "2024-09-23",
-            "endDate": "2024-10-08",
-            "startNav": 1.1913,
-            "endNav": 1.8035,
-            "changePct": 51.39,
-            "type": "peak",
-            "stageId": 6,
-            "holdingsSummary": "✅ 满仓在政策超级行情中完全受益，+51%的15日单段涨幅是高仓位策略最大化收益的典型体现。",
-            "env": "\"924行情\"——中央政治局会议（2024-09-26）史无前例地在9月召开专题经济会议，叠加央行降准+降息+证监会活跃资本市场组合拳，A股全面暴涨（上证单周+12%）。",
-            "managerAction": "全程高仓位，2024Q3持仓未变（宁德9.69%+科达利+欣旺达），被动完全受益。",
-            "attribution": "✅ 满仓在政策超级行情中完全受益，+51%的15日单段涨幅是高仓位策略最大化收益的典型体现。"
+        "id": 47,
+        "startDate": "2024-09-23",
+        "endDate": "2024-10-08",
+        "startNav": 1.1913,
+        "endNav": 1.8035,
+        "changePct": 51.39,
+        "type": "peak",
+        "stageId": 6,
+        "holdingsSummary": "✅ 满仓在政策超级行情中完全受益，+51%的15日单段涨幅是高仓位策略最大化收益的典型体现。",
+        "env": "\"924行情\"——中央政治局会议（2024-09-26）史无前例地在9月召开专题经济会议，叠加央行降准+降息+证监会活跃资本市场组合拳，A股全面暴涨（上证单周+12%）。",
+        "managerAction": "全程高仓位，2024Q3持仓未变（宁德9.69%+科达利+欣旺达），被动完全受益。",
+        "attribution": "✅ 满仓在政策超级行情中完全受益，+51%的15日单段涨幅是高仓位策略最大化收益的典型体现。"
       },
       {
-            "id": 48,
-            "startDate": "2024-10-08",
-            "endDate": "2024-10-17",
-            "startNav": 1.8035,
-            "endNav": 1.4869,
-            "changePct": -17.55,
-            "type": "trough",
-            "stageId": 6,
-            "holdingsSummary": "情绪面回摆，Beta回调，9天内-17.55%，高仓位双刃剑效应明显。",
-            "env": "国庆后首个交易日（2024-10-08）市场情绪从极度亢奋回落（\"高开低走\"），财政政策力度低于预期，游资获利了结。",
-            "managerAction": "持仓维持，无主动操作。",
-            "attribution": "情绪面回摆，Beta回调，9天内-17.55%，高仓位双刃剑效应明显。"
+        "id": 48,
+        "startDate": "2024-10-08",
+        "endDate": "2024-10-17",
+        "startNav": 1.8035,
+        "endNav": 1.4869,
+        "changePct": -17.55,
+        "type": "trough",
+        "stageId": 6,
+        "holdingsSummary": "情绪面回摆，Beta回调，9天内-17.55%，高仓位双刃剑效应明显。",
+        "env": "国庆后首个交易日（2024-10-08）市场情绪从极度亢奋回落（\"高开低走\"），财政政策力度低于预期，游资获利了结。",
+        "managerAction": "持仓维持，无主动操作。",
+        "attribution": "情绪面回摆，Beta回调，9天内-17.55%，高仓位双刃剑效应明显。"
       },
       {
-            "id": 49,
-            "startDate": "2024-10-17",
-            "endDate": "2024-11-13",
-            "startNav": 1.4869,
-            "endNav": 1.9169,
-            "changePct": 28.92,
-            "type": "peak",
-            "stageId": 6,
-            "holdingsSummary": "✅ 持仓与行情共振，财政政策驱动Beta+龙头股修复Alpha组合。",
-            "env": "财政部10月12日新闻发布会超预期（发行特别国债支持银行补充资本），叠加碳酸锂价格企稳，锂电板块持续修复。",
-            "managerAction": "2024Q4：宁德时代9.67%+科达利7.32%+璞泰来5.94%，持仓结构稳定，科达利保持高位。",
-            "attribution": "✅ 持仓与行情共振，财政政策驱动Beta+龙头股修复Alpha组合。"
+        "id": 49,
+        "startDate": "2024-10-17",
+        "endDate": "2024-11-13",
+        "startNav": 1.4869,
+        "endNav": 1.9169,
+        "changePct": 28.92,
+        "type": "peak",
+        "stageId": 6,
+        "holdingsSummary": "✅ 持仓与行情共振，财政政策驱动Beta+龙头股修复Alpha组合。",
+        "env": "财政部10月12日新闻发布会超预期（发行特别国债支持银行补充资本），叠加碳酸锂价格企稳，锂电板块持续修复。",
+        "managerAction": "2024Q4：宁德时代9.67%+科达利7.32%+璞泰来5.94%，持仓结构稳定，科达利保持高位。",
+        "attribution": "✅ 持仓与行情共振，财政政策驱动Beta+龙头股修复Alpha组合。"
       },
       {
-            "id": 50,
-            "startDate": "2024-11-13",
-            "endDate": "2025-01-06",
-            "startNav": 1.9169,
-            "endNav": 1.6085,
-            "changePct": -16.09,
-            "type": "trough",
-            "stageId": 6,
-            "holdingsSummary": "外生政治冲击，Beta回调，-16%覆盖约2个月。",
-            "env": "特朗普赢得美国大选（2024-11-06），加税政策不确定性压制中国新能源出口预期；A股行情再度分化。",
-            "managerAction": "持仓未变。",
-            "attribution": "外生政治冲击，Beta回调，-16%覆盖约2个月。"
+        "id": 50,
+        "startDate": "2024-11-13",
+        "endDate": "2025-01-06",
+        "startNav": 1.9169,
+        "endNav": 1.6085,
+        "changePct": -16.09,
+        "type": "trough",
+        "stageId": 6,
+        "holdingsSummary": "外生政治冲击，Beta回调，-16%覆盖约2个月。",
+        "env": "特朗普赢得美国大选（2024-11-06），加税政策不确定性压制中国新能源出口预期；A股行情再度分化。",
+        "managerAction": "持仓未变。",
+        "attribution": "外生政治冲击，Beta回调，-16%覆盖约2个月。"
       },
       {
-            "id": 51,
-            "startDate": "2025-01-06",
-            "endDate": "2025-03-03",
-            "startNav": 1.6085,
-            "endNav": 1.9166,
-            "changePct": 19.15,
-            "type": "peak",
-            "stageId": 6,
-            "holdingsSummary": "✅ DeepSeek行情带动市场情绪整体回暖，新能源受益，持仓Beta表现良好。",
-            "env": "2025年1月\"DeepSeek\"引爆AI叙事（2025-01-20），带动科技板块大涨，新能源受益于情绪蔓延；碳酸锂价格企稳在8~9万/吨区间。",
-            "managerAction": "2025Q1：宁德时代9.45%+璞泰来6.27%+亿纬锂能5.75%，亿纬锂能回归前三（消费电池+储能双属性），持仓结构略有优化。",
-            "attribution": "✅ DeepSeek行情带动市场情绪整体回暖，新能源受益，持仓Beta表现良好。"
+        "id": 51,
+        "startDate": "2025-01-06",
+        "endDate": "2025-03-03",
+        "startNav": 1.6085,
+        "endNav": 1.9166,
+        "changePct": 19.15,
+        "type": "peak",
+        "stageId": 6,
+        "holdingsSummary": "✅ DeepSeek行情带动市场情绪整体回暖，新能源受益，持仓Beta表现良好。",
+        "env": "2025年1月\"DeepSeek\"引爆AI叙事（2025-01-20），带动科技板块大涨，新能源受益于情绪蔓延；碳酸锂价格企稳在8~9万/吨区间。",
+        "managerAction": "2025Q1：宁德时代9.45%+璞泰来6.27%+亿纬锂能5.75%，亿纬锂能回归前三（消费电池+储能双属性），持仓结构略有优化。",
+        "attribution": "✅ DeepSeek行情带动市场情绪整体回暖，新能源受益，持仓Beta表现良好。"
       },
       {
-            "id": 52,
-            "startDate": "2025-03-03",
-            "endDate": "2025-04-07",
-            "startNav": 1.9166,
-            "endNav": 1.5616,
-            "changePct": -18.52,
-            "type": "trough",
-            "stageId": 6,
-            "holdingsSummary": "外生冲击，Beta损耗，-18.52%在约35天内完成。高仓位策略再次放大了外部风险的影响。",
-            "env": "特朗普关税升级（2025-04-02\"对等关税\"宣布），A股受中美贸易战2.0冲击，全球避险情绪急升。",
-            "managerAction": "持仓维持（2025Q2：宁德9.62%+璞泰来+亿纬），无防御操作。",
-            "attribution": "外生冲击，Beta损耗，-18.52%在约35天内完成。高仓位策略再次放大了外部风险的影响。"
+        "id": 52,
+        "startDate": "2025-03-03",
+        "endDate": "2025-04-07",
+        "startNav": 1.9166,
+        "endNav": 1.5616,
+        "changePct": -18.52,
+        "type": "trough",
+        "stageId": 6,
+        "holdingsSummary": "外生冲击，Beta损耗，-18.52%在约35天内完成。高仓位策略再次放大了外部风险的影响。",
+        "env": "特朗普关税升级（2025-04-02\"对等关税\"宣布），A股受中美贸易战2.0冲击，全球避险情绪急升。",
+        "managerAction": "持仓维持（2025Q2：宁德9.62%+璞泰来+亿纬），无防御操作。",
+        "attribution": "外生冲击，Beta损耗，-18.52%在约35天内完成。高仓位策略再次放大了外部风险的影响。"
       },
       {
-            "id": 53,
-            "startDate": "2025-04-07",
-            "endDate": "2025-10-09",
-            "startNav": 1.5616,
-            "endNav": 2.7744,
-            "changePct": 77.66,
-            "type": "peak",
-            "stageId": 6,
-            "holdingsSummary": "✅ 提前嗅到能源通胀主线，持仓从中游制造转向上游资源，Alpha贡献极为显著。+77.66%的6个月涨幅是底部反弹以来的最大单段，策略转型得到市场充分验证。",
-            "env": "中东战争全面升级（2025Q2，油价突破100美元/桶），能源安全叙事重塑全球资产定价；中国新能源资产因\"能源独立+低碳替代\"逻辑大幅重估；特朗普对华部分关税豁免新能源出口。2025Q3基金+53.40%，是历史第二最佳单季度。",
-            "managerAction": "Q3开始决定性转仓——2025Q3：宁德时代8.49%+亿纬锂能6.34%+璞泰来6.02%，持仓从\"中游制造\"开始向\"储能+复合材料\"迁移；2025Q4：宁德时代8.37%+盐湖股份5.43%（锂矿资源!）+雅化集团5.38%，上游资源首次大规模进入持仓，标志着策略转型完成关键步骤。",
-            "attribution": "✅ 提前嗅到能源通胀主线，持仓从中游制造转向上游资源，Alpha贡献极为显著。+77.66%的6个月涨幅是底部反弹以来的最大单段，策略转型得到市场充分验证。"
+        "id": 53,
+        "startDate": "2025-04-07",
+        "endDate": "2025-10-09",
+        "startNav": 1.5616,
+        "endNav": 2.7744,
+        "changePct": 77.66,
+        "type": "peak",
+        "stageId": 6,
+        "holdingsSummary": "✅ 提前嗅到能源通胀主线，持仓从中游制造转向上游资源，Alpha贡献极为显著。+77.66%的6个月涨幅是底部反弹以来的最大单段，策略转型得到市场充分验证。",
+        "env": "中东战争全面升级（2025Q2，油价突破100美元/桶），能源安全叙事重塑全球资产定价；中国新能源资产因\"能源独立+低碳替代\"逻辑大幅重估；特朗普对华部分关税豁免新能源出口。2025Q3基金+53.40%，是历史第二最佳单季度。",
+        "managerAction": "Q3开始决定性转仓——2025Q3：宁德时代8.49%+亿纬锂能6.34%+璞泰来6.02%，持仓从\"中游制造\"开始向\"储能+复合材料\"迁移；2025Q4：宁德时代8.37%+盐湖股份5.43%（锂矿资源!）+雅化集团5.38%，上游资源首次大规模进入持仓，标志着策略转型完成关键步骤。",
+        "attribution": "✅ 提前嗅到能源通胀主线，持仓从中游制造转向上游资源，Alpha贡献极为显著。+77.66%的6个月涨幅是底部反弹以来的最大单段，策略转型得到市场充分验证。"
       },
       {
-            "id": 54,
-            "startDate": "2025-10-09",
-            "endDate": "2025-10-17",
-            "startNav": 2.7744,
-            "endNav": 2.4856,
-            "changePct": -10.41,
-            "type": "trough",
-            "stageId": 6,
-            "holdingsSummary": "Beta调整，8天-10%，快速见底。盐湖股份+雅化等上游持仓相对抗跌。",
-            "env": "获利了结潮，能源/资源板块短期高位调整。",
-            "managerAction": "持仓不变，短期波动正常。",
-            "attribution": "Beta调整，8天-10%，快速见底。盐湖股份+雅化等上游持仓相对抗跌。"
+        "id": 54,
+        "startDate": "2025-10-09",
+        "endDate": "2025-10-17",
+        "startNav": 2.7744,
+        "endNav": 2.4856,
+        "changePct": -10.41,
+        "type": "trough",
+        "stageId": 6,
+        "holdingsSummary": "Beta调整，8天-10%，快速见底。盐湖股份+雅化等上游持仓相对抗跌。",
+        "env": "获利了结潮，能源/资源板块短期高位调整。",
+        "managerAction": "持仓不变，短期波动正常。",
+        "attribution": "Beta调整，8天-10%，快速见底。盐湖股份+雅化等上游持仓相对抗跌。"
       },
       {
-            "id": 55,
-            "startDate": "2025-10-17",
-            "endDate": "2025-11-17",
-            "startNav": 2.4856,
-            "endNav": 2.9935,
-            "changePct": 20.43,
-            "type": "peak",
-            "stageId": 6,
-            "holdingsSummary": "✅ 能源通胀主线持续发酵，新持仓结构（盐湖+雅化+宁德）Beta+Alpha共振，1个月+20%表现强劲。",
-            "env": "中东停火谈判未果，油价维持高位；国内经济数据改善，市场信心恢复。",
-            "managerAction": "持仓维持\"上游+中游\"双重布局，结构稳定。",
-            "attribution": "✅ 能源通胀主线持续发酵，新持仓结构（盐湖+雅化+宁德）Beta+Alpha共振，1个月+20%表现强劲。"
+        "id": 55,
+        "startDate": "2025-10-17",
+        "endDate": "2025-11-17",
+        "startNav": 2.4856,
+        "endNav": 2.9935,
+        "changePct": 20.43,
+        "type": "peak",
+        "stageId": 6,
+        "holdingsSummary": "✅ 能源通胀主线持续发酵，新持仓结构（盐湖+雅化+宁德）Beta+Alpha共振，1个月+20%表现强劲。",
+        "env": "中东停火谈判未果，油价维持高位；国内经济数据改善，市场信心恢复。",
+        "managerAction": "持仓维持\"上游+中游\"双重布局，结构稳定。",
+        "attribution": "✅ 能源通胀主线持续发酵，新持仓结构（盐湖+雅化+宁德）Beta+Alpha共振，1个月+20%表现强劲。"
       },
       {
-            "id": 56,
-            "startDate": "2025-11-17",
-            "endDate": "2025-12-16",
-            "startNav": 2.9935,
-            "endNav": 2.6052,
-            "changePct": -12.97,
-            "type": "trough",
-            "stageId": 6,
-            "holdingsSummary": "季节性获利了结，Beta调整，不影响中期判断。持仓在回调中表现相对抗跌。",
-            "env": "年末机构获利了结，能源/新能源板块高位回调；全球央行动向分歧引发短暂避险。",
-            "managerAction": "2025Q4持仓（宁德8.37%+盐湖5.43%+雅化5.38%）保持稳定，未调仓。",
-            "attribution": "季节性获利了结，Beta调整，不影响中期判断。持仓在回调中表现相对抗跌。"
+        "id": 56,
+        "startDate": "2025-11-17",
+        "endDate": "2025-12-16",
+        "startNav": 2.9935,
+        "endNav": 2.6052,
+        "changePct": -12.97,
+        "type": "trough",
+        "stageId": 6,
+        "holdingsSummary": "季节性获利了结，Beta调整，不影响中期判断。持仓在回调中表现相对抗跌。",
+        "env": "年末机构获利了结，能源/新能源板块高位回调；全球央行动向分歧引发短暂避险。",
+        "managerAction": "2025Q4持仓（宁德8.37%+盐湖5.43%+雅化5.38%）保持稳定，未调仓。",
+        "attribution": "季节性获利了结，Beta调整，不影响中期判断。持仓在回调中表现相对抗跌。"
       },
       {
-            "id": 57,
-            "startDate": "2025-12-16",
-            "endDate": "2026-01-23",
-            "startNav": 2.6052,
-            "endNav": 2.9787,
-            "changePct": 14.34,
-            "type": "peak",
-            "stageId": 7,
-            "holdingsSummary": "✅ 持仓调整细腻，湖南裕能选择精准（磷酸铁锂渗透率持续提升），Alpha贡献明显。独任后首段行情强劲，市场给予正面评价。",
-            "env": "岁末行情+能源通胀叙事持续发酵；熊昱洲于2026-01-22离任，基金恢复姚志鹏独任，市场对此反应正面（独任信号）。",
-            "managerAction": "迎接2026Q1，持仓进一步优化：宁德时代8.92%+湖南裕能6.29%（磷酸铁锂正极龙头）+盐湖股份6.1%，湖南裕能替代雅化，侧重正极材料价格弹性。",
-            "attribution": "✅ 持仓调整细腻，湖南裕能选择精准（磷酸铁锂渗透率持续提升），Alpha贡献明显。独任后首段行情强劲，市场给予正面评价。"
+        "id": 57,
+        "startDate": "2025-12-16",
+        "endDate": "2026-01-23",
+        "startNav": 2.6052,
+        "endNav": 2.9787,
+        "changePct": 14.34,
+        "type": "peak",
+        "stageId": 7,
+        "holdingsSummary": "✅ 持仓调整细腻，湖南裕能选择精准（磷酸铁锂渗透率持续提升），Alpha贡献明显。独任后首段行情强劲，市场给予正面评价。",
+        "env": "岁末行情+能源通胀叙事持续发酵；熊昱洲于2026-01-22离任，基金恢复姚志鹏独任，市场对此反应正面（独任信号）。",
+        "managerAction": "迎接2026Q1，持仓进一步优化：宁德时代8.92%+湖南裕能6.29%（磷酸铁锂正极龙头）+盐湖股份6.1%，湖南裕能替代雅化，侧重正极材料价格弹性。",
+        "attribution": "✅ 持仓调整细腻，湖南裕能选择精准（磷酸铁锂渗透率持续提升），Alpha贡献明显。独任后首段行情强劲，市场给予正面评价。"
       },
       {
-            "id": 58,
-            "startDate": "2026-01-23",
-            "endDate": "2026-02-02",
-            "startNav": 2.9787,
-            "endNav": 2.72,
-            "changePct": -8.68,
-            "type": "trough",
-            "stageId": 7,
-            "holdingsSummary": "季节性调整，Beta回调，10天-8.68%，属正常区间。",
-            "env": "春节前获利了结，A股年前普遍减仓，资金暂时离场。",
-            "managerAction": "无调仓，持仓稳定待春节后行情。",
-            "attribution": "季节性调整，Beta回调，10天-8.68%，属正常区间。"
+        "id": 58,
+        "startDate": "2026-01-23",
+        "endDate": "2026-02-02",
+        "startNav": 2.9787,
+        "endNav": 2.72,
+        "changePct": -8.68,
+        "type": "trough",
+        "stageId": 7,
+        "holdingsSummary": "季节性调整，Beta回调，10天-8.68%，属正常区间。",
+        "env": "春节前获利了结，A股年前普遍减仓，资金暂时离场。",
+        "managerAction": "无调仓，持仓稳定待春节后行情。",
+        "attribution": "季节性调整，Beta回调，10天-8.68%，属正常区间。"
       },
       {
-            "id": 59,
-            "startDate": "2026-02-02",
-            "endDate": "2026-05-06",
-            "startNav": 2.72,
-            "endNav": 3.5421,
-            "changePct": 30.22,
-            "type": "peak",
-            "stageId": 7,
-            "holdingsSummary": "✅ 策略转型红利期，\"通胀受益+能源转型\"叙事完全成立，上游锂矿+中游材料+宁德龙头三层布局协同发力，当前为独任后最强阶段性表现。⚠️ 时间窗口仍短（约4个月），趋势持续性有待进一步验证。",
-            "env": "春节后A股全面开门红，能源/通胀主线继续强化（油价维持高位100美元+），中国新能源出口量创新高（叠加中东战争带动的国际需求），碳酸锂价格触底反弹信号出现（9~11万/吨企稳）。2026Q1+1.26%，2026Q2（截至05-12）+14.01%。",
-            "managerAction": "2026Q1维持持仓（宁德8.92%+湖南裕能6.29%+盐湖股份6.1%+天赐材料5.87%+赣锋锂业5.86%），上游锂矿资源（盐湖+赣锋+雅化+天齐+中矿）合计占比约26.8%，持仓转型基本完成。",
-            "attribution": "✅ 策略转型红利期，\"通胀受益+能源转型\"叙事完全成立，上游锂矿+中游材料+宁德龙头三层布局协同发力，当前为独任后最强阶段性表现。⚠️ 时间窗口仍短（约4个月），趋势持续性有待进一步验证。"
+        "id": 59,
+        "startDate": "2026-02-02",
+        "endDate": "2026-05-06",
+        "startNav": 2.72,
+        "endNav": 3.5421,
+        "changePct": 30.22,
+        "type": "peak",
+        "stageId": 7,
+        "holdingsSummary": "宁德时代8.92%、湖南裕能6.29%、盐湖股份6.10%、天赐材料5.87%、赣锋锂业5.86%，上游锂矿资源（盐湖+赣锋+雅化+天齐+中矿）合计约26.8%。",
+        "env": "春节后A股风险偏好修复，能源与再通胀主线继续发酵，锂电中上游盈利修复预期升温，碳酸锂价格阶段性企稳。对应基金2026Q1收益+3.87%，2026Q2（截至05-19）收益+6.48%。",
+        "managerAction": "2026Q1维持持仓（宁德8.92%+湖南裕能6.29%+盐湖股份6.1%+天赐材料5.87%+赣锋锂业5.86%），上游锂矿资源（盐湖+赣锋+雅化+天齐+中矿）合计占比约26.8%，持仓转型基本完成。",
+        "attribution": "这是独任后最强的一段上攻波，但高集中度也意味着高点后的回撤会被完整暴露；这段上涨确认了弹性，未确认的是持续性。"
+      },
+      {
+        "id": 60,
+        "startDate": "2026-05-06",
+        "endDate": "2026-05-19",
+        "startNav": 3.5421,
+        "endNav": 3.0731,
+        "changePct": -13.24,
+        "type": "trough",
+        "stageId": 7,
+        "holdingsSummary": "截至数据截止日尚无新的季报或持仓披露，意味着组合仍基本暴露在锂电中上游高弹性仓位上，缺少仓位层面的缓冲。",
+        "env": "5月中旬起市场从宏观叙事重新切回盈利兑现与短期交易，锂电中上游出现明显回撤，基金近1周-6.60%、近1月-3.94%，短线强势被打断。",
+        "managerAction": "截至数据截止日尚无新的季报或持仓披露，意味着组合仍基本暴露在锂电中上游高弹性仓位上，缺少仓位层面的缓冲。",
+        "attribution": "这一段正是本轮净值失守的核心证据。它说明5月初的阶段高点之后，市场已经开始重新评估这套高集中度修复交易，但截至05-19仍不能把当前位置直接定义为新谷值，只能视为回撤进行中。"
       }
-],
-    "totalInflectionPoints": 59
+    ],
+    "totalInflectionPoints": 60
   },
   "company": {
     "name": "嘉实基金管理有限公司",
     "shortName": "嘉实基金",
     "foundYear": 1999,
-    "aumDesc": "旗下百余只基金，公募管理规模数千亿元，行业前列",
+    "aumDesc": "截至2025-12-31管理380只公募基金，覆盖主动权益、固收、指数、QDII、FOF等",
     "industryRank": "老牌大型公募基金公司，业内综合实力前十",
     "complianceResult": "通过",
-    "complianceSummary": "合规检查通过，无一票否决项触发。管理疲劳是唯一明确风险点。",
+    "complianceSummary": "公司级监管措施已足以把风险等级从可忽略提升为需持续跟踪整改进度。管理疲劳是当前唯一需要持续跟踪的风险点。",
     "complianceChecks": [
       {
         "item": "黑名单核查",
@@ -3315,16 +3383,16 @@
         "detail": "嘉实基金、姚志鹏均未列入黑名单"
       },
       {
-        "item": "近3年处罚记录",
-        "pass": true,
-        "warn": false,
-        "detail": "网络公开信息未发现近3年重大监管处罚"
+        "item": "公司级监管措施",
+        "pass": false,
+        "warn": true,
+        "detail": "2025年年报第11.6.1节披露：嘉实基金于2025-11-03收到北京证监局责令改正并暂停受理固定收益类公募基金产品注册3个月的行政监管措施，原因涉及合规内控、投资运作、公司治理"
       },
       {
-        "item": "内幕交易传闻",
+        "item": "基金经理处罚记录",
         "pass": true,
         "warn": false,
-        "detail": "无公开内幕交易或操纵市场指控"
+        "detail": "年报披露本报告期基金管理人相关从业人员无受调查或处罚情况"
       },
       {
         "item": "基金经理离职风险",
@@ -3336,7 +3404,7 @@
         "item": "管理疲劳风险",
         "pass": false,
         "warn": true,
-        "detail": "在管16只基金超过10只建议上限，精力分散风险存在"
+        "detail": "在管公募基金14只，明显高于10只经验上限"
       }
     ]
   }
