@@ -1,0 +1,2615 @@
+{
+  "id": "016708",
+  "meta": {
+    "reportDate": "2026-05-19",
+    "dataDate": "2026-05-18",
+    "disclaimer": "本报告仅供个人学习和信息整理使用，所有分析内容均不构成任何投资建议。投资有风险，入市需谨慎，请依据自身判断做出投资决策。"
+  },
+  "basic": {
+    "code": "016708",
+    "fullName": "华夏中证细分有色金属产业主题交易型开放式指数证券投资基金发起式联接基金",
+    "shortName": "华夏有色金属ETF联接C",
+    "type": "指数型",
+    "subType": "股票",
+    "riskLevel": "R3",
+    "riskCode": 3,
+    "foundDate": "2022年10月18日",
+    "manager": "单宽之",
+    "companyShort": "华夏基金",
+    "custodian": "中信银行",
+    "benchmark": "中证细分有色金属产业主题指数收益率*95%+人民币活期存款税后利率*5%",
+    "navFallback": 1.8641,
+    "navDateFallback": "2026-05-18",
+    "inceptionReturn": 86.41,
+    "status": "开放申购 / 开放赎回"
+  },
+  "fees": {
+    "management": 0.5,
+    "custodian": 0.1,
+    "salesService": 0.3,
+    "subscriptionMax": 0.0,
+    "subscriptionDiscounted": 0.0,
+    "redemptionMax": 1.5,
+    "breakdown": [
+      {
+        "name": "管理费",
+        "value": 0.5
+      },
+      {
+        "name": "托管费",
+        "value": 0.1
+      },
+      {
+        "name": "销售服务费",
+        "value": 0.3
+      },
+      {
+        "name": "申购费",
+        "value": 0.0,
+        "actualRate": 0.0
+      },
+      {
+        "name": "赎回费",
+        "value": 1.5,
+        "rate": 1.5,
+        "rules": [
+          {
+            "label": "持有少于7天",
+            "rate": 1.5
+          },
+          {
+            "label": "持有7天及以上",
+            "rate": 0.0
+          }
+        ],
+        "note": "短期持有惩罚性费率，具体以基金合同为准"
+      }
+    ]
+  },
+  "scale": {
+    "nav": 78.48,
+    "date": "2026-05-18"
+  },
+  "risk": {
+    "volatility": 0.269,
+    "annualReturn": 0.1982,
+    "sharpe": 0.63,
+    "calmar": 0.6,
+    "maxDrawdown": -0.3321,
+    "maxDrawdownPeriod": "2023-02-01 → 2024-02-05",
+    "periodMetrics": [
+      {
+        "label": "近1年",
+        "volatility": 0.3356,
+        "sharpe": 2.49,
+        "maxDrawdown": -0.2784
+      },
+      {
+        "label": "近2年",
+        "volatility": 0.3044,
+        "sharpe": 1.0,
+        "maxDrawdown": -0.2784
+      },
+      {
+        "label": "近3年",
+        "volatility": 0.2768,
+        "sharpe": 0.65,
+        "maxDrawdown": -0.3143
+      }
+    ],
+    "riskBreakdown": {
+      "yearlyMaxDrawdowns": [
+        {
+          "year": 2026,
+          "fund": 27.84,
+          "hs300": 7.78
+        },
+        {
+          "year": 2025,
+          "fund": 12.8,
+          "hs300": 10.49
+        },
+        {
+          "year": 2024,
+          "fund": 22.98,
+          "hs300": 14.41
+        },
+        {
+          "year": 2023,
+          "fund": 26.52,
+          "hs300": 21.51
+        },
+        {
+          "year": 2022,
+          "fund": 9.53,
+          "hs300": 28.65
+        }
+      ],
+      "volatilityRating": "高波动（26.90%，明显高于宽基）",
+      "sharpeRating": "近1年极强（2.49），全期一般（0.63）",
+      "drawdownRating": "历史最大-33.21%（约12个月），近1年最大回撤-27.84%",
+      "historicalMaxDrawdown": 33.21
+    },
+    "relativeMetrics": {
+      "beta": 1.0821,
+      "alpha": 0.1225,
+      "informationRatio": 0.6622,
+      "trackingError": 0.196,
+      "r2": 0.4744
+    },
+    "navPercentile": 91.6,
+    "maxDrawdownMonths": 12,
+    "recentPerf": [
+      {
+        "period": "近1周",
+        "fund": -8.78,
+        "peer": -2.43,
+        "hs300": -1.92,
+        "excess": -6.86,
+        "rank": 5003,
+        "rankTotal": 5071,
+        "warn": true,
+        "note": "后1.3%"
+      },
+      {
+        "period": "近1月",
+        "fund": -7.05,
+        "peer": 3.07,
+        "hs300": 2.63,
+        "excess": -9.68,
+        "rank": 4816,
+        "rankTotal": 5038,
+        "warn": true,
+        "note": "后4.4%"
+      },
+      {
+        "period": "近3月",
+        "fund": -7.93,
+        "peer": 3.46,
+        "hs300": 4.13,
+        "excess": -12.06,
+        "rank": 4238,
+        "rankTotal": 4919,
+        "warn": true,
+        "note": "后13.8%"
+      },
+      {
+        "period": "近6月",
+        "fund": 15.05,
+        "peer": 10.43,
+        "hs300": 5.77,
+        "excess": 9.28,
+        "rank": 1687,
+        "rankTotal": 4635,
+        "warn": false,
+        "note": "前36.4%"
+      },
+      {
+        "period": "近1年",
+        "fund": 83.02,
+        "peer": 37.01,
+        "hs300": 25.17,
+        "excess": 57.85,
+        "rank": 547,
+        "rankTotal": 3853,
+        "warn": false,
+        "note": "前14.2%"
+      },
+      {
+        "period": "近2年",
+        "fund": 76.78,
+        "peer": 52.91,
+        "hs300": 31.94,
+        "excess": 44.84,
+        "rank": 685,
+        "rankTotal": 2746,
+        "warn": false,
+        "note": "前25.0%"
+      }
+    ],
+    "radarDimensions": [
+      {
+        "name": "费率性价比",
+        "score": 40
+      },
+      {
+        "name": "跟踪执行",
+        "score": 85
+      },
+      {
+        "name": "风险承载要求",
+        "score": 70
+      },
+      {
+        "name": "主题集中度与外部约束",
+        "score": 80
+      },
+      {
+        "name": "流动性与平台",
+        "score": 100
+      },
+      {
+        "name": "综合评分",
+        "score": 72
+      }
+    ],
+    "riskWarnings": [
+      {
+        "level": "high",
+        "text": "历史最大回撤超过33%，高位区间内的回撤速度很快。",
+        "category": "内部"
+      },
+      {
+        "level": "medium",
+        "text": "单宽之在管33只基金，管理半径偏大。",
+        "category": "内部"
+      },
+      {
+        "level": "high",
+        "text": "商品价格和风险偏好一旦共振下行，主题集中度会放大净值波动。",
+        "category": "外部"
+      },
+      {
+        "level": "medium",
+        "text": "公司2024年监管措施虽已整改，但仍是需要持续跟踪的合规扣分项。",
+        "category": "外部"
+      }
+    ]
+  },
+  "holdings": {
+    "date": "2026年1季度股票投资明细",
+    "top10": [
+      {
+        "rank": 1,
+        "name": "华夏中证细分有色金属产业主题ETF",
+        "code": "516650",
+        "ratio": 91.16,
+        "sector": "目标ETF核心仓位",
+        "color": "#b45309"
+      },
+      {
+        "rank": 2,
+        "name": "紫金矿业",
+        "code": "601899",
+        "ratio": 0.56,
+        "sector": "铜金资源",
+        "color": "#d97706"
+      },
+      {
+        "rank": 3,
+        "name": "洛阳钼业",
+        "code": "603993",
+        "ratio": 0.26,
+        "sector": "铜钼资源",
+        "color": "#f59e0b"
+      },
+      {
+        "rank": 4,
+        "name": "北方稀土",
+        "code": "600111",
+        "ratio": 0.21,
+        "sector": "稀土",
+        "color": "#14b8a6"
+      },
+      {
+        "rank": 5,
+        "name": "中国铝业",
+        "code": "601600",
+        "ratio": 0.16,
+        "sector": "铝",
+        "color": "#0ea5e9"
+      },
+      {
+        "rank": 6,
+        "name": "华友钴业",
+        "code": "603799",
+        "ratio": 0.16,
+        "sector": "钴",
+        "color": "#8b5cf6"
+      },
+      {
+        "rank": 7,
+        "name": "赣锋锂业",
+        "code": "002460",
+        "ratio": 0.16,
+        "sector": "锂",
+        "color": "#6366f1"
+      },
+      {
+        "rank": 8,
+        "name": "中金黄金",
+        "code": "600489",
+        "ratio": 0.14,
+        "sector": "黄金",
+        "color": "#eab308"
+      },
+      {
+        "rank": 9,
+        "name": "山东黄金",
+        "code": "600547",
+        "ratio": 0.13,
+        "sector": "黄金",
+        "color": "#facc15"
+      },
+      {
+        "rank": 10,
+        "name": "赤峰黄金",
+        "code": "600988",
+        "ratio": 0.13,
+        "sector": "黄金",
+        "color": "#fde047"
+      },
+      {
+        "rank": 11,
+        "name": "云铝股份",
+        "code": "000807",
+        "ratio": 0.11,
+        "sector": "铝",
+        "color": "#38bdf8"
+      }
+    ],
+    "top10Total": 93.18,
+    "top10TotalRatio": 93.18,
+    "sectors": [
+      {
+        "name": "目标ETF核心仓位",
+        "ratio": 91.16
+      },
+      {
+        "name": "上游资源金属",
+        "ratio": 1.09
+      },
+      {
+        "name": "稀土与新能源金属",
+        "ratio": 0.53
+      },
+      {
+        "name": "黄金链条",
+        "ratio": 0.4
+      },
+      {
+        "name": "固定收益缓冲",
+        "ratio": 4.53
+      },
+      {
+        "name": "现金及其他",
+        "ratio": 0.34
+      }
+    ],
+    "stockRatio": 95.13,
+    "bondRatio": 4.53,
+    "cashRatio": 0.34,
+    "themeTitle": "有色资源主线 + 稀土锂钴新材料 + 黄金链条",
+    "themeSubtitle": "目标ETF约91.16%，联接结构仍由目标ETF绝对主导",
+    "concentrationLabel": "目标ETF单一核心仓位",
+    "themeGroups": [
+      {
+        "name": "目标ETF核心暴露",
+        "color": "#b45309",
+        "ratio": 91.16,
+        "stocks": "516650（中证细分有色金属产业主题指数成份股组合）",
+        "note": "真正决定基金净值弹性的，是目标ETF所跟踪的中证细分有色金属产业主题指数，而不是联接基金季报表面披露的几只直持股票。"
+      },
+      {
+        "name": "上游资源金属",
+        "color": "#f59e0b",
+        "ratio": 1.09,
+        "stocks": "紫金矿业 / 洛阳钼业 / 中国铝业 / 云铝股份",
+        "note": "对应铜、钼、铝等更具顺周期属性的资源品种，是有色主题中对经济预期和商品价格最敏感的一层。"
+      },
+      {
+        "name": "稀土与新能源金属",
+        "color": "#14b8a6",
+        "ratio": 0.53,
+        "stocks": "北方稀土 / 华友钴业 / 赣锋锂业",
+        "note": "对应高端材料与新能源链条，也是政策新质生产力和高端材料升级的直接受益方向。"
+      },
+      {
+        "name": "黄金链条",
+        "color": "#eab308",
+        "ratio": 0.4,
+        "stocks": "中金黄金 / 山东黄金 / 赤峰黄金",
+        "note": "提供一定贵金属属性，使这只基金并不只是工业金属纯Beta，而带有部分避险金属暴露。"
+      }
+    ],
+    "evolutionHighlights": [
+      {
+        "quarter": "2022Q4",
+        "type": "neutral",
+        "change": "初始建仓",
+        "return": "-1.38%",
+        "theme": "建仓期",
+        "insight": "联接基金建仓，有色主题底仓开始形成。"
+      },
+      {
+        "quarter": "2023Q1",
+        "type": "positive",
+        "change": "继续建仓",
+        "return": "+6.20%",
+        "theme": "首次反弹",
+        "insight": "建仓后首次明显反弹，说明早期有色主题弹性已开始显现。"
+      },
+      {
+        "quarter": "2023Q2",
+        "type": "warning",
+        "change": "维持高暴露",
+        "return": "-7.78%",
+        "theme": "主题回撤",
+        "insight": "有色景气回落，高暴露结构直接放大了主题回撤。"
+      },
+      {
+        "quarter": "2023Q3",
+        "type": "neutral",
+        "change": "维持联接结构",
+        "return": "-2.73%",
+        "theme": "弱势震荡",
+        "insight": "产品保持工具属性，但主题仍未摆脱弱势震荡。"
+      },
+      {
+        "quarter": "2023Q4",
+        "type": "warning",
+        "change": "经理切换",
+        "return": "-4.27%",
+        "theme": "接棒期",
+        "insight": "2023-12-28余昊接棒，产品仍在弱势环境中承压。"
+      },
+      {
+        "quarter": "2024Q1",
+        "type": "positive",
+        "change": "继续高暴露",
+        "return": "+10.31%",
+        "theme": "低位修复",
+        "insight": "余昊阶段修复反弹，说明低位后有色主题重新获得关注。"
+      },
+      {
+        "quarter": "2024Q2",
+        "type": "neutral",
+        "change": "高比例目标ETF",
+        "return": "-3.14%",
+        "theme": "定位确认",
+        "insight": "中报确认目标ETF占净值93.50%，且本期末未持股，产品定位被正式确认。"
+      },
+      {
+        "quarter": "2024Q3",
+        "type": "positive",
+        "change": "高比例联接延续",
+        "return": "+11.02%",
+        "theme": "政策修复",
+        "insight": "9月政策修复带动反弹，但弹性尚未完全释放。"
+      },
+      {
+        "quarter": "2024Q4",
+        "type": "warning",
+        "change": "继续高比例目标ETF",
+        "return": "-11.10%",
+        "theme": "风格切换",
+        "insight": "年报确认目标ETF约94.34%，风格切换下明显回撤。"
+      },
+      {
+        "quarter": "2025Q1",
+        "type": "positive",
+        "change": "高暴露修复",
+        "return": "+10.14%",
+        "theme": "景气再起",
+        "insight": "资源主线重新强化，明显跑赢同类与沪深300。"
+      },
+      {
+        "quarter": "2025Q2",
+        "type": "neutral",
+        "change": "高位震荡",
+        "return": "+4.26%",
+        "theme": "主升浪前过渡",
+        "insight": "商品主线维持，但更像主升浪前的过渡季度。"
+      },
+      {
+        "quarter": "2025Q3",
+        "type": "positive",
+        "change": "目标ETF94.38%，直持残余极小",
+        "return": "+43.22%",
+        "theme": "主升浪爆发",
+        "insight": "收益几乎全部来自有色板块Beta全面展开，而非个股交易。"
+      },
+      {
+        "quarter": "2025Q4",
+        "type": "positive",
+        "change": "直持残余放大但目标ETF仍为核心",
+        "return": "+15.81%",
+        "theme": "主升浪延续",
+        "insight": "直持残余仓位从0.63%升至4.22%，但目标ETF仍是绝对主仓位。"
+      },
+      {
+        "quarter": "2026Q1",
+        "type": "warning",
+        "change": "加入少量债券缓冲",
+        "return": "+1.91%",
+        "theme": "高位震荡",
+        "insight": "目标ETF降至91.16%，并加入4.53%固定收益投资，说明高位波动期开始增加少量缓冲层。"
+      },
+      {
+        "quarter": "2026Q2",
+        "type": "warning",
+        "change": "联接结构延续",
+        "return": "-1.00%",
+        "theme": "短期承压",
+        "insight": "截至2026-05-18，基金短期明显承压，已从强趋势切到高位博弈。"
+      }
+    ],
+    "policyLinks": [
+      {
+        "sector": "资源安全与找矿突破",
+        "color": "#b45309",
+        "stocks": "516650 / 紫金矿业 / 洛阳钼业 / 中国铝业 / 北方稀土",
+        "policyNote": "工信部方案明确提出实施新一轮找矿突破战略行动，加强铜、铝、锂、镍、钴、锡等资源调查与勘探，是有色主题最直接的资源保障政策抓手。"
+      },
+      {
+        "sector": "高端材料与新能源金属",
+        "color": "#14b8a6",
+        "stocks": "北方稀土 / 华友钴业 / 赣锋锂业",
+        "policyNote": "围绕新能源汽车等重点产业链需求，高端稀土新材料与高品质有色原料的攻关突破，为稀土、锂钴材料链提供中期支撑。"
+      },
+      {
+        "sector": "绿色低碳与再生金属",
+        "color": "#10b981",
+        "stocks": "中国铝业 / 云铝股份 / 516650",
+        "policyNote": "绿电铝、再生金属和行业低碳改造被写入专项方案，说明板块逻辑不只是涨价，也包含结构性升级。"
+      }
+    ]
+  },
+  "performance": {
+    "stages": [
+      {
+        "period": "近1周",
+        "fund": -8.78,
+        "peer": -2.43,
+        "hs300": -1.92,
+        "rank": 5003,
+        "rankTotal": 5071,
+        "quartile": null
+      },
+      {
+        "period": "近1月",
+        "fund": -7.05,
+        "peer": 3.07,
+        "hs300": 2.63,
+        "rank": 4816,
+        "rankTotal": 5038,
+        "quartile": null
+      },
+      {
+        "period": "近3月",
+        "fund": -7.93,
+        "peer": 3.46,
+        "hs300": 4.13,
+        "rank": 4238,
+        "rankTotal": 4919,
+        "quartile": null
+      },
+      {
+        "period": "近6月",
+        "fund": 15.05,
+        "peer": 10.43,
+        "hs300": 5.77,
+        "rank": 1687,
+        "rankTotal": 4635,
+        "quartile": null
+      },
+      {
+        "period": "近1年",
+        "fund": 83.02,
+        "peer": 37.01,
+        "hs300": 25.17,
+        "rank": 547,
+        "rankTotal": 3853,
+        "quartile": null
+      },
+      {
+        "period": "近2年",
+        "fund": 76.78,
+        "peer": 52.91,
+        "hs300": 31.94,
+        "rank": 685,
+        "rankTotal": 2746,
+        "quartile": null
+      },
+      {
+        "period": "近3年",
+        "fund": 85.24,
+        "peer": 38.55,
+        "hs300": 23.03,
+        "rank": 216,
+        "rankTotal": 2116,
+        "quartile": null
+      },
+      {
+        "period": "今年来",
+        "fund": 3.19,
+        "peer": 8.67,
+        "hs300": 4.82,
+        "rank": 3169,
+        "rankTotal": 4796,
+        "quartile": null
+      },
+      {
+        "period": "成立来",
+        "fund": 86.41,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      }
+    ],
+    "annual": [
+      {
+        "year": 2022,
+        "fund": -1.38,
+        "peer": -19.5,
+        "hs300": -21.63,
+        "rank": null,
+        "rankTotal": 2208,
+        "quartile": "---"
+      },
+      {
+        "year": 2023,
+        "fund": -8.81,
+        "peer": -8.28,
+        "hs300": -11.38,
+        "rank": 1061,
+        "rankTotal": 2655,
+        "quartile": "良好"
+      },
+      {
+        "year": 2024,
+        "fund": 5.46,
+        "peer": 11.37,
+        "hs300": 14.68,
+        "rank": 1833,
+        "rankTotal": 3464,
+        "quartile": "一般"
+      },
+      {
+        "year": 2025,
+        "fund": 90.47,
+        "peer": 28.14,
+        "hs300": 17.66,
+        "rank": 59,
+        "rankTotal": 4812,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2026,
+        "fund": 3.19,
+        "peer": 8.67,
+        "hs300": 4.82,
+        "rank": 3169,
+        "rankTotal": 4796,
+        "quartile": null
+      }
+    ],
+    "quarterly": [
+      {
+        "year": 2022,
+        "quarter": "2022Q4",
+        "fund": -1.38,
+        "peer": null,
+        "hs300": 4.05,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2023,
+        "quarter": "2023Q1",
+        "fund": 6.2,
+        "peer": null,
+        "hs300": 4.19,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2023,
+        "quarter": "2023Q2",
+        "fund": -7.78,
+        "peer": null,
+        "hs300": -6.07,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2023,
+        "quarter": "2023Q3",
+        "fund": -2.73,
+        "peer": null,
+        "hs300": -5.22,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2023,
+        "quarter": "2023Q4",
+        "fund": -4.27,
+        "peer": null,
+        "hs300": -6.88,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q1",
+        "fund": 10.31,
+        "peer": null,
+        "hs300": 4.46,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q2",
+        "fund": -3.14,
+        "peer": -3.66,
+        "hs300": -2.14,
+        "rank": 1304,
+        "rankTotal": 3014,
+        "quartile": "良好"
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q3",
+        "fund": 11.02,
+        "peer": 17.13,
+        "hs300": 16.07,
+        "rank": 2565,
+        "rankTotal": 3130,
+        "quartile": "不佳"
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q4",
+        "fund": -11.1,
+        "peer": 0.65,
+        "hs300": -2.06,
+        "rank": 3021,
+        "rankTotal": 3464,
+        "quartile": "不佳"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q1",
+        "fund": 10.14,
+        "peer": 2.45,
+        "hs300": -1.21,
+        "rank": 339,
+        "rankTotal": 3635,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q2",
+        "fund": 4.26,
+        "peer": 2.65,
+        "hs300": 1.25,
+        "rank": 812,
+        "rankTotal": 4076,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q3",
+        "fund": 43.22,
+        "peer": 23.0,
+        "hs300": 17.9,
+        "rank": 660,
+        "rankTotal": 4523,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q4",
+        "fund": 15.81,
+        "peer": -0.94,
+        "hs300": -0.23,
+        "rank": 48,
+        "rankTotal": 4812,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2026,
+        "quarter": "2026Q1",
+        "fund": 1.91,
+        "peer": -1.57,
+        "hs300": -3.89,
+        "rank": 1140,
+        "rankTotal": 4960,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2026,
+        "quarter": "2026Q2",
+        "fund": -1.0,
+        "peer": null,
+        "hs300": 7.22,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      }
+    ],
+    "milestones": [
+      {
+        "date": "2022-10-18",
+        "nav": 1.0,
+        "label": "基金成立",
+        "type": "neutral"
+      },
+      {
+        "date": "2024-02-05",
+        "nav": 0.7693,
+        "label": "历史最低点",
+        "type": "low"
+      },
+      {
+        "date": "2024-05-20",
+        "nav": 1.0923,
+        "label": "低点修复后首次明显站上面值",
+        "type": "neutral"
+      },
+      {
+        "date": "2025-11-13",
+        "nav": 1.7072,
+        "label": "2025年主升浪阶段高点",
+        "type": "peak"
+      },
+      {
+        "date": "2026-01-29",
+        "nav": 2.3729,
+        "label": "历史最高点",
+        "type": "peak"
+      },
+      {
+        "date": "2026-03-23",
+        "nav": 1.7122,
+        "label": "高位快速回撤后的阶段低点",
+        "type": "low"
+      },
+      {
+        "date": "2026-05-18",
+        "nav": 1.8641,
+        "label": "当前净值",
+        "type": "current"
+      }
+    ]
+  },
+  "stageAnalysis": {
+    "inflectionPoints": [
+      {
+        "id": 1,
+        "startDate": "2022-10-31",
+        "endDate": "2022-11-11",
+        "startNav": 0.9701,
+        "endNav": 1.0857,
+        "changePct": 11.92,
+        "type": "peak"
+      },
+      {
+        "id": 2,
+        "startDate": "2022-11-11",
+        "endDate": "2022-12-23",
+        "startNav": 1.0857,
+        "endNav": 0.9822,
+        "changePct": -9.53,
+        "type": "trough"
+      },
+      {
+        "id": 3,
+        "startDate": "2022-12-23",
+        "endDate": "2023-02-01",
+        "startNav": 0.9822,
+        "endNav": 1.1519,
+        "changePct": 17.28,
+        "type": "peak"
+      },
+      {
+        "id": 4,
+        "startDate": "2023-02-01",
+        "endDate": "2023-03-16",
+        "startNav": 1.1519,
+        "endNav": 1.02,
+        "changePct": -11.45,
+        "type": "trough"
+      },
+      {
+        "id": 5,
+        "startDate": "2023-03-16",
+        "endDate": "2023-04-17",
+        "startNav": 1.02,
+        "endNav": 1.122,
+        "changePct": 10.0,
+        "type": "peak"
+      },
+      {
+        "id": 6,
+        "startDate": "2023-04-17",
+        "endDate": "2023-06-26",
+        "startNav": 1.122,
+        "endNav": 0.9512,
+        "changePct": -15.22,
+        "type": "trough"
+      },
+      {
+        "id": 7,
+        "startDate": "2023-06-26",
+        "endDate": "2023-08-01",
+        "startNav": 0.9512,
+        "endNav": 1.0303,
+        "changePct": 8.32,
+        "type": "peak"
+      },
+      {
+        "id": 8,
+        "startDate": "2023-08-01",
+        "endDate": "2024-02-05",
+        "startNav": 1.0303,
+        "endNav": 0.7693,
+        "changePct": -25.33,
+        "type": "trough"
+      },
+      {
+        "id": 9,
+        "startDate": "2024-02-05",
+        "endDate": "2024-05-20",
+        "startNav": 0.7693,
+        "endNav": 1.0923,
+        "changePct": 41.99,
+        "type": "peak"
+      },
+      {
+        "id": 10,
+        "startDate": "2024-05-20",
+        "endDate": "2024-06-27",
+        "startNav": 1.0923,
+        "endNav": 0.9421,
+        "changePct": -13.75,
+        "type": "trough"
+      },
+      {
+        "id": 11,
+        "startDate": "2024-06-27",
+        "endDate": "2024-07-16",
+        "startNav": 0.9421,
+        "endNav": 1.0183,
+        "changePct": 8.09,
+        "type": "peak"
+      },
+      {
+        "id": 12,
+        "startDate": "2024-07-16",
+        "endDate": "2024-09-10",
+        "startNav": 1.0183,
+        "endNav": 0.8413,
+        "changePct": -17.38,
+        "type": "trough"
+      },
+      {
+        "id": 13,
+        "startDate": "2024-09-10",
+        "endDate": "2024-10-08",
+        "startNav": 0.8413,
+        "endNav": 1.0907,
+        "changePct": 29.64,
+        "type": "peak"
+      },
+      {
+        "id": 14,
+        "startDate": "2024-10-08",
+        "endDate": "2024-10-17",
+        "startNav": 1.0907,
+        "endNav": 0.994,
+        "changePct": -8.87,
+        "type": "trough"
+      },
+      {
+        "id": 15,
+        "startDate": "2024-10-17",
+        "endDate": "2024-11-06",
+        "startNav": 0.994,
+        "endNav": 1.0815,
+        "changePct": 8.8,
+        "type": "peak"
+      },
+      {
+        "id": 16,
+        "startDate": "2024-11-06",
+        "endDate": "2025-01-02",
+        "startNav": 1.0815,
+        "endNav": 0.9415,
+        "changePct": -12.94,
+        "type": "trough"
+      },
+      {
+        "id": 17,
+        "startDate": "2025-01-02",
+        "endDate": "2025-03-19",
+        "startNav": 0.9415,
+        "endNav": 1.0722,
+        "changePct": 13.88,
+        "type": "peak"
+      },
+      {
+        "id": 18,
+        "startDate": "2025-03-19",
+        "endDate": "2025-04-08",
+        "startNav": 1.0722,
+        "endNav": 0.935,
+        "changePct": -12.8,
+        "type": "trough"
+      },
+      {
+        "id": 19,
+        "startDate": "2025-04-08",
+        "endDate": "2025-11-13",
+        "startNav": 0.935,
+        "endNav": 1.7072,
+        "changePct": 82.59,
+        "type": "peak"
+      },
+      {
+        "id": 20,
+        "startDate": "2025-11-13",
+        "endDate": "2025-11-24",
+        "startNav": 1.7072,
+        "endNav": 1.5618,
+        "changePct": -8.52,
+        "type": "trough"
+      },
+      {
+        "id": 21,
+        "startDate": "2025-11-24",
+        "endDate": "2026-01-29",
+        "startNav": 1.5618,
+        "endNav": 2.3729,
+        "changePct": 51.93,
+        "type": "peak"
+      },
+      {
+        "id": 22,
+        "startDate": "2026-01-29",
+        "endDate": "2026-02-05",
+        "startNav": 2.3729,
+        "endNav": 1.99,
+        "changePct": -16.14,
+        "type": "trough"
+      },
+      {
+        "id": 23,
+        "startDate": "2026-02-05",
+        "endDate": "2026-03-02",
+        "startNav": 1.99,
+        "endNav": 2.2826,
+        "changePct": 14.7,
+        "type": "peak"
+      },
+      {
+        "id": 24,
+        "startDate": "2026-03-02",
+        "endDate": "2026-03-23",
+        "startNav": 2.2826,
+        "endNav": 1.7122,
+        "changePct": -24.99,
+        "type": "trough"
+      },
+      {
+        "id": 25,
+        "startDate": "2026-03-23",
+        "endDate": "2026-05-11",
+        "startNav": 1.7122,
+        "endNav": 2.0436,
+        "changePct": 19.36,
+        "type": "peak"
+      },
+      {
+        "id": 26,
+        "startDate": "2026-05-11",
+        "endDate": "2026-05-18",
+        "startNav": 2.0436,
+        "endNav": 1.8641,
+        "changePct": -8.78,
+        "type": "trough"
+      }
+    ],
+    "totalInflectionPoints": 26,
+    "stages": [
+      {
+        "id": 1,
+        "name": "建仓与弱势震荡期",
+        "emoji": "🧱",
+        "period": "2022-10 → 2023-12",
+        "returnPct": -10.1,
+        "hs300Pct": -10.1,
+        "excessPct": 0.1,
+        "driverType": "both",
+        "driverLabel": "🔄 风格切换期",
+        "color": "#6b7280",
+        "description": "基金成立后先经历资源主题脉冲，随后在2023年整体进入震荡回落阶段，阶段收益大体与沪深300相当。",
+        "env": "资源主题缺乏持续主线，市场在预期修复与现实检验之间反复切换。",
+        "managerAction": "赵宗庭与余昊阶段均以目标ETF联接建仓和跟踪为主，没有主动防守。",
+        "attribution": "净值主要由主题Beta驱动，联接结构在弱势环境下缺少额外缓冲。"
+      },
+      {
+        "id": 2,
+        "name": "低位修复但弹性未充分释放",
+        "emoji": "🔄",
+        "period": "2024-01 → 2024-09",
+        "returnPct": 18.6,
+        "hs300Pct": 18.7,
+        "excessPct": 0.0,
+        "driverType": "beta",
+        "driverLabel": "🌊 行业Beta主导",
+        "color": "#f59e0b",
+        "description": "2024年前三个季度经历春节后修复、二季度回撤与三季度再反弹，弹性修复但并未持续跑赢宽基。",
+        "env": "板块修复存在，但行业轮动较快，资源主题缺少持续超额窗口。",
+        "managerAction": "2024H1报告已确认产品以目标ETF联接为主，更多是在等板块修复而不是靠经理主动切换创造超额。",
+        "attribution": "行业Beta修复是主因，但板块轮动导致超额释放不充分。"
+      },
+      {
+        "id": 3,
+        "name": "四季度风格切换回撤",
+        "emoji": "🔻",
+        "period": "2024-10 → 2024-12",
+        "returnPct": -11.1,
+        "hs300Pct": -2.1,
+        "excessPct": -9.0,
+        "driverType": "double_loss",
+        "driverLabel": "🔴 Beta+Alpha双损",
+        "color": "#ef4444",
+        "description": "2024Q4是成立以来一次典型主题回撤窗口，单季明显跑输宽基。",
+        "env": "市场风险偏好从资源主题切走，风格切换加速了高纯度联接结构的回撤。",
+        "managerAction": "基金继续维持高比例目标ETF暴露，没有通过主动降仓平滑回撤。",
+        "attribution": "主题回撤与高暴露叠加，导致净值明显弱于宽基。"
+      },
+      {
+        "id": 4,
+        "name": "有色资源主升浪",
+        "emoji": "🚀",
+        "period": "2025-01 → 2025-12",
+        "returnPct": 90.5,
+        "hs300Pct": 17.7,
+        "excessPct": 72.8,
+        "driverType": "beta",
+        "driverLabel": "🌊 行业Beta主导",
+        "color": "#22c55e",
+        "description": "2025年是最核心的收益兑现阶段，2025Q3单季43.22%、2025Q4再涨15.81%，主升浪特征非常明显。",
+        "env": "金属行情扩散、铜价突破高位以及政策强化形成共振，有色资源成为资金主线。",
+        "managerAction": "单宽之接棒后继续保持高纯度联接结构，几乎完整承接了有色板块主升浪。",
+        "attribution": "商品价格与风险偏好共振推动的行业Beta是收益主因。"
+      },
+      {
+        "id": 5,
+        "name": "高位震荡与胜率回落",
+        "emoji": "🌪️",
+        "period": "2026-01 → 2026-05",
+        "returnPct": 0.9,
+        "hs300Pct": 3.1,
+        "excessPct": -2.2,
+        "driverType": "both",
+        "driverLabel": "🔄 风格切换期",
+        "color": "#f97316",
+        "description": "2026年以来产品仍处历史高位，但波动和短期回撤显著放大，净值从单边上行切换到高位震荡。",
+        "env": "地缘政治、能源价格与利率预期扰动同步升温，金属行情由单边上涨切入高位波动。",
+        "managerAction": "产品依旧维持高纯度有色主题暴露，仅加入少量债券缓冲，未转向主动防守。",
+        "attribution": "高位商品波动放大了主题回撤，新资金的胜率明显低于2025年主升浪阶段。"
+      }
+    ]
+  },
+  "managers": {
+    "current": {
+      "managerId": "30825145",
+      "allManagerIds": [
+        "30825145",
+        "30727118",
+        "30528266"
+      ],
+      "name": "单宽之",
+      "fundCount": 33,
+      "totalScale": 836.84,
+      "historicalFunds": [
+        {
+          "name": "华夏中证电网设备主题ETF发起式联接C",
+          "code": "025857",
+          "type": "指数型-股票",
+          "tenure": "2025-11-25 ~ 至今",
+          "return": 42.88,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": true
+        },
+        {
+          "name": "华夏中证电网设备主题ETF发起式联接A",
+          "code": "025856",
+          "type": "指数型-股票",
+          "tenure": "2025-11-25 ~ 至今",
+          "return": 43.08,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": true
+        },
+        {
+          "name": "华夏中证港股通医疗主题ETF发起式联接A",
+          "code": "025507",
+          "type": "指数型-股票",
+          "tenure": "2025-09-19 ~ 至今",
+          "return": -24.11,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": true
+        },
+        {
+          "name": "华夏中证港股通医疗主题ETF发起式联接C",
+          "code": "025508",
+          "type": "指数型-股票",
+          "tenure": "2025-09-19 ~ 至今",
+          "return": -24.21,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": true
+        },
+        {
+          "name": "华夏创业板人工智能ETF发起式联接C",
+          "code": "025506",
+          "type": "指数型-股票",
+          "tenure": "2025-09-16 ~ 至今",
+          "return": 54.1,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": true
+        },
+        {
+          "name": "华夏创业板人工智能ETF发起式联接A",
+          "code": "025505",
+          "type": "指数型-股票",
+          "tenure": "2025-09-16 ~ 至今",
+          "return": 54.3,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": true
+        },
+        {
+          "name": "华夏创业板新能源ETF发起式联接C",
+          "code": "024420",
+          "type": "指数型-股票",
+          "tenure": "2025-08-05 ~ 至今",
+          "return": 52.91,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": true
+        },
+        {
+          "name": "华夏创业板新能源ETF发起式联接A",
+          "code": "024419",
+          "type": "指数型-股票",
+          "tenure": "2025-08-05 ~ 至今",
+          "return": 53.15,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": true
+        },
+        {
+          "name": "港股通医疗ETF华夏",
+          "code": "520510",
+          "type": "指数型-股票",
+          "tenure": "2025-07-28 ~ 至今",
+          "return": -17.9,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": true
+        },
+        {
+          "name": "创业板软件ETF华夏",
+          "code": "159256",
+          "type": "指数型-股票",
+          "tenure": "2025-07-24 ~ 至今",
+          "return": 1.23,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": true
+        },
+        {
+          "name": "华夏创业板50ETF发起式联接C",
+          "code": "023883",
+          "type": "指数型-股票",
+          "tenure": "2025-06-17 ~ 至今",
+          "return": 91.47,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": true
+        },
+        {
+          "name": "华夏创业板50ETF发起式联接A",
+          "code": "023882",
+          "type": "指数型-股票",
+          "tenure": "2025-06-17 ~ 至今",
+          "return": 91.81,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": true
+        },
+        {
+          "name": "航空航天ETF华夏",
+          "code": "159227",
+          "type": "指数型-股票",
+          "tenure": "2025-04-30 ~ 至今",
+          "return": 28.59,
+          "rank": 2011,
+          "rankTotal": 3853,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "华夏上证科创板综合ETF联接C",
+          "code": "023720",
+          "type": "指数型-股票",
+          "tenure": "2025-04-08 ~ 至今",
+          "return": 73.05,
+          "rank": 720,
+          "rankTotal": 3853,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "华夏上证科创板综合ETF联接A",
+          "code": "023719",
+          "type": "指数型-股票",
+          "tenure": "2025-04-08 ~ 至今",
+          "return": 73.43,
+          "rank": 715,
+          "rankTotal": 3853,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "创业板人工智能ETF华夏",
+          "code": "159381",
+          "type": "指数型-股票",
+          "tenure": "2025-03-14 ~ 至今",
+          "return": 161.49,
+          "rank": 23,
+          "rankTotal": 3853,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "创业板新能源ETF华夏",
+          "code": "159368",
+          "type": "指数型-股票",
+          "tenure": "2025-03-14 ~ 至今",
+          "return": 71.04,
+          "rank": 486,
+          "rankTotal": 3853,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "科创综指ETF华夏",
+          "code": "589000",
+          "type": "指数型-股票",
+          "tenure": "2025-02-26 ~ 至今",
+          "return": 67.25,
+          "rank": 614,
+          "rankTotal": 3853,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "创业板50ETF华夏",
+          "code": "159367",
+          "type": "指数型-股票",
+          "tenure": "2025-01-24 ~ 至今",
+          "return": 98.5,
+          "rank": 200,
+          "rankTotal": 3853,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "华夏中证石化产业ETF发起式联接A",
+          "code": "017855",
+          "type": "指数型-股票",
+          "tenure": "2024-11-07 ~ 至今",
+          "return": 31.6,
+          "rank": 1522,
+          "rankTotal": 3853,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "华夏中证石化产业ETF发起式联接C",
+          "code": "017856",
+          "type": "指数型-股票",
+          "tenure": "2024-11-07 ~ 至今",
+          "return": 30.99,
+          "rank": 1541,
+          "rankTotal": 3853,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "物联网ETF华夏",
+          "code": "516260",
+          "type": "指数型-股票",
+          "tenure": "2024-11-07 ~ 至今",
+          "return": 73.93,
+          "rank": 564,
+          "rankTotal": 3853,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "石化ETF华夏",
+          "code": "159731",
+          "type": "指数型-股票",
+          "tenure": "2024-11-07 ~ 至今",
+          "return": 35.02,
+          "rank": 1359,
+          "rankTotal": 3853,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "电网设备ETF华夏",
+          "code": "159326",
+          "type": "指数型-股票",
+          "tenure": "2024-08-29 ~ 至今",
+          "return": 108.36,
+          "rank": 284,
+          "rankTotal": 3853,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "半导体设备ETF华夏",
+          "code": "562590",
+          "type": "指数型-股票",
+          "tenure": "2024-06-11 ~ 至今",
+          "return": 190.1,
+          "rank": 43,
+          "rankTotal": 3853,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "有色金属ETF华夏",
+          "code": "516650",
+          "type": "指数型-股票",
+          "tenure": "2024-06-11 ~ 至今",
+          "return": 92.2,
+          "rank": 386,
+          "rankTotal": 3853,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "华夏中证装备产业ETF发起式联接C",
+          "code": "021201",
+          "type": "指数型-股票",
+          "tenure": "2024-06-11 ~ 至今",
+          "return": 57.69,
+          "rank": 1208,
+          "rankTotal": 3853,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "华夏中证装备产业ETF发起式联接A",
+          "code": "021200",
+          "type": "指数型-股票",
+          "tenure": "2024-06-11 ~ 至今",
+          "return": 58.63,
+          "rank": 1191,
+          "rankTotal": 3853,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "华夏有色金属ETF联接C",
+          "code": "016708",
+          "type": "指数型-股票",
+          "tenure": "2024-06-11 ~ 至今",
+          "return": 85.13,
+          "rank": 547,
+          "rankTotal": 3853,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "华夏有色金属ETF联接A",
+          "code": "016707",
+          "type": "指数型-股票",
+          "tenure": "2024-06-11 ~ 至今",
+          "return": 86.2,
+          "rank": 543,
+          "rankTotal": 3853,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "华夏有色金属ETF联接D",
+          "code": "021534",
+          "type": "指数型-股票",
+          "tenure": "2024-06-11 ~ 至今",
+          "return": 85.14,
+          "rank": 547,
+          "rankTotal": 3853,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "华夏半导体材料设备ETF联接A",
+          "code": "020356",
+          "type": "指数型-股票",
+          "tenure": "2024-06-11 ~ 至今",
+          "return": 169.35,
+          "rank": 87,
+          "rankTotal": 3853,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "华夏半导体材料设备ETF联接C",
+          "code": "020357",
+          "type": "指数型-股票",
+          "tenure": "2024-06-11 ~ 至今",
+          "return": 167.8,
+          "rank": 94,
+          "rankTotal": 3853,
+          "grade": "top",
+          "isCurrent": true
+        }
+      ],
+      "bestReturn": 190.1,
+      "worstReturn": -24.11,
+      "manageDate": "2024-06-11",
+      "manageYears": 1.9,
+      "tenureReturn": 85.13,
+      "rankInPeer": "前14.2%",
+      "rankTotal": 3853,
+      "education": "硕士",
+      "joinDate": "2024-02",
+      "experience": "10年（证券从业，季报口径）",
+      "title": "基金经理",
+      "style": "被动主题联接",
+      "peerAvgReturn": 37.01,
+      "philosophy": [
+        {
+          "label": "核心投资理念",
+          "text": "以高效率复制目标ETF和目标指数暴露为主，追求工具属性清晰，而不是主动做行业轮动。"
+        },
+        {
+          "label": "选股方法论",
+          "text": "本基金层面几乎不体现主动选股，真实暴露主要来自目标ETF 516650；直持股票更多是联接结构下的残余头寸。"
+        },
+        {
+          "label": "仓位管理风格",
+          "text": "长期高暴露，2024H1到2026Q1目标ETF占净值维持在91.16%到94.38%之间。"
+        },
+        {
+          "label": "风格稳定性",
+          "text": "非常稳定，几乎没有从有色主题被动联接漂移到其他方向，变化主要体现在直持残余仓位和少量债券缓冲。"
+        }
+      ],
+      "consistencyAudit": [
+        {
+          "period": "2024年中报·接任初期",
+          "result": "pass",
+          "label": "一致",
+          "stated": "本基金主要通过交易所买卖或申购赎回的方式投资于目标ETF，也可通过买入成份股跟踪标的指数。",
+          "actual": "截至2024-06-30，目标ETF占净值93.50%，且本基金本报告期末未持有股票。",
+          "evaluation": "产品没有借联接名义做主动偏离，而是严格保持ETF联接形态。"
+        },
+        {
+          "period": "2025年Q3·主升浪阶段",
+          "result": "pass",
+          "label": "一致",
+          "stated": "在做好跟踪标的指数的基础上，认真应对投资者日常申购、赎回等工作。",
+          "actual": "截至2025-09-30，目标ETF占净值94.38%，直持股票仅0.63%，前三大残余持仓为紫金矿业、北方稀土、洛阳钼业。",
+          "evaluation": "经理并未把上涨解释成主动择股成功，而是继续维持高纯度联接结构。"
+        },
+        {
+          "period": "2026年Q1·高位震荡期",
+          "result": "pass",
+          "label": "一致",
+          "stated": "在做好跟踪标的指数的基础上，认真应对投资者日常申购、赎回等工作。",
+          "actual": "截至2026-03-31，目标ETF占净值91.16%，直持股票3.97%，固定收益投资4.53%。",
+          "evaluation": "即便进入高位震荡期，产品依然维持被动联接定位，没有临时切换成主动防守风格。"
+        }
+      ],
+      "abilityProfile": {
+        "best": "指数和ETF工具执行力强，在半导体、AI、电网和有色等主题工具上都展现出较强的联接与跟踪运作能力。",
+        "worst": "管理半径过大，33只基金与836.84亿元规模意味着精力分散不可忽视，且产品自身缺少主动防守能力。",
+        "goodEnv": [
+          "商品价格上行期",
+          "资源安全政策强化期",
+          "流动性偏宽松且主题风险偏好回暖期"
+        ],
+        "badEnv": [
+          "全球风险偏好骤降期",
+          "大宗商品快速普跌期",
+          "利率预期转鹰并压缩资源主题估值期"
+        ]
+      },
+      "strengths": [
+        "能把ETF联接基金做得足够纯粹、足够稳定。",
+        "接棒后没有破坏产品结构，完整承接了2025年有色主升浪。"
+      ],
+      "weaknesses": [
+        "33只基金的管理半径偏大，存在精力分散风险。",
+        "产品本身几乎没有主动防守能力，商品回撤时无法替持有人降低波动。"
+      ]
+    },
+    "history": [
+      {
+        "name": "赵宗庭",
+        "role": "独任",
+        "start": "2022-10-18",
+        "end": "2023-12-27",
+        "tenure": "1年又70天",
+        "return": -12.37,
+        "note": "建仓期与2023年资源主题偏弱阶段重合，产品波动较大。"
+      },
+      {
+        "name": "余昊",
+        "role": "独任",
+        "start": "2023-12-28",
+        "end": "2024-06-10",
+        "tenure": "165天",
+        "return": 14.9,
+        "note": "接棒后恰逢低位修复窗口，阶段收益转正，但时间窗口不长。"
+      },
+      {
+        "name": "单宽之",
+        "role": "独任",
+        "start": "2024-06-11",
+        "end": null,
+        "tenure": "1年又342天",
+        "return": 85.13,
+        "note": "主要吃到了2025年有色主升浪，说明接棒后运作连续性较强。"
+      }
+    ]
+  },
+  "navHistory": [
+    {
+      "date": "2025-12-26",
+      "nav": 1.8041
+    },
+    {
+      "date": "2025-12-29",
+      "nav": 1.7669
+    },
+    {
+      "date": "2025-12-30",
+      "nav": 1.7875
+    },
+    {
+      "date": "2025-12-31",
+      "nav": 1.8064
+    },
+    {
+      "date": "2026-01-05",
+      "nav": 1.8505
+    },
+    {
+      "date": "2026-01-06",
+      "nav": 1.9233
+    },
+    {
+      "date": "2026-01-07",
+      "nav": 1.9303
+    },
+    {
+      "date": "2026-01-08",
+      "nav": 1.8992
+    },
+    {
+      "date": "2026-01-09",
+      "nav": 1.9543
+    },
+    {
+      "date": "2026-01-12",
+      "nav": 1.9813
+    },
+    {
+      "date": "2026-01-13",
+      "nav": 1.9989
+    },
+    {
+      "date": "2026-01-14",
+      "nav": 2.0055
+    },
+    {
+      "date": "2026-01-15",
+      "nav": 2.0368
+    },
+    {
+      "date": "2026-01-16",
+      "nav": 2.0139
+    },
+    {
+      "date": "2026-01-19",
+      "nav": 2.0174
+    },
+    {
+      "date": "2026-01-20",
+      "nav": 2.0242
+    },
+    {
+      "date": "2026-01-21",
+      "nav": 2.0788
+    },
+    {
+      "date": "2026-01-22",
+      "nav": 2.0635
+    },
+    {
+      "date": "2026-01-23",
+      "nav": 2.1146
+    },
+    {
+      "date": "2026-01-26",
+      "nav": 2.2168
+    },
+    {
+      "date": "2026-01-27",
+      "nav": 2.2014
+    },
+    {
+      "date": "2026-01-28",
+      "nav": 2.3329
+    },
+    {
+      "date": "2026-01-29",
+      "nav": 2.3729
+    },
+    {
+      "date": "2026-01-30",
+      "nav": 2.1886
+    },
+    {
+      "date": "2026-02-02",
+      "nav": 2.0266
+    },
+    {
+      "date": "2026-02-03",
+      "nav": 2.08
+    },
+    {
+      "date": "2026-02-04",
+      "nav": 2.0851
+    },
+    {
+      "date": "2026-02-05",
+      "nav": 1.99
+    },
+    {
+      "date": "2026-02-06",
+      "nav": 1.9953
+    },
+    {
+      "date": "2026-02-09",
+      "nav": 2.0363
+    },
+    {
+      "date": "2026-02-10",
+      "nav": 2.0342
+    },
+    {
+      "date": "2026-02-11",
+      "nav": 2.0833
+    },
+    {
+      "date": "2026-02-12",
+      "nav": 2.0946
+    },
+    {
+      "date": "2026-02-13",
+      "nav": 2.0247
+    },
+    {
+      "date": "2026-02-24",
+      "nav": 2.087
+    },
+    {
+      "date": "2026-02-25",
+      "nav": 2.1585
+    },
+    {
+      "date": "2026-02-26",
+      "nav": 2.1407
+    },
+    {
+      "date": "2026-02-27",
+      "nav": 2.2109
+    },
+    {
+      "date": "2026-03-02",
+      "nav": 2.2826
+    },
+    {
+      "date": "2026-03-03",
+      "nav": 2.1638
+    },
+    {
+      "date": "2026-03-04",
+      "nav": 2.1523
+    },
+    {
+      "date": "2026-03-05",
+      "nav": 2.1385
+    },
+    {
+      "date": "2026-03-06",
+      "nav": 2.0947
+    },
+    {
+      "date": "2026-03-09",
+      "nav": 2.0779
+    },
+    {
+      "date": "2026-03-10",
+      "nav": 2.0946
+    },
+    {
+      "date": "2026-03-11",
+      "nav": 2.0908
+    },
+    {
+      "date": "2026-03-12",
+      "nav": 2.078
+    },
+    {
+      "date": "2026-03-13",
+      "nav": 2.0278
+    },
+    {
+      "date": "2026-03-16",
+      "nav": 1.9698
+    },
+    {
+      "date": "2026-03-17",
+      "nav": 1.9373
+    },
+    {
+      "date": "2026-03-18",
+      "nav": 1.9226
+    },
+    {
+      "date": "2026-03-19",
+      "nav": 1.8096
+    },
+    {
+      "date": "2026-03-20",
+      "nav": 1.7887
+    },
+    {
+      "date": "2026-03-23",
+      "nav": 1.7122
+    },
+    {
+      "date": "2026-03-24",
+      "nav": 1.764
+    },
+    {
+      "date": "2026-03-25",
+      "nav": 1.8165
+    },
+    {
+      "date": "2026-03-26",
+      "nav": 1.7877
+    },
+    {
+      "date": "2026-03-27",
+      "nav": 1.8354
+    },
+    {
+      "date": "2026-03-30",
+      "nav": 1.8669
+    },
+    {
+      "date": "2026-03-31",
+      "nav": 1.8409
+    },
+    {
+      "date": "2026-04-01",
+      "nav": 1.8829
+    },
+    {
+      "date": "2026-04-02",
+      "nav": 1.8511
+    },
+    {
+      "date": "2026-04-03",
+      "nav": 1.834
+    },
+    {
+      "date": "2026-04-07",
+      "nav": 1.8496
+    },
+    {
+      "date": "2026-04-08",
+      "nav": 1.9571
+    },
+    {
+      "date": "2026-04-09",
+      "nav": 1.9464
+    },
+    {
+      "date": "2026-04-10",
+      "nav": 1.9391
+    },
+    {
+      "date": "2026-04-13",
+      "nav": 1.9453
+    },
+    {
+      "date": "2026-04-14",
+      "nav": 1.9814
+    },
+    {
+      "date": "2026-04-15",
+      "nav": 1.9546
+    },
+    {
+      "date": "2026-04-16",
+      "nav": 2.005
+    },
+    {
+      "date": "2026-04-17",
+      "nav": 2.0054
+    },
+    {
+      "date": "2026-04-20",
+      "nav": 2.0133
+    },
+    {
+      "date": "2026-04-21",
+      "nav": 2.0182
+    },
+    {
+      "date": "2026-04-22",
+      "nav": 2.0216
+    },
+    {
+      "date": "2026-04-23",
+      "nav": 1.9485
+    },
+    {
+      "date": "2026-04-24",
+      "nav": 1.9676
+    },
+    {
+      "date": "2026-04-27",
+      "nav": 1.9458
+    },
+    {
+      "date": "2026-04-28",
+      "nav": 1.8983
+    },
+    {
+      "date": "2026-04-29",
+      "nav": 1.974
+    },
+    {
+      "date": "2026-04-30",
+      "nav": 1.9563
+    },
+    {
+      "date": "2026-05-06",
+      "nav": 2.0277
+    },
+    {
+      "date": "2026-05-07",
+      "nav": 2.0353
+    },
+    {
+      "date": "2026-05-08",
+      "nav": 2.0428
+    },
+    {
+      "date": "2026-05-11",
+      "nav": 2.0436
+    },
+    {
+      "date": "2026-05-12",
+      "nav": 2.0305
+    },
+    {
+      "date": "2026-05-13",
+      "nav": 2.0407
+    },
+    {
+      "date": "2026-05-14",
+      "nav": 1.973
+    },
+    {
+      "date": "2026-05-15",
+      "nav": 1.8903
+    },
+    {
+      "date": "2026-05-18",
+      "nav": 1.8641
+    }
+  ],
+  "scoring": {
+    "total": 72,
+    "grade": "良好",
+    "recommendation": "谨慎（等待回撤）",
+    "recommendationType": "cautious",
+    "rating": "★★",
+    "logic": "基金质量72/100（良好）×政策状态🟢红利期×市场状态🔴高位谨慎，适合已有仓位继续跟踪，不适合在历史高位区重仓追入。",
+    "dimensions": [
+      {
+        "name": "费率性价比",
+        "score": 10,
+        "maxScore": 25,
+        "pros": [
+          "C类免前端申购费",
+          "目标ETF工具链清晰"
+        ],
+        "cons": [
+          "管理费加托管费已达0.60%",
+          "C类销售服务费再加0.30%，被动工具持续成本偏高"
+        ]
+      },
+      {
+        "name": "跟踪执行",
+        "score": 17,
+        "maxScore": 20,
+        "pros": [
+          "2024H1、2025Q3、2025Q4官方报告显示相对业绩基准偏离总体可控",
+          "年化Alpha 12.25%，信息比率0.66"
+        ],
+        "cons": [
+          "2026Q1相对官方基准落后0.69个百分点，高波动阶段误差放大"
+        ]
+      },
+      {
+        "name": "风险承载要求",
+        "score": 14,
+        "maxScore": 20,
+        "pros": [
+          "年化收益率19.82%，近1年夏普2.49，阶段表现强",
+          "近1年与近2年均明显跑赢沪深300"
+        ],
+        "cons": [
+          "历史最大回撤-33.21%，年化波动率26.90%，并非低波动底仓"
+        ]
+      },
+      {
+        "name": "主题集中度与外部约束",
+        "score": 16,
+        "maxScore": 20,
+        "pros": [
+          "目标ETF在2024H1到2026Q1长期占净值91%到94%以上，主题暴露极清晰",
+          "对铜、铝、锂、稀土、黄金等有色链条映射直接"
+        ],
+        "cons": [
+          "单一赛道集中度高，商品价格、政策节奏和风险偏好变化会放大波动"
+        ]
+      },
+      {
+        "name": "流动性与平台",
+        "score": 15,
+        "maxScore": 15,
+        "pros": [
+          "华夏基金ETF与联接平台能力强",
+          "目标ETF 516650规模较大，工具属性明确"
+        ],
+        "cons": []
+      }
+    ],
+    "risks": [
+      {
+        "type": "高波动高回撤风险",
+        "level": "high",
+        "note": "历史最大回撤-33.21%，年化波动率26.90%，属于高弹性主题工具，不是稳健底仓。"
+      },
+      {
+        "type": "经理管理半径风险",
+        "level": "medium",
+        "note": "单宽之当前在管33只基金、836.84亿元，明显超过10只基金的观察阈值。"
+      },
+      {
+        "type": "公司合规历史风险",
+        "level": "high",
+        "note": "华夏基金2024年被北京证监局采取责令改正并暂停办理相关业务等监管措施，高管同年收到警示函。"
+      },
+      {
+        "type": "主题集中与商品周期风险",
+        "level": "high",
+        "note": "净值长期主要由有色资源链条和目标ETF驱动，一旦商品价格和风险偏好共振下行，回撤会很快。"
+      }
+    ],
+    "policyItems": [
+      {
+        "name": "2026年政府工作报告",
+        "impactLabel": "🟢 强利好"
+      },
+      {
+        "name": "有色金属行业稳增长工作方案（2025—2026年）",
+        "impactLabel": "🟢 强利好"
+      },
+      {
+        "name": "美联储暂停降息与地缘扰动",
+        "impactLabel": "🔴 阶段性逆风"
+      }
+    ],
+    "marketStatus": [
+      {
+        "dim": "净值位置",
+        "status": "91.6% 历史分位",
+        "statusType": "warning",
+        "detail": "当前净值1.8641虽较历史高点2.3729回撤21.44%，但在全部历史净值中仍位于高位区。"
+      },
+      {
+        "dim": "近期趋势",
+        "status": "高位回撤后震荡",
+        "statusType": "cautious",
+        "detail": "近1周-8.78%、近1月-7.05%、2026Q2截至5月18日-1.00%，显示主升浪后短期胜率下降。"
+      },
+      {
+        "dim": "夏普趋势",
+        "status": "明显改善",
+        "statusType": "positive",
+        "detail": "近1年夏普2.49，显著高于近2年1.00与近3年0.65，过去一年是景气兑现期。"
+      },
+      {
+        "dim": "宏观流动性",
+        "status": "中性偏友好",
+        "statusType": "neutral",
+        "detail": "国内货币环境偏宽松，但美联储暂停降息与地缘风险压缩了全球宽松空间。"
+      },
+      {
+        "dim": "持仓主线景气",
+        "status": "高景气但波动加大",
+        "statusType": "positive",
+        "detail": "2025Q3、2025Q4是有色主升浪，2026年初金属大涨后进入高位震荡。"
+      },
+      {
+        "dim": "外部风险",
+        "status": "需重点关注",
+        "statusType": "warning",
+        "detail": "大宗商品价格回落、美元利率预期变化与地缘政治事件都可能对有色主题估值形成快速打击。"
+      }
+    ],
+    "allocationSuggestions": [
+      {
+        "scenario": "存量持有人",
+        "action": "继续持有并动态跟踪",
+        "note": "若成本较低，可继续持有并观察商品价格与政策兑现，不建议在当前位置大幅追加强化仓位。"
+      },
+      {
+        "scenario": "新入场投资者",
+        "action": "等待回撤后分批",
+        "note": "更适合等待回撤后的分批买点，而不是在高位区一次性重仓追入。"
+      }
+    ],
+    "suitableFor": [
+      "已有宽基底仓，希望用少量仓位增强资源品弹性的投资者。",
+      "认可未来2到3年资源安全、有色景气与高端材料升级逻辑的人。",
+      "能承受-25%到-35%阶段回撤、持有周期至少2年的中高风险偏好投资者。"
+    ],
+    "notSuitableFor": [
+      "把它当成低波动指数底仓、无法承受单季明显回撤的投资者。",
+      "持有期少于1年、偏好高位追涨后快速兑现的人。",
+      "需要稳定分红或现金流的投资者。",
+      "风险承受能力低于R3，或希望规避单一主题集中风险的投资者。"
+    ],
+    "termAdvice": [
+      {
+        "term": "短期（1-3个月）",
+        "icon": "⚠️",
+        "level": "cautious",
+        "advice": "高位震荡、短期排名显著走弱，新资金以等待为主；若一定参与，首笔不超过计划仓位的30%。"
+      },
+      {
+        "term": "中期（6-12个月）",
+        "icon": "🟡",
+        "level": "neutral",
+        "advice": "政策主线仍支持有色资源和高端材料，但商品价格波动会主导净值节奏；优先等NAV回落到1.68-1.75区间再考虑第一笔。"
+      },
+      {
+        "term": "长期（3年以上）",
+        "icon": "🟡",
+        "level": "neutral",
+        "advice": "有色资源安全、再生金属和高端材料升级具备中期逻辑，只适合作为权益组合中的高波动行业工具，单基金仓位建议不超过权益仓位的10%-15%。"
+      }
+    ]
+  },
+  "company": {
+    "name": "华夏基金管理有限公司",
+    "shortName": "华夏基金",
+    "foundYear": 1998,
+    "aumDesc": "约30345亿元总管理规模（截至2025-06-30），境内最大的基金管理公司之一。",
+    "industryRank": "境内头部公募平台，ETF与指数工具能力强，业务覆盖面广。",
+    "complianceResult": "风险",
+    "complianceSummary": "合规检查未触发一票否决项，但公司2024年监管措施与经理管理半径偏大构成持续风险，需要继续跟踪。",
+    "complianceChecks": [
+      {
+        "item": "黑名单核查",
+        "pass": true,
+        "warn": false,
+        "detail": "公司与现任经理均未命中黑名单。"
+      },
+      {
+        "item": "近3年处罚记录",
+        "pass": false,
+        "warn": true,
+        "detail": "2024年年报披露公司于2024-07-05被北京证监局采取责令改正并暂停办理相关业务行政监管措施，高级管理人员于2024-08-16收到警示函。"
+      },
+      {
+        "item": "内幕交易传闻",
+        "pass": true,
+        "warn": false,
+        "detail": "本轮外部搜索未检出可独立核验的公司层面内幕交易或重大维权公开负面。"
+      },
+      {
+        "item": "基金经理离职风险",
+        "pass": true,
+        "warn": false,
+        "detail": "自2024-06-11以来现任经理未再发生变更，但基金成立以来累计发生过2次经理更替。"
+      },
+      {
+        "item": "管理疲劳风险",
+        "pass": false,
+        "warn": true,
+        "detail": "单宽之当前在管33只基金、836.84亿元，明显高于疲劳观察阈值。"
+      }
+    ]
+  },
+  "policy": {
+    "tags": [
+      {
+        "label": "资源安全",
+        "strength": "high",
+        "color": "#b45309"
+      },
+      {
+        "label": "有色稳增长",
+        "strength": "high",
+        "color": "#dc2626"
+      },
+      {
+        "label": "高端材料升级",
+        "strength": "high",
+        "color": "#0ea5e9"
+      },
+      {
+        "label": "绿色低碳改造",
+        "strength": "medium",
+        "color": "#10b981"
+      }
+    ],
+    "industryOverview": [
+      {
+        "point": "底层跟踪中证细分有色金属产业主题指数",
+        "detail": "对铜、铝、锂、稀土、黄金等细分有色链条具有直接映射作用。"
+      },
+      {
+        "point": "行业稳增长目标明确",
+        "detail": "工信部专项文件提出2025到2026年行业增加值年均增长5%左右、十种有色金属产量年均增长1.5%左右。"
+      },
+      {
+        "point": "板块已经从主升浪切到高位震荡",
+        "detail": "2025Q3、2025Q4到2026Q1的基金表现与市场证据一致，晚2025至2026年1月最强，随后波动显著放大。"
+      }
+    ],
+    "cyclePeriod": "政策红利期",
+    "cycleReason": "有色主题同时受益于2026年政府工作报告中的资源安全与新质生产力主线，以及工信部2025-09专项文件中的行业量化目标。更准确地说，这是中期政策顺风期，但不是短线新催化刚启动的追价窗口。",
+    "fifteenFive": [
+      {
+        "direction": "关键矿产安全保障",
+        "color": "#b45309",
+        "description": "实施新一轮找矿突破战略行动，加强铜、铝、锂、镍、钴、锡等资源调查与勘探。",
+        "holdings": "516650 / 紫金矿业 / 洛阳钼业 / 中国铝业 / 北方稀土"
+      },
+      {
+        "direction": "高端材料突破",
+        "color": "#0ea5e9",
+        "description": "围绕新能源汽车等重点产业链需求，推动超高纯金属、高端稀土新材料和结构功能一体化材料攻关。",
+        "holdings": "北方稀土 / 华友钴业 / 赣锋锂业"
+      },
+      {
+        "direction": "绿色低碳与再生金属",
+        "color": "#10b981",
+        "description": "推进绿电铝、再生金属利用与行业低碳公共服务平台建设。",
+        "holdings": "中国铝业 / 云铝股份 / 516650"
+      }
+    ],
+    "longTermRisks": [
+      {
+        "risk": "商品价格高位回落",
+        "level": "high",
+        "signal": "铜、铝、黄金等核心有色品种若出现持续性回落，基金高弹性会迅速反向伤人。"
+      },
+      {
+        "risk": "全球流动性重新收紧",
+        "level": "medium",
+        "signal": "美联储路径与地缘风险变化会压制风险偏好，并放大有色主题估值波动。"
+      },
+      {
+        "risk": "主题过度集中",
+        "level": "medium",
+        "signal": "目标ETF长期占净值九成以上，任何行业景气切换都会对净值形成集中冲击。"
+      }
+    ],
+    "adaptability": [
+      {
+        "env": "🟢 资源价格上行期",
+        "perf": "高纯度有色联接工具能较完整承接资源股主升浪弹性。",
+        "color": "#22c55e"
+      },
+      {
+        "env": "🟡 政策顺风但价格震荡期",
+        "perf": "政策能提供中期支撑，但收益更多依赖高位震荡中的修复而不是估值快速扩张。",
+        "color": "#f59e0b"
+      },
+      {
+        "env": "🔴 全球流动性收紧期",
+        "perf": "高Beta会放大回撤，基金很难通过主动管理来降低波动。",
+        "color": "#ef4444"
+      },
+      {
+        "env": "⚠️ 商品普跌期",
+        "perf": "金属与能源价格共振回落时，净值可能快速进入深度回撤。",
+        "color": "#f97316"
+      }
+    ],
+    "scenarios": [
+      {
+        "type": "悲观",
+        "probability": 30,
+        "color": "#ef4444",
+        "returnLow": -25,
+        "returnHigh": -10,
+        "trigger": "铜、铝、黄金等有色链条价格明显回落，海外流动性收紧，地缘风险导致风险偏好继续下降。"
+      },
+      {
+        "type": "基准",
+        "probability": 50,
+        "color": "#f59e0b",
+        "returnLow": 0,
+        "returnHigh": 15,
+        "trigger": "资源安全与产业升级政策继续推进，但商品价格高位震荡，基金主要通过时间消化估值。"
+      },
+      {
+        "type": "乐观",
+        "probability": 20,
+        "color": "#22c55e",
+        "returnLow": 20,
+        "returnHigh": 45,
+        "trigger": "有色景气重新强化、资源价格再度上攻、政策与产业需求形成共振，目标ETF再次进入主升浪。"
+      }
+    ],
+    "policyBreakdown": [
+      {
+        "sector": "资源安全与找矿突破",
+        "icon": "⛏️",
+        "color": "#b45309",
+        "logic": "找矿突破与矿产资源保障是有色主题最直接的政策抓手，优先强化铜、铝、锂、镍、钴等资源供给安全。",
+        "stocks": [
+          "华夏中证细分有色金属产业主题ETF(516650)",
+          "紫金矿业",
+          "洛阳钼业",
+          "中国铝业"
+        ]
+      },
+      {
+        "sector": "高端材料与新能源金属",
+        "icon": "🧪",
+        "color": "#0ea5e9",
+        "logic": "高端稀土新材料、锂钴材料与高品质有色原料的攻关突破，为新能源与高端制造链条提供需求牵引。",
+        "stocks": [
+          "北方稀土",
+          "华友钴业",
+          "赣锋锂业"
+        ]
+      },
+      {
+        "sector": "绿色低碳与再生金属",
+        "icon": "♻️",
+        "color": "#10b981",
+        "logic": "绿电铝、再生金属和行业低碳改造说明板块逻辑不只是涨价，也包含结构性升级。",
+        "stocks": [
+          "中国铝业",
+          "云铝股份",
+          "华夏中证细分有色金属产业主题ETF(516650)"
+        ]
+      }
+    ],
+    "dualTimeline": [
+      {
+        "period": "2022-10 → 2023-12",
+        "manager": {
+          "type": "neutral",
+          "event": "建仓后长期处于弱势震荡，主要完成目标ETF暴露建立",
+          "return": "-10.1%（HS300 -10.1%）",
+          "note": "赵宗庭与余昊阶段都未偏离联接框架，产品更多承受主题本身波动。"
+        },
+        "market": {
+          "type": "neutral",
+          "event": "资源主题脉冲后缺乏持续主线，市场在修复与回落之间反复切换",
+          "note": "高纯度联接结构在弱势环境下缺少缓冲。"
+        }
+      },
+      {
+        "period": "2024-01 → 2024-09",
+        "manager": {
+          "type": "highlight",
+          "event": "中报确认目标ETF联接为主，产品定位被正式锁定",
+          "return": "+18.6%（HS300 +18.7%）",
+          "note": "这一阶段更像板块修复，而不是经理主动创造超额。"
+        },
+        "market": {
+          "type": "policy",
+          "event": "板块经历春节后修复、二季度回撤和三季度再反弹",
+          "note": "行业Beta修复存在，但超额释放不充分。"
+        }
+      },
+      {
+        "period": "2024-10 → 2024-12",
+        "manager": {
+          "type": "warning",
+          "event": "继续高比例目标ETF，未主动降仓平滑回撤",
+          "return": "-11.1%（HS300 -2.1%）",
+          "note": "风格切换下，高纯度联接结构把回撤完整传导给持有人。"
+        },
+        "market": {
+          "type": "bear",
+          "event": "市场风险偏好从资源主题切走，主题显著跑输宽基",
+          "note": "这是成立以来典型的主题回撤窗口。"
+        }
+      },
+      {
+        "period": "2025-01 → 2025-12",
+        "manager": {
+          "type": "positive",
+          "event": "接棒后维持高纯度联接结构，完整承接有色主升浪",
+          "return": "+90.5%（HS300 +17.7%）",
+          "note": "2025Q3单季43.22%、2025Q4再涨15.81%，收益主要来自行业Beta。"
+        },
+        "market": {
+          "type": "bull",
+          "event": "金属行情扩散、铜价创新高、政策强化共振，有色资源成为主线",
+          "note": "主升浪阶段是本基金最重要的收益兑现窗口。"
+        }
+      },
+      {
+        "period": "2026-01 → 2026-05",
+        "manager": {
+          "type": "warning",
+          "event": "仍维持高纯度暴露，仅加入少量债券缓冲",
+          "return": "+0.9%（HS300 +3.1%）",
+          "note": "产品从单边上行切入高位震荡，新资金胜率显著下降。"
+        },
+        "market": {
+          "type": "warning",
+          "event": "地缘风险、能源价格和利率预期扰动加大，金属主线进入高位波动",
+          "note": "商品价格与风险偏好一旦共振下行，净值回撤会很快。"
+        }
+      }
+    ],
+    "note": "当前更适合把016708理解为中期政策顺风下的高Beta有色主题工具。长期逻辑尚未被证伪，但高位追价的性价比并不高。"
+  },
+  "tracking": {
+    "weekly": [
+      "净值方向验证：每日净值涨跌是否与目标ETF516650和有色板块走势一致；若持续背离，关注是否发生大额申赎或跟踪误差放大。",
+      "行业核心变量：LME铜价是否持续站稳10000美元/吨上方；若连续两周跌破该区间，需重新评估资源主线强度。",
+      "行业价格指标：锂、稀土、黄金相关价格是否同步走弱；若铜、锂、黄金三条线同时转弱，本基金的多金属逻辑会被显著削弱。",
+      "经理动态：关注季报措辞、ETF工具线产品变动、是否新增过多产品导致管理半径继续扩大。"
+    ],
+    "quarterly": [
+      "持仓变化：目标ETF占净值比例是否仍为主仓位，预期应长期维持在85%以上。",
+      "集中度变化：直持股票占净值比例是否异常放大，通常不应长期超过5%。",
+      "规模变化：概览规模是否单季度大幅缩水或异常膨胀，单季度缩水不宜超过30%。",
+      "同类排名：近1年排名是否持续掉出前50%，最好维持在前30%附近。",
+      "相对收益：对比沪深300与同类平均的超额是否转负并持续2个季度。"
+    ],
+    "alerts": [
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "基金经理更换：对这类高纯度联接工具，经理更换意味着运作与工具线分工可能重排，需重新完整评估。"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "单季度回撤大于-15%且同类排名落入后10%：说明已超出正常商品波动范围。"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "目标ETF占比持续跌破85%：意味着产品工具属性可能发生变化。"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "LME铜价或核心有色品种出现趋势性破位：若资源价格逻辑被证伪，基金弹性会快速反向伤人。"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "公司层面出现新的监管措施或处罚公告：华夏基金已有历史监管事项，若再新增，会明显恶化合规评价。"
+      },
+      {
+        "level": "warning",
+        "icon": "⚠️",
+        "text": "经理在管产品继续显著增加：当前33只已属高位，若继续扩张，管理疲劳风险会上升。"
+      }
+    ]
+  },
+  "exclusionCheck": [
+    {
+      "item": "成立时间是否不足3年",
+      "pass": true,
+      "note": "基金成立于2022-10-18，截至研究日已运行超过3年。"
+    },
+    {
+      "item": "规模是否过小或过大",
+      "pass": true,
+      "note": "当前规模78.48亿元，未触发小于1亿元或大于200亿元的排除红线。"
+    },
+    {
+      "item": "基金经理任职是否不足2年",
+      "pass": false,
+      "note": "现任经理单宽之自2024-06-11开始管理本基金，截至研究日约1.9年，尚未满2年。"
+    },
+    {
+      "item": "近3年业绩是否落入后30%",
+      "pass": true,
+      "note": "近1年排名547/3853、近2年685/2746、近3年216/2116，均未落入同类后30%。"
+    },
+    {
+      "item": "最大回撤是否显著劣于同类",
+      "pass": true,
+      "note": "历史最大回撤-33.21%，对主题工具而言较大但未见显著差于同类20个百分点以上。"
+    },
+    {
+      "item": "基金经理是否在黑名单中",
+      "pass": true,
+      "note": "黑名单核查未命中现任基金经理单宽之。"
+    },
+    {
+      "item": "基金公司是否在黑名单中",
+      "pass": true,
+      "note": "黑名单核查未命中华夏基金。"
+    },
+    {
+      "item": "是否频繁更换基金经理",
+      "pass": true,
+      "note": "成立以来共发生2次正常经理更替，但未见异常频繁更换或失联类风险。"
+    },
+    {
+      "item": "是否存在严重风格漂移",
+      "pass": true,
+      "note": "经理表述与实际持仓主线长期一致，产品始终维持高比例目标ETF联接，未见严重漂移。"
+    },
+    {
+      "item": "费率是否显著高于同类平均",
+      "pass": true,
+      "note": "综合持有成本不算便宜，但未高到构成直接排除条件；相关扣分已在第二章体现。"
+    }
+  ]
+}

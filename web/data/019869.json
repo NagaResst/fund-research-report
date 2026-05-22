@@ -1,0 +1,2290 @@
+{
+  "id": "019869",
+  "meta": {
+    "reportDate": "2026-05-19",
+    "dataDate": "2026-05-18",
+    "disclaimer": "本报告仅供个人学习和信息整理使用，所有分析内容均不构成任何投资建议。投资有风险，入市需谨慎，请依据自身判断做出投资决策。"
+  },
+  "basic": {
+    "code": "019869",
+    "fullName": "华夏中证云计算与大数据主题交易型开放式指数证券投资基金发起式联接基金",
+    "shortName": "华夏云计算与大数据ETF联接C",
+    "type": "指数型",
+    "subType": "被动行业主题指数",
+    "riskLevel": "R3",
+    "riskCode": 3,
+    "foundDate": "2023年11月14日",
+    "manager": "张金志",
+    "companyShort": "华夏基金",
+    "custodian": "中国银行",
+    "benchmark": "中证云计算与大数据主题指数收益率*95%+人民币活期存款税后利率*5%",
+    "navFallback": 1.8371,
+    "navDateFallback": "2026-05-18",
+    "inceptionReturn": 83.71,
+    "status": "开放申购 / 开放赎回"
+  },
+  "fees": {
+    "management": 0.15,
+    "custodian": 0.05,
+    "salesService": 0.3,
+    "subscriptionMax": 0.0,
+    "subscriptionDiscounted": 0.0,
+    "redemptionMax": 1.5,
+    "breakdown": [
+      {
+        "name": "管理费",
+        "value": 0.15
+      },
+      {
+        "name": "托管费",
+        "value": 0.05
+      },
+      {
+        "name": "销售服务费",
+        "value": 0.3
+      },
+      {
+        "name": "申购费",
+        "value": 0.0,
+        "actualRate": 0.0
+      },
+      {
+        "name": "赎回费",
+        "value": 1.5,
+        "rate": 1.5,
+        "rules": [
+          {
+            "label": "持有少于7天",
+            "rate": 1.5
+          },
+          {
+            "label": "持有7天及以上",
+            "rate": 0.0
+          }
+        ],
+        "note": "短期持有惩罚性费率，具体以基金合同为准"
+      }
+    ]
+  },
+  "scale": {
+    "nav": 1.62,
+    "date": "2026-03-31"
+  },
+  "risk": {
+    "volatility": 0.3646,
+    "annualReturn": 0.291,
+    "sharpe": 0.72,
+    "calmar": 0.99,
+    "maxDrawdown": -0.2954,
+    "maxDrawdownPeriod": "2023-12-11 → 2024-02-05",
+    "periodMetrics": [
+      {
+        "label": "近1年",
+        "volatility": 0.3221,
+        "sharpe": 1.91,
+        "maxDrawdown": -0.1971
+      },
+      {
+        "label": "近2年",
+        "volatility": 0.3597,
+        "sharpe": 1.09,
+        "maxDrawdown": -0.2624
+      },
+      {
+        "label": "近3年",
+        "volatility": null,
+        "sharpe": null,
+        "maxDrawdown": null
+      }
+    ],
+    "riskBreakdown": {
+      "yearlyMaxDrawdowns": [
+        {
+          "year": 2026,
+          "fund": 19.71,
+          "hs300": 7.78
+        },
+        {
+          "year": 2025,
+          "fund": 26.24,
+          "hs300": 10.49
+        },
+        {
+          "year": 2024,
+          "fund": 26.77,
+          "hs300": 14.41
+        },
+        {
+          "year": 2023,
+          "fund": 10.76,
+          "hs300": 21.51
+        }
+      ],
+      "volatilityRating": "高波动（36.46%），明显高于宽基指数，属于高弹性主题工具。",
+      "sharpeRating": "近1年夏普1.91显著改善，全期夏普0.72，收益质量依赖主题景气。",
+      "drawdownRating": "历史最大回撤-29.54%，持续约2个月，回撤不小但尚未失控。",
+      "historicalMaxDrawdown": 29.54
+    },
+    "relativeMetrics": {
+      "beta": 1.4931,
+      "alpha": 0.1026,
+      "informationRatio": 0.6667,
+      "trackingError": 0.2631,
+      "r2": 0.541
+    },
+    "navPercentile": 90.4,
+    "radarDimensions": [
+      {
+        "name": "费率性价比",
+        "score": 72
+      },
+      {
+        "name": "跟踪执行",
+        "score": 90
+      },
+      {
+        "name": "风险承载要求",
+        "score": 70
+      },
+      {
+        "name": "主题集中度与外部约束",
+        "score": 75
+      },
+      {
+        "name": "流动性与平台",
+        "score": 93
+      },
+      {
+        "name": "综合评分",
+        "score": 79
+      }
+    ],
+    "maxDrawdownMonths": 2,
+    "recentPerf": [
+      {
+        "period": "近1周",
+        "fund": -1.93,
+        "peer": -2.43,
+        "hs300": -2.39,
+        "excess": 0.46,
+        "rank": 2003,
+        "rankTotal": 5071,
+        "warn": true,
+        "note": "周度修复偏弱，但仍小幅跑赢宽基"
+      },
+      {
+        "period": "近1月",
+        "fund": 3.79,
+        "peer": 3.07,
+        "hs300": 2.22,
+        "excess": 1.57,
+        "rank": 1752,
+        "rankTotal": 5038,
+        "warn": false,
+        "note": "短期仍有正超额"
+      },
+      {
+        "period": "近3月",
+        "fund": 1.37,
+        "peer": 3.46,
+        "hs300": 3.71,
+        "excess": -2.34,
+        "rank": 2874,
+        "rankTotal": 4919,
+        "warn": true,
+        "note": "主升浪后进入高位消化期"
+      },
+      {
+        "period": "近6月",
+        "fund": 18.72,
+        "peer": 10.43,
+        "hs300": 5.81,
+        "excess": 12.91,
+        "rank": 1321,
+        "rankTotal": 4635,
+        "warn": false,
+        "note": "中期修复弹性仍然突出"
+      },
+      {
+        "period": "近1年",
+        "fund": 64.41,
+        "peer": 37.01,
+        "hs300": 24.28,
+        "excess": 40.13,
+        "rank": 864,
+        "rankTotal": 3853,
+        "warn": false,
+        "note": "近1年表现处于同类前23%"
+      },
+      {
+        "period": "近2年",
+        "fund": 101.5,
+        "peer": 52.91,
+        "hs300": 31.42,
+        "excess": 70.08,
+        "rank": 475,
+        "rankTotal": 2746,
+        "warn": false,
+        "note": "两年维度显著跑赢同类与宽基"
+      }
+    ],
+    "riskWarnings": [
+      {
+        "level": "high",
+        "text": "高Beta与高波动会在风格切换时放大净值回撤。",
+        "category": "内部"
+      },
+      {
+        "level": "medium",
+        "text": "当前净值位于历史高位区间，新资金追高后的赔率并不优。",
+        "category": "内部"
+      },
+      {
+        "level": "medium",
+        "text": "经理在管30只基金且产品结构单一，申赎与管理负荷都可能放大波动。",
+        "category": "内部"
+      },
+      {
+        "level": "high",
+        "text": "贸易战、地缘风险与全球流动性预期反复，会直接压制科技成长估值。",
+        "category": "外部"
+      }
+    ]
+  },
+  "holdings": {
+    "date": "2025-09-30",
+    "top10": [
+      {
+        "rank": 1,
+        "name": "华夏中证云计算与大数据主题ETF",
+        "code": "516630",
+        "ratio": 94.93,
+        "sector": "目标ETF核心仓位",
+        "color": "#3b82f6"
+      },
+      {
+        "rank": 2,
+        "name": "云天励飞",
+        "code": "688343",
+        "ratio": 0.0,
+        "sector": "AI边缘算力",
+        "color": "#60a5fa"
+      },
+      {
+        "rank": 3,
+        "name": "金山办公",
+        "code": "688111",
+        "ratio": 0.0,
+        "sector": "云办公软件",
+        "color": "#8b5cf6"
+      },
+      {
+        "rank": 4,
+        "name": "中科星图",
+        "code": "688568",
+        "ratio": 0.0,
+        "sector": "时空数据应用",
+        "color": "#14b8a6"
+      },
+      {
+        "rank": 5,
+        "name": "奇安信",
+        "code": "688561",
+        "ratio": 0.0,
+        "sector": "网络安全",
+        "color": "#f97316"
+      }
+    ],
+    "top10Total": 94.94,
+    "top10TotalRatio": 94.94,
+    "sectors": [
+      {
+        "name": "目标ETF核心仓位",
+        "ratio": 94.93
+      },
+      {
+        "name": "零星直持股票",
+        "ratio": 0.01
+      }
+    ],
+    "stockRatio": 94.94,
+    "bondRatio": 0.0,
+    "cashRatio": 5.06,
+    "themeTitle": "AI算力基础设施 + 云服务软件 + 数据安全",
+    "themeSubtitle": "目标ETF约94.93%，联接结构极致纯粹",
+    "concentrationLabel": "目标ETF单一核心仓位",
+    "themeGroups": [
+      {
+        "name": "目标ETF核心暴露",
+        "color": "#3b82f6",
+        "ratio": 94.93,
+        "stocks": "516630（穿透为中证云计算与大数据主题指数50只样本股）",
+        "note": "真正决定基金净值弹性的，是目标ETF代表的云计算与大数据主题指数样本股，而不是联接基金表面的零星直持股票。"
+      },
+      {
+        "name": "云办公与软件平台残余仓位",
+        "color": "#8b5cf6",
+        "ratio": 0.01,
+        "stocks": "金山办公",
+        "note": "更多体现企业数字化与云协同方向，但对净值贡献极小。"
+      },
+      {
+        "name": "AI应用与数据智能残余仓位",
+        "color": "#14b8a6",
+        "ratio": 0.01,
+        "stocks": "云天励飞 / 中科星图",
+        "note": "偏应用层和数据处理能力，符合大数据与AI主题外延。"
+      },
+      {
+        "name": "信息安全残余仓位",
+        "color": "#f97316",
+        "ratio": 0.0,
+        "stocks": "奇安信",
+        "note": "数据基础设施与数据安全不可分割，属于云计算生态中的配套能力。"
+      }
+    ],
+    "evolutionHighlights": [
+      {
+        "quarter": "2023Q4",
+        "type": "neutral",
+        "change": "初始建仓，联接框架确立",
+        "return": "-3.92%",
+        "theme": "建仓期",
+        "insight": "成立当季完成目标ETF建仓，样本仍少。"
+      },
+      {
+        "quarter": "2024Q1",
+        "type": "warning",
+        "change": "继续围绕目标ETF建仓",
+        "return": "-2.28%",
+        "theme": "流动性冲击",
+        "insight": "建仓期叠加成长风格流动性冲击，主题波动被放大。"
+      },
+      {
+        "quarter": "2024Q2",
+        "type": "warning",
+        "change": "维持联接结构",
+        "return": "-8.03%",
+        "theme": "磨底",
+        "insight": "经济复苏偏缓与北向流出下，成长主题继续承压。"
+      },
+      {
+        "quarter": "2024Q3",
+        "type": "positive",
+        "change": "维持90%+目标ETF暴露",
+        "return": "+18.38%",
+        "theme": "政策修复",
+        "insight": "9月末政策修复带动主题急弹，被动结构反而完整承接反弹。"
+      },
+      {
+        "quarter": "2024Q4",
+        "type": "positive",
+        "change": "继续高比例联接",
+        "return": "+9.81%",
+        "theme": "科技修复",
+        "insight": "政策预期改善后科技风格受益，联接纯度保持稳定。"
+      },
+      {
+        "quarter": "2025Q1",
+        "type": "positive",
+        "change": "高纯度暴露延续",
+        "return": "+4.80%",
+        "theme": "AI主线",
+        "insight": "AI与云计算主线延续，基金继续保持高纯度工具属性。"
+      },
+      {
+        "quarter": "2025Q2",
+        "type": "neutral",
+        "change": "联接结构延续并保留小额缓冲",
+        "return": "+0.65%",
+        "theme": "外部扰动",
+        "insight": "贸易与外部风险扰动加大，但组合没有改变主线。"
+      },
+      {
+        "quarter": "2025Q3",
+        "type": "positive",
+        "change": "目标ETF约94.93%，主升浪爆发",
+        "return": "+37.63%",
+        "theme": "主升浪",
+        "insight": "新经理接棒但结构不变，主升浪成为成立以来最强单季之一。"
+      },
+      {
+        "quarter": "2025Q4",
+        "type": "neutral",
+        "change": "高位整固，目标ETF+国债缓冲",
+        "return": "+0.52%",
+        "theme": "高位震荡",
+        "insight": "主题未变但节奏放缓，更多体现高位整固而非趋势逆转。"
+      },
+      {
+        "quarter": "2026Q1",
+        "type": "warning",
+        "change": "联接结构延续，承受外部冲击",
+        "return": "-3.06%",
+        "theme": "外部风险回撤",
+        "insight": "中东与通胀扰动引发回撤，但相对宽基仍保持正超额。"
+      },
+      {
+        "quarter": "2026Q2",
+        "type": "positive",
+        "change": "主题修复反弹",
+        "return": "+12.87%",
+        "theme": "修复",
+        "insight": "截至5月18日已明显修复，说明产业主线仍未被证伪。"
+      }
+    ],
+    "policyLinks": [
+      {
+        "sector": "算力与云基础设施",
+        "color": "#3b82f6",
+        "stocks": "516630 / 云天励飞 / 中科星图",
+        "policyNote": "《算力基础设施高质量发展行动计划》把算力中心、网络运载和数据存储作为一体推进，对基金核心暴露方向构成中长期底层逻辑。"
+      },
+      {
+        "sector": "数据平台与信息安全",
+        "color": "#14b8a6",
+        "stocks": "金山办公 / 奇安信",
+        "policyNote": "《国家数据基础设施建设指引》推动数据共享流通与安全配套，利好云服务、平台软件与安全链条。"
+      }
+    ]
+  },
+  "performance": {
+    "stages": [
+      {
+        "period": "近1周",
+        "fund": -1.93,
+        "peer": -2.43,
+        "hs300": -2.39,
+        "rank": 2003,
+        "rankTotal": 5071,
+        "quartile": null
+      },
+      {
+        "period": "近1月",
+        "fund": 3.79,
+        "peer": 3.07,
+        "hs300": 2.22,
+        "rank": 1752,
+        "rankTotal": 5038,
+        "quartile": null
+      },
+      {
+        "period": "近3月",
+        "fund": 1.37,
+        "peer": 3.46,
+        "hs300": 3.71,
+        "rank": 2874,
+        "rankTotal": 4919,
+        "quartile": null
+      },
+      {
+        "period": "近6月",
+        "fund": 18.72,
+        "peer": 10.43,
+        "hs300": 5.81,
+        "rank": 1321,
+        "rankTotal": 4635,
+        "quartile": null
+      },
+      {
+        "period": "近1年",
+        "fund": 64.41,
+        "peer": 37.01,
+        "hs300": 24.28,
+        "rank": 864,
+        "rankTotal": 3853,
+        "quartile": null
+      },
+      {
+        "period": "近2年",
+        "fund": 101.5,
+        "peer": 52.91,
+        "hs300": 31.42,
+        "rank": 475,
+        "rankTotal": 2746,
+        "quartile": null
+      },
+      {
+        "period": "今年来",
+        "fund": 12.14,
+        "peer": 8.67,
+        "hs300": 4.4,
+        "rank": 1713,
+        "rankTotal": 4796,
+        "quartile": null
+      },
+      {
+        "period": "成立来",
+        "fund": 83.71,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      }
+    ],
+    "annual": [
+      {
+        "year": 2023,
+        "fund": -3.92,
+        "peer": -8.28,
+        "hs300": -11.38,
+        "rank": null,
+        "rankTotal": 2655,
+        "quartile": "---"
+      },
+      {
+        "year": 2024,
+        "fund": 16.83,
+        "peer": 11.37,
+        "hs300": 14.68,
+        "rank": 757,
+        "rankTotal": 3464,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2025,
+        "fund": 45.94,
+        "peer": 28.14,
+        "hs300": 17.66,
+        "rank": 602,
+        "rankTotal": 4812,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2026,
+        "fund": 12.14,
+        "peer": 8.67,
+        "hs300": 4.4,
+        "rank": 1713,
+        "rankTotal": 4796,
+        "quartile": null
+      }
+    ],
+    "quarterly": [
+      {
+        "year": 2023,
+        "quarter": "2023Q4",
+        "fund": -3.92,
+        "peer": null,
+        "hs300": -6.88,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q1",
+        "fund": -2.28,
+        "peer": null,
+        "hs300": 4.46,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q2",
+        "fund": -8.03,
+        "peer": -3.66,
+        "hs300": -2.14,
+        "rank": 2163,
+        "rankTotal": 3014,
+        "quartile": "一般"
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q3",
+        "fund": 18.38,
+        "peer": 17.13,
+        "hs300": 16.07,
+        "rank": 1017,
+        "rankTotal": 3130,
+        "quartile": "良好"
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q4",
+        "fund": 9.81,
+        "peer": 0.65,
+        "hs300": -2.06,
+        "rank": 307,
+        "rankTotal": 3464,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q1",
+        "fund": 4.8,
+        "peer": 2.45,
+        "hs300": -1.21,
+        "rank": 879,
+        "rankTotal": 3635,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q2",
+        "fund": 0.65,
+        "peer": 2.65,
+        "hs300": 1.25,
+        "rank": 2593,
+        "rankTotal": 4076,
+        "quartile": "一般"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q3",
+        "fund": 37.63,
+        "peer": 23.0,
+        "hs300": 17.9,
+        "rank": 902,
+        "rankTotal": 4523,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q4",
+        "fund": 0.52,
+        "peer": -0.94,
+        "hs300": -0.23,
+        "rank": 1959,
+        "rankTotal": 4812,
+        "quartile": "良好"
+      },
+      {
+        "year": 2026,
+        "quarter": "2026Q1",
+        "fund": -3.06,
+        "peer": -1.57,
+        "hs300": -3.89,
+        "rank": 3018,
+        "rankTotal": 4960,
+        "quartile": "一般"
+      },
+      {
+        "year": 2026,
+        "quarter": "2026Q2",
+        "fund": 12.87,
+        "peer": null,
+        "hs300": 6.79,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      }
+    ],
+    "milestones": [
+      {
+        "date": "2023-11-14",
+        "nav": 1.0,
+        "label": "基金成立",
+        "type": "neutral"
+      },
+      {
+        "date": "2024-02-05",
+        "nav": 0.7265,
+        "label": "历史最低点",
+        "type": "low"
+      },
+      {
+        "date": "2024-03-18",
+        "nav": 1.0128,
+        "label": "低点后首次回到面值",
+        "type": "neutral"
+      },
+      {
+        "date": "2024-10-08",
+        "nav": 1.1457,
+        "label": "首次突破建仓区前高",
+        "type": "peak"
+      },
+      {
+        "date": "2025-08-22",
+        "nav": 1.5111,
+        "label": "首次站上1.5元",
+        "type": "peak"
+      },
+      {
+        "date": "2026-01-14",
+        "nav": 1.9554,
+        "label": "历史最高点",
+        "type": "peak"
+      },
+      {
+        "date": "2026-05-18",
+        "nav": 1.8371,
+        "label": "当前净值",
+        "type": "current"
+      }
+    ]
+  },
+  "stageAnalysis": {
+    "inflectionPoints": [
+      {
+        "id": 1,
+        "stageId": 1,
+        "startDate": "2023-12-11",
+        "endDate": "2024-02-05",
+        "startNav": 1.0311,
+        "endNav": 0.7265,
+        "changePct": -29.54,
+        "type": "trough",
+        "holdingsSummary": "建仓期维持约94.65%目标ETF，高纯度联接结构放大回撤。",
+        "env": "2024Q1季报指出年初小盘股下跌引发流动性负向反馈，成长风格系统性杀估值。",
+        "managerAction": "赵宗庭阶段仍按指数联接框架运作，重点是跟踪与申赎应对。",
+        "attribution": "Beta冲击主导，建仓期的结构磨合放大了回撤。"
+      },
+      {
+        "id": 2,
+        "stageId": 1,
+        "startDate": "2024-02-05",
+        "endDate": "2024-03-20",
+        "startNav": 0.7265,
+        "endNav": 1.0195,
+        "changePct": 40.33,
+        "type": "peak",
+        "holdingsSummary": "继续高比例持有目标ETF，完整承接主题反弹。",
+        "env": "风险偏好回升后，成长主题迎来V型修复。",
+        "managerAction": "组合没有切到防御资产，仍以目标ETF联接为主。",
+        "attribution": "标准的行业Beta修复波，完整吃到主题反弹。"
+      },
+      {
+        "id": 3,
+        "stageId": 1,
+        "startDate": "2024-03-20",
+        "endDate": "2024-04-23",
+        "startNav": 1.0195,
+        "endNav": 0.8655,
+        "changePct": -15.11,
+        "type": "trough",
+        "holdingsSummary": "继续高比例联接目标ETF，未主动切向防御。",
+        "env": "经济复苏偏缓、北向资金净流出与风格轮动加快，A股运行偏弱。",
+        "managerAction": "2024Q2继续维持联接结构，产品属性保持纯粹。",
+        "attribution": "主题回吐更像Beta回撤而非管理失真。"
+      },
+      {
+        "id": 4,
+        "stageId": 1,
+        "startDate": "2024-04-23",
+        "endDate": "2024-04-29",
+        "startNav": 0.8655,
+        "endNav": 0.9528,
+        "changePct": 10.09,
+        "type": "peak",
+        "holdingsSummary": "联接结构不变，短线反弹主要来自指数自身修复。",
+        "env": "弱势震荡阶段中，成长板块出现脉冲式修复。",
+        "managerAction": "维持联接结构，没有通过主动仓位择时放大收益。",
+        "attribution": "属于主题波动中的交易性修复。"
+      },
+      {
+        "id": 5,
+        "stageId": 2,
+        "startDate": "2024-04-29",
+        "endDate": "2024-09-09",
+        "startNav": 0.9528,
+        "endNav": 0.7466,
+        "changePct": -21.64,
+        "type": "trough",
+        "holdingsSummary": "持续以目标ETF承受成长风格下行，没有主动偏离主题。",
+        "env": "银行、公用事业等高股息板块走强，计算机、传媒等成长板块持续失血。",
+        "managerAction": "联接基金没有主动偏离主题，主要依靠目标ETF承受回撤。",
+        "attribution": "无政策催化时，主题工具的高弹性反向伤人。"
+      },
+      {
+        "id": 6,
+        "stageId": 2,
+        "startDate": "2024-09-09",
+        "endDate": "2024-10-08",
+        "startNav": 0.7466,
+        "endNav": 1.1457,
+        "changePct": 53.46,
+        "type": "peak",
+        "holdingsSummary": "目标ETF占净值约93.16%，几乎满幅承接政策修复。",
+        "env": "超十项金融支持经济高质量发展的政策集中宣布，A股风险偏好大幅提振。",
+        "managerAction": "2024Q3继续保持目标ETF高仓位，没有降仓。",
+        "attribution": "政策与风险偏好共振下的强Beta行情。"
+      },
+      {
+        "id": 7,
+        "stageId": 2,
+        "startDate": "2024-10-08",
+        "endDate": "2024-10-11",
+        "startNav": 1.1457,
+        "endNav": 1.0062,
+        "changePct": -12.18,
+        "type": "trough",
+        "holdingsSummary": "维持联接结构，高位回吐阶段未主动减仓。",
+        "env": "9月末急涨后市场进入获利回吐阶段，属于政策修复后的第一轮高波动消化。",
+        "managerAction": "经理仍以跟踪为主，没有把产品向择时工具转变。",
+        "attribution": "高波动回吐但仍属于政策修复后的正常消化。"
+      },
+      {
+        "id": 8,
+        "stageId": 2,
+        "startDate": "2024-10-11",
+        "endDate": "2024-11-13",
+        "startNav": 1.0062,
+        "endNav": 1.2827,
+        "changePct": 27.48,
+        "type": "peak",
+        "holdingsSummary": "目标ETF占净值约94.51%，继续吃到科技修复收益。",
+        "env": "政策支持和市场预期改善推动A股活跃，科技及消费板块表现突出。",
+        "managerAction": "继续保持联接纯度，没有主动偏离。",
+        "attribution": "典型的政策修复延续段，科技风格重新走强。"
+      },
+      {
+        "id": 9,
+        "stageId": 3,
+        "startDate": "2024-11-13",
+        "endDate": "2025-01-10",
+        "startNav": 1.2827,
+        "endNav": 1.0139,
+        "changePct": -20.96,
+        "type": "trough",
+        "holdingsSummary": "赵宗庭末期仍维持联接框架，缺少主动防守。",
+        "env": "高端制造、红利资产及周期板块成为市场焦点，计算机与传媒等主题成长承压。",
+        "managerAction": "赵宗庭阶段末期仍保持高纯度联接，没有主动收缩风险暴露。",
+        "attribution": "风格切换中的主题回撤较深，防御能力弱。"
+      },
+      {
+        "id": 10,
+        "stageId": 3,
+        "startDate": "2025-01-10",
+        "endDate": "2025-02-21",
+        "startNav": 1.0139,
+        "endNav": 1.388,
+        "changePct": 36.9,
+        "type": "peak",
+        "holdingsSummary": "2025Q1目标ETF约94.71%，高纯度暴露参与AI反弹。",
+        "env": "稳增长政策推动宏观经济企稳回升，小盘与成长风格重新占优。",
+        "managerAction": "继续保持高纯度联接结构参与成长行情。",
+        "attribution": "AI主题预期强化，带来一段显著的超额修复。"
+      },
+      {
+        "id": 11,
+        "stageId": 3,
+        "startDate": "2025-02-21",
+        "endDate": "2025-04-07",
+        "startNav": 1.388,
+        "endNav": 1.0238,
+        "changePct": -26.24,
+        "type": "trough",
+        "holdingsSummary": "主题仓位高且结构未变，下跌阶段没有主动保护垫。",
+        "env": "市场出现分化，随后进入贸易与外部风险扰动期。",
+        "managerAction": "联接基金结构未见显著变化，继续承受主题下行。",
+        "attribution": "高位回撤凶猛，承担了主题下行的全部冲击。"
+      },
+      {
+        "id": 12,
+        "stageId": 3,
+        "startDate": "2025-04-07",
+        "endDate": "2025-09-01",
+        "startNav": 1.0238,
+        "endNav": 1.652,
+        "changePct": 61.36,
+        "type": "peak",
+        "holdingsSummary": "张金志接任后仍维持目标ETF约94.93%，执行延续性强。",
+        "env": "财政与货币政策协同发力，外部风险不确定性降低，市场风险偏好整体升温。",
+        "managerAction": "2025-06-03张金志接任，但并未改变产品结构。",
+        "attribution": "全样本最强主升浪之一，主要来自主题景气和风险偏好共振。"
+      },
+      {
+        "id": 13,
+        "stageId": 4,
+        "startDate": "2025-09-01",
+        "endDate": "2025-09-04",
+        "startNav": 1.652,
+        "endNav": 1.4657,
+        "changePct": -11.28,
+        "type": "trough",
+        "holdingsSummary": "高位洗盘期仍按联接框架运行，没有风格漂移。",
+        "env": "主升浪中的急跌洗盘，体现高弹性主题在高位区的天然波动。",
+        "managerAction": "2025Q3季报仍强调以跟踪标的指数为核心。",
+        "attribution": "属于高位震荡的正常代价，而非产品失真。"
+      },
+      {
+        "id": 14,
+        "stageId": 4,
+        "startDate": "2025-09-04",
+        "endDate": "2025-09-25",
+        "startNav": 1.4657,
+        "endNav": 1.6767,
+        "changePct": 14.4,
+        "type": "peak",
+        "holdingsSummary": "目标ETF高比例持有，使组合迅速回到上升通道。",
+        "env": "通信、电子、电气设备等行业领涨，主题继续获资金偏好加持。",
+        "managerAction": "继续维持目标ETF高比例持仓。",
+        "attribution": "强势主题中的二次上冲，显示趋势尚未结束。"
+      },
+      {
+        "id": 15,
+        "stageId": 4,
+        "startDate": "2025-09-25",
+        "endDate": "2025-10-17",
+        "startNav": 1.6767,
+        "endNav": 1.4832,
+        "changePct": -11.54,
+        "type": "trough",
+        "holdingsSummary": "仍是被动联接框架，没有主动降波动工具。",
+        "env": "高位情绪降温，市场开始在成长与红利、周期之间切换。",
+        "managerAction": "经理继续保持被动联接结构，没有主动降仓。",
+        "attribution": "一旦主题风格切出，回撤会快于宽基。"
+      },
+      {
+        "id": 16,
+        "stageId": 4,
+        "startDate": "2025-10-17",
+        "endDate": "2025-10-29",
+        "startNav": 1.4832,
+        "endNav": 1.6624,
+        "changePct": 12.08,
+        "type": "peak",
+        "holdingsSummary": "维持高纯度联接结构，继续完整暴露于主题上涨。",
+        "env": "主题情绪短暂恢复，高景气成长风格再度上行。",
+        "managerAction": "没有改变高纯度联接框架。",
+        "attribution": "更像震荡中的短段拉升，说明主线尚有弹性。"
+      },
+      {
+        "id": 17,
+        "stageId": 5,
+        "startDate": "2025-10-29",
+        "endDate": "2025-11-21",
+        "startNav": 1.6624,
+        "endNav": 1.4823,
+        "changePct": -10.83,
+        "type": "trough",
+        "holdingsSummary": "2025Q4目标ETF约95.03%，震荡整固中没有主动离场迹象。",
+        "env": "市场冲高回落后进入震荡整固，计算机与传媒等行业相对偏弱。",
+        "managerAction": "继续维持目标ETF高比例持有。",
+        "attribution": "震荡整固期的小周期回撤，主题波动仍快于宽基。"
+      },
+      {
+        "id": 18,
+        "stageId": 5,
+        "startDate": "2025-11-21",
+        "endDate": "2026-01-14",
+        "startNav": 1.4823,
+        "endNav": 1.9554,
+        "changePct": 31.92,
+        "type": "peak",
+        "holdingsSummary": "年底依旧是目标ETF为核心、国债小幅缓冲的标准联接结构。",
+        "env": "高端制造、红利资产及周期板块成为市场焦点，但云计算主线仍维持较强弹性。",
+        "managerAction": "张金志没有改变组合主线，只保持联接效率。",
+        "attribution": "冲出历史新高的一段强势波，显示主题景气仍具持续性。"
+      },
+      {
+        "id": 19,
+        "stageId": 5,
+        "startDate": "2026-01-14",
+        "endDate": "2026-04-02",
+        "startNav": 1.9554,
+        "endNav": 1.57,
+        "changePct": -19.71,
+        "type": "trough",
+        "holdingsSummary": "2026Q1目标ETF约94.93%，期末未持有股票，执行上仍是标准联接框架。",
+        "env": "中东地缘危机与原油暴涨抬升全球输入型通胀预期，外部风险压制估值。",
+        "managerAction": "组合没有主动偏离主题，只维持复制效率。",
+        "attribution": "外部风险引发的主题回撤，净值绝对跌幅不小但相对宽基仍有超额。"
+      },
+      {
+        "id": 20,
+        "stageId": 5,
+        "startDate": "2026-04-02",
+        "endDate": "2026-05-13",
+        "startNav": 1.57,
+        "endNav": 1.9112,
+        "changePct": 21.73,
+        "type": "peak",
+        "holdingsSummary": "联接结构延续，产品重新随主题景气反弹。",
+        "env": "国内经济数据强劲支撑A股表现优于欧美市场，为二季度修复提供基础。",
+        "managerAction": "基金继续保持目标ETF核心仓位，随主题修复同步反弹。",
+        "attribution": "外部冲击后的二次修复，说明产业主线未断时高弹性工具仍有很强修复能力。"
+      }
+    ],
+    "totalInflectionPoints": 20,
+    "stages": [
+      {
+        "id": 1,
+        "name": "建仓与流动性冲击",
+        "emoji": "🔴",
+        "period": "2023-12 → 2024-04",
+        "returnPct": -7.6,
+        "hs300Pct": 6.0,
+        "excessPct": -13.6,
+        "driverType": "double_loss",
+        "driverLabel": "🔴 Beta+Alpha双损",
+        "color": "#ef4444",
+        "description": "基金成立不久即遭遇成长风格流动性冲击，建仓期的结构磨合放大了主题回撤，阶段性明显跑输沪深300。",
+        "env": "2024年初小盘成长股出现流动性负向反馈，主题估值系统性下杀。",
+        "managerAction": "赵宗庭阶段以目标ETF高比例联接为主，重点仍是建仓与日常申赎应对。",
+        "attribution": "建仓期叠加主题Beta下行，净值承受了指数冲击与结构磨合的双重压力。"
+      },
+      {
+        "id": 2,
+        "name": "磨底后的政策修复",
+        "emoji": "🟢",
+        "period": "2024-04 → 2024-11",
+        "returnPct": 34.6,
+        "hs300Pct": 13.4,
+        "excessPct": 21.2,
+        "driverType": "beta",
+        "driverLabel": "🌊 行业Beta主导",
+        "color": "#22c55e",
+        "description": "2024Q2市场仍偏弱，但2024Q3的政策组合拳成为估值修复催化，基金靠90%+目标ETF联接结构放大了成长风格反弹。",
+        "env": "政策支持经济高质量发展的多项措施集中落地，风险偏好阶段性回升。",
+        "managerAction": "组合始终维持高比例目标ETF联接，没有主动切向防御资产。",
+        "attribution": "修复的主要来源是云计算与大数据主题Beta重新定价，而非主动择时。"
+      },
+      {
+        "id": 3,
+        "name": "AI主线确认与主题主升浪",
+        "emoji": "🟢",
+        "period": "2024-11 → 2025-09",
+        "returnPct": 28.8,
+        "hs300Pct": 10.0,
+        "excessPct": 18.7,
+        "driverType": "beta",
+        "driverLabel": "🌊 行业Beta主导",
+        "color": "#22c55e",
+        "description": "AI与云计算预期成为资金主线，基金在2025Q3录得37.63%的单季大涨，是成立以来最核心的赚钱窗口。",
+        "env": "成长和中小盘风格重新占优，AI算力与云计算主线强化。",
+        "managerAction": "2025-06-03张金志接任后延续高纯度联接框架，没有改变产品定位。",
+        "attribution": "主题景气强化带来的行业Beta扩张，是超额收益的主要来源。"
+      },
+      {
+        "id": 4,
+        "name": "高位震荡与风格切换消化",
+        "emoji": "🟡",
+        "period": "2025-09 → 2025-10",
+        "returnPct": 0.6,
+        "hs300Pct": 5.0,
+        "excessPct": -4.3,
+        "driverType": "both",
+        "driverLabel": "🔄 风格切换期",
+        "color": "#f59e0b",
+        "description": "主题快速拉升后，市场开始在高端制造、红利、周期与成长之间切换，基金在高位整固期相对短暂落后于沪深300。",
+        "env": "高位区资金开始从高弹性成长向其他风格轮动，科技主题进入消化阶段。",
+        "managerAction": "基金维持被动联接结构，没有主动降低波动。",
+        "attribution": "主线尚未证伪，但高位风格切换让主题工具的波动性重新显露。"
+      },
+      {
+        "id": 5,
+        "name": "外部冲击后的二次修复",
+        "emoji": "🟢",
+        "period": "2025-10 → 2026-05",
+        "returnPct": 15.0,
+        "hs300Pct": 5.3,
+        "excessPct": 9.7,
+        "driverType": "beta",
+        "driverLabel": "🌊 行业Beta主导",
+        "color": "#22c55e",
+        "description": "2026Q1先受地缘风险与全球流动性扰动影响回撤，但2026Q2截至5月18日又快速修复，说明高景气主线仍具韧性。",
+        "env": "外部风险冲击与国内经济修复并存，科技成长经历先压制后修复。",
+        "managerAction": "张金志继续维持目标ETF高比例联接结构，产品重新随主题景气反弹。",
+        "attribution": "外部扰动压估值、产业主线托弹性，最终表现为高位震荡后的再修复。"
+      }
+    ]
+  },
+  "managers": {
+    "current": {
+      "managerId": "30848147",
+      "allManagerIds": [
+        "30848147",
+        "30528266"
+      ],
+      "name": "张金志",
+      "fundCount": 30,
+      "totalScale": 35.87,
+      "historicalFunds": [
+        {
+          "name": "华夏创业板综合ETF发起式联接A",
+          "code": "021367",
+          "type": "指数型-股票",
+          "tenure": "2025-10-13 ~ 至今",
+          "return": 18.03,
+          "rank": 1038,
+          "rankTotal": 3853,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "华夏中证全指医疗器械ETF发起式联接A",
+          "code": "021250",
+          "type": "指数型-股票",
+          "tenure": "2025-10-13 ~ 至今",
+          "return": -13.99,
+          "rank": 3524,
+          "rankTotal": 3853,
+          "grade": "weak",
+          "isCurrent": true
+        },
+        {
+          "name": "医疗器械ETF华夏",
+          "code": "562600",
+          "type": "指数型-股票",
+          "tenure": "2025-10-13 ~ 至今",
+          "return": -13.93,
+          "rank": 3429,
+          "rankTotal": 3853,
+          "grade": "weak",
+          "isCurrent": true
+        },
+        {
+          "name": "创业板综ETF华夏",
+          "code": "159563",
+          "type": "指数型-股票",
+          "tenure": "2025-10-13 ~ 至今",
+          "return": 19.6,
+          "rank": 930,
+          "rankTotal": 3853,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "中证1000成长ETF华夏",
+          "code": "562520",
+          "type": "指数型-股票",
+          "tenure": "2025-09-09 ~ 至今",
+          "return": 20.34,
+          "rank": 1395,
+          "rankTotal": 3853,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "中证1000价值ETF华夏",
+          "code": "562530",
+          "type": "指数型-股票",
+          "tenure": "2025-09-09 ~ 至今",
+          "return": 1.42,
+          "rank": 2820,
+          "rankTotal": 3853,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "公用事业ETF华夏",
+          "code": "159301",
+          "type": "指数型-股票",
+          "tenure": "2025-09-09 ~ 至今",
+          "return": 9.62,
+          "rank": 2855,
+          "rankTotal": 3853,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "华夏创业板指数发起式A",
+          "code": "020870",
+          "type": "指数型-股票",
+          "tenure": "2025-09-09 ~ 至今",
+          "return": 34.22,
+          "rank": 378,
+          "rankTotal": 3853,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "华夏中证农业主题ETF发起联接A",
+          "code": "016077",
+          "type": "指数型-股票",
+          "tenure": "2025-09-09 ~ 至今",
+          "return": -4.95,
+          "rank": 2993,
+          "rankTotal": 3853,
+          "grade": "weak",
+          "isCurrent": true
+        },
+        {
+          "name": "华夏中证智选1000价值稳健策略ETF发起式联接A",
+          "code": "018732",
+          "type": "指数型-股票",
+          "tenure": "2025-09-09 ~ 至今",
+          "return": 1.01,
+          "rank": 2869,
+          "rankTotal": 3853,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "华夏中证智选1000成长创新策略ETF发起式联接A",
+          "code": "018334",
+          "type": "指数型-股票",
+          "tenure": "2025-09-09 ~ 至今",
+          "return": 18.47,
+          "rank": 1536,
+          "rankTotal": 3853,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "农业ETF华夏",
+          "code": "516810",
+          "type": "指数型-股票",
+          "tenure": "2025-07-29 ~ 至今",
+          "return": 1.76,
+          "rank": 2859,
+          "rankTotal": 3853,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "华夏房地产ETF联接A",
+          "code": "008088",
+          "type": "指数型-股票",
+          "tenure": "2025-06-03 ~ 至今",
+          "return": 6.17,
+          "rank": 3169,
+          "rankTotal": 3853,
+          "grade": "weak",
+          "isCurrent": true
+        },
+        {
+          "name": "华夏沪深300ESG基准ETF发起式联接A",
+          "code": "020868",
+          "type": "指数型-股票",
+          "tenure": "2025-06-03 ~ 至今",
+          "return": 22.79,
+          "rank": 2548,
+          "rankTotal": 3853,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "云计算ETF华夏",
+          "code": "516630",
+          "type": "指数型-股票",
+          "tenure": "2025-06-03 ~ 至今",
+          "return": 75.39,
+          "rank": 749,
+          "rankTotal": 3853,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "300ESGETF华夏",
+          "code": "159791",
+          "type": "指数型-股票",
+          "tenure": "2025-06-03 ~ 至今",
+          "return": 24.48,
+          "rank": 2467,
+          "rankTotal": 3853,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "华夏云计算与大数据ETF联接A",
+          "code": "019868",
+          "type": "指数型-股票",
+          "tenure": "2025-06-03 ~ 至今",
+          "return": 69.46,
+          "rank": 853,
+          "rankTotal": 3853,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "房地产ETF华夏",
+          "code": "515060",
+          "type": "指数型-股票",
+          "tenure": "2025-06-03 ~ 至今",
+          "return": 6.45,
+          "rank": 3158,
+          "rankTotal": 3853,
+          "grade": "weak",
+          "isCurrent": true
+        }
+      ],
+      "bestReturn": 75.39,
+      "worstReturn": -13.99,
+      "manageDate": "2025-06-03",
+      "manageYears": 1.0,
+      "tenureReturn": 68.96,
+      "rankInPeer": "前22%（864/3853）",
+      "rankTotal": 3853,
+      "education": "硕士；曾任南方基金指数及量化研究员、华宝基金基金经理助理等",
+      "joinDate": "2024-12",
+      "experience": "约1.0年（AKShare口径）；季报披露证券从业6年",
+      "title": "基金经理",
+      "style": "被动指数",
+      "peerAvgReturn": 37.01,
+      "philosophy": [
+        {
+          "label": "核心投资理念",
+          "text": "围绕底层指数和目标ETF做高纯度复制，核心目标是控制跟踪误差和跟踪偏离，而非主动择股。"
+        },
+        {
+          "label": "选股方法论",
+          "text": "本基金真正的选股来自目标ETF跟踪的中证云计算与大数据主题指数50只样本股，而不是经理主观筛股。"
+        },
+        {
+          "label": "仓位管理风格",
+          "text": "长期维持目标ETF 90%+高仓位，辅以现金和少量国债应对申赎冲击，主动择时特征很弱。"
+        },
+        {
+          "label": "风格稳定性",
+          "text": "从赵宗庭到张金志，季报措辞与持仓结构高度一致，产品始终是标准联接基金，并未发生风格漂移。"
+        }
+      ],
+      "consistencyAudit": [
+        {
+          "period": "2024年Q2·成长风格回撤期",
+          "result": "pass",
+          "label": "一致",
+          "stated": "本基金在做好跟踪标的指数的基础上，认真应对投资者日常申购、赎回等工作。",
+          "actual": "目标ETF占净值94.81%，本报告期末未持有股票。",
+          "evaluation": "经理并没有在季报里暗示主动防守，实际组合也确实保持被动联接框架。"
+        },
+        {
+          "period": "2025年Q4·高位震荡期",
+          "result": "pass",
+          "label": "一致",
+          "stated": "本基金在做好跟踪标的指数的基础上，认真应对投资者日常申购、赎回等工作。",
+          "actual": "目标ETF占净值95.03%，另有5.01%国债缓冲，本报告期末未持有股票。",
+          "evaluation": "张金志接手后并未把产品向主动管理方向改造，执行风格延续稳定。"
+        }
+      ],
+      "abilityProfile": {
+        "best": "指数与联接工具执行稳定，尤其在云计算、创业板等成长赛道上能较完整承接主题弹性。",
+        "worst": "回撤控制弱且产品负荷偏高，主题被切出时几乎没有主动对冲能力。",
+        "goodEnv": [
+          "成长风格回暖、政策支持科技基础设施、风险偏好修复期",
+          "AI算力与云计算主线重新强化的阶段"
+        ],
+        "badEnv": [
+          "高估值压缩、全球流动性收紧或地缘风险升级阶段",
+          "资金偏好快速切向红利、防御或周期资产的阶段"
+        ]
+      },
+      "strengths": [
+        "指数与联接产品执行稳定，能够完整承接成长赛道弹性。",
+        "云计算ETF华夏、创业板相关产品阶段收益居前，成长型工具执行顺畅。",
+        "季报表述与持仓结构长期一致，产品工具属性清晰。"
+      ],
+      "weaknesses": [
+        "回撤控制天然偏弱，主题风格被切出时很难通过主动调整对冲。",
+        "在管30只基金，产品负荷较高，存在管理疲劳观察项。",
+        "跨行业产品表现分化大，难以期待经理个人Alpha稳定覆盖所有主题。"
+      ]
+    },
+    "history": [
+      {
+        "name": "赵宗庭",
+        "role": "独任",
+        "start": "2023-11-14",
+        "end": "2025-06-02",
+        "tenure": "约1年6个月",
+        "return": 8.73,
+        "note": "产品成立与早期建仓阶段的管理者，经历成长流动性冲击与后续修复，工具属性在其任内定型。"
+      },
+      {
+        "name": "张金志",
+        "role": "独任",
+        "start": "2025-06-03",
+        "end": null,
+        "tenure": "约350天",
+        "return": 68.96,
+        "note": "接任后恰逢AI与云计算主线强化，阶段收益显著，但更大程度来自赛道弹性释放而非风格突变。"
+      }
+    ]
+  },
+  "navHistory": [
+    {
+      "date": "2025-12-26",
+      "nav": 1.6158
+    },
+    {
+      "date": "2025-12-29",
+      "nav": 1.6216
+    },
+    {
+      "date": "2025-12-30",
+      "nav": 1.6296
+    },
+    {
+      "date": "2025-12-31",
+      "nav": 1.6382
+    },
+    {
+      "date": "2026-01-05",
+      "nav": 1.6876
+    },
+    {
+      "date": "2026-01-06",
+      "nav": 1.6987
+    },
+    {
+      "date": "2026-01-07",
+      "nav": 1.6929
+    },
+    {
+      "date": "2026-01-08",
+      "nav": 1.7126
+    },
+    {
+      "date": "2026-01-09",
+      "nav": 1.7759
+    },
+    {
+      "date": "2026-01-12",
+      "nav": 1.9052
+    },
+    {
+      "date": "2026-01-13",
+      "nav": 1.8781
+    },
+    {
+      "date": "2026-01-14",
+      "nav": 1.9554
+    },
+    {
+      "date": "2026-01-15",
+      "nav": 1.9219
+    },
+    {
+      "date": "2026-01-16",
+      "nav": 1.879
+    },
+    {
+      "date": "2026-01-19",
+      "nav": 1.8459
+    },
+    {
+      "date": "2026-01-20",
+      "nav": 1.7979
+    },
+    {
+      "date": "2026-01-21",
+      "nav": 1.8053
+    },
+    {
+      "date": "2026-01-22",
+      "nav": 1.8407
+    },
+    {
+      "date": "2026-01-23",
+      "nav": 1.8505
+    },
+    {
+      "date": "2026-01-26",
+      "nav": 1.8426
+    },
+    {
+      "date": "2026-01-27",
+      "nav": 1.8491
+    },
+    {
+      "date": "2026-01-28",
+      "nav": 1.8433
+    },
+    {
+      "date": "2026-01-29",
+      "nav": 1.8509
+    },
+    {
+      "date": "2026-01-30",
+      "nav": 1.8285
+    },
+    {
+      "date": "2026-02-02",
+      "nav": 1.7796
+    },
+    {
+      "date": "2026-02-03",
+      "nav": 1.8241
+    },
+    {
+      "date": "2026-02-04",
+      "nav": 1.7637
+    },
+    {
+      "date": "2026-02-05",
+      "nav": 1.7362
+    },
+    {
+      "date": "2026-02-06",
+      "nav": 1.7195
+    },
+    {
+      "date": "2026-02-09",
+      "nav": 1.7757
+    },
+    {
+      "date": "2026-02-10",
+      "nav": 1.7964
+    },
+    {
+      "date": "2026-02-11",
+      "nav": 1.7894
+    },
+    {
+      "date": "2026-02-12",
+      "nav": 1.8286
+    },
+    {
+      "date": "2026-02-13",
+      "nav": 1.8123
+    },
+    {
+      "date": "2026-02-24",
+      "nav": 1.7732
+    },
+    {
+      "date": "2026-02-25",
+      "nav": 1.7665
+    },
+    {
+      "date": "2026-02-26",
+      "nav": 1.7967
+    },
+    {
+      "date": "2026-02-27",
+      "nav": 1.8205
+    },
+    {
+      "date": "2026-03-02",
+      "nav": 1.7798
+    },
+    {
+      "date": "2026-03-03",
+      "nav": 1.7081
+    },
+    {
+      "date": "2026-03-04",
+      "nav": 1.6847
+    },
+    {
+      "date": "2026-03-05",
+      "nav": 1.7063
+    },
+    {
+      "date": "2026-03-06",
+      "nav": 1.7242
+    },
+    {
+      "date": "2026-03-09",
+      "nav": 1.7651
+    },
+    {
+      "date": "2026-03-10",
+      "nav": 1.7819
+    },
+    {
+      "date": "2026-03-11",
+      "nav": 1.7631
+    },
+    {
+      "date": "2026-03-12",
+      "nav": 1.751
+    },
+    {
+      "date": "2026-03-13",
+      "nav": 1.6993
+    },
+    {
+      "date": "2026-03-16",
+      "nav": 1.7014
+    },
+    {
+      "date": "2026-03-17",
+      "nav": 1.6616
+    },
+    {
+      "date": "2026-03-18",
+      "nav": 1.7286
+    },
+    {
+      "date": "2026-03-19",
+      "nav": 1.7138
+    },
+    {
+      "date": "2026-03-20",
+      "nav": 1.6684
+    },
+    {
+      "date": "2026-03-23",
+      "nav": 1.5904
+    },
+    {
+      "date": "2026-03-24",
+      "nav": 1.6134
+    },
+    {
+      "date": "2026-03-25",
+      "nav": 1.6555
+    },
+    {
+      "date": "2026-03-26",
+      "nav": 1.6108
+    },
+    {
+      "date": "2026-03-27",
+      "nav": 1.6116
+    },
+    {
+      "date": "2026-03-30",
+      "nav": 1.6103
+    },
+    {
+      "date": "2026-03-31",
+      "nav": 1.5881
+    },
+    {
+      "date": "2026-04-01",
+      "nav": 1.6276
+    },
+    {
+      "date": "2026-04-02",
+      "nav": 1.57
+    },
+    {
+      "date": "2026-04-03",
+      "nav": 1.5745
+    },
+    {
+      "date": "2026-04-07",
+      "nav": 1.5718
+    },
+    {
+      "date": "2026-04-08",
+      "nav": 1.6858
+    },
+    {
+      "date": "2026-04-09",
+      "nav": 1.6642
+    },
+    {
+      "date": "2026-04-10",
+      "nav": 1.6879
+    },
+    {
+      "date": "2026-04-13",
+      "nav": 1.702
+    },
+    {
+      "date": "2026-04-14",
+      "nav": 1.7318
+    },
+    {
+      "date": "2026-04-15",
+      "nav": 1.712
+    },
+    {
+      "date": "2026-04-16",
+      "nav": 1.7599
+    },
+    {
+      "date": "2026-04-17",
+      "nav": 1.77
+    },
+    {
+      "date": "2026-04-20",
+      "nav": 1.786
+    },
+    {
+      "date": "2026-04-21",
+      "nav": 1.756
+    },
+    {
+      "date": "2026-04-22",
+      "nav": 1.8073
+    },
+    {
+      "date": "2026-04-23",
+      "nav": 1.7997
+    },
+    {
+      "date": "2026-04-24",
+      "nav": 1.7803
+    },
+    {
+      "date": "2026-04-27",
+      "nav": 1.7675
+    },
+    {
+      "date": "2026-04-28",
+      "nav": 1.7235
+    },
+    {
+      "date": "2026-04-29",
+      "nav": 1.7404
+    },
+    {
+      "date": "2026-04-30",
+      "nav": 1.7442
+    },
+    {
+      "date": "2026-05-06",
+      "nav": 1.808
+    },
+    {
+      "date": "2026-05-07",
+      "nav": 1.8533
+    },
+    {
+      "date": "2026-05-08",
+      "nav": 1.86
+    },
+    {
+      "date": "2026-05-11",
+      "nav": 1.8732
+    },
+    {
+      "date": "2026-05-12",
+      "nav": 1.8482
+    },
+    {
+      "date": "2026-05-13",
+      "nav": 1.9112
+    },
+    {
+      "date": "2026-05-14",
+      "nav": 1.8459
+    },
+    {
+      "date": "2026-05-15",
+      "nav": 1.8264
+    },
+    {
+      "date": "2026-05-18",
+      "nav": 1.8371
+    }
+  ],
+  "scoring": {
+    "total": 79,
+    "grade": "良好",
+    "recommendation": "观望（回调分批）",
+    "recommendationType": "cautious",
+    "rating": "★★",
+    "logic": "基金质量79/100（良好）×政策状态🟡观察期×市场状态🔴高位谨慎，当前更适合存量持有者跟踪，不适合高位一次性重仓追入。",
+    "dimensions": [
+      {
+        "name": "费率性价比",
+        "score": 18,
+        "maxScore": 25,
+        "pros": [
+          "管理费+托管费仅0.20%",
+          "华夏基金平台与ETF工具链成熟"
+        ],
+        "cons": [
+          "C类销售服务费0.30%，长期持有成本抬升"
+        ]
+      },
+      {
+        "name": "跟踪执行",
+        "score": 18,
+        "maxScore": 20,
+        "pros": [
+          "多个季度对官方业绩基准偏离控制在约±1%内",
+          "2025Q3、2025Q4、2026Q1跟踪执行稳定"
+        ],
+        "cons": [
+          "2025Q1相对官方基准落后1.97个百分点"
+        ]
+      },
+      {
+        "name": "风险承载要求",
+        "score": 14,
+        "maxScore": 20,
+        "pros": [
+          "最大回撤-29.54%，尚未失控",
+          "2026Q1相对沪深300仍有正超额"
+        ],
+        "cons": [
+          "年化波动率36.46%，Beta 1.49，主题波动显著"
+        ]
+      },
+      {
+        "name": "主题集中度与外部约束",
+        "score": 15,
+        "maxScore": 20,
+        "pros": [
+          "目标ETF长期占净值约94%-95%，主题暴露极清晰",
+          "指数样本明确聚焦云计算与大数据主线"
+        ],
+        "cons": [
+          "高度依赖AI、算力与数据主题，外部贸易与风险偏好影响大"
+        ]
+      },
+      {
+        "name": "流动性与平台",
+        "score": 14,
+        "maxScore": 15,
+        "pros": [
+          "华夏基金是头部平台，产品运营能力强",
+          "目标ETF与联接链条完整，工具属性清晰"
+        ],
+        "cons": [
+          "本基金规模仅1.62亿元，抗大额申赎冲击能力仍需观察"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "type": "高Beta高波动风险",
+        "level": "high",
+        "note": "年化波动率36.46%，Beta 1.49，历史最大回撤-29.54%，它是高弹性主题工具而不是稳健宽基替代品。"
+      },
+      {
+        "type": "经理更换与管理负荷风险",
+        "level": "medium",
+        "note": "2025-06-03刚发生经理更换，现任张金志按份额口径在管30只基金，存在管理疲劳观察项。"
+      },
+      {
+        "type": "高位买入回撤风险",
+        "level": "high",
+        "note": "当前净值位于历史90.4%位置，仅比历史高点低6.05%，新增资金的赔率不如低位阶段。"
+      },
+      {
+        "type": "结构单一与申赎冲击风险",
+        "level": "medium",
+        "note": "目标ETF长期占净值94%-95%，主题单一；发起式产品历史上也出现过单一机构持有人占比较高的时段。"
+      }
+    ],
+    "policyItems": [
+      {
+        "name": "《算力基础设施高质量发展行动计划》",
+        "impactLabel": "🟢 强利好"
+      },
+      {
+        "name": "《国家数据基础设施建设指引》",
+        "impactLabel": "🟢 强利好"
+      },
+      {
+        "name": "外部贸易与地缘风险",
+        "impactLabel": "🔴 明确逆风"
+      }
+    ],
+    "marketStatus": [
+      {
+        "dim": "净值位置",
+        "status": "90.4% 历史位置",
+        "statusType": "warning",
+        "detail": "现价1.8371仅较历史高点1.9554回撤6.05%，依然处于高位区域，赔率不优。"
+      },
+      {
+        "dim": "近期趋势",
+        "status": "高位修复后震荡",
+        "statusType": "cautious",
+        "detail": "2026Q2截至5月18日反弹12.87%，但近3个月收益仅1.37%，说明修复后进入消化期。"
+      },
+      {
+        "dim": "夏普趋势",
+        "status": "改善",
+        "statusType": "positive",
+        "detail": "近1年夏普1.91显著高于近2年1.09，收益质量较前期改善。"
+      },
+      {
+        "dim": "宏观流动性",
+        "status": "中性偏友好",
+        "statusType": "neutral",
+        "detail": "财政与货币政策协同发力对需求端和流动性形成支持，但外部利率与地缘风险仍反复。"
+      },
+      {
+        "dim": "持仓主线景气",
+        "status": "改善中",
+        "statusType": "positive",
+        "detail": "2026Q1季报提到全球AI投资周期带动出口超预期增长，AI算力与云计算主线仍在景气链条上。"
+      },
+      {
+        "dim": "外部风险",
+        "status": "需重点关注",
+        "statusType": "warning",
+        "detail": "贸易战、中东风险和全球流动性预期扰动，对高Beta主题工具影响较大。"
+      }
+    ],
+    "allocationSuggestions": [
+      {
+        "scenario": "存量持有人",
+        "action": "可继续持有并动态跟踪",
+        "note": "若持仓成本较低，可继续持有，但不建议在历史高位附近大幅追加强化仓位。"
+      },
+      {
+        "scenario": "新入场投资者",
+        "action": "等待回撤后分批",
+        "note": "更适合等待回撤后的分批买点，而不是在90%+历史位置一次性进场。"
+      }
+    ],
+    "suitableFor": [
+      "能承受-25%以上阶段回撤，并把它当作高波动主题配置工具的投资者。",
+      "看好未来3-5年算力基础设施、数据基础设施与AI应用扩散主线的人。",
+      "已有宽基底仓，希望用少量仓位增强科技成长弹性的投资者。"
+    ],
+    "notSuitableFor": [
+      "把它当成低波动指数底仓、无法承受单季大幅回撤的投资者。",
+      "持有期少于1年、偏好追高后立即兑现的人。",
+      "需要稳定分红或现金流的投资者。",
+      "风险承受能力低于R3，或无法接受主题基金高波动的人。"
+    ],
+    "termAdvice": [
+      {
+        "term": "短期（1-3个月）",
+        "icon": "⚠️",
+        "level": "cautious",
+        "advice": "高位修复后进入震荡，新资金以观察为主；若一定参与，单次仓位不宜超过计划仓位的30%。"
+      },
+      {
+        "term": "中期（6-12个月）",
+        "icon": "🟡",
+        "level": "neutral",
+        "advice": "政策大方向仍支持算力与数据基础设施，但近6个月缺少更高优先级新催化，优先等1.68-1.72区间再考虑第一笔。"
+      },
+      {
+        "term": "长期（3年以上）",
+        "icon": "🟡",
+        "level": "neutral",
+        "advice": "只适合作为权益组合中的进攻型行业工具，单基金仓位建议不超过权益仓位的10%-15%。"
+      }
+    ]
+  },
+  "exclusionCheck": [
+    {
+      "item": "成立时间是否不足3年",
+      "pass": false,
+      "note": "基金成立于2023-11-14，截至研究日运行约2年6个月，仍属于成立未满3年的年轻产品。"
+    },
+    {
+      "item": "规模是否过小或过大",
+      "pass": true,
+      "note": "当前规模1.62亿元，未触发<1亿元或>200亿元红线，但低于发起式三年2亿元观察线，需持续跟踪。"
+    },
+    {
+      "item": "基金经理任职是否不足2年",
+      "pass": false,
+      "note": "现任经理张金志自2025-06-03开始管理本基金，截至研究日约350天，任职时间不足2年。"
+    },
+    {
+      "item": "近3年业绩是否落入后30%",
+      "pass": true,
+      "note": "基金成立未满3年，但近1年排名864/3853、近2年排名475/2746，均未落入同类后30%。"
+    },
+    {
+      "item": "最大回撤是否显著劣于同类",
+      "pass": true,
+      "note": "历史最大回撤-29.54%，属于高弹性主题基金可接受但不轻松的区间，未见显著差于同类20个百分点以上。"
+    },
+    {
+      "item": "基金经理是否在黑名单中",
+      "pass": true,
+      "note": "黑名单核查未命中现任基金经理张金志。"
+    },
+    {
+      "item": "基金公司是否在黑名单中",
+      "pass": true,
+      "note": "黑名单核查未命中华夏基金。"
+    },
+    {
+      "item": "是否频繁更换基金经理",
+      "pass": true,
+      "note": "成立以来仅发生一次正常经理更替，未出现近3年2次及以上异常更换。"
+    },
+    {
+      "item": "是否存在严重风格漂移",
+      "pass": true,
+      "note": "季报表述与实际持仓主线长期一致，产品始终维持目标ETF高比例联接，未见严重风格漂移。"
+    },
+    {
+      "item": "费率是否显著高于同类平均",
+      "pass": true,
+      "note": "管理费0.15%、托管费0.05%，费率不算极致低但未明显高于同类，C类0.30%销售服务费已在评分中扣分。"
+    }
+  ],
+  "policy": {
+    "tags": [
+      {
+        "label": "算力基础设施",
+        "strength": "high",
+        "color": "#3b82f6"
+      },
+      {
+        "label": "数据基础设施",
+        "strength": "high",
+        "color": "#14b8a6"
+      },
+      {
+        "label": "政策观察期",
+        "strength": "medium",
+        "color": "#f59e0b"
+      }
+    ],
+    "industryOverview": [
+      {
+        "point": "指数由50只云计算、大数据及相关硬件设备样本股组成",
+        "detail": "主题暴露清晰、行业纯度高，基金通过目标ETF几乎直接映射该产业链。"
+      },
+      {
+        "point": "目标ETF长期占净值约93%-95%",
+        "detail": "从2024Q1到2026Q1，019869的净值基本由云计算与大数据产业主题直接驱动。"
+      },
+      {
+        "point": "AI基础设施扩张仍是产业主线",
+        "detail": "2026Q1季报明确提到全球AI投资周期带动出口超预期增长，说明云计算与数据基础设施并非短线题材。"
+      }
+    ],
+    "cyclePeriod": "调整期（偏观察）",
+    "cycleReason": "上位政策方向没有问题，2023-10的算力基础设施政策和2025-01的数据基础设施指引都明确利好云计算与数据主题；但近6个月没有确认到更高优先级的新中央政策原文，因此更准确的判断是老逻辑仍有效、新催化尚待验证。",
+    "fifteenFive": [
+      {
+        "direction": "算力基础设施建设",
+        "color": "#3b82f6",
+        "description": "将算力、网络运载、数据存储作为一体化新型生产力基础设施推进。",
+        "holdings": "516630 / 云天励飞 / 中科星图"
+      },
+      {
+        "direction": "国家数据基础设施建设",
+        "color": "#14b8a6",
+        "description": "推动数据共享流通与运营，政策焦点从建算力延伸到运营数据基础设施。",
+        "holdings": "金山办公 / 奇安信 / 516630"
+      }
+    ],
+    "longTermRisks": [
+      {
+        "risk": "外部风险反复",
+        "level": "high",
+        "signal": "贸易战、中东风险和全球流动性预期变化会压制高Beta科技主题估值。"
+      },
+      {
+        "risk": "AI投资节奏放缓",
+        "level": "medium",
+        "signal": "若国内外AI与算力资本开支明显降温，云计算与大数据主线需要重估。"
+      },
+      {
+        "risk": "资金风格切回红利或防御",
+        "level": "medium",
+        "signal": "高估值主题在风格切换期容易跑输宽基与防御资产。"
+      }
+    ],
+    "adaptability": [
+      {
+        "env": "🟢 成长风格回暖期",
+        "perf": "高弹性主题工具能较完整承接云计算与AI主线的上行弹性。",
+        "color": "#22c55e"
+      },
+      {
+        "env": "🟡 高位消化期",
+        "perf": "趋势未断时仍可温和向上，但收益更多依赖震荡中的修复而不是估值快速扩张。",
+        "color": "#f59e0b"
+      },
+      {
+        "env": "🔴 全球流动性收紧或地缘冲击期",
+        "perf": "高Beta会放大回撤，基金很难通过主动管理来降低波动。",
+        "color": "#ef4444"
+      },
+      {
+        "env": "⚠️ 风格切向红利/防御期",
+        "perf": "主题工具相对宽基容易掉队，净值波动会明显高于均衡配置产品。",
+        "color": "#f97316"
+      }
+    ],
+    "scenarios": [
+      {
+        "type": "悲观",
+        "probability": 30,
+        "color": "#ef4444",
+        "returnLow": -25,
+        "returnHigh": -10,
+        "trigger": "外部风险反复、AI投资节奏放缓、资金风格切回红利或防御，主题估值继续压缩。"
+      },
+      {
+        "type": "基准",
+        "probability": 50,
+        "color": "#f59e0b",
+        "returnLow": 0,
+        "returnHigh": 15,
+        "trigger": "政策方向延续但无超预期增量，产业景气维持、估值通过时间消化，高位震荡中温和向上。"
+      },
+      {
+        "type": "乐观",
+        "probability": 20,
+        "color": "#22c55e",
+        "returnLow": 20,
+        "returnHigh": 40,
+        "trigger": "出现可验证的新增中央政策催化，国内AI与算力资本开支提速，市场风险偏好重新偏向成长。"
+      }
+    ],
+    "policyBreakdown": [
+      {
+        "sector": "算力与云基础设施",
+        "icon": "⚡",
+        "color": "#3b82f6",
+        "logic": "算力基础设施行动计划把算力中心、网络运载和数据存储作为一体推进，对基金核心暴露方向构成长期底层逻辑。",
+        "stocks": [
+          "华夏中证云计算与大数据主题ETF(516630)",
+          "云天励飞",
+          "中科星图"
+        ]
+      },
+      {
+        "sector": "数据平台与信息安全",
+        "icon": "🗄️",
+        "color": "#14b8a6",
+        "logic": "国家数据基础设施建设指引把政策焦点推进到数据流通、平台软件与安全配套，利好云服务与数据安全方向。",
+        "stocks": [
+          "金山办公",
+          "奇安信"
+        ]
+      }
+    ],
+    "dualTimeline": [
+      {
+        "period": "2023-12 → 2024-04",
+        "manager": {
+          "type": "warning",
+          "event": "建仓期叠加成长流动性冲击，联接结构放大回撤",
+          "return": "-7.6%（HS300 +6.0%）",
+          "note": "赵宗庭阶段主要仍是建仓与跟踪，应对申赎而非主动防守。"
+        },
+        "market": {
+          "type": "bear",
+          "event": "小盘成长股流动性危机，主题Beta受挫",
+          "note": "2024Q1季报点名年初小盘股下跌引发流动性负向反馈。"
+        }
+      },
+      {
+        "period": "2024-04 → 2024-11",
+        "manager": {
+          "type": "positive",
+          "event": "90%+目标ETF联接结构完整承接政策修复",
+          "return": "+34.6%（HS300 +13.4%）",
+          "note": "没有主动折腾，反而放大了成长主题Beta。"
+        },
+        "market": {
+          "type": "policy",
+          "event": "金融支持经济高质量发展的政策组合拳推动成长修复",
+          "note": "风险偏好回升后，云计算主题重新获得定价。"
+        }
+      },
+      {
+        "period": "2024-11 → 2025-09",
+        "manager": {
+          "type": "positive",
+          "event": "AI主线确认，张金志接棒但结构未变",
+          "return": "+28.8%（HS300 +10.0%）",
+          "note": "2025Q3单季涨幅37.63%，主升浪成为最核心赚钱窗口。"
+        },
+        "market": {
+          "type": "bull",
+          "event": "AI与云计算成为资金主线，成长和中小盘风格重新占优",
+          "note": "2025Q1与2025Q3季报都确认景气强化。"
+        }
+      },
+      {
+        "period": "2025-09 → 2025-10",
+        "manager": {
+          "type": "neutral",
+          "event": "高位整固期维持被动结构，没有主动降波动",
+          "return": "+0.6%（HS300 +5.0%）",
+          "note": "短线风格切换下相对宽基出现落后。"
+        },
+        "market": {
+          "type": "warning",
+          "event": "高弹性成长进入消化期，市场在红利、周期与成长之间切换",
+          "note": "主题快速拉升后的正常整固阶段。"
+        }
+      },
+      {
+        "period": "2025-10 → 2026-05",
+        "manager": {
+          "type": "positive",
+          "event": "外部冲击后仍维持联接结构，修复段再度刷新阶段高点",
+          "return": "+15.0%（HS300 +5.3%）",
+          "note": "2026Q1先回撤，2026Q2截至5月18日又明显修复。"
+        },
+        "market": {
+          "type": "warning",
+          "event": "地缘风险与全球流动性扰动先压制后修复，国内AI景气仍未被证伪",
+          "note": "国内经济数据支撑A股表现优于欧美市场。"
+        }
+      }
+    ],
+    "note": "当前更适合把它理解为老逻辑仍有效、但新催化尚待验证的高Beta主题工具。上位政策方向明确利好云计算与数据基础设施，但在高位区间追价的性价比并不高。"
+  },
+  "tracking": {
+    "weekly": [
+      "净值方向验证：观察019869与目标ETF516630的方向是否一致；若连续明显弱于目标ETF，需警惕申赎冲击或跟踪误差异常。",
+      "行业核心变量：跟踪国内AI算力招标、云厂商资本开支指引与数据基础设施推进节奏；若连续两个季度明显下修，要重估高景气假设。",
+      "行业价格指标：跟踪中证云计算与大数据主题指数相对沪深300的强弱；若连续4周明显跑输宽基超过8个百分点，说明风格窗口可能关闭。",
+      "经理动态：继续跟踪张金志的季报措辞、产品数量变化以及是否出现新一轮经理更换。"
+    ],
+    "quarterly": [
+      "持仓变化：新季报中目标ETF占净值比例是否仍维持高位，预期应保持在93%以上。",
+      "集中度变化：是否突然出现大量非主题直持股票或ETF比例显著下降，目标ETF与边际残余仓位合计应维持主题纯度。",
+      "规模变化：当前规模1.62亿元，若单季缩水超过30%需警惕流动性风险。",
+      "同类排名：近1年同类排名最好维持在前30%附近，若持续滑落需重新评估工具性价比。",
+      "年化超额：相对沪深300超额至少保持为正，否则说明主题工具优势减弱。"
+    ],
+    "alerts": [
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "基金经理再次更换：对联接工具的执行稳定性需立即重新评估。"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "单季度回撤大于-15%且同类排名落入后10%：不仅市场差，个基执行也可能出了问题。"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "目标ETF占净值比例跌破90%：若联接产品明显偏离目标ETF，说明产品结构或申赎状态出现异常。"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "AI与算力景气证据连续两个季度走弱：若云厂商资本开支、算力建设或数据基础设施推进明显降温，主题逻辑要重估。"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "规模单季缩水超过30%：发起式产品若遭遇大额赎回，流动性与存续风险会同步抬升。"
+      },
+      {
+        "level": "warning",
+        "icon": "⚠️",
+        "text": "近1年夏普与相对沪深300超额连续两个季度同步恶化：说明主题工具的性价比正在下降。"
+      }
+    ]
+  },
+  "company": {
+    "name": "华夏基金管理有限公司",
+    "shortName": "华夏基金",
+    "foundYear": 1998,
+    "aumDesc": "约30345亿元总管理规模（截至2025-06-30），境内最大的基金管理公司之一。",
+    "industryRank": "境内头部公募平台，ETF与指数工具能力强，业务覆盖面广。",
+    "complianceResult": "通过",
+    "complianceSummary": "华夏基金的平台资质、规模与业务广度都很强，当前未发现公司或现任经理的黑名单风险。需要持续跟踪的主要是外部处罚检索不完全和张金志在管产品较多两项观察点。",
+    "complianceChecks": [
+      {
+        "item": "黑名单核查",
+        "pass": true,
+        "warn": false,
+        "detail": "公司与现任经理均未命中黑名单。"
+      },
+      {
+        "item": "近3年处罚记录",
+        "pass": false,
+        "warn": true,
+        "detail": "本轮未检出明确处罚文书，但外部搜索受反爬限制，不能把未搜到直接等同于绝对不存在。"
+      },
+      {
+        "item": "内幕交易传闻",
+        "pass": false,
+        "warn": true,
+        "detail": "未抓到明确负面原文，外部检索同样受限，因此只能保留观察。"
+      },
+      {
+        "item": "基金经理离职风险",
+        "pass": false,
+        "warn": true,
+        "detail": "最近1年内已发生经理更换，现任张金志任期仅350天，稳定性仍需继续观察。"
+      },
+      {
+        "item": "管理疲劳风险",
+        "pass": false,
+        "warn": true,
+        "detail": "张金志在管30只基金、35.87亿元，明显高于10只基金的疲劳观察阈值。"
+      }
+    ]
+  }
+}

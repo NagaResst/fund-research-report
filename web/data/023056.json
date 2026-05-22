@@ -1,0 +1,1816 @@
+{
+  "id": "023056",
+  "meta": {
+    "reportDate": "2026-05-17",
+    "dataDate": "2026-05-15",
+    "disclaimer": "本报告仅供个人学习和信息整理使用，所有分析内容均不构成任何投资建议。投资有风险，入市需谨慎，请依据自身判断做出投资决策。"
+  },
+  "basic": {
+    "code": "023056",
+    "fullName": "富国上证科创板50成份交易型开放式指数证券投资基金联接基金",
+    "shortName": "富国上证科创板50成份ETF联接C",
+    "type": "指数型",
+    "subType": "股票",
+    "riskLevel": "中高风险",
+    "foundDate": "2025年01月21日",
+    "manager": "金泽宇",
+    "companyShort": "富国基金",
+    "custodian": "中信银行",
+    "benchmark": "上证科创板50成份指数收益率*95%+银行活期存款利率(税后)*5%",
+    "navFallback": 1.5567,
+    "navDateFallback": "2026-05-15",
+    "inceptionReturn": 55.67,
+    "status": "开放申购 / 开放赎回"
+  },
+  "fees": {
+    "management": 0.15,
+    "custodian": 0.05,
+    "salesService": 0.2,
+    "subscriptionMax": 0.0,
+    "subscriptionDiscounted": 0.0,
+    "redemptionMax": 1.5,
+    "breakdown": [
+      {
+        "name": "管理费",
+        "value": 0.15
+      },
+      {
+        "name": "托管费",
+        "value": 0.05
+      },
+      {
+        "name": "销售服务费",
+        "value": 0.2
+      },
+      {
+        "name": "申购费",
+        "value": 0.0,
+        "actualRate": 0.0
+      },
+      {
+        "name": "赎回费",
+        "value": 1.5,
+        "rate": 1.5,
+        "rules": [
+          {
+            "label": "持有少于7天",
+            "rate": 1.5
+          },
+          {
+            "label": "持有7天及以上",
+            "rate": 0.0
+          }
+        ],
+        "note": "短期持有惩罚性费率，具体以基金合同为准"
+      }
+    ]
+  },
+  "scale": {
+    "nav": 2.85,
+    "date": "2026-05-15"
+  },
+  "risk": {
+    "volatility": 0.2936,
+    "annualReturn": 0.4432,
+    "sharpe": 1.41,
+    "calmar": 2.44,
+    "maxDrawdown": -0.1819,
+    "maxDrawdownPeriod": "2026-01-27 → 2026-04-03",
+    "periodMetrics": [
+      {
+        "label": "近1年",
+        "volatility": 0.2974,
+        "sharpe": 2.21,
+        "maxDrawdown": -0.1819
+      },
+      {
+        "label": "近2年",
+        "volatility": null,
+        "sharpe": null,
+        "maxDrawdown": null
+      },
+      {
+        "label": "近3年",
+        "volatility": null,
+        "sharpe": null,
+        "maxDrawdown": null
+      }
+    ],
+    "riskBreakdown": {
+      "yearlyMaxDrawdowns": [
+        {
+          "year": 2026,
+          "fund": 18.19,
+          "hs300": null
+        },
+        {
+          "year": 2025,
+          "fund": 16.77,
+          "hs300": null
+        }
+      ]
+    },
+    "relativeMetrics": {
+      "beta": null,
+      "alpha": null,
+      "informationRatio": -0.01,
+      "trackingError": 0.0189,
+      "r2": null
+    },
+    "navPercentile": 98.7,
+    "radarDimensions": [
+      {
+        "name": "费率性价比",
+        "score": 88
+      },
+      {
+        "name": "跟踪执行",
+        "score": 70
+      },
+      {
+        "name": "波动承受",
+        "score": 45
+      },
+      {
+        "name": "主题集中",
+        "score": 40
+      },
+      {
+        "name": "平台支持",
+        "score": 76
+      }
+    ]
+  },
+  "holdings": {
+    "date": "2025-12-31",
+    "top10": [
+      {
+        "rank": 1,
+        "name": "屹唐股份",
+        "code": "688729",
+        "ratio": 2.92
+      },
+      {
+        "rank": 2,
+        "name": "技源集团",
+        "code": "603262",
+        "ratio": 1.04
+      }
+    ],
+    "top10Total": 3.96,
+    "top10TotalRatio": 3.96,
+    "sectors": [],
+    "themeTitle": "科创50核心科技主线",
+    "themeSubtitle": "ETF联接基金的真正暴露来自科创50底层指数，而不是2025Q4仅占3.96%的残余直持股票。",
+    "themeGroups": [
+      {
+        "name": "半导体与算力链",
+        "color": "#ef4444",
+        "ratio": 60,
+        "stocks": "中芯国际 / 海光信息 / 寒武纪 / 澜起科技 / 中微公司",
+        "note": "这是科创50最核心的收益来源，也是外部限制和估值波动最大的风险来源。"
+      },
+      {
+        "name": "软件与数字平台",
+        "color": "#3b82f6",
+        "ratio": 15,
+        "stocks": "金山办公 / 芯原股份等",
+        "note": "提供部分AI应用和软件弹性，但对整体波动的缓冲有限。"
+      },
+      {
+        "name": "高端制造与医疗设备",
+        "color": "#10b981",
+        "ratio": 25,
+        "stocks": "联影医疗 / 石头科技及其他高端制造权重",
+        "note": "构成科创50的非半导体补充，但整体仍属于高弹性成长资产。"
+      }
+    ],
+    "evolutionHighlights": [
+      {
+        "quarter": "2025Q1",
+        "type": "build",
+        "theme": "核心科创权重直持较多",
+        "change": "中芯国际、海光信息、寒武纪等直接出现在股票明细",
+        "insight": "成立初期直接暴露更容易在持仓页中被看见。",
+        "return": "-6.12%"
+      },
+      {
+        "quarter": "2025Q4",
+        "type": "trim",
+        "theme": "直持股票显著收缩",
+        "change": "结构化股票持仓仅剩屹唐股份、技源集团，合计3.96%",
+        "insight": "ETF联接属性强化，不能再用股票页代表全部风险暴露。",
+        "return": "-11.19%"
+      }
+    ]
+  },
+  "performance": {
+    "stages": [
+      {
+        "period": "近1周",
+        "fund": 3.26,
+        "peer": -0.62,
+        "hs300": -0.25,
+        "rank": 545,
+        "rankTotal": 5109,
+        "quartile": "优秀"
+      },
+      {
+        "period": "近1月",
+        "fund": 20.65,
+        "peer": 4.86,
+        "hs300": 3.72,
+        "rank": 220,
+        "rankTotal": 5034,
+        "quartile": "优秀"
+      },
+      {
+        "period": "近3月",
+        "fund": 15.73,
+        "peer": 3.73,
+        "hs300": 4.27,
+        "rank": 634,
+        "rankTotal": 4919,
+        "quartile": "优秀"
+      },
+      {
+        "period": "近6月",
+        "fund": 25.49,
+        "peer": 9.44,
+        "hs300": 5.0,
+        "rank": 778,
+        "rankTotal": 4619,
+        "quartile": "优秀"
+      },
+      {
+        "period": "近1年",
+        "fund": 69.21,
+        "peer": 37.17,
+        "hs300": 24.38,
+        "rank": 756,
+        "rankTotal": 3845,
+        "quartile": "优秀"
+      },
+      {
+        "period": "今年来",
+        "fund": 26.45,
+        "peer": 8.95,
+        "hs300": 4.96,
+        "rank": 489,
+        "rankTotal": 4796,
+        "quartile": "优秀"
+      },
+      {
+        "period": "成立来",
+        "fund": 55.67,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": "---"
+      }
+    ],
+    "annual": [
+      {
+        "year": 2025,
+        "fund": 23.11,
+        "peer": 28.14,
+        "hs300": 17.66,
+        "rank": null,
+        "rankTotal": 4812,
+        "quartile": null
+      },
+      {
+        "year": 2026,
+        "fund": 26.45,
+        "peer": 8.95,
+        "hs300": 4.96,
+        "rank": 489,
+        "rankTotal": 4796,
+        "quartile": "优秀"
+      }
+    ],
+    "quarterly": [
+      {
+        "year": 2025,
+        "quarter": "2025Q1",
+        "fund": -6.12,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q2",
+        "fund": -1.64,
+        "peer": 2.65,
+        "hs300": 1.25,
+        "rank": 3237,
+        "rankTotal": 4076,
+        "quartile": "不佳"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q3",
+        "fund": 46.07,
+        "peer": 23.0,
+        "hs300": 17.9,
+        "rank": 556,
+        "rankTotal": 4523,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q4",
+        "fund": -8.73,
+        "peer": -0.94,
+        "hs300": -0.23,
+        "rank": 3952,
+        "rankTotal": 4812,
+        "quartile": "不佳"
+      },
+      {
+        "year": 2026,
+        "quarter": "2026Q1",
+        "fund": -6.0,
+        "peer": -1.57,
+        "hs300": -3.89,
+        "rank": 4000,
+        "rankTotal": 4960,
+        "quartile": "不佳"
+      },
+      {
+        "year": 2026,
+        "quarter": "2026Q2",
+        "fund": 30.33,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      }
+    ],
+    "milestones": [
+      {
+        "date": "2025-01-21",
+        "nav": 1.0,
+        "label": "基金成立起点",
+        "type": "normal"
+      },
+      {
+        "date": "2025-04-07",
+        "nav": 0.8537,
+        "label": "成立后阶段低点",
+        "type": "low"
+      },
+      {
+        "date": "2026-05-13",
+        "nav": 1.6221,
+        "label": "历史最高净值",
+        "type": "peak"
+      },
+      {
+        "date": "2026-05-15",
+        "nav": 1.5567,
+        "label": "当前净值，仍处高位区间",
+        "type": "current"
+      }
+    ]
+  },
+  "stageAnalysis": {
+    "inflectionPoints": [
+      {
+        "id": 1,
+        "startDate": "2025-03-06",
+        "endDate": "2025-04-07",
+        "startNav": 1.0257,
+        "endNav": 0.8537,
+        "changePct": -16.77,
+        "type": "trough",
+        "stageId": 1,
+        "holdingsSummary": "基金成立后很快经历第一次明显回撤，直接暴露了科创50的高Beta属性。",
+        "env": "科技成长方向在年初波动较大，风险偏好并不稳定。",
+        "managerAction": "维持联接工具定位，没有主动防守型偏离。",
+        "attribution": "下跌主要来自赛道Beta，而不是执行偏差。"
+      },
+      {
+        "id": 2,
+        "startDate": "2025-04-07",
+        "endDate": "2025-08-28",
+        "startNav": 0.8537,
+        "endNav": 1.2432,
+        "changePct": 45.62,
+        "type": "peak",
+        "stageId": 2,
+        "holdingsSummary": "科创主线修复后，联接工具弹性充分体现。",
+        "env": "AI、半导体和硬科技风险偏好重新回暖。",
+        "managerAction": "保持对目标指数的高一致性暴露。",
+        "attribution": "收益主要由主题Beta驱动。"
+      },
+      {
+        "id": 3,
+        "startDate": "2025-08-28",
+        "endDate": "2025-09-04",
+        "startNav": 1.2432,
+        "endNav": 1.1127,
+        "changePct": -10.5,
+        "type": "trough",
+        "stageId": 3,
+        "holdingsSummary": "2025Q3 是成立以来最强的趋势阶段，季度收益高达47.26%。",
+        "env": "科技主线进入主升浪，市场愿意给高弹性成长更高定价。",
+        "managerAction": "工具属性在顺风期被放大，几乎完整承接指数弹性。",
+        "attribution": "典型顺风阶段，高收益与高拥挤并存。"
+      },
+      {
+        "id": 4,
+        "startDate": "2025-09-04",
+        "endDate": "2025-10-09",
+        "startNav": 1.1127,
+        "endNav": 1.3862,
+        "changePct": 24.58,
+        "type": "peak",
+        "stageId": 3,
+        "holdingsSummary": "2025Q3 是成立以来最强的趋势阶段，季度收益高达47.26%。",
+        "env": "科技主线进入主升浪，市场愿意给高弹性成长更高定价。",
+        "managerAction": "工具属性在顺风期被放大，几乎完整承接指数弹性。",
+        "attribution": "典型顺风阶段，高收益与高拥挤并存。"
+      },
+      {
+        "id": 5,
+        "startDate": "2025-10-09",
+        "endDate": "2025-10-17",
+        "startNav": 1.3862,
+        "endNav": 1.2403,
+        "changePct": -10.53,
+        "type": "trough",
+        "stageId": 4,
+        "holdingsSummary": "高位震荡后再下探，最终形成当前样本内最大回撤。",
+        "env": "科技板块估值消化和风格切换共同压制净值。",
+        "managerAction": "没有主观择时垫子，继续按联接基金逻辑运行。",
+        "attribution": "回撤体验完全取决于科创50本身。"
+      },
+      {
+        "id": 6,
+        "startDate": "2025-10-17",
+        "endDate": "2025-10-29",
+        "startNav": 1.2403,
+        "endNav": 1.3502,
+        "changePct": 8.86,
+        "type": "peak",
+        "stageId": 4,
+        "holdingsSummary": "高位震荡后再下探，最终形成当前样本内最大回撤。",
+        "env": "科技板块估值消化和风格切换共同压制净值。",
+        "managerAction": "没有主观择时垫子，继续按联接基金逻辑运行。",
+        "attribution": "回撤体验完全取决于科创50本身。"
+      },
+      {
+        "id": 7,
+        "startDate": "2025-10-29",
+        "endDate": "2025-11-21",
+        "startNav": 1.3502,
+        "endNav": 1.1756,
+        "changePct": -12.93,
+        "type": "trough",
+        "stageId": 4,
+        "holdingsSummary": "高位震荡后再下探，最终形成当前样本内最大回撤。",
+        "env": "科技板块估值消化和风格切换共同压制净值。",
+        "managerAction": "没有主观择时垫子，继续按联接基金逻辑运行。",
+        "attribution": "回撤体验完全取决于科创50本身。"
+      },
+      {
+        "id": 8,
+        "startDate": "2025-11-21",
+        "endDate": "2026-01-27",
+        "startNav": 1.1756,
+        "endNav": 1.4143,
+        "changePct": 20.3,
+        "type": "peak",
+        "stageId": 4,
+        "holdingsSummary": "高位震荡后再下探，最终形成当前样本内最大回撤。",
+        "env": "科技板块估值消化和风格切换共同压制净值。",
+        "managerAction": "没有主观择时垫子，继续按联接基金逻辑运行。",
+        "attribution": "回撤体验完全取决于科创50本身。"
+      },
+      {
+        "id": 9,
+        "startDate": "2026-01-27",
+        "endDate": "2026-04-03",
+        "startNav": 1.4143,
+        "endNav": 1.157,
+        "changePct": -18.19,
+        "type": "trough",
+        "stageId": 4,
+        "holdingsSummary": "高位震荡后再下探，最终形成当前样本内最大回撤。",
+        "env": "科技板块估值消化和风格切换共同压制净值。",
+        "managerAction": "没有主观择时垫子，继续按联接基金逻辑运行。",
+        "attribution": "回撤体验完全取决于科创50本身。"
+      },
+      {
+        "id": 10,
+        "startDate": "2026-04-03",
+        "endDate": "2026-05-13",
+        "startNav": 1.157,
+        "endNav": 1.6221,
+        "changePct": 40.2,
+        "type": "peak",
+        "stageId": 5,
+        "holdingsSummary": "修复速度非常快，并在2026-05-13创出历史新高。",
+        "env": "硬科技顺风延续，风险偏好重新集中到科创主线。",
+        "managerAction": "高一致性暴露带来高斜率反弹。",
+        "attribution": "弹性极强，但同时把买点性价比显著压缩。"
+      }
+    ],
+    "totalInflectionPoints": 10,
+    "stages": [
+      {
+        "id": 1,
+        "name": "成立后首轮回撤",
+        "emoji": "📉",
+        "color": "#10b981",
+        "period": "2025-03-06 → 2025-04-07",
+        "returnPct": -16.77,
+        "description": "基金成立后很快经历第一次明显回撤，直接暴露了科创50的高Beta属性。",
+        "env": "科技成长方向在年初波动较大，风险偏好并不稳定。",
+        "managerAction": "维持联接工具定位，没有主动防守型偏离。",
+        "attribution": "下跌主要来自赛道Beta，而不是执行偏差。"
+      },
+      {
+        "id": 2,
+        "name": "低位修复上行",
+        "emoji": "🚀",
+        "color": "#ef4444",
+        "period": "2025-04-07 → 2025-08-28",
+        "returnPct": 45.62,
+        "description": "科创主线修复后，联接工具弹性充分体现。",
+        "env": "AI、半导体和硬科技风险偏好重新回暖。",
+        "managerAction": "保持对目标指数的高一致性暴露。",
+        "attribution": "收益主要由主题Beta驱动。"
+      },
+      {
+        "id": 3,
+        "name": "三季度主升浪",
+        "emoji": "🔥",
+        "color": "#ef4444",
+        "period": "2025-09-04 → 2025-10-09",
+        "returnPct": 24.58,
+        "description": "2025Q3 是成立以来最强的趋势阶段，季度收益高达47.26%。",
+        "env": "科技主线进入主升浪，市场愿意给高弹性成长更高定价。",
+        "managerAction": "工具属性在顺风期被放大，几乎完整承接指数弹性。",
+        "attribution": "典型顺风阶段，高收益与高拥挤并存。"
+      },
+      {
+        "id": 4,
+        "name": "高位震荡回撤",
+        "emoji": "⚠️",
+        "color": "#f59e0b",
+        "period": "2025-10-09 → 2026-04-03",
+        "returnPct": -16.54,
+        "description": "高位震荡后再下探，最终形成当前样本内最大回撤。",
+        "env": "科技板块估值消化和风格切换共同压制净值。",
+        "managerAction": "没有主观择时垫子，继续按联接基金逻辑运行。",
+        "attribution": "回撤体验完全取决于科创50本身。"
+      },
+      {
+        "id": 5,
+        "name": "二季度快速修复",
+        "emoji": "⚡",
+        "color": "#ef4444",
+        "period": "2026-04-03 → 2026-05-13",
+        "returnPct": 40.2,
+        "description": "修复速度非常快，并在2026-05-13创出历史新高。",
+        "env": "硬科技顺风延续，风险偏好重新集中到科创主线。",
+        "managerAction": "高一致性暴露带来高斜率反弹。",
+        "attribution": "弹性极强，但同时把买点性价比显著压缩。"
+      }
+    ]
+  },
+  "managers": {
+    "current": {
+      "managerId": "30774121",
+      "allManagerIds": [
+        "30774121"
+      ],
+      "name": "金泽宇",
+      "fundCount": 27,
+      "totalScale": 69.37,
+      "education": "博士",
+      "joinDate": "2018-07",
+      "philosophy": [
+        {
+          "label": "工具定位",
+          "text": "核心任务是稳定承接目标指数暴露，而不是做主观择时型防守。"
+        },
+        {
+          "label": "执行方式",
+          "text": "依托量化与指数化框架管理ETF和联接产品，更强调流程一致性而不是个股判断。"
+        },
+        {
+          "label": "适配边界",
+          "text": "适合趋势明确、赛道景气上行的环境；当科技风格杀估值时，产品不会天然替持有人减震。"
+        }
+      ],
+      "consistencyAudit": [
+        {
+          "period": "成立以来整体观察",
+          "label": "工具属性一致",
+          "result": "pass",
+          "stated": "以跟踪标的指数、控制偏离度和跟踪误差为主要目标",
+          "actual": "净值路径与科创50高弹性特征一致，顺风时高涨、逆风时完整回撤，没有明显风格漂移。",
+          "evaluation": "从现有数据看，产品言行基本一致，问题不在跑偏，而在赛道本身过于高波动。"
+        },
+        {
+          "period": "2025Q4-2026Q1",
+          "label": "高位回撤期",
+          "result": "pass",
+          "stated": "优先维持联接基金和母ETF链条的稳定执行",
+          "actual": "阶段回撤明显，但跟踪误差仍处在可接受区间，没有因为管理失真而额外恶化。",
+          "evaluation": "执行层面合格，但也再次证明它不是防守工具。"
+        }
+      ],
+      "abilityProfile": {
+        "best": "指数与ETF链条执行。对于被动联接产品，经理的强项是保持暴露清晰和运作稳定，而不是做主观择时。",
+        "worst": "无法替持有人过滤赛道波动。科创50一旦进入估值回吐阶段，回撤基本会原样传导到产品净值。",
+        "goodEnv": [
+          "半导体和AI算力顺风、风险偏好上行阶段",
+          "政策支持硬科技、市场愿意给高成长更高估值的阶段"
+        ],
+        "badEnv": [
+          "科技杀估值和高位拥挤出清阶段",
+          "市场迅速转向低波防御风格的阶段"
+        ]
+      },
+      "title": "富国基金量化投资部定量基金经理",
+      "style": "典型量化/被动指数经理，核心任务是控制跟踪偏离与跟踪误差，不主动做赛道择时。",
+      "manageDate": "2025-01-21",
+      "manageYears": 1.3,
+      "tenureReturn": 55.67,
+      "strengths": [
+        "量化指数跟踪执行稳定",
+        "科创/创业板/宽基ETF链条管理经验集中",
+        "产品风格稳定，未见主动漂移"
+      ],
+      "weaknesses": [
+        "当前在管27只基金，管理疲劳预警触发",
+        "被动工具属性决定其无法在赛道回撤时主动减震",
+        "多数产品成立时间较短，长期穿越周期仍待观察"
+      ],
+      "historicalFunds": [
+        {
+          "name": "富国中证500ETF发起式联接C",
+          "code": "024180",
+          "type": "指数型-股票",
+          "tenure": "2025-08-26 ~ 至今",
+          "return": 21.15,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": true
+        },
+        {
+          "name": "富国中证500ETF发起式联接A",
+          "code": "024179",
+          "type": "指数型-股票",
+          "tenure": "2025-08-26 ~ 至今",
+          "return": 21.33,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": true
+        },
+        {
+          "name": "中证500ETF富国",
+          "code": "159500",
+          "type": "指数型-股票",
+          "tenure": "2025-08-20 ~ 至今",
+          "return": 25.49,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": true
+        },
+        {
+          "name": "富国中证800自由现金流ETF联接A",
+          "code": "024761",
+          "type": "指数型-股票",
+          "tenure": "2025-08-05 ~ 至今",
+          "return": 13.58,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": true
+        },
+        {
+          "name": "富国中证800自由现金流ETF联接C",
+          "code": "024762",
+          "type": "指数型-股票",
+          "tenure": "2025-08-05 ~ 至今",
+          "return": 13.41,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": true
+        },
+        {
+          "name": "科创50ETF富国",
+          "code": "588940",
+          "type": "指数型-股票",
+          "tenure": "2025-05-21 ~ 至今",
+          "return": 75.06,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": true
+        },
+        {
+          "name": "800现金流ETF富国",
+          "code": "563990",
+          "type": "指数型-股票",
+          "tenure": "2025-04-16 ~ 至今",
+          "return": 32.05,
+          "rank": 2117,
+          "rankTotal": 3845,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "富国创业板50ETF发起式联接A",
+          "code": "023859",
+          "type": "指数型-股票",
+          "tenure": "2025-04-15 ~ 至今",
+          "return": 112.76,
+          "rank": 251,
+          "rankTotal": 3845,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "富国创业板50ETF发起式联接C",
+          "code": "023860",
+          "type": "指数型-股票",
+          "tenure": "2025-04-15 ~ 至今",
+          "return": 112.31,
+          "rank": 255,
+          "rankTotal": 3845,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "富国上证科创板综合价格ETF联接C",
+          "code": "023738",
+          "type": "指数型-股票",
+          "tenure": "2025-04-09 ~ 至今",
+          "return": 73.17,
+          "rank": 677,
+          "rankTotal": 3845,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "富国上证科创板综合价格ETF联接A",
+          "code": "023737",
+          "type": "指数型-股票",
+          "tenure": "2025-04-09 ~ 至今",
+          "return": 73.55,
+          "rank": 672,
+          "rankTotal": 3845,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "科创综指ETF富国",
+          "code": "589600",
+          "type": "指数型-股票",
+          "tenure": "2025-02-28 ~ 至今",
+          "return": 64.94,
+          "rank": 563,
+          "rankTotal": 3845,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "创业板50ETF富国",
+          "code": "159371",
+          "type": "指数型-股票",
+          "tenure": "2025-01-24 ~ 至今",
+          "return": 98.09,
+          "rank": 192,
+          "rankTotal": 3845,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "富国上证科创板50成份ETF联接C",
+          "code": "023056",
+          "type": "指数型-股票",
+          "tenure": "2025-01-21 ~ 至今",
+          "return": 55.67,
+          "rank": 756,
+          "rankTotal": 3845,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "富国上证科创板50成份ETF联接A",
+          "code": "023055",
+          "type": "指数型-股票",
+          "tenure": "2025-01-21 ~ 至今",
+          "return": 56.07,
+          "rank": 745,
+          "rankTotal": 3845,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "富国中证红利低波动ETF发起式联接A",
+          "code": "021707",
+          "type": "指数型-股票",
+          "tenure": "2024-11-01 ~ 至今",
+          "return": 5.55,
+          "rank": 3391,
+          "rankTotal": 3845,
+          "grade": "weak",
+          "isCurrent": true
+        },
+        {
+          "name": "富国中证红利低波动ETF发起式联接C",
+          "code": "021708",
+          "type": "指数型-股票",
+          "tenure": "2024-11-01 ~ 至今",
+          "return": 5.22,
+          "rank": 3399,
+          "rankTotal": 3845,
+          "grade": "weak",
+          "isCurrent": true
+        },
+        {
+          "name": "富国中证中央企业红利ETF发起式联接C",
+          "code": "021244",
+          "type": "指数型-股票",
+          "tenure": "2024-10-10 ~ 至今",
+          "return": 14.13,
+          "rank": 3026,
+          "rankTotal": 3845,
+          "grade": "weak",
+          "isCurrent": true
+        },
+        {
+          "name": "富国中证中央企业红利ETF发起式联接A",
+          "code": "021243",
+          "type": "指数型-股票",
+          "tenure": "2024-10-10 ~ 至今",
+          "return": 14.5,
+          "rank": 3013,
+          "rankTotal": 3845,
+          "grade": "weak",
+          "isCurrent": true
+        },
+        {
+          "name": "富国沪深300ETF发起式联接C",
+          "code": "021833",
+          "type": "指数型-股票",
+          "tenure": "2024-09-27 ~ 至今",
+          "return": 20.12,
+          "rank": 2187,
+          "rankTotal": 3845,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "富国沪深300ETF发起式联接A",
+          "code": "021832",
+          "type": "指数型-股票",
+          "tenure": "2024-09-27 ~ 至今",
+          "return": 20.51,
+          "rank": 2168,
+          "rankTotal": 3845,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "央企红利ETF富国",
+          "code": "159332",
+          "type": "指数型-股票",
+          "tenure": "2024-07-16 ~ 至今",
+          "return": 25.45,
+          "rank": 2997,
+          "rankTotal": 3845,
+          "grade": "weak",
+          "isCurrent": true
+        },
+        {
+          "name": "沪深300ETF富国",
+          "code": "159300",
+          "type": "指数型-股票",
+          "tenure": "2024-05-23 ~ 至今",
+          "return": 44.75,
+          "rank": 2071,
+          "rankTotal": 3845,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "红利低波ETF富国",
+          "code": "159525",
+          "type": "指数型-股票",
+          "tenure": "2024-05-07 ~ 至今",
+          "return": 8.87,
+          "rank": 3364,
+          "rankTotal": 3845,
+          "grade": "weak",
+          "isCurrent": true
+        },
+        {
+          "name": "富国创业板中盘200ETF发起式联接C",
+          "code": "020668",
+          "type": "指数型-股票",
+          "tenure": "2024-02-06 ~ 2025-07-03",
+          "return": 30.15,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": false
+        },
+        {
+          "name": "富国创业板中盘200ETF发起式联接A",
+          "code": "020667",
+          "type": "指数型-股票",
+          "tenure": "2024-02-06 ~ 2025-07-03",
+          "return": 30.48,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": false
+        },
+        {
+          "name": "创业板200ETF富国",
+          "code": "159571",
+          "type": "指数型-股票",
+          "tenure": "2023-12-20 ~ 2025-07-03",
+          "return": 25.94,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": false
+        },
+        {
+          "name": "中证2000ETF富国",
+          "code": "563200",
+          "type": "指数型-股票",
+          "tenure": "2023-09-28 ~ 2025-07-25",
+          "return": 30.64,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": false
+        },
+        {
+          "name": "富国中证1000ETF联接C",
+          "code": "016634",
+          "type": "指数型-股票",
+          "tenure": "2022-11-15 ~ 至今",
+          "return": 24.16,
+          "rank": 1566,
+          "rankTotal": 3845,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "富国中证1000ETF联接A",
+          "code": "016633",
+          "type": "指数型-股票",
+          "tenure": "2022-11-15 ~ 至今",
+          "return": 25.03,
+          "rank": 1555,
+          "rankTotal": 3845,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "中证1000ETF富国",
+          "code": "159629",
+          "type": "指数型-股票",
+          "tenure": "2022-07-27 ~ 至今",
+          "return": 25.92,
+          "rank": 1436,
+          "rankTotal": 3845,
+          "grade": "good",
+          "isCurrent": true
+        }
+      ],
+      "bestReturn": 112.76,
+      "worstReturn": 5.22,
+      "rankInPeer": 756,
+      "rankTotal": 3845,
+      "peerAvgReturn": 37.17
+    }
+  },
+  "navHistory": [
+    {
+      "date": "2025-12-25",
+      "nav": 1.2353
+    },
+    {
+      "date": "2025-12-26",
+      "nav": 1.2325
+    },
+    {
+      "date": "2025-12-29",
+      "nav": 1.2328
+    },
+    {
+      "date": "2025-12-30",
+      "nav": 1.2446
+    },
+    {
+      "date": "2025-12-31",
+      "nav": 1.2311
+    },
+    {
+      "date": "2026-01-05",
+      "nav": 1.2819
+    },
+    {
+      "date": "2026-01-06",
+      "nav": 1.3044
+    },
+    {
+      "date": "2026-01-07",
+      "nav": 1.3166
+    },
+    {
+      "date": "2026-01-08",
+      "nav": 1.3278
+    },
+    {
+      "date": "2026-01-09",
+      "nav": 1.3457
+    },
+    {
+      "date": "2026-01-12",
+      "nav": 1.3772
+    },
+    {
+      "date": "2026-01-13",
+      "nav": 1.34
+    },
+    {
+      "date": "2026-01-14",
+      "nav": 1.3678
+    },
+    {
+      "date": "2026-01-15",
+      "nav": 1.3615
+    },
+    {
+      "date": "2026-01-16",
+      "nav": 1.3791
+    },
+    {
+      "date": "2026-01-19",
+      "nav": 1.3727
+    },
+    {
+      "date": "2026-01-20",
+      "nav": 1.3521
+    },
+    {
+      "date": "2026-01-21",
+      "nav": 1.3968
+    },
+    {
+      "date": "2026-01-22",
+      "nav": 1.402
+    },
+    {
+      "date": "2026-01-23",
+      "nav": 1.4126
+    },
+    {
+      "date": "2026-01-26",
+      "nav": 1.3941
+    },
+    {
+      "date": "2026-01-27",
+      "nav": 1.4143
+    },
+    {
+      "date": "2026-01-28",
+      "nav": 1.4141
+    },
+    {
+      "date": "2026-01-29",
+      "nav": 1.3744
+    },
+    {
+      "date": "2026-01-30",
+      "nav": 1.3758
+    },
+    {
+      "date": "2026-02-02",
+      "nav": 1.3263
+    },
+    {
+      "date": "2026-02-03",
+      "nav": 1.3435
+    },
+    {
+      "date": "2026-02-04",
+      "nav": 1.3283
+    },
+    {
+      "date": "2026-02-05",
+      "nav": 1.3101
+    },
+    {
+      "date": "2026-02-06",
+      "nav": 1.3013
+    },
+    {
+      "date": "2026-02-09",
+      "nav": 1.3326
+    },
+    {
+      "date": "2026-02-10",
+      "nav": 1.3463
+    },
+    {
+      "date": "2026-02-11",
+      "nav": 1.3319
+    },
+    {
+      "date": "2026-02-12",
+      "nav": 1.3545
+    },
+    {
+      "date": "2026-02-13",
+      "nav": 1.3451
+    },
+    {
+      "date": "2026-02-24",
+      "nav": 1.3406
+    },
+    {
+      "date": "2026-02-25",
+      "nav": 1.3475
+    },
+    {
+      "date": "2026-02-26",
+      "nav": 1.3587
+    },
+    {
+      "date": "2026-02-27",
+      "nav": 1.3606
+    },
+    {
+      "date": "2026-03-02",
+      "nav": 1.3402
+    },
+    {
+      "date": "2026-03-03",
+      "nav": 1.2738
+    },
+    {
+      "date": "2026-03-04",
+      "nav": 1.2679
+    },
+    {
+      "date": "2026-03-05",
+      "nav": 1.2889
+    },
+    {
+      "date": "2026-03-06",
+      "nav": 1.2968
+    },
+    {
+      "date": "2026-03-09",
+      "nav": 1.2758
+    },
+    {
+      "date": "2026-03-10",
+      "nav": 1.3012
+    },
+    {
+      "date": "2026-03-11",
+      "nav": 1.2847
+    },
+    {
+      "date": "2026-03-12",
+      "nav": 1.2694
+    },
+    {
+      "date": "2026-03-13",
+      "nav": 1.2594
+    },
+    {
+      "date": "2026-03-16",
+      "nav": 1.2696
+    },
+    {
+      "date": "2026-03-17",
+      "nav": 1.2428
+    },
+    {
+      "date": "2026-03-18",
+      "nav": 1.2589
+    },
+    {
+      "date": "2026-03-19",
+      "nav": 1.2295
+    },
+    {
+      "date": "2026-03-20",
+      "nav": 1.2115
+    },
+    {
+      "date": "2026-03-23",
+      "nav": 1.1615
+    },
+    {
+      "date": "2026-03-24",
+      "nav": 1.1874
+    },
+    {
+      "date": "2026-03-25",
+      "nav": 1.2094
+    },
+    {
+      "date": "2026-03-26",
+      "nav": 1.1859
+    },
+    {
+      "date": "2026-03-27",
+      "nav": 1.1965
+    },
+    {
+      "date": "2026-03-30",
+      "nav": 1.1868
+    },
+    {
+      "date": "2026-03-31",
+      "nav": 1.1572
+    },
+    {
+      "date": "2026-04-01",
+      "nav": 1.1944
+    },
+    {
+      "date": "2026-04-02",
+      "nav": 1.1622
+    },
+    {
+      "date": "2026-04-03",
+      "nav": 1.157
+    },
+    {
+      "date": "2026-04-07",
+      "nav": 1.1727
+    },
+    {
+      "date": "2026-04-08",
+      "nav": 1.2431
+    },
+    {
+      "date": "2026-04-09",
+      "nav": 1.2352
+    },
+    {
+      "date": "2026-04-10",
+      "nav": 1.2534
+    },
+    {
+      "date": "2026-04-13",
+      "nav": 1.2629
+    },
+    {
+      "date": "2026-04-14",
+      "nav": 1.289
+    },
+    {
+      "date": "2026-04-15",
+      "nav": 1.2903
+    },
+    {
+      "date": "2026-04-16",
+      "nav": 1.3046
+    },
+    {
+      "date": "2026-04-17",
+      "nav": 1.3055
+    },
+    {
+      "date": "2026-04-20",
+      "nav": 1.3293
+    },
+    {
+      "date": "2026-04-21",
+      "nav": 1.3096
+    },
+    {
+      "date": "2026-04-22",
+      "nav": 1.3312
+    },
+    {
+      "date": "2026-04-23",
+      "nav": 1.3146
+    },
+    {
+      "date": "2026-04-24",
+      "nav": 1.3356
+    },
+    {
+      "date": "2026-04-27",
+      "nav": 1.3845
+    },
+    {
+      "date": "2026-04-28",
+      "nav": 1.3668
+    },
+    {
+      "date": "2026-04-29",
+      "nav": 1.3711
+    },
+    {
+      "date": "2026-04-30",
+      "nav": 1.4399
+    },
+    {
+      "date": "2026-05-06",
+      "nav": 1.5253
+    },
+    {
+      "date": "2026-05-07",
+      "nav": 1.5439
+    },
+    {
+      "date": "2026-05-08",
+      "nav": 1.5075
+    },
+    {
+      "date": "2026-05-11",
+      "nav": 1.5749
+    },
+    {
+      "date": "2026-05-12",
+      "nav": 1.581
+    },
+    {
+      "date": "2026-05-13",
+      "nav": 1.6221
+    },
+    {
+      "date": "2026-05-14",
+      "nav": 1.5819
+    },
+    {
+      "date": "2026-05-15",
+      "nav": 1.5567
+    }
+  ],
+  "exclusionCheck": [
+    {
+      "item": "成立时间是否不足3年",
+      "pass": false,
+      "note": "成立于2025-01-21，样本仍短，尚未经历完整长周期。"
+    },
+    {
+      "item": "当前净值是否处于过高分位",
+      "pass": false,
+      "note": "当前处于98.7%历史分位，高位追入赔率偏低。"
+    },
+    {
+      "item": "费率是否明显偏贵",
+      "pass": true,
+      "note": "管理费+托管费合计0.20%，在主题指数联接里不贵；但C类销售服务费会拖累长期持有。"
+    },
+    {
+      "item": "跟踪误差是否显著失控",
+      "pass": true,
+      "note": "近1年年化跟踪误差1.89%，略优于同类平均1.99%，未见失控。"
+    },
+    {
+      "item": "主题集中是否过高",
+      "pass": false,
+      "note": "科创50核心暴露集中于半导体和AI算力链，本身就是高集中工具。"
+    },
+    {
+      "item": "基金规模是否进入危险区间",
+      "pass": true,
+      "note": "当前规模2.85亿元，未落入极小规模红线，但也没有形成明显容量优势。"
+    },
+    {
+      "item": "基金经理是否命中黑名单",
+      "pass": true,
+      "note": "本地黑名单核查未命中金泽宇。"
+    },
+    {
+      "item": "基金公司是否命中黑名单",
+      "pass": true,
+      "note": "本地黑名单核查未命中富国基金。"
+    },
+    {
+      "item": "最新持仓结构是否足够透明",
+      "pass": false,
+      "note": "F10 最新可直接结构化股票明细停在2025Q4，ETF联接的2026Q1核心仓位需结合资产配置理解。"
+    }
+  ],
+  "scoring": {
+    "total": 65,
+    "grade": "良好",
+    "recommendation": "谨慎（高位不追）",
+    "recommendationType": "cautious",
+    "rating": "★★",
+    "logic": "基金质量65/100（良好）×政策状态红利期×市场状态高位谨慎→谨慎。它是合格的科创50联接工具，但当前位置偏高、主题集中度过强、样本期仍偏短。",
+    "dimensions": [
+      {
+        "name": "费率性价比",
+        "score": 20,
+        "maxScore": 25,
+        "pros": [
+          "管理费+托管费仅0.20%",
+          "C类免前端申购费"
+        ],
+        "cons": [
+          "销售服务费0.20%不利于长期持有"
+        ]
+      },
+      {
+        "name": "跟踪执行",
+        "score": 14,
+        "maxScore": 20,
+        "pros": [
+          "年化跟踪误差1.89%，略优于同类平均",
+          "母ETF与联接链条较完整"
+        ],
+        "cons": [
+          "信息比率-0.01，超额稳定性一般"
+        ]
+      },
+      {
+        "name": "风险承载要求",
+        "score": 12,
+        "maxScore": 20,
+        "pros": [
+          "当前样本内最大回撤仍控制在-20%以内",
+          "近1年夏普显著改善"
+        ],
+        "cons": [
+          "年化波动率29.36%，高Beta特征非常明显"
+        ]
+      },
+      {
+        "name": "主题集中度与外部约束",
+        "score": 8,
+        "maxScore": 20,
+        "pros": [
+          "暴露清晰，适合表达硬科技主线观点"
+        ],
+        "cons": [
+          "半导体与AI链权重高，外部限制与估值风险难回避"
+        ]
+      },
+      {
+        "name": "流动性与平台",
+        "score": 11,
+        "maxScore": 15,
+        "pros": [
+          "富国基金指数工具平台成熟",
+          "母ETF科创50ETF富国同步在管"
+        ],
+        "cons": [
+          "联接C份额规模2.85亿元，仍属中小体量"
+        ]
+      }
+    ],
+    "reasoning": "基金的核心价值在于作为科创50联接工具低成本承接科技弹性，而不是提供防守体验。当前近1年业绩很强，但高位分位与高集中度降低了新资金的性价比。",
+    "conclusion": "不是差产品，而是当前时点不便宜。更合适的策略是保留关注、等待更好回撤，而不是因为短期强势直接重仓追入。",
+    "suitableFor": [
+      "明确看好中国硬科技与科创50中期逻辑的人",
+      "已有稳健底仓，希望增加高弹性科技卫星仓的人",
+      "能承受较大波动和阶段回撤的人"
+    ],
+    "notSuitableFor": [
+      "追求低波动、低回撤体验的人",
+      "打算在高位一次性重仓买入的人",
+      "把ETF联接误当成主动防守基金的人"
+    ],
+    "allocationSuggestions": [
+      {
+        "scenario": "存量持有人",
+        "action": "继续持有为主",
+        "note": "尊重高弹性属性，不在高位大幅追加。"
+      },
+      {
+        "scenario": "新入场投资者",
+        "action": "等待回撤或分批试探",
+        "note": "当前位置更适合小仓位试探，不适合一次性重仓。"
+      },
+      {
+        "scenario": "长期配置者",
+        "action": "控制仓位上限",
+        "note": "更适合作为10%-15%区间的高弹性卫星仓。"
+      }
+    ],
+    "risks": [
+      {
+        "type": "高位追涨风险",
+        "level": "high",
+        "note": "当前净值处于98.7%历史分位，新资金容错率较低。"
+      },
+      {
+        "type": "高Beta波动风险",
+        "level": "high",
+        "note": "波动率29.36%，不适合作为防守资产。"
+      },
+      {
+        "type": "主题集中风险",
+        "level": "high",
+        "note": "科创50高度集中于半导体和AI，风格切换时会放大回撤。"
+      },
+      {
+        "type": "样本期偏短",
+        "level": "medium",
+        "note": "成立于2025年，尚未穿越完整市场周期。"
+      }
+    ],
+    "policyItems": [
+      {
+        "name": "科创板八条",
+        "date": "2024-06",
+        "content": "继续强化科创板硬科技定位和制度供给。",
+        "impact": "positive",
+        "impactLabel": "🟢 强利好"
+      },
+      {
+        "name": "2025年政府工作报告",
+        "date": "2025-03",
+        "content": "继续强调科技创新、人工智能、集成电路和产业升级。",
+        "impact": "positive",
+        "impactLabel": "🟢 强利好"
+      },
+      {
+        "name": "电子信息制造业景气延续",
+        "date": "2026-04",
+        "content": "电子信息制造业和集成电路产量维持高增长，对指数核心权重形成验证。",
+        "impact": "positive",
+        "impactLabel": "🟢 偏利好"
+      }
+    ],
+    "marketStatus": [
+      {
+        "dim": "净值位置",
+        "status": "98.7%历史分位",
+        "statusType": "cautious",
+        "detail": "处于成立以来高位区域，明显不是低位赔率区。"
+      },
+      {
+        "dim": "近期趋势",
+        "status": "强势后高位震荡",
+        "statusType": "warning",
+        "detail": "近1月收益20.65%，但距2026-05-13高点回落后仍在高位。"
+      },
+      {
+        "dim": "风险收益比",
+        "status": "近1年优秀",
+        "statusType": "positive",
+        "detail": "近1年夏普2.21、收益69.21%，但样本期仍短。"
+      },
+      {
+        "dim": "宏观流动性",
+        "status": "友好",
+        "statusType": "positive",
+        "detail": "科技成长方向仍受流动性与政策顺风支持。"
+      },
+      {
+        "dim": "主线风格",
+        "status": "硬科技高弹性",
+        "statusType": "warning",
+        "detail": "收益弹性强，但并不具备宽基那样的分散缓冲。"
+      },
+      {
+        "dim": "外部不确定性",
+        "status": "需跟踪",
+        "statusType": "warning",
+        "detail": "先进制程、估值拥挤度和外部限制仍是主要变量。"
+      }
+    ],
+    "termAdvice": [
+      {
+        "term": "短期（1-3个月）",
+        "icon": "⚠️",
+        "level": "cautious",
+        "advice": "高位区间不建议追涨，优先等波动回撤。"
+      },
+      {
+        "term": "中期（6-12个月）",
+        "icon": "🟡",
+        "level": "cautious",
+        "advice": "若科技主线延续，产品仍有弹性，但仓位应分批管理。"
+      },
+      {
+        "term": "长期（3年以上）",
+        "icon": "🟢",
+        "level": "positive",
+        "advice": "可作为组合中的高弹性科技工具，但不能替代稳健底仓。"
+      }
+    ]
+  },
+  "policy": {
+    "tags": [
+      {
+        "label": "科创板改革",
+        "strength": "high",
+        "color": "#ef4444"
+      },
+      {
+        "label": "硬科技主线",
+        "strength": "high",
+        "color": "#3b82f6"
+      },
+      {
+        "label": "高波动成长",
+        "strength": "medium",
+        "color": "#f59e0b"
+      }
+    ],
+    "industryOverview": [
+      {
+        "point": "政策仍偏顺风",
+        "detail": "科创板制度改革和政府工作报告都继续支持硬科技融资与产业升级。"
+      },
+      {
+        "point": "产业景气仍有验证",
+        "detail": "电子信息制造业和集成电路景气延续，对指数权重构成中期支撑。"
+      },
+      {
+        "point": "价格不再便宜",
+        "detail": "政策方向正确，不等于当前买点性价比高；分位已经接近历史高位。"
+      }
+    ],
+    "cyclePeriod": "政策顺风期",
+    "cycleReason": "硬科技方向仍处于政策支持期，但市场价格已经提前反映一部分预期，因此方向偏正面、赔率偏谨慎。",
+    "adaptability": [
+      {
+        "env": "🟢 科技成长顺风期",
+        "perf": "当半导体、AI算力和风险偏好同步回暖时，基金弹性会非常明显。",
+        "color": "#ef4444"
+      },
+      {
+        "env": "🔴 风格急切换或科技杀估值阶段",
+        "perf": "若市场转向防御风格或科技估值被压缩，基金会完整承受下行波动。",
+        "color": "#10b981"
+      }
+    ],
+    "dualTimeline": [
+      {
+        "period": "2025-01 ~ 2025-04",
+        "manager": {
+          "event": "成立后先遭遇回撤",
+          "return": "-16.77%",
+          "note": "产品刚成立即进入科技风格震荡，经理并未做主观防守，而是维持联接工具定位。",
+          "type": "neutral"
+        },
+        "market": {
+          "event": "科技风格波动加大",
+          "note": "高弹性成长方向在年初并不平顺，风险偏好摇摆明显。",
+          "type": "warning"
+        }
+      },
+      {
+        "period": "2025-04 ~ 2025-08",
+        "manager": {
+          "event": "低位修复阶段顺势受益",
+          "return": "+45.62%",
+          "note": "联接工具没有偏离赛道，因而完整承接了科创50修复斜率。",
+          "type": "positive"
+        },
+        "market": {
+          "event": "硬科技风险偏好修复",
+          "note": "AI和半导体链回暖后，科创50弹性重新释放。",
+          "type": "bull"
+        }
+      },
+      {
+        "period": "2025-09 ~ 2025-10",
+        "manager": {
+          "event": "主升浪充分兑现",
+          "return": "2025Q3 +47.26%",
+          "note": "这是最能体现工具属性的阶段，涨得快但也说明后续更容易拥挤。",
+          "type": "positive"
+        },
+        "market": {
+          "event": "科技主线主升浪",
+          "note": "科创50成为高弹性主线之一，指数工具顺风显著。",
+          "type": "bull"
+        }
+      },
+      {
+        "period": "2025-10 ~ 2026-04",
+        "manager": {
+          "event": "高位震荡后再下探",
+          "return": "最大回撤 -18.19%",
+          "note": "产品没有防守垫，回撤体验直接由科创50决定。",
+          "type": "warning"
+        },
+        "market": {
+          "event": "高位消化与估值回吐",
+          "note": "科技板块强势后通常伴随高波动回吐，本基金同样无法豁免。",
+          "type": "warning"
+        }
+      },
+      {
+        "period": "2026-04 ~ 2026-05",
+        "manager": {
+          "event": "快速修复并接近新高",
+          "return": "+40.20%",
+          "note": "修复速度再次证明高弹性，但也把当前买点推向高位谨慎区。",
+          "type": "positive"
+        },
+        "market": {
+          "event": "政策顺风仍在但赔率下降",
+          "note": "方向仍对，但价格已不便宜，新增资金更应重视买点而非只看赛道。",
+          "type": "policy"
+        }
+      }
+    ],
+    "note": "方向继续偏正面，真正需要警惕的是高分位和高波动，而不是政策突然转空。"
+  },
+  "tracking": {
+    "weekly": [
+      "净值是否继续维持在95%以上历史高位分位",
+      "近1周与近1月相对同类和沪深300的领先幅度是否收窄",
+      "半导体与AI算力主线是否出现明显情绪降温",
+      "母ETF与联接基金规模是否出现异常萎缩"
+    ],
+    "quarterly": [
+      "跟踪误差是否继续维持在2%左右或以下",
+      "季度回撤是否显著放大且修复速度转弱",
+      "最新季报中ETF联接资产配置是否依然稳定",
+      "经理在同主题产品中的执行质量是否保持一致"
+    ],
+    "alerts": [
+      {
+        "level": "critical",
+        "icon": "📉",
+        "text": "净值从高位快速回撤且伴随科技主线明显退潮"
+      },
+      {
+        "level": "critical",
+        "icon": "📊",
+        "text": "跟踪误差持续高于同类平均，说明工具属性出现劣化"
+      },
+      {
+        "level": "warning",
+        "icon": "🏷️",
+        "text": "联接基金和母ETF规模持续走弱，影响产品生命力与流动性预期"
+      },
+      {
+        "level": "critical",
+        "icon": "⚖️",
+        "text": "公司或经理出现新的实质性合规负面事件"
+      }
+    ]
+  },
+  "company": {
+    "name": "富国基金管理有限公司",
+    "shortName": "富国基金",
+    "foundYear": 1999,
+    "aumDesc": "管理规模 13440.88 亿元，旗下 855 只基金、111 名基金经理，天相评级五星（Eastmoney 2026-05-17 页面口径）。",
+    "industryRank": "老牌头部综合公募，基金经理数量行业第 3/106，基金规模与产品线均位居行业前列，指数工具线尤其完整。",
+    "complianceResult": "通过",
+    "complianceSummary": "未触发一票否决项。公司平台与指数产品线较强，但近两年确有合规整改记录，后续仍需跟踪内控修复和人员管理情况。",
+    "complianceChecks": [
+      {
+        "item": "黑名单核查",
+        "pass": true,
+        "warn": false,
+        "detail": "本轮研究未发现富国基金或金泽宇命中黑名单。"
+      },
+      {
+        "item": "近年监管处罚",
+        "pass": false,
+        "warn": true,
+        "detail": "报告记录显示公司在 2024 年 2 月和 2025 年 11 月两次被上海证监局责令改正，涉及公司治理、合规内控、投资运作、人员管理、销售管理等问题。"
+      },
+      {
+        "item": "一票否决项",
+        "pass": true,
+        "warn": false,
+        "detail": "现有公开信息未见暂停业务、吊销牌照、重大内幕交易定性等一票否决级事件。"
+      },
+      {
+        "item": "基金经理稳定性",
+        "pass": true,
+        "warn": false,
+        "detail": "金泽宇自 2018 年 7 月加入富国，任职稳定，本基金自成立以来亦无经理变更。"
+      },
+      {
+        "item": "管理负荷风险",
+        "pass": false,
+        "warn": true,
+        "detail": "金泽宇当前在管 27 只基金，虽多为指数工具，但管理半径客观偏大。"
+      }
+    ]
+  }
+}

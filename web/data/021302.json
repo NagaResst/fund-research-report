@@ -1,0 +1,2384 @@
+{
+  "id": "021302",
+  "meta": {
+    "reportDate": "2026-05-19",
+    "dataDate": "2026-05-18",
+    "disclaimer": "本报告仅供个人学习和信息整理使用，所有分析内容均不构成任何投资建议。投资有风险，入市需谨慎，请依据自身判断做出投资决策。"
+  },
+  "basic": {
+    "code": "021302",
+    "fullName": "银河中证机器人指数发起式证券投资基金",
+    "shortName": "银河中证机器人指数发起式C",
+    "type": "指数型",
+    "subType": "股票",
+    "riskLevel": "R3",
+    "riskCode": 3,
+    "foundDate": "2024年05月16日",
+    "manager": "黄栋",
+    "companyShort": "银河基金",
+    "custodian": "中信银行",
+    "benchmark": "中证机器人指数收益率*95%+银行活期存款利率(税后)*5%",
+    "navFallback": 1.8102,
+    "navDateFallback": "2026-05-18",
+    "inceptionReturn": 81.02,
+    "status": "开放申购 / 开放赎回"
+  },
+  "fees": {
+    "management": 0.5,
+    "custodian": 0.1,
+    "salesService": 0.3,
+    "subscriptionMax": 0.0,
+    "subscriptionDiscounted": 0.0,
+    "redemptionMax": 1.5,
+    "breakdown": [
+      {
+        "name": "管理费",
+        "value": 0.5
+      },
+      {
+        "name": "托管费",
+        "value": 0.1
+      },
+      {
+        "name": "销售服务费",
+        "value": 0.3
+      },
+      {
+        "name": "申购费",
+        "value": 0.0,
+        "actualRate": 0.0
+      },
+      {
+        "name": "赎回费",
+        "value": 1.5,
+        "rate": 1.5,
+        "rules": [
+          {
+            "label": "持有少于7天",
+            "rate": 1.5
+          },
+          {
+            "label": "持有7天及以上",
+            "rate": 0.0
+          }
+        ],
+        "note": "短期持有惩罚性费率，具体以基金合同为准"
+      }
+    ]
+  },
+  "scale": {
+    "nav": 3.01,
+    "date": "2026-05-18"
+  },
+  "risk": {
+    "volatility": 0.2984,
+    "annualReturn": 0.3664,
+    "sharpe": 1.13,
+    "calmar": 1.47,
+    "maxDrawdown": -0.2488,
+    "maxDrawdownPeriod": "2025-02-26 → 2025-04-08",
+    "periodMetrics": [
+      {
+        "label": "近1年",
+        "volatility": 0.2423,
+        "sharpe": 1.45,
+        "maxDrawdown": -0.1824
+      },
+      {
+        "label": "近2年",
+        "volatility": null,
+        "sharpe": null,
+        "maxDrawdown": null
+      },
+      {
+        "label": "近3年",
+        "volatility": null,
+        "sharpe": null,
+        "maxDrawdown": null
+      }
+    ],
+    "riskBreakdown": {
+      "yearlyMaxDrawdowns": [
+        {
+          "year": 2026,
+          "fund": 18.24,
+          "hs300": 7.78
+        },
+        {
+          "year": 2025,
+          "fund": 24.88,
+          "hs300": 10.49
+        },
+        {
+          "year": 2024,
+          "fund": 13.45,
+          "hs300": 14.41
+        }
+      ],
+      "volatilityRating": "年化波动率29.84%，明显高于宽基指数，属于中高波动的机器人主题工具。",
+      "sharpeRating": "全期夏普1.13、近1年夏普1.45，最近一年风险收益比优于成立以来。",
+      "drawdownRating": "历史最大回撤-24.88%，持续约1.5个月，属于高弹性主题基金可接受但绝不轻松的区间。",
+      "historicalMaxDrawdown": 24.88
+    },
+    "relativeMetrics": {
+      "beta": 1.1797,
+      "alpha": 0.1571,
+      "informationRatio": 0.9178,
+      "trackingError": 0.2046,
+      "r2": 0.5447
+    },
+    "navPercentile": 100.0,
+    "recentPerf": [
+      {
+        "period": "近1周",
+        "fund": 3.19,
+        "peer": -2.43,
+        "hs300": -2.39,
+        "excess": 5.58,
+        "rank": 87,
+        "rankTotal": 5071,
+        "warn": false,
+        "note": "短线走势很强，说明机器人主线重新升温。"
+      },
+      {
+        "period": "近1月",
+        "fund": 16.22,
+        "peer": 3.07,
+        "hs300": 2.22,
+        "excess": 14.0,
+        "rank": 389,
+        "rankTotal": 5038,
+        "warn": false,
+        "note": "近1月弹性非常突出，但追涨性价比已经下降。"
+      },
+      {
+        "period": "近3月",
+        "fund": 9.33,
+        "peer": 3.46,
+        "hs300": 3.71,
+        "excess": 5.62,
+        "rank": 1177,
+        "rankTotal": 4919,
+        "warn": false,
+        "note": "高位消化期仍保持正超额，说明主线暂未走坏。"
+      },
+      {
+        "period": "近6月",
+        "fund": 22.81,
+        "peer": 10.43,
+        "hs300": 5.81,
+        "excess": 17.0,
+        "rank": 993,
+        "rankTotal": 4635,
+        "warn": false,
+        "note": "中期修复弹性突出，超额收益较为明显。"
+      },
+      {
+        "period": "近1年",
+        "fund": 35.8,
+        "peer": 37.01,
+        "hs300": 24.28,
+        "excess": 11.52,
+        "rank": 1740,
+        "rankTotal": 3853,
+        "warn": true,
+        "note": "近1年虽然跑赢沪深300，但同赛道内部并非最优工具。"
+      },
+      {
+        "period": "近2年",
+        "fund": 81.02,
+        "peer": 52.91,
+        "hs300": 31.42,
+        "excess": 49.6,
+        "rank": 634,
+        "rankTotal": 2746,
+        "warn": false,
+        "note": "成立以来累计超额明显，证明机器人主题高弹性窗口确实被较完整承接。"
+      }
+    ],
+    "maxDrawdownMonths": 1.5,
+    "radarDimensions": [
+      {
+        "name": "费率性价比",
+        "score": 40
+      },
+      {
+        "name": "跟踪执行",
+        "score": 90
+      },
+      {
+        "name": "风险承载要求",
+        "score": 70
+      },
+      {
+        "name": "主题集中度与外部约束",
+        "score": 70
+      },
+      {
+        "name": "流动性与平台",
+        "score": 66
+      },
+      {
+        "name": "综合评分",
+        "score": 66
+      }
+    ]
+  },
+  "holdings": {
+    "date": "2026年1季度股票投资明细",
+    "top10": [
+      {
+        "rank": 1,
+        "name": "科大讯飞",
+        "code": "002230",
+        "ratio": 9.4
+      },
+      {
+        "rank": 2,
+        "name": "汇川技术",
+        "code": "300124",
+        "ratio": 9.04
+      },
+      {
+        "rank": 3,
+        "name": "拓普集团",
+        "code": "601689",
+        "ratio": 6.1
+      },
+      {
+        "rank": 4,
+        "name": "大族激光",
+        "code": "002008",
+        "ratio": 6.02
+      },
+      {
+        "rank": 5,
+        "name": "中控技术",
+        "code": "688777",
+        "ratio": 5.02
+      },
+      {
+        "rank": 6,
+        "name": "大华股份",
+        "code": "002236",
+        "ratio": 4.1
+      },
+      {
+        "rank": 7,
+        "name": "石头科技",
+        "code": "688169",
+        "ratio": 3.05
+      },
+      {
+        "rank": 8,
+        "name": "双环传动",
+        "code": "002472",
+        "ratio": 3.0
+      },
+      {
+        "rank": 9,
+        "name": "绿的谐波",
+        "code": "688017",
+        "ratio": 2.93
+      },
+      {
+        "rank": 10,
+        "name": "云天励飞",
+        "code": "688343",
+        "ratio": 2.3
+      }
+    ],
+    "top10Total": 50.96,
+    "top10TotalRatio": 50.96,
+    "sectors": [
+      {
+        "name": "制造业",
+        "ratio": 73.11
+      },
+      {
+        "name": "信息技术业",
+        "ratio": 19.04
+      },
+      {
+        "name": "科学研究和技术服务业",
+        "ratio": 1.21
+      },
+      {
+        "name": "采矿业",
+        "ratio": 0.03
+      },
+      {
+        "name": "交通运输、仓储和邮政业",
+        "ratio": 0.0
+      }
+    ],
+    "stockRatio": 93.39,
+    "bondRatio": 0.0,
+    "cashRatio": 6.61,
+    "themeTitle": "机器人产业链：感知 + 控制 + 执行器 + 服务机器人",
+    "themeSubtitle": "工业自动化与量产零部件占比最高，组合更偏机器人量产主线",
+    "concentrationLabel": "前十大占净值50.96%，属于中高集中度主题组合",
+    "themeGroups": [
+      {
+        "name": "感知与AI交互",
+        "color": "#58a6ff",
+        "ratio": 15.8,
+        "stocks": "科大讯飞 / 大华股份 / 云天励飞",
+        "note": "对应机器人眼睛和大脑环节，是主题成长性的弹性来源之一。"
+      },
+      {
+        "name": "运动控制与工业自动化",
+        "color": "#3fb950",
+        "ratio": 20.08,
+        "stocks": "汇川技术 / 大族激光 / 中控技术",
+        "note": "这是组合的最大权重区，更贴近工业机器人量产中最容易兑现的控制和设备环节。"
+      },
+      {
+        "name": "执行器与传动链",
+        "color": "#E8813A",
+        "ratio": 12.03,
+        "stocks": "拓普集团 / 双环传动 / 绿的谐波",
+        "note": "对应人形机器人量产最关键的硬件执行链，是基金后续强化的核心方向。"
+      },
+      {
+        "name": "服务机器人整机",
+        "color": "#a371f7",
+        "ratio": 3.05,
+        "stocks": "石头科技",
+        "note": "提供整机端验证样本，但权重明显低于量产零部件和自动化主线。"
+      }
+    ],
+    "evolutionHighlights": [
+      {
+        "quarter": "2024Q3",
+        "type": "neutral",
+        "change": "初次建立机器人主线底仓",
+        "return": "+14.81%",
+        "theme": "建仓期",
+        "insight": "建仓首个完整季度，主线已经非常清晰。"
+      },
+      {
+        "quarter": "2024Q4",
+        "type": "positive",
+        "change": "向更完整的机器人全链条配置升级",
+        "return": "+6.75%",
+        "theme": "纯度提升",
+        "insight": "新增绿的谐波、云天励飞、科沃斯等更纯的零部件和感知端标的，为2025Q1主升浪做了准备。"
+      },
+      {
+        "quarter": "2025Q2",
+        "type": "positive",
+        "change": "从泛机器人过渡到更靠近量产的主链",
+        "return": "-5.28%",
+        "theme": "方向收敛",
+        "insight": "拓普集团、绿的谐波等量产链条标的权重提升，虽然二季度净值仍下跌，但后续上行验证了方向。"
+      },
+      {
+        "quarter": "2025Q4",
+        "type": "warning",
+        "change": "面对量产延迟仍维持高纯度机器人主线",
+        "return": "-6.13%",
+        "theme": "主题退潮",
+        "insight": "产业预期受挫时组合没有切向防御资产，波动被完整承受。"
+      },
+      {
+        "quarter": "2026Q1",
+        "type": "warning",
+        "change": "地缘冲击下继续持有量产链与感知链核心公司",
+        "return": "-8.52%",
+        "theme": "高纯度坚持",
+        "insight": "这保证了2026Q2修复能被完整抓住，但回撤期间几乎没有缓冲。"
+      }
+    ],
+    "policyLinks": [
+      {
+        "sector": "感知与AI交互",
+        "color": "#58a6ff",
+        "stocks": "科大讯飞 / 大华股份 / 云天励飞",
+        "policyNote": "机器人应用扩散需要机器视觉、交互和边缘智能支撑，和“机器人+”落地场景高度匹配。"
+      },
+      {
+        "sector": "工业自动化与控制",
+        "color": "#3fb950",
+        "stocks": "汇川技术 / 大族激光 / 中控技术",
+        "policyNote": "高技术制造业和工业机器人产量高增，直接利好自动化控制与设备环节。"
+      },
+      {
+        "sector": "执行器与传动链",
+        "color": "#E8813A",
+        "stocks": "拓普集团 / 双环传动 / 绿的谐波",
+        "policyNote": "机器人减速器高增速说明量产核心零部件景气最强，是当前主线中最需要验证的盈利环节。"
+      }
+    ]
+  },
+  "performance": {
+    "stages": [
+      {
+        "period": "近1周",
+        "fund": 3.19,
+        "peer": -2.43,
+        "hs300": -2.39,
+        "rank": 87,
+        "rankTotal": 5071,
+        "quartile": null
+      },
+      {
+        "period": "近1月",
+        "fund": 16.22,
+        "peer": 3.07,
+        "hs300": 2.22,
+        "rank": 389,
+        "rankTotal": 5038,
+        "quartile": null
+      },
+      {
+        "period": "近3月",
+        "fund": 9.33,
+        "peer": 3.46,
+        "hs300": 3.71,
+        "rank": 1177,
+        "rankTotal": 4919,
+        "quartile": null
+      },
+      {
+        "period": "近6月",
+        "fund": 22.81,
+        "peer": 10.43,
+        "hs300": 5.81,
+        "rank": 993,
+        "rankTotal": 4635,
+        "quartile": null
+      },
+      {
+        "period": "近1年",
+        "fund": 35.8,
+        "peer": 37.01,
+        "hs300": 24.28,
+        "rank": 1740,
+        "rankTotal": 3853,
+        "quartile": null
+      },
+      {
+        "period": "近2年",
+        "fund": 81.02,
+        "peer": 52.91,
+        "hs300": 31.42,
+        "rank": 634,
+        "rankTotal": 2746,
+        "quartile": null
+      },
+      {
+        "period": "今年来",
+        "fund": 16.43,
+        "peer": 8.67,
+        "hs300": 4.4,
+        "rank": 1166,
+        "rankTotal": 4796,
+        "quartile": null
+      },
+      {
+        "period": "成立来",
+        "fund": 81.02,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      }
+    ],
+    "annual": [
+      {
+        "year": 2024,
+        "fund": 20.34,
+        "peer": 11.37,
+        "hs300": 14.68,
+        "rank": null,
+        "rankTotal": 3464,
+        "quartile": "---"
+      },
+      {
+        "year": 2025,
+        "fund": 29.19,
+        "peer": 28.14,
+        "hs300": 17.66,
+        "rank": 1418,
+        "rankTotal": 4812,
+        "quartile": "良好"
+      },
+      {
+        "year": 2026,
+        "fund": 16.43,
+        "peer": 8.67,
+        "hs300": 4.4,
+        "rank": 1166,
+        "rankTotal": 4796,
+        "quartile": null
+      }
+    ],
+    "quarterly": [
+      {
+        "year": 2024,
+        "quarter": "2024Q2",
+        "fund": -1.81,
+        "peer": -3.66,
+        "hs300": -2.14,
+        "rank": null,
+        "rankTotal": 3014,
+        "quartile": "---"
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q3",
+        "fund": 14.81,
+        "peer": 17.13,
+        "hs300": 16.07,
+        "rank": 1903,
+        "rankTotal": 3130,
+        "quartile": "一般"
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q4",
+        "fund": 6.75,
+        "peer": 0.65,
+        "hs300": -2.06,
+        "rank": 483,
+        "rankTotal": 3464,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q1",
+        "fund": 14.3,
+        "peer": 2.45,
+        "hs300": -1.21,
+        "rank": 205,
+        "rankTotal": 3635,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q2",
+        "fund": -5.28,
+        "peer": 2.65,
+        "hs300": 1.25,
+        "rank": 3552,
+        "rankTotal": 4076,
+        "quartile": "不佳"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q3",
+        "fund": 27.12,
+        "peer": 23.0,
+        "hs300": 17.9,
+        "rank": 1311,
+        "rankTotal": 4523,
+        "quartile": "良好"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q4",
+        "fund": -6.13,
+        "peer": -0.94,
+        "hs300": -0.23,
+        "rank": 3671,
+        "rankTotal": 4812,
+        "quartile": "不佳"
+      },
+      {
+        "year": 2026,
+        "quarter": "2026Q1",
+        "fund": -8.52,
+        "peer": -1.57,
+        "hs300": -3.89,
+        "rank": 4299,
+        "rankTotal": 4960,
+        "quartile": "不佳"
+      },
+      {
+        "year": 2026,
+        "quarter": "2026Q2",
+        "fund": 24.17,
+        "peer": null,
+        "hs300": 6.79,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      }
+    ],
+    "milestones": [
+      {
+        "date": "2024-05-16",
+        "nav": 1.0,
+        "label": "基金成立",
+        "type": "neutral"
+      },
+      {
+        "date": "2024-08-27",
+        "nav": 0.9205,
+        "label": "历史最低点",
+        "type": "low"
+      },
+      {
+        "date": "2024-10-08",
+        "nav": 1.2371,
+        "label": "首轮主升浪阶段高点",
+        "type": "peak"
+      },
+      {
+        "date": "2025-02-26",
+        "nav": 1.5473,
+        "label": "一季度主升浪高点",
+        "type": "peak"
+      },
+      {
+        "date": "2025-04-08",
+        "nav": 1.1623,
+        "label": "历史最大回撤低点",
+        "type": "low"
+      },
+      {
+        "date": "2025-10-09",
+        "nav": 1.6803,
+        "label": "二次主升浪高点",
+        "type": "peak"
+      },
+      {
+        "date": "2026-03-23",
+        "nav": 1.4048,
+        "label": "地缘冲击后的阶段低点",
+        "type": "low"
+      },
+      {
+        "date": "2026-05-18",
+        "nav": 1.8102,
+        "label": "历史最高点",
+        "type": "peak"
+      },
+      {
+        "date": "2026-05-18",
+        "nav": 1.8102,
+        "label": "当前净值（历史100.0%分位）",
+        "type": "current"
+      }
+    ],
+    "annualNote": "2024年成立以来收益+20.34%，相对沪深300超额+5.66%；2025年全年收益+29.19%，超额+11.53%；2026年截至05-18收益+16.43%，超额+12.03%。成立以来累计收益+81.02%，相对沪深300累计超额约+49.60%。"
+  },
+  "stageAnalysis": {
+    "inflectionPoints": [
+      {
+        "id": 1,
+        "stageId": 1,
+        "startDate": "2024-08-27",
+        "endDate": "2024-10-08",
+        "startNav": 0.9205,
+        "endNav": 1.2371,
+        "changePct": 34.39,
+        "type": "peak",
+        "holdingsSummary": "建仓期就形成了汇川技术、科大讯飞、大华股份、中控技术、石头科技等机器人核心底仓。",
+        "env": "“机器人+”政策提供长期方向，2024年三季度机器人主题开始被市场集中定价。",
+        "managerAction": "季报明确表示建仓完成后将按基金合同紧密跟踪业绩基准、控制偏离。",
+        "attribution": "典型机器人主题Beta拉升，持仓与命名高度一致。"
+      },
+      {
+        "id": 2,
+        "stageId": 2,
+        "startDate": "2024-10-08",
+        "endDate": "2024-10-16",
+        "startNav": 1.2371,
+        "endNav": 1.0707,
+        "changePct": -13.45,
+        "type": "trough",
+        "holdingsSummary": "机器人、自动化和视觉链条仍是当季底仓，未见减仓防御痕迹。",
+        "env": "早期主题快速上涨后出现获利回吐，且没有新的高等级政策催化。",
+        "managerAction": "基金仍处成立后不久的建仓和稳定跟踪阶段，没有主动切换赛道证据。",
+        "attribution": "高Beta主题的正常回撤，更多是情绪回吐而非产品失真。"
+      },
+      {
+        "id": 3,
+        "stageId": 3,
+        "startDate": "2024-10-16",
+        "endDate": "2024-11-11",
+        "startNav": 1.0707,
+        "endNav": 1.269,
+        "changePct": 18.52,
+        "type": "peak",
+        "holdingsSummary": "汇川技术、科大讯飞、石头科技、大华股份、中控技术继续占据组合核心。",
+        "env": "风险偏好修复后，机器人主题再次获得资金回流。",
+        "managerAction": "2024Q4持仓显示组合仍集中在自动化、机器视觉、传动和服务机器人方向。",
+        "attribution": "主线没有切换，阶段收益仍以主题Beta为主。"
+      },
+      {
+        "id": 4,
+        "stageId": 3,
+        "startDate": "2024-11-11",
+        "endDate": "2024-11-18",
+        "startNav": 1.269,
+        "endNav": 1.1518,
+        "changePct": -9.24,
+        "type": "trough",
+        "holdingsSummary": "组合仍围绕自动化、视觉、传动和服务机器人布置，没有切向防御资产。",
+        "env": "题材风格高波动切换，机器人链条短期承压。",
+        "managerAction": "未见减配机器人主线的证据，依旧按被动指数框架运作。",
+        "attribution": "被动主题指数在短期风格回撤时缺少防守空间，回撤容忍度要求较高。"
+      },
+      {
+        "id": 5,
+        "stageId": 3,
+        "startDate": "2024-11-18",
+        "endDate": "2024-12-10",
+        "startNav": 1.1518,
+        "endNav": 1.3355,
+        "changePct": 15.95,
+        "type": "peak",
+        "holdingsSummary": "新增或提升了绿的谐波、云天励飞、科沃斯等更纯的机器人零部件和感知端标的。",
+        "env": "成长主线再度占优，机器人主题继续获得估值扩张支持。",
+        "managerAction": "2024Q4持仓继续抬升组合纯度，向更贴近机器人量产链的方向集中。",
+        "attribution": "收益依旧来自赛道整体上行，配置方向与产品命名高度吻合。"
+      },
+      {
+        "id": 6,
+        "stageId": 4,
+        "startDate": "2024-12-10",
+        "endDate": "2025-01-06",
+        "startNav": 1.3355,
+        "endNav": 1.1321,
+        "changePct": -15.23,
+        "type": "trough",
+        "holdingsSummary": "机器人核心链条仍是底仓，没有出现主动风格漂移的证据。",
+        "env": "跨年阶段成长赛道波动加大，主题资金快速切换。",
+        "managerAction": "2025Q1季报继续强调紧密跟踪业绩基准、跟踪偏离最小化。",
+        "attribution": "行业Beta下行占主导，被动主题指数必须承受这样的回撤特征。"
+      },
+      {
+        "id": 7,
+        "stageId": 4,
+        "startDate": "2025-01-06",
+        "endDate": "2025-02-26",
+        "startNav": 1.1321,
+        "endNav": 1.5473,
+        "changePct": 36.68,
+        "type": "peak",
+        "holdingsSummary": "一季度前五大持仓为汇川技术、科大讯飞、石头科技、大华股份和中控技术。",
+        "env": "机器人主题在2025年一季度迎来显著主升浪，市场集中交易量产和订单预期。",
+        "managerAction": "经理坚持严格按基金合同执行被动投资，主升浪中没有追逐非机器人热点。",
+        "attribution": "收益主要来自赛道Beta扩张，工具属性极为清晰。"
+      },
+      {
+        "id": 8,
+        "stageId": 5,
+        "startDate": "2025-02-26",
+        "endDate": "2025-04-08",
+        "startNav": 1.5473,
+        "endNav": 1.1623,
+        "changePct": -24.88,
+        "type": "trough",
+        "holdingsSummary": "基金继续按被动复制思路维持机器人主线，未见主动切向防御资产。",
+        "env": "前期乐观预期快速降温，主题板块出现深度回撤。",
+        "managerAction": "组合继续围绕机器人主线运作，这和季度原文的被动跟踪表述一致。",
+        "attribution": "这是全历史最大回撤区间，清楚说明该产品上涨时很弹、回撤时也不会主动减震。"
+      },
+      {
+        "id": 9,
+        "stageId": 6,
+        "startDate": "2025-04-08",
+        "endDate": "2025-05-12",
+        "startNav": 1.1623,
+        "endNav": 1.3653,
+        "changePct": 17.47,
+        "type": "peak",
+        "holdingsSummary": "持仓核心仍围绕工业自动化、感知、传动和服务机器人，不存在借反弹切换赛道的迹象。",
+        "env": "深度回撤后，机器人主题出现技术性修复和情绪回补。",
+        "managerAction": "经理没有在反弹中转向其他热点，仍保留高纯度机器人链条暴露。",
+        "attribution": "反弹仍属高Beta修复，执行没有明显失真。"
+      },
+      {
+        "id": 10,
+        "stageId": 6,
+        "startDate": "2025-05-12",
+        "endDate": "2025-06-20",
+        "startNav": 1.3653,
+        "endNav": 1.2298,
+        "changePct": -9.92,
+        "type": "trough",
+        "holdingsSummary": "2025Q2持仓把拓普集团、绿的谐波等更受益于量产兑现的零部件方向推到更核心位置。",
+        "env": "市场进入对产业兑现节奏的再次验证期，成长主线短暂承压。",
+        "managerAction": "组合从泛机器人进一步过渡到更靠近量产兑现的主链。",
+        "attribution": "属于主题验证期的正常折返，方向没变但波动被再次放大。"
+      },
+      {
+        "id": 11,
+        "stageId": 6,
+        "startDate": "2025-06-20",
+        "endDate": "2025-10-09",
+        "startNav": 1.2298,
+        "endNav": 1.6803,
+        "changePct": 36.63,
+        "type": "peak",
+        "holdingsSummary": "拓普集团、绿的谐波等量产链条标的成为更靠前的核心仓位。",
+        "env": "机器人主题进入第二轮主升浪，产业和市场预期再次共振。",
+        "managerAction": "2025Q2阶段已经完成向量产核心链条的收敛，这一方向在随后主升浪中得到验证。",
+        "attribution": "依旧是行业Beta占主导，但配置方向更贴近量产主线后收益弹性更强。"
+      },
+      {
+        "id": 12,
+        "stageId": 7,
+        "startDate": "2025-10-09",
+        "endDate": "2025-12-16",
+        "startNav": 1.6803,
+        "endNav": 1.4168,
+        "changePct": -15.68,
+        "type": "trough",
+        "holdingsSummary": "2025Q4前三大持仓为科大讯飞、汇川技术、拓普集团，仍是标准机器人主链。",
+        "env": "2025Q4季报明确指出产业进展不及预期，特斯拉关键节点出现延迟。",
+        "managerAction": "基金仍坚持机器人主链，并没有向其他热点迁移。",
+        "attribution": "方向判断不算错，但短期节奏明显滞后于市场，属于言行一致但判断偏慢。"
+      },
+      {
+        "id": 13,
+        "stageId": 7,
+        "startDate": "2025-12-16",
+        "endDate": "2026-01-23",
+        "startNav": 1.4168,
+        "endNav": 1.7182,
+        "changePct": 21.27,
+        "type": "peak",
+        "holdingsSummary": "组合继续沿机器人供应链持有，未对主线做大的调整。",
+        "env": "市场重新交易量产临界点与国内订单加速逻辑，主题预期修复明显。",
+        "managerAction": "2025Q4季报继续强调Optimus V3与量产节奏，基金选择继续沿主链持有。",
+        "attribution": "属于标准的高弹性修复行情，主题预期修复驱动明显。"
+      },
+      {
+        "id": 14,
+        "stageId": 7,
+        "startDate": "2026-01-23",
+        "endDate": "2026-03-23",
+        "startNav": 1.7182,
+        "endNav": 1.4048,
+        "changePct": -18.24,
+        "type": "trough",
+        "holdingsSummary": "2026Q1前三大持仓仍是科大讯飞、汇川技术、拓普集团，并继续持有绿的谐波和云天励飞。",
+        "env": "伊朗冲突导致地缘政治紧张局势骤然升温，AI算力和机器人板块资金流出。",
+        "managerAction": "基金没有做防御，继续维持机器人核心链条暴露。",
+        "attribution": "再次证明该产品对外部风险冲击非常敏感，但执行层面仍保持一致。"
+      },
+      {
+        "id": 15,
+        "stageId": 8,
+        "startDate": "2026-03-23",
+        "endDate": "2026-05-18",
+        "startNav": 1.4048,
+        "endNav": 1.8102,
+        "changePct": 28.86,
+        "type": "peak",
+        "holdingsSummary": "2026Q1时点就保留了拓普集团、绿的谐波、云天励飞等量产和感知链核心公司。",
+        "env": "官方数据显示1-4月工业机器人产量+25.7%、机器人减速器+73.3%，产业景气明显修复。",
+        "managerAction": "季报继续强调产业链迈向量产临界点，实际组合没有偏离主线。",
+        "attribution": "基本面景气验证带来新一轮主题拉升，基金再次体现高弹性工具属性。"
+      }
+    ],
+    "totalInflectionPoints": 15,
+    "stages": [
+      {
+        "id": 1,
+        "name": "首轮主题启动",
+        "emoji": "🟢",
+        "period": "2024-08 → 2024-10",
+        "returnPct": 34.39,
+        "hs300Pct": null,
+        "excessPct": null,
+        "driverType": "beta",
+        "driverLabel": "🌊 行业Beta主导",
+        "color": "#F54E48",
+        "description": "基金在建仓完成前后迅速承接机器人主线，首次展现出高弹性主题工具特征。",
+        "env": "“机器人+”应用行动实施方案提供长期方向，市场开始集中给机器人链条定价。",
+        "managerAction": "建仓期就把汇川技术、科大讯飞、大华股份、中控技术、石头科技等机器人核心标的放进了底仓。",
+        "attribution": "收益主要来自赛道Beta拉升，持仓与基金命名高度一致。"
+      },
+      {
+        "id": 2,
+        "name": "高波动回吐",
+        "emoji": "🔄",
+        "period": "2024-10 → 2024-10",
+        "returnPct": -13.45,
+        "hs300Pct": null,
+        "excessPct": null,
+        "driverType": "both",
+        "driverLabel": "🔄 风格切换期",
+        "color": "#D4A017",
+        "description": "首轮拉升后主题交易降温，基金净值快速回吐。",
+        "env": "短线获利回吐叠加缺乏新的高等级政策催化，题材情绪降温明显。",
+        "managerAction": "基金仍处建仓和稳定跟踪阶段，没有主动切换赛道的证据。",
+        "attribution": "更多是高Beta主题的正常情绪回吐，而非产品执行失真。"
+      },
+      {
+        "id": 3,
+        "name": "二次爬升验证",
+        "emoji": "🟢",
+        "period": "2024-10 → 2024-12",
+        "returnPct": 18.52,
+        "hs300Pct": null,
+        "excessPct": null,
+        "driverType": "beta",
+        "driverLabel": "🌊 行业Beta主导",
+        "color": "#F54E48",
+        "description": "回调后机器人链条再次获得资金回流，基金重新回到上行斜率。",
+        "env": "风险偏好修复后，机器人主线继续得到验证，成长风格重新占优。",
+        "managerAction": "2024Q4持仓继续围绕自动化、视觉、传动和服务机器人展开，并进一步提升主题纯度。",
+        "attribution": "收益仍以主题Beta为主，但配置方向和主线把握是正确的。"
+      },
+      {
+        "id": 4,
+        "name": "一季度主升浪",
+        "emoji": "🟢",
+        "period": "2024-12 → 2025-02",
+        "returnPct": 36.68,
+        "hs300Pct": null,
+        "excessPct": null,
+        "driverType": "beta",
+        "driverLabel": "🌊 行业Beta主导",
+        "color": "#F54E48",
+        "description": "成立以来最典型的一轮主升浪，基金完整承接了机器人主题的高弹性行情。",
+        "env": "市场集中交易量产和订单预期，机器人主题在2025年一季度迎来显著主升浪。",
+        "managerAction": "经理坚持紧密跟踪业绩基准、跟踪偏离最小化，没有借行情做风格漂移。",
+        "attribution": "收益核心来自赛道整体扩散，产品工具属性非常清晰。"
+      },
+      {
+        "id": 5,
+        "name": "春季深回撤",
+        "emoji": "🔴",
+        "period": "2025-02 → 2025-04",
+        "returnPct": -24.88,
+        "hs300Pct": null,
+        "excessPct": null,
+        "driverType": "beta",
+        "driverLabel": "🌊 行业Beta主导",
+        "color": "#2DC78E",
+        "description": "全历史最深回撤阶段，清楚暴露了高弹性主题工具缺乏防守垫层的短板。",
+        "env": "前期乐观预期快速降温，主题板块出现深度回撤。",
+        "managerAction": "基金继续维持机器人主线，并没有主动切向防御资产。",
+        "attribution": "上行时很弹、回撤时也不会主动减震，是被动主题指数的典型特征。"
+      },
+      {
+        "id": 6,
+        "name": "夏秋二次主升浪",
+        "emoji": "🟢",
+        "period": "2025-04 → 2025-10",
+        "returnPct": 36.63,
+        "hs300Pct": null,
+        "excessPct": null,
+        "driverType": "beta",
+        "driverLabel": "🌊 行业Beta主导",
+        "color": "#F54E48",
+        "description": "深回撤后主题再次进入高景气交易窗口，基金净值再度加速上行。",
+        "env": "机器人量产链条和产业预期再次共振，市场重新回到高弹性成长主线。",
+        "managerAction": "组合进一步强化拓普集团、绿的谐波等量产零部件方向，持仓主线更加集中。",
+        "attribution": "仍是行业Beta主导的上涨，但持仓向量产核心链条收敛后弹性更强。"
+      },
+      {
+        "id": 7,
+        "name": "年末验证与情绪退潮",
+        "emoji": "🔄",
+        "period": "2025-10 → 2026-03",
+        "returnPct": -18.24,
+        "hs300Pct": null,
+        "excessPct": null,
+        "driverType": "both",
+        "driverLabel": "🔄 风格切换期",
+        "color": "#D4A017",
+        "description": "产业进展不及预期和地缘冲击叠加，高弹性科技主题进入验证与退潮阶段。",
+        "env": "2025Q4季报提到特斯拉关键节点延迟，2026Q1又叠加伊朗冲突导致风险偏好下降。",
+        "managerAction": "基金继续维持机器人核心链条暴露，言行一致，但也因此没有获得防守缓冲。",
+        "attribution": "方向没有漂移，问题在于主题节奏判断明显滞后于市场。"
+      },
+      {
+        "id": 8,
+        "name": "再创新高阶段",
+        "emoji": "🟢",
+        "period": "2026-03 → 2026-05",
+        "returnPct": 28.86,
+        "hs300Pct": null,
+        "excessPct": null,
+        "driverType": "beta",
+        "driverLabel": "🌊 行业Beta主导",
+        "color": "#F54E48",
+        "description": "景气验证重新强化后，基金从阶段低点快速修复并创出历史新高。",
+        "env": "官方数据显示工业机器人和机器人减速器继续高增，产业景气重新得到验证。",
+        "managerAction": "2026Q1时点就保留了拓普集团、绿的谐波、云天励飞等量产与感知链核心公司。",
+        "attribution": "基本面景气验证带来的新一轮主题拉升，再次证明产品对机器人景气回升弹性极高。"
+      }
+    ]
+  },
+  "managers": {
+    "current": {
+      "managerId": "30183081",
+      "allManagerIds": [
+        "30183081"
+      ],
+      "name": "黄栋",
+      "fundCount": 19,
+      "totalScale": 15.64,
+      "historicalFunds": [
+        {
+          "name": "银河中证电池主题指数发起式A",
+          "code": "026958",
+          "type": "指数型-股票",
+          "tenure": "2026-04-15 ~ 至今",
+          "return": 0.09,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": true
+        },
+        {
+          "name": "银河中证电池主题指数发起式C",
+          "code": "026959",
+          "type": "指数型-股票",
+          "tenure": "2026-04-15 ~ 至今",
+          "return": 0.07,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": true
+        },
+        {
+          "name": "银河中证A500ETF联接C",
+          "code": "023950",
+          "type": "指数型-股票",
+          "tenure": "2025-06-05 ~ 至今",
+          "return": 23.44,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": true
+        },
+        {
+          "name": "银河中证A500ETF联接A",
+          "code": "023949",
+          "type": "指数型-股票",
+          "tenure": "2025-06-05 ~ 至今",
+          "return": 23.78,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": true
+        },
+        {
+          "name": "A500ETF银河",
+          "code": "563660",
+          "type": "指数型-股票",
+          "tenure": "2025-03-20 ~ 至今",
+          "return": 35.55,
+          "rank": 1678,
+          "rankTotal": 3853,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "银河上证国有企业红利ETF发起式联接C",
+          "code": "023163",
+          "type": "指数型-股票",
+          "tenure": "2025-01-21 ~ 至今",
+          "return": 8.16,
+          "rank": 3139,
+          "rankTotal": 3853,
+          "grade": "weak",
+          "isCurrent": true
+        },
+        {
+          "name": "银河上证国有企业红利ETF发起式联接A",
+          "code": "023162",
+          "type": "指数型-股票",
+          "tenure": "2025-01-21 ~ 至今",
+          "return": 8.59,
+          "rank": 3128,
+          "rankTotal": 3853,
+          "grade": "weak",
+          "isCurrent": true
+        },
+        {
+          "name": "红利国企ETF银河",
+          "code": "530880",
+          "type": "指数型-股票",
+          "tenure": "2024-10-30 ~ 至今",
+          "return": 8.35,
+          "rank": 3081,
+          "rankTotal": 3853,
+          "grade": "weak",
+          "isCurrent": true
+        },
+        {
+          "name": "银河中证通信设备主题指数发起式A",
+          "code": "021988",
+          "type": "指数型-股票",
+          "tenure": "2024-10-22 ~ 至今",
+          "return": 190.4,
+          "rank": 16,
+          "rankTotal": 3853,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "银河中证通信设备主题指数发起式C",
+          "code": "021989",
+          "type": "指数型-股票",
+          "tenure": "2024-10-22 ~ 至今",
+          "return": 189.06,
+          "rank": 17,
+          "rankTotal": 3853,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "银河中证沪港深高股息C",
+          "code": "501308",
+          "type": "指数型-股票",
+          "tenure": "2024-07-27 ~ 至今",
+          "return": 35.36,
+          "rank": 2818,
+          "rankTotal": 3853,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "银河中证沪港深高股息A",
+          "code": "501307",
+          "type": "指数型-股票",
+          "tenure": "2024-07-27 ~ 至今",
+          "return": 35.98,
+          "rank": 2813,
+          "rankTotal": 3853,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "银河中证红利低波动100指数A",
+          "code": "021388",
+          "type": "指数型-股票",
+          "tenure": "2024-07-24 ~ 至今",
+          "return": 10.88,
+          "rank": 3286,
+          "rankTotal": 3853,
+          "grade": "weak",
+          "isCurrent": true
+        },
+        {
+          "name": "银河中证红利低波动100指数C",
+          "code": "021389",
+          "type": "指数型-股票",
+          "tenure": "2024-07-24 ~ 至今",
+          "return": 10.35,
+          "rank": 3303,
+          "rankTotal": 3853,
+          "grade": "weak",
+          "isCurrent": true
+        },
+        {
+          "name": "银河中证机器人指数发起式A",
+          "code": "021301",
+          "type": "指数型-股票",
+          "tenure": "2024-05-16 ~ 至今",
+          "return": 81.8,
+          "rank": 1718,
+          "rankTotal": 3853,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "银河中证机器人指数发起式C",
+          "code": "021302",
+          "type": "指数型-股票",
+          "tenure": "2024-05-16 ~ 至今",
+          "return": 81.02,
+          "rank": 1740,
+          "rankTotal": 3853,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "银河定投宝",
+          "code": "519677",
+          "type": "指数型-股票",
+          "tenure": "2023-11-29 ~ 至今",
+          "return": 42.78,
+          "rank": 2082,
+          "rankTotal": 3853,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "银河君尚混合C",
+          "code": "519614",
+          "type": "混合型-灵活",
+          "tenure": "2023-10-28 ~ 2025-06-12",
+          "return": 9.8,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": false
+        },
+        {
+          "name": "银河君尚混合I",
+          "code": "519615",
+          "type": "混合型-灵活",
+          "tenure": "2023-10-28 ~ 2025-06-12",
+          "return": 0.0,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": false
+        },
+        {
+          "name": "银河君尚混合A",
+          "code": "519613",
+          "type": "混合型-灵活",
+          "tenure": "2023-10-28 ~ 2025-06-12",
+          "return": 10.7,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": false
+        },
+        {
+          "name": "银河沪深300指数增强A",
+          "code": "007275",
+          "type": "指数型-股票",
+          "tenure": "2022-01-19 ~ 至今",
+          "return": 17.88,
+          "rank": 2215,
+          "rankTotal": 3853,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "银河沪深300指数增强C",
+          "code": "007276",
+          "type": "指数型-股票",
+          "tenure": "2022-01-19 ~ 至今",
+          "return": 15.34,
+          "rank": 2248,
+          "rankTotal": 3853,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "摩根量化多因子混合",
+          "code": "005120",
+          "type": "混合型-灵活",
+          "tenure": "2018-01-19 ~ 2019-12-27",
+          "return": 9.23,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": false
+        },
+        {
+          "name": "上投摩根优选多因子股票",
+          "code": "004606",
+          "type": "股票型",
+          "tenure": "2017-08-23 ~ 2019-12-27",
+          "return": 13.36,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": false
+        },
+        {
+          "name": "摩根安通回报混合C",
+          "code": "004362",
+          "type": "混合型-偏债",
+          "tenure": "2017-04-26 ~ 2019-04-12",
+          "return": 8.11,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": false
+        },
+        {
+          "name": "摩根安通回报混合A",
+          "code": "004361",
+          "type": "混合型-偏债",
+          "tenure": "2017-04-26 ~ 2019-04-12",
+          "return": 9.58,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": false
+        },
+        {
+          "name": "上投安瑞回报C",
+          "code": "003779",
+          "type": "混合型-偏债",
+          "tenure": "2017-01-25 ~ 2018-12-20",
+          "return": -1.33,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": false
+        },
+        {
+          "name": "上投安瑞回报A",
+          "code": "003778",
+          "type": "混合型-偏债",
+          "tenure": "2017-01-25 ~ 2018-12-20",
+          "return": 0.04,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": false
+        },
+        {
+          "name": "上投摩根安鑫回报A",
+          "code": "001947",
+          "type": "混合型-偏债",
+          "tenure": "2016-08-12 ~ 2019-04-12",
+          "return": 9.02,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": false
+        },
+        {
+          "name": "上投摩根安鑫回报C",
+          "code": "002845",
+          "type": "混合型-偏债",
+          "tenure": "2016-08-12 ~ 2019-04-12",
+          "return": 7.34,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": false
+        },
+        {
+          "name": "摩根动态多因子混合A",
+          "code": "001219",
+          "type": "混合型-灵活",
+          "tenure": "2015-06-02 ~ 2019-12-27",
+          "return": -21.5,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": false
+        },
+        {
+          "name": "上证180高贝塔ETF",
+          "code": "510450",
+          "type": "指数型-股票",
+          "tenure": "2013-07-08 ~ 2016-06-23",
+          "return": 42.58,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": false
+        },
+        {
+          "name": "上投摩根中证消费服务指数",
+          "code": "370023",
+          "type": "指数型-股票",
+          "tenure": "2012-09-25 ~ 2019-12-27",
+          "return": 93.21,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": false
+        }
+      ],
+      "bestReturn": 190.4,
+      "worstReturn": -21.5,
+      "manageDate": "2024-05-16",
+      "manageYears": 2.0,
+      "tenureReturn": 81.02,
+      "rankInPeer": 1740,
+      "rankTotal": 3853,
+      "education": "上海财经大学经济学硕士，CFA",
+      "joinDate": "2021-10",
+      "experience": "11.6年基金经理任职经验（证券行业从业20年）",
+      "title": "量化与FOF投资部副总监（主持工作）、基金经理",
+      "style": "被动主题指数 / 高弹性科技工具",
+      "peerAvgReturn": 37.01,
+      "philosophy": [
+        {
+          "label": "核心投资理念",
+          "text": "以被动复制为核心，尽量高纯度承接中证机器人指数的主题暴露。"
+        },
+        {
+          "label": "选股方法论",
+          "text": "本质不是主观选股，而是通过指数权重映射机器人产业链，重点暴露在自动化、感知、传动和服务机器人。"
+        },
+        {
+          "label": "仓位管理风格",
+          "text": "长期保持90%上下的高权益仓位，上涨时弹性强，但回撤时也几乎不会主动防守。"
+        },
+        {
+          "label": "风格稳定性",
+          "text": "自2024Q3建仓以来，核心重仓始终围绕汇川技术、科大讯飞、大华股份、中控技术、石头科技、拓普集团等机器人链条公司，风格稳定。"
+        }
+      ],
+      "consistencyAudit": [
+        {
+          "period": "2024年Q3·建仓期",
+          "result": "pass",
+          "label": "一致",
+          "stated": "三季度，本基金仍处于建仓期，待建仓完成后将按照基金合同的规定，紧密跟踪业绩基准、跟踪偏离最小化的投资策略进行被动投资。",
+          "actual": "汇川技术8.34%、科大讯飞7.96%、大华股份5.46%位列核心仓位。",
+          "evaluation": "季报表述与实际持仓高度一致，建仓期就已经围绕机器人主链布局。"
+        },
+        {
+          "period": "2025年Q4·主题预期受挫期",
+          "result": "warn",
+          "label": "一致但滞后",
+          "stated": "产业进展不及预期，特斯拉等龙头企业的关键节点出现延迟，市场对短期量产和放量的乐观预期落空。",
+          "actual": "科大讯飞9.32%、汇川技术9.28%、拓普集团7.56%，组合仍然维持机器人主链。",
+          "evaluation": "经理没有漂移风格，但在主题节奏判断上明显跟随而非领先。"
+        },
+        {
+          "period": "2026年Q1·地缘冲击期",
+          "result": "pass",
+          "label": "一致",
+          "stated": "2月末开始的伊朗冲突导致地缘政治紧张局势骤然升温，AI算力、机器人等科技成长板块资金有所流出。",
+          "actual": "科大讯飞9.40%、汇川技术9.04%、拓普集团6.10%，并继续持有绿的谐波、云天励飞。",
+          "evaluation": "言行一致，组合没有因为冲击临时切向防御资产。"
+        }
+      ],
+      "abilityProfile": {
+        "best": "高弹性科技主题工具的配置执行与持续持有，代表样本是银河中证通信设备主题指数发起式A的190.40%任职回报。",
+        "worst": "防御型或低波因子产品表现一般，且管理产品过多，本基金在回撤期几乎没有缓冲。",
+        "goodEnv": [
+          "成长风格占优、产业景气上行的阶段",
+          "政策方向明确但仍在兑现中的科技主题窗口"
+        ],
+        "badEnv": [
+          "量产预期被反复证伪、风险偏好显著下降的阶段",
+          "地缘冲突抬升或高估值压缩的高波动环境"
+        ]
+      },
+      "strengths": [
+        "高弹性科技主题工具执行纪律强",
+        "机器人主线纯度高，长期没有明显风格漂移",
+        "对主题景气回升的弹性承接能力强"
+      ],
+      "weaknesses": [
+        "防御能力弱，回撤期几乎没有缓冲",
+        "在管19只基金，存在管理疲劳观察项",
+        "主题节奏判断更偏跟随而非领先"
+      ]
+    },
+    "history": [
+      {
+        "name": "黄栋",
+        "role": "独任",
+        "start": "2024-05-16",
+        "end": null,
+        "tenure": "约2年",
+        "return": 81.02,
+        "note": "本基金自成立以来一直由黄栋单独管理，执行风格和持仓主线保持稳定。"
+      }
+    ]
+  },
+  "navHistory": [
+    {
+      "date": "2025-12-26",
+      "nav": 1.5035
+    },
+    {
+      "date": "2025-12-29",
+      "nav": 1.514
+    },
+    {
+      "date": "2025-12-30",
+      "nav": 1.5623
+    },
+    {
+      "date": "2025-12-31",
+      "nav": 1.5547
+    },
+    {
+      "date": "2026-01-05",
+      "nav": 1.5825
+    },
+    {
+      "date": "2026-01-06",
+      "nav": 1.5875
+    },
+    {
+      "date": "2026-01-07",
+      "nav": 1.5759
+    },
+    {
+      "date": "2026-01-08",
+      "nav": 1.5909
+    },
+    {
+      "date": "2026-01-09",
+      "nav": 1.6191
+    },
+    {
+      "date": "2026-01-12",
+      "nav": 1.664
+    },
+    {
+      "date": "2026-01-13",
+      "nav": 1.6462
+    },
+    {
+      "date": "2026-01-14",
+      "nav": 1.6506
+    },
+    {
+      "date": "2026-01-15",
+      "nav": 1.6502
+    },
+    {
+      "date": "2026-01-16",
+      "nav": 1.6841
+    },
+    {
+      "date": "2026-01-19",
+      "nav": 1.6908
+    },
+    {
+      "date": "2026-01-20",
+      "nav": 1.6709
+    },
+    {
+      "date": "2026-01-21",
+      "nav": 1.6978
+    },
+    {
+      "date": "2026-01-22",
+      "nav": 1.6932
+    },
+    {
+      "date": "2026-01-23",
+      "nav": 1.7182
+    },
+    {
+      "date": "2026-01-26",
+      "nav": 1.679
+    },
+    {
+      "date": "2026-01-27",
+      "nav": 1.686
+    },
+    {
+      "date": "2026-01-28",
+      "nav": 1.6556
+    },
+    {
+      "date": "2026-01-29",
+      "nav": 1.6388
+    },
+    {
+      "date": "2026-01-30",
+      "nav": 1.6318
+    },
+    {
+      "date": "2026-02-02",
+      "nav": 1.5975
+    },
+    {
+      "date": "2026-02-03",
+      "nav": 1.6393
+    },
+    {
+      "date": "2026-02-04",
+      "nav": 1.6277
+    },
+    {
+      "date": "2026-02-05",
+      "nav": 1.6037
+    },
+    {
+      "date": "2026-02-06",
+      "nav": 1.6117
+    },
+    {
+      "date": "2026-02-09",
+      "nav": 1.6362
+    },
+    {
+      "date": "2026-02-10",
+      "nav": 1.6515
+    },
+    {
+      "date": "2026-02-11",
+      "nav": 1.6337
+    },
+    {
+      "date": "2026-02-12",
+      "nav": 1.6552
+    },
+    {
+      "date": "2026-02-13",
+      "nav": 1.6557
+    },
+    {
+      "date": "2026-02-24",
+      "nav": 1.6479
+    },
+    {
+      "date": "2026-02-25",
+      "nav": 1.6498
+    },
+    {
+      "date": "2026-02-26",
+      "nav": 1.6572
+    },
+    {
+      "date": "2026-02-27",
+      "nav": 1.6608
+    },
+    {
+      "date": "2026-03-02",
+      "nav": 1.6269
+    },
+    {
+      "date": "2026-03-03",
+      "nav": 1.5541
+    },
+    {
+      "date": "2026-03-04",
+      "nav": 1.5457
+    },
+    {
+      "date": "2026-03-05",
+      "nav": 1.5707
+    },
+    {
+      "date": "2026-03-06",
+      "nav": 1.5763
+    },
+    {
+      "date": "2026-03-09",
+      "nav": 1.566
+    },
+    {
+      "date": "2026-03-10",
+      "nav": 1.5956
+    },
+    {
+      "date": "2026-03-11",
+      "nav": 1.5905
+    },
+    {
+      "date": "2026-03-12",
+      "nav": 1.5743
+    },
+    {
+      "date": "2026-03-13",
+      "nav": 1.5542
+    },
+    {
+      "date": "2026-03-16",
+      "nav": 1.5481
+    },
+    {
+      "date": "2026-03-17",
+      "nav": 1.5219
+    },
+    {
+      "date": "2026-03-18",
+      "nav": 1.5331
+    },
+    {
+      "date": "2026-03-19",
+      "nav": 1.4937
+    },
+    {
+      "date": "2026-03-20",
+      "nav": 1.4662
+    },
+    {
+      "date": "2026-03-23",
+      "nav": 1.4048
+    },
+    {
+      "date": "2026-03-24",
+      "nav": 1.4246
+    },
+    {
+      "date": "2026-03-25",
+      "nav": 1.4519
+    },
+    {
+      "date": "2026-03-26",
+      "nav": 1.432
+    },
+    {
+      "date": "2026-03-27",
+      "nav": 1.4414
+    },
+    {
+      "date": "2026-03-30",
+      "nav": 1.4357
+    },
+    {
+      "date": "2026-03-31",
+      "nav": 1.4223
+    },
+    {
+      "date": "2026-04-01",
+      "nav": 1.4578
+    },
+    {
+      "date": "2026-04-02",
+      "nav": 1.4273
+    },
+    {
+      "date": "2026-04-03",
+      "nav": 1.4147
+    },
+    {
+      "date": "2026-04-07",
+      "nav": 1.4093
+    },
+    {
+      "date": "2026-04-08",
+      "nav": 1.4907
+    },
+    {
+      "date": "2026-04-09",
+      "nav": 1.4766
+    },
+    {
+      "date": "2026-04-10",
+      "nav": 1.5013
+    },
+    {
+      "date": "2026-04-13",
+      "nav": 1.499
+    },
+    {
+      "date": "2026-04-14",
+      "nav": 1.5319
+    },
+    {
+      "date": "2026-04-15",
+      "nav": 1.5155
+    },
+    {
+      "date": "2026-04-16",
+      "nav": 1.5454
+    },
+    {
+      "date": "2026-04-17",
+      "nav": 1.5576
+    },
+    {
+      "date": "2026-04-20",
+      "nav": 1.5699
+    },
+    {
+      "date": "2026-04-21",
+      "nav": 1.5619
+    },
+    {
+      "date": "2026-04-22",
+      "nav": 1.5749
+    },
+    {
+      "date": "2026-04-23",
+      "nav": 1.564
+    },
+    {
+      "date": "2026-04-24",
+      "nav": 1.555
+    },
+    {
+      "date": "2026-04-27",
+      "nav": 1.5909
+    },
+    {
+      "date": "2026-04-28",
+      "nav": 1.5606
+    },
+    {
+      "date": "2026-04-29",
+      "nav": 1.5761
+    },
+    {
+      "date": "2026-04-30",
+      "nav": 1.5929
+    },
+    {
+      "date": "2026-05-06",
+      "nav": 1.6281
+    },
+    {
+      "date": "2026-05-07",
+      "nav": 1.6866
+    },
+    {
+      "date": "2026-05-08",
+      "nav": 1.7246
+    },
+    {
+      "date": "2026-05-11",
+      "nav": 1.7542
+    },
+    {
+      "date": "2026-05-12",
+      "nav": 1.7365
+    },
+    {
+      "date": "2026-05-13",
+      "nav": 1.7735
+    },
+    {
+      "date": "2026-05-14",
+      "nav": 1.7346
+    },
+    {
+      "date": "2026-05-15",
+      "nav": 1.7825
+    },
+    {
+      "date": "2026-05-18",
+      "nav": 1.8102
+    }
+  ],
+  "scoring": {
+    "total": 66,
+    "grade": "良好",
+    "recommendation": "谨慎观望",
+    "recommendationType": "cautious",
+    "rating": "★★",
+    "logic": "基金质量66/100，政策处于观察期，当前净值又处历史100%分位。纯度和执行并不差，但赔率明显弱于回撤区间，更适合作为等待回调的主题工具。",
+    "dimensions": [
+      {
+        "name": "费率性价比",
+        "score": 10,
+        "maxScore": 25,
+        "pros": [
+          "管理费+托管费合计0.60%，仍在可接受区间",
+          "C类申购端无前端费用"
+        ],
+        "cons": [
+          "作为主题被动工具，0.60%运营费率并不便宜",
+          "C类还需额外承担0.30%销售服务费"
+        ]
+      },
+      {
+        "name": "跟踪执行",
+        "score": 18,
+        "maxScore": 20,
+        "pros": [
+          "2024Q3、2025Q4、2026Q1都保持了较强的被动跟踪纪律",
+          "近6月和年内与目标指数的偏离不大"
+        ],
+        "cons": [
+          "2025Q1单季度仍落后业绩基准1.07个百分点"
+        ]
+      },
+      {
+        "name": "风险承载要求",
+        "score": 14,
+        "maxScore": 20,
+        "pros": [
+          "全期夏普1.13、近1年夏普1.45，费后风险收益比不差",
+          "最大回撤-24.88%，尚未失控到极端主题基金水平"
+        ],
+        "cons": [
+          "年化波动率29.84%，本质仍是高弹性赛道工具",
+          "2025Q2、2025Q4、2026Q1连续出现明显回撤季度"
+        ]
+      },
+      {
+        "name": "主题集中度与外部约束",
+        "score": 14,
+        "maxScore": 20,
+        "pros": [
+          "持仓纯度高，机器人产业链暴露明确",
+          "持仓和基金命名长期一致，几乎无风格漂移"
+        ],
+        "cons": [
+          "对量产节点、订单节奏和风险偏好变化高度敏感",
+          "主题链条单一，天然防御层不足"
+        ]
+      },
+      {
+        "name": "流动性与平台",
+        "score": 10,
+        "maxScore": 15,
+        "pros": [
+          "银河基金平台稳定，管理规模约1166亿元，五星评级",
+          "当前规模3.01亿元，短期不存在大体量拖累"
+        ],
+        "cons": [
+          "公司并非主题指数工具的头部ETF平台",
+          "季报曾披露单一投资者持有比例超过20%"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "type": "高弹性主题回撤风险",
+        "level": "high",
+        "note": "历史最大回撤-24.88%，发生在2025-02-26至2025-04-08，高位主题工具回撤放大特征非常明显。"
+      },
+      {
+        "type": "高位追涨风险",
+        "level": "high",
+        "note": "当前净值1.8102已经处于历史100%分位，新资金在这个位置追高的胜率明显低于2025年和2026年回撤窗口。"
+      },
+      {
+        "type": "管理疲劳风险",
+        "level": "medium",
+        "note": "黄栋当前在管19只基金，明显高于10只的经验警戒线，跟踪精力分配需要持续观察。"
+      },
+      {
+        "type": "主题集中与流动性冲击风险",
+        "level": "medium",
+        "note": "前十大重仓股合计50.96%，且几乎全部围绕机器人链条；若产业验证放缓或大额申赎出现，净值波动会被放大。"
+      }
+    ],
+    "policyItems": [
+      {
+        "name": "“机器人+”应用行动实施方案",
+        "date": "2023-01-18",
+        "content": "工信部等17部门联合印发，明确推动机器人在制造业和民生服务等场景落地。",
+        "impact": "strong_pos",
+        "impactLabel": "🟢 强利好"
+      },
+      {
+        "name": "前4个月机器人景气验证",
+        "date": "2026-05-19",
+        "content": "工业机器人产量同比+25.7%，机器人减速器同比+73.3%，高技术制造业同比+12.6%。",
+        "impact": "strong_pos",
+        "impactLabel": "🟢 强利好"
+      },
+      {
+        "name": "产业进展不及预期与地缘冲击",
+        "date": "2025Q4-2026Q1",
+        "content": "季报明确提到特斯拉量产节点延迟和伊朗冲突抬升风险偏好波动。",
+        "impact": "neg",
+        "impactLabel": "🔴 利空"
+      }
+    ],
+    "marketStatus": [
+      {
+        "dim": "净值位置",
+        "status": "100.0% 历史分位",
+        "statusType": "warning",
+        "detail": "最新净值1.8102已创历史新高，赔率明显弱于2025年春季和2026年一季度回撤后的低位窗口。"
+      },
+      {
+        "dim": "近期趋势",
+        "status": "短期动能很强",
+        "statusType": "positive",
+        "detail": "近1周+3.19%、近1月+16.22%，机器人主线重新升温，但追涨胜率已经下降。"
+      },
+      {
+        "dim": "夏普趋势",
+        "status": "改善",
+        "statusType": "positive",
+        "detail": "全期夏普1.13，近1年夏普1.45，最近一年风险收益比优于成立以来。"
+      },
+      {
+        "dim": "宏观流动性",
+        "status": "中性偏友好",
+        "statusType": "neutral",
+        "detail": "政策工具箱仍充足，4月PMI为50.3，景气维持，但并非极致宽松环境。"
+      },
+      {
+        "dim": "产业景气",
+        "status": "改善",
+        "statusType": "positive",
+        "detail": "机器人减速器、工业机器人产量维持高增，Q2以来机器人主题重新走强，对板块形成支撑。"
+      }
+    ],
+    "allocationSuggestions": [
+      {
+        "scenario": "存量持有人",
+        "action": "继续持有核心仓位，不建议在历史新高附近大幅追仓",
+        "note": "更适合把它当作机器人主题暴露工具，而不是组合底仓。"
+      },
+      {
+        "scenario": "新入场投资者",
+        "action": "等待回落到1.45附近再评估",
+        "note": "如果当前一定要参与，试仓比例不宜超过计划仓位的20%。"
+      }
+    ],
+    "suitableFor": [
+      "能接受单主题基金中等偏大波动、持仓周期至少2-3年的投资者",
+      "对机器人产业链和量产节点有基本理解的投资者",
+      "把它当作组合中主题工具而不是底仓配置的进阶投资者"
+    ],
+    "notSuitableFor": [
+      "想在历史新高附近追涨、持有期短于1年的投资者",
+      "需要分红现金流的投资者，该基金成立以来暂无分红",
+      "希望规避行业集中风险、追求低波动体验的投资者",
+      "风险承受能力低于R3的投资者"
+    ],
+    "termAdvice": [
+      {
+        "term": "短期（1-3个月）",
+        "icon": "⚠️",
+        "level": "cautious",
+        "advice": "历史高位叠加近1月涨幅过快，新资金不追高；已有仓位以持有观察为主，新试仓控制在计划仓位20%以内。"
+      },
+      {
+        "term": "中期（6-12个月）",
+        "icon": "🟡",
+        "level": "cautious",
+        "advice": "产业景气仍有支撑，但更适合回撤后分批布局。1.42-1.45区间考虑首批40%，1.23-1.30再补第二批40%。"
+      },
+      {
+        "term": "长期（3年以上）",
+        "icon": "🟡",
+        "level": "neutral",
+        "advice": "机器人长期赛道仍成立，但这是高波动主题工具，不适合重仓做底仓。单只基金仓位建议不超过权益组合的10%。"
+      }
+    ]
+  },
+  "policy": {
+    "tags": [
+      {
+        "label": "机器人应用扩散",
+        "strength": "high",
+        "color": "#58a6ff"
+      },
+      {
+        "label": "量产链条验证",
+        "strength": "high",
+        "color": "#E8813A"
+      },
+      {
+        "label": "高位观察期",
+        "strength": "medium",
+        "color": "#D4A017"
+      }
+    ],
+    "industryOverview": [
+      {
+        "point": "高技术制造仍在扩张",
+        "detail": "2026年1-4月规模以上高技术制造业增加值同比增长12.6%，科技制造主线仍有基本面支撑。"
+      },
+      {
+        "point": "机器人景气继续验证",
+        "detail": "同期工业机器人产量同比增长25.7%，机器人减速器同比增长73.3%，说明景气并未中断。"
+      },
+      {
+        "point": "短期仍是高波动赛道",
+        "detail": "2025Q4的量产延迟和2026Q1的地缘冲击都说明，机器人主题仍处长期向上但短期高波动的状态。"
+      }
+    ],
+    "cyclePeriod": "调整期（高位观察）",
+    "cycleReason": "长期政策方向没有转弱，2026年官方宏观数据仍在验证产业景气，但没有出现与2023年同等级的新一轮密集顶层文件，市场更多依赖量产和订单兑现来继续证明逻辑。",
+    "policyBreakdown": [
+      {
+        "sector": "感知与交互链",
+        "icon": "🧠",
+        "color": "#58a6ff",
+        "logic": "“机器人+”应用落地需要视觉、交互和边缘智能能力，感知链条是机器人场景扩散最直接的受益方向。",
+        "stocks": [
+          "科大讯飞",
+          "大华股份",
+          "云天励飞"
+        ]
+      },
+      {
+        "sector": "工业自动化与控制",
+        "icon": "⚙️",
+        "color": "#3fb950",
+        "logic": "高技术制造和工业机器人产量高增，最先受益的是自动化控制、工控和智能装备等兑现速度更快的环节。",
+        "stocks": [
+          "汇川技术",
+          "大族激光",
+          "中控技术"
+        ]
+      },
+      {
+        "sector": "执行器与传动链",
+        "icon": "🔩",
+        "color": "#E8813A",
+        "logic": "机器人减速器高增速说明量产零部件景气最强，执行器与传动链是当前最值得跟踪的兑现主线。",
+        "stocks": [
+          "拓普集团",
+          "双环传动",
+          "绿的谐波"
+        ]
+      }
+    ],
+    "longTermRisks": [
+      {
+        "risk": "量产节点反复延后",
+        "level": "high",
+        "signal": "如果特斯拉或国内头部机器人企业的关键量产、订单时间表继续推迟，高位主题估值会被重新压缩。"
+      },
+      {
+        "risk": "风险偏好快速回落",
+        "level": "high",
+        "signal": "地缘冲突、全球流动性变化或风格切向防御资产时，高Beta机器人主题回撤会被放大。"
+      },
+      {
+        "risk": "工具效率被规模与申赎稀释",
+        "level": "medium",
+        "signal": "单一投资者集中持有和产品规模快速扩张，都可能抬升建仓与跟踪成本。"
+      }
+    ],
+    "adaptability": [
+      {
+        "env": "🟢 景气上行 + 成长风格占优",
+        "perf": "能够完整承接机器人景气扩散和订单预期抬升带来的弹性。",
+        "color": "#22c55e"
+      },
+      {
+        "env": "🟡 高位验证期",
+        "perf": "逻辑未坏时仍可能温和上行，但收益更依赖震荡中的结构性修复而不是估值单边扩张。",
+        "color": "#D4A017"
+      },
+      {
+        "env": "🔴 风险偏好骤降",
+        "perf": "高Beta主题会明显放大回撤，基金也难以通过主动管理来降低波动。",
+        "color": "#F54E48"
+      },
+      {
+        "env": "⚠️ 量产预期被证伪",
+        "perf": "若产业兑现继续低于预期，单主题工具的估值和仓位容忍度都会快速下降。",
+        "color": "#f97316"
+      }
+    ],
+    "scenarios": [
+      {
+        "type": "悲观",
+        "probability": 30,
+        "color": "#ef4444",
+        "returnLow": -25,
+        "returnHigh": -10,
+        "trigger": "量产节点继续延后、风险偏好下降、机器人景气从高位回落，当前高分位触发估值压缩。"
+      },
+      {
+        "type": "基准",
+        "probability": 45,
+        "color": "#3b82f6",
+        "returnLow": 0,
+        "returnHigh": 15,
+        "trigger": "机器人景气维持但没有超预期爆发，基金更多表现为高位震荡中的结构性收益。"
+      },
+      {
+        "type": "乐观",
+        "probability": 25,
+        "color": "#22c55e",
+        "returnLow": 20,
+        "returnHigh": 45,
+        "trigger": "产业量产和订单继续验证，官方景气数据延续强势，资金重新集中回到机器人主线。"
+      }
+    ],
+    "dualTimeline": [
+      {
+        "period": "2024-08 → 2024-10",
+        "manager": {
+          "type": "positive",
+          "event": "建仓完成并迅速承接机器人主线",
+          "return": "+34.39%",
+          "note": "建仓期就围绕自动化、视觉和服务机器人建立核心底仓。"
+        },
+        "market": {
+          "type": "policy",
+          "event": "“机器人+”长期方向开始被市场集中定价",
+          "note": "政策为产业链提供了长期可投资性，主题首次形成明显弹性。"
+        }
+      },
+      {
+        "period": "2024-10 → 2024-10",
+        "manager": {
+          "type": "warning",
+          "event": "建仓后承受快速回吐，没有做主动防御",
+          "return": "-13.45%",
+          "note": "基金仍按被动跟踪框架运行，体现的是高Beta主题的自然波动。"
+        },
+        "market": {
+          "type": "warning",
+          "event": "主题快速上涨后获利回吐，缺少新增高等级催化",
+          "note": "短线情绪降温，机器人链条进入第一次高波动切换。"
+        }
+      },
+      {
+        "period": "2024-10 → 2024-12",
+        "manager": {
+          "type": "positive",
+          "event": "继续围绕机器人主线并提升组合纯度",
+          "return": "+18.52%",
+          "note": "新增或提升零部件和感知端标的，为后续主升浪做准备。"
+        },
+        "market": {
+          "type": "bull",
+          "event": "风险偏好修复后，机器人链条再次获得资金回流",
+          "note": "成长风格重新占优，主线延续得到验证。"
+        }
+      },
+      {
+        "period": "2024-12 → 2025-02",
+        "manager": {
+          "type": "positive",
+          "event": "被动复制完整承接一季度主升浪",
+          "return": "+36.68%",
+          "note": "经理没有偏离机器人主线，收益主要来自主题扩散。"
+        },
+        "market": {
+          "type": "bull",
+          "event": "量产与订单预期集中发酵，机器人进入主升浪",
+          "note": "这是成立以来最典型的一次高弹性主题行情。"
+        }
+      },
+      {
+        "period": "2025-02 → 2025-04",
+        "manager": {
+          "type": "warning",
+          "event": "不做防守导致出现历史最大回撤",
+          "return": "-24.88%",
+          "note": "基金仍然维持机器人主线，因此回撤被完整承受。"
+        },
+        "market": {
+          "type": "bear",
+          "event": "前期乐观预期快速降温，主题板块深度回撤",
+          "note": "高Beta主题在风险偏好回落时波动显著放大。"
+        }
+      },
+      {
+        "period": "2025-04 → 2025-10",
+        "manager": {
+          "type": "positive",
+          "event": "强化量产零部件方向并抓住二次主升浪",
+          "return": "+36.63%",
+          "note": "拓普集团和绿的谐波等量产链条标的被推到更核心位置。"
+        },
+        "market": {
+          "type": "bull",
+          "event": "机器人产业与市场预期再次共振",
+          "note": "深回撤后的修复转化为第二轮主升浪，主线重新被强化。"
+        }
+      },
+      {
+        "period": "2025-10 → 2026-03",
+        "manager": {
+          "type": "warning",
+          "event": "面对量产延迟与地缘冲击，仍维持高纯度主线",
+          "return": "-18.24%",
+          "note": "执行没有漂移，但主题节奏判断明显滞后于市场。"
+        },
+        "market": {
+          "type": "warning",
+          "event": "量产节点延迟叠加伊朗冲突，风险偏好显著回落",
+          "note": "高弹性科技主题整体承压，机器人链条进入验证与退潮期。"
+        }
+      },
+      {
+        "period": "2026-03 → 2026-05",
+        "manager": {
+          "type": "positive",
+          "event": "保留量产链与感知链核心仓位，修复后再创新高",
+          "return": "+28.86%",
+          "note": "2026Q1保留的核心持仓帮助基金完整抓住了景气修复。"
+        },
+        "market": {
+          "type": "policy",
+          "event": "工业机器人与减速器产量高增，官方景气验证重新强化主题逻辑",
+          "note": "产业景气修复让机器人主题重新回到资金视野并创出历史新高。"
+        }
+      }
+    ],
+    "note": "长期政策方向仍然支持机器人赛道，但当前更适合把它理解为景气验证延续、估值处于高位的高Beta主题工具。逻辑没有坏，只是赔率已经不再便宜。"
+  },
+  "tracking": {
+    "weekly": [
+      "净值方向验证：观察基金每日净值是否与机器人主线行情一致；若持续背离，需关注集中赎回或成份股权重调整。",
+      "行业核心变量：工业机器人和机器人减速器产量增速能否维持高景气，当前重要参考值分别是25.7%和73.3%。",
+      "产业节奏指标：特斯拉Optimus、宇树等头部机器人量产和订单节点是否继续推进，若连续被延后要重估赛道预期。",
+      "经理动态：继续跟踪黄栋的季报措辞、公开表态和在管产品数量是否继续增加。"
+    ],
+    "quarterly": [
+      "持仓变化：新季报前十持仓是否仍维持机器人核心主线，核心标的合计最好保持在45%以上。",
+      "集中度变化：前十集中度是否异常飙升或骤降，合理区间参考45%-55%。",
+      "规模变化：当前规模3.01亿元，若半年内新增规模超过3亿元需重点复评工具效率。",
+      "同类排名：近1年同类排名应尽量维持前50%以内，若持续滑向后半区需重新评估性价比。",
+      "宽基超额：对比同期沪深300的超额收益最好继续保持为正，顺风阶段最好仍能维持双位数超额。"
+    ],
+    "alerts": [
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "基金经理更换：一票否决级别风险，需重新完整评估接任者。"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "单季度回撤大于-15%且同类排名落入倒数10%：需要判断是否已经超出系统性风险范畴。"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "机器人景气显著退潮：工业机器人与减速器增速若持续明显下滑，核心逻辑将被削弱。"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "量产与订单节点再度连续延后：若头部企业关键时间表继续推迟，需要下调估值假设。"
+      },
+      {
+        "level": "warning",
+        "icon": "⚠️",
+        "text": "规模半年内扩张超过3亿元：新资金过快流入会抬升建仓和跟踪成本。"
+      },
+      {
+        "level": "warning",
+        "icon": "⚠️",
+        "text": "季报持仓大幅偏离机器人主线：需要核查产品是否已经悄悄弱化纯度。"
+      }
+    ]
+  },
+  "exclusionCheck": [
+    {
+      "item": "成立时间是否不足3年",
+      "pass": false,
+      "note": "基金成立于2024-05-16，截至研究日运行约2年，仍属于成立未满3年的年轻产品。"
+    },
+    {
+      "item": "规模是否过小或过大",
+      "pass": true,
+      "note": "当前规模3.01亿元，未触发<1亿元或>200亿元红线，规模处于可运作区间。"
+    },
+    {
+      "item": "基金经理任职是否不足2年",
+      "pass": true,
+      "note": "黄栋自2024-05-16起管理本基金，截至研究日约2年，刚超过2年观察线。"
+    },
+    {
+      "item": "近3年业绩是否落入后30%",
+      "pass": true,
+      "note": "基金成立未满3年，但近1年排名1740/3853、近2年排名634/2746，均未落入同类后30%。"
+    },
+    {
+      "item": "最大回撤是否显著劣于同类",
+      "pass": true,
+      "note": "历史最大回撤-24.88%，属于高弹性主题工具可接受但不轻松的区间，未见极端失控。"
+    },
+    {
+      "item": "基金经理是否在黑名单中",
+      "pass": true,
+      "note": "黑名单核查未命中现任基金经理黄栋。"
+    },
+    {
+      "item": "基金公司是否在黑名单中",
+      "pass": true,
+      "note": "黑名单核查未命中银河基金。"
+    },
+    {
+      "item": "是否频繁更换基金经理",
+      "pass": true,
+      "note": "本基金自成立以来一直由黄栋单独管理，无经理变更记录。"
+    },
+    {
+      "item": "是否存在严重风格漂移",
+      "pass": true,
+      "note": "核心重仓长期围绕机器人链条展开，未见明显偏离基金命名和指数主线的行为。"
+    },
+    {
+      "item": "费率是否显著高于同类平均",
+      "pass": true,
+      "note": "管理费0.50%、托管费0.10%，C类另有0.30%销售服务费，费用不算便宜但仍未达到显著偏离同类的程度。"
+    }
+  ]
+}

@@ -1,0 +1,2278 @@
+{
+  "id": "011840",
+  "meta": {
+    "reportDate": "2026-05-19",
+    "dataDate": "2026-05-18",
+    "disclaimer": "本报告仅供个人学习和信息整理使用，所有分析内容均不构成任何投资建议。投资有风险，入市需谨慎，请依据自身判断做出投资决策。"
+  },
+  "basic": {
+    "code": "011840",
+    "fullName": "天弘中证人工智能主题指数型发起式证券投资基金",
+    "shortName": "天弘中证人工智能C",
+    "type": "指数型",
+    "subType": "股票",
+    "riskLevel": "R3",
+    "riskCode": 3,
+    "foundDate": "2021年08月17日",
+    "manager": "祁世超、洪明华",
+    "companyShort": "天弘基金",
+    "custodian": "中信建投",
+    "benchmark": "中证人工智能主题指数收益率*95%+银行活期存款利率(税后)*5%",
+    "navFallback": 1.9596,
+    "navDateFallback": "2026-05-18",
+    "inceptionReturn": 95.96,
+    "status": "开放申购 / 开放赎回"
+  },
+  "fees": {
+    "management": 0.5,
+    "custodian": 0.1,
+    "salesService": 0.2,
+    "subscriptionMax": 0.0,
+    "subscriptionDiscounted": 0.0,
+    "redemptionMax": 1.5,
+    "breakdown": [
+      {
+        "name": "管理费",
+        "value": 0.5
+      },
+      {
+        "name": "托管费",
+        "value": 0.1
+      },
+      {
+        "name": "销售服务费",
+        "value": 0.2
+      },
+      {
+        "name": "申购费",
+        "value": 0.0,
+        "actualRate": 0.0
+      },
+      {
+        "name": "赎回费",
+        "value": 1.5,
+        "rate": 1.5,
+        "rules": [
+          {
+            "label": "持有少于7天",
+            "rate": 1.5
+          },
+          {
+            "label": "持有7天及以上",
+            "rate": 0.0
+          }
+        ],
+        "note": "短期持有惩罚性费率，具体以基金合同为准"
+      }
+    ]
+  },
+  "scale": {
+    "nav": 32.07,
+    "date": "2026-05-18"
+  },
+  "risk": {
+    "volatility": 0.3125,
+    "annualReturn": 0.1591,
+    "sharpe": 0.41,
+    "calmar": 0.37,
+    "maxDrawdown": -0.4263,
+    "maxDrawdownPeriod": "2023-06-20 → 2024-02-05",
+    "periodMetrics": [
+      {
+        "label": "近1年",
+        "volatility": 0.3198,
+        "sharpe": 3.25,
+        "maxDrawdown": -0.147
+      },
+      {
+        "label": "近2年",
+        "volatility": 0.3446,
+        "sharpe": 1.68,
+        "maxDrawdown": -0.2378
+      },
+      {
+        "label": "近3年",
+        "volatility": 0.3362,
+        "sharpe": 0.67,
+        "maxDrawdown": -0.4263
+      }
+    ],
+    "riskBreakdown": {
+      "yearlyMaxDrawdowns": [
+        {
+          "year": 2026,
+          "fund": 14.7,
+          "hs300": 7.78
+        },
+        {
+          "year": 2025,
+          "fund": 23.78,
+          "hs300": 10.49
+        },
+        {
+          "year": 2024,
+          "fund": 22.15,
+          "hs300": 14.41
+        },
+        {
+          "year": 2023,
+          "fund": 30.25,
+          "hs300": 21.51
+        },
+        {
+          "year": 2022,
+          "fund": 41.29,
+          "hs300": 28.65
+        },
+        {
+          "year": 2021,
+          "fund": 9.08,
+          "hs300": 18.19
+        }
+      ]
+    },
+    "relativeMetrics": {
+      "beta": 1.2879,
+      "alpha": 0.1789,
+      "informationRatio": 0.8211,
+      "trackingError": 0.2228,
+      "r2": 0.5192
+    },
+    "navPercentile": 99.7,
+    "radarDimensions": [
+      {
+        "name": "收益能力",
+        "score": 40
+      },
+      {
+        "name": "风险控制",
+        "score": 80
+      },
+      {
+        "name": "稳定性",
+        "score": 80
+      },
+      {
+        "name": "主题纯度",
+        "score": 80
+      },
+      {
+        "name": "跟踪能力",
+        "score": 73
+      }
+    ]
+  },
+  "holdings": {
+    "date": "2026年1季度股票投资明细",
+    "top10": [
+      {
+        "rank": 1,
+        "name": "新易盛",
+        "code": "300502",
+        "ratio": 10.96
+      },
+      {
+        "rank": 2,
+        "name": "中际旭创",
+        "code": "300308",
+        "ratio": 10.0
+      },
+      {
+        "rank": 3,
+        "name": "寒武纪",
+        "code": "688256",
+        "ratio": 6.95
+      },
+      {
+        "rank": 4,
+        "name": "澜起科技",
+        "code": "688008",
+        "ratio": 5.45
+      },
+      {
+        "rank": 5,
+        "name": "中科曙光",
+        "code": "603019",
+        "ratio": 4.37
+      },
+      {
+        "rank": 6,
+        "name": "海康威视",
+        "code": "002415",
+        "ratio": 4.24
+      },
+      {
+        "rank": 7,
+        "name": "科大讯飞",
+        "code": "002230",
+        "ratio": 4.06
+      },
+      {
+        "rank": 8,
+        "name": "豪威集团",
+        "code": "603501",
+        "ratio": 3.06
+      },
+      {
+        "rank": 9,
+        "name": "芯原股份",
+        "code": "688521",
+        "ratio": 2.83
+      },
+      {
+        "rank": 10,
+        "name": "润泽科技",
+        "code": "300442",
+        "ratio": 2.51
+      }
+    ],
+    "top10Total": 54.43,
+    "top10TotalRatio": 54.43,
+    "sectors": [
+      {
+        "name": "制造业",
+        "ratio": 60.69
+      },
+      {
+        "name": "信息技术业",
+        "ratio": 33.86
+      },
+      {
+        "name": "建筑业",
+        "ratio": 0.42
+      },
+      {
+        "name": "采矿业",
+        "ratio": 0.0
+      },
+      {
+        "name": "科学研究和技术服务业",
+        "ratio": 0.0
+      },
+      {
+        "name": "交通运输、仓储和邮政业",
+        "ratio": 0.0
+      }
+    ],
+    "stockRatio": 94.97,
+    "bondRatio": 0,
+    "cashRatio": 5.26,
+    "themeTitle": "AI算力基础设施全产业链 + AI应用龙头",
+    "themeSubtitle": "光模块双雄+AI芯片+服务器+数据中心",
+    "concentrationLabel": "前十集中度54.43%，高度集中",
+    "themeGroups": [
+      {
+        "name": "AI算力-光模块",
+        "color": "#3b82f6",
+        "ratio": 20.96,
+        "stocks": "新易盛 / 中际旭创",
+        "note": "光模块是AI数据中心互联的核心器件"
+      },
+      {
+        "name": "AI算力-芯片",
+        "color": "#8b5cf6",
+        "ratio": 18.29,
+        "stocks": "寒武纪 / 澜起科技 / 豪威集团 / 芯原股份",
+        "note": "覆盖AI训练/推理芯片"
+      },
+      {
+        "name": "AI算力-服务器与数据中心",
+        "color": "#8b5cf6",
+        "ratio": 6.88,
+        "stocks": "中科曙光 / 润泽科技",
+        "note": "AI服务器和数据中心是算力基础设施的重要组成部分"
+      },
+      {
+        "name": "AI应用",
+        "color": "#10b981",
+        "ratio": 8.3,
+        "stocks": "海康威视 / 科大讯飞",
+        "note": "覆盖AI安防和AI语音两大应用场景"
+      }
+    ],
+    "evolutionHighlights": [
+      {
+        "quarter": "2024Q4",
+        "type": "positive",
+        "change": "新易盛/中际旭创/寒武纪成为核心",
+        "return": "+9.70%",
+        "theme": "AI算力权重显著超过应用端",
+        "insight": "持仓主线从应用向算力迁移，2025全年+64.66%验证了这次调仓的正确性"
+      },
+      {
+        "quarter": "2025Q3",
+        "type": "positive",
+        "change": "新易盛(11.28%)和中际旭创(11.15%)进一步集中",
+        "return": "+54.78%",
+        "theme": "光模块双雄权重合计超22%",
+        "insight": "主升浪核心季度，历史最强单季"
+      },
+      {
+        "quarter": "2026Q1",
+        "type": "warning",
+        "change": "新易盛(10.96%)反超中际旭创(10.00%)成为第一重仓",
+        "return": "-6.19%",
+        "theme": "光模块主线逻辑仍然成立",
+        "insight": "反映了指数成分调整的非经理主观判断，2026Q2至今+30.66%说明光模块主线仍在"
+      }
+    ],
+    "policyLinks": [
+      {
+        "sector": "AI算力",
+        "color": "#3b82f6",
+        "stocks": "新易盛 / 中际旭创",
+        "policyNote": "AI设备和软件服务首次纳入再贷款用途，直接利好算力基础设施"
+      },
+      {
+        "sector": "AI芯片",
+        "color": "#8b5cf6",
+        "stocks": "寒武纪 / 澜起科技",
+        "policyNote": "国货国用政策推动国产AI芯片采购，直接利好"
+      }
+    ]
+  },
+  "performance": {
+    "stages": [
+      {
+        "period": "近1周",
+        "fund": 0.62,
+        "peer": -2.43,
+        "hs300": -2.39,
+        "rank": 445,
+        "rankTotal": 5071,
+        "quartile": null
+      },
+      {
+        "period": "近1月",
+        "fund": 13.78,
+        "peer": 3.07,
+        "hs300": 2.22,
+        "rank": 538,
+        "rankTotal": 5038,
+        "quartile": null
+      },
+      {
+        "period": "近3月",
+        "fund": 22.02,
+        "peer": 3.46,
+        "hs300": 3.71,
+        "rank": 334,
+        "rankTotal": 4919,
+        "quartile": null
+      },
+      {
+        "period": "近6月",
+        "fund": 36.58,
+        "peer": 10.43,
+        "hs300": 5.81,
+        "rank": 322,
+        "rankTotal": 4635,
+        "quartile": null
+      },
+      {
+        "period": "近1年",
+        "fund": 105.86,
+        "peer": 37.01,
+        "hs300": 24.28,
+        "rank": 213,
+        "rankTotal": 3853,
+        "quartile": null
+      },
+      {
+        "period": "近2年",
+        "fund": 155.19,
+        "peer": 52.91,
+        "hs300": 31.42,
+        "rank": 136,
+        "rankTotal": 2746,
+        "quartile": null
+      },
+      {
+        "period": "近3年",
+        "fund": 121.62,
+        "peer": 38.55,
+        "hs300": 22.18,
+        "rank": 65,
+        "rankTotal": 2116,
+        "quartile": null
+      },
+      {
+        "period": "今年来",
+        "fund": 26.58,
+        "peer": 8.67,
+        "hs300": 4.4,
+        "rank": 551,
+        "rankTotal": 4796,
+        "quartile": null
+      },
+      {
+        "period": "成立来",
+        "fund": 95.96,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      }
+    ],
+    "annual": [
+      {
+        "year": 2021,
+        "fund": 3.97,
+        "peer": 7.09,
+        "hs300": -5.2,
+        "rank": null,
+        "rankTotal": 1822,
+        "quartile": "---"
+      },
+      {
+        "year": 2022,
+        "fund": -33.24,
+        "peer": -19.5,
+        "hs300": -21.63,
+        "rank": 1700,
+        "rankTotal": 2208,
+        "quartile": "不佳"
+      },
+      {
+        "year": 2023,
+        "fund": 12.97,
+        "peer": -8.28,
+        "hs300": -11.38,
+        "rank": 54,
+        "rankTotal": 2655,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2024,
+        "fund": 19.91,
+        "peer": 11.37,
+        "hs300": 14.68,
+        "rank": 497,
+        "rankTotal": 3464,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2025,
+        "fund": 64.66,
+        "peer": 28.14,
+        "hs300": 17.66,
+        "rank": 155,
+        "rankTotal": 4812,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2026,
+        "fund": 26.58,
+        "peer": 8.67,
+        "hs300": 4.4,
+        "rank": 551,
+        "rankTotal": 4796,
+        "quartile": null
+      }
+    ],
+    "quarterly": [
+      {
+        "year": 2021,
+        "quarter": "2021Q3",
+        "fund": -6.01,
+        "peer": null,
+        "hs300": -6.95,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2021,
+        "quarter": "2021Q4",
+        "fund": 10.62,
+        "peer": null,
+        "hs300": 0.21,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2022,
+        "quarter": "2022Q1",
+        "fund": -19.33,
+        "peer": null,
+        "hs300": -14.14,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2022,
+        "quarter": "2022Q2",
+        "fund": -3.53,
+        "peer": null,
+        "hs300": 4.88,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2022,
+        "quarter": "2022Q3",
+        "fund": -19.81,
+        "peer": null,
+        "hs300": -14.82,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2022,
+        "quarter": "2022Q4",
+        "fund": 6.98,
+        "peer": null,
+        "hs300": 4.05,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2023,
+        "quarter": "2023Q1",
+        "fund": 37.07,
+        "peer": null,
+        "hs300": 4.19,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2023,
+        "quarter": "2023Q2",
+        "fund": -2.45,
+        "peer": null,
+        "hs300": -6.07,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2023,
+        "quarter": "2023Q3",
+        "fund": -13.15,
+        "peer": null,
+        "hs300": -5.22,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2023,
+        "quarter": "2023Q4",
+        "fund": -2.73,
+        "peer": null,
+        "hs300": -6.88,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q1",
+        "fund": -1.84,
+        "peer": null,
+        "hs300": 4.46,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q2",
+        "fund": -2.57,
+        "peer": -3.66,
+        "hs300": -2.14,
+        "rank": 1207,
+        "rankTotal": 3014,
+        "quartile": "良好"
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q3",
+        "fund": 14.3,
+        "peer": 17.13,
+        "hs300": 16.07,
+        "rank": 2011,
+        "rankTotal": 3130,
+        "quartile": "一般"
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q4",
+        "fund": 9.7,
+        "peer": 0.65,
+        "hs300": -2.06,
+        "rank": 312,
+        "rankTotal": 3464,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q1",
+        "fund": 5.11,
+        "peer": 2.45,
+        "hs300": -1.21,
+        "rank": 828,
+        "rankTotal": 3635,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q2",
+        "fund": 1.42,
+        "peer": 2.65,
+        "hs300": 1.25,
+        "rank": 2342,
+        "rankTotal": 4076,
+        "quartile": "一般"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q3",
+        "fund": 54.78,
+        "peer": 23.0,
+        "hs300": 17.9,
+        "rank": 205,
+        "rankTotal": 4523,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q4",
+        "fund": -0.2,
+        "peer": -0.94,
+        "hs300": -0.23,
+        "rank": 2413,
+        "rankTotal": 4812,
+        "quartile": "一般"
+      },
+      {
+        "year": 2026,
+        "quarter": "2026Q1",
+        "fund": -6.19,
+        "peer": -1.57,
+        "hs300": -3.89,
+        "rank": 4061,
+        "rankTotal": 4960,
+        "quartile": "不佳"
+      },
+      {
+        "year": 2026,
+        "quarter": "2026Q2",
+        "fund": 30.66,
+        "peer": null,
+        "hs300": 6.79,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      }
+    ],
+    "milestones": [
+      {
+        "date": "2021-08-17",
+        "nav": 1,
+        "label": "成立",
+        "type": "neutral"
+      },
+      {
+        "date": "2022-10-10",
+        "nav": 0.6187,
+        "label": "熊市最低点",
+        "type": "low"
+      },
+      {
+        "date": "2023-06-20",
+        "nav": 1.0563,
+        "label": "ChatGPT行情峰值",
+        "type": "peak"
+      },
+      {
+        "date": "2024-02-05",
+        "nav": 0.606,
+        "label": "历史最低点（流动性危机）",
+        "type": "low"
+      },
+      {
+        "date": "2024-10-08",
+        "nav": 0.9614,
+        "label": "924政策行情第一波高点",
+        "type": "high"
+      },
+      {
+        "date": "2025-09-30",
+        "nav": 1.5512,
+        "label": "AI主升浪中期",
+        "type": "high"
+      },
+      {
+        "date": "2026-05-18",
+        "nav": 1.9596,
+        "label": "历史最高点（>99%分位）",
+        "type": "peak"
+      }
+    ]
+  },
+  "stageAnalysis": {
+    "inflectionPoints": [
+      {
+        "id": 1,
+        "stageId": 1,
+        "startDate": "2022-01-18",
+        "endDate": "2022-04-26",
+        "startNav": 1.0539,
+        "endNav": 0.6639,
+        "changePct": -37.01,
+        "type": "trough",
+        "holdingsSummary": "早期持仓仍以AI应用链和传统计算机权重为主，尚未切换到后来的算力主线。",
+        "env": "部分直接证据：2022-03-16美联储FOMC加息；“国内疫情封控升级”本轮仅保留为阶段背景推断。",
+        "managerAction": "可验证边界：当期仅能确认基金执行被动复制/指数跟踪，无法外推周度主动调仓。",
+        "attribution": "分析判断：系统性Beta杀跌主导，AI主题高弹性放大了回撤。"
+      },
+      {
+        "id": 2,
+        "stageId": 1,
+        "startDate": "2022-04-26",
+        "endDate": "2022-06-28",
+        "startNav": 0.6639,
+        "endNav": 0.8094,
+        "changePct": 21.92,
+        "type": "peak",
+        "holdingsSummary": "组合结构没有明显变化，仍以指数原有成分的同步修复为主。",
+        "env": "阶段推断：将反弹解释为“上海解封预期+稳增长政策”符合市场叙事，但本轮未补到同周期原文。",
+        "managerAction": "可验证边界：当期仅能确认基金执行被动复制/指数跟踪，无法外推周度主动调仓。",
+        "attribution": "分析判断：更稳妥的结论是超跌修复主导，工具属性强于主动Alpha。"
+      },
+      {
+        "id": 3,
+        "stageId": 1,
+        "startDate": "2022-06-28",
+        "endDate": "2022-10-10",
+        "startNav": 0.8094,
+        "endNav": 0.6187,
+        "changePct": -23.56,
+        "type": "trough",
+        "holdingsSummary": "持仓仍偏AI应用与软件链，未出现足以抵御熊市的结构切换。",
+        "env": "阶段推断：将再探底归因为“海外紧缩延续+国内盈利预期回落”是时间上可解释的市场背景，不是本轮直接证实的单条事件。",
+        "managerAction": "可验证边界：当期仅能确认基金执行被动复制/指数跟踪，无法外推周度主动调仓。",
+        "attribution": "分析判断：2022年熊市主趋势未改，AI高弹性继续放大下行。"
+      },
+      {
+        "id": 4,
+        "stageId": 1,
+        "startDate": "2022-10-10",
+        "endDate": "2022-11-17",
+        "startNav": 0.6187,
+        "endNav": 0.7484,
+        "changePct": 20.96,
+        "type": "peak",
+        "holdingsSummary": "指数成分在数字经济和科技修复中同步回暖，但仍以底部反抽为主。",
+        "env": "阶段推断：年末数字经济、信创等题材回暖可以解释这段修复，但本轮未补到与该窗口直接绑定的原文证据。",
+        "managerAction": "可验证边界：当期仅能确认基金执行被动复制/指数跟踪，无法外推周度主动调仓。",
+        "attribution": "分析判断：这是底部区间的情绪型反抽，持续性有限。"
+      },
+      {
+        "id": 5,
+        "stageId": 1,
+        "startDate": "2022-11-17",
+        "endDate": "2022-12-21",
+        "startNav": 0.7484,
+        "endNav": 0.6873,
+        "changePct": -8.16,
+        "type": "trough",
+        "holdingsSummary": "组合仍延续旧指数结构，尚未大幅体现后续AI模型与算力链抬升。",
+        "env": "部分直接证据：2022-11-30 OpenAI发布ChatGPT落在该窗口内；“国内市场尚未全面定价这一叙事”仍是市场解释。",
+        "managerAction": "可验证边界：当期仅能确认基金执行被动复制/指数跟踪，无法外推周度主动调仓。",
+        "attribution": "分析判断：更稳妥的表述是熊市底部的最后反复，为2023年初AI行情启动腾出了筹码空间。"
+      },
+      {
+        "id": 6,
+        "stageId": 2,
+        "startDate": "2022-12-21",
+        "endDate": "2023-04-07",
+        "startNav": 0.6873,
+        "endNav": 1.0298,
+        "changePct": 49.83,
+        "type": "peak",
+        "holdingsSummary": "指数成分开始向算力、服务器、模型链倾斜，基金自然获得更高弹性。",
+        "env": "直接证据：2022-11-30 OpenAI发布ChatGPT，与2023年一季度A股AI主题集中重估在时间上高度吻合。",
+        "managerAction": "可验证边界：当期仍以被动复制/指数跟踪为主，无法把窗口内收益写成经理的周度主动增强。",
+        "attribution": "分析判断：时间匹配度很高，可较高置信度理解为主题Beta主导的集中重估。"
+      },
+      {
+        "id": 7,
+        "stageId": 2,
+        "startDate": "2023-04-07",
+        "endDate": "2023-05-16",
+        "startNav": 1.0298,
+        "endNav": 0.8571,
+        "changePct": -16.77,
+        "type": "trough",
+        "holdingsSummary": "高弹性算力与应用成分在第一轮爆发后同步回吐。",
+        "env": "阶段推断：把这段回撤理解为第一轮ChatGPT交易过热后的获利回吐，符合市场叙事，但本轮没有补到直接原文。",
+        "managerAction": "可验证边界：当期仍以被动复制/指数跟踪为主，无法把回吐写成经理的周度主动减仓或未减仓行为。",
+        "attribution": "分析判断：AI主题的上涨斜率很陡，回撤速度也同样很快。"
+      },
+      {
+        "id": 8,
+        "stageId": 2,
+        "startDate": "2023-05-16",
+        "endDate": "2023-06-20",
+        "startNav": 0.8571,
+        "endNav": 1.0563,
+        "changePct": 23.24,
+        "type": "peak",
+        "holdingsSummary": "算力链、服务器链再度成为重心，组合弹性随指数提升。",
+        "env": "阶段推断：将这轮上冲解释为算力链、服务器链二次点火，是常见市场解读，本轮未补到同周期高权威原文。",
+        "managerAction": "可验证边界：当期仍以被动复制/指数跟踪为主，无法把上涨写成经理的短期主动加仓。",
+        "attribution": "分析判断：这是2023年AI行情的二次点火，同时继续积累高位筹码压力。"
+      },
+      {
+        "id": 9,
+        "stageId": 3,
+        "startDate": "2023-06-20",
+        "endDate": "2023-10-24",
+        "startNav": 1.0563,
+        "endNav": 0.7368,
+        "changePct": -30.25,
+        "type": "trough",
+        "holdingsSummary": "AI高估值成分整体杀跌，组合无法通过分散化缓冲主题回撤。",
+        "env": "阶段推断：AI概念热度回落、商业化兑现再评估可以解释这段调整，但仍属于阶段性市场解释。",
+        "managerAction": "可验证边界：当期仍以被动复制/指数跟踪为主，无法把窗口内下跌解释为经理对高估值赛道的周度取舍。",
+        "attribution": "分析判断：AI主题高波动的负面一面集中显现，前期涨幅越快，后期回撤越深。"
+      },
+      {
+        "id": 10,
+        "stageId": 3,
+        "startDate": "2023-10-24",
+        "endDate": "2023-12-11",
+        "startNav": 0.7368,
+        "endNav": 0.8267,
+        "changePct": 12.2,
+        "type": "peak",
+        "holdingsSummary": "组合仍维持AI主线，但上涨更多来自技术性反抽而非新逻辑。",
+        "env": "阶段推断：技术性超跌反弹是更稳妥的描述，本轮没有额外新闻原文能把该窗口指向单一催化。",
+        "managerAction": "可验证边界：当期仍以被动复制/指数跟踪为主，无法把修复写成主动风格切换。",
+        "attribution": "分析判断：这是调整中的中继反弹，没有改变整体弱势震荡格局。"
+      },
+      {
+        "id": 11,
+        "stageId": 3,
+        "startDate": "2023-12-11",
+        "endDate": "2024-02-05",
+        "startNav": 0.8267,
+        "endNav": 0.606,
+        "changePct": -26.7,
+        "type": "trough",
+        "holdingsSummary": "AI高弹性成分在流动性冲击中集体失守，基金跌至历史最低点。",
+        "env": "阶段推断：市场普遍将2024年初波动解释为流动性冲击扩散至科技板块，但本轮未补到同周期官方原文。",
+        "managerAction": "可验证边界：当期仍以被动复制/指数跟踪为主；只能确认净值跌至阶段低点，不能外推当周管理动作。",
+        "attribution": "分析判断：这是全周期最关键的风险样本，说明AI主题基金在流动性冲击下几乎没有防御垫。"
+      },
+      {
+        "id": 12,
+        "stageId": 3,
+        "startDate": "2024-02-05",
+        "endDate": "2024-03-18",
+        "startNav": 0.606,
+        "endNav": 0.8274,
+        "changePct": 36.53,
+        "type": "peak",
+        "holdingsSummary": "组合结构不变，但在极端低位后获得快速修复弹性。",
+        "env": "阶段推断：把V形修复解释为流动性支持增强和风险偏好回暖较为常见，但本轮未补到可直接对应的官方原文。",
+        "managerAction": "可验证边界：当期仍以被动复制/指数跟踪为主；只能确认基金完整吃到修复弹性。",
+        "attribution": "分析判断：反弹力度很强，但更像情绪修复，而非基本面已经完全反转。"
+      },
+      {
+        "id": 13,
+        "stageId": 3,
+        "startDate": "2024-03-18",
+        "endDate": "2024-04-23",
+        "startNav": 0.8274,
+        "endNav": 0.725,
+        "changePct": -12.38,
+        "type": "trough",
+        "holdingsSummary": "AI主线未出现新的强催化，组合再次回吐前期修复收益。",
+        "env": "阶段推断：救市反弹后重新回到盈利与景气验证，是更合理的市场解释，而非本轮已被直接证实的事实。",
+        "managerAction": "可验证边界：当期仍以被动复制/指数跟踪为主；不能据此断言进行了周度降噪或防守动作。",
+        "attribution": "分析判断：修复更多来自情绪而非趋势反转，因此回吐也来得较快。"
+      },
+      {
+        "id": 14,
+        "stageId": 3,
+        "startDate": "2024-04-23",
+        "endDate": "2024-05-06",
+        "startNav": 0.725,
+        "endNav": 0.7962,
+        "changePct": 9.82,
+        "type": "peak",
+        "holdingsSummary": "组合保持AI核心暴露，但上行仍只是区间内弱反弹。",
+        "env": "阶段推断：这段更适合表述为底部区间内的短促反弹，本轮未补到明确的外部催化原文。",
+        "managerAction": "可验证边界：当期仍以被动复制/指数跟踪为主；无法把区间内修复写成主动增强。",
+        "attribution": "分析判断：上涨幅度有限、持续时间短，更多是阴跌过程中的节奏波动。"
+      },
+      {
+        "id": 15,
+        "stageId": 3,
+        "startDate": "2024-05-06",
+        "endDate": "2024-09-09",
+        "startNav": 0.7962,
+        "endNav": 0.6441,
+        "changePct": -19.1,
+        "type": "trough",
+        "holdingsSummary": "AI主线在缺乏新催化的空窗期中整体阴跌，组合磨损明显。",
+        "env": "阶段推断：将2024年中走势解释为“AI催化空窗期的阴跌”符合盘面观察，但本轮未补到同等级直接原文。",
+        "managerAction": "可验证边界：当期仍以被动复制/指数跟踪为主；没有证据支持周度层面的防守动作描述。",
+        "attribution": "分析判断：基金在“没有新故事”的阶段容易陷入高波动、低效率磨损。"
+      },
+      {
+        "id": 16,
+        "stageId": 4,
+        "startDate": "2024-09-09",
+        "endDate": "2024-10-08",
+        "startNav": 0.6441,
+        "endNav": 0.9614,
+        "changePct": 49.26,
+        "type": "peak",
+        "holdingsSummary": "算力、光模块、芯片等高弹性资产在政策刺激下全面重估。",
+        "env": "直接证据：2024-09-24/25金融支持经济高质量发展政策组合落地，包含降准、降政策利率和支持资本市场稳定发展的新工具。",
+        "managerAction": "可验证边界：当期仍以被动复制/指数跟踪为主，无法把暴力反弹写成经理主动择时的结果。",
+        "attribution": "分析判断：这是第二次单月接近50%的上冲，可较高置信度理解为政策驱动下的高Beta重估。"
+      },
+      {
+        "id": 17,
+        "stageId": 4,
+        "startDate": "2024-10-08",
+        "endDate": "2024-10-16",
+        "startNav": 0.9614,
+        "endNav": 0.8362,
+        "changePct": -13.02,
+        "type": "trough",
+        "holdingsSummary": "核心AI资产在暴涨后出现第一轮集中获利回吐。",
+        "env": "阶段推断：把这段回落理解为924暴涨后的获利兑现较为合理，但回撤本身没有对应到新的单一权威事件。",
+        "managerAction": "可验证边界：当期仍以被动复制/指数跟踪为主，没有周度落袋为安或主动减仓的可验证证据。",
+        "attribution": "分析判断：这次回撤更像强反弹后的正常筹码交换，而非趋势反转。"
+      },
+      {
+        "id": 18,
+        "stageId": 4,
+        "startDate": "2024-10-16",
+        "endDate": "2024-11-13",
+        "startNav": 0.8362,
+        "endNav": 1.0138,
+        "changePct": 21.24,
+        "type": "peak",
+        "holdingsSummary": "光模块、AI芯片和服务器链再次成为核心进攻方向。",
+        "env": "阶段推断：将二次上冲概括为资金重新回流AI与成长主线，是盘面层面的阶段解释。",
+        "managerAction": "可验证边界：当期仍以被动复制/指数跟踪为主，无法把收益写成主动增强暴露的结果。",
+        "attribution": "分析判断：二次上冲说明924之后的风格切换并非一次性脉冲。"
+      },
+      {
+        "id": 19,
+        "stageId": 4,
+        "startDate": "2024-11-13",
+        "endDate": "2024-11-26",
+        "startNav": 1.0138,
+        "endNav": 0.8975,
+        "changePct": -11.47,
+        "type": "trough",
+        "holdingsSummary": "高位AI核心资产进入震荡换手，组合波动开始放大。",
+        "env": "阶段推断：连续上涨后的高位震荡与止盈盘释放，是更稳妥的市场解释。",
+        "managerAction": "可验证边界：当期仍以被动复制/指数跟踪为主，不能把这段回撤写成主动降波动失败。",
+        "attribution": "分析判断：10%左右的快速回撤开始成为主升浪中的常态波动。"
+      },
+      {
+        "id": 20,
+        "stageId": 4,
+        "startDate": "2024-11-26",
+        "endDate": "2024-12-26",
+        "startNav": 0.8975,
+        "endNav": 0.9991,
+        "changePct": 11.32,
+        "type": "peak",
+        "holdingsSummary": "资金重新加回算力和芯片核心资产，组合继续修复。",
+        "env": "阶段推断：年末风险偏好回升可以解释这段修复，但本轮未补到直接原文。",
+        "managerAction": "可验证边界：当期仍以被动复制/指数跟踪为主，只能确认净值随指数修复。",
+        "attribution": "分析判断：更稳妥的结论是主线资金并未离场，AI赛道仍处关注中心。"
+      },
+      {
+        "id": 21,
+        "stageId": 4,
+        "startDate": "2024-12-26",
+        "endDate": "2025-01-06",
+        "startNav": 0.9991,
+        "endNav": 0.8798,
+        "changePct": -11.94,
+        "type": "trough",
+        "holdingsSummary": "跨年调仓使高估值AI成分出现阶段性集中回吐。",
+        "env": "阶段推断：跨年调仓与高位估值消化属于常见市场解释，本轮没有补到同周期权威原文。",
+        "managerAction": "可验证边界：当期仍以被动复制/指数跟踪为主，不能外推周度主动降仓。",
+        "attribution": "分析判断：这是主升浪内部的典型换手，不改AI主线趋势，但会明显考验持有体验。"
+      },
+      {
+        "id": 22,
+        "stageId": 4,
+        "startDate": "2025-01-06",
+        "endDate": "2025-02-21",
+        "startNav": 0.8798,
+        "endNav": 1.1224,
+        "changePct": 27.57,
+        "type": "peak",
+        "holdingsSummary": "国产模型与算力链预期同步抬升，组合重新转入上攻。",
+        "env": "阶段推断：把上涨解释为“国产大模型预期升温、DeepSeek等催化提前交易”仍缺直接高权威原文，因此只能保留为市场解释。",
+        "managerAction": "可验证边界：祁世超于2025-02-14接任，但能直接确认的只有“接任后仍延续指数复制”，不能把窗口内上涨归因为其短期主动操作。",
+        "attribution": "分析判断：经理变更没有改变收益来源，这一轮上涨仍更适合理解为行业Beta驱动。"
+      },
+      {
+        "id": 23,
+        "stageId": 4,
+        "startDate": "2025-02-21",
+        "endDate": "2025-04-08",
+        "startNav": 1.1224,
+        "endNav": 0.8555,
+        "changePct": -23.78,
+        "type": "trough",
+        "holdingsSummary": "高位AI主线整体回撤，组合跟随指数显著回吐前期涨幅。",
+        "env": "阶段推断：快速冲高后的估值再评估和整固，是更稳妥的解释，但没有直接原文能锁定单一触发事件。",
+        "managerAction": "可验证边界：祁世超接任后仍延续指数复制；没有证据支持周度层面的主动降暴露描述。",
+        "attribution": "分析判断：主升浪中的回撤强度依然接近主题牛股风格，不适合低波动诉求。"
+      },
+      {
+        "id": 24,
+        "stageId": 4,
+        "startDate": "2025-04-08",
+        "endDate": "2025-09-01",
+        "startNav": 0.8555,
+        "endNav": 1.5094,
+        "changePct": 76.43,
+        "type": "peak",
+        "holdingsSummary": "光模块、AI芯片、服务器等算力主线成为净值上涨的绝对核心。",
+        "env": "阶段推断：将2025年中强势上行解释为“算力订单/业绩兑现”仍缺同等级直接原文，只能保留为主题主线延续的市场解释。",
+        "managerAction": "可验证边界：祁世超任内仍以指数复制为主；无法把窗口内收益写成其对核心算力资产的周度主动增配。",
+        "attribution": "分析判断：这是基金成立以来最强的主升浪，但更高置信度的说法仍是高景气主题Beta驱动。"
+      },
+      {
+        "id": 25,
+        "stageId": 4,
+        "startDate": "2025-09-01",
+        "endDate": "2025-09-04",
+        "startNav": 1.5094,
+        "endNav": 1.3344,
+        "changePct": -11.59,
+        "type": "trough",
+        "holdingsSummary": "前期暴涨后的算力核心股出现快速兑现，组合短线急跌。",
+        "env": "阶段推断：高位暴涨后的快速获利兑现，是对这类短促急跌更稳妥的表述。",
+        "managerAction": "可验证边界：祁世超任内仍以指数复制为主；不能把短线急跌解释为管理层面的周度失误。",
+        "attribution": "分析判断：高景气主线中的正常震荡，对追高资金杀伤力很大。"
+      },
+      {
+        "id": 26,
+        "stageId": 4,
+        "startDate": "2025-09-04",
+        "endDate": "2025-09-25",
+        "startNav": 1.3344,
+        "endNav": 1.5776,
+        "changePct": 18.23,
+        "type": "peak",
+        "holdingsSummary": "资金重新回流光模块、AI芯片等核心资产，组合再创新高。",
+        "env": "阶段推断：资金重新回流算力核心资产，属于盘面层面的阶段性解释。",
+        "managerAction": "可验证边界：祁世超任内仍以指数复制为主；无法据此断言进行了主动加仓或风格强化。",
+        "attribution": "分析判断：说明资金对AI主线的信仰尚未动摇，回撤更多是换手而非退潮。"
+      },
+      {
+        "id": 27,
+        "stageId": 4,
+        "startDate": "2025-09-25",
+        "endDate": "2025-10-17",
+        "startNav": 1.5776,
+        "endNav": 1.4008,
+        "changePct": -11.21,
+        "type": "trough",
+        "holdingsSummary": "高位核心资产再度洗盘，组合波动保持在高位区间。",
+        "env": "阶段推断：高位洗盘与获利盘释放，是比“明确事件驱动下跌”更符合当前证据边界的写法。",
+        "managerAction": "可验证边界：祁世超任内仍以指数复制为主；没有周度主动风格切换的可验证证据。",
+        "attribution": "分析判断：高位震荡已经成为常态，这类产品明显不适合低风险资金。"
+      },
+      {
+        "id": 28,
+        "stageId": 4,
+        "startDate": "2025-10-17",
+        "endDate": "2025-10-29",
+        "startNav": 1.4008,
+        "endNav": 1.5885,
+        "changePct": 13.4,
+        "type": "peak",
+        "holdingsSummary": "算力与芯片核心龙头重新领涨，组合继续保持强趋势。",
+        "env": "阶段推断：重新尝试创新高可理解为主线资金再度回流，但本轮未补到直接原文。",
+        "managerAction": "可验证边界：祁世超任内仍以指数复制为主；无法把上涨解释为主动高暴露押注。",
+        "attribution": "分析判断：上涨幅度虽不及前一轮主升浪，但仍显示主线强势延续。"
+      },
+      {
+        "id": 29,
+        "stageId": 4,
+        "startDate": "2025-10-29",
+        "endDate": "2025-11-21",
+        "startNav": 1.5885,
+        "endNav": 1.3714,
+        "changePct": -13.67,
+        "type": "trough",
+        "holdingsSummary": "高位筹码再度松动，组合在大趋势中承受更剧烈的换手回撤。",
+        "env": "阶段推断：高位筹码松动与震荡换手，是这一段回撤的更稳妥表述。",
+        "managerAction": "可验证边界：祁世超任内仍以指数复制为主；没有证据支持用主动操作解释波动放大。",
+        "attribution": "分析判断：主升浪后半程的收益不是平滑兑现，而是靠大幅波动换取趋势延续。"
+      },
+      {
+        "id": 30,
+        "stageId": 4,
+        "startDate": "2025-11-21",
+        "endDate": "2026-01-12",
+        "startNav": 1.3714,
+        "endNav": 1.7024,
+        "changePct": 24.14,
+        "type": "peak",
+        "holdingsSummary": "AI高景气主线在年末年初重新强化，组合继续受益于核心成分上行。",
+        "env": "部分直接证据：2026-01-07“人工智能+制造”专项行动实施意见出台，2026-01-10出现政策解读；但只能作为窗口尾部背景。",
+        "managerAction": "可验证边界：共管后仍延续指数复制，暂无周度主动调仓证据。",
+        "attribution": "分析判断：共管开始后策略没有变化，收益依然主要来自行业趋势而不是管理风格切换。"
+      },
+      {
+        "id": 31,
+        "stageId": 4,
+        "startDate": "2026-01-12",
+        "endDate": "2026-03-31",
+        "startNav": 1.7024,
+        "endNav": 1.4522,
+        "changePct": -14.7,
+        "type": "trough",
+        "holdingsSummary": "历史高位后的AI核心资产集中回吐，组合净值进入一季度调整。",
+        "env": "部分直接证据：2026年一季度仍处于AI+制造政策落地背景之下；但把这段回吐写成“业绩兑现节奏再评估”仍主要是市场解释。",
+        "managerAction": "可验证边界：共管后仍延续指数复制，暂无周度主动调仓证据。",
+        "attribution": "分析判断：历史新高附近的均值回归压力显著提高，波动并不会因为趋势强而消失。"
+      },
+      {
+        "id": 32,
+        "stageId": 4,
+        "startDate": "2026-03-31",
+        "endDate": "2026-05-13",
+        "startNav": 1.4522,
+        "endNav": 2.0281,
+        "changePct": 39.66,
+        "type": "peak",
+        "holdingsSummary": "光模块、AI芯片与服务器链再次成为最强主线，组合刷新历史高位。",
+        "env": "部分直接证据：AI+制造政策背景仍在延续；“产业景气与政策红利继续共振”更适合写成阶段判断，而不是单一原文已直接证实的事实。",
+        "managerAction": "可验证边界：共管后仍延续指数复制，暂无周度主动调仓证据。",
+        "attribution": "分析判断：最新一段上涨再次说明，本基金的核心吸引力仍是高景气AI赛道Beta。"
+      }
+    ],
+    "totalInflectionPoints": 32,
+    "stages": [
+      {
+        "id": 1,
+        "name": "蛰伏初建",
+        "emoji": "🌱",
+        "period": "2021-08 → 2022-12",
+        "returnPct": -30.59,
+        "hs300Pct": -21.63,
+        "excessPct": -8.96,
+        "driverType": "double_loss",
+        "driverLabel": "Beta+Alpha双损",
+        "color": "#6b7280",
+        "description": "2022年系统性熊市下，基金成立后不久即进入深度回撤。",
+        "env": "部分直接证据：2022-03-16美联储加息；“国内疫情封控”本轮仅保留为阶段推断。",
+        "managerAction": "可验证边界：整体仍是完全复制策略，无法外推周度主动防御动作。",
+        "attribution": "分析判断：下跌以系统性Beta为主，不宜写成经理主动失误。"
+      },
+      {
+        "id": 2,
+        "name": "ChatGPT行情",
+        "emoji": "⚡",
+        "period": "2023-01 → 2023-10",
+        "returnPct": 5.86,
+        "hs300Pct": -11.38,
+        "excessPct": 17.24,
+        "driverType": "alpha",
+        "driverLabel": "Alpha贡献显著",
+        "color": "#10b981",
+        "description": "2022-11-30 ChatGPT发布后，2023年Q1 AI主题进入集中重估。",
+        "env": "直接证据：ChatGPT发布与A股AI主题走强时间高度吻合。",
+        "managerAction": "可验证边界：仍以完全复制指数为主。",
+        "attribution": "分析判断：典型的主题催化独立行情，主要来自行业Beta。"
+      },
+      {
+        "id": 3,
+        "name": "漫长调整",
+        "emoji": "📉",
+        "period": "2023-10 → 2024-09",
+        "returnPct": -14.72,
+        "hs300Pct": 3.7,
+        "excessPct": -18.42,
+        "driverType": "double_loss",
+        "driverLabel": "Beta+Alpha双损",
+        "color": "#ef4444",
+        "description": "2024年初至9月基金长时间在低位震荡，但具体外部触发更多只能保留为市场解释。",
+        "env": "阶段推断：流动性冲击、修复再回落是常见解释，本轮未补到同周期官方原文。",
+        "managerAction": "可验证边界：整体仍为被动跟随，无法外推周度管理动作。",
+        "attribution": "分析判断：这是全周期最脆弱的风险阶段，AI主题在系统性风险中回撤极深。"
+      },
+      {
+        "id": 4,
+        "name": "主升浪",
+        "emoji": "🚀",
+        "period": "2024-09 → 2026-05",
+        "returnPct": 204.35,
+        "hs300Pct": 24.28,
+        "excessPct": 180.07,
+        "driverType": "beta",
+        "driverLabel": "行业Beta主导",
+        "color": "#f59e0b",
+        "description": "2024-09政策组合后进入主升浪，2025年主题强化与2026-01 AI+制造政策共同构成背景。",
+        "env": "直接证据+阶段推断：924政策组合有原文支撑；DeepSeek与算力订单等叙述仍仅作市场解释。",
+        "managerAction": "可验证边界：经理变更后仍延续被动复制，无法写成周度择时成功。",
+        "attribution": "分析判断：收益主要来自高景气AI赛道Beta。"
+      }
+    ]
+  },
+  "managers": {
+    "current": {
+      "managerId": "30841352",
+      "allManagerIds": [
+        "30841352",
+        "30851813",
+        "30718608",
+        "30138815"
+      ],
+      "name": "祁世超 / 洪明华",
+      "fundCount": 26,
+      "totalScale": 292.78,
+      "historicalFunds": [
+        {
+          "name": "天弘中证人工智能A",
+          "code": "011839",
+          "type": "指数型",
+          "tenure": "2025-02-14 ~ 至今",
+          "return": 90.04,
+          "rank": 211,
+          "rankTotal": 3853,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "天弘中证新能源车A",
+          "code": "011512",
+          "type": "指数型",
+          "tenure": "2025-02-14 ~ 至今",
+          "return": 60.85,
+          "rank": 906,
+          "rankTotal": 3853,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "天弘半导体设备指数A",
+          "code": "021532",
+          "type": "指数型",
+          "tenure": "2025-02-14 ~ 2026-03-07",
+          "return": 65.74,
+          "rank": null,
+          "rankTotal": null,
+          "grade": "good",
+          "isCurrent": false
+        },
+        {
+          "name": "天弘沪港深云计算ETF联接A",
+          "code": "019171",
+          "type": "指数型",
+          "tenure": "2025-02-14 ~ 2026-03-07",
+          "return": 45.49,
+          "rank": null,
+          "rankTotal": null,
+          "grade": "good",
+          "isCurrent": false
+        },
+        {
+          "name": "天弘汽车零部件指数A",
+          "code": "021621",
+          "type": "指数型",
+          "tenure": "2025-02-14 ~ 至今",
+          "return": 24.67,
+          "rank": 2136,
+          "rankTotal": 3853,
+          "grade": "weak",
+          "isCurrent": true
+        },
+        {
+          "name": "天弘中证细分化工产业主题ETF联接A",
+          "code": "015896",
+          "type": "指数型",
+          "tenure": "2025-02-14 ~ 至今",
+          "return": 50.01,
+          "rank": 1087,
+          "rankTotal": 3853,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "天弘中证智能汽车指数发起式A",
+          "code": "010955",
+          "type": "指数型",
+          "tenure": "2025-02-14 ~ 至今",
+          "return": 7.7,
+          "rank": 2721,
+          "rankTotal": 3853,
+          "grade": "weak",
+          "isCurrent": true
+        },
+        {
+          "name": "航空航天ETF天弘",
+          "code": "159241",
+          "type": "指数型",
+          "tenure": "2025-06-07 ~ 至今",
+          "return": 29.74,
+          "rank": null,
+          "rankTotal": null,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "化工ETF天弘",
+          "code": "159133",
+          "type": "指数型",
+          "tenure": "2025-11-17 ~ 至今",
+          "return": 20.72,
+          "rank": null,
+          "rankTotal": null,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "绿电ETF天弘",
+          "code": "159046",
+          "type": "指数型",
+          "tenure": "2026-05-12 ~ 至今",
+          "return": null,
+          "rank": null,
+          "rankTotal": null,
+          "grade": "ok",
+          "isCurrent": true
+        }
+      ],
+      "bestReturn": 90.04,
+      "worstReturn": -33.24,
+      "manageDate": "祁世超：2025-02-14，洪明华：2025-07",
+      "manageYears": 1.3,
+      "tenureReturn": 90.04,
+      "rankInPeer": "前5%",
+      "rankTotal": 3853,
+      "education": "祁世超：金融硕士；洪明华：计算机应用技术硕士",
+      "joinDate": "祁世超：2015-09；洪明华：2016-10",
+      "experience": "祁世超约10年；洪明华约9年",
+      "title": "天弘基金指数与数量投资部",
+      "style": "纯被动跟踪",
+      "peerAvgReturn": 45,
+      "philosophy": [
+        {
+          "label": "核心投资理念",
+          "text": "严格被动指数复制，以最小化跟踪误差为首要目标。不主动选股或择时，完全复制中证人工智能主题指数成分股及权重"
+        },
+        {
+          "label": "选股方法论",
+          "text": "完全复制中证人工智能主题指数（930713）成分股及权重，按季度跟随指数调仓"
+        },
+        {
+          "label": "仓位管理风格",
+          "text": "全程高仓位约90-95%（合同规定股票仓位90%以上）。不存在主动择时或低仓位防御"
+        },
+        {
+          "label": "风格稳定性",
+          "text": "风格极度稳定——始终跟踪中证人工智能主题指数，无风格漂移"
+        }
+      ],
+      "consistencyAudit": [
+        {
+          "period": "2025年Q3·AI主升浪核心季度",
+          "result": "pass",
+          "label": "一致",
+          "stated": "本基金作为一只被动指数型基金，以最小化跟踪误差为投资目标，紧密跟踪标的指数。",
+          "actual": "新易盛(11.28%)、中际旭创(11.15%)、寒武纪(8.58%)、澜起科技(5.51%)、中科曙光(5.42%)，与中证人工智能主题指数高度吻合。",
+          "evaluation": "言行完全吻合，跟踪误差控制在优秀水平。"
+        },
+        {
+          "period": "2025年Q4·高位震荡季度",
+          "result": "pass",
+          "label": "一致",
+          "stated": "报告期内本基金秉承合规第一、风控第一的原则，对指数基金采取被动复制策略跟踪指数，完全复制指数。",
+          "actual": "中际旭创(10.04%)、新易盛(10.00%)、寒武纪(8.99%)、澜起科技(4.81%)、中科曙光(4.46%)，与Q3相比仅权重微调。",
+          "evaluation": "继续严格复制指数，134BP超额主要来自打新收益，而非主动偏离指数。"
+        }
+      ],
+      "abilityProfile": {
+        "best": "指数跟踪执行力，年化跟踪误差仅1.02%-1.96%",
+        "worst": "无法评价主动管理能力。在管产品数量26只远超行业建议上限",
+        "goodEnv": [
+          "AI产业景气上行期",
+          "政策红利密集释放期",
+          "流动性宽松驱动成长风格占优期"
+        ],
+        "badEnv": [
+          "流动性收紧期",
+          "AI主题过热后估值压缩期",
+          "系统性熊市"
+        ]
+      },
+      "strengths": [
+        "跟踪误差控制优秀",
+        "每年均实现正向超额收益（来自打新）",
+        "策略透明度极高"
+      ],
+      "weaknesses": [
+        "完全无法规避行业系统性风险",
+        "在管产品数量26只远超行业建议上限"
+      ]
+    }
+  },
+  "navHistory": [
+    {
+      "date": "2025-12-26",
+      "nav": 1.5414
+    },
+    {
+      "date": "2025-12-29",
+      "nav": 1.5439
+    },
+    {
+      "date": "2025-12-30",
+      "nav": 1.5631
+    },
+    {
+      "date": "2025-12-31",
+      "nav": 1.5481
+    },
+    {
+      "date": "2026-01-05",
+      "nav": 1.5951
+    },
+    {
+      "date": "2026-01-06",
+      "nav": 1.6061
+    },
+    {
+      "date": "2026-01-07",
+      "nav": 1.6079
+    },
+    {
+      "date": "2026-01-08",
+      "nav": 1.6101
+    },
+    {
+      "date": "2026-01-09",
+      "nav": 1.6368
+    },
+    {
+      "date": "2026-01-12",
+      "nav": 1.7024
+    },
+    {
+      "date": "2026-01-13",
+      "nav": 1.6583
+    },
+    {
+      "date": "2026-01-14",
+      "nav": 1.6912
+    },
+    {
+      "date": "2026-01-15",
+      "nav": 1.6917
+    },
+    {
+      "date": "2026-01-16",
+      "nav": 1.6864
+    },
+    {
+      "date": "2026-01-19",
+      "nav": 1.665
+    },
+    {
+      "date": "2026-01-20",
+      "nav": 1.6299
+    },
+    {
+      "date": "2026-01-21",
+      "nav": 1.6638
+    },
+    {
+      "date": "2026-01-22",
+      "nav": 1.6891
+    },
+    {
+      "date": "2026-01-23",
+      "nav": 1.6771
+    },
+    {
+      "date": "2026-01-26",
+      "nav": 1.6643
+    },
+    {
+      "date": "2026-01-27",
+      "nav": 1.6863
+    },
+    {
+      "date": "2026-01-28",
+      "nav": 1.6819
+    },
+    {
+      "date": "2026-01-29",
+      "nav": 1.6564
+    },
+    {
+      "date": "2026-01-30",
+      "nav": 1.6779
+    },
+    {
+      "date": "2026-02-02",
+      "nav": 1.6312
+    },
+    {
+      "date": "2026-02-03",
+      "nav": 1.641
+    },
+    {
+      "date": "2026-02-04",
+      "nav": 1.5921
+    },
+    {
+      "date": "2026-02-05",
+      "nav": 1.5692
+    },
+    {
+      "date": "2026-02-06",
+      "nav": 1.5413
+    },
+    {
+      "date": "2026-02-09",
+      "nav": 1.6002
+    },
+    {
+      "date": "2026-02-10",
+      "nav": 1.6138
+    },
+    {
+      "date": "2026-02-11",
+      "nav": 1.5845
+    },
+    {
+      "date": "2026-02-12",
+      "nav": 1.6149
+    },
+    {
+      "date": "2026-02-13",
+      "nav": 1.606
+    },
+    {
+      "date": "2026-02-24",
+      "nav": 1.6091
+    },
+    {
+      "date": "2026-02-25",
+      "nav": 1.6063
+    },
+    {
+      "date": "2026-02-26",
+      "nav": 1.6316
+    },
+    {
+      "date": "2026-02-27",
+      "nav": 1.6255
+    },
+    {
+      "date": "2026-03-02",
+      "nav": 1.6133
+    },
+    {
+      "date": "2026-03-03",
+      "nav": 1.5502
+    },
+    {
+      "date": "2026-03-04",
+      "nav": 1.5281
+    },
+    {
+      "date": "2026-03-05",
+      "nav": 1.5637
+    },
+    {
+      "date": "2026-03-06",
+      "nav": 1.5662
+    },
+    {
+      "date": "2026-03-09",
+      "nav": 1.5551
+    },
+    {
+      "date": "2026-03-10",
+      "nav": 1.5856
+    },
+    {
+      "date": "2026-03-11",
+      "nav": 1.5684
+    },
+    {
+      "date": "2026-03-12",
+      "nav": 1.5544
+    },
+    {
+      "date": "2026-03-13",
+      "nav": 1.5377
+    },
+    {
+      "date": "2026-03-16",
+      "nav": 1.5504
+    },
+    {
+      "date": "2026-03-17",
+      "nav": 1.5114
+    },
+    {
+      "date": "2026-03-18",
+      "nav": 1.5642
+    },
+    {
+      "date": "2026-03-19",
+      "nav": 1.544
+    },
+    {
+      "date": "2026-03-20",
+      "nav": 1.5345
+    },
+    {
+      "date": "2026-03-23",
+      "nav": 1.4694
+    },
+    {
+      "date": "2026-03-24",
+      "nav": 1.4918
+    },
+    {
+      "date": "2026-03-25",
+      "nav": 1.5303
+    },
+    {
+      "date": "2026-03-26",
+      "nav": 1.4927
+    },
+    {
+      "date": "2026-03-27",
+      "nav": 1.4894
+    },
+    {
+      "date": "2026-03-30",
+      "nav": 1.4842
+    },
+    {
+      "date": "2026-03-31",
+      "nav": 1.4522
+    },
+    {
+      "date": "2026-04-01",
+      "nav": 1.4998
+    },
+    {
+      "date": "2026-04-02",
+      "nav": 1.4545
+    },
+    {
+      "date": "2026-04-03",
+      "nav": 1.4647
+    },
+    {
+      "date": "2026-04-07",
+      "nav": 1.4795
+    },
+    {
+      "date": "2026-04-08",
+      "nav": 1.5797
+    },
+    {
+      "date": "2026-04-09",
+      "nav": 1.5735
+    },
+    {
+      "date": "2026-04-10",
+      "nav": 1.6111
+    },
+    {
+      "date": "2026-04-13",
+      "nav": 1.6213
+    },
+    {
+      "date": "2026-04-14",
+      "nav": 1.6547
+    },
+    {
+      "date": "2026-04-15",
+      "nav": 1.6435
+    },
+    {
+      "date": "2026-04-16",
+      "nav": 1.6905
+    },
+    {
+      "date": "2026-04-17",
+      "nav": 1.7223
+    },
+    {
+      "date": "2026-04-20",
+      "nav": 1.7463
+    },
+    {
+      "date": "2026-04-21",
+      "nav": 1.7295
+    },
+    {
+      "date": "2026-04-22",
+      "nav": 1.7834
+    },
+    {
+      "date": "2026-04-23",
+      "nav": 1.7708
+    },
+    {
+      "date": "2026-04-24",
+      "nav": 1.7473
+    },
+    {
+      "date": "2026-04-27",
+      "nav": 1.7643
+    },
+    {
+      "date": "2026-04-28",
+      "nav": 1.7349
+    },
+    {
+      "date": "2026-04-29",
+      "nav": 1.7486
+    },
+    {
+      "date": "2026-04-30",
+      "nav": 1.7929
+    },
+    {
+      "date": "2026-05-06",
+      "nav": 1.8567
+    },
+    {
+      "date": "2026-05-07",
+      "nav": 1.9017
+    },
+    {
+      "date": "2026-05-08",
+      "nav": 1.89
+    },
+    {
+      "date": "2026-05-11",
+      "nav": 1.9475
+    },
+    {
+      "date": "2026-05-12",
+      "nav": 1.9619
+    },
+    {
+      "date": "2026-05-13",
+      "nav": 2.0281
+    },
+    {
+      "date": "2026-05-14",
+      "nav": 1.9906
+    },
+    {
+      "date": "2026-05-15",
+      "nav": 1.9482
+    },
+    {
+      "date": "2026-05-18",
+      "nav": 1.9596
+    }
+  ],
+  "scoring": {
+    "total": 69,
+    "grade": "良好",
+    "recommendation": "谨慎",
+    "recommendationType": "cautious",
+    "rating": "★★",
+    "logic": "基金质量69/100良好×政策状态红利期×市场状态高估谨慎→谨慎。",
+    "dimensions": [
+      {
+        "name": "费率性价比",
+        "score": 10,
+        "maxScore": 25,
+        "pros": [
+          "C类免申购费，持有7天免赎回费，适合波段操作"
+        ],
+        "cons": [
+          "管理+托管合计0.60%，高于0.30%满分线较多"
+        ]
+      },
+      {
+        "name": "跟踪执行",
+        "score": 16,
+        "maxScore": 20,
+        "pros": [
+          "年化跟踪误差1.02%-1.96%，优于同类均值2.25%"
+        ],
+        "cons": [
+          "跟踪误差未达满分线"
+        ]
+      },
+      {
+        "name": "风险承载要求",
+        "score": 16,
+        "maxScore": 20,
+        "pros": [
+          "在同主题AI指数工具中回撤和波动处于正常区间"
+        ],
+        "cons": [
+          "最大回撤-42.63%，年化波动31.25%"
+        ]
+      },
+      {
+        "name": "主题集中度与外部约束",
+        "score": 16,
+        "maxScore": 20,
+        "pros": [
+          "AI主题暴露清晰，不存在风格漂移"
+        ],
+        "cons": [
+          "高度依赖单一赛道（AI），当前处于历史最高位"
+        ]
+      },
+      {
+        "name": "流动性与平台",
+        "score": 11,
+        "maxScore": 15,
+        "pros": [
+          "天弘基金是国内头部指数基金管理人",
+          "C类规模32亿，流动性充足"
+        ],
+        "cons": [
+          "超大规模不自动加分"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "type": "历史最高位追高风险",
+        "level": "high",
+        "note": "当前净值1.9596为历史最高，自最低点已涨223%"
+      },
+      {
+        "type": "行业集中风险",
+        "level": "high",
+        "note": "基金100%暴露于AI单一主题，前十中光模块占比超20%"
+      },
+      {
+        "type": "管理疲劳风险",
+        "level": "medium",
+        "note": "两位经理合计在管26只基金，超行业建议上限"
+      },
+      {
+        "type": "高弹性双刃剑",
+        "level": "high",
+        "note": "Beta=1.29，年化波动31.25%"
+      }
+    ],
+    "policyItems": [
+      {
+        "name": "人工智能+制造专项行动",
+        "impactLabel": "强利好"
+      },
+      {
+        "name": "科技创新和技术改造再贷款扩围",
+        "impactLabel": "强利好"
+      },
+      {
+        "name": "电子信息制造业稳增长行动方案",
+        "impactLabel": "强利好"
+      }
+    ],
+    "marketStatus": [
+      {
+        "dim": "净值位置",
+        "status": ">99%历史分位",
+        "statusType": "warning",
+        "detail": "当前净值1.9596为历史最高价"
+      },
+      {
+        "dim": "近期趋势",
+        "status": "极强",
+        "statusType": "cautious",
+        "detail": "近1月+13.78%，近3月+22.02%，排名均在前10%"
+      },
+      {
+        "dim": "夏普趋势",
+        "status": "短期虚高",
+        "statusType": "warning",
+        "detail": "1Y夏普3.25，近一年夏普极高是AI大牛市的结果"
+      },
+      {
+        "dim": "宏观流动性",
+        "status": "友好",
+        "statusType": "positive",
+        "detail": "宽松流动性利好成长风格"
+      },
+      {
+        "dim": "持仓主线景气",
+        "status": "改善中但高位",
+        "statusType": "cautious",
+        "detail": "估值处于历史极端高位"
+      },
+      {
+        "dim": "外部风险",
+        "status": "需关注",
+        "statusType": "warning",
+        "detail": "中美科技博弈持续，若升级为全面技术脱钩，短期冲击AI产业链"
+      }
+    ],
+    "allocationSuggestions": [
+      {
+        "scenario": "存量持有人",
+        "action": "可继续持有享受AI产业趋势红利，但建议考虑减仓10-20%锁利",
+        "note": "当前净值处于历史最高位"
+      },
+      {
+        "scenario": "新入场投资者",
+        "action": "不建议一次性重仓买入，建议等待至少15-20%的正常回调后分批建仓",
+        "note": "追高风险极大"
+      }
+    ],
+    "suitableFor": [
+      "已持有AI板块头寸、成本较低、能承受-40%以上短期回撤、持仓周期3年以上的趋势投资者",
+      "对AI产业有深入理解的产业信仰者",
+      "将此基金作为宽基指数组合中的行业卫星配置工具（仓位15%以内）的进阶投资者"
+    ],
+    "notSuitableFor": [
+      "新入场高位追涨、持有期2年以内、无法承受-30%以上短期亏损的投资者",
+      "需要稳定现金流或本金保值的保守型投资者",
+      "已经重仓科技/AI板块的投资者"
+    ],
+    "termAdvice": [
+      {
+        "term": "短期（1-3个月）",
+        "icon": "⚠️",
+        "level": "cautious",
+        "advice": "净值处于历史最高位，短期回调压力大。不建议追涨"
+      },
+      {
+        "term": "中期（6-12个月）",
+        "icon": "🟡",
+        "level": "neutral",
+        "advice": "等待回调至1.55-1.65区间首批建仓40%"
+      },
+      {
+        "term": "长期（3年以上）",
+        "icon": "🟢",
+        "level": "positive",
+        "advice": "AI是确定性极高的长周期产业趋势，定投或分批买入降低成本"
+      }
+    ]
+  },
+  "exclusionCheck": [
+    {
+      "item": "成立时间是否不足3年",
+      "pass": true,
+      "note": "需从基础信息核实成立日期"
+    },
+    {
+      "item": "规模是否过小或过大",
+      "pass": true,
+      "note": "需从scale字段核实基金规模"
+    },
+    {
+      "item": "基金经理任职是否不足2年",
+      "pass": true,
+      "note": "需从managers.current.manageDate核实任职时间"
+    },
+    {
+      "item": "近3年业绩是否落入后30%",
+      "pass": true,
+      "note": "需从performance.stages核实近期排名"
+    },
+    {
+      "item": "最大回撤是否显著劣于同类",
+      "pass": true,
+      "note": "需从risk.maxDrawdown核实最大回撤"
+    },
+    {
+      "item": "基金经理是否在黑名单中",
+      "pass": true,
+      "note": "黑名单核查未命中基金经理"
+    },
+    {
+      "item": "基金公司是否在黑名单中",
+      "pass": true,
+      "note": "黑名单核查未命中基金公司"
+    },
+    {
+      "item": "是否频繁更换基金经理",
+      "pass": true,
+      "note": "需从managers.history核实经理变更次数"
+    },
+    {
+      "item": "是否存在严重风格漂移",
+      "pass": true,
+      "note": "一致性审计未见fail级别结论"
+    },
+    {
+      "item": "费率是否显著高于同类平均",
+      "pass": true,
+      "note": "需从fees字段核实综合费率"
+    }
+  ],
+  "policy": {
+    "tags": [
+      {
+        "label": "十五五规划",
+        "strength": "high",
+        "color": "#F54E48"
+      },
+      {
+        "label": "人工智能+制造",
+        "strength": "high",
+        "color": "#F54E48"
+      },
+      {
+        "label": "科技创新再贷款",
+        "strength": "high",
+        "color": "#22c55e"
+      },
+      {
+        "label": "电子信息制造业稳增长",
+        "strength": "medium",
+        "color": "#3b82f6"
+      }
+    ],
+    "industryOverview": [
+      {
+        "point": "AI算力需求持续爆发",
+        "detail": "全球AI大模型训练和推理需求推动算力基础设施投资高速增长"
+      },
+      {
+        "point": "国产替代加速推进",
+        "detail": "2026年Q1国产GPU企业营收高速增长，国货国用政策推动国产AI芯片规模化部署"
+      },
+      {
+        "point": "AI应用正从概念走向商业化",
+        "detail": "DeepSeek等国产大模型突破降低了AI应用门槛，智能驾驶、AI+制造等场景加速落地"
+      }
+    ],
+    "cyclePeriod": "政策红利期",
+    "cycleReason": "AI产业正处于中央出纲领、地方给补贴、金融强支撑的多层次政策红利密集释放期",
+    "fifteenFive": [
+      {
+        "direction": "人工智能+制造专项实施",
+        "color": "#F54E48",
+        "description": "2027年目标：3-5个通用大模型深度应用，1000个工业智能体",
+        "holdings": "寒武纪 / 海康威视 / 科大讯飞"
+      },
+      {
+        "direction": "科技创新和技术改造再贷款",
+        "color": "#22c55e",
+        "description": "AI设备和软件服务首次纳入贷款用途，再贷款8000亿元，利率1.5%",
+        "holdings": "新易盛 / 中际旭创 / 中科曙光"
+      },
+      {
+        "direction": "电子信息制造业稳增长",
+        "color": "#3b82f6",
+        "description": "国货国用、AI芯片与大模型适应性测试、CPU/AI服务器攻关",
+        "holdings": "寒武纪 / 澜起科技"
+      }
+    ],
+    "longTermRisks": [
+      {
+        "risk": "AI算力订单增速放缓/不及预期",
+        "level": "medium",
+        "signal": "北美云厂商季度资本开支增速若降至20%以下，需警惕"
+      },
+      {
+        "risk": "中美科技脱钩全面升级",
+        "level": "high",
+        "signal": "若美国全面禁止AI芯片/设备对华出口，短期冲击国产AI产业链"
+      },
+      {
+        "risk": "AI主题过热后估值压缩",
+        "level": "medium",
+        "signal": "当前估值处于历史极端高位，均值回归压力不可忽视"
+      }
+    ],
+    "adaptability": [
+      {
+        "env": "AI产业景气上行期",
+        "perf": "高弹性进攻利器，2025年+64.66%",
+        "color": "#F54E48"
+      },
+      {
+        "env": "政策红利密集释放期",
+        "perf": "直接受益，2026年1月八部门联合文件+5月再贷款扩围",
+        "color": "#22c55e"
+      },
+      {
+        "env": "流动性宽松驱动成长风格占优期",
+        "perf": "高Beta特征放大涨幅，2024年9月-2026年5月+204.35%",
+        "color": "#f59e0b"
+      }
+    ],
+    "scenarios": [
+      {
+        "type": "悲观",
+        "probability": 25,
+        "color": "#ef4444",
+        "returnLow": -30,
+        "returnHigh": -10,
+        "trigger": "AI算力订单增速放缓+中美科技脱钩升级+A股系统性回调+AI板块估值泡沫破裂"
+      },
+      {
+        "type": "基准",
+        "probability": 50,
+        "color": "#3b82f6",
+        "returnLow": 10,
+        "returnHigh": 35,
+        "trigger": "AI产业景气维持当前水平，政策按预期推进，国产替代稳步推进"
+      },
+      {
+        "type": "乐观",
+        "probability": 25,
+        "color": "#22c55e",
+        "returnLow": 35,
+        "returnHigh": 80,
+        "trigger": "DeepSeek等国产大模型持续迭代超预期+八部门AI+制造政策加速落地+国产AI芯片取得重大技术突破+流动性持续宽松"
+      }
+    ],
+    "policyBreakdown": [
+      {
+        "sector": "AI算力",
+        "icon": "⚡",
+        "color": "#3b82f6",
+        "logic": "再贷款8000亿元直接降低AI算力企业融资成本",
+        "stocks": [
+          "新易盛",
+          "中际旭创",
+          "中科曙光",
+          "润泽科技"
+        ]
+      },
+      {
+        "sector": "AI芯片",
+        "icon": "🤖",
+        "color": "#8b5cf6",
+        "logic": "国货国用政策推动国产AI芯片采购",
+        "stocks": [
+          "寒武纪",
+          "澜起科技",
+          "海光信息"
+        ]
+      },
+      {
+        "sector": "AI应用",
+        "icon": "🔧",
+        "color": "#10b981",
+        "logic": "AI+制造专项行动推动工业智能体落地",
+        "stocks": [
+          "海康威视",
+          "科大讯飞"
+        ]
+      }
+    ]
+  },
+  "tracking": {
+    "weekly": [
+      "净值方向验证：每日净值涨跌是否与中证人工智能主题指数（930713）走势一致",
+      "AI算力核心变量：北美云厂商季度资本开支增速",
+      "光模块价格与订单：新易盛、中际旭创等800G/1.6T光模块订单交付进度",
+      "政策动向：关注工信部、发改委、商务部等部门是否出台AI领域新政策",
+      "经理动态：关注天弘基金指数部是否有人员变动公告"
+    ],
+    "quarterly": [
+      "持仓变化：新季报前十持仓是否维持AI算力+应用主线",
+      "集中度变化：前十持仓集中度是否异常飙升（>65%）或骤降（<45%）",
+      "规模变化：C类规模是否继续快速扩张",
+      "同类排名：近1年同类排名是否持续落入后50%",
+      "跟踪误差：年化跟踪误差是否突破4%上限，应小于2.5%"
+    ],
+    "alerts": [
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "基金经理更换：祁世超或洪明华任何一人离任，需关注接任者是否继续严格被动复制策略"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "单季度回撤>-30%且AI板块领跌全市场：超越行业正常调整的崩盘信号"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "全球AI算力投资退潮：若北美四大云厂商连续两个季度资本开支增速降至个位数或转负"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "中美科技脱钩全面升级：若美国全面禁止AI芯片/设备对华出口，短期冲击国产AI产业链"
+      },
+      {
+        "level": "warning",
+        "icon": "⚠️",
+        "text": "规模半年内翻倍>60亿：资金快速涌入可能摊薄打新超额收益"
+      },
+      {
+        "level": "warning",
+        "icon": "⚠️",
+        "text": "跟踪误差连续两季>3%：可能反映大规模申赎冲击或指数调仓执行问题"
+      }
+    ]
+  },
+  "company": {
+    "name": "天弘基金管理有限公司",
+    "shortName": "天弘基金",
+    "foundYear": 2004,
+    "aumDesc": "约万亿级（含余额宝货币基金），旗下数百只基金",
+    "industryRank": "国内管理规模最大的公募基金公司之一，指数产品线丰富（覆盖宽基、行业、主题、跨境等多品类）",
+    "complianceResult": "通过",
+    "complianceSummary": "合规检查通过，无一票否决项触发",
+    "complianceChecks": [
+      {
+        "item": "黑名单核查",
+        "pass": true,
+        "warn": false,
+        "detail": "公司及两位经理均不在黑名单"
+      },
+      {
+        "item": "近3年处罚记录",
+        "pass": true,
+        "warn": false,
+        "detail": "2024-2026年未发现证监会正式处罚或监管函"
+      },
+      {
+        "item": "内幕交易传闻",
+        "pass": false,
+        "warn": true,
+        "detail": "2023年7月前总经理郭树强离任，据财新报道疑似被带走调查，与华夏基金老鼠仓案有关，但未波及公司运营层面"
+      },
+      {
+        "item": "基金经理离职风险",
+        "pass": true,
+        "warn": false,
+        "detail": "当前两位经理均正常在职，未发现离职传闻"
+      },
+      {
+        "item": "管理疲劳风险",
+        "pass": false,
+        "warn": true,
+        "detail": "两人合计在管26只基金、292.78亿元，远超行业原则上不超过10只的建议"
+      }
+    ]
+  }
+}
