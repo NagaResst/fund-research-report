@@ -80,6 +80,22 @@
     "manager": "赵宇澄 / 邓欣雨"
   },
   {
+    "id": "011447",
+    "shortName": "长江新能源产业混合发起C",
+    "type": "混合型",
+    "subType": "偏股",
+    "riskLevel": "R3",
+    "riskCode": 3,
+    "return1Y": 121.89,
+    "return3Y": 90.08,
+    "score": 70,
+    "recommendation": "谨慎，不宜追高",
+    "recommendationType": "cautious",
+    "navFallback": 2.2857,
+    "reportDate": "2026-05-18",
+    "manager": "张剑鑫"
+  },
+  {
     "id": "011609",
     "shortName": "易方达上证科创50联接C",
     "type": "指数型",
@@ -110,6 +126,22 @@
     "navFallback": 1.9894,
     "reportDate": "2026-05-14",
     "manager": "郑澄然"
+  },
+  {
+    "id": "019032",
+    "shortName": "易方达环保主题混合C",
+    "type": "混合型",
+    "subType": "灵活",
+    "riskLevel": "R3",
+    "riskCode": 3,
+    "return1Y": 142.2,
+    "return3Y": null,
+    "score": 82,
+    "recommendation": "观望",
+    "recommendationType": "cautious",
+    "navFallback": 7.518,
+    "reportDate": "2026-05-18",
+    "manager": "祁禾"
   },
   {
     "id": "021758",

@@ -1,0 +1,2388 @@
+{
+  "id": "011447",
+  "meta": {
+    "reportDate": "2026-05-18",
+    "dataDate": "2026-05-15",
+    "disclaimer": "本报告仅供个人学习和信息整理使用，所有分析内容均不构成任何投资建议。投资有风险，入市需谨慎，请依据自身判断做出投资决策。"
+  },
+  "basic": {
+    "code": "011447",
+    "fullName": "长江新能源产业混合型发起式证券投资基金",
+    "shortName": "长江新能源产业混合发起C",
+    "type": "混合型",
+    "subType": "偏股",
+    "riskLevel": "R3",
+    "riskCode": 3,
+    "foundDate": "2021年04月14日",
+    "manager": "张剑鑫",
+    "companyShort": "长江证券(上海)资管",
+    "custodian": "交通银行",
+    "benchmark": "中证新能源产业指数收益率*70%+中债总指数收益率*30%",
+    "navFallback": 2.2857,
+    "navDateFallback": "2026-05-15",
+    "inceptionReturn": 128.57,
+    "status": "开放申购 / 开放赎回"
+  },
+  "fees": {
+    "management": 1.2,
+    "custodian": 0.2,
+    "salesService": 0.4,
+    "subscriptionMax": 0.0,
+    "subscriptionDiscounted": 0.0,
+    "redemptionMax": 1.5,
+    "breakdown": [
+      {
+        "name": "管理费",
+        "value": 1.2
+      },
+      {
+        "name": "托管费",
+        "value": 0.2
+      },
+      {
+        "name": "销售服务费",
+        "value": 0.4
+      },
+      {
+        "name": "申购费",
+        "value": 0.0,
+        "actualRate": 0.0
+      },
+      {
+        "name": "赎回费",
+        "value": 1.5,
+        "rate": 1.5,
+        "rules": [
+          {
+            "label": "持有少于7天",
+            "rate": 1.5
+          },
+          {
+            "label": "持有7天及以上",
+            "rate": 0.0
+          }
+        ],
+        "note": "短期持有惩罚性费率，具体以基金合同为准"
+      }
+    ]
+  },
+  "scale": {
+    "nav": 2.3,
+    "date": "2026-05-15"
+  },
+  "risk": {
+    "volatility": 0.3004,
+    "annualReturn": 0.1911,
+    "sharpe": 0.54,
+    "calmar": 0.34,
+    "maxDrawdown": -0.5622,
+    "maxDrawdownPeriod": "2021-11-29 → 2024-02-05",
+    "periodMetrics": [
+      {
+        "label": "近1年",
+        "volatility": 0.3135,
+        "sharpe": 4.01,
+        "maxDrawdown": -0.1157
+      },
+      {
+        "label": "近2年",
+        "volatility": 0.2981,
+        "sharpe": 1.81,
+        "maxDrawdown": -0.2139
+      },
+      {
+        "label": "近3年",
+        "volatility": 0.2738,
+        "sharpe": 0.68,
+        "maxDrawdown": -0.3843
+      }
+    ],
+    "riskBreakdown": {
+      "yearlyMaxDrawdowns": [
+        {
+          "year": 2026,
+          "fund": 11.57,
+          "hs300": 7.78
+        },
+        {
+          "year": 2025,
+          "fund": 21.39,
+          "hs300": 10.49
+        },
+        {
+          "year": 2024,
+          "fund": 18.47,
+          "hs300": 14.41
+        },
+        {
+          "year": 2023,
+          "fund": 33.12,
+          "hs300": 21.51
+        },
+        {
+          "year": 2022,
+          "fund": 31.64,
+          "hs300": 28.65
+        },
+        {
+          "year": 2021,
+          "fund": 14.95,
+          "hs300": 18.19
+        }
+      ],
+      "volatilityRating": "年化波动30.04%，属于明显偏高的高弹性主题基金。",
+      "sharpeRating": "全期夏普0.54一般，但近1年夏普4.01极强，修复阶段收益质量显著改善。",
+      "drawdownRating": "历史最大回撤-56.22%，持续约26个月，是持有体验最差的核心风险。",
+      "historicalMaxDrawdown": 56.22
+    },
+    "relativeMetrics": {
+      "beta": 1.0379,
+      "alpha": 0.2178,
+      "informationRatio": 0.9126,
+      "trackingError": 0.2388,
+      "r2": 0.3709
+    },
+    "navPercentile": 99.3,
+    "maxDrawdownMonths": 26,
+    "recentPerf": [
+      {
+        "period": "近1周",
+        "fund": -1.96,
+        "peer": -0.54,
+        "hs300": -0.25,
+        "excess": -1.71,
+        "rank": 3620,
+        "rankTotal": 5332,
+        "warn": true,
+        "note": "高位新能源主题短期波动明显放大。"
+      },
+      {
+        "period": "近1月",
+        "fund": 11.44,
+        "peer": 6.05,
+        "hs300": 3.72,
+        "excess": 7.72,
+        "rank": 1433,
+        "rankTotal": 5264,
+        "warn": false
+      },
+      {
+        "period": "近3月",
+        "fund": 22.36,
+        "peer": 5.4,
+        "hs300": 4.27,
+        "excess": 18.09,
+        "rank": 684,
+        "rankTotal": 5179,
+        "warn": false
+      },
+      {
+        "period": "近6月",
+        "fund": 35.21,
+        "peer": 13.45,
+        "hs300": 5.0,
+        "excess": 30.21,
+        "rank": 770,
+        "rankTotal": 4923,
+        "warn": false
+      },
+      {
+        "period": "近1年",
+        "fund": 121.89,
+        "peer": 44.08,
+        "hs300": 24.38,
+        "excess": 97.51,
+        "rank": 326,
+        "rankTotal": 4530,
+        "warn": false,
+        "note": "近1年是当前评价最核心的业绩亮点。"
+      },
+      {
+        "period": "近2年",
+        "fund": 134.12,
+        "peer": 54.2,
+        "hs300": 34.02,
+        "excess": 100.1,
+        "rank": 384,
+        "rankTotal": 4096,
+        "warn": false
+      }
+    ],
+    "radarDimensions": [
+      {
+        "name": "超额收益",
+        "score": 88
+      },
+      {
+        "name": "风险控制",
+        "score": 35
+      },
+      {
+        "name": "经理能力",
+        "score": 80
+      },
+      {
+        "name": "持仓质量",
+        "score": 73
+      },
+      {
+        "name": "政策匹配",
+        "score": 70
+      },
+      {
+        "name": "赔率时机",
+        "score": 20
+      }
+    ],
+    "riskWarnings": [
+      {
+        "category": "内部",
+        "level": "high",
+        "title": "极端回撤风险",
+        "text": "历史最大回撤-56.22%，是高波动主题基金而不是低波稳健产品。"
+      },
+      {
+        "category": "内部",
+        "level": "high",
+        "title": "高位追涨风险",
+        "text": "当前净值位于历史99.33%分位，追高赔率明显不足。"
+      },
+      {
+        "category": "内部",
+        "level": "medium",
+        "title": "主题集中度较高",
+        "text": "当前组合集中在锂资源、储能和电力设备链，一旦主线降温回撤会被放大。"
+      },
+      {
+        "category": "外部",
+        "level": "medium",
+        "title": "政策分化风险",
+        "text": "新能源市场化改革利好行业长期方向，但短期会放大不同细分环节盈利分化。"
+      }
+    ]
+  },
+  "holdings": {
+    "date": "2026年1季度股票投资明细",
+    "top10": [
+      {
+        "rank": 1,
+        "name": "永兴材料",
+        "code": "002756",
+        "ratio": 7.07,
+        "sector": "锂资源/锂盐",
+        "color": "#2DC78E"
+      },
+      {
+        "rank": 2,
+        "name": "天华新能",
+        "code": "300390",
+        "ratio": 6.76,
+        "sector": "锂资源/材料",
+        "color": "#2DC78E"
+      },
+      {
+        "rank": 3,
+        "name": "中一科技",
+        "code": "301150",
+        "ratio": 4.53,
+        "sector": "铜箔/材料",
+        "color": "#D4A017"
+      },
+      {
+        "rank": 4,
+        "name": "明阳电气",
+        "code": "301291",
+        "ratio": 4.37,
+        "sector": "电力设备/出海",
+        "color": "#4492F7"
+      },
+      {
+        "rank": 5,
+        "name": "固德威",
+        "code": "688390",
+        "ratio": 4.29,
+        "sector": "储能/逆变器",
+        "color": "#4492F7"
+      },
+      {
+        "rank": 6,
+        "name": "天齐锂业",
+        "code": "002466",
+        "ratio": 4.2,
+        "sector": "锂资源",
+        "color": "#2DC78E"
+      },
+      {
+        "rank": 7,
+        "name": "艾罗能源",
+        "code": "688717",
+        "ratio": 4.04,
+        "sector": "储能设备",
+        "color": "#4492F7"
+      },
+      {
+        "rank": 8,
+        "name": "国瓷材料",
+        "code": "300285",
+        "ratio": 3.98,
+        "sector": "新材料",
+        "color": "#D4A017"
+      },
+      {
+        "rank": 9,
+        "name": "融捷股份",
+        "code": "002192",
+        "ratio": 3.87,
+        "sector": "锂资源",
+        "color": "#2DC78E"
+      },
+      {
+        "rank": 10,
+        "name": "宏工科技",
+        "code": "301662",
+        "ratio": 3.65,
+        "sector": "设备/材料",
+        "color": "#D4A017"
+      }
+    ],
+    "top10Total": 46.76,
+    "top10TotalRatio": 46.76,
+    "sectors": [
+      {
+        "name": "制造业",
+        "ratio": 82.08
+      },
+      {
+        "name": "信息技术业",
+        "ratio": 0.0
+      },
+      {
+        "name": "采矿业",
+        "ratio": 3.87
+      },
+      {
+        "name": "房地产业",
+        "ratio": 3.35
+      }
+    ],
+    "stockRatio": 89.3,
+    "bondRatio": 0.0,
+    "cashRatio": 10.7,
+    "themeTitle": "上游锂资源 + 储能设备 + 电力设备出海",
+    "themeSubtitle": "当前组合围绕锂资源弹性、储能链和电力设备出海三条线展开，是2025H2以后超额最重要的来源。",
+    "concentrationLabel": "前十持仓46.76%，属于中高集中但仍可执行的主动主题组合。",
+    "themeGroups": [
+      {
+        "name": "上游锂资源",
+        "color": "#2DC78E",
+        "ratio": 21.9,
+        "stocks": "永兴材料、天华新能、天齐锂业、融捷股份",
+        "note": "这是组合里最明确的高弹性来源，直接受益于锂资源价格和储能需求预期。"
+      },
+      {
+        "name": "储能/电力设备",
+        "color": "#4492F7",
+        "ratio": 12.7,
+        "stocks": "明阳电气、固德威、艾罗能源",
+        "note": "对应新能源市场化改革背景下的储能、电力设备和出海逻辑。"
+      },
+      {
+        "name": "材料与设备链",
+        "color": "#D4A017",
+        "ratio": 12.16,
+        "stocks": "中一科技、国瓷材料、宏工科技",
+        "note": "承担新技术材料和制造升级的弹性表达。"
+      }
+    ],
+    "evolutionHighlights": [
+      {
+        "quarter": "2023Q3",
+        "type": "warning",
+        "change": "组合继续分散到PCB、汽车零部件和设备方向",
+        "return": "-15.82%",
+        "theme": "宁德时代、天宜上佳、沪电股份、盛弘股份、银轮股份",
+        "insight": "新能源纯度下降后并未换来更平滑的收益，反而进入明显跑输阶段。"
+      },
+      {
+        "quarter": "2025Q3",
+        "type": "positive",
+        "change": "重回新能源核心链",
+        "return": "+43.67%",
+        "theme": "宁德时代、联赢激光、兆易创新、欣旺达、中一科技",
+        "insight": "这是本轮修复真正成立的关键转折点，储能和设备链景气带动超额快速释放。"
+      },
+      {
+        "quarter": "2025Q4",
+        "type": "positive",
+        "change": "强化上游锂资源配置",
+        "return": "+10.06%",
+        "theme": "天齐锂业、华友钴业、宁德时代、湖南裕能、天华新能",
+        "insight": "组合明确向资源上游和高景气环节集中，主线比2023-2024阶段清晰得多。"
+      },
+      {
+        "quarter": "2026Q1",
+        "type": "positive",
+        "change": "资源+设备出海框架成型",
+        "return": "+8.69%",
+        "theme": "永兴材料、天华新能、明阳电气、固德威、天齐锂业",
+        "insight": "当前组合与经理原文中“锂电中上游、储能、电力设备出海”高度一致。"
+      }
+    ],
+    "policyLinks": [
+      {
+        "sector": "上游锂资源",
+        "color": "#2DC78E",
+        "stocks": "永兴材料、天华新能、天齐锂业、融捷股份",
+        "policyNote": "储能需求回暖和新能源高质量发展逻辑对锂资源价格预期形成支撑。"
+      },
+      {
+        "sector": "储能与电力设备",
+        "color": "#4492F7",
+        "stocks": "明阳电气、固德威、艾罗能源",
+        "policyNote": "发改价格〔2025〕136号强化市场化电价与调节能力价值，对储能、电力设备和出海链条形成中期正反馈。"
+      },
+      {
+        "sector": "材料与设备链",
+        "color": "#D4A017",
+        "stocks": "中一科技、国瓷材料、宏工科技",
+        "policyNote": "新技术材料和制造升级是新能源景气向上传导的辅助弹性环节。"
+      }
+    ]
+  },
+  "performance": {
+    "stages": [
+      {
+        "period": "近1周",
+        "fund": -1.96,
+        "peer": -0.54,
+        "hs300": -0.25,
+        "rank": 3620,
+        "rankTotal": 5332,
+        "quartile": null
+      },
+      {
+        "period": "近1月",
+        "fund": 11.44,
+        "peer": 6.05,
+        "hs300": 3.72,
+        "rank": 1433,
+        "rankTotal": 5264,
+        "quartile": null
+      },
+      {
+        "period": "近3月",
+        "fund": 22.36,
+        "peer": 5.4,
+        "hs300": 4.27,
+        "rank": 684,
+        "rankTotal": 5179,
+        "quartile": null
+      },
+      {
+        "period": "近6月",
+        "fund": 35.21,
+        "peer": 13.45,
+        "hs300": 5.0,
+        "rank": 770,
+        "rankTotal": 4923,
+        "quartile": null
+      },
+      {
+        "period": "近1年",
+        "fund": 121.89,
+        "peer": 44.08,
+        "hs300": 24.38,
+        "rank": 326,
+        "rankTotal": 4530,
+        "quartile": null
+      },
+      {
+        "period": "近2年",
+        "fund": 134.12,
+        "peer": 54.2,
+        "hs300": 34.02,
+        "rank": 384,
+        "rankTotal": 4096,
+        "quartile": null
+      },
+      {
+        "period": "近3年",
+        "fund": 90.08,
+        "peer": 36.25,
+        "hs300": 21.52,
+        "rank": 412,
+        "rankTotal": 3530,
+        "quartile": null
+      },
+      {
+        "period": "近5年",
+        "fund": 129.23,
+        "peer": 13.7,
+        "hs300": -4.91,
+        "rank": 67,
+        "rankTotal": 1815,
+        "quartile": null
+      },
+      {
+        "period": "今年来",
+        "fund": 31.76,
+        "peer": 12.08,
+        "hs300": 4.96,
+        "rank": 645,
+        "rankTotal": 5056,
+        "quartile": null
+      },
+      {
+        "period": "成立来",
+        "fund": 128.57,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      }
+    ],
+    "annual": [
+      {
+        "year": 2021,
+        "fund": 59.85,
+        "peer": 7.45,
+        "hs300": -5.2,
+        "rank": null,
+        "rankTotal": 2712,
+        "quartile": "---"
+      },
+      {
+        "year": 2022,
+        "fund": -19.45,
+        "peer": -20.82,
+        "hs300": -21.63,
+        "rank": 1087,
+        "rankTotal": 3573,
+        "quartile": "良好"
+      },
+      {
+        "year": 2023,
+        "fund": -23.06,
+        "peer": -13.57,
+        "hs300": -11.38,
+        "rank": 2951,
+        "rankTotal": 4211,
+        "quartile": "一般"
+      },
+      {
+        "year": 2024,
+        "fund": 3.23,
+        "peer": 3.38,
+        "hs300": 14.68,
+        "rank": 2067,
+        "rankTotal": 4613,
+        "quartile": "良好"
+      },
+      {
+        "year": 2025,
+        "fund": 69.62,
+        "peer": 33.12,
+        "hs300": 17.66,
+        "rank": 312,
+        "rankTotal": 5130,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2026,
+        "fund": 31.76,
+        "peer": 12.08,
+        "hs300": 4.96,
+        "rank": 645,
+        "rankTotal": 5056,
+        "quartile": null
+      }
+    ],
+    "quarterly": [
+      {
+        "year": 2021,
+        "quarter": "2021Q2",
+        "fund": 24.42,
+        "peer": null,
+        "hs300": 2.22,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2021,
+        "quarter": "2021Q3",
+        "fund": 23.89,
+        "peer": null,
+        "hs300": -6.95,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2021,
+        "quarter": "2021Q4",
+        "fund": 3.7,
+        "peer": null,
+        "hs300": 0.21,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2022,
+        "quarter": "2022Q1",
+        "fund": -16.06,
+        "peer": null,
+        "hs300": -14.14,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2022,
+        "quarter": "2022Q2",
+        "fund": 11.13,
+        "peer": null,
+        "hs300": 4.88,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2022,
+        "quarter": "2022Q3",
+        "fund": -12.49,
+        "peer": null,
+        "hs300": -14.82,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2022,
+        "quarter": "2022Q4",
+        "fund": -1.32,
+        "peer": null,
+        "hs300": 4.05,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2023,
+        "quarter": "2023Q1",
+        "fund": -1.03,
+        "peer": null,
+        "hs300": 4.19,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2023,
+        "quarter": "2023Q2",
+        "fund": -0.05,
+        "peer": null,
+        "hs300": -6.07,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2023,
+        "quarter": "2023Q3",
+        "fund": -15.82,
+        "peer": null,
+        "hs300": -5.22,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2023,
+        "quarter": "2023Q4",
+        "fund": -7.6,
+        "peer": null,
+        "hs300": -6.88,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q1",
+        "fund": -2.33,
+        "peer": null,
+        "hs300": 4.46,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q2",
+        "fund": 1.45,
+        "peer": -2.25,
+        "hs300": -2.14,
+        "rank": 971,
+        "rankTotal": 4442,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q3",
+        "fund": 7.43,
+        "peer": 10.59,
+        "hs300": 16.07,
+        "rank": 3161,
+        "rankTotal": 4545,
+        "quartile": "一般"
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q4",
+        "fund": -3.02,
+        "peer": -1.32,
+        "hs300": -2.06,
+        "rank": 2472,
+        "rankTotal": 4613,
+        "quartile": "一般"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q1",
+        "fund": 5.09,
+        "peer": 4.62,
+        "hs300": -1.21,
+        "rank": 1730,
+        "rankTotal": 4619,
+        "quartile": "良好"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q2",
+        "fund": 2.07,
+        "peer": 3.04,
+        "hs300": 1.25,
+        "rank": 2326,
+        "rankTotal": 4796,
+        "quartile": "良好"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q3",
+        "fund": 43.67,
+        "peer": 25.43,
+        "hs300": 17.9,
+        "rank": 598,
+        "rankTotal": 4967,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q4",
+        "fund": 10.06,
+        "peer": -1.54,
+        "hs300": -0.23,
+        "rank": 203,
+        "rankTotal": 5130,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2026,
+        "quarter": "2026Q1",
+        "fund": 8.69,
+        "peer": -0.93,
+        "hs300": -3.89,
+        "rank": 301,
+        "rankTotal": 5130,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2026,
+        "quarter": "2026Q2",
+        "fund": 20.64,
+        "peer": null,
+        "hs300": 6.79,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      }
+    ],
+    "milestones": [
+      {
+        "date": "2021-04-14",
+        "nav": 1.0,
+        "label": "成立日",
+        "type": "neutral"
+      },
+      {
+        "date": "2021-11-29",
+        "nav": 1.822,
+        "label": "首轮新能源高点",
+        "type": "peak"
+      },
+      {
+        "date": "2024-02-05",
+        "nav": 0.7977,
+        "label": "历史最低点",
+        "type": "low"
+      },
+      {
+        "date": "2025-09-01",
+        "nav": 1.5423,
+        "label": "修复主升浪确认",
+        "type": "peak"
+      },
+      {
+        "date": "2026-05-06",
+        "nav": 2.3825,
+        "label": "历史最高点",
+        "type": "peak"
+      },
+      {
+        "date": "2026-05-15",
+        "nav": 2.2857,
+        "label": "当前净值（历史99.33%分位）",
+        "type": "current"
+      }
+    ]
+  },
+  "stageAnalysis": {
+    "inflectionPoints": [
+      {
+        "id": 1,
+        "startDate": "2021-05-14",
+        "endDate": "2021-07-12",
+        "startNav": 0.9971,
+        "endNav": 1.4301,
+        "changePct": 43.43,
+        "type": "peak"
+      },
+      {
+        "id": 2,
+        "startDate": "2021-07-12",
+        "endDate": "2021-07-19",
+        "startNav": 1.4301,
+        "endNav": 1.3362,
+        "changePct": -6.57,
+        "type": "trough"
+      },
+      {
+        "id": 3,
+        "startDate": "2021-07-19",
+        "endDate": "2021-08-06",
+        "startNav": 1.3362,
+        "endNav": 1.5923,
+        "changePct": 19.17,
+        "type": "peak"
+      },
+      {
+        "id": 4,
+        "startDate": "2021-08-06",
+        "endDate": "2021-08-18",
+        "startNav": 1.5923,
+        "endNav": 1.4514,
+        "changePct": -8.85,
+        "type": "trough"
+      },
+      {
+        "id": 5,
+        "startDate": "2021-08-18",
+        "endDate": "2021-09-15",
+        "startNav": 1.4514,
+        "endNav": 1.695,
+        "changePct": 16.78,
+        "type": "peak"
+      },
+      {
+        "id": 6,
+        "startDate": "2021-09-15",
+        "endDate": "2021-10-12",
+        "startNav": 1.695,
+        "endNav": 1.4416,
+        "changePct": -14.95,
+        "type": "trough"
+      },
+      {
+        "id": 7,
+        "startDate": "2021-10-12",
+        "endDate": "2021-11-29",
+        "startNav": 1.4416,
+        "endNav": 1.822,
+        "changePct": 26.39,
+        "type": "peak"
+      },
+      {
+        "id": 8,
+        "startDate": "2021-11-29",
+        "endDate": "2022-01-11",
+        "startNav": 1.822,
+        "endNav": 1.4293,
+        "changePct": -21.55,
+        "type": "trough"
+      },
+      {
+        "id": 9,
+        "startDate": "2022-01-11",
+        "endDate": "2022-01-17",
+        "startNav": 1.4293,
+        "endNav": 1.5357,
+        "changePct": 7.44,
+        "type": "peak"
+      },
+      {
+        "id": 10,
+        "startDate": "2022-01-17",
+        "endDate": "2022-02-11",
+        "startNav": 1.5357,
+        "endNav": 1.3484,
+        "changePct": -12.2,
+        "type": "trough"
+      },
+      {
+        "id": 11,
+        "startDate": "2022-02-11",
+        "endDate": "2022-02-28",
+        "startNav": 1.3484,
+        "endNav": 1.5259,
+        "changePct": 13.16,
+        "type": "peak"
+      },
+      {
+        "id": 12,
+        "startDate": "2022-02-28",
+        "endDate": "2022-03-15",
+        "startNav": 1.5259,
+        "endNav": 1.3415,
+        "changePct": -12.08,
+        "type": "trough"
+      },
+      {
+        "id": 13,
+        "startDate": "2022-03-15",
+        "endDate": "2022-03-21",
+        "startNav": 1.3415,
+        "endNav": 1.4337,
+        "changePct": 6.87,
+        "type": "peak"
+      },
+      {
+        "id": 14,
+        "startDate": "2022-03-21",
+        "endDate": "2022-04-26",
+        "startNav": 1.4337,
+        "endNav": 1.0582,
+        "changePct": -26.19,
+        "type": "trough"
+      },
+      {
+        "id": 15,
+        "startDate": "2022-04-26",
+        "endDate": "2022-08-01",
+        "startNav": 1.0582,
+        "endNav": 1.6224,
+        "changePct": 53.32,
+        "type": "peak"
+      },
+      {
+        "id": 16,
+        "startDate": "2022-08-01",
+        "endDate": "2022-10-10",
+        "startNav": 1.6224,
+        "endNav": 1.2758,
+        "changePct": -21.36,
+        "type": "trough"
+      },
+      {
+        "id": 17,
+        "startDate": "2022-10-10",
+        "endDate": "2022-11-04",
+        "startNav": 1.2758,
+        "endNav": 1.4214,
+        "changePct": 11.41,
+        "type": "peak"
+      },
+      {
+        "id": 18,
+        "startDate": "2022-11-04",
+        "endDate": "2022-12-23",
+        "startNav": 1.4214,
+        "endNav": 1.2028,
+        "changePct": -15.38,
+        "type": "trough"
+      },
+      {
+        "id": 19,
+        "startDate": "2022-12-23",
+        "endDate": "2023-02-01",
+        "startNav": 1.2028,
+        "endNav": 1.4171,
+        "changePct": 17.82,
+        "type": "peak"
+      },
+      {
+        "id": 20,
+        "startDate": "2023-02-01",
+        "endDate": "2023-03-17",
+        "startNav": 1.4171,
+        "endNav": 1.1956,
+        "changePct": -15.63,
+        "type": "trough"
+      },
+      {
+        "id": 21,
+        "startDate": "2023-03-17",
+        "endDate": "2023-04-03",
+        "startNav": 1.1956,
+        "endNav": 1.2957,
+        "changePct": 8.37,
+        "type": "peak"
+      },
+      {
+        "id": 22,
+        "startDate": "2023-04-03",
+        "endDate": "2023-06-08",
+        "startNav": 1.2957,
+        "endNav": 1.1676,
+        "changePct": -9.89,
+        "type": "trough"
+      },
+      {
+        "id": 23,
+        "startDate": "2023-06-08",
+        "endDate": "2023-06-20",
+        "startNav": 1.1676,
+        "endNav": 1.2953,
+        "changePct": 10.94,
+        "type": "peak"
+      },
+      {
+        "id": 24,
+        "startDate": "2023-06-20",
+        "endDate": "2024-02-05",
+        "startNav": 1.2953,
+        "endNav": 0.7977,
+        "changePct": -38.42,
+        "type": "trough"
+      },
+      {
+        "id": 25,
+        "startDate": "2024-02-05",
+        "endDate": "2024-03-18",
+        "startNav": 0.7977,
+        "endNav": 1.0174,
+        "changePct": 27.54,
+        "type": "peak"
+      },
+      {
+        "id": 26,
+        "startDate": "2024-03-18",
+        "endDate": "2024-03-27",
+        "startNav": 1.0174,
+        "endNav": 0.9355,
+        "changePct": -8.05,
+        "type": "trough"
+      },
+      {
+        "id": 27,
+        "startDate": "2024-03-27",
+        "endDate": "2024-04-01",
+        "startNav": 0.9355,
+        "endNav": 0.9969,
+        "changePct": 6.56,
+        "type": "peak"
+      },
+      {
+        "id": 28,
+        "startDate": "2024-04-01",
+        "endDate": "2024-04-16",
+        "startNav": 0.9969,
+        "endNav": 0.9266,
+        "changePct": -7.05,
+        "type": "trough"
+      },
+      {
+        "id": 29,
+        "startDate": "2024-04-16",
+        "endDate": "2024-06-18",
+        "startNav": 0.9266,
+        "endNav": 1.0197,
+        "changePct": 10.05,
+        "type": "peak"
+      },
+      {
+        "id": 30,
+        "startDate": "2024-06-18",
+        "endDate": "2024-07-08",
+        "startNav": 1.0197,
+        "endNav": 0.9561,
+        "changePct": -6.24,
+        "type": "trough"
+      },
+      {
+        "id": 31,
+        "startDate": "2024-07-08",
+        "endDate": "2024-07-16",
+        "startNav": 0.9561,
+        "endNav": 1.0339,
+        "changePct": 8.14,
+        "type": "peak"
+      },
+      {
+        "id": 32,
+        "startDate": "2024-07-16",
+        "endDate": "2024-09-23",
+        "startNav": 1.0339,
+        "endNav": 0.8897,
+        "changePct": -13.95,
+        "type": "trough"
+      },
+      {
+        "id": 33,
+        "startDate": "2024-09-23",
+        "endDate": "2024-10-08",
+        "startNav": 0.8897,
+        "endNav": 1.1276,
+        "changePct": 26.74,
+        "type": "peak"
+      },
+      {
+        "id": 34,
+        "startDate": "2024-10-08",
+        "endDate": "2024-10-16",
+        "startNav": 1.1276,
+        "endNav": 1.014,
+        "changePct": -10.07,
+        "type": "trough"
+      },
+      {
+        "id": 35,
+        "startDate": "2024-10-16",
+        "endDate": "2024-11-11",
+        "startNav": 1.014,
+        "endNav": 1.0949,
+        "changePct": 7.98,
+        "type": "peak"
+      },
+      {
+        "id": 36,
+        "startDate": "2024-11-11",
+        "endDate": "2025-01-03",
+        "startNav": 1.0949,
+        "endNav": 0.9776,
+        "changePct": -10.71,
+        "type": "trough"
+      },
+      {
+        "id": 37,
+        "startDate": "2025-01-03",
+        "endDate": "2025-02-21",
+        "startNav": 0.9776,
+        "endNav": 1.1852,
+        "changePct": 21.24,
+        "type": "peak"
+      },
+      {
+        "id": 38,
+        "startDate": "2025-02-21",
+        "endDate": "2025-04-08",
+        "startNav": 1.1852,
+        "endNav": 0.9317,
+        "changePct": -21.39,
+        "type": "trough"
+      },
+      {
+        "id": 39,
+        "startDate": "2025-04-08",
+        "endDate": "2025-09-01",
+        "startNav": 0.9317,
+        "endNav": 1.5423,
+        "changePct": 65.54,
+        "type": "peak"
+      },
+      {
+        "id": 40,
+        "startDate": "2025-09-01",
+        "endDate": "2025-09-04",
+        "startNav": 1.5423,
+        "endNav": 1.4225,
+        "changePct": -7.77,
+        "type": "trough"
+      },
+      {
+        "id": 41,
+        "startDate": "2025-09-04",
+        "endDate": "2025-10-09",
+        "startNav": 1.4225,
+        "endNav": 1.6065,
+        "changePct": 12.93,
+        "type": "peak"
+      },
+      {
+        "id": 42,
+        "startDate": "2025-10-09",
+        "endDate": "2025-10-17",
+        "startNav": 1.6065,
+        "endNav": 1.4458,
+        "changePct": -10.0,
+        "type": "trough"
+      },
+      {
+        "id": 43,
+        "startDate": "2025-10-17",
+        "endDate": "2025-11-17",
+        "startNav": 1.4458,
+        "endNav": 1.7611,
+        "changePct": 21.81,
+        "type": "peak"
+      },
+      {
+        "id": 44,
+        "startDate": "2025-11-17",
+        "endDate": "2025-11-24",
+        "startNav": 1.7611,
+        "endNav": 1.5661,
+        "changePct": -11.07,
+        "type": "trough"
+      },
+      {
+        "id": 45,
+        "startDate": "2025-11-24",
+        "endDate": "2026-01-23",
+        "startNav": 1.5661,
+        "endNav": 1.9672,
+        "changePct": 25.61,
+        "type": "peak"
+      },
+      {
+        "id": 46,
+        "startDate": "2026-01-23",
+        "endDate": "2026-02-02",
+        "startNav": 1.9672,
+        "endNav": 1.7883,
+        "changePct": -9.09,
+        "type": "trough"
+      },
+      {
+        "id": 47,
+        "startDate": "2026-02-02",
+        "endDate": "2026-03-11",
+        "startNav": 1.7883,
+        "endNav": 2.0482,
+        "changePct": 14.53,
+        "type": "peak"
+      },
+      {
+        "id": 48,
+        "startDate": "2026-03-11",
+        "endDate": "2026-03-23",
+        "startNav": 2.0482,
+        "endNav": 1.8113,
+        "changePct": -11.57,
+        "type": "trough"
+      },
+      {
+        "id": 49,
+        "startDate": "2026-03-23",
+        "endDate": "2026-03-27",
+        "startNav": 1.8113,
+        "endNav": 1.9606,
+        "changePct": 8.24,
+        "type": "peak"
+      },
+      {
+        "id": 50,
+        "startDate": "2026-03-27",
+        "endDate": "2026-04-03",
+        "startNav": 1.9606,
+        "endNav": 1.8383,
+        "changePct": -6.24,
+        "type": "trough"
+      },
+      {
+        "id": 51,
+        "startDate": "2026-04-03",
+        "endDate": "2026-05-06",
+        "startNav": 1.8383,
+        "endNav": 2.3825,
+        "changePct": 29.6,
+        "type": "peak"
+      }
+    ],
+    "totalInflectionPoints": 51,
+    "stages": [
+      {
+        "id": 1,
+        "name": "建仓高弹性期",
+        "emoji": "🟢",
+        "period": "2021-04 → 2022-03",
+        "returnPct": 34.2,
+        "hs300Pct": -18.2,
+        "excessPct": 52.3,
+        "driverType": "alpha",
+        "driverLabel": "⚡ Alpha贡献显著",
+        "color": "#2DC78E",
+        "description": "基金成立后快速完成新能源主线建仓，先后覆盖光伏、锂电与设备链，显著跑赢沪深300。",
+        "env": "新能源赛道高景气，基金处于快速上攻的早期阶段。",
+        "managerAction": "围绕光伏和锂电高弹性方向集中建仓。",
+        "attribution": "行业顺风叠加选股有效，共同贡献超额。"
+      },
+      {
+        "id": 2,
+        "name": "高波动回撤期",
+        "emoji": "🔴",
+        "period": "2022-04 → 2023-09",
+        "returnPct": -20.1,
+        "hs300Pct": -13.8,
+        "excessPct": -6.3,
+        "driverType": "double_loss",
+        "driverLabel": "🔴 Beta+Alpha双损",
+        "color": "#F54E48",
+        "description": "新能源内部轮动频繁，基金虽未离开新能源大方向，但切换节奏并不稳定，净值显著回撤。",
+        "env": "行业高波动加剧，回撤压力持续存在。",
+        "managerAction": "在锂电、光伏和设备链内反复切换，但未形成稳定防御。",
+        "attribution": "未能有效对冲行业逆风，回撤控制偏弱。"
+      },
+      {
+        "id": 3,
+        "name": "风格漂移与筑底期",
+        "emoji": "🟡",
+        "period": "2023-10 → 2025-03",
+        "returnPct": 0.2,
+        "hs300Pct": 6.9,
+        "excessPct": -6.7,
+        "driverType": "both",
+        "driverLabel": "🔄 风格切换期",
+        "color": "#D4A017",
+        "description": "持仓偏向汽车零部件、消费电子、PCB等泛科技制造，新能源纯度下降，净值整体筑底震荡。",
+        "env": "市场风格切换较快，新能源主线未形成持续强势。",
+        "managerAction": "组合明显向泛科技制造扩散。",
+        "attribution": "既没吃到新能源高弹性，也没有形成稳定均衡配置。"
+      },
+      {
+        "id": 4,
+        "name": "储能复苏突破期",
+        "emoji": "🟢",
+        "period": "2025-04 → 2025-09",
+        "returnPct": 46.6,
+        "hs300Pct": 19.4,
+        "excessPct": 27.3,
+        "driverType": "alpha",
+        "driverLabel": "⚡ Alpha贡献显著",
+        "color": "#4492F7",
+        "description": "基金明显重新回到高景气新能源主线，2025Q3单季43.67%成为修复关键拐点。",
+        "env": "储能需求、锂电设备和新技术链条明显回暖。",
+        "managerAction": "重新聚焦新能源与设备链核心方向。",
+        "attribution": "主线回归后，组合重新恢复高弹性超额。"
+      },
+      {
+        "id": 5,
+        "name": "上游锂资源强化期",
+        "emoji": "🟢",
+        "period": "2025-10 → 2026-05",
+        "returnPct": 44.3,
+        "hs300Pct": 2.4,
+        "excessPct": 41.9,
+        "driverType": "alpha",
+        "driverLabel": "⚡ Alpha贡献显著",
+        "color": "#7C5CFC",
+        "description": "基金进一步将重心转向锂资源上游、储能与电力设备出海，连续三个季度维持高景气状态。",
+        "env": "新能源市场化改革和储能链逻辑增强，产业分化更明显。",
+        "managerAction": "强化锂资源、储能和电力设备出海配置。",
+        "attribution": "策略切换成功，但也把净值推向历史高位区域。"
+      }
+    ]
+  },
+  "managers": {
+    "current": {
+      "managerId": "30718979",
+      "allManagerIds": [
+        "30718979"
+      ],
+      "name": "张剑鑫",
+      "fundCount": 4,
+      "totalScale": 6.39,
+      "historicalFunds": [
+        {
+          "name": "长江新能源产业混合发起A",
+          "code": "011446",
+          "type": "混合型-偏股",
+          "tenure": "2021-04 ~ 至今",
+          "return": 133.24,
+          "rank": 322,
+          "rankTotal": 4530,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "长江新兴产业混合A",
+          "code": "015320",
+          "type": "混合型-偏股",
+          "tenure": "2022-04 ~ 至今",
+          "return": 91.12,
+          "rank": 558,
+          "rankTotal": 4530,
+          "grade": "good",
+          "isCurrent": true
+        }
+      ],
+      "bestReturn": 133.24,
+      "worstReturn": 91.12,
+      "manageDate": "2021-04-14",
+      "manageYears": 5.1,
+      "tenureReturn": 128.57,
+      "rankInPeer": "326/4530",
+      "rankTotal": 4530,
+      "education": "硕士研究生",
+      "joinDate": "0",
+      "experience": "5.1年",
+      "title": "基金经理",
+      "style": "高弹性成长",
+      "peerAvgReturn": 44.08,
+      "philosophy": [
+        {
+          "label": "核心投资理念",
+          "text": "围绕新能源产业链上下游，在景气切换中寻找高弹性机会。"
+        },
+        {
+          "label": "选股方法论",
+          "text": "更看重产业景气位置和细分环节弹性，而不是低估值防御。"
+        },
+        {
+          "label": "仓位管理风格",
+          "text": "明显偏进攻型，更擅长顺风时打出超额，而非通过大幅降仓保护净值。"
+        },
+        {
+          "label": "风格稳定性",
+          "text": "主线大体围绕新能源和成长制造，但2023Q4-2025Q1曾明显偏向泛科技制造。"
+        }
+      ],
+      "consistencyAudit": [
+        {
+          "period": "2025Q3·储能景气回暖",
+          "result": "warn",
+          "label": "基本一致",
+          "stated": "季报强调储能需求超预期、风电招标增长、光伏反内卷继续推进。",
+          "actual": "前十持仓核心落在宁德时代、联赢激光、欣旺达、中一科技、多氟多等电池链和设备链。",
+          "evaluation": "主叙事与组合方向一致，但对风电和光伏的直接持仓表达相对有限。"
+        },
+        {
+          "period": "2026Q1·当前主线最清晰阶段",
+          "result": "pass",
+          "label": "一致",
+          "stated": "聚焦锂电中上游、储能、电力设备出海和固态电池新技术。",
+          "actual": "前十持仓为永兴材料、天华新能、明阳电气、固德威、天齐锂业等，对应关系明确。",
+          "evaluation": "原文与持仓映射清晰，是当前策略边界最稳定的阶段。"
+        }
+      ],
+      "abilityProfile": {
+        "best": "在新能源或成长制造景气上行期进行高弹性集中配置。",
+        "worst": "净值保护能力偏弱，历史回撤过深。",
+        "goodEnv": [
+          "产业景气上行期",
+          "储能/锂电/设备主线强化期"
+        ],
+        "badEnv": [
+          "行业出清尚未结束阶段",
+          "估值过高且外部风险增多阶段"
+        ]
+      },
+      "strengths": [
+        "抓高景气方向和打出弹性能力强",
+        "产品规模不大，执行灵活度较高"
+      ],
+      "weaknesses": [
+        "回撤控制弱于收益弹性",
+        "高位风险管理能力有待继续验证"
+      ]
+    },
+    "history": [
+      {
+        "name": "张剑鑫",
+        "role": "独任",
+        "start": "2021-04-14",
+        "end": null,
+        "tenure": "约5.1年",
+        "return": 128.57,
+        "note": "基金自成立以来一直由张剑鑫单独管理，无经理变更记录。"
+      }
+    ]
+  },
+  "navHistory": [
+    {
+      "date": "2025-12-25",
+      "nav": 1.7511
+    },
+    {
+      "date": "2025-12-26",
+      "nav": 1.7809
+    },
+    {
+      "date": "2025-12-29",
+      "nav": 1.7343
+    },
+    {
+      "date": "2025-12-30",
+      "nav": 1.7509
+    },
+    {
+      "date": "2025-12-31",
+      "nav": 1.7347
+    },
+    {
+      "date": "2026-01-05",
+      "nav": 1.7751
+    },
+    {
+      "date": "2026-01-06",
+      "nav": 1.7974
+    },
+    {
+      "date": "2026-01-07",
+      "nav": 1.8202
+    },
+    {
+      "date": "2026-01-08",
+      "nav": 1.7927
+    },
+    {
+      "date": "2026-01-09",
+      "nav": 1.8207
+    },
+    {
+      "date": "2026-01-12",
+      "nav": 1.8467
+    },
+    {
+      "date": "2026-01-13",
+      "nav": 1.843
+    },
+    {
+      "date": "2026-01-14",
+      "nav": 1.8377
+    },
+    {
+      "date": "2026-01-15",
+      "nav": 1.8742
+    },
+    {
+      "date": "2026-01-16",
+      "nav": 1.86
+    },
+    {
+      "date": "2026-01-19",
+      "nav": 1.8805
+    },
+    {
+      "date": "2026-01-20",
+      "nav": 1.8388
+    },
+    {
+      "date": "2026-01-21",
+      "nav": 1.896
+    },
+    {
+      "date": "2026-01-22",
+      "nav": 1.9019
+    },
+    {
+      "date": "2026-01-23",
+      "nav": 1.9672
+    },
+    {
+      "date": "2026-01-26",
+      "nav": 1.916
+    },
+    {
+      "date": "2026-01-27",
+      "nav": 1.9173
+    },
+    {
+      "date": "2026-01-28",
+      "nav": 1.9037
+    },
+    {
+      "date": "2026-01-29",
+      "nav": 1.86
+    },
+    {
+      "date": "2026-01-30",
+      "nav": 1.8287
+    },
+    {
+      "date": "2026-02-02",
+      "nav": 1.7883
+    },
+    {
+      "date": "2026-02-03",
+      "nav": 1.8747
+    },
+    {
+      "date": "2026-02-04",
+      "nav": 1.8789
+    },
+    {
+      "date": "2026-02-05",
+      "nav": 1.8037
+    },
+    {
+      "date": "2026-02-06",
+      "nav": 1.8201
+    },
+    {
+      "date": "2026-02-09",
+      "nav": 1.8456
+    },
+    {
+      "date": "2026-02-10",
+      "nav": 1.824
+    },
+    {
+      "date": "2026-02-11",
+      "nav": 1.8482
+    },
+    {
+      "date": "2026-02-12",
+      "nav": 1.8918
+    },
+    {
+      "date": "2026-02-13",
+      "nav": 1.868
+    },
+    {
+      "date": "2026-02-24",
+      "nav": 1.916
+    },
+    {
+      "date": "2026-02-25",
+      "nav": 1.9742
+    },
+    {
+      "date": "2026-02-26",
+      "nav": 1.9933
+    },
+    {
+      "date": "2026-02-27",
+      "nav": 2.0121
+    },
+    {
+      "date": "2026-03-02",
+      "nav": 2.0119
+    },
+    {
+      "date": "2026-03-03",
+      "nav": 1.9543
+    },
+    {
+      "date": "2026-03-04",
+      "nav": 1.9415
+    },
+    {
+      "date": "2026-03-05",
+      "nav": 1.9595
+    },
+    {
+      "date": "2026-03-06",
+      "nav": 1.9636
+    },
+    {
+      "date": "2026-03-09",
+      "nav": 1.9703
+    },
+    {
+      "date": "2026-03-10",
+      "nav": 1.9925
+    },
+    {
+      "date": "2026-03-11",
+      "nav": 2.0482
+    },
+    {
+      "date": "2026-03-12",
+      "nav": 2.0158
+    },
+    {
+      "date": "2026-03-13",
+      "nav": 1.9893
+    },
+    {
+      "date": "2026-03-16",
+      "nav": 1.9746
+    },
+    {
+      "date": "2026-03-17",
+      "nav": 1.9167
+    },
+    {
+      "date": "2026-03-18",
+      "nav": 1.9175
+    },
+    {
+      "date": "2026-03-19",
+      "nav": 1.8537
+    },
+    {
+      "date": "2026-03-20",
+      "nav": 1.8605
+    },
+    {
+      "date": "2026-03-23",
+      "nav": 1.8113
+    },
+    {
+      "date": "2026-03-24",
+      "nav": 1.8554
+    },
+    {
+      "date": "2026-03-25",
+      "nav": 1.8962
+    },
+    {
+      "date": "2026-03-26",
+      "nav": 1.8873
+    },
+    {
+      "date": "2026-03-27",
+      "nav": 1.9606
+    },
+    {
+      "date": "2026-03-30",
+      "nav": 1.9515
+    },
+    {
+      "date": "2026-03-31",
+      "nav": 1.8855
+    },
+    {
+      "date": "2026-04-01",
+      "nav": 1.8946
+    },
+    {
+      "date": "2026-04-02",
+      "nav": 1.8529
+    },
+    {
+      "date": "2026-04-03",
+      "nav": 1.8383
+    },
+    {
+      "date": "2026-04-07",
+      "nav": 1.8548
+    },
+    {
+      "date": "2026-04-08",
+      "nav": 1.9135
+    },
+    {
+      "date": "2026-04-09",
+      "nav": 1.9258
+    },
+    {
+      "date": "2026-04-10",
+      "nav": 1.9692
+    },
+    {
+      "date": "2026-04-13",
+      "nav": 2.0223
+    },
+    {
+      "date": "2026-04-14",
+      "nav": 2.0717
+    },
+    {
+      "date": "2026-04-15",
+      "nav": 2.0511
+    },
+    {
+      "date": "2026-04-16",
+      "nav": 2.1004
+    },
+    {
+      "date": "2026-04-17",
+      "nav": 2.1503
+    },
+    {
+      "date": "2026-04-20",
+      "nav": 2.1584
+    },
+    {
+      "date": "2026-04-21",
+      "nav": 2.1692
+    },
+    {
+      "date": "2026-04-22",
+      "nav": 2.1882
+    },
+    {
+      "date": "2026-04-23",
+      "nav": 2.1345
+    },
+    {
+      "date": "2026-04-24",
+      "nav": 2.1717
+    },
+    {
+      "date": "2026-04-27",
+      "nav": 2.1838
+    },
+    {
+      "date": "2026-04-28",
+      "nav": 2.1732
+    },
+    {
+      "date": "2026-04-29",
+      "nav": 2.2791
+    },
+    {
+      "date": "2026-04-30",
+      "nav": 2.3155
+    },
+    {
+      "date": "2026-05-06",
+      "nav": 2.3825
+    },
+    {
+      "date": "2026-05-07",
+      "nav": 2.3754
+    },
+    {
+      "date": "2026-05-08",
+      "nav": 2.3313
+    },
+    {
+      "date": "2026-05-11",
+      "nav": 2.3338
+    },
+    {
+      "date": "2026-05-12",
+      "nav": 2.3297
+    },
+    {
+      "date": "2026-05-13",
+      "nav": 2.3817
+    },
+    {
+      "date": "2026-05-14",
+      "nav": 2.3255
+    },
+    {
+      "date": "2026-05-15",
+      "nav": 2.2857
+    }
+  ],
+  "scoring": {
+    "total": 70,
+    "grade": "良好",
+    "recommendation": "谨慎，不宜追高",
+    "recommendationType": "cautious",
+    "rating": "★★",
+    "logic": "基金质量良好，政策面对当前主线偏正面，但净值已处历史极高位，高弹性主题基金的赔率明显收敛。",
+    "dimensions": [
+      {
+        "name": "超额收益能力",
+        "score": 22,
+        "maxScore": 25,
+        "pros": [
+          "成立以来累计收益128.57%，显著跑赢同期沪深300",
+          "2025Q3-2026Q1连续三季明显跑赢同类和沪深300",
+          "年化Alpha 21.78%，信息比率0.91"
+        ],
+        "cons": [
+          "2023-2024曾经历较长失速期",
+          "超额收益对行业顺风和主题切换依赖较高"
+        ]
+      },
+      {
+        "name": "回撤与波动控制",
+        "score": 7,
+        "maxScore": 20,
+        "pros": [
+          "近1年夏普4.01，当前修复期效率较高"
+        ],
+        "cons": [
+          "全期最大回撤-56.22%",
+          "年化波动30.04%，卡玛比率仅0.34"
+        ]
+      },
+      {
+        "name": "基金经理能力",
+        "score": 16,
+        "maxScore": 20,
+        "pros": [
+          "张剑鑫自成立以来独任，任期稳定",
+          "当前仅管理4只基金，总规模6.39亿元，无明显疲劳风险",
+          "2025H2后储能+上游锂资源+设备出海主线执行到位"
+        ],
+        "cons": [
+          "从业年限约5.1年，完整跨周期记录仍偏短",
+          "2023-2024风格切换期回撤控制较弱"
+        ]
+      },
+      {
+        "name": "主题纯度与持仓一致性",
+        "score": 11,
+        "maxScore": 15,
+        "pros": [
+          "最新持仓围绕锂资源、储能和电力设备出海，主题清晰",
+          "2026Q1季报表述与持仓匹配度较高"
+        ],
+        "cons": [
+          "2023Q4-2025Q1阶段明显偏向泛科技制造，新能源纯度下滑"
+        ]
+      },
+      {
+        "name": "行业周期与政策匹配度",
+        "score": 14,
+        "maxScore": 20,
+        "pros": [
+          "发改价格〔2025〕136号强化新能源市场化、电力设备与储能逻辑",
+          "2025年报与2026Q1季报均显示储能景气提升、锂电链修复"
+        ],
+        "cons": [
+          "光伏反内卷和供给侧修复仍在途中",
+          "当前净值已处历史极高位，赔率明显收敛"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "type": "极端回撤风险",
+        "level": "high",
+        "note": "历史最大回撤-56.22%，持续约26个月，是第一风险锚点。"
+      },
+      {
+        "type": "高位追涨风险",
+        "level": "high",
+        "note": "当前净值处于99.33%历史分位，新资金安全边际不足。"
+      },
+      {
+        "type": "主题集中风险",
+        "level": "medium",
+        "note": "前十持仓46.76%，集中于锂资源、储能、电力设备与材料链。"
+      },
+      {
+        "type": "政策落地分化风险",
+        "level": "medium",
+        "note": "新能源市场化改革利好长期方向，但会放大细分赛道盈利分化。"
+      }
+    ],
+    "policyItems": [
+      {
+        "name": "新能源上网电价市场化改革通知",
+        "impactLabel": "🟢 强利好"
+      },
+      {
+        "name": "配套答记者问",
+        "impactLabel": "🟢 强利好"
+      },
+      {
+        "name": "反内卷与行业秩序改善线索",
+        "impactLabel": "🟡 中性偏正面"
+      }
+    ],
+    "marketStatus": [
+      {
+        "dim": "净值位置",
+        "status": "99.33% 历史分位",
+        "statusType": "warning",
+        "detail": "当前净值2.2857，距历史高点2.3825仅约4.1%。"
+      },
+      {
+        "dim": "近期趋势",
+        "status": "强势上行后高位震荡",
+        "statusType": "cautious",
+        "detail": "近3月+22.36%、近6月+35.21%，但近1周已回撤-1.96%。"
+      },
+      {
+        "dim": "夏普趋势",
+        "status": "明显改善",
+        "statusType": "positive",
+        "detail": "1Y夏普4.01，显著高于2Y和3Y。"
+      },
+      {
+        "dim": "持仓主线景气",
+        "status": "储能/设备改善，光伏修复中",
+        "statusType": "positive",
+        "detail": "储能、电力设备出海偏强，光伏仍处底部出清阶段。"
+      },
+      {
+        "dim": "外部风险",
+        "status": "需关注",
+        "statusType": "warning",
+        "detail": "市场化电价、行业竞争格局重构和海外需求波动都可能放大净值回撤。"
+      }
+    ],
+    "allocationSuggestions": [
+      {
+        "scenario": "存量持有人",
+        "action": "继续持有，暂不大幅加仓",
+        "note": "重点观察2026Q2、2026Q3是否继续维持锂资源+储能+设备出海主线。"
+      },
+      {
+        "scenario": "新入场投资者",
+        "action": "等待回撤再分批参与",
+        "note": "当前位置不适合追高，先等净值回到更合理震荡中枢。"
+      }
+    ],
+    "suitableFor": [
+      "能承受-30%至-50%阶段性回撤的新能源行业卫星仓投资者",
+      "对储能、锂电、设备出海有较强信念且持有周期至少2年的投资者",
+      "希望通过主动主题基金获取高于指数弹性的进阶投资者"
+    ],
+    "notSuitableFor": [
+      "希望短期买入后快速兑现收益的投资者",
+      "风险承受能力偏低、无法接受净值深回撤的投资者",
+      "想用单只基金替代全市场均衡配置的投资者",
+      "缺乏分批建仓纪律却容易高位追涨的投资者"
+    ],
+    "termAdvice": [
+      {
+        "term": "短期（1-3个月）",
+        "icon": "⚠️",
+        "level": "cautious",
+        "advice": "不追高，等待回撤到更有赔率的位置再观察。"
+      },
+      {
+        "term": "中期（6-12个月）",
+        "icon": "🟡",
+        "level": "cautious",
+        "advice": "若继续看好主题，只适合分批建仓，首笔不超过计划仓位的30%-40%。"
+      },
+      {
+        "term": "长期（3年以上）",
+        "icon": "🟢",
+        "level": "buy",
+        "advice": "可作为组合中的行业卫星仓，仓位上限建议不超过权益仓的10%-15%。"
+      }
+    ]
+  },
+  "company": {
+    "name": "长江证券(上海)资产管理有限公司",
+    "shortName": "长江资管",
+    "foundYear": 2014,
+    "aumDesc": "旗下71只基金，公募管理规模约348.27亿元，属于券商资管系中小型公募平台。",
+    "industryRank": "券商资管系公募平台，规模不属头部但产品线稳定。",
+    "complianceResult": "通过",
+    "complianceSummary": "现有证据下，公司与经理均未出现足以触发否决的监管或舆情红旗。需要持续关注的主要仍是产品自身高波动，而非合规问题。",
+    "complianceChecks": [
+      {
+        "item": "黑名单核查",
+        "pass": true,
+        "warn": false,
+        "detail": "公司和经理均未命中黑名单。"
+      },
+      {
+        "item": "近3年处罚记录",
+        "pass": true,
+        "warn": false,
+        "detail": "未检索到更高置信度处罚或监管函结果。"
+      },
+      {
+        "item": "内幕交易传闻",
+        "pass": true,
+        "warn": false,
+        "detail": "未检索到更高置信度负面结果。"
+      },
+      {
+        "item": "基金经理离职风险",
+        "pass": true,
+        "warn": false,
+        "detail": "基金自成立以来无经理变更，未见离职传闻。"
+      },
+      {
+        "item": "管理疲劳风险",
+        "pass": true,
+        "warn": false,
+        "detail": "张剑鑫当前仅管理4只基金，总规模约6.39亿元。"
+      }
+    ]
+  },
+  "policy": {
+    "tags": [
+      {
+        "label": "新能源市场化改革",
+        "strength": "high",
+        "color": "#4492F7"
+      },
+      {
+        "label": "储能景气修复",
+        "strength": "high",
+        "color": "#2DC78E"
+      },
+      {
+        "label": "光伏反内卷",
+        "strength": "medium",
+        "color": "#D4A017"
+      }
+    ],
+    "industryOverview": [
+      {
+        "point": "新能源装机规模",
+        "detail": "截至2024年底，新能源发电装机约14.1亿千瓦，占全国电力总装机40%以上。"
+      },
+      {
+        "point": "当前景气结构",
+        "detail": "储能、电力设备出海和锂电中上游景气偏强，光伏仍在底部出清与修复阶段。"
+      },
+      {
+        "point": "基金持仓映射",
+        "detail": "011447当前持仓更贴近锂资源、储能和电力设备链，而不是全面新能源平均暴露。"
+      }
+    ],
+    "cyclePeriod": "政策红利期",
+    "cycleReason": "发改价格〔2025〕136号和配套答记者问确认新能源市场化与新型电力系统建设方向，对当前重仓的储能、电力设备和锂资源链条总体偏正面。",
+    "fifteenFive": [
+      {
+        "direction": "新能源市场化与高质量发展",
+        "color": "#4492F7",
+        "description": "新能源上网电量原则上全部入市、建立差价结算机制，推动行业在更真实价格体系下分化发展。",
+        "holdings": "明阳电气 / 固德威 / 艾罗能源"
+      },
+      {
+        "direction": "储能与锂电产业链修复",
+        "color": "#2DC78E",
+        "description": "经理原文连续强调储能带动锂电链景气改善，基金也已显著加仓锂资源上游。",
+        "holdings": "永兴材料 / 天华新能 / 天齐锂业"
+      }
+    ],
+    "longTermRisks": [
+      {
+        "risk": "锂资源价格波动重新转弱",
+        "level": "medium",
+        "signal": "若碳酸锂价格持续回落且储能需求不及预期，当前主线弹性将快速下降。"
+      },
+      {
+        "risk": "光伏修复慢于预期",
+        "level": "medium",
+        "signal": "行业分化若持续，新能源整体叙事可能弱于当前市场乐观预期。"
+      }
+    ],
+    "adaptability": [
+      {
+        "env": "🐂 新能源顺风期",
+        "perf": "基金能显著放大弹性，2025Q3-2026Q1 是典型样本。",
+        "color": "#2DC78E"
+      },
+      {
+        "env": "🌪 行业震荡分化期",
+        "perf": "若主线判断不稳，基金会出现较深回撤，2023-2024 已有完整样本。",
+        "color": "#F54E48"
+      }
+    ],
+    "scenarios": [
+      {
+        "type": "悲观",
+        "probability": 30,
+        "color": "#F54E48",
+        "returnLow": -25,
+        "returnHigh": -10,
+        "trigger": "锂资源价格回落、储能景气低于预期、行业分化导致高位持仓回撤放大。"
+      },
+      {
+        "type": "基准",
+        "probability": 45,
+        "color": "#4492F7",
+        "returnLow": 5,
+        "returnHigh": 20,
+        "trigger": "储能和设备出海维持景气，但高位估值限制进一步大幅抬升。"
+      },
+      {
+        "type": "乐观",
+        "probability": 25,
+        "color": "#2DC78E",
+        "returnLow": 20,
+        "returnHigh": 45,
+        "trigger": "储能需求继续超预期，锂资源维持高景气，基金对资源和设备链保持高一致性配置。"
+      }
+    ],
+    "policyBreakdown": [
+      {
+        "sector": "储能与电力设备",
+        "icon": "⚡",
+        "color": "#4492F7",
+        "logic": "新能源市场化改革提升调节能力和设备环节的重要性。",
+        "stocks": [
+          "明阳电气",
+          "固德威",
+          "艾罗能源"
+        ]
+      },
+      {
+        "sector": "锂资源上游",
+        "icon": "⛏",
+        "color": "#2DC78E",
+        "logic": "储能和锂电链修复为上游资源提供更高弹性，但也伴随更大波动。",
+        "stocks": [
+          "永兴材料",
+          "天华新能",
+          "天齐锂业",
+          "融捷股份"
+        ]
+      }
+    ],
+    "dualTimeline": [
+      {
+        "period": "2021-04 → 2022-03",
+        "manager": {
+          "type": "positive",
+          "event": "成立后快速完成新能源高弹性建仓",
+          "return": "+34.2%（HS300 -18.2%）",
+          "note": "先后覆盖光伏、锂电与设备链，明显跑赢市场。"
+        },
+        "market": {
+          "type": "bull",
+          "event": "新能源赛道高景气上行",
+          "note": "行业顺风与集中配置共同放大收益。"
+        }
+      },
+      {
+        "period": "2022-04 → 2023-09",
+        "manager": {
+          "type": "warning",
+          "event": "新能源内部反复切换，回撤控制不足",
+          "return": "-20.1%（HS300 -13.8%）",
+          "note": "未能有效对冲行业逆风。"
+        },
+        "market": {
+          "type": "bear",
+          "event": "高波动与行业再平衡加剧",
+          "note": "主题基金在逆风期承受显著净值压力。"
+        }
+      },
+      {
+        "period": "2023-10 → 2025-03",
+        "manager": {
+          "type": "neutral",
+          "event": "组合偏向泛科技制造，新能源纯度下降",
+          "return": "+0.2%（HS300 +6.9%）",
+          "note": "风格漂移未换来更平滑收益。"
+        },
+        "market": {
+          "type": "neutral",
+          "event": "市场风格切换较快，新能源主线不稳",
+          "note": "基金处于筑底震荡阶段。"
+        }
+      },
+      {
+        "period": "2025-04 → 2025-09",
+        "manager": {
+          "type": "highlight",
+          "event": "重新聚焦储能与设备链，主升浪启动",
+          "return": "+46.6%（HS300 +19.4%）",
+          "note": "2025Q3 成为本轮修复的关键拐点。"
+        },
+        "market": {
+          "type": "bull",
+          "event": "储能和锂电设备景气修复",
+          "note": "基金重新恢复高弹性超额。"
+        }
+      },
+      {
+        "period": "2025-10 → 2026-05",
+        "manager": {
+          "type": "highlight",
+          "event": "强化上游锂资源、储能和电力设备出海",
+          "return": "+44.3%（HS300 +2.4%）",
+          "note": "策略切换成功，但估值与风险同步上升。"
+        },
+        "market": {
+          "type": "policy",
+          "event": "新能源市场化改革落地，行业分化更明显",
+          "note": "对当前组合重仓方向总体偏正面。"
+        }
+      }
+    ],
+    "note": "当前政策环境对011447偏正面，但不是全面新能源无差别顺风，更接近结构性红利期。"
+  },
+  "tracking": {
+    "weekly": [
+      "净值是否继续与锂资源、储能、逆变器和电力设备行情保持同向。",
+      "碳酸锂价格若连续4周累计回落超过10%，需重估上游资源持仓逻辑。",
+      "持续跟踪储能招标、逆变器和电力设备出海订单景气。",
+      "关注经理公开表述是否继续围绕锂资源、储能和设备出海主线。"
+    ],
+    "quarterly": [
+      "新季报前十是否继续围绕锂资源、储能和电力设备主线。",
+      "前十集中度是否继续维持在约40%-52%的合理区间。",
+      "基金规模是否快速放大到明显影响执行效率的水平。",
+      "近1年排名是否持续维持在同类前20%-30%附近。",
+      "相对沪深300和同类的年化超额是否连续保持为正。"
+    ],
+    "alerts": [
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "基金经理更换后需重做整份评估。"
+      },
+      {
+        "level": "warning",
+        "icon": "🚨",
+        "text": "单季度回撤超过-15%且同类排名落到后20%时，需立即重估策略有效性。"
+      },
+      {
+        "level": "warning",
+        "icon": "🚨",
+        "text": "若锂资源和储能主线同时失速，当前组合核心逻辑将被同步削弱。"
+      },
+      {
+        "level": "warning",
+        "icon": "🚨",
+        "text": "净值处于历史极高位时若继续加速上涨但基本面未同步强化，应降低追高意愿。"
+      }
+    ]
+  },
+  "exclusionCheck": [
+    {
+      "item": "成立时间是否不足3年",
+      "pass": true,
+      "note": "成立于2021-04-14，已运行超过3年。"
+    },
+    {
+      "item": "规模是否过小或过大",
+      "pass": true,
+      "note": "当前规模约2.30亿元，未触发<1亿元或>200亿元红线。"
+    },
+    {
+      "item": "基金经理任职是否不足2年",
+      "pass": true,
+      "note": "张剑鑫自2021-04-14起管理本基金，任职超过2年。"
+    },
+    {
+      "item": "近3年业绩是否落入后30%",
+      "pass": true,
+      "note": "近1年和近2年分别排名326/4530、384/4096，未落入同类后30%。"
+    },
+    {
+      "item": "最大回撤是否显著劣于同类",
+      "pass": false,
+      "note": "历史最大回撤-56.22%明显偏深，是产品最需要警惕的核心弱点。"
+    },
+    {
+      "item": "基金经理是否在黑名单中",
+      "pass": true,
+      "note": "黑名单核查未命中基金经理。"
+    },
+    {
+      "item": "基金公司是否在黑名单中",
+      "pass": true,
+      "note": "黑名单核查未命中基金公司。"
+    },
+    {
+      "item": "是否频繁更换基金经理",
+      "pass": true,
+      "note": "基金自成立以来由张剑鑫独任，无频繁更换记录。"
+    },
+    {
+      "item": "是否存在严重风格漂移",
+      "pass": true,
+      "note": "虽在2023Q4-2025Q1阶段出现泛科技制造扩张，但最新阶段已重新收敛到清晰新能源主线，未构成严重漂移。"
+    },
+    {
+      "item": "费率是否显著高于同类平均",
+      "pass": true,
+      "note": "管理费1.20%、托管费0.20%、销售服务费0.40%，未见明显高于同类且无合理解释。"
+    }
+  ]
+}
