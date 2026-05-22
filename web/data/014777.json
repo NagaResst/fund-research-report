@@ -1,8 +1,8 @@
 {
   "id": "014777",
   "meta": {
-    "reportDate": "2026-05-20",
-    "dataDate": "2026-05-19",
+    "reportDate": "2026-05-22",
+    "dataDate": "2026-05-22",
     "disclaimer": "本报告仅供个人学习和信息整理使用，所有分析内容均不构成任何投资建议。投资有风险，入市需谨慎，请依据自身判断做出投资决策。"
   },
   "basic": {
@@ -736,7 +736,12 @@
         "startNav": 1.005,
         "endNav": 0.7,
         "changePct": -30.35,
-        "type": "trough"
+        "type": "trough",
+        "env": "成立初期即遭遇芯片赛道深跌，2022Q1 基金 -11.73%，同期沪深300 -14.14%，但后续行业杀估值继续扩散。",
+        "managerAction": "更早季报原文当前缓存未完整保留；结合基金定位，联接基金以维持目标 ETF 暴露为主，未见主动偏离芯片主线证据。",
+        "attribution": "典型 Beta 下跌段，联接结构放大了对芯片主题的顺周期暴露。",
+        "holdingsSummary": null,
+        "stageId": 1
       },
       {
         "id": 2,
@@ -745,7 +750,12 @@
         "startNav": 0.7,
         "endNav": 0.8959,
         "changePct": 27.99,
-        "type": "peak"
+        "type": "peak",
+        "env": "经历深跌后，2022Q2 基金小幅转正 +1.50%，市场阶段性反弹带动芯片赛道修复。",
+        "managerAction": "产品仍以目标 ETF 为主要持仓工具，修复主要来自行业反弹而非主动仓位切换。",
+        "attribution": "Beta 修复，反弹力度较强但持续性不足。",
+        "holdingsSummary": null,
+        "stageId": 1
       },
       {
         "id": 3,
@@ -754,7 +764,12 @@
         "startNav": 0.8959,
         "endNav": 0.8127,
         "changePct": -9.29,
-        "type": "trough"
+        "type": "trough",
+        "env": "赛道反弹后再度回落，芯片景气与估值预期重新承压。",
+        "managerAction": "联接基金常态运作，未见明显防御性降暴露证据。",
+        "attribution": "Beta 回撤延续，说明阶段性反弹尚未扭转中期弱势。",
+        "holdingsSummary": null,
+        "stageId": 1
       },
       {
         "id": 4,
@@ -763,7 +778,12 @@
         "startNav": 0.8127,
         "endNav": 0.9253,
         "changePct": 13.86,
-        "type": "peak"
+        "type": "peak",
+        "env": "短线风险偏好回升，芯片板块出现脉冲修复。",
+        "managerAction": "联接基金继续通过目标 ETF 映射指数，未见独立 Alpha 来源。",
+        "attribution": "反弹速度快，但可持续性仍不足。",
+        "holdingsSummary": null,
+        "stageId": 1
       },
       {
         "id": 5,
@@ -772,7 +792,12 @@
         "startNav": 0.9253,
         "endNav": 0.6695,
         "changePct": -27.65,
-        "type": "trough"
+        "type": "trough",
+        "env": "2022Q3 基金 -18.86%，同期沪深300 -14.82%，芯片赛道再度出现深度杀跌。",
+        "managerAction": "由于产品定位是联接基金，经理并未体现出主动减仓躲避行业回撤的特征。",
+        "attribution": "第二轮大回撤明确了本基金高波动行业工具属性。",
+        "holdingsSummary": null,
+        "stageId": 1
       },
       {
         "id": 6,
@@ -781,7 +806,12 @@
         "startNav": 0.6695,
         "endNav": 0.8162,
         "changePct": 21.91,
-        "type": "peak"
+        "type": "peak",
+        "env": "极度超跌后出现技术性修复，风险偏好阶段性改善。",
+        "managerAction": "联接框架下继续高暴露跟随目标 ETF 反弹。",
+        "attribution": "超跌反弹有效，但未形成趋势性反转。",
+        "holdingsSummary": null,
+        "stageId": 1
       },
       {
         "id": 7,
@@ -790,7 +820,12 @@
         "startNav": 0.8162,
         "endNav": 0.7212,
         "changePct": -11.64,
-        "type": "trough"
+        "type": "trough",
+        "env": "年末赛道风格再度走弱，2022Q4 最终仅录得 +0.80%。",
+        "managerAction": "未见风格漂移证据，仍是工具型跟踪配置。",
+        "attribution": "弱势区间的高频反复，表明 2022 年底芯片主题仍处筑底期。",
+        "holdingsSummary": null,
+        "stageId": 1
       },
       {
         "id": 8,
@@ -799,7 +834,12 @@
         "startNav": 0.7212,
         "endNav": 0.9691,
         "changePct": 34.37,
-        "type": "peak"
+        "type": "peak",
+        "env": "2023Q1 基金 +17.77%，同期沪深300 +4.19%，AI 相关科技交易抬升了芯片风险偏好。",
+        "managerAction": "联接基金高仓位持有目标 ETF，使得基金能充分映射科技成长反弹。",
+        "attribution": "这是 2023 年最重要的一轮上冲，超额收益开始明显显现。",
+        "holdingsSummary": null,
+        "stageId": 2
       },
       {
         "id": 9,
@@ -808,7 +848,12 @@
         "startNav": 0.9691,
         "endNav": 0.7041,
         "changePct": -27.34,
-        "type": "trough"
+        "type": "trough",
+        "env": "AI 脉冲后市场快速回吐，2023Q2 基金 -7.02%，2023Q3 前段继续承压。",
+        "managerAction": "产品仍维持主题暴露，未见主动转防御板块。",
+        "attribution": "高弹性主题基金在缺乏基本面持续验证时，回撤同样剧烈。",
+        "holdingsSummary": null,
+        "stageId": 2
       },
       {
         "id": 10,
@@ -817,7 +862,12 @@
         "startNav": 0.7041,
         "endNav": 0.7783,
         "changePct": 10.54,
-        "type": "peak"
+        "type": "peak",
+        "env": "下跌途中出现阶段性修复，资金博弈情绪回暖。",
+        "managerAction": "联接基金继续高相关跟随芯片指数。",
+        "attribution": "反弹偏交易性，未构成趋势反转。",
+        "holdingsSummary": null,
+        "stageId": 2
       },
       {
         "id": 11,
@@ -826,7 +876,12 @@
         "startNav": 0.7783,
         "endNav": 0.705,
         "changePct": -9.42,
-        "type": "trough"
+        "type": "trough",
+        "env": "2023Q3 全季 -9.58%，同期沪深300 -5.22%，科技成长再度回落。",
+        "managerAction": "未见仓位主动收缩证据，继续承受指数下行。",
+        "attribution": "Beta 主导的下跌仍是主线。",
+        "holdingsSummary": null,
+        "stageId": 2
       },
       {
         "id": 12,
@@ -835,7 +890,12 @@
         "startNav": 0.705,
         "endNav": 0.7839,
         "changePct": 11.19,
-        "type": "peak"
+        "type": "peak",
+        "env": "四季度初超跌反弹，市场阶段性修复。",
+        "managerAction": "联接基金保持芯片暴露，继续跟随板块反弹。",
+        "attribution": "修复力度有限，更多是阶段性反抽。",
+        "holdingsSummary": null,
+        "stageId": 2
       },
       {
         "id": 13,
@@ -844,7 +904,12 @@
         "startNav": 0.7839,
         "endNav": 0.5334,
         "changePct": -31.96,
-        "type": "trough"
+        "type": "trough",
+        "env": "2023Q4 虽然季度数据仅 -1.79%，但进入 2024 年初继续急跌，最终在 2024-02-05 打出历史最低点 0.5334。",
+        "managerAction": "联接基金未见偏离芯片主线，经理承担的是跟踪而非择时职责。",
+        "attribution": "这是全历史最深一段单边回撤，标志此前弱修复周期彻底失败。",
+        "holdingsSummary": null,
+        "stageId": 3
       },
       {
         "id": 14,
@@ -853,7 +918,12 @@
         "startNav": 0.5334,
         "endNav": 0.6831,
         "changePct": 28.07,
-        "type": "peak"
+        "type": "peak",
+        "env": "在历史低点之后，市场出现快速修复，超跌科技板块弹性突出。",
+        "managerAction": "继续依托目标 ETF 参与板块修复。",
+        "attribution": "超跌后的第一轮修复，为 2024 年后续反转埋下基础。",
+        "holdingsSummary": null,
+        "stageId": 3
       },
       {
         "id": 15,
@@ -862,7 +932,12 @@
         "startNav": 0.6831,
         "endNav": 0.5929,
         "changePct": -13.2,
-        "type": "trough"
+        "type": "trough",
+        "env": "2024Q1 全季 -10.88%，同期沪深300 +4.46%，芯片主题相对市场依旧弱势。",
+        "managerAction": "工具型运作不改，继续承受单一主题波动。",
+        "attribution": "底部区域并不平滑，仍经历明显二次回踩。",
+        "holdingsSummary": null,
+        "stageId": 3
       },
       {
         "id": 16,
@@ -871,7 +946,12 @@
         "startNav": 0.5929,
         "endNav": 0.6916,
         "changePct": 16.65,
-        "type": "peak"
+        "type": "peak",
+        "env": "2024Q2 基金 +0.44%，虽不强但已明显好于同类均值 -3.66% 和沪深300 -2.14%。",
+        "managerAction": "联接基金维持主线暴露，在弱市中体现相对韧性。",
+        "attribution": "底部修复质量改善，相对收益开始转强。",
+        "holdingsSummary": null,
+        "stageId": 3
       },
       {
         "id": 17,
@@ -880,7 +960,12 @@
         "startNav": 0.6916,
         "endNav": 0.5592,
         "changePct": -19.14,
-        "type": "trough"
+        "type": "trough",
+        "env": "2024Q3 前段仍在反复，市场对科技成长能否持续修复尚无共识。",
+        "managerAction": "维持芯片暴露，未见风格偏离。",
+        "attribution": "翻转前最后一轮明显回撤，随后迎来政策拐点。",
+        "holdingsSummary": null,
+        "stageId": 3
       },
       {
         "id": 18,
@@ -889,7 +974,12 @@
         "startNav": 0.5592,
         "endNav": 0.8654,
         "changePct": 54.76,
-        "type": "peak"
+        "type": "peak",
+        "env": "2024 年年报原文明确提到 9 月 24 日国内宽松跟进、9 月 26 日政治局会议超预期，市场迎来大幅上涨。",
+        "managerAction": "联接基金高暴露持有芯片主题，使基金充分受益于政策与风险偏好共振。",
+        "attribution": "这是全历史最强单段上冲，属于政策催化下的高弹性重估。",
+        "holdingsSummary": null,
+        "stageId": 3
       },
       {
         "id": 19,
@@ -898,7 +988,12 @@
         "startNav": 0.8654,
         "endNav": 0.7612,
         "changePct": -12.04,
-        "type": "trough"
+        "type": "trough",
+        "env": "急涨后出现快速回吐，市场波动显著放大。",
+        "managerAction": "联接基金难以通过主动风格切换对冲短期震荡。",
+        "attribution": "高弹性也意味着高波动，趋势内回撤同样剧烈。",
+        "holdingsSummary": null,
+        "stageId": 3
       },
       {
         "id": 20,
@@ -907,7 +1002,12 @@
         "startNav": 0.7612,
         "endNav": 0.9686,
         "changePct": 27.25,
-        "type": "peak"
+        "type": "peak",
+        "env": "政策转向后的资金风险偏好继续修复，芯片主题延续强势。",
+        "managerAction": "维持主线暴露，继续跟随目标 ETF 拉升。",
+        "attribution": "反映出 2024Q4 已进入真正的趋势性修复阶段。",
+        "holdingsSummary": null,
+        "stageId": 3
       },
       {
         "id": 21,
@@ -916,7 +1016,12 @@
         "startNav": 0.9686,
         "endNav": 0.8341,
         "changePct": -13.89,
-        "type": "trough"
+        "type": "trough",
+        "env": "大涨后的获利回吐与高波动重新显现。",
+        "managerAction": "目标 ETF 暴露保持稳定，未见策略切换。",
+        "attribution": "主题行情仍处主升浪早段，但波动并不友好。",
+        "holdingsSummary": null,
+        "stageId": 3
       },
       {
         "id": 22,
@@ -925,7 +1030,12 @@
         "startNav": 0.8341,
         "endNav": 0.9216,
         "changePct": 10.49,
-        "type": "peak"
+        "type": "peak",
+        "env": "2024Q4 基金 +18.24%，同期沪深300 -2.06%，主题修复趋势延续。",
+        "managerAction": "继续维持指数暴露，兑现四季度强超额。",
+        "attribution": "2024 年以修复成功收尾，为 2025 年再上台阶奠定基础。",
+        "holdingsSummary": null,
+        "stageId": 3
       },
       {
         "id": 23,
@@ -934,7 +1044,12 @@
         "startNav": 0.9216,
         "endNav": 0.8194,
         "changePct": -11.09,
-        "type": "trough"
+        "type": "trough",
+        "env": "2025 年初外部关税担忧扰动风险资产，年报原文记载市场先行调整。",
+        "managerAction": "联接基金继续维持芯片主线暴露，净值同步承压。",
+        "attribution": "主升浪前的第一轮扰动，更多是外部冲击而非内部逻辑失效。",
+        "holdingsSummary": null,
+        "stageId": 4
       },
       {
         "id": 24,
@@ -943,7 +1058,12 @@
         "startNav": 0.8194,
         "endNav": 1.0082,
         "changePct": 23.04,
-        "type": "peak"
+        "type": "peak",
+        "env": "春节后国内大模型带动 AI 重估，年报原文明确写到“市场以 AI 为核心开启新一轮上行”。",
+        "managerAction": "高仓位持有芯片主题，联接基金充分映射 AI 算力链行情。",
+        "attribution": "2025 主升浪正式启动，主题 Beta 再次成为收益主引擎。",
+        "holdingsSummary": null,
+        "stageId": 4
       },
       {
         "id": 25,
@@ -952,7 +1072,12 @@
         "startNav": 1.0082,
         "endNav": 0.8261,
         "changePct": -18.06,
-        "type": "trough"
+        "type": "trough",
+        "env": "年报原文记载 4 月初美国对全球加征不合理关税、中国反制，中美关税摩擦升级冲击全球市场。",
+        "managerAction": "联接基金未做主动规避，净值随板块回撤。",
+        "attribution": "外部冲击引发的阶段性回撤，但未扭转年度主趋势。",
+        "holdingsSummary": null,
+        "stageId": 4
       },
       {
         "id": 26,
@@ -961,7 +1086,12 @@
         "startNav": 0.8261,
         "endNav": 0.929,
         "changePct": 12.46,
-        "type": "peak"
+        "type": "peak",
+        "env": "4 月 8 日中央汇金增持 ETF，市场稳定预期增强，指数逐步修复。",
+        "managerAction": "联接基金天然受益于 ETF 资金回流带来的主题修复。",
+        "attribution": "政策托底后，主题修复弹性重新体现。",
+        "holdingsSummary": null,
+        "stageId": 4
       },
       {
         "id": 27,
@@ -970,7 +1100,12 @@
         "startNav": 0.929,
         "endNav": 0.8524,
         "changePct": -8.25,
-        "type": "trough"
+        "type": "trough",
+        "env": "关税余波与科技板块高波动并存，二季度整体走势偏反复，2025Q2 全季 -0.60%。",
+        "managerAction": "仍以维持指数暴露为主，缺乏主动对冲。",
+        "attribution": "趋势向上中的正常震荡，但也反映主题工具的回撤弹性同样大。",
+        "holdingsSummary": null,
+        "stageId": 4
       },
       {
         "id": 28,
@@ -979,7 +1114,12 @@
         "startNav": 0.8524,
         "endNav": 1.2007,
         "changePct": 40.86,
-        "type": "peak"
+        "type": "peak",
+        "env": "2025Q3 季报原文称科技成长新动能景气优势得到中期数据验证，科技成长进一步向 AI 和新能源等领域集中。",
+        "managerAction": "当季权益投资为 0、基金投资占总资产 89.42%，说明经理并未偏离联接基金主线，而是高比例持有目标 ETF。",
+        "attribution": "基金上涨来自主题大级别行情，而不是主动选股胜利。",
+        "holdingsSummary": null,
+        "stageId": 4
       },
       {
         "id": 29,
@@ -988,7 +1128,12 @@
         "startNav": 1.2007,
         "endNav": 1.0502,
         "changePct": -12.53,
-        "type": "trough"
+        "type": "trough",
+        "env": "大涨后的短期获利回吐，主题高波动属性重新显现。",
+        "managerAction": "联接基金继续维持主线暴露，波动随之放大。",
+        "attribution": "主升浪中的正常洗盘，但并不适合低波动偏好投资者。",
+        "holdingsSummary": null,
+        "stageId": 4
       },
       {
         "id": 30,
@@ -997,7 +1142,12 @@
         "startNav": 1.0502,
         "endNav": 1.3637,
         "changePct": 29.85,
-        "type": "peak"
+        "type": "peak",
+        "env": "2025Q3 全季 +48.00%，显著跑赢同类 +23.0% 和沪深300 +17.9%。",
+        "managerAction": "延续高仓位联接工具定位，几乎吃满主题上行弹性。",
+        "attribution": "这是 2025 年最关键的主升浪区间。",
+        "holdingsSummary": null,
+        "stageId": 4
       },
       {
         "id": 31,
@@ -1006,7 +1156,12 @@
         "startNav": 1.3637,
         "endNav": 1.2045,
         "changePct": -11.67,
-        "type": "trough"
+        "type": "trough",
+        "env": "主升浪后进入高位震荡，资金分歧增大。",
+        "managerAction": "未见明显主动降风险动作。",
+        "attribution": "高位阶段波动显著扩大，追高风险开始显化。",
+        "holdingsSummary": null,
+        "stageId": 4
       },
       {
         "id": 32,
@@ -1015,7 +1170,12 @@
         "startNav": 1.2045,
         "endNav": 1.3299,
         "changePct": 10.41,
-        "type": "peak"
+        "type": "peak",
+        "env": "高位震荡中再次冲高，市场对科技主线预期仍强。",
+        "managerAction": "维持联接仓位，继续跟随芯片主线。",
+        "attribution": "趋势尚未走坏，但风险收益比开始下降。",
+        "holdingsSummary": null,
+        "stageId": 4
       },
       {
         "id": 33,
@@ -1024,7 +1184,12 @@
         "startNav": 1.3299,
         "endNav": 1.1296,
         "changePct": -15.06,
-        "type": "trough"
+        "type": "trough",
+        "env": "2025Q4 全季 -7.27%，同期沪深300 -0.23%，高位回撤开始明显强于大盘。",
+        "managerAction": "联接基金延续高暴露，主题回撤未被主动对冲。",
+        "attribution": "说明芯片主题在高位同样面临去估值风险。",
+        "holdingsSummary": null,
+        "stageId": 4
       },
       {
         "id": 34,
@@ -1033,7 +1198,12 @@
         "startNav": 1.1296,
         "endNav": 1.4656,
         "changePct": 29.75,
-        "type": "peak"
+        "type": "peak",
+        "env": "政策方向继续支持集成电路关键核心技术攻关，叠加 2025 年末至 2026 年初产业景气延续，行情重新走强。",
+        "managerAction": "继续通过目标 ETF 维持芯片暴露，受益于主线修复。",
+        "attribution": "高位回撤后再次创新高，说明主趋势尚未结束。",
+        "holdingsSummary": null,
+        "stageId": 4
       },
       {
         "id": 35,
@@ -1042,7 +1212,12 @@
         "startNav": 1.4656,
         "endNav": 1.1658,
         "changePct": -20.46,
-        "type": "trough"
+        "type": "trough",
+        "env": "2026Q1 季报原文记载，关税威胁与和解、美伊冲突、美联储紧缩预期、AI 投资回报担忧交替冲击市场情绪。",
+        "managerAction": "经理明确表示采用量化和人工管理相结合的方法、合理安排仓位及头寸，将跟踪误差控制在合理水平。",
+        "attribution": "系统性外部冲击主导下跌，基金工具属性决定其难以脱离板块波动。",
+        "holdingsSummary": null,
+        "stageId": 4
       },
       {
         "id": 36,
@@ -1051,7 +1226,12 @@
         "startNav": 1.1658,
         "endNav": 1.744,
         "changePct": 49.6,
-        "type": "peak"
+        "type": "peak",
+        "env": "工信部一季度发布会和官方产业数据继续验证集成电路高增长，市场对芯片主线重新定价。",
+        "managerAction": "2026Q1 期末目标 ETF 516640 占基金净值 96.88%，股票直投为 0，说明组合仍高度聚焦芯片指数暴露。",
+        "attribution": "在高仓位联接结构下，基金几乎吃满了芯片主题再上冲的弹性，也把当前净值推到历史新高。",
+        "holdingsSummary": null,
+        "stageId": 4
       }
     ],
     "totalInflectionPoints": 36,

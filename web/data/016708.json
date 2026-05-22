@@ -1,8 +1,8 @@
 {
   "id": "016708",
   "meta": {
-    "reportDate": "2026-05-19",
-    "dataDate": "2026-05-18",
+    "reportDate": "2026-05-22",
+    "dataDate": "2026-05-22",
     "disclaimer": "本报告仅供个人学习和信息整理使用，所有分析内容均不构成任何投资建议。投资有风险，入市需谨慎，请依据自身判断做出投资决策。"
   },
   "basic": {
@@ -892,7 +892,12 @@
         "startNav": 0.9701,
         "endNav": 1.0857,
         "changePct": 11.92,
-        "type": "peak"
+        "type": "peak",
+        "env": "产品成立初期即遇到有色主题快速脉冲，资源股风险偏好短期抬升。",
+        "managerAction": "赵宗庭阶段，产品尚在建仓，联接基金框架决定了其主要任务是建立目标 ETF 暴露而非主动择时。",
+        "attribution": "建仓期的主题 Beta 拉动为主，短期弹性强但持续性不足，言行一致性以“被动跟踪框架”判断为 ✅。",
+        "holdingsSummary": null,
+        "stageId": 1
       },
       {
         "id": 2,
@@ -901,7 +906,12 @@
         "startNav": 1.0857,
         "endNav": 0.9822,
         "changePct": -9.53,
-        "type": "trough"
+        "type": "trough",
+        "env": "初期冲高后回撤，显示资源主题并未形成持续主线。",
+        "managerAction": "仍属建仓期，基金缺少主动防守属性，回撤更多来自主题本身。",
+        "attribution": "Beta 回撤主导，联接结构没有提供额外缓冲，言行一致性 ✅。",
+        "holdingsSummary": null,
+        "stageId": 1
       },
       {
         "id": 3,
@@ -910,7 +920,12 @@
         "startNav": 0.9822,
         "endNav": 1.1519,
         "changePct": 17.28,
-        "type": "peak"
+        "type": "peak",
+        "env": "春节前后市场对复苏与资源链条存在乐观预期，有色主题再度上冲。",
+        "managerAction": "赵宗庭阶段仍以高纯度联接框架承接行情。",
+        "attribution": "主题 Beta 再次主导上行，但后续未能维持，说明早期行情更偏脉冲式，言行一致性 ✅。",
+        "holdingsSummary": null,
+        "stageId": 1
       },
       {
         "id": 4,
@@ -919,7 +934,12 @@
         "startNav": 1.1519,
         "endNav": 1.02,
         "changePct": -11.45,
-        "type": "trough"
+        "type": "trough",
+        "env": "高位回吐开始，资源主题从预期交易切换到业绩与商品现实检验。",
+        "managerAction": "联接基金依旧高暴露运行，没有通过资产切换降低波动。",
+        "attribution": "这段回撤开启了后续长达一年的低点下探，产品工具属性清晰，但防御能力弱，言行一致性 ✅。",
+        "holdingsSummary": null,
+        "stageId": 1
       },
       {
         "id": 5,
@@ -928,7 +948,12 @@
         "startNav": 1.02,
         "endNav": 1.122,
         "changePct": 10.0,
-        "type": "peak"
+        "type": "peak",
+        "env": "主题出现阶段性修复，但力度不足以扭转全年震荡格局。",
+        "managerAction": "基金继续保持主题纯度，没有明显偏离。",
+        "attribution": "反弹更多是情绪与商品价格共振，不是结构性反转，言行一致性 ✅。",
+        "holdingsSummary": null,
+        "stageId": 1
       },
       {
         "id": 6,
@@ -937,7 +962,12 @@
         "startNav": 1.122,
         "endNav": 0.9512,
         "changePct": -15.22,
-        "type": "trough"
+        "type": "trough",
+        "env": "有色链条景气下修，市场重新评估商品价格和需求支撑。",
+        "managerAction": "产品没有主动减少主题暴露，继续承担资源股下行压力。",
+        "attribution": "阶段性跌幅扩大，联接基金的高纯度属性在下跌阶段也被完整放大，言行一致性 ✅。",
+        "holdingsSummary": null,
+        "stageId": 1
       },
       {
         "id": 7,
@@ -946,7 +976,12 @@
         "startNav": 0.9512,
         "endNav": 1.0303,
         "changePct": 8.32,
-        "type": "peak"
+        "type": "peak",
+        "env": "资源品出现一次中继修复，但幅度有限。",
+        "managerAction": "赵宗庭阶段仍以指数跟踪为主，没有改变产品形态。",
+        "attribution": "弱势中的反弹，验证了产品主要赚 Beta，不依赖个股 Alpha，言行一致性 ✅。",
+        "holdingsSummary": null,
+        "stageId": 1
       },
       {
         "id": 8,
@@ -955,7 +990,12 @@
         "startNav": 1.0303,
         "endNav": 0.7693,
         "changePct": -25.33,
-        "type": "trough"
+        "type": "trough",
+        "env": "这是成立以来最痛苦的一段下行区间，最终形成全样本最低点。",
+        "managerAction": "余昊于 2023-12-28 接任，仍处联接框架内运行，策略上没有偏离目标指数。",
+        "attribution": "大回撤主要是主题弱势与高暴露叠加，不是风格漂移所致，言行一致性 ✅，但抗跌性差。",
+        "holdingsSummary": null,
+        "stageId": 2
       },
       {
         "id": 9,
@@ -964,7 +1004,12 @@
         "startNav": 0.7693,
         "endNav": 1.0923,
         "changePct": 41.99,
-        "type": "peak"
+        "type": "peak",
+        "env": "低位后出现强势修复，资源板块重新获得市场关注。",
+        "managerAction": "2024H1 报告明确写到“本基金的投资策略主要通过交易所买卖或申购赎回的方式投资于目标 ETF”，到 2024-06-30 目标 ETF 占净值 93.50%。",
+        "attribution": "这是联接基金工具属性发挥正面效果的典型区间，言行一致性 ✅。",
+        "holdingsSummary": null,
+        "stageId": 2
       },
       {
         "id": 10,
@@ -973,7 +1018,12 @@
         "startNav": 1.0923,
         "endNav": 0.9421,
         "changePct": -13.75,
-        "type": "trough"
+        "type": "trough",
+        "env": "2024H1 报告指出“A股市场总体呈现区间震荡行情，行业轮动较快”，有色链条修复后快速回撤。",
+        "managerAction": "同一份中报还显示“本基金本报告期末未持有股票”，说明这一阶段几乎完全由目标 ETF 主导。",
+        "attribution": "回撤来自主题波动，而不是直持仓位失误，言行一致性 ✅。",
+        "holdingsSummary": null,
+        "stageId": 2
       },
       {
         "id": 11,
@@ -982,7 +1032,12 @@
         "startNav": 0.9421,
         "endNav": 1.0183,
         "changePct": 8.09,
-        "type": "peak"
+        "type": "peak",
+        "env": "阶段性修复继续，但力度不大。",
+        "managerAction": "单宽之于 2024-06-11 接任，本基金仍沿用高比例目标 ETF 的被动联接框架。",
+        "attribution": "新经理接棒后没有改变产品底层逻辑，过渡相对平稳，言行一致性 ✅。",
+        "holdingsSummary": null,
+        "stageId": 2
       },
       {
         "id": 12,
@@ -991,7 +1046,12 @@
         "startNav": 1.0183,
         "endNav": 0.8413,
         "changePct": -17.38,
-        "type": "trough"
+        "type": "trough",
+        "env": "三季度前半段主题再度转弱，市场对资源品的风险偏好回落。",
+        "managerAction": "虽未获取到 2024Q3 季报详细持仓段落，但结合产品属性和前后报告，可判断仍以目标 ETF 为主仓位。",
+        "attribution": "被动高暴露导致阶段回撤明显，言行一致性按工具属性判断为 ✅。",
+        "holdingsSummary": null,
+        "stageId": 2
       },
       {
         "id": 13,
@@ -1000,7 +1060,12 @@
         "startNav": 0.8413,
         "endNav": 1.0907,
         "changePct": 29.64,
-        "type": "peak"
+        "type": "peak",
+        "env": "9 月末政策修复带动市场风险偏好快速回升，有色主题同步走强。",
+        "managerAction": "单宽之阶段没有做防御性偏离，完整承接了这轮风险偏好修复。",
+        "attribution": "这是典型的主题 Beta 急弹，联接结构在上行阶段效率很高，言行一致性 ✅。",
+        "holdingsSummary": null,
+        "stageId": 3
       },
       {
         "id": 14,
@@ -1009,7 +1074,12 @@
         "startNav": 1.0907,
         "endNav": 0.994,
         "changePct": -8.87,
-        "type": "trough"
+        "type": "trough",
+        "env": "急涨后的第一轮获利回吐。",
+        "managerAction": "2024 年年报后来确认年末目标 ETF 占净值仍高达 94.34%，说明基金没有通过主动降仓来平滑这段回撤。",
+        "attribution": "高弹性工具在急涨后自然进入高波动，言行一致性 ✅。",
+        "holdingsSummary": null,
+        "stageId": 3
       },
       {
         "id": 15,
@@ -1018,7 +1088,12 @@
         "startNav": 0.994,
         "endNav": 1.0815,
         "changePct": 8.8,
-        "type": "peak"
+        "type": "peak",
+        "env": "政策修复带来的二次冲高延续。",
+        "managerAction": "仍是围绕目标 ETF 运行，没有风格漂移。",
+        "attribution": "短促修复，主要仍由主题风险偏好推动，言行一致性 ✅。",
+        "holdingsSummary": null,
+        "stageId": 3
       },
       {
         "id": 16,
@@ -1027,7 +1102,12 @@
         "startNav": 1.0815,
         "endNav": 0.9415,
         "changePct": -12.94,
-        "type": "trough"
+        "type": "trough",
+        "env": "2024 年年报写到“市场风格总体向成长风格进行转换”，但有色主题在年末并未持续占优，出现明显回撤。",
+        "managerAction": "年报同时披露报告期末未持有股票、目标 ETF 占净值 94.34%，说明直持仓位极低。",
+        "attribution": "四季度风格切换导致明显跑输，验证了主题集中度的双刃剑属性，言行一致性 ✅。",
+        "holdingsSummary": null,
+        "stageId": 4
       },
       {
         "id": 17,
@@ -1036,7 +1116,12 @@
         "startNav": 0.9415,
         "endNav": 1.0722,
         "changePct": 13.88,
-        "type": "peak"
+        "type": "peak",
+        "env": "2025Q1 录得 10.14% 的季度收益，并显著跑赢同类与沪深300，显示资源品景气重新回暖。",
+        "managerAction": "虽未在本轮搜索中落到 2025Q1 原文，但从前后季度可判断，产品继续以高比例目标 ETF 承接修复。",
+        "attribution": "这一段是 2025 年主升浪前的预热阶段，言行一致性 ✅。",
+        "holdingsSummary": null,
+        "stageId": 4
       },
       {
         "id": 18,
@@ -1045,7 +1130,12 @@
         "startNav": 1.0722,
         "endNav": 0.935,
         "changePct": -12.8,
-        "type": "trough"
+        "type": "trough",
+        "env": "主升浪前仍经历一次快速回撤，反映资源主题的高波动特征。",
+        "managerAction": "联接结构未变，意味着回撤基本由主题本身决定。",
+        "attribution": "回撤后没有破坏全年主线，更多是高波动工具的正常洗盘，言行一致性 ✅。",
+        "holdingsSummary": null,
+        "stageId": 4
       },
       {
         "id": 19,
@@ -1054,7 +1144,12 @@
         "startNav": 0.935,
         "endNav": 1.7072,
         "changePct": 82.59,
-        "type": "peak"
+        "type": "peak",
+        "env": "这是全样本最核心主升浪。2025Q3 季报写到“3季度，美联储降息落地……国家高度重视发展新质生产力……市场整体经历了上涨行情”。",
+        "managerAction": "2025Q3 期末目标 ETF 占净值 94.38%，直持股票仅 0.63%，说明收益几乎全部来自高纯度有色主题暴露。",
+        "attribution": "标准的行业 Beta 主导大行情，基金没有通过主动管理稀释弹性，言行一致性 ✅。",
+        "holdingsSummary": null,
+        "stageId": 4
       },
       {
         "id": 20,
@@ -1063,7 +1158,12 @@
         "startNav": 1.7072,
         "endNav": 1.5618,
         "changePct": -8.52,
-        "type": "trough"
+        "type": "trough",
+        "env": "主升浪中的快速回吐，属于高位波动。",
+        "managerAction": "2025Q4 季报后续显示目标 ETF 占净值 92.67%，仍是绝对主仓位。",
+        "attribution": "高位波动阶段没有主动防御垫，言行一致性 ✅。",
+        "holdingsSummary": null,
+        "stageId": 4
       },
       {
         "id": 21,
@@ -1072,7 +1172,12 @@
         "startNav": 1.5618,
         "endNav": 2.3729,
         "changePct": 51.93,
-        "type": "peak"
+        "type": "peak",
+        "env": "Reuters 标题级证据显示 2026-01 期间“金属行情从黄金白银扩散到更广泛品种”“铜价突破 14000 美元/吨”。",
+        "managerAction": "2025Q4 季报显示直持股票提升到 4.22%，但目标 ETF 仍高达 92.67%，说明增量暴露仍主要由目标 ETF 提供。",
+        "attribution": "这是商品价格和风险偏好共振的极致阶段，基金因结构纯粹而获得高弹性，言行一致性 ✅。",
+        "holdingsSummary": null,
+        "stageId": 5
       },
       {
         "id": 22,
@@ -1081,7 +1186,12 @@
         "startNav": 2.3729,
         "endNav": 1.99,
         "changePct": -16.14,
-        "type": "trough"
+        "type": "trough",
+        "env": "Reuters 标题显示 2026-02 初金属与原油一度大幅下跌，主线从单边上涨切入高位震荡。",
+        "managerAction": "2026Q1 报告写到“地缘政治事件推升了石油能源价格……压缩了潜在降息空间”，同样侧面解释了这段急跌。",
+        "attribution": "高位商品回撤对本基金冲击极大，说明短期择时窗口非常关键，但产品自身不会替持有人做这个动作，言行一致性 ✅。",
+        "holdingsSummary": null,
+        "stageId": 5
       },
       {
         "id": 23,
@@ -1090,7 +1200,12 @@
         "startNav": 1.99,
         "endNav": 2.2826,
         "changePct": 14.7,
-        "type": "peak"
+        "type": "peak",
+        "env": "急跌后迅速修复，说明资金仍愿意回到有色主线。",
+        "managerAction": "2026Q1 继续维持高目标 ETF 仓位，叠加少量直持资源股与国债缓冲。",
+        "attribution": "修复能力很强，但这更像高位波动中的反抽，而非新一轮低位起涨，言行一致性 ✅。",
+        "holdingsSummary": null,
+        "stageId": 5
       },
       {
         "id": 24,
@@ -1099,7 +1214,12 @@
         "startNav": 2.2826,
         "endNav": 1.7122,
         "changePct": -24.99,
-        "type": "trough"
+        "type": "trough",
+        "env": "高位情绪再度逆转，商品与风险资产共振回撤。",
+        "managerAction": "2026Q1 季报显示目标 ETF 占净值 91.16%，直持股票 3.97%，固定收益投资 4.53%，说明虽有少量缓冲，但主导因素仍是目标 ETF。",
+        "attribution": "这是“高位高纯度暴露”带来的典型深回撤，言行一致性 ✅，但风险承载要求极高。",
+        "holdingsSummary": null,
+        "stageId": 5
       },
       {
         "id": 25,
@@ -1108,7 +1228,12 @@
         "startNav": 1.7122,
         "endNav": 2.0436,
         "changePct": 19.36,
-        "type": "peak"
+        "type": "peak",
+        "env": "大跌后重新反弹，说明有色主线并未彻底破坏。",
+        "managerAction": "维持联接结构延续，直持股票主要集中在紫金矿业、洛阳钼业、北方稀土、中国铝业等资源龙头。",
+        "attribution": "反弹力度可观，但更像高位区间波动中的修复而非趋势性新高确认，言行一致性 ✅。",
+        "holdingsSummary": null,
+        "stageId": 5
       },
       {
         "id": 26,
@@ -1117,7 +1242,12 @@
         "startNav": 2.0436,
         "endNav": 1.8641,
         "changePct": -8.78,
-        "type": "trough"
+        "type": "trough",
+        "env": "近 1 周回撤 8.78%，同期同类平均仅 -2.43%，说明主题短期波动再度放大。",
+        "managerAction": "截至最新净值，产品仍保持高纯度主题属性，没有出现防御性切换证据。",
+        "attribution": "当前基金已经从“强趋势阶段”切换到“高位博弈阶段”，对新资金而言，不宜把 2025 年的单边上涨经验线性外推。",
+        "holdingsSummary": null,
+        "stageId": 5
       }
     ],
     "totalInflectionPoints": 26,

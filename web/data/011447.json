@@ -1,8 +1,8 @@
 {
   "id": "011447",
   "meta": {
-    "reportDate": "2026-05-18",
-    "dataDate": "2026-05-15",
+    "reportDate": "2026-05-22",
+    "dataDate": "2026-05-22",
     "disclaimer": "本报告仅供个人学习和信息整理使用，所有分析内容均不构成任何投资建议。投资有风险，入市需谨慎，请依据自身判断做出投资决策。"
   },
   "basic": {
@@ -858,460 +858,211 @@
         "startNav": 0.9971,
         "endNav": 1.4301,
         "changePct": 43.43,
-        "type": "peak"
+        "type": "peak",
+        "env": "新能源赛道在 2021 年上半年仍处于高景气扩张阶段，基金成立后快速进入上行区间。",
+        "managerAction": "2021Q2 前十持仓以晶澳科技、中国宝安、星源材质、阳光电源、宁德时代为代表，集中在光伏和锂电链。",
+        "attribution": "新基金建仓后迅速踩中高弹性主线，属于行业 beta 和个股 alpha 共同驱动的起步阶段。",
+        "holdingsSummary": null,
+        "stageId": 1
       },
       {
         "id": 2,
-        "startDate": "2021-07-12",
-        "endDate": "2021-07-19",
-        "startNav": 1.4301,
-        "endNav": 1.3362,
-        "changePct": -6.57,
-        "type": "trough"
-      },
-      {
-        "id": 3,
-        "startDate": "2021-07-19",
-        "endDate": "2021-08-06",
-        "startNav": 1.3362,
-        "endNav": 1.5923,
-        "changePct": 19.17,
-        "type": "peak"
-      },
-      {
-        "id": 4,
-        "startDate": "2021-08-06",
-        "endDate": "2021-08-18",
-        "startNav": 1.5923,
-        "endNav": 1.4514,
-        "changePct": -8.85,
-        "type": "trough"
-      },
-      {
-        "id": 5,
-        "startDate": "2021-08-18",
-        "endDate": "2021-09-15",
-        "startNav": 1.4514,
-        "endNav": 1.695,
-        "changePct": 16.78,
-        "type": "peak"
-      },
-      {
-        "id": 6,
-        "startDate": "2021-09-15",
-        "endDate": "2021-10-12",
-        "startNav": 1.695,
-        "endNav": 1.4416,
-        "changePct": -14.95,
-        "type": "trough"
-      },
-      {
-        "id": 7,
         "startDate": "2021-10-12",
         "endDate": "2021-11-29",
         "startNav": 1.4416,
         "endNav": 1.822,
         "changePct": 26.39,
-        "type": "peak"
+        "type": "peak",
+        "env": "新能源产业链景气维持高位，基金完成第一轮拉升。",
+        "managerAction": "2021Q4 前十切到盛新锂能、中科电气、宁德时代、恩捷股份等，锂电纯度继续提升。",
+        "attribution": "这一段奠定了产品“高弹性新能源主动基金”的风格标签。",
+        "holdingsSummary": "盛新锂能/中科电气/宁德时代/恩捷股份等，锂电纯度继续提升。",
+        "stageId": 1
       },
       {
-        "id": 8,
+        "id": 3,
         "startDate": "2021-11-29",
         "endDate": "2022-01-11",
         "startNav": 1.822,
         "endNav": 1.4293,
         "changePct": -21.55,
-        "type": "trough"
+        "type": "trough",
+        "env": "高位主题资产开始进入剧烈波动区。",
+        "managerAction": "2022Q1 持仓集中于宁德时代、利元亨、恩捷股份、星源材质等，仍然保持新能源主仓。",
+        "attribution": "基金在高位没有明显防御动作，第一次大幅回撤已经暴露其净值弹性极高、回撤也极深的特征。",
+        "holdingsSummary": null,
+        "stageId": 1
       },
       {
-        "id": 9,
-        "startDate": "2022-01-11",
-        "endDate": "2022-01-17",
-        "startNav": 1.4293,
-        "endNav": 1.5357,
-        "changePct": 7.44,
-        "type": "peak"
-      },
-      {
-        "id": 10,
-        "startDate": "2022-01-17",
-        "endDate": "2022-02-11",
-        "startNav": 1.5357,
-        "endNav": 1.3484,
-        "changePct": -12.2,
-        "type": "trough"
-      },
-      {
-        "id": 11,
-        "startDate": "2022-02-11",
-        "endDate": "2022-02-28",
-        "startNav": 1.3484,
-        "endNav": 1.5259,
-        "changePct": 13.16,
-        "type": "peak"
-      },
-      {
-        "id": 12,
-        "startDate": "2022-02-28",
-        "endDate": "2022-03-15",
-        "startNav": 1.5259,
-        "endNav": 1.3415,
-        "changePct": -12.08,
-        "type": "trough"
-      },
-      {
-        "id": 13,
-        "startDate": "2022-03-15",
-        "endDate": "2022-03-21",
-        "startNav": 1.3415,
-        "endNav": 1.4337,
-        "changePct": 6.87,
-        "type": "peak"
-      },
-      {
-        "id": 14,
-        "startDate": "2022-03-21",
-        "endDate": "2022-04-26",
-        "startNav": 1.4337,
-        "endNav": 1.0582,
-        "changePct": -26.19,
-        "type": "trough"
-      },
-      {
-        "id": 15,
+        "id": 4,
         "startDate": "2022-04-26",
         "endDate": "2022-08-01",
         "startNav": 1.0582,
         "endNav": 1.6224,
         "changePct": 53.32,
-        "type": "peak"
+        "type": "peak",
+        "env": "2022 年中新能源链在波动中出现一波强修复。",
+        "managerAction": "2022Q2 前十为宁德时代、东山精密、利元亨、国轩高科等，强调电池与设备链。",
+        "attribution": "典型高 beta 反弹，基金在顺风窗口能快速收复失地，但并不意味着趋势稳定。",
+        "holdingsSummary": null,
+        "stageId": 2
       },
       {
-        "id": 16,
+        "id": 5,
         "startDate": "2022-08-01",
         "endDate": "2022-10-10",
         "startNav": 1.6224,
         "endNav": 1.2758,
         "changePct": -21.36,
-        "type": "trough"
+        "type": "trough",
+        "env": "行业进入再平衡，市场波动上升。",
+        "managerAction": "2022Q3 前十出现宁德时代、阳光电源、晶澳科技，横跨锂电和光伏。",
+        "attribution": "基金对新能源内部切换虽有尝试，但整体仍承受较高行业回撤。",
+        "holdingsSummary": null,
+        "stageId": 2
       },
       {
-        "id": 17,
-        "startDate": "2022-10-10",
-        "endDate": "2022-11-04",
-        "startNav": 1.2758,
-        "endNav": 1.4214,
-        "changePct": 11.41,
-        "type": "peak"
-      },
-      {
-        "id": 18,
-        "startDate": "2022-11-04",
-        "endDate": "2022-12-23",
-        "startNav": 1.4214,
-        "endNav": 1.2028,
-        "changePct": -15.38,
-        "type": "trough"
-      },
-      {
-        "id": 19,
-        "startDate": "2022-12-23",
-        "endDate": "2023-02-01",
-        "startNav": 1.2028,
-        "endNav": 1.4171,
-        "changePct": 17.82,
-        "type": "peak"
-      },
-      {
-        "id": 20,
+        "id": 6,
         "startDate": "2023-02-01",
         "endDate": "2023-03-17",
         "startNav": 1.4171,
         "endNav": 1.1956,
         "changePct": -15.63,
-        "type": "trough"
+        "type": "trough",
+        "env": "新能源主线修复不足，市场风格切换。",
+        "managerAction": "2023Q1 前十出现晶澳科技、阳光电源、浙江仙通、中际旭创，已经开始掺入泛科技和汽车零部件。",
+        "attribution": "这是产品从“纯新能源”走向“泛科技制造”的早期信号，风格边界开始变模糊。",
+        "holdingsSummary": null,
+        "stageId": 2
       },
       {
-        "id": 21,
-        "startDate": "2023-03-17",
-        "endDate": "2023-04-03",
-        "startNav": 1.1956,
-        "endNav": 1.2957,
-        "changePct": 8.37,
-        "type": "peak"
-      },
-      {
-        "id": 22,
-        "startDate": "2023-04-03",
-        "endDate": "2023-06-08",
-        "startNav": 1.2957,
-        "endNav": 1.1676,
-        "changePct": -9.89,
-        "type": "trough"
-      },
-      {
-        "id": 23,
-        "startDate": "2023-06-08",
-        "endDate": "2023-06-20",
-        "startNav": 1.1676,
-        "endNav": 1.2953,
-        "changePct": 10.94,
-        "type": "peak"
-      },
-      {
-        "id": 24,
+        "id": 7,
         "startDate": "2023-06-20",
         "endDate": "2024-02-05",
         "startNav": 1.2953,
         "endNav": 0.7977,
         "changePct": -38.42,
-        "type": "trough"
+        "type": "trough",
+        "env": "这是全期最重要的熊市下坠段。",
+        "managerAction": "2023Q3 前十为宁德时代、天宜上佳、沪电股份、盛弘股份、银轮股份；2023Q4 又切到沪电股份、银轮股份、大华股份等，新能源纯度明显下滑。",
+        "attribution": "基金既没有守住原有新能源高弹性优势，也没有通过风格漂移获得更稳定回报，最终在 2024-02-05 打出全期低点 0.7977。",
+        "holdingsSummary": "沪电股份/银轮股份/大华股份等，新能源纯度明显下滑。",
+        "stageId": 3
       },
       {
-        "id": 25,
+        "id": 8,
         "startDate": "2024-02-05",
         "endDate": "2024-03-18",
         "startNav": 0.7977,
         "endNav": 1.0174,
         "changePct": 27.54,
-        "type": "peak"
+        "type": "peak",
+        "env": "深跌后的技术性修复。",
+        "managerAction": "2024Q1 前十为浙江仙通、天成自控、TCL科技、生益电子等，进一步偏离传统新能源核心主链。",
+        "attribution": "这是低位修复而不是主线趋势确立，反弹后并没有形成持续上攻结构。",
+        "holdingsSummary": null,
+        "stageId": 3
       },
       {
-        "id": 26,
-        "startDate": "2024-03-18",
-        "endDate": "2024-03-27",
-        "startNav": 1.0174,
-        "endNav": 0.9355,
-        "changePct": -8.05,
-        "type": "trough"
-      },
-      {
-        "id": 27,
-        "startDate": "2024-03-27",
-        "endDate": "2024-04-01",
-        "startNav": 0.9355,
-        "endNav": 0.9969,
-        "changePct": 6.56,
-        "type": "peak"
-      },
-      {
-        "id": 28,
-        "startDate": "2024-04-01",
-        "endDate": "2024-04-16",
-        "startNav": 0.9969,
-        "endNav": 0.9266,
-        "changePct": -7.05,
-        "type": "trough"
-      },
-      {
-        "id": 29,
-        "startDate": "2024-04-16",
-        "endDate": "2024-06-18",
-        "startNav": 0.9266,
-        "endNav": 1.0197,
-        "changePct": 10.05,
-        "type": "peak"
-      },
-      {
-        "id": 30,
-        "startDate": "2024-06-18",
-        "endDate": "2024-07-08",
-        "startNav": 1.0197,
-        "endNav": 0.9561,
-        "changePct": -6.24,
-        "type": "trough"
-      },
-      {
-        "id": 31,
-        "startDate": "2024-07-08",
-        "endDate": "2024-07-16",
-        "startNav": 0.9561,
-        "endNav": 1.0339,
-        "changePct": 8.14,
-        "type": "peak"
-      },
-      {
-        "id": 32,
-        "startDate": "2024-07-16",
-        "endDate": "2024-09-23",
-        "startNav": 1.0339,
-        "endNav": 0.8897,
-        "changePct": -13.95,
-        "type": "trough"
-      },
-      {
-        "id": 33,
+        "id": 9,
         "startDate": "2024-09-23",
         "endDate": "2024-10-08",
         "startNav": 0.8897,
         "endNav": 1.1276,
         "changePct": 26.74,
-        "type": "peak"
+        "type": "peak",
+        "env": "市场整体风险偏好修复，基金进入新一轮反弹窗口。",
+        "managerAction": "2024Q3 前十为景旺电子、电连技术、上能电气等，电子制造和设备权重较高。",
+        "attribution": "产品进入“泛制造修复”而非纯新能源主升浪，为后续再切回新能源做了过渡。",
+        "holdingsSummary": null,
+        "stageId": 3
       },
       {
-        "id": 34,
-        "startDate": "2024-10-08",
-        "endDate": "2024-10-16",
-        "startNav": 1.1276,
-        "endNav": 1.014,
-        "changePct": -10.07,
-        "type": "trough"
-      },
-      {
-        "id": 35,
-        "startDate": "2024-10-16",
-        "endDate": "2024-11-11",
-        "startNav": 1.014,
-        "endNav": 1.0949,
-        "changePct": 7.98,
-        "type": "peak"
-      },
-      {
-        "id": 36,
-        "startDate": "2024-11-11",
-        "endDate": "2025-01-03",
-        "startNav": 1.0949,
-        "endNav": 0.9776,
-        "changePct": -10.71,
-        "type": "trough"
-      },
-      {
-        "id": 37,
+        "id": 10,
         "startDate": "2025-01-03",
         "endDate": "2025-02-21",
         "startNav": 0.9776,
         "endNav": 1.1852,
         "changePct": 21.24,
-        "type": "peak"
+        "type": "peak",
+        "env": "市场对成长制造方向重新定价。",
+        "managerAction": "2025Q1 前十以华阳集团、博俊科技、欣旺达、道氏技术等为代表，仍未完全回到新能源主链。",
+        "attribution": "反弹有效，但风格仍偏过渡性。",
+        "holdingsSummary": null,
+        "stageId": 3
       },
       {
-        "id": 38,
-        "startDate": "2025-02-21",
-        "endDate": "2025-04-08",
-        "startNav": 1.1852,
-        "endNav": 0.9317,
-        "changePct": -21.39,
-        "type": "trough"
-      },
-      {
-        "id": 39,
+        "id": 11,
         "startDate": "2025-04-08",
         "endDate": "2025-09-01",
         "startNav": 0.9317,
         "endNav": 1.5423,
         "changePct": 65.54,
-        "type": "peak"
+        "type": "peak",
+        "env": "2025 年中后新能源链景气明显改善，储能和设备方向成为新的盈利主线。",
+        "managerAction": "2025Q2 前十出现沪电股份、华阳集团、宁德时代、领益智造等；到 2025Q3，前十切为宁德时代、联赢激光、兆易创新、欣旺达、中一科技等，新能源与设备链重新居核心。",
+        "attribution": "这是本轮修复最关键的上升段，证明经理重新找回主线后，弹性能力仍然很强。",
+        "holdingsSummary": null,
+        "stageId": 4
       },
       {
-        "id": 40,
-        "startDate": "2025-09-01",
-        "endDate": "2025-09-04",
-        "startNav": 1.5423,
-        "endNav": 1.4225,
-        "changePct": -7.77,
-        "type": "trough"
-      },
-      {
-        "id": 41,
-        "startDate": "2025-09-04",
-        "endDate": "2025-10-09",
-        "startNav": 1.4225,
-        "endNav": 1.6065,
-        "changePct": 12.93,
-        "type": "peak"
-      },
-      {
-        "id": 42,
-        "startDate": "2025-10-09",
-        "endDate": "2025-10-17",
-        "startNav": 1.6065,
-        "endNav": 1.4458,
-        "changePct": -10.0,
-        "type": "trough"
-      },
-      {
-        "id": 43,
+        "id": 12,
         "startDate": "2025-10-17",
         "endDate": "2025-11-17",
         "startNav": 1.4458,
         "endNav": 1.7611,
         "changePct": 21.81,
-        "type": "peak"
+        "type": "peak",
+        "env": "新能源主线由中游制造进一步向资源和高景气环节扩散。",
+        "managerAction": "2025Q4 前十持仓切到天齐锂业、华友钴业、宁德时代、湖南裕能、天华新能等，锂资源上游特征显著。",
+        "attribution": "风格再次收缩回高纯度新能源链，而且比 2023-2024 年更清晰。",
+        "holdingsSummary": "天齐锂业/华友钴业/宁德时代/湖南裕能/天华新能等，锂资源上游特征显著。",
+        "stageId": 5
       },
       {
-        "id": 44,
-        "startDate": "2025-11-17",
-        "endDate": "2025-11-24",
-        "startNav": 1.7611,
-        "endNav": 1.5661,
-        "changePct": -11.07,
-        "type": "trough"
-      },
-      {
-        "id": 45,
+        "id": 13,
         "startDate": "2025-11-24",
         "endDate": "2026-01-23",
         "startNav": 1.5661,
         "endNav": 1.9672,
         "changePct": 25.61,
-        "type": "peak"
+        "type": "peak",
+        "env": "2025 年报原文指出，国内及全球储能市场快速启动，带动锂电产业链重新进入景气周期。",
+        "managerAction": "2025 年报原文强调“更多布局锂电产业链及上下游相关方向，同时积极关注固态电池产业化进展、电力设备出海”。",
+        "attribution": "从原文到持仓都能看到策略聚焦的增强，属于言行一致性改善的关键证据。",
+        "holdingsSummary": null,
+        "stageId": 5
       },
       {
-        "id": 46,
-        "startDate": "2026-01-23",
-        "endDate": "2026-02-02",
-        "startNav": 1.9672,
-        "endNav": 1.7883,
-        "changePct": -9.09,
-        "type": "trough"
-      },
-      {
-        "id": 47,
+        "id": 14,
         "startDate": "2026-02-02",
         "endDate": "2026-03-11",
         "startNav": 1.7883,
         "endNav": 2.0482,
         "changePct": 14.53,
-        "type": "peak"
+        "type": "peak",
+        "env": "2026Q1 市场整体先扬后抑，但新能源内部储能、电力设备出海仍有亮点。",
+        "managerAction": "2026Q1 原文明确聚焦“锂电池产业链中上游、新能源（储能）与电力设备出海、固态电池新技术发展”。",
+        "attribution": "与最新前十持仓高度匹配，是当前策略边界最清晰的阶段。",
+        "holdingsSummary": null,
+        "stageId": 5
       },
       {
-        "id": 48,
-        "startDate": "2026-03-11",
-        "endDate": "2026-03-23",
-        "startNav": 2.0482,
-        "endNav": 1.8113,
-        "changePct": -11.57,
-        "type": "trough"
-      },
-      {
-        "id": 49,
-        "startDate": "2026-03-23",
-        "endDate": "2026-03-27",
-        "startNav": 1.8113,
-        "endNav": 1.9606,
-        "changePct": 8.24,
-        "type": "peak"
-      },
-      {
-        "id": 50,
-        "startDate": "2026-03-27",
-        "endDate": "2026-04-03",
-        "startNav": 1.9606,
-        "endNav": 1.8383,
-        "changePct": -6.24,
-        "type": "trough"
-      },
-      {
-        "id": 51,
+        "id": 15,
         "startDate": "2026-04-03",
         "endDate": "2026-05-06",
         "startNav": 1.8383,
         "endNav": 2.3825,
         "changePct": 29.6,
-        "type": "peak"
+        "type": "peak",
+        "env": "基金进入历史新高阶段。",
+        "managerAction": "最新持仓为永兴材料、天华新能、中一科技、明阳电气、固德威、天齐锂业、艾罗能源、国瓷材料、融捷股份、宏工科技，锂资源与设备链共振明显。",
+        "attribution": "策略兑现成功，但同时把估值和持仓风险推到了新的高位区域，后续更考验回撤承受力而非单纯看多勇气。",
+        "holdingsSummary": null,
+        "stageId": 5
       }
     ],
-    "totalInflectionPoints": 51,
+    "totalInflectionPoints": 15,
     "stages": [
       {
         "id": 1,

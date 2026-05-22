@@ -1,8 +1,8 @@
 {
   "id": "007413",
   "meta": {
-    "reportDate": "2026-05-17",
-    "dataDate": "2026-05-15",
+    "reportDate": "2026-05-22",
+    "dataDate": "2026-05-22",
     "disclaimer": "本报告仅供个人学习和信息整理使用，所有分析内容均不构成任何投资建议。投资有风险，入市需谨慎，请依据自身判断做出投资决策。"
   },
   "basic": {
@@ -1004,7 +1004,12 @@
         "startNav": 0.9061,
         "endNav": 1.1306,
         "changePct": 24.78,
-        "type": "peak"
+        "type": "peak",
+        "env": "基金成立后进入第一轮中小盘风险偏好修复，A 股从 2019 年中期的谨慎情绪转向结构性回暖。",
+        "managerAction": "2019Q2 前十为岩山科技、天虹股份、杰瑞股份、东北证券、通策医疗；到 2019Q4 已切到思源电气、爱施德、高德红外、云铝股份、金钼股份。",
+        "attribution": "早期以 Beta 修复为主，量化模型开始从分散试错转向更具攻击性的中盘制造和周期暴露，Alpha 贡献有限但方向正确。",
+        "holdingsSummary": "思源电气/爱施德/高德红外/云铝股份/金钼股份",
+        "stageId": 2
       },
       {
         "id": 2,
@@ -1013,217 +1018,281 @@
         "startNav": 1.1306,
         "endNav": 0.9955,
         "changePct": -11.95,
-        "type": "trough"
+        "type": "trough",
+        "env": "疫情冲击带来全市场流动性踩踏。",
+        "managerAction": "2020Q1 前十切到高德红外、华工科技、招商南油、红日药业、许继电气等偏防御和军工品种。",
+        "attribution": "系统性风险主导，回撤主要由市场 Beta 引发，操作属于典型应急防守。",
+        "holdingsSummary": "高德红外/华工科技/招商南油/红日药业/许继电气等偏防御和军工品种",
+        "stageId": 2
       },
       {
         "id": 3,
-        "startDate": "2020-02-03",
-        "endDate": "2020-02-24",
-        "startNav": 0.9955,
-        "endNav": 1.1654,
-        "changePct": 17.07,
-        "type": "peak"
-      },
-      {
-        "id": 4,
-        "startDate": "2020-02-24",
-        "endDate": "2020-03-23",
-        "startNav": 1.1654,
-        "endNav": 1.0085,
-        "changePct": -13.46,
-        "type": "trough"
-      },
-      {
-        "id": 5,
         "startDate": "2020-03-23",
         "endDate": "2020-08-18",
         "startNav": 1.0085,
         "endNav": 1.4859,
         "changePct": 47.34,
-        "type": "peak"
+        "type": "peak",
+        "env": "疫后信用扩张和成长风格回归推动中小盘风险偏好回升。",
+        "managerAction": "2020Q2 转向吉比特、晨鸣纸业、天健集团、越秀资本、蓝帆医疗；2020Q3 又增配天赐材料、昆仑万维、山金国际、达安基因。",
+        "attribution": "这是第一轮完整的“景气轮动 + 因子捕捉”行情，Beta 和 Alpha 同时贡献。",
+        "holdingsSummary": "吉比特/晨鸣纸业/天健集团/越秀资本/蓝帆医疗",
+        "stageId": 2
       },
       {
-        "id": 6,
+        "id": 4,
         "startDate": "2020-08-18",
         "endDate": "2020-10-30",
         "startNav": 1.4859,
         "endNav": 1.3361,
         "changePct": -10.08,
-        "type": "trough"
+        "type": "trough",
+        "env": "成长股高位波动加大，市场从单边进攻转向高低切换。",
+        "managerAction": "前十从游戏/金融/新能源材料快速转向更均衡结构。",
+        "attribution": "风格切换导致动量因子承压，属策略顺风结束后的正常回撤。",
+        "holdingsSummary": null,
+        "stageId": 2
       },
       {
-        "id": 7,
-        "startDate": "2020-10-30",
-        "endDate": "2021-01-25",
-        "startNav": 1.3361,
-        "endNav": 1.5407,
-        "changePct": 15.31,
-        "type": "peak"
-      },
-      {
-        "id": 8,
-        "startDate": "2021-01-25",
-        "endDate": "2021-03-15",
-        "startNav": 1.5407,
-        "endNav": 1.3429,
-        "changePct": -12.84,
-        "type": "trough"
-      },
-      {
-        "id": 9,
+        "id": 5,
         "startDate": "2021-03-15",
         "endDate": "2021-09-13",
         "startNav": 1.3429,
         "endNav": 1.8593,
         "changePct": 38.45,
-        "type": "peak"
+        "type": "peak",
+        "env": "2021 年中小盘成长、光伏、新能源链、化工景气高位共振。",
+        "managerAction": "2021Q2 前十为科沃斯、伟明环保、合盛硅业、迪安诊断、鲁西化工；2021Q3 原文称“周期上游行业、光伏新能源相关板块表现强势，市场呈现小盘、价值特征”。",
+        "attribution": "景气度与量化因子方向一致，形成成立以来最强一轮上行，属于典型顺风期。",
+        "holdingsSummary": null,
+        "stageId": 3
       },
       {
-        "id": 10,
+        "id": 6,
         "startDate": "2021-09-13",
         "endDate": "2022-04-26",
         "startNav": 1.8593,
         "endNav": 1.2794,
         "changePct": -31.19,
-        "type": "trough"
+        "type": "trough",
+        "env": "成长风格杀估值，市场从高景气赛道转向稳增长与防御。",
+        "managerAction": "2021Q4 前十换成振华科技、新宙邦、周大生、锡业股份、中航高科；2022Q1 前十为山煤国际、新宙邦、新奥股份、振华科技、柏楚电子。",
+        "attribution": "基金虽有向能源与稳增长切换，但对中小盘高波动暴露并未根本撤离，回撤深度说明仓位和因子并不具备强防守属性。",
+        "holdingsSummary": null,
+        "stageId": 4
       },
       {
-        "id": 11,
+        "id": 7,
         "startDate": "2022-04-26",
         "endDate": "2022-07-04",
         "startNav": 1.2794,
         "endNav": 1.659,
         "changePct": 29.67,
-        "type": "peak"
+        "type": "peak",
+        "env": "疫后复工复产和新能源反弹引发风险资产修复。",
+        "managerAction": "2022Q2 前十切到明阳智能、飞科电器、博腾股份、迪安诊断、万孚生物、晶晨股份。",
+        "attribution": "短期反弹强，但随后并未持续，说明这是高弹性修复，不是长期趋势反转。",
+        "holdingsSummary": "明阳智能/飞科电器/博腾股份/迪安诊断/万孚生物/晶晨股份",
+        "stageId": 4
       },
       {
-        "id": 12,
+        "id": 8,
         "startDate": "2022-07-04",
         "endDate": "2022-10-10",
         "startNav": 1.659,
         "endNav": 1.392,
         "changePct": -16.09,
-        "type": "trough"
+        "type": "trough",
+        "env": "景气赛道再度退潮，三季报前市场回到防御和现金流主线。",
+        "managerAction": "2022Q3 前十为德业股份、迪安诊断、新宝股份、晶晨股份、捷成股份等，仍偏成长。",
+        "attribution": "对高弹性方向的残留暴露继续带来损失，属风格失效而非单一行业踩雷。",
+        "holdingsSummary": null,
+        "stageId": 4
       },
       {
-        "id": 13,
+        "id": 9,
         "startDate": "2022-10-10",
         "endDate": "2023-04-17",
         "startNav": 1.392,
         "endNav": 1.5855,
         "changePct": 13.9,
-        "type": "peak"
+        "type": "peak",
+        "env": "市场从底部反弹，价值与成长轮动更快。",
+        "managerAction": "2022Q4 前十为思源电气、常熟银行、天华新能、巨化股份、上海医药；2023Q1 又转向石基信息、西部矿业、云铝股份、财通证券、海信视像。",
+        "attribution": "量化模型通过快速换仓抓住了反弹，但持续性仍弱。",
+        "holdingsSummary": "石基信息/西部矿业/云铝股份/财通证券/海信视像",
+        "stageId": 5
       },
       {
-        "id": 14,
+        "id": 10,
         "startDate": "2023-04-17",
         "endDate": "2024-02-05",
         "startNav": 1.5855,
         "endNav": 0.9731,
         "changePct": -38.63,
-        "type": "trough"
+        "type": "trough",
+        "env": "2023 下半年至 2024 年初中小盘风格承压，流动性和风险偏好同步收缩。",
+        "managerAction": "2023Q2 前十转向口子窖、人福医药、横店东磁、湖北能源、远兴能源；2023Q3 再切到中际旭创、景嘉微、寒武纪；2023Q4 改成卫宁健康、盛新锂能、大金重工、航天信息、中国宝安。",
+        "attribution": "高频切换没能躲开风格熊市，形成全基金最大主回撤段，属于 Beta+Alpha 双损。",
+        "holdingsSummary": "中际旭创/景嘉微/寒武纪",
+        "stageId": 6
       },
       {
-        "id": 15,
+        "id": 11,
         "startDate": "2024-02-05",
         "endDate": "2024-05-09",
         "startNav": 0.9731,
         "endNav": 1.2135,
         "changePct": 24.7,
-        "type": "peak"
+        "type": "peak",
+        "env": "春节后市场快速修复，中小盘情绪回暖。",
+        "managerAction": "2024Q1 前十集中度仅 12.94%，核心为渝农商行、航天信息、雅戈尔、鸿远电子、天坛生物。",
+        "attribution": "低集中度和分散化暴露帮助基金从低点快速修复，说明在极端底部环境下模型对反转因子有一定适应性。",
+        "holdingsSummary": null,
+        "stageId": 6
       },
       {
-        "id": 16,
+        "id": 12,
         "startDate": "2024-05-09",
         "endDate": "2024-09-13",
         "startNav": 1.2135,
         "endNav": 1.0186,
         "changePct": -16.06,
-        "type": "trough"
+        "type": "trough",
+        "env": "大盘修复延续，而中证500风格并未全面占优。",
+        "managerAction": "2024Q2 前十为赛轮轮胎、云天化、渝农商行、西部矿业、大金重工；2024Q3 则切到雅戈尔、信立泰、鼎龙股份、浙江龙盛、东山精密。",
+        "attribution": "风格切换速度过快、低集中度叠加大盘主导行情，使基金未能充分参与 2024 年主升段。",
+        "holdingsSummary": "雅戈尔/信立泰/鼎龙股份/浙江龙盛/东山精密",
+        "stageId": 6
       },
       {
-        "id": 17,
+        "id": 13,
         "startDate": "2024-09-13",
         "endDate": "2024-10-08",
         "startNav": 1.0186,
         "endNav": 1.3643,
         "changePct": 33.94,
-        "type": "peak"
+        "type": "peak",
+        "env": "政策托底与风险偏好回升推动中小盘脉冲式反弹。",
+        "managerAction": "2024Q3 持仓已切向化工、医药、新材料和电子。",
+        "attribution": "该阶段受市场急剧修复影响较大，Beta 贡献明显高于 Alpha。",
+        "holdingsSummary": null,
+        "stageId": 6
       },
       {
-        "id": 18,
+        "id": 14,
         "startDate": "2024-10-08",
         "endDate": "2024-10-17",
         "startNav": 1.3643,
         "endNav": 1.203,
         "changePct": -11.82,
-        "type": "trough"
+        "type": "trough",
+        "env": "脉冲行情后的快速回吐。",
+        "managerAction": "基金并未大幅去杠杆，而是维持增强框架。",
+        "attribution": "典型高弹性品种的波动回吐，说明产品不适合短线择时资金。",
+        "holdingsSummary": null,
+        "stageId": 6
       },
       {
-        "id": 19,
+        "id": 15,
         "startDate": "2024-10-17",
         "endDate": "2024-11-11",
         "startNav": 1.203,
         "endNav": 1.3657,
         "changePct": 13.52,
-        "type": "peak"
+        "type": "peak",
+        "env": "政策交易余温延续。",
+        "managerAction": "2024Q4 切到当升科技、乐普医疗、欣旺达、浙江龙盛、电投能源。",
+        "attribution": "从低位回补成长和制造链，开始为 2025 年主升浪做仓位准备。",
+        "holdingsSummary": "当升科技/乐普医疗/欣旺达/浙江龙盛/电投能源",
+        "stageId": 6
       },
       {
-        "id": 20,
+        "id": 16,
         "startDate": "2024-11-11",
         "endDate": "2025-01-10",
         "startNav": 1.3657,
         "endNav": 1.2108,
         "changePct": -11.34,
-        "type": "trough"
+        "type": "trough",
+        "env": "年末年初风格切换，风险偏好回落。",
+        "managerAction": "高弹性制造链短期承压，但组合没有彻底转向红利防御。",
+        "attribution": "短期回撤换来之后更强进攻性，是主升浪前的最后一次明显洗盘。",
+        "holdingsSummary": null,
+        "stageId": 7
       },
       {
-        "id": 21,
+        "id": 17,
         "startDate": "2025-01-10",
         "endDate": "2025-03-18",
         "startNav": 1.2108,
         "endNav": 1.3828,
         "changePct": 14.21,
-        "type": "peak"
+        "type": "peak",
+        "env": "deepseek 催化中国资产重估，小市值成长和 AI 概念升温。",
+        "managerAction": "2025Q1 季报写到“小市值与成长性板块突出”“价值与低波动风格适度暴露”，前十为天山铝业、特锐德、赤峰黄金、华天科技、西部矿业。",
+        "attribution": "言行基本一致，属于模型对成长/价值混合风格的成功适配。",
+        "holdingsSummary": null,
+        "stageId": 7
       },
       {
-        "id": 22,
+        "id": 18,
         "startDate": "2025-03-18",
         "endDate": "2025-04-07",
         "startNav": 1.3828,
         "endNav": 1.203,
         "changePct": -13.0,
-        "type": "trough"
+        "type": "trough",
+        "env": "高弹性方向短期大幅回撤。",
+        "managerAction": "前期资源、电子和中盘成长暴露一起承压。",
+        "attribution": "主升前的风格回撤，不改变中期趋势。",
+        "holdingsSummary": null,
+        "stageId": 7
       },
       {
-        "id": 23,
+        "id": 19,
         "startDate": "2025-04-07",
         "endDate": "2026-02-27",
         "startNav": 1.203,
         "endNav": 2.1179,
         "changePct": 76.05,
-        "type": "peak"
+        "type": "peak",
+        "env": "设备更新、AI+制造、长钱入市等政策不断强化，中小盘科技与制造链进入顺风期。",
+        "managerAction": "2025Q2 前十有欣旺达、菲利华、顺络电子、协创数据、机器人；2025Q3 进一步切向神州泰岳、菲利华、协创数据、锐捷网络、水晶光电；2025Q4 则配置先导智能、协创数据、新泉股份、西部矿业、光迅科技。",
+        "attribution": "这是基金成立以来最有说服力的一轮大行情，Alpha 与 Beta 共振，量化轮动效率明显高于前几轮。",
+        "holdingsSummary": null,
+        "stageId": 8
       },
       {
-        "id": 24,
+        "id": 20,
         "startDate": "2026-02-27",
         "endDate": "2026-03-23",
         "startNav": 2.1179,
         "endNav": 1.8531,
         "changePct": -12.5,
-        "type": "trough"
+        "type": "trough",
+        "env": "高位波动和获利回吐。",
+        "managerAction": "组合从 AI 硬件和成长赛道向资源、数字经济和设备继续滚动切换。",
+        "attribution": "回撤幅度不小，但恢复速度快，说明模型仍在顺周期环境中有效。",
+        "holdingsSummary": null,
+        "stageId": 8
       },
       {
-        "id": 25,
+        "id": 21,
         "startDate": "2026-03-23",
         "endDate": "2026-05-13",
         "startNav": 1.8531,
         "endNav": 2.2203,
         "changePct": 19.82,
-        "type": "peak"
+        "type": "peak",
+        "env": "一季度后半段中小盘、高贝塔、价值因子再次占优。",
+        "managerAction": "2026Q1 季报原文写到“持续改进人工智能算法在因子挖掘中的学习框架”“小盘、高贝塔、价值等因子表现较好”；实际前十为中矿资源、蓝色光标、先导智能、神火股份、华海清科。",
+        "attribution": "言行高度一致，且持仓与风格描述对应关系清楚，是第四章审计里最强的正样本。",
+        "holdingsSummary": null,
+        "stageId": 8
       }
     ],
-    "totalInflectionPoints": 25,
+    "totalInflectionPoints": 21,
     "stages": [
       {
         "id": 1,

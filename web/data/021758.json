@@ -1,8 +1,8 @@
 {
   "id": "021758",
   "meta": {
-    "reportDate": "2026-05-17",
-    "dataDate": "2026-05-15",
+    "reportDate": "2026-05-22",
+    "dataDate": "2026-05-22",
     "disclaimer": "本报告仅供个人学习和信息整理使用，所有分析内容均不构成任何投资建议。投资有风险，入市需谨慎，请依据自身判断做出投资决策。"
   },
   "basic": {
@@ -465,37 +465,8 @@
     ]
   },
   "stageAnalysis": {
-    "inflectionPoints": [
-      {
-        "id": 1,
-        "stageId": 2,
-        "startDate": "2025-03-18",
-        "endDate": "2025-04-07",
-        "startNav": 1.024,
-        "endNav": 0.8997,
-        "changePct": -12.14,
-        "type": "trough",
-        "holdingsSummary": "组合仍以大盘平衡底仓为主，尚未进入后续消费与资源再平衡阶段。",
-        "env": "市场进入风险偏好受压阶段，海外与宏观不确定性抬升。",
-        "managerAction": "未做激进去风险处理，继续按增强框架管理组合。",
-        "attribution": "系统性回撤占主导，但跌幅随后快速修复。"
-      },
-      {
-        "id": 2,
-        "stageId": 6,
-        "startDate": "2025-04-07",
-        "endDate": "2026-05-13",
-        "startNav": 0.8997,
-        "endNav": 1.4014,
-        "changePct": 55.76,
-        "type": "peak",
-        "holdingsSummary": "组合逐步从金融和资源延伸到消费、制造与核心资产，保持大盘平衡增强。",
-        "env": "宽松流动性、宽基估值修复和风格轮动共同改善收益环境。",
-        "managerAction": "通过持续再平衡争取控制风险暴露并获取稳定超额。",
-        "attribution": "Beta修复与Alpha积累共同推动净值创新高。"
-      }
-    ],
-    "totalInflectionPoints": 2,
+    "inflectionPoints": [],
+    "totalInflectionPoints": 0,
     "stages": [
       {
         "id": 1,

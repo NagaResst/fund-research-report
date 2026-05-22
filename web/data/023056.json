@@ -1,8 +1,8 @@
 {
   "id": "023056",
   "meta": {
-    "reportDate": "2026-05-17",
-    "dataDate": "2026-05-15",
+    "reportDate": "2026-05-22",
+    "dataDate": "2026-05-22",
     "disclaimer": "本报告仅供个人学习和信息整理使用，所有分析内容均不构成任何投资建议。投资有风险，入市需谨慎，请依据自身判断做出投资决策。"
   },
   "basic": {
@@ -389,11 +389,11 @@
         "endNav": 0.8537,
         "changePct": -16.77,
         "type": "trough",
-        "stageId": 1,
-        "holdingsSummary": "基金成立后很快经历第一次明显回撤，直接暴露了科创50的高Beta属性。",
-        "env": "科技成长方向在年初波动较大，风险偏好并不稳定。",
-        "managerAction": "维持联接工具定位，没有主动防守型偏离。",
-        "attribution": "下跌主要来自赛道Beta，而不是执行偏差。"
+        "env": "2025年初美国对全球加征不合理关税，中国反制，中美关税摩擦升级。中央汇金4月8日公告增持ETF维稳市场。",
+        "managerAction": "基金处于建仓初期，尚未完成ETF联接转型，直接持有成分股应对建仓。",
+        "attribution": "Beta主导下跌，纯指数系统性风险。无Alpha贡献，并非经理操作失误。",
+        "holdingsSummary": null,
+        "stageId": 1
       },
       {
         "id": 2,
@@ -403,11 +403,11 @@
         "endNav": 1.2432,
         "changePct": 45.62,
         "type": "peak",
-        "stageId": 2,
-        "holdingsSummary": "科创主线修复后，联接工具弹性充分体现。",
-        "env": "AI、半导体和硬科技风险偏好重新回暖。",
-        "managerAction": "保持对目标指数的高一致性暴露。",
-        "attribution": "收益主要由主题Beta驱动。"
+        "env": "中央汇金增持、5月降准降息、中美关税达成共识。\"AI+\"和\"十五五\"远景预期驱动科技成长板块大幅上涨。美联储释放降息预期。",
+        "managerAction": "2025年6月完成联接基金转型后，投资于目标ETF（588940）比例不低于净资产90%。`[QUARTERLY_QUOTE][023056][2025Q3]`季报原文：\"在投资管理上，本基金采用量化和人工管理相结合的方法，处理基金日常运作中的大额申购和赎回等事件，合理安排仓位及头寸，将跟踪误差控制在合理水平。\"",
+        "attribution": "Beta主导上涨，基金完美跟踪科创板50指数。日均跟踪偏离度控制在0.35%以内，跟踪效率良好。言行一致✅",
+        "holdingsSummary": null,
+        "stageId": 2
       },
       {
         "id": 3,
@@ -417,11 +417,11 @@
         "endNav": 1.1127,
         "changePct": -10.5,
         "type": "trough",
-        "stageId": 3,
-        "holdingsSummary": "2025Q3 是成立以来最强的趋势阶段，季度收益高达47.26%。",
-        "env": "科技主线进入主升浪，市场愿意给高弹性成长更高定价。",
-        "managerAction": "工具属性在顺风期被放大，几乎完整承接指数弹性。",
-        "attribution": "典型顺风阶段，高收益与高拥挤并存。"
+        "env": "市场经历8月加速上涨后短期过热，9月震荡整固，科技成长进一步向AI和新能源集中。",
+        "managerAction": "被动跟踪，无主动调仓。",
+        "attribution": "阶段性技术回调，Beta主导。言行一致✅",
+        "holdingsSummary": null,
+        "stageId": 3
       },
       {
         "id": 4,
@@ -431,11 +431,11 @@
         "endNav": 1.3862,
         "changePct": 24.58,
         "type": "peak",
-        "stageId": 3,
-        "holdingsSummary": "2025Q3 是成立以来最强的趋势阶段，季度收益高达47.26%。",
-        "env": "科技主线进入主升浪，市场愿意给高弹性成长更高定价。",
-        "managerAction": "工具属性在顺风期被放大，几乎完整承接指数弹性。",
-        "attribution": "典型顺风阶段，高收益与高拥挤并存。"
+        "env": "美联储降息预期增强，有色金属走强。三季报凝聚景气线索，\"十五五\"规划出台提振市场预期。上证指数突破4000点。",
+        "managerAction": "正常跟踪指数，通过量化方法控制申赎事件对跟踪误差的影响。",
+        "attribution": "Beta主导上涨。言行一致✅",
+        "holdingsSummary": null,
+        "stageId": 3
       },
       {
         "id": 5,
@@ -445,11 +445,11 @@
         "endNav": 1.2403,
         "changePct": -10.53,
         "type": "trough",
-        "stageId": 4,
-        "holdingsSummary": "高位震荡后再下探，最终形成当前样本内最大回撤。",
-        "env": "科技板块估值消化和风格切换共同压制净值。",
-        "managerAction": "没有主观择时垫子，继续按联接基金逻辑运行。",
-        "attribution": "回撤体验完全取决于科创50本身。"
+        "env": "中美贸易摩擦升级，避险情绪升温，红利、消费等避险品种开始占优。",
+        "managerAction": "被动跟踪，维持指数化运作。",
+        "attribution": "Beta主导下跌，科技板块系统性承压。言行一致✅",
+        "holdingsSummary": null,
+        "stageId": 4
       },
       {
         "id": 6,
@@ -459,11 +459,11 @@
         "endNav": 1.3502,
         "changePct": 8.86,
         "type": "peak",
-        "stageId": 4,
-        "holdingsSummary": "高位震荡后再下探，最终形成当前样本内最大回撤。",
-        "env": "科技板块估值消化和风格切换共同压制净值。",
-        "managerAction": "没有主观择时垫子，继续按联接基金逻辑运行。",
-        "attribution": "回撤体验完全取决于科创50本身。"
+        "env": "贸易摩擦缓解，\"十五五\"规划出台提振市场预期，科技成长主线重新主导行情。",
+        "managerAction": "正常跟踪，无主动操作。",
+        "attribution": "短期反弹，Beta主导。言行一致✅",
+        "holdingsSummary": null,
+        "stageId": 4
       },
       {
         "id": 7,
@@ -473,11 +473,11 @@
         "endNav": 1.1756,
         "changePct": -12.93,
         "type": "trough",
-        "stageId": 4,
-        "holdingsSummary": "高位震荡后再下探，最终形成当前样本内最大回撤。",
-        "env": "科技板块估值消化和风格切换共同压制净值。",
-        "managerAction": "没有主观择时垫子，继续按联接基金逻辑运行。",
-        "attribution": "回撤体验完全取决于科创50本身。"
+        "env": "美国政府停摆、经济数据缺位、美联储频繁鹰派言论带来全球流动性预期收紧。\"AI泡沫\"叙事扰动。",
+        "managerAction": "`[QUARTERLY_QUOTE][023056][2025Q4]`季报原文：\"本基金采用量化和人工管理相结合的方法，处理基金日常运作中的大额申购和赎回等事件，合理安排仓位及头寸，将跟踪误差控制在合理水平。\"",
+        "attribution": "Beta主导下跌，海外因素系统性冲击科技板块。言行一致✅",
+        "holdingsSummary": null,
+        "stageId": 4
       },
       {
         "id": 8,
@@ -487,11 +487,11 @@
         "endNav": 1.4143,
         "changePct": 20.3,
         "type": "peak",
-        "stageId": 4,
-        "holdingsSummary": "高位震荡后再下探，最终形成当前样本内最大回撤。",
-        "env": "科技板块估值消化和风格切换共同压制净值。",
-        "managerAction": "没有主观择时垫子，继续按联接基金逻辑运行。",
-        "attribution": "回撤体验完全取决于科创50本身。"
+        "env": "中央经济工作会议召开、美联储鸽派定调、日本央行加息靴子落地，国内外政策验证窗口关闭，整体基调好于预期。",
+        "managerAction": "2025年年度报告显示全年日均跟踪偏离度控制良好，年跟踪误差低于4%上限目标。",
+        "attribution": "Beta主导上涨。言行一致✅",
+        "holdingsSummary": null,
+        "stageId": 4
       },
       {
         "id": 9,
@@ -501,11 +501,11 @@
         "endNav": 1.157,
         "changePct": -18.19,
         "type": "trough",
-        "stageId": 4,
-        "holdingsSummary": "高位震荡后再下探，最终形成当前样本内最大回撤。",
-        "env": "科技板块估值消化和风格切换共同压制净值。",
-        "managerAction": "没有主观择时垫子，继续按联接基金逻辑运行。",
-        "attribution": "回撤体验完全取决于科创50本身。"
+        "env": "2026Q1整体震荡，沪深300下跌3.89%。科创板50指数下跌6.54%，但基金回撤幅度远大于指数跌幅。",
+        "managerAction": "基金作为联接基金，净值表现取决于目标ETF和底层指数的波动。Q1回撤主要因科创板50指数本身的高波动特性（年化波动率29.36%）。",
+        "attribution": "历史最大回撤-18.19%，Beta主导。对于高Beta（1.47）的科创板50指数基金，这一回撤幅度在指数系统性调整时属于正常范围。言行一致✅",
+        "holdingsSummary": null,
+        "stageId": 4
       },
       {
         "id": 10,
@@ -515,11 +515,11 @@
         "endNav": 1.6221,
         "changePct": 40.2,
         "type": "peak",
-        "stageId": 5,
-        "holdingsSummary": "修复速度非常快，并在2026-05-13创出历史新高。",
-        "env": "硬科技顺风延续，风险偏好重新集中到科创主线。",
-        "managerAction": "高一致性暴露带来高斜率反弹。",
-        "attribution": "弹性极强，但同时把买点性价比显著压缩。"
+        "env": "4月科创板50反弹近20%，寒武纪一季度净利润暴增185%催化国产替代链行情。5月6日指数暴涨超8%创历史新高。半导体为核心主线，国家大基金三期3440亿元加速投放。",
+        "managerAction": "正常跟踪指数，基金净值完美反映科创板50指数的反弹力度。",
+        "attribution": "Beta主导反弹，基金弹性充分释放。言行一致✅",
+        "holdingsSummary": null,
+        "stageId": 5
       }
     ],
     "totalInflectionPoints": 10,
