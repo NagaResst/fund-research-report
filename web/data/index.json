@@ -270,5 +270,37 @@
     "navFallback": 1.744,
     "reportDate": "2026-05-20",
     "manager": "张圣贤"
+  },
+  {
+    "id": "021561",
+    "shortName": "天弘中证央企红利50指数发起A",
+    "type": "指数型",
+    "subType": "中证央企红利50",
+    "riskLevel": "R3",
+    "riskCode": 3,
+    "return1Y": 19.25,
+    "return3Y": null,
+    "score": 78,
+    "recommendation": "谨慎",
+    "recommendationType": "cautious",
+    "navFallback": 1.1857,
+    "reportDate": "2026-05-25",
+    "manager": "贺雨轩"
+  },
+  {
+    "id": "481006",
+    "shortName": "工银红利混合",
+    "type": "混合型",
+    "subType": "偏股",
+    "riskLevel": "R3",
+    "riskCode": 3,
+    "return1Y": 26.15,
+    "return3Y": 29.87,
+    "score": 74,
+    "recommendation": "观察",
+    "recommendationType": "cautious",
+    "navFallback": 0.9214,
+    "reportDate": "2026-05-25",
+    "manager": "林念"
   }
 ]
