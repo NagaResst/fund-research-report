@@ -1,0 +1,2285 @@
+{
+  "id": "014623",
+  "meta": {
+    "reportDate": "2026-06-01",
+    "dataDate": "2026-05-29",
+    "disclaimer": "本报告仅供个人学习和信息整理使用，所有分析内容均不构成任何投资建议。投资有风险，入市需谨慎，请依据自身判断做出投资决策。"
+  },
+  "basic": {
+    "code": "014623",
+    "fullName": "中银MSCI中国A50互联互通指数增强型证券投资基金",
+    "shortName": "中银MSCI中国A50互联互通指数增强A",
+    "type": "指数型",
+    "subType": "股票",
+    "riskLevel": "R3",
+    "riskCode": 3,
+    "foundDate": "2023年11月22日",
+    "manager": "赵志华",
+    "companyShort": "中银基金",
+    "navFallback": 1.7286,
+    "inceptionReturn": 72.86,
+    "custodian": "上海银行",
+    "benchmark": "MSCI中国A50互联互通人民币指数收益率*95%+银行活期存款利率(税后)*5%",
+    "navDateFallback": "2026-05-29",
+    "status": "开放申购 / 开放赎回",
+    "company": "中银基金"
+  },
+  "fees": {
+    "management": 0.7,
+    "custodian": 0.1,
+    "salesService": 0.0,
+    "subscriptionMax": 1.5,
+    "breakdown": [
+      {
+        "name": "管理费",
+        "value": 0.7
+      },
+      {
+        "name": "托管费",
+        "value": 0.1
+      },
+      {
+        "name": "销售服务费",
+        "value": 0.0
+      },
+      {
+        "name": "申购费",
+        "value": 1.5
+      },
+      {
+        "name": "赎回费",
+        "value": 1.5
+      }
+    ],
+    "subscriptionDiscounted": 0.15,
+    "redemptionMax": 1.5
+  },
+  "scale": {
+    "nav": 0.96,
+    "shares": 63723900,
+    "date": "2026-05-29"
+  },
+  "performance": {
+    "stages": [
+      {
+        "period": "近1周",
+        "fund": 2.78,
+        "peer": -1.21,
+        "hs300": -1.57,
+        "rank": 282,
+        "rankTotal": 5150,
+        "quartile": "Q1"
+      },
+      {
+        "period": "近1月",
+        "fund": 3.7,
+        "peer": 0.91,
+        "hs300": 0.77,
+        "rank": 1278,
+        "rankTotal": 5089,
+        "quartile": "Q2"
+      },
+      {
+        "period": "近3月",
+        "fund": 11.62,
+        "peer": 0.7,
+        "hs300": 2.84,
+        "rank": 891,
+        "rankTotal": 4919,
+        "quartile": "Q1"
+      },
+      {
+        "period": "近6月",
+        "fund": 14.11,
+        "peer": 10.57,
+        "hs300": 5.85,
+        "rank": 1705,
+        "rankTotal": 4675,
+        "quartile": "Q2"
+      },
+      {
+        "period": "近1年",
+        "fund": 44.92,
+        "peer": 35.68,
+        "hs300": 26.14,
+        "rank": 1363,
+        "rankTotal": 3904,
+        "quartile": "Q2"
+      },
+      {
+        "period": "近2年",
+        "fund": 52.15,
+        "peer": 54.95,
+        "hs300": 35.32,
+        "rank": 1157,
+        "rankTotal": 2772,
+        "quartile": "Q2"
+      },
+      {
+        "period": "今年来",
+        "fund": 9.99,
+        "peer": 7.6,
+        "hs300": 4.63,
+        "rank": 1764,
+        "rankTotal": 4794,
+        "quartile": "Q2"
+      },
+      {
+        "period": "成立来",
+        "fund": 72.86,
+        "peer": 0,
+        "hs300": 0,
+        "rank": 0,
+        "rankTotal": 0,
+        "quartile": "—"
+      }
+    ],
+    "annual": [
+      {
+        "year": 2023,
+        "fund": 0.5,
+        "peer": -8.28,
+        "hs300": -11.38,
+        "rank": 0,
+        "rankTotal": 2655,
+        "quartile": "---"
+      },
+      {
+        "year": 2024,
+        "fund": 19.08,
+        "peer": 11.37,
+        "hs300": 14.68,
+        "rank": 559,
+        "rankTotal": 3464,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2025,
+        "fund": 31.32,
+        "peer": 28.14,
+        "hs300": 17.66,
+        "rank": 1250,
+        "rankTotal": 4812,
+        "quartile": "良好"
+      },
+      {
+        "year": 2026,
+        "fund": 9.99,
+        "peer": 7.6,
+        "hs300": 4.63,
+        "rank": 1764,
+        "rankTotal": 4794,
+        "quartile": "—"
+      }
+    ],
+    "quarterly": [
+      {
+        "year": 2023,
+        "quarter": "2023Q4",
+        "fund": 0.5,
+        "peer": 0,
+        "hs300": -6.88,
+        "rank": 0,
+        "rankTotal": 0,
+        "quartile": "—"
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q1",
+        "fund": 8.48,
+        "peer": 0,
+        "hs300": 4.46,
+        "rank": 0,
+        "rankTotal": 0,
+        "quartile": "—"
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q2",
+        "fund": 2.61,
+        "peer": -3.66,
+        "hs300": -2.14,
+        "rank": 334,
+        "rankTotal": 3014,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q3",
+        "fund": 12.01,
+        "peer": 17.13,
+        "hs300": 16.07,
+        "rank": 2433,
+        "rankTotal": 3130,
+        "quartile": "不佳"
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q4",
+        "fund": -4.48,
+        "peer": 0.65,
+        "hs300": -2.06,
+        "rank": 2471,
+        "rankTotal": 3464,
+        "quartile": "一般"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q1",
+        "fund": -0.28,
+        "peer": 2.45,
+        "hs300": -1.21,
+        "rank": 2169,
+        "rankTotal": 3635,
+        "quartile": "一般"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q2",
+        "fund": 2.19,
+        "peer": 2.65,
+        "hs300": 1.25,
+        "rank": 1777,
+        "rankTotal": 4076,
+        "quartile": "良好"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q3",
+        "fund": 25.68,
+        "peer": 23.0,
+        "hs300": 17.9,
+        "rank": 1383,
+        "rankTotal": 4523,
+        "quartile": "良好"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q4",
+        "fund": 2.53,
+        "peer": -0.94,
+        "hs300": -0.23,
+        "rank": 921,
+        "rankTotal": 4812,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2026,
+        "quarter": "2026Q1",
+        "fund": -4.14,
+        "peer": -1.57,
+        "hs300": -3.89,
+        "rank": 3542,
+        "rankTotal": 4960,
+        "quartile": "一般"
+      },
+      {
+        "year": 2026,
+        "quarter": "2026Q2",
+        "fund": 12.72,
+        "peer": 0,
+        "hs300": 8.09,
+        "rank": 0,
+        "rankTotal": 0,
+        "quartile": "—"
+      }
+    ],
+    "milestones": [
+      {
+        "date": "2023-11-22",
+        "nav": 1.0,
+        "label": "成立日",
+        "type": "neutral"
+      },
+      {
+        "date": "2024-02-02",
+        "nav": 0.9582,
+        "label": "历史最低点",
+        "type": "low"
+      },
+      {
+        "date": "2024-05-20",
+        "nav": 1.1603,
+        "label": "春季反弹高点",
+        "type": "peak"
+      },
+      {
+        "date": "2024-09-12",
+        "nav": 1.0277,
+        "label": "震荡回调低点",
+        "type": "low"
+      },
+      {
+        "date": "2024-10-08",
+        "nav": 1.3012,
+        "label": "924行情最高点",
+        "type": "peak"
+      },
+      {
+        "date": "2025-04-07",
+        "nav": 1.1051,
+        "label": "最大回撤谷底",
+        "type": "low"
+      },
+      {
+        "date": "2026-01-06",
+        "nav": 1.6185,
+        "label": "2025年牛市高点",
+        "type": "peak"
+      },
+      {
+        "date": "2026-03-23",
+        "nav": 1.4877,
+        "label": "地缘回调低点",
+        "type": "low"
+      },
+      {
+        "date": "2026-05-13",
+        "nav": 1.7511,
+        "label": "历史最高点",
+        "type": "peak"
+      },
+      {
+        "date": "2026-05-27",
+        "nav": 1.7226,
+        "label": "当前净值（99.3%历史分位）",
+        "type": "current"
+      }
+    ]
+  },
+  "risk": {
+    "volatility": 0.1676,
+    "annualReturn": 0.2614,
+    "sharpe": 1.38,
+    "calmar": 1.73,
+    "maxDrawdown": -0.1507,
+    "maxDrawdownPeriod": "2024-10-08 → 2025-04-07",
+    "maxDrawdownMonths": 6,
+    "periodMetrics": [
+      {
+        "label": "近1年",
+        "volatility": 0.1548,
+        "sharpe": 2.6,
+        "maxDrawdown": -0.0808
+      },
+      {
+        "label": "近2年",
+        "volatility": 0.1739,
+        "sharpe": 1.2,
+        "maxDrawdown": -0.1507
+      },
+      {
+        "label": "近3年",
+        "volatility": 0.1676,
+        "sharpe": 1.38,
+        "maxDrawdown": -0.1507
+      }
+    ],
+    "relativeMetrics": {
+      "beta": 0.887,
+      "alpha": 0.0882,
+      "informationRatio": 1.2426,
+      "trackingError": 0.0546,
+      "r2": 0.9091
+    },
+    "recentPerf": [
+      {
+        "period": "近1周",
+        "fund": 2.78,
+        "peer": -1.21,
+        "hs300": -1.57,
+        "excess": 4.35,
+        "rank": 282,
+        "rankTotal": 5150,
+        "warn": false,
+        "note": "前5%"
+      },
+      {
+        "period": "近1月",
+        "fund": 3.7,
+        "peer": 0.91,
+        "hs300": 0.77,
+        "excess": 2.93,
+        "rank": 1278,
+        "rankTotal": 5089,
+        "warn": false,
+        "note": "前25%"
+      },
+      {
+        "period": "近3月",
+        "fund": 11.62,
+        "peer": 0.7,
+        "hs300": 2.84,
+        "excess": 8.78,
+        "rank": 891,
+        "rankTotal": 4919,
+        "warn": false,
+        "note": "前18%"
+      },
+      {
+        "period": "近6月",
+        "fund": 14.11,
+        "peer": 10.57,
+        "hs300": 5.85,
+        "excess": 8.26,
+        "rank": 1705,
+        "rankTotal": 4675,
+        "warn": false,
+        "note": "前36%"
+      },
+      {
+        "period": "近1年",
+        "fund": 44.92,
+        "peer": 35.68,
+        "hs300": 26.14,
+        "excess": 18.78,
+        "rank": 1363,
+        "rankTotal": 3904,
+        "warn": false,
+        "note": "前35%"
+      },
+      {
+        "period": "近2年",
+        "fund": 52.15,
+        "peer": 54.95,
+        "hs300": 35.32,
+        "excess": 16.83,
+        "rank": 1157,
+        "rankTotal": 2772,
+        "warn": false,
+        "note": "前42%"
+      },
+      {
+        "period": "今年以来",
+        "fund": 9.99,
+        "peer": 7.6,
+        "hs300": 4.63,
+        "excess": 5.36,
+        "rank": 1764,
+        "rankTotal": 4794,
+        "warn": false,
+        "note": "前37%"
+      }
+    ],
+    "radarDimensions": [
+      {
+        "name": "收益能力",
+        "score": 85
+      },
+      {
+        "name": "超额稳定性",
+        "score": 75
+      },
+      {
+        "name": "回撤控制",
+        "score": 55
+      },
+      {
+        "name": "规模安全",
+        "score": 40
+      },
+      {
+        "name": "费率合理",
+        "score": 50
+      },
+      {
+        "name": "经理稳定",
+        "score": 70
+      }
+    ],
+    "riskBreakdown": {
+      "volatilityRating": "中等波动（16.76%）",
+      "volatilityPercentile": 45,
+      "sharpeRating": "全期偏低（1.38），近1年（2.6）",
+      "sharpePercentile": 60,
+      "drawdownRating": "历史最大 -15.07%，近1年 -0.0808",
+      "drawdownPercentile": 70,
+      "historicalMaxDrawdown": 15.07,
+      "yearlyMaxDrawdowns": [
+        {
+          "year": 2026,
+          "fund": 8.08,
+          "hs300": 7.78
+        },
+        {
+          "year": 2025,
+          "fund": 9.82,
+          "hs300": 10.49
+        },
+        {
+          "year": 2024,
+          "fund": 11.54,
+          "hs300": 14.41
+        },
+        {
+          "year": 2023,
+          "fund": 0.0,
+          "hs300": 21.51
+        }
+      ]
+    },
+    "riskWarnings": [
+      {
+        "level": "high",
+        "text": "当前99.3%历史分位，接近历史最高点1.7511，追高赔率极低。历史上从高位回撤的幅度可达-15.07%",
+        "category": "drawdown"
+      },
+      {
+        "level": "medium",
+        "text": "在管13只基金超过10只建议上限，赵志华精力分散可能影响增强效果",
+        "category": "management"
+      },
+      {
+        "level": "medium",
+        "text": "0.96亿元低于2亿警戒线，若持续缩水可能触发清盘线（5000万元），但A类份额有机构持有基础，短期清盘概率不高",
+        "category": "liquidity"
+      },
+      {
+        "level": "medium",
+        "text": "量化增强模型全程高仓位，无法在下跌行情中减仓防御，最大回撤-15.07%中模型全程高仓位被动承受",
+        "category": "drawdown"
+      }
+    ],
+    "navPercentile": 99.3
+  },
+  "holdings": {
+    "date": "2026-03-31",
+    "stockRatio": 95.0,
+    "bondRatio": 0.0,
+    "cashRatio": 5.0,
+    "top10": [
+      {
+        "rank": 1,
+        "name": "宁德时代",
+        "code": "300750",
+        "ratio": 8.41,
+        "sector": "家电"
+      },
+      {
+        "rank": 2,
+        "name": "紫金矿业",
+        "code": "601899",
+        "ratio": 6.07,
+        "sector": "家电"
+      },
+      {
+        "rank": 3,
+        "name": "贵州茅台",
+        "code": "600519",
+        "ratio": 5.24,
+        "sector": "家电"
+      },
+      {
+        "rank": 4,
+        "name": "工业富联",
+        "code": "601138",
+        "ratio": 4.48,
+        "sector": "家电"
+      },
+      {
+        "rank": 5,
+        "name": "中际旭创",
+        "code": "300308",
+        "ratio": 4.31,
+        "sector": "家电"
+      },
+      {
+        "rank": 6,
+        "name": "比亚迪",
+        "code": "002594",
+        "ratio": 4.01,
+        "sector": "家电"
+      },
+      {
+        "rank": 7,
+        "name": "海光信息",
+        "code": "688041",
+        "ratio": 3.33,
+        "sector": "家电"
+      },
+      {
+        "rank": 8,
+        "name": "新易盛",
+        "code": "300502",
+        "ratio": 2.98,
+        "sector": "家电"
+      },
+      {
+        "rank": 9,
+        "name": "招商银行",
+        "code": "600036",
+        "ratio": 2.91,
+        "sector": "家电"
+      },
+      {
+        "rank": 10,
+        "name": "寒武纪",
+        "code": "688256",
+        "ratio": 2.89,
+        "sector": "家电"
+      }
+    ],
+    "top10TotalRatio": 44.63,
+    "sectors": [
+      {
+        "name": "制造业",
+        "ratio": 48.55
+      },
+      {
+        "name": "信息技术业",
+        "ratio": 5.1
+      },
+      {
+        "name": "金融业",
+        "ratio": 19.56
+      },
+      {
+        "name": "采矿业",
+        "ratio": 11.84
+      },
+      {
+        "name": "电力、热力、燃气及水生产和供应业",
+        "ratio": 3.59
+      },
+      {
+        "name": "交通运输、仓储和邮政业",
+        "ratio": 2.94
+      },
+      {
+        "name": "科学研究和技术服务业",
+        "ratio": 0.88
+      },
+      {
+        "name": "建筑业",
+        "ratio": 0.78
+      },
+      {
+        "name": "房地产业",
+        "ratio": 0.57
+      },
+      {
+        "name": "农、林、牧、渔业",
+        "ratio": 0.4
+      },
+      {
+        "name": "租赁和商务服务业",
+        "ratio": 0.1
+      }
+    ],
+    "bondStructure": null,
+    "policyLinks": [
+      {
+        "sector": "AI/半导体持仓占比",
+        "stocks": "",
+        "policyNote": "AI/半导体持仓占比20%直接受益于十五五规划新质生产力战略方向",
+        "color": "#3b82f6"
+      },
+      {
+        "sector": "新能源持仓占比12.",
+        "stocks": "",
+        "policyNote": "新能源持仓占比12.4%受益于新能源汽车渗透率提升政策支持",
+        "color": "#3b82f6"
+      },
+      {
+        "sector": "金融资源持仓占比9%",
+        "stocks": "",
+        "policyNote": "金融资源持仓占比9%受益于新国九条长期资金入市利好大盘蓝筹",
+        "color": "#3b82f6"
+      }
+    ],
+    "top10Total": 44.63,
+    "concentrationLabel": "中等集中（前十合计44.63%）",
+    "themeGroups": [
+      {
+        "name": "AI/半导体",
+        "ratio": 19.99,
+        "color": "#3b82f6",
+        "stocks": "工业富联4.48% + 中际旭创4.31% + 海光信息3.33% + 新易盛2.98% + 寒武纪2.89%",
+        "note": "覆盖AI算力全链条，为超额收益主要来源"
+      },
+      {
+        "name": "新能源产业链",
+        "ratio": 12.42,
+        "color": "#3b82f6",
+        "stocks": "宁德时代8.41% + 比亚迪4.01%",
+        "note": "覆盖电池+整车"
+      },
+      {
+        "name": "金融资源",
+        "ratio": 8.98,
+        "color": "#3b82f6",
+        "stocks": "紫金矿业6.07% + 招商银行2.91%",
+        "note": "防御性底仓"
+      },
+      {
+        "name": "消费龙头",
+        "ratio": 5.24,
+        "color": "#3b82f6",
+        "stocks": "贵州茅台5.24%",
+        "note": "稳健底仓"
+      }
+    ],
+    "themeTitle": "A50蓝筹宽基+AI/新能源增强",
+    "themeSubtitle": "以MSCI中国A50互联互通指数为底仓，通过量化因子模型在AI/半导体赛道上获取超额收益",
+    "evolutionHighlights": [
+      {
+        "quarter": "",
+        "change": "2024Q1→2025Q1：核心从\"茅台",
+        "theme": "",
+        "concentration": "",
+        "return": "",
+        "type": "neutral",
+        "insight": "2024Q1→2025Q1：核心从\"茅台+宁德时代\"双核转向\"宁德时代+紫金矿业\"双核，新能源和资源权重上升，消费降权。事后验证2025年有色金属+96.91%暴涨，调整方向正确"
+      },
+      {
+        "quarter": "",
+        "change": "2025Q1→2026Q1：新增中际旭创",
+        "theme": "",
+        "concentration": "",
+        "return": "",
+        "type": "neutral",
+        "insight": "2025Q1→2026Q1：新增中际旭创4.31%、海光信息3.33%、新易盛2.98%、寒武纪2.89%四只AI/半导体标的，五粮液和迈瑞医疗退出前十。AI赛道权重从近乎0%提升至约20%，事后验证2026Q2反弹中AI板块领涨"
+      },
+      {
+        "quarter": "",
+        "change": "2026Q1当期：宁德时代8.41%为第",
+        "theme": "",
+        "concentration": "",
+        "return": "",
+        "type": "neutral",
+        "insight": "2026Q1当期：宁德时代8.41%为第一大重仓，紫金矿业6.07%第二，A50蓝筹+AI增强的配置策略清晰"
+      }
+    ]
+  },
+  "managers": {
+    "current": {
+      "name": "赵志华",
+      "title": "中银基金管理有限公司助理副总裁(AVP)",
+      "education": "金融工程博士",
+      "experience": "10.9年",
+      "joinDate": "2011年",
+      "manageDate": "2023-11-22",
+      "manageYears": 2.5,
+      "fundCount": 11,
+      "totalScale": 12.2,
+      "bestReturn": 73.26,
+      "worstReturn": -8.37,
+      "managerId": "30361763",
+      "style": "被动指数管理",
+      "strengths": [
+        "量化因子模型执行纪律性极高，4个季度表述完全相同",
+        "A50增强A任职回报+72.26%，量化选股A +74.90%，均大幅跑赢同类平均",
+        "信息比率1.197优秀，年化Alpha+8.58%远超3%阈值",
+        "策略一致性极强，不存在风格漂移"
+      ],
+      "weaknesses": [
+        "在管13只基金超过10只建议上限，精力分散",
+        "沪深300指数增强A(004881)8年仅+65.70%年化不足6%",
+        "回撤控制能力差，最大回撤-15.07%全程高仓位被动承受",
+        "不做择时，在系统性风险面前完全被动"
+      ],
+      "historicalFunds": [
+        {
+          "name": "中银中证A500指数增强C",
+          "code": "023669",
+          "type": "指数型-股票",
+          "tenure": "2025-05-07 ~ 至今",
+          "return": 34.07,
+          "rank": 1850,
+          "rankTotal": 3904,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "中银中证A500指数增强A",
+          "code": "023668",
+          "type": "指数型-股票",
+          "tenure": "2025-05-07 ~ 至今",
+          "return": 34.58,
+          "rank": 1825,
+          "rankTotal": 3904,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "中银中证A500指数增强E",
+          "code": "023670",
+          "type": "指数型-股票",
+          "tenure": "2025-05-07 ~ 至今",
+          "return": 34.05,
+          "rank": 1852,
+          "rankTotal": 3904,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "中银新华中诚信红利价值指数发起A",
+          "code": "020617",
+          "type": "指数型-股票",
+          "tenure": "2025-04-29 ~ 2026-05-28",
+          "return": 5.92,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "✅",
+          "isCurrent": false
+        },
+        {
+          "name": "中银新华中诚信红利价值指数发起C",
+          "code": "020618",
+          "type": "指数型-股票",
+          "tenure": "2025-04-29 ~ 2026-05-28",
+          "return": 5.58,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "✅",
+          "isCurrent": false
+        },
+        {
+          "name": "中银沪深300指数C",
+          "code": "022860",
+          "type": "指数型-股票",
+          "tenure": "2025-01-07 ~ 2026-03-11",
+          "return": 21.91,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "🏆",
+          "isCurrent": false
+        },
+        {
+          "name": "中银沪深300指数A",
+          "code": "022859",
+          "type": "指数型-股票",
+          "tenure": "2025-01-07 ~ 2026-03-11",
+          "return": 22.05,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "🏆",
+          "isCurrent": false
+        },
+        {
+          "name": "中银中证1000指数增强E",
+          "code": "022685",
+          "type": "指数型-股票",
+          "tenure": "2024-11-26 ~ 2025-03-06",
+          "return": 9.61,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "✅",
+          "isCurrent": false
+        },
+        {
+          "name": "中银MSCI中国A50互联互通指数增强E",
+          "code": "022137",
+          "type": "指数型-股票",
+          "tenure": "2024-11-25 ~ 至今",
+          "return": 49.21,
+          "rank": 1380,
+          "rankTotal": 3904,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "中银沪深300指数增强E",
+          "code": "021851",
+          "type": "指数型-股票",
+          "tenure": "2024-07-12 ~ 至今",
+          "return": 40.75,
+          "rank": 2073,
+          "rankTotal": 3904,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "中银量化选股混合发起C",
+          "code": "019723",
+          "type": "混合型-偏股",
+          "tenure": "2024-06-17 ~ 至今",
+          "return": 71.9,
+          "rank": 1578,
+          "rankTotal": 4537,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "中银量化选股混合发起A",
+          "code": "019722",
+          "type": "混合型-偏股",
+          "tenure": "2024-06-17 ~ 至今",
+          "return": 73.26,
+          "rank": 1556,
+          "rankTotal": 4537,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "中银中证500指数增强型发起C",
+          "code": "019554",
+          "type": "指数型-股票",
+          "tenure": "2023-12-26 ~ 2025-01-15",
+          "return": 6.73,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "✅",
+          "isCurrent": false
+        },
+        {
+          "name": "中银中证500指数增强型发起A",
+          "code": "019553",
+          "type": "指数型-股票",
+          "tenure": "2023-12-26 ~ 2025-01-15",
+          "return": 7.18,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "✅",
+          "isCurrent": false
+        },
+        {
+          "name": "中银中证1000指数增强C",
+          "code": "019556",
+          "type": "指数型-股票",
+          "tenure": "2023-12-12 ~ 2025-03-06",
+          "return": 26.49,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "🏆",
+          "isCurrent": false
+        },
+        {
+          "name": "中银中证1000指数增强A",
+          "code": "019555",
+          "type": "指数型-股票",
+          "tenure": "2023-12-12 ~ 2025-03-06",
+          "return": 27.07,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "🏆",
+          "isCurrent": false
+        },
+        {
+          "name": "中银MSCI中国A50互联互通指数增强C",
+          "code": "014624",
+          "type": "指数型-股票",
+          "tenure": "2023-11-22 ~ 至今",
+          "return": 71.12,
+          "rank": 1379,
+          "rankTotal": 3904,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "中银MSCI中国A50互联互通指数增强A",
+          "code": "014623",
+          "type": "指数型-股票",
+          "tenure": "2023-11-22 ~ 至今",
+          "return": 72.86,
+          "rank": 1363,
+          "rankTotal": 3904,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "中银新财富混合C",
+          "code": "002056",
+          "type": "混合型-灵活",
+          "tenure": "2023-10-16 ~ 2025-12-15",
+          "return": 15.68,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "🏆",
+          "isCurrent": false
+        },
+        {
+          "name": "中银新财富混合A",
+          "code": "002054",
+          "type": "混合型-灵活",
+          "tenure": "2023-10-16 ~ 2025-12-15",
+          "return": 15.94,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "🏆",
+          "isCurrent": false
+        },
+        {
+          "name": "中银新回报灵活配置混合C",
+          "code": "010172",
+          "type": "混合型-灵活",
+          "tenure": "2023-07-25 ~ 2024-08-15",
+          "return": 3.99,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "✅",
+          "isCurrent": false
+        },
+        {
+          "name": "中银新回报灵活配置混合A",
+          "code": "000190",
+          "type": "混合型-灵活",
+          "tenure": "2023-07-25 ~ 2024-08-15",
+          "return": 4.37,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "✅",
+          "isCurrent": false
+        },
+        {
+          "name": "中银沪深300指数增强C",
+          "code": "010311",
+          "type": "指数型-股票",
+          "tenure": "2020-11-06 ~ 至今",
+          "return": 15.76,
+          "rank": 2076,
+          "rankTotal": 3904,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "中银量化精选混合C",
+          "code": "010484",
+          "type": "混合型-灵活",
+          "tenure": "2020-10-30 ~ 2026-03-11",
+          "return": 5.11,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "✅",
+          "isCurrent": false
+        },
+        {
+          "name": "中银沪深300指数增强A",
+          "code": "004881",
+          "type": "指数型-股票",
+          "tenure": "2017-11-24 ~ 至今",
+          "return": 65.46,
+          "rank": 2039,
+          "rankTotal": 3904,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "中银量化精选混合A",
+          "code": "003717",
+          "type": "混合型-灵活",
+          "tenure": "2016-12-13 ~ 2026-03-11",
+          "return": 31.52,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "🏆",
+          "isCurrent": false
+        },
+        {
+          "name": "中银研究精选灵活配置混合A",
+          "code": "000939",
+          "type": "混合型-灵活",
+          "tenure": "2016-11-02 ~ 2019-10-21",
+          "return": 11.85,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "🏆",
+          "isCurrent": false
+        },
+        {
+          "name": "中银腾利混合A",
+          "code": "002502",
+          "type": "混合型-灵活",
+          "tenure": "2016-06-21 ~ 2018-02-09",
+          "return": 5.81,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "✅",
+          "isCurrent": false
+        },
+        {
+          "name": "中银腾利混合C",
+          "code": "002503",
+          "type": "混合型-灵活",
+          "tenure": "2016-06-21 ~ 2018-02-09",
+          "return": 5.71,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "✅",
+          "isCurrent": false
+        },
+        {
+          "name": "中银优秀企业混合A",
+          "code": "000432",
+          "type": "混合型-偏股",
+          "tenure": "2015-07-27 ~ 2018-02-23",
+          "return": -8.37,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "⚠️",
+          "isCurrent": false
+        }
+      ],
+      "tenureReturn": 72.86,
+      "peerAvgReturn": 0.0,
+      "rankInPeer": 1363,
+      "rankTotal": 3904,
+      "philosophy": [
+        {
+          "label": "核心投资理念",
+          "text": "以量化多因子模型为核心，在严格跟踪误差约束下追求稳定超额收益"
+        },
+        {
+          "label": "选股方法论",
+          "text": "因子模型驱动，通过价值/动量/质量/成长因子的动态权重调整获取Alpha"
+        },
+        {
+          "label": "仓位管理风格",
+          "text": "不做主动行业研判和个股精选"
+        },
+        {
+          "label": "风险控制原则",
+          "text": "全程高仓位（约95%+），不做择时，超额来源完全依赖因子暴露调整"
+        }
+      ],
+      "consistencyAudit": [
+        {
+          "period": "2025年Q3",
+          "result": "pass",
+          "label": "一致",
+          "stated": "严格按照量化指数增强模型运作，较为严格的控制了行业和风格偏离，努力在控制风险的基础上追求超额收益",
+          "actual": "制造业48.55%、金融业19.56%、采矿业11.84%，行业分布与A50指数成分高度匹配",
+          "evaluation": "模型严格跟踪指数成分，Q3收益+25.68%跑赢沪深300+17.9%，超额+7.78%"
+        },
+        {
+          "period": "2026年Q1",
+          "result": "warn",
+          "label": "言行一致但增强效果弱",
+          "stated": "严格按照量化指数增强模型运作，较为严格的控制了行业和风格偏离，努力在控制风险的基础上追求超额收益",
+          "actual": "前十大重仓宁德时代8.41%、紫金矿业6.07%、贵州茅台5.24%，与A50指数权重基本一致",
+          "evaluation": "Q1收益-4.14%跑输沪深300-3.89%，超额-0.25%，增强效果弱"
+        }
+      ],
+      "abilityProfile": {
+        "best": "量化因子模型执行与指数跟踪（A50增强A任职回报+72.26%，量化选股A +74.90%，均大幅跑赢同类平均）",
+        "worst": "回撤控制能力差（最大回撤-15.07%，模型不做择时，下跌行情完全被动承受）",
+        "goodEnv": [
+          "A股上行期/牛市周期",
+          "大盘蓝筹风格占优",
+          "流动性宽松"
+        ],
+        "badEnv": [
+          "系统性下跌/地缘冲击/滞胀担忧期",
+          "大盘蓝筹承压时超额难以弥补Beta损失"
+        ]
+      },
+      "allManagerIds": [
+        "30361763"
+      ]
+    },
+    "history": [
+      {
+        "name": "赵志华",
+        "role": "独任",
+        "start": "2023-11-22",
+        "end": "至今",
+        "tenure": "2年188天",
+        "return": 72.26,
+        "note": "自成立以来独任管理，无经理变更记录"
+      }
+    ]
+  },
+  "policy": {
+    "tags": [
+      {
+        "label": "十五五规划",
+        "strength": "medium",
+        "color": "#E8813A"
+      },
+      {
+        "label": "新国九条",
+        "strength": "medium",
+        "color": "#E8813A"
+      },
+      {
+        "label": "互联互通",
+        "strength": "medium",
+        "color": "#E8813A"
+      },
+      {
+        "label": "新质生产力",
+        "strength": "medium",
+        "color": "#E8813A"
+      },
+      {
+        "label": "AI/半导体",
+        "strength": "medium",
+        "color": "#E8813A"
+      }
+    ],
+    "policyBreakdown": [
+      {
+        "sector": "十五五规划·新质生产力",
+        "icon": "📋",
+        "color": "#3b82f6",
+        "logic": "十五五规划纲要明确新质生产力、AI/半导体/新能源为重点战略方向，A50蓝筹直接受益于政策红利",
+        "stocks": [
+          "工业富联",
+          "中际旭创",
+          "海光信息",
+          "新易盛",
+          "寒武纪"
+        ]
+      },
+      {
+        "sector": "新国九条·资本市场改革",
+        "icon": "📋",
+        "color": "#3b82f6",
+        "logic": "资本市场改革深化，长期资金入市利好大盘蓝筹估值修复，A50核心标的受益显著",
+        "stocks": [
+          "贵州茅台",
+          "招商银行",
+          "紫金矿业"
+        ]
+      },
+      {
+        "sector": "新能源产业政策",
+        "icon": "📋",
+        "color": "#3b82f6",
+        "logic": "新能源汽车渗透率持续提升，动力电池需求增长，政策支持力度大",
+        "stocks": [
+          "宁德时代",
+          "比亚迪"
+        ]
+      },
+      {
+        "sector": "互联互通机制",
+        "icon": "📋",
+        "color": "#3b82f6",
+        "logic": "北向资金流入渠道畅通，外资持续流入利好A50互联互通成分股",
+        "stocks": [
+          "招商银行",
+          "贵州茅台",
+          "紫金矿业"
+        ]
+      }
+    ],
+    "fifteenFive": [
+      {
+        "direction": "新质生产力",
+        "color": "#F54E48",
+        "description": "AI/半导体/新能源为重点战略方向，强利好A50蓝筹",
+        "holdings": "工业富联 / 中际旭创 / 海光信息 / 新易盛 / 寒武纪"
+      },
+      {
+        "direction": "科技创新",
+        "color": "#E8813A",
+        "description": "光模块/AI芯片需求持续旺盛，产业政策支持",
+        "holdings": "工业富联 / 中际旭创 / 海光信息"
+      },
+      {
+        "direction": "资本市场改革",
+        "color": "#58a6ff",
+        "description": "新国九条持续落地，长期资金入市利好大盘蓝筹估值修复",
+        "holdings": "贵州茅台 / 招商银行 / 紫金矿业"
+      }
+    ],
+    "longTermRisks": [
+      {
+        "risk": "地缘冲突升级",
+        "level": "high",
+        "signal": "地缘冲突持续升级可能导致A50蓝筹估值压缩，外资风险偏好下降"
+      },
+      {
+        "risk": "美联储持续收紧",
+        "level": "high",
+        "signal": "美联储持续收紧货币政策导致外资流出，压制蓝筹估值"
+      },
+      {
+        "risk": "AI/半导体景气下行",
+        "level": "medium",
+        "signal": "AI/半导体产业景气度若下行，A50科技权重股将承压"
+      }
+    ],
+    "scenarios": [
+      {
+        "type": "悲观",
+        "probability": 20,
+        "color": "#ef4444",
+        "returnLow": -15,
+        "returnHigh": -5,
+        "trigger": "地缘冲突持续升级+全球经济衰退+A50蓝筹估值压缩+美联储持续收紧"
+      },
+      {
+        "type": "基准",
+        "probability": 55,
+        "color": "#3b82f6",
+        "returnLow": 10,
+        "returnHigh": 25,
+        "trigger": "经济温和复苏+政策红利持续释放+北向资金稳定流入+增强策略继续贡献Alpha"
+      },
+      {
+        "type": "乐观",
+        "probability": 25,
+        "color": "#22c55e",
+        "returnLow": 25,
+        "returnHigh": 45,
+        "trigger": "地缘风险消退+全球流动性宽松+AI/新能源产业景气超预期+A50蓝筹全面上涨"
+      }
+    ],
+    "industryOverview": [
+      {
+        "point": "大盘蓝筹高位修复",
+        "detail": "A股2025年牛市后处于高位修复期，沪深300 PE约12-13x，处于合理区间"
+      },
+      {
+        "point": "A50代表核心资产",
+        "detail": "指数成分股以金融、消费、新能源、科技为核心，代表中国核心资产"
+      },
+      {
+        "point": "AI/半导体景气上行",
+        "detail": "产业链景气持续上行，光模块和AI芯片需求旺盛"
+      },
+      {
+        "point": "新能源渗透率提升",
+        "detail": "新能源汽车渗透率持续提升，动力电池需求增长"
+      }
+    ],
+    "cyclePeriod": "红利期",
+    "cycleReason": "十五五规划开局年，新质生产力和科技创新政策加码；资本市场改革持续推进，长期资金入市利好A50蓝筹；新能源和AI/半导体为政策重点支持方向。地缘冲突为短期扰动，不改变政策红利期判断。",
+    "note": "因搜索工具被CAPTCHA拦截，政策原文和文号未能获取。具体文号待补证。",
+    "dualTimeline": [],
+    "timeline": [],
+    "adaptability": [
+      {
+        "env": "🐂 牛市环境（量化增强模型Alpha贡献显著）",
+        "perf": "强。量化增强在单边上涨中持续跑赢基准，超额收益稳定",
+        "color": "#F54E48"
+      },
+      {
+        "env": "🐻 系统性下跌（高仓位无法防御）",
+        "perf": "弱。仓位90%+无法减仓避险，需靠定投分散成本",
+        "color": "#2DC78E"
+      },
+      {
+        "env": "⚡ AI/新能源政策顺风期",
+        "perf": "中等偏强。赛道权重约32%，政策支持力度大但估值已部分反映",
+        "color": "#D4A017"
+      }
+    ]
+  },
+  "exclusionCheck": [
+    {
+      "item": "黑名单核查",
+      "pass": true,
+      "note": "中银基金和赵志华均不在黑名单中"
+    },
+    {
+      "item": "近3年处罚记录",
+      "pass": true,
+      "note": "未发现公开的证监会处罚记录"
+    },
+    {
+      "item": "内幕交易传闻",
+      "pass": true,
+      "note": "未发现相关传闻"
+    },
+    {
+      "item": "基金经理离职风险",
+      "pass": true,
+      "note": "赵志华自2023年11月起管理至今，无离职信号"
+    },
+    {
+      "item": "管理疲劳风险",
+      "pass": false,
+      "note": "在管13只基金超过10只建议上限，fatigue_risk=true"
+    },
+    {
+      "item": "风格漂移检查",
+      "pass": true,
+      "note": "4个季度运行分析表述完全一致，不存在风格漂移"
+    },
+    {
+      "item": "净值造假/异常检查",
+      "pass": true,
+      "note": "净值数据与A50指数走势基本一致，无异常"
+    },
+    {
+      "item": "经理身份冲突",
+      "pass": true,
+      "note": "manager_identity_conflict=false，AKShare侧与tenure_history一致"
+    },
+    {
+      "item": "清盘风险",
+      "pass": false,
+      "note": "0.96亿元低于2亿警戒线，存在清盘风险但短期概率不高"
+    },
+    {
+      "item": "费率合理性",
+      "pass": true,
+      "note": "管理+托管0.80%虽偏高但在指数增强型合理范围内，申购费1折后0.15%合理"
+    }
+  ],
+  "scoring": {
+    "total": 66,
+    "grade": "良好",
+    "recommendation": "观望，存量持有不加仓，新资金等回调",
+    "recommendationType": "cautious",
+    "rating": "★★★",
+    "logic": "基金质量 66/100 良好 × 政策状态 🟢 红利期 × 市场状态 高估谨慎 → ★★★ 观望",
+    "dimensions": [
+      {
+        "name": "超额Alpha稳定性",
+        "score": 25,
+        "maxScore": 30,
+        "pros": [],
+        "cons": []
+      },
+      {
+        "name": "跟踪误差控制",
+        "score": 17,
+        "maxScore": 20,
+        "pros": [],
+        "cons": []
+      },
+      {
+        "name": "规模合理性",
+        "score": 8,
+        "maxScore": 20,
+        "pros": [],
+        "cons": []
+      },
+      {
+        "name": "费率性价比",
+        "score": 6,
+        "maxScore": 15,
+        "pros": [],
+        "cons": []
+      },
+      {
+        "name": "量化团队实力",
+        "score": 10,
+        "maxScore": 15,
+        "pros": [],
+        "cons": []
+      }
+    ],
+    "reasoning": "基金质量评分66/100（良好），其中超额Alpha稳定性25/30（年化Alpha+8.58%，IR=1.197优秀）、跟踪误差控制17/20（R²=0.91，Beta=0.89）、规模合理性8/20（0.96亿低于2亿警戒线）、费率性价比6/15（管理+托管0.80%偏高）、量化团队实力10/15（赵志华金融工程博士但13只在管超限）。政策状态处于红利期（十五五规划+新国九条），但市场状态为高估谨慎（净值99.3%历史分位）。三维度相乘得出★★★观望评级。",
+    "conclusion": "★★★ 观望。基金质量良好×政策红利期×市场高估谨慎→观望。存量持有人可继续持有但不宜大幅加仓，新投资者建议等待净值回落至历史70%分位以下（约NAV≤1.50）再建仓，或采用定投方式分批入场。核心矛盾：量化增强策略长期有效且Alpha突出，但当前净值处于历史极高位，追高赔率极低。",
+    "suitableFor": [
+      "已持有、成本较低、能承受-15%以上短期回撤、持仓周期3年以上的投资者",
+      "对量化指数增强策略有理解、认可A50蓝筹+AI增强逻辑的投资者",
+      "将此基金作为分散化组合中大盘蓝筹配置工具（仓位<15%）的进阶投资者"
+    ],
+    "notSuitableFor": [
+      "新入场高位追涨、持有期<1年、无法承受-15%以上短期亏损的投资者",
+      "需要现金流的投资者（该基金从未分红）",
+      "希望规避系统性风险的择时型投资者",
+      "风险承受能力评级低于R3的投资者"
+    ],
+    "allocationSuggestions": [
+      {
+        "scenario": "存量持有人",
+        "action": "可继续持有",
+        "note": "但不建议此价位大幅加仓，等待回调后再增仓"
+      },
+      {
+        "scenario": "新入场投资者",
+        "action": "等待净值回落至历史70%分位以下（约NAV≤1.50）再考虑建仓",
+        "note": "或采用定投方式分批入场"
+      },
+      {
+        "scenario": "短期（1-3个月）",
+        "action": "不建议追高",
+        "note": "等待回调至1.55-1.65区间再考虑"
+      },
+      {
+        "scenario": "中期（6-12个月）",
+        "action": "可小仓位试水（≤10%）",
+        "note": "分3批建仓，首批3%"
+      },
+      {
+        "scenario": "长期（3年以上）",
+        "action": "回调至合理位置后可配置≤15%",
+        "note": "NAV跌破1.10为硬止损线"
+      }
+    ],
+    "risks": [
+      {
+        "type": "净值高位追高风险",
+        "level": "high",
+        "note": "当前99.3%历史分位，接近历史最高点1.7511，追高赔率极低。历史上从高位回撤的幅度可达-15.07%"
+      },
+      {
+        "type": "管理疲劳风险",
+        "level": "medium",
+        "note": "在管13只基金超过10只建议上限，赵志华精力分散可能影响增强效果"
+      },
+      {
+        "type": "规模偏小/清盘风险",
+        "level": "medium",
+        "note": "0.96亿元低于2亿警戒线，若持续缩水可能触发清盘线（5000万元），但A类份额有机构持有基础，短期清盘概率不高"
+      },
+      {
+        "type": "不做择时的系统性风险",
+        "level": "medium",
+        "note": "量化增强模型全程高仓位，无法在下跌行情中减仓防御，最大回撤-15.07%中模型全程高仓位被动承受"
+      }
+    ],
+    "policyItems": [
+      {
+        "name": "十五五规划纲要：新质生产力、AI/半导体/新能源为重点战略方向，强利好A50蓝筹",
+        "impactLabel": "🟢 利好",
+        "detail": "十五五规划纲要：新质生产力、AI/半导体/新能源为重点战略方向，强利好A50蓝筹"
+      },
+      {
+        "name": "新国九条持续落地：资本市场改革深化，长期资金入市，利好大盘蓝筹估值修复",
+        "impactLabel": "🟢 利好",
+        "detail": "新国九条持续落地：资本市场改革深化，长期资金入市，利好大盘蓝筹估值修复"
+      },
+      {
+        "name": "互联互通机制优化：北向资金流入渠道畅通，中性偏正",
+        "impactLabel": "🟢 利好",
+        "detail": "互联互通机制优化：北向资金流入渠道畅通，中性偏正"
+      }
+    ],
+    "marketStatus": [
+      {
+        "name": "净值位置：99.3%历史分位，历史极高位区间",
+        "dim": "市场行情",
+        "statusType": "warning",
+        "detail": "净值位置：99.3%历史分位，历史极高位区间",
+        "status": "净值位置：99.3%历史分位，历史极高位区间"
+      },
+      {
+        "name": "近期趋势：短期反弹强劲，近3月+11.24%排名1010/4919",
+        "dim": "市场行情",
+        "statusType": "warning",
+        "detail": "近期趋势：短期反弹强劲，近3月+11.24%排名1010/4919",
+        "status": "近期趋势：短期反弹强劲，近3月+11.24%排名1010/4919"
+      },
+      {
+        "name": "夏普趋势：1Y夏普2.46远高于2Y的1.20，近一年表现极为突出",
+        "dim": "市场行情",
+        "statusType": "warning",
+        "detail": "夏普趋势：1Y夏普2.46远高于2Y的1.20，近一年表现极为突出",
+        "status": "夏普趋势：1Y夏普2.46远高于2Y的1.20，近一年表现极为突出"
+      },
+      {
+        "name": "宏观流动性：2026年温和宽松，但地缘冲突下美联储暂停降息，边际收紧",
+        "dim": "市场行情",
+        "statusType": "warning",
+        "detail": "宏观流动性：2026年温和宽松，但地缘冲突下美联储暂停降息，边际收紧",
+        "status": "宏观流动性：2026年温和宽松，但地缘冲突下美联储暂停降息，边际收紧"
+      },
+      {
+        "name": "持仓主线景气：AI/半导体景气持续上行，新能源渗透率提升，但估值已部分反映",
+        "dim": "市场行情",
+        "statusType": "warning",
+        "detail": "持仓主线景气：AI/半导体景气持续上行，新能源渗透率提升，但估值已部分反映",
+        "status": "持仓主线景气：AI/半导体景气持续上行，新能源渗透率提升，但估值已部分反映"
+      },
+      {
+        "name": "外部风险：中东地缘冲突持续，通胀担忧，美联储降息节奏不确定",
+        "dim": "市场行情",
+        "statusType": "warning",
+        "detail": "外部风险：中东地缘冲突持续，通胀担忧，美联储降息节奏不确定",
+        "status": "外部风险：中东地缘冲突持续，通胀担忧，美联储降息节奏不确定"
+      }
+    ],
+    "termAdvice": [
+      {
+        "term": "短期（1-3月）",
+        "icon": "⚠️",
+        "level": "cautious",
+        "advice": "不建议追高，等待回调至1.55-1.65区间再考虑。净值高位+地缘不确定性，短期追高风险大"
+      },
+      {
+        "term": "中期（6-12月）",
+        "icon": "🟡",
+        "level": "neutral",
+        "advice": "可小仓位试水（≤10%），分3批建仓，首批3%，回调加仓。政策红利期+增强策略有效，但高位限制赔率"
+      },
+      {
+        "term": "长期（3年以上）",
+        "icon": "🟢",
+        "level": "positive",
+        "advice": "回调至合理位置后可配置≤15%，NAV跌破1.10为硬止损线。量化增强策略长期有效+AI/新能源产业趋势向上"
+      }
+    ]
+  },
+  "navHistory": [
+    {
+      "date": "2026-01-12",
+      "nav": 1.6046
+    },
+    {
+      "date": "2026-01-13",
+      "nav": 1.5956
+    },
+    {
+      "date": "2026-01-14",
+      "nav": 1.593
+    },
+    {
+      "date": "2026-01-15",
+      "nav": 1.5974
+    },
+    {
+      "date": "2026-01-16",
+      "nav": 1.5902
+    },
+    {
+      "date": "2026-01-19",
+      "nav": 1.5856
+    },
+    {
+      "date": "2026-01-20",
+      "nav": 1.5777
+    },
+    {
+      "date": "2026-01-21",
+      "nav": 1.5796
+    },
+    {
+      "date": "2026-01-22",
+      "nav": 1.5784
+    },
+    {
+      "date": "2026-01-23",
+      "nav": 1.5603
+    },
+    {
+      "date": "2026-01-26",
+      "nav": 1.5678
+    },
+    {
+      "date": "2026-01-27",
+      "nav": 1.5715
+    },
+    {
+      "date": "2026-01-28",
+      "nav": 1.5798
+    },
+    {
+      "date": "2026-01-29",
+      "nav": 1.5929
+    },
+    {
+      "date": "2026-01-30",
+      "nav": 1.5782
+    },
+    {
+      "date": "2026-02-02",
+      "nav": 1.5406
+    },
+    {
+      "date": "2026-02-03",
+      "nav": 1.5516
+    },
+    {
+      "date": "2026-02-04",
+      "nav": 1.5623
+    },
+    {
+      "date": "2026-02-05",
+      "nav": 1.5538
+    },
+    {
+      "date": "2026-02-06",
+      "nav": 1.5451
+    },
+    {
+      "date": "2026-02-09",
+      "nav": 1.5673
+    },
+    {
+      "date": "2026-02-10",
+      "nav": 1.5719
+    },
+    {
+      "date": "2026-02-11",
+      "nav": 1.57
+    },
+    {
+      "date": "2026-02-12",
+      "nav": 1.5687
+    },
+    {
+      "date": "2026-02-13",
+      "nav": 1.5463
+    },
+    {
+      "date": "2026-02-24",
+      "nav": 1.5545
+    },
+    {
+      "date": "2026-02-25",
+      "nav": 1.566
+    },
+    {
+      "date": "2026-02-26",
+      "nav": 1.5557
+    },
+    {
+      "date": "2026-02-27",
+      "nav": 1.5486
+    },
+    {
+      "date": "2026-03-02",
+      "nav": 1.565
+    },
+    {
+      "date": "2026-03-03",
+      "nav": 1.5497
+    },
+    {
+      "date": "2026-03-04",
+      "nav": 1.5272
+    },
+    {
+      "date": "2026-03-05",
+      "nav": 1.544
+    },
+    {
+      "date": "2026-03-06",
+      "nav": 1.5444
+    },
+    {
+      "date": "2026-03-09",
+      "nav": 1.5282
+    },
+    {
+      "date": "2026-03-10",
+      "nav": 1.5483
+    },
+    {
+      "date": "2026-03-11",
+      "nav": 1.5604
+    },
+    {
+      "date": "2026-03-12",
+      "nav": 1.5496
+    },
+    {
+      "date": "2026-03-13",
+      "nav": 1.5444
+    },
+    {
+      "date": "2026-03-16",
+      "nav": 1.5504
+    },
+    {
+      "date": "2026-03-17",
+      "nav": 1.544
+    },
+    {
+      "date": "2026-03-18",
+      "nav": 1.551
+    },
+    {
+      "date": "2026-03-19",
+      "nav": 1.5286
+    },
+    {
+      "date": "2026-03-20",
+      "nav": 1.5317
+    },
+    {
+      "date": "2026-03-23",
+      "nav": 1.4877
+    },
+    {
+      "date": "2026-03-24",
+      "nav": 1.5052
+    },
+    {
+      "date": "2026-03-25",
+      "nav": 1.527
+    },
+    {
+      "date": "2026-03-26",
+      "nav": 1.5105
+    },
+    {
+      "date": "2026-03-27",
+      "nav": 1.519
+    },
+    {
+      "date": "2026-03-30",
+      "nav": 1.5152
+    },
+    {
+      "date": "2026-03-31",
+      "nav": 1.5065
+    },
+    {
+      "date": "2026-04-01",
+      "nav": 1.5336
+    },
+    {
+      "date": "2026-04-02",
+      "nav": 1.5161
+    },
+    {
+      "date": "2026-04-03",
+      "nav": 1.5047
+    },
+    {
+      "date": "2026-04-07",
+      "nav": 1.5074
+    },
+    {
+      "date": "2026-04-08",
+      "nav": 1.5605
+    },
+    {
+      "date": "2026-04-09",
+      "nav": 1.5514
+    },
+    {
+      "date": "2026-04-10",
+      "nav": 1.5782
+    },
+    {
+      "date": "2026-04-13",
+      "nav": 1.5838
+    },
+    {
+      "date": "2026-04-14",
+      "nav": 1.6065
+    },
+    {
+      "date": "2026-04-15",
+      "nav": 1.6092
+    },
+    {
+      "date": "2026-04-16",
+      "nav": 1.6332
+    },
+    {
+      "date": "2026-04-17",
+      "nav": 1.6335
+    },
+    {
+      "date": "2026-04-20",
+      "nav": 1.6412
+    },
+    {
+      "date": "2026-04-21",
+      "nav": 1.6455
+    },
+    {
+      "date": "2026-04-22",
+      "nav": 1.6626
+    },
+    {
+      "date": "2026-04-23",
+      "nav": 1.6607
+    },
+    {
+      "date": "2026-04-24",
+      "nav": 1.6591
+    },
+    {
+      "date": "2026-04-27",
+      "nav": 1.6592
+    },
+    {
+      "date": "2026-04-28",
+      "nav": 1.6541
+    },
+    {
+      "date": "2026-04-29",
+      "nav": 1.667
+    },
+    {
+      "date": "2026-04-30",
+      "nav": 1.6683
+    },
+    {
+      "date": "2026-05-06",
+      "nav": 1.696
+    },
+    {
+      "date": "2026-05-07",
+      "nav": 1.7032
+    },
+    {
+      "date": "2026-05-08",
+      "nav": 1.6865
+    },
+    {
+      "date": "2026-05-11",
+      "nav": 1.7161
+    },
+    {
+      "date": "2026-05-12",
+      "nav": 1.7297
+    },
+    {
+      "date": "2026-05-13",
+      "nav": 1.7511
+    },
+    {
+      "date": "2026-05-14",
+      "nav": 1.7209
+    },
+    {
+      "date": "2026-05-15",
+      "nav": 1.6948
+    },
+    {
+      "date": "2026-05-18",
+      "nav": 1.6841
+    },
+    {
+      "date": "2026-05-19",
+      "nav": 1.6914
+    },
+    {
+      "date": "2026-05-20",
+      "nav": 1.6898
+    },
+    {
+      "date": "2026-05-21",
+      "nav": 1.6624
+    },
+    {
+      "date": "2026-05-22",
+      "nav": 1.6818
+    },
+    {
+      "date": "2026-05-25",
+      "nav": 1.7205
+    },
+    {
+      "date": "2026-05-26",
+      "nav": 1.7346
+    },
+    {
+      "date": "2026-05-27",
+      "nav": 1.7226
+    },
+    {
+      "date": "2026-05-28",
+      "nav": 1.7387
+    },
+    {
+      "date": "2026-05-29",
+      "nav": 1.7286
+    }
+  ],
+  "tracking": {
+    "weekly": [
+      "净值方向验证：每日净值涨跌是否与A50指数和持仓核心板块行情一致",
+      "A50指数走势：MSCI中国A50互联互通人民币指数是否维持上行趋势",
+      "AI/半导体景气度：光模块/AI芯片订单和出货量数据",
+      "新能源产业链价格：碳酸锂价格走势（持续下行>10%时重新评估持仓逻辑）",
+      "经理动态：关注赵志华是否卸任或新增管理产品（当前13只已超限）"
+    ],
+    "quarterly": [
+      "持仓变化",
+      "集中度变化",
+      "规模变化",
+      "同类排名",
+      "年化超额"
+    ],
+    "alerts": [
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "基金经理更换：一票否决级别风险，需重新完整评估接任者"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "单季度回撤 > -12% 且同类排名倒数20%：个基崩溃信号，需立即评估"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "AI/半导体板块基本面恶化：光模块/芯片订单连续2个季度下滑：需重新评估持仓逻辑"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "北向资金持续大幅流出：连续4周净流出超200亿/周：需立即评估外资撤离影响"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "规模半年内扩张 > 20亿：超额收益快速摊薄，需重新评估"
+      },
+      {
+        "level": "warning",
+        "icon": "⚠️",
+        "text": "季报持仓大幅偏离A50指数：需核查模型是否异常"
+      }
+    ]
+  },
+  "stageAnalysis": {
+    "stages": [
+      {
+        "id": 1,
+        "name": "建仓与初期回调",
+        "emoji": "🟢",
+        "period": "2023-11 → 2024-02",
+        "returnPct": -4.18,
+        "hs300Pct": -5.74,
+        "excessPct": 1.56,
+        "driverType": "beta",
+        "driverLabel": "行业Beta主导",
+        "color": "green",
+        "description": "基金成立于2023年末，建仓期恰逢A股调整，净值从1.0跌至0.9582。建仓节奏偏稳健，跑赢沪深300约1.56%，量化增强模型在建仓初期即体现小幅超额收益。",
+        "env": "A股调整期，建仓期市场下行",
+        "managerAction": "建仓期稳健布局，以茅台7.75%、宁德时代7.44%、紫金矿业5.72%为核心",
+        "attribution": "Beta主导，Alpha小幅正贡献"
+      },
+      {
+        "id": 2,
+        "name": "春季反弹",
+        "emoji": "🟢",
+        "period": "2024-02 → 2024-05",
+        "returnPct": 21.09,
+        "hs300Pct": 3.9,
+        "excessPct": 17.2,
+        "driverType": "alpha",
+        "driverLabel": "Alpha贡献显著",
+        "color": "green",
+        "description": "2024年Q1行情驱动，A50蓝筹集中反弹，宁德时代、贵州茅台、紫金矿业等重仓股领涨。基金超额收益极为突出，量化增强模型在行业和风格偏离控制上表现优异。",
+        "env": "2024年Q1春季躁动行情，经济数据超预期，外资回流A股",
+        "managerAction": "严格按照量化指数增强模型运作，较为严格控制行业和风格偏离",
+        "attribution": "Alpha超额+17.2%极为突出，Beta贡献为主但Alpha极为亮眼"
+      },
+      {
+        "id": 3,
+        "name": "震荡回调",
+        "emoji": "🔴",
+        "period": "2024-05 → 2024-09",
+        "returnPct": -11.43,
+        "hs300Pct": -2.2,
+        "excessPct": -9.2,
+        "driverType": "dual_loss",
+        "driverLabel": "Beta+Alpha双损",
+        "color": "red",
+        "description": "2024年Q2-Q3市场震荡回调，大盘蓝筹跑输中小盘。基金重仓A50蓝筹，Beta拖累严重；同时量化模型在风格切换期未及时调整，Alpha也为负。",
+        "env": "Q2-Q3市场震荡回调，大盘蓝筹跑输中小盘",
+        "managerAction": "严格按照量化指数增强模型运作，持仓维持不变",
+        "attribution": "Beta拖累严重，模型未做择时防御，言行一致但回撤控制不佳"
+      },
+      {
+        "id": 4,
+        "name": "924急涨",
+        "emoji": "🟢",
+        "period": "2024-09 → 2024-10",
+        "returnPct": 26.61,
+        "hs300Pct": 22.0,
+        "excessPct": 4.6,
+        "driverType": "beta",
+        "driverLabel": "行业Beta主导",
+        "color": "green",
+        "description": "924政策转向引爆A股，A50蓝筹集中反弹。基金在约20个交易日内净值暴涨26.61%，达到1.3012高点。量化增强模型跟随指数Beta为主。",
+        "env": "924政策转向，央行降准降息+资本市场支持政策密集出台",
+        "managerAction": "模型被动跟随指数上涨，无主动调仓",
+        "attribution": "纯Beta行情，Beta主导"
+      },
+      {
+        "id": 5,
+        "name": "深度回撤",
+        "emoji": "🔴",
+        "period": "2024-10 → 2025-04",
+        "returnPct": -15.07,
+        "hs300Pct": -13.0,
+        "excessPct": -2.1,
+        "driverType": "dual_loss",
+        "driverLabel": "Beta+Alpha双损",
+        "color": "red",
+        "description": "政策刺激退潮后市场持续调整，基金经历成立以来最大回撤，净值从1.3012跌至1.1051，持续约6个月。模型全程高仓位被动承受，无主动防御。",
+        "env": "政策刺激退潮+经济数据走弱，A50蓝筹从高点大幅回落",
+        "managerAction": "严格按照量化指数增强模型运作，无主动减仓",
+        "attribution": "最大回撤期，全程高仓位承受，风控缺失"
+      },
+      {
+        "id": 6,
+        "name": "主升浪",
+        "emoji": "🟢",
+        "period": "2025-04 → 2026-01",
+        "returnPct": 46.46,
+        "hs300Pct": 27.0,
+        "excessPct": 19.5,
+        "driverType": "alpha",
+        "driverLabel": "Alpha贡献显著",
+        "color": "green",
+        "description": "2025年A股全面牛市，有色金属+96.91%、通信+88.29%暴涨。2025Q3单季+25.68%大幅跑赢沪深300+17.9%，全年+31.32%跑赢沪深300+17.66%达13.66个百分点。",
+        "env": "2025年A股全面牛市，有色金属、通信暴涨",
+        "managerAction": "严格按照量化指数增强模型运作，持仓宁德时代、紫金矿业等领涨股获益显著",
+        "attribution": "Beta+Alpha双击，效果突出"
+      },
+      {
+        "id": 7,
+        "name": "地缘回调",
+        "emoji": "🔴",
+        "period": "2026-01 → 2026-03",
+        "returnPct": -8.08,
+        "hs300Pct": -3.89,
+        "excessPct": -4.19,
+        "driverType": "dual_loss",
+        "driverLabel": "Beta+Alpha双损",
+        "color": "red",
+        "description": "2026年Q1地缘冲突加剧，大盘蓝筹承压。基金回撤-8.08%远超沪深300的-3.89%。",
+        "env": "中东地缘冲突加剧通胀担忧，美联储暂停降息",
+        "managerAction": "严格按照量化指数增强模型运作，模型维持高仓位",
+        "attribution": "A50蓝筹在避险情绪下受冲击更大，择时缺失"
+      },
+      {
+        "id": 8,
+        "name": "修复反弹",
+        "emoji": "🟢",
+        "period": "2026-03 → 2026-05",
+        "returnPct": 17.71,
+        "hs300Pct": 10.5,
+        "excessPct": 7.2,
+        "driverType": "alpha",
+        "driverLabel": "Alpha贡献显著",
+        "color": "green",
+        "description": "地缘风险消化后市场修复，2026Q2至今+12.32%跑赢沪深300+8.44%。当前净值1.7226接近历史最高1.7511。",
+        "env": "地缘风险消化后市场修复，A50蓝筹重新获得资金青睐",
+        "managerAction": "2026Q2模型继续运行，持仓以宁德时代8.41%、紫金矿业6.07%、贵州茅台5.24%为核心",
+        "attribution": "Alpha贡献显著，效果良好"
+      }
+    ],
+    "inflectionPoints": [
+      {
+        "id": 1,
+        "startDate": "2024-02-02",
+        "endDate": "2024-05-20",
+        "startNav": 0.9582,
+        "endNav": 1.1603,
+        "changePct": 21.09,
+        "type": "peak",
+        "env": "2024年Q1春季躁动行情，经济数据超预期，外资回流A股",
+        "managerAction": "季报原文\"严格按照量化指数增强模型运作，较为严格的控制了行业和风格偏离\"（2024Q1），持仓以茅台(7.75%)、宁德时代(7.44%)、紫金矿业(5.72%)为核心",
+        "attribution": "Beta贡献为主，Alpha超额+17.2%极为突出 ✅言行一致",
+        "holdingsSummary": "暂无持仓数据",
+        "stageId": 2
+      },
+      {
+        "id": 2,
+        "startDate": "2024-05-20",
+        "endDate": "2024-09-12",
+        "startNav": 1.1603,
+        "endNav": 1.0277,
+        "changePct": -11.43,
+        "type": "trough",
+        "env": "Q2-Q3市场震荡回调，大盘蓝筹跑输中小盘",
+        "managerAction": "季报原文\"严格按照量化指数增强模型运作\"（2024Q3），持仓维持不变",
+        "attribution": "Beta拖累严重，模型未做择时防御 ⚠️言行一致但回撤控制不佳",
+        "holdingsSummary": "暂无持仓数据",
+        "stageId": 3
+      },
+      {
+        "id": 3,
+        "startDate": "2024-09-12",
+        "endDate": "2024-10-08",
+        "startNav": 1.0277,
+        "endNav": 1.3012,
+        "changePct": 26.61,
+        "type": "peak",
+        "env": "924政策转向，央行降准降息+资本市场支持政策密集出台",
+        "managerAction": "模型被动跟随指数上涨，无主动调仓",
+        "attribution": "纯Beta行情 🌊Beta主导",
+        "holdingsSummary": "暂无持仓数据",
+        "stageId": 4
+      },
+      {
+        "id": 4,
+        "startDate": "2024-10-08",
+        "endDate": "2025-04-07",
+        "startNav": 1.3012,
+        "endNav": 1.1051,
+        "changePct": -15.07,
+        "type": "trough",
+        "env": "政策刺激退潮+经济数据走弱，A50蓝筹从高点大幅回落",
+        "managerAction": "季报原文\"严格按照量化指数增强模型运作\"（2024Q4），无主动减仓",
+        "attribution": "最大回撤期，全程高仓位承受 ❌风控缺失",
+        "holdingsSummary": "暂无持仓数据",
+        "stageId": 5
+      },
+      {
+        "id": 5,
+        "startDate": "2025-04-07",
+        "endDate": "2026-01-06",
+        "startNav": 1.1051,
+        "endNav": 1.6185,
+        "changePct": 46.46,
+        "type": "peak",
+        "env": "2025年A股全面牛市，有色金属+96.91%、通信+88.29%暴涨",
+        "managerAction": "季报原文\"严格按照量化指数增强模型运作\"（2025Q3），持仓宁德时代、紫金矿业等领涨股获益显著",
+        "attribution": "Beta+Alpha双击 ✅效果突出",
+        "holdingsSummary": "暂无持仓数据",
+        "stageId": 6
+      },
+      {
+        "id": 6,
+        "startDate": "2026-01-06",
+        "endDate": "2026-03-23",
+        "startNav": 1.6185,
+        "endNav": 1.4877,
+        "changePct": -8.08,
+        "type": "trough",
+        "env": "中东地缘冲突加剧通胀担忧，美联储暂停降息",
+        "managerAction": "季报原文\"严格按照量化指数增强模型运作\"（2026Q1），模型维持高仓位",
+        "attribution": "A50蓝筹在避险情绪下受冲击更大 ⚠️择时缺失",
+        "holdingsSummary": "暂无持仓数据",
+        "stageId": 7
+      },
+      {
+        "id": 7,
+        "startDate": "2026-03-23",
+        "endDate": "2026-05-13",
+        "startNav": 1.4877,
+        "endNav": 1.7511,
+        "changePct": 17.71,
+        "type": "peak",
+        "env": "地缘风险消化后市场修复，A50蓝筹重新获得资金青睐",
+        "managerAction": "2026Q2模型继续运行，持仓以宁德时代(8.41%)、紫金矿业(6.07%)、贵州茅台(5.24%)为核心",
+        "attribution": "Alpha贡献显著 ✅效果良好",
+        "holdingsSummary": "暂无持仓数据",
+        "stageId": 8
+      }
+    ],
+    "totalInflectionPoints": 7
+  },
+  "company": {
+    "name": "中银基金管理有限公司",
+    "shortName": "中银基金",
+    "foundYear": 2004,
+    "aumDesc": "行业头部，中国银行旗下公募基金",
+    "industryRank": "银行系公募代表之一，指数增强产品线布局较全",
+    "complianceResult": "通过",
+    "complianceSummary": "合规检查通过，无一票否决项触发。管理疲劳风险存在但非否决项。",
+    "complianceChecks": [
+      {
+        "item": "黑名单核查",
+        "pass": true,
+        "warn": false,
+        "detail": "中银基金和赵志华均不在黑名单中"
+      },
+      {
+        "item": "近3年处罚记录",
+        "pass": true,
+        "warn": false,
+        "detail": "未发现公开的证监会处罚记录"
+      },
+      {
+        "item": "内幕交易传闻",
+        "pass": true,
+        "warn": false,
+        "detail": "未发现相关传闻"
+      },
+      {
+        "item": "基金经理离职风险",
+        "pass": true,
+        "warn": false,
+        "detail": "赵志华自2023年11月起管理至今，无离职信号"
+      },
+      {
+        "item": "管理疲劳风险",
+        "pass": false,
+        "warn": true,
+        "detail": "在管13只基金超过10只建议上限"
+      }
+    ]
+  }
+}

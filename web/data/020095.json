@@ -1,0 +1,2499 @@
+{
+  "id": "020095",
+  "meta": {
+    "reportDate": "2026-06-01",
+    "dataDate": "2026-05-29",
+    "disclaimer": "本报告仅供个人学习和信息整理使用，所有分析内容均不构成任何投资建议。投资有风险，入市需谨慎，请依据自身判断做出投资决策。"
+  },
+  "basic": {
+    "code": "020095",
+    "fullName": "富国中证绿色电力交易型开放式指数证券投资基金发起式联接基金",
+    "shortName": "富国中证绿色电力ETF发起式联接A",
+    "type": "指数型",
+    "subType": "股票",
+    "riskLevel": "R3",
+    "riskCode": 3,
+    "foundDate": "2023年12月19日",
+    "manager": "张圣贤",
+    "companyShort": "富国基金",
+    "navFallback": 1.3948,
+    "inceptionReturn": 39.48,
+    "custodian": "民生银行",
+    "benchmark": "中证绿色电力指数收益率*95%+银行活期存款利率(税后)*5%",
+    "navDateFallback": "2026-05-29",
+    "status": "开放申购 / 开放赎回",
+    "company": "富国基金"
+  },
+  "fees": {
+    "management": 0.5,
+    "custodian": 0.1,
+    "salesService": 0.0,
+    "subscriptionMax": 1.5,
+    "breakdown": [
+      {
+        "name": "管理费",
+        "value": 0.5
+      },
+      {
+        "name": "托管费",
+        "value": 0.1
+      },
+      {
+        "name": "销售服务费",
+        "value": 0.0
+      },
+      {
+        "name": "申购费",
+        "value": 1.5
+      },
+      {
+        "name": "赎回费",
+        "value": 1.5
+      }
+    ],
+    "subscriptionDiscounted": 0.12,
+    "redemptionMax": 1.5
+  },
+  "scale": {
+    "nav": 0.52,
+    "shares": 0.3728,
+    "date": "2026-05-29"
+  },
+  "performance": {
+    "stages": [
+      {
+        "period": "近1周",
+        "fund": 8.2,
+        "peer": -1.21,
+        "hs300": -1.57,
+        "rank": 26,
+        "rankTotal": 5150,
+        "quartile": "Q1"
+      },
+      {
+        "period": "近1月",
+        "fund": 10.72,
+        "peer": 0.91,
+        "hs300": 0.77,
+        "rank": 590,
+        "rankTotal": 5089,
+        "quartile": "Q1"
+      },
+      {
+        "period": "近3月",
+        "fund": 15.46,
+        "peer": 0.7,
+        "hs300": 2.84,
+        "rank": 686,
+        "rankTotal": 4919,
+        "quartile": "Q1"
+      },
+      {
+        "period": "近6月",
+        "fund": 20.85,
+        "peer": 10.57,
+        "hs300": 5.85,
+        "rank": 1022,
+        "rankTotal": 4675,
+        "quartile": "Q1"
+      },
+      {
+        "period": "近1年",
+        "fund": 26.0,
+        "peer": 35.68,
+        "hs300": 26.14,
+        "rank": 2316,
+        "rankTotal": 3904,
+        "quartile": "Q3"
+      },
+      {
+        "period": "近2年",
+        "fund": 18.33,
+        "peer": 54.95,
+        "hs300": 35.32,
+        "rank": 2261,
+        "rankTotal": 2772,
+        "quartile": "Q4"
+      },
+      {
+        "period": "今年来",
+        "fund": 24.64,
+        "peer": 7.6,
+        "hs300": 4.63,
+        "rank": 783,
+        "rankTotal": 4794,
+        "quartile": "Q1"
+      },
+      {
+        "period": "成立来",
+        "fund": 39.48,
+        "peer": 0,
+        "hs300": 0,
+        "rank": 0,
+        "rankTotal": 0,
+        "quartile": "—"
+      }
+    ],
+    "annual": [
+      {
+        "year": 2023,
+        "fund": 0.25,
+        "peer": -8.28,
+        "hs300": -11.38,
+        "rank": 0,
+        "rankTotal": 2655,
+        "quartile": "---"
+      },
+      {
+        "year": 2024,
+        "fund": 12.44,
+        "peer": 11.37,
+        "hs300": 14.68,
+        "rank": 1244,
+        "rankTotal": 3464,
+        "quartile": "良好"
+      },
+      {
+        "year": 2025,
+        "fund": -0.72,
+        "peer": 28.14,
+        "hs300": 17.66,
+        "rank": 3313,
+        "rankTotal": 4812,
+        "quartile": "一般"
+      },
+      {
+        "year": 2026,
+        "fund": 24.64,
+        "peer": 7.6,
+        "hs300": 4.63,
+        "rank": 783,
+        "rankTotal": 4794,
+        "quartile": "—"
+      }
+    ],
+    "quarterly": [
+      {
+        "year": 2023,
+        "quarter": "2023Q4",
+        "fund": 0.25,
+        "peer": 0,
+        "hs300": -6.88,
+        "rank": 0,
+        "rankTotal": 0,
+        "quartile": "—"
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q1",
+        "fund": 9.7,
+        "peer": 0,
+        "hs300": 4.46,
+        "rank": 0,
+        "rankTotal": 0,
+        "quartile": "—"
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q2",
+        "fund": 6.55,
+        "peer": -3.66,
+        "hs300": -2.14,
+        "rank": 148,
+        "rankTotal": 3014,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q3",
+        "fund": 2.07,
+        "peer": 17.13,
+        "hs300": 16.07,
+        "rank": 2933,
+        "rankTotal": 3130,
+        "quartile": "不佳"
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q4",
+        "fund": -5.74,
+        "peer": 0.65,
+        "hs300": -2.06,
+        "rank": 2588,
+        "rankTotal": 3464,
+        "quartile": "一般"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q1",
+        "fund": -4.27,
+        "peer": 2.45,
+        "hs300": -1.21,
+        "rank": 3150,
+        "rankTotal": 3635,
+        "quartile": "不佳"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q2",
+        "fund": 1.86,
+        "peer": 2.65,
+        "hs300": 1.25,
+        "rank": 2074,
+        "rankTotal": 4076,
+        "quartile": "一般"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q3",
+        "fund": 3.08,
+        "peer": 23.0,
+        "hs300": 17.9,
+        "rank": 3770,
+        "rankTotal": 4523,
+        "quartile": "不佳"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q4",
+        "fund": -1.24,
+        "peer": -0.94,
+        "hs300": -0.23,
+        "rank": 2878,
+        "rankTotal": 4812,
+        "quartile": "一般"
+      },
+      {
+        "year": 2026,
+        "quarter": "2026Q1",
+        "fund": 10.44,
+        "peer": -1.57,
+        "hs300": -3.89,
+        "rank": 57,
+        "rankTotal": 4960,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2026,
+        "quarter": "2026Q2",
+        "fund": 13.02,
+        "peer": 0,
+        "hs300": 8.09,
+        "rank": 0,
+        "rankTotal": 0,
+        "quartile": "—"
+      }
+    ],
+    "milestones": [
+      {
+        "date": "2023-12-19",
+        "nav": 1.0,
+        "label": "成立日",
+        "type": "neutral"
+      },
+      {
+        "date": "2024-01-22",
+        "nav": 0.9625,
+        "label": "历史最低点",
+        "type": "low"
+      },
+      {
+        "date": "2024-07-09",
+        "nav": 1.211,
+        "label": "首轮高点",
+        "type": "peak"
+      },
+      {
+        "date": "2024-09-11",
+        "nav": 1.0336,
+        "label": "最大回撤谷底（-14.65%）",
+        "type": "low"
+      },
+      {
+        "date": "2025-03-10",
+        "nav": 1.0484,
+        "label": "二次探底",
+        "type": "low"
+      },
+      {
+        "date": "2026-05-19",
+        "nav": 1.356,
+        "label": "历史最高点",
+        "type": "peak"
+      },
+      {
+        "date": "2026-05-27",
+        "nav": 1.3359,
+        "label": "当前净值（约92%历史分位）",
+        "type": "current"
+      }
+    ]
+  },
+  "risk": {
+    "volatility": 0.1682,
+    "annualReturn": 0.1536,
+    "sharpe": 0.73,
+    "calmar": 1.05,
+    "maxDrawdown": -0.1465,
+    "maxDrawdownPeriod": "2024-07-09 → 2024-09-11",
+    "maxDrawdownMonths": 2,
+    "periodMetrics": [
+      {
+        "label": "近1年",
+        "volatility": 0.1582,
+        "sharpe": 1.49,
+        "maxDrawdown": -0.1032
+      },
+      {
+        "label": "近2年",
+        "volatility": 0.1686,
+        "sharpe": 0.52,
+        "maxDrawdown": -0.1465
+      },
+      {
+        "label": "近3年",
+        "volatility": 0.1682,
+        "sharpe": 0.73,
+        "maxDrawdown": -0.1465
+      }
+    ],
+    "relativeMetrics": {
+      "beta": 0.5037,
+      "alpha": 0.0652,
+      "informationRatio": -0.1555,
+      "trackingError": 0.1679,
+      "r2": 0.2938
+    },
+    "recentPerf": [
+      {
+        "period": "近1周",
+        "fund": 8.2,
+        "peer": -1.21,
+        "hs300": -1.57,
+        "excess": 9.77,
+        "rank": 26,
+        "rankTotal": 5150,
+        "warn": false,
+        "note": "前1%"
+      },
+      {
+        "period": "近1月",
+        "fund": 10.72,
+        "peer": 0.91,
+        "hs300": 0.77,
+        "excess": 9.95,
+        "rank": 590,
+        "rankTotal": 5089,
+        "warn": false,
+        "note": "前12%"
+      },
+      {
+        "period": "近3月",
+        "fund": 15.46,
+        "peer": 0.7,
+        "hs300": 2.84,
+        "excess": 12.62,
+        "rank": 686,
+        "rankTotal": 4919,
+        "warn": false,
+        "note": "前14%"
+      },
+      {
+        "period": "近6月",
+        "fund": 20.85,
+        "peer": 10.57,
+        "hs300": 5.85,
+        "excess": 15.0,
+        "rank": 1022,
+        "rankTotal": 4675,
+        "warn": false,
+        "note": "前22%"
+      },
+      {
+        "period": "近1年",
+        "fund": 26.0,
+        "peer": 35.68,
+        "hs300": 26.14,
+        "excess": -0.14,
+        "rank": 2316,
+        "rankTotal": 3904,
+        "warn": true,
+        "note": "前59%"
+      },
+      {
+        "period": "近2年",
+        "fund": 18.33,
+        "peer": 54.95,
+        "hs300": 35.32,
+        "excess": -16.99,
+        "rank": 2261,
+        "rankTotal": 2772,
+        "warn": true,
+        "note": "前82%"
+      },
+      {
+        "period": "今年以来",
+        "fund": 24.64,
+        "peer": 7.6,
+        "hs300": 4.63,
+        "excess": 20.01,
+        "rank": 783,
+        "rankTotal": 4794,
+        "warn": false,
+        "note": "前16%"
+      }
+    ],
+    "radarDimensions": [
+      {
+        "name": "收益能力",
+        "score": 55
+      },
+      {
+        "name": "抗风险能力",
+        "score": 50
+      },
+      {
+        "name": "稳定性",
+        "score": 35
+      },
+      {
+        "name": "跟踪精度",
+        "score": 55
+      },
+      {
+        "name": "流动性",
+        "score": 35
+      },
+      {
+        "name": "费率性价比",
+        "score": 75
+      }
+    ],
+    "riskBreakdown": {
+      "volatilityRating": "中等波动（16.82%）",
+      "volatilityPercentile": 45,
+      "sharpeRating": "全期偏低（0.73），近1年（1.49）",
+      "sharpePercentile": 60,
+      "drawdownRating": "历史最大 -14.65%，近1年 -0.1032",
+      "drawdownPercentile": 40,
+      "historicalMaxDrawdown": 14.65,
+      "yearlyMaxDrawdowns": [
+        {
+          "year": 2026,
+          "fund": 10.32,
+          "hs300": 7.78
+        },
+        {
+          "year": 2025,
+          "fund": 8.18,
+          "hs300": 10.49
+        },
+        {
+          "year": 2024,
+          "fund": 14.65,
+          "hs300": 14.41
+        },
+        {
+          "year": 2023,
+          "fund": 0.0,
+          "hs300": 21.51
+        }
+      ]
+    },
+    "riskWarnings": [
+      {
+        "level": "high",
+        "text": "100%暴露于电力行业，行业景气度下行时无防御手段。2025年全年-0.72%远弱于沪深300+17.66%即为案例",
+        "category": "general"
+      },
+      {
+        "level": "high",
+        "text": "净值处于约92%历史分位，接近历史最高点，短期涨幅过大（2026YTD+19.37%），回调压力较大",
+        "category": "valuation"
+      },
+      {
+        "level": "medium",
+        "text": "经理张圣贤在管28只基金、总规模196亿，远超10只建议上限，单只基金关注度有限",
+        "category": "liquidity"
+      },
+      {
+        "level": "medium",
+        "text": "A类份额仅0.52亿，大额申赎可能产生冲击成本，极端情况下存在清盘风险",
+        "category": "liquidity"
+      }
+    ],
+    "navPercentile": 100.0
+  },
+  "holdings": {
+    "date": "2026-03-31",
+    "stockRatio": 95.0,
+    "bondRatio": 2.42,
+    "cashRatio": 4.65,
+    "top10": [
+      {
+        "rank": 1,
+        "name": "中国核电",
+        "code": "601985",
+        "ratio": 9.07,
+        "sector": "核电"
+      },
+      {
+        "rank": 2,
+        "name": "长江电力",
+        "code": "600900",
+        "ratio": 9.05,
+        "sector": "水电"
+      },
+      {
+        "rank": 3,
+        "name": "三峡能源",
+        "code": "600905",
+        "ratio": 7.41,
+        "sector": "新能源发电"
+      },
+      {
+        "rank": 4,
+        "name": "国电电力",
+        "code": "600795",
+        "ratio": 5.26,
+        "sector": "火电转型"
+      },
+      {
+        "rank": 5,
+        "name": "国投电力",
+        "code": "600886",
+        "ratio": 4.18,
+        "sector": "水电"
+      },
+      {
+        "rank": 6,
+        "name": "华能国际",
+        "code": "600011",
+        "ratio": 3.76,
+        "sector": "火电转型"
+      },
+      {
+        "rank": 7,
+        "name": "川投能源",
+        "code": "600674",
+        "ratio": 3.51,
+        "sector": "水电"
+      },
+      {
+        "rank": 8,
+        "name": "上海电力",
+        "code": "600021",
+        "ratio": 3.1,
+        "sector": "火电转型"
+      },
+      {
+        "rank": 9,
+        "name": "浙能电力",
+        "code": "600023",
+        "ratio": 2.65,
+        "sector": "火电转型"
+      },
+      {
+        "rank": 10,
+        "name": "川能动力",
+        "code": "000155",
+        "ratio": 2.46,
+        "sector": "新能源发电"
+      }
+    ],
+    "top10TotalRatio": 50.45,
+    "sectors": [
+      {
+        "name": "水电",
+        "ratio": 16.74
+      },
+      {
+        "name": "火电转型",
+        "ratio": 14.77
+      },
+      {
+        "name": "新能源发电",
+        "ratio": 9.87
+      },
+      {
+        "name": "核电",
+        "ratio": 9.07
+      }
+    ],
+    "bondStructure": {
+      "total": 2.42,
+      "description": "债券占比极低，主要为流动性管理工具",
+      "breakdown": [
+        {
+          "type": "利率债",
+          "ratio": 2.42
+        }
+      ]
+    },
+    "policyLinks": [
+      {
+        "sector": "绿电交易",
+        "stocks": "三峡能源(600905) 川能动力(000155)",
+        "policyNote": "绿色电力交易专章纳入中长期交易规则 (2025-06)，绿电交易量翻倍至约2000亿千瓦时",
+        "color": "#22c55e"
+      },
+      {
+        "sector": "新能源消纳",
+        "stocks": "三峡能源(600905) 川能动力(000155)",
+        "policyNote": "确保新能源利用率≥95%红线，强化消纳责任权重考核 (2025年持续)",
+        "color": "#22c55e"
+      },
+      {
+        "sector": "核电审批",
+        "stocks": "中国核电(601985)",
+        "policyNote": "核电审批节奏加快，每年审批6-10台机组 (2025-2026)",
+        "color": "#22c55e"
+      }
+    ],
+    "top10Total": 10,
+    "concentrationLabel": "中等集中（前十合计50.51%）",
+    "themeGroups": [
+      {
+        "name": "核电",
+        "ratio": 9.07,
+        "color": "#3b82f6",
+        "stocks": [
+          "中国核电(601985)"
+        ],
+        "note": "零碳基荷电源，政策支持明确，第一大重仓股中国核电"
+      },
+      {
+        "name": "水电",
+        "ratio": 16.74,
+        "color": "#3b82f6",
+        "stocks": [
+          "长江电力(600900) 9.05%",
+          "国投电力(600886) 4.18%",
+          "川投能源(600674) 3.51%"
+        ],
+        "note": "优质防御性绿电资产，现金流稳定，合计约16.74%"
+      },
+      {
+        "name": "新能源发电",
+        "ratio": 9.87,
+        "color": "#3b82f6",
+        "stocks": [
+          "三峡能源(600905) 7.41%",
+          "川能动力(000155) 2.46%"
+        ],
+        "note": "风电光伏发电企业，合计约9.87%，受益绿电交易扩容"
+      },
+      {
+        "name": "火电转型",
+        "ratio": 14.77,
+        "color": "#3b82f6",
+        "stocks": [
+          "国电电力(600795) 5.26%",
+          "华能国际(600011) 3.76%",
+          "上海电力(600021) 3.10%",
+          "浙能电力(600023) 2.65%"
+        ],
+        "note": "传统火电企业向新能源转型，合计约14.77%"
+      }
+    ],
+    "themeTitle": "绿色电力全产业链——核电+水电+新能源发电为主，火电转型企业为辅",
+    "themeSubtitle": "跟踪中证绿色电力指数，100%暴露于电力行业，通过目标ETF（561170）间接持有",
+    "evolutionHighlights": [
+      {
+        "quarter": "2024Q1",
+        "change": "建仓完成，前十以长江电力/中国核电/三峡能源为核心",
+        "theme": "全电力",
+        "concentration": "约55%",
+        "return": "+9.70%",
+        "type": "positive",
+        "insight": "建仓首季，绿色电力板块独立行情"
+      },
+      {
+        "quarter": "2026Q1",
+        "change": "中国核电权重首次超越长江电力成为第一大重仓；川能动力新进替代华电国际",
+        "theme": "核电权重上升↑，华电国际退出↓",
+        "concentration": "约50.51%",
+        "return": "+10.44%",
+        "type": "positive",
+        "insight": "核电权重首次超越水电，调仓方向正确"
+      },
+      {
+        "quarter": "2024Q3",
+        "change": "权重微调，中国核电升至9.55%",
+        "theme": "不变",
+        "concentration": "约54%",
+        "return": "+2.07%",
+        "type": "negative",
+        "insight": "924行情滞涨，电力板块逆势下跌"
+      },
+      {
+        "quarter": "2025全年",
+        "change": "前十重仓股高度稳定，仅尾部个股微调",
+        "theme": "不变",
+        "concentration": "约54%",
+        "return": "-0.72%",
+        "type": "negative",
+        "insight": "持仓结构极为稳定，但全年跑输大盘"
+      }
+    ]
+  },
+  "managers": {
+    "current": {
+      "name": "张圣贤",
+      "title": "量化投资部量化投资副总监兼定量基金经理",
+      "education": "硕士研究生",
+      "experience": "约11年（2015年起）",
+      "joinDate": "2015年3月",
+      "manageDate": "2023-12-19",
+      "manageYears": 2.5,
+      "fundCount": 28,
+      "totalScale": 196.06,
+      "bestReturn": 154.66,
+      "worstReturn": -89.46,
+      "managerId": "30072302",
+      "style": "被动指数管理",
+      "strengths": [
+        "策略透明：纯被动管理，投资逻辑清晰可预期",
+        "费率可控：指数基金管理费率低于主动基金",
+        "多产品并行管理经验丰富：28只基金并行运作",
+        "无风格漂移风险：纯被动跟踪，不存在主动偏离"
+      ],
+      "weaknesses": [
+        "无主动Alpha贡献：业绩完全取决于所跟踪行业的Beta",
+        "行业逆风期无防御手段：2025年全年-0.72% vs 沪深300+17.66%",
+        "管理疲劳风险：在管28只基金远超10只建议上限",
+        "无法择时减仓：行业下跌时回撤幅度等于行业跌幅"
+      ],
+      "historicalFunds": [
+        {
+          "name": "富国中证畜牧养殖产业指数发起式A",
+          "code": "027287",
+          "type": "指数型-股票",
+          "tenure": "2026-05-19 ~ 至今",
+          "return": -0.31,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "⚠️",
+          "isCurrent": true
+        },
+        {
+          "name": "富国中证畜牧养殖产业指数发起式C",
+          "code": "027288",
+          "type": "指数型-股票",
+          "tenure": "2026-05-19 ~ 至今",
+          "return": -0.31,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "⚠️",
+          "isCurrent": true
+        },
+        {
+          "name": "富国深证100ETF联接A",
+          "code": "024146",
+          "type": "指数型-股票",
+          "tenure": "2025-06-18 ~ 至今",
+          "return": 44.55,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "🏆",
+          "isCurrent": true
+        },
+        {
+          "name": "富国深证100ETF联接C",
+          "code": "024147",
+          "type": "指数型-股票",
+          "tenure": "2025-06-18 ~ 至今",
+          "return": 44.27,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "🏆",
+          "isCurrent": true
+        },
+        {
+          "name": "富国上证科创板芯片ETF发起式联接A",
+          "code": "023651",
+          "type": "指数型-股票",
+          "tenure": "2025-03-31 ~ 至今",
+          "return": 108.12,
+          "rank": 199,
+          "rankTotal": 3904,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "富国上证科创板芯片ETF发起式联接C",
+          "code": "023652",
+          "type": "指数型-股票",
+          "tenure": "2025-03-31 ~ 至今",
+          "return": 107.64,
+          "rank": 202,
+          "rankTotal": 3904,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "科创芯片ETF富国",
+          "code": "588810",
+          "type": "指数型-股票",
+          "tenure": "2024-12-30 ~ 至今",
+          "return": 154.66,
+          "rank": 49,
+          "rankTotal": 3904,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "富国中证绿色电力ETF发起式联接C",
+          "code": "020096",
+          "type": "指数型-股票",
+          "tenure": "2023-12-19 ~ 至今",
+          "return": 38.8,
+          "rank": 2321,
+          "rankTotal": 3904,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "富国中证绿色电力ETF发起式联接A",
+          "code": "020095",
+          "type": "指数型-股票",
+          "tenure": "2023-12-19 ~ 至今",
+          "return": 39.48,
+          "rank": 2316,
+          "rankTotal": 3904,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "绿色电力ETF富国",
+          "code": "561170",
+          "type": "指数型-股票",
+          "tenure": "2023-03-02 ~ 至今",
+          "return": 35.57,
+          "rank": 2306,
+          "rankTotal": 3904,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "富国中证农业主题ETF联接A",
+          "code": "015878",
+          "type": "指数型-股票",
+          "tenure": "2022-08-19 ~ 至今",
+          "return": -24.53,
+          "rank": 3133,
+          "rankTotal": 3904,
+          "grade": "weak",
+          "isCurrent": true
+        },
+        {
+          "name": "富国中证农业主题ETF联接C",
+          "code": "015879",
+          "type": "指数型-股票",
+          "tenure": "2022-08-19 ~ 至今",
+          "return": -25.09,
+          "rank": 3140,
+          "rankTotal": 3904,
+          "grade": "weak",
+          "isCurrent": true
+        },
+        {
+          "name": "富国中证消费电子主题ETF发起式联接C",
+          "code": "015877",
+          "type": "指数型-股票",
+          "tenure": "2022-06-14 ~ 至今",
+          "return": 115.53,
+          "rank": 221,
+          "rankTotal": 3904,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "富国中证消费电子主题ETF发起式联接A",
+          "code": "015876",
+          "type": "指数型-股票",
+          "tenure": "2022-06-14 ~ 至今",
+          "return": 117.23,
+          "rank": 216,
+          "rankTotal": 3904,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "消费电子ETF富国",
+          "code": "561100",
+          "type": "指数型-股票",
+          "tenure": "2022-01-20 ~ 至今",
+          "return": 85.18,
+          "rank": 164,
+          "rankTotal": 3904,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "富国中证芯片产业ETF发起式联接A",
+          "code": "014776",
+          "type": "指数型-股票",
+          "tenure": "2022-01-18 ~ 至今",
+          "return": 77.72,
+          "rank": 325,
+          "rankTotal": 3904,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "富国中证芯片产业ETF发起式联接C",
+          "code": "014777",
+          "type": "指数型-股票",
+          "tenure": "2022-01-18 ~ 至今",
+          "return": 76.19,
+          "rank": 334,
+          "rankTotal": 3904,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "富国中证工业4.0指数(LOF)C",
+          "code": "014172",
+          "type": "指数型-股票",
+          "tenure": "2021-12-07 ~ 2026-04-15",
+          "return": 10.4,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "🏆",
+          "isCurrent": false
+        },
+        {
+          "name": "富国中证智能汽车(LOF)C",
+          "code": "013292",
+          "type": "指数型-股票",
+          "tenure": "2021-08-24 ~ 至今",
+          "return": 3.81,
+          "rank": 2815,
+          "rankTotal": 3904,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "富国中证煤炭指数(LOF)C",
+          "code": "013275",
+          "type": "指数型-股票",
+          "tenure": "2021-08-19 ~ 至今",
+          "return": 53.7,
+          "rank": 2025,
+          "rankTotal": 3904,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "芯片ETF富国",
+          "code": "516640",
+          "type": "指数型-股票",
+          "tenure": "2021-08-19 ~ 至今",
+          "return": 54.29,
+          "rank": 264,
+          "rankTotal": 3904,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "富国中证体育产业指数(LOF)C",
+          "code": "013278",
+          "type": "指数型-股票",
+          "tenure": "2021-08-17 ~ 2026-04-23",
+          "return": 33.68,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "🏆",
+          "isCurrent": false
+        },
+        {
+          "name": "富国中证新能源汽车指数(LOF)C",
+          "code": "013048",
+          "type": "指数型-股票",
+          "tenure": "2021-07-19 ~ 至今",
+          "return": -13.98,
+          "rank": 997,
+          "rankTotal": 3904,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "富国中证军工指数(LOF)C",
+          "code": "013035",
+          "type": "指数型-股票",
+          "tenure": "2021-07-19 ~ 至今",
+          "return": 6.94,
+          "rank": 2542,
+          "rankTotal": 3904,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "富国中证沪港深500ETF联接C",
+          "code": "012276",
+          "type": "指数型-股票",
+          "tenure": "2021-07-14 ~ 2023-03-03",
+          "return": -13.62,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "⚠️",
+          "isCurrent": false
+        },
+        {
+          "name": "富国中证沪港深500ETF联接A",
+          "code": "012275",
+          "type": "指数型-股票",
+          "tenure": "2021-07-14 ~ 2023-03-03",
+          "return": -13.05,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "⚠️",
+          "isCurrent": false
+        },
+        {
+          "name": "物流ETF富国",
+          "code": "516910",
+          "type": "指数型-股票",
+          "tenure": "2021-06-03 ~ 2026-04-15",
+          "return": 21.67,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "🏆",
+          "isCurrent": false
+        },
+        {
+          "name": "沪港深500ETF富国",
+          "code": "517100",
+          "type": "指数型-股票",
+          "tenure": "2021-02-09 ~ 2023-03-03",
+          "return": -21.59,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "⚠️",
+          "isCurrent": false
+        },
+        {
+          "name": "智能汽车ETF富国",
+          "code": "515250",
+          "type": "指数型-股票",
+          "tenure": "2020-12-24 ~ 至今",
+          "return": 8.35,
+          "rank": 2824,
+          "rankTotal": 3904,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "农业ETF富国",
+          "code": "159825",
+          "type": "指数型-股票",
+          "tenure": "2020-12-10 ~ 至今",
+          "return": -27.22,
+          "rank": 3113,
+          "rankTotal": 3904,
+          "grade": "weak",
+          "isCurrent": true
+        },
+        {
+          "name": "富国上海金ETF联接C",
+          "code": "009505",
+          "type": "指数型-其他",
+          "tenure": "2020-07-24 ~ 2021-09-24",
+          "return": -13.94,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "⚠️",
+          "isCurrent": false
+        },
+        {
+          "name": "富国上海金ETF联接A",
+          "code": "009504",
+          "type": "指数型-其他",
+          "tenure": "2020-07-24 ~ 2021-09-24",
+          "return": -13.58,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "⚠️",
+          "isCurrent": false
+        },
+        {
+          "name": "金ETF富国",
+          "code": "518680",
+          "type": "指数型-其他",
+          "tenure": "2020-07-06 ~ 2021-09-24",
+          "return": -9.63,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "⚠️",
+          "isCurrent": false
+        },
+        {
+          "name": "富国中证银行ETF",
+          "code": "515280",
+          "type": "指数型-股票",
+          "tenure": "2020-04-01 ~ 2024-08-13",
+          "return": 28.17,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "🏆",
+          "isCurrent": false
+        },
+        {
+          "name": "富国中证煤炭指数分级B",
+          "code": "150322",
+          "type": "指数型-股票",
+          "tenure": "2017-11-27 ~ 2020-12-31",
+          "return": -17.96,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "⚠️",
+          "isCurrent": false
+        },
+        {
+          "name": "富国中证煤炭指数分级A",
+          "code": "150321",
+          "type": "指数型-股票",
+          "tenure": "2017-11-27 ~ 2020-12-31",
+          "return": 21.52,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "🏆",
+          "isCurrent": false
+        },
+        {
+          "name": "富国中证煤炭指数(LOF)A",
+          "code": "161032",
+          "type": "指数型-股票",
+          "tenure": "2017-11-27 ~ 至今",
+          "return": 117.94,
+          "rank": 2014,
+          "rankTotal": 3904,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "富国新兴成长量化精选混合(LOF)A",
+          "code": "161038",
+          "type": "混合型-偏股",
+          "tenure": "2017-07-21 ~ 2020-12-03",
+          "return": 29.64,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "🏆",
+          "isCurrent": false
+        },
+        {
+          "name": "富国中证智能汽车(LOF)A",
+          "code": "161033",
+          "type": "指数型-股票",
+          "tenure": "2016-02-16 ~ 至今",
+          "return": 97.9,
+          "rank": 2800,
+          "rankTotal": 3904,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "富国中证体育产业指数(LOF)A",
+          "code": "161030",
+          "type": "指数型-股票",
+          "tenure": "2015-08-11 ~ 2026-04-23",
+          "return": -18.89,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "⚠️",
+          "isCurrent": false
+        },
+        {
+          "name": "富国中证工业4.0指数分级A",
+          "code": "150315",
+          "type": "指数型-股票",
+          "tenure": "2015-08-07 ~ 2020-12-31",
+          "return": 27.25,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "🏆",
+          "isCurrent": false
+        },
+        {
+          "name": "富国中证工业4.0指数分级B",
+          "code": "150316",
+          "type": "指数型-股票",
+          "tenure": "2015-08-07 ~ 2020-12-31",
+          "return": -51.56,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "⚠️",
+          "isCurrent": false
+        },
+        {
+          "name": "富国中证工业4.0指数(LOF)A",
+          "code": "161031",
+          "type": "指数型-股票",
+          "tenure": "2015-08-07 ~ 2026-04-15",
+          "return": 81.35,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "🏆",
+          "isCurrent": false
+        },
+        {
+          "name": "富国中证新能源汽车指数分级A",
+          "code": "150211",
+          "type": "指数型-股票",
+          "tenure": "2015-06-05 ~ 2020-12-31",
+          "return": 31.87,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "🏆",
+          "isCurrent": false
+        },
+        {
+          "name": "富国中证军工指数分级A",
+          "code": "150181",
+          "type": "指数型-股票",
+          "tenure": "2015-06-05 ~ 2020-12-31",
+          "return": 28.61,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "🏆",
+          "isCurrent": false
+        },
+        {
+          "name": "富国中证军工指数分级B",
+          "code": "150182",
+          "type": "指数型-股票",
+          "tenure": "2015-06-05 ~ 2020-12-31",
+          "return": -89.46,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "⚠️",
+          "isCurrent": false
+        },
+        {
+          "name": "富国中证新能源汽车指数分级B",
+          "code": "150212",
+          "type": "指数型-股票",
+          "tenure": "2015-06-05 ~ 2020-12-31",
+          "return": -52.54,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "⚠️",
+          "isCurrent": false
+        },
+        {
+          "name": "富国中证军工指数(LOF)A",
+          "code": "161024",
+          "type": "指数型-股票",
+          "tenure": "2015-06-05 ~ 至今",
+          "return": -39.9,
+          "rank": 2534,
+          "rankTotal": 3904,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "富国中证国有企业改革指数(LOF)A",
+          "code": "161026",
+          "type": "指数型-股票",
+          "tenure": "2015-06-05 ~ 2021-09-24",
+          "return": -19.0,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "⚠️",
+          "isCurrent": false
+        },
+        {
+          "name": "富国中证新能源汽车指数(LOF)A",
+          "code": "161028",
+          "type": "指数型-股票",
+          "tenure": "2015-06-05 ~ 至今",
+          "return": 35.91,
+          "rank": 990,
+          "rankTotal": 3904,
+          "grade": "good",
+          "isCurrent": true
+        }
+      ],
+      "tenureReturn": 39.48,
+      "peerAvgReturn": 0.0,
+      "rankInPeer": 2316,
+      "rankTotal": 3904,
+      "philosophy": [
+        {
+          "label": "核心投资理念",
+          "text": "纯被动指数管理，以跟踪偏离度和跟踪误差最小化为唯一目标"
+        },
+        {
+          "label": "选股方法论",
+          "text": "不进行主动选股，完全复制目标指数成分股及权重"
+        },
+        {
+          "label": "仓位管理风格",
+          "text": "全程高仓位（约95%+投资于目标ETF），几乎不做择时"
+        },
+        {
+          "label": "风险控制原则",
+          "text": "无风格漂移风险，作为纯被动指数基金经理，不存在主动偏离指数的可能性"
+        }
+      ],
+      "consistencyAudit": [
+        {
+          "period": "2025年Q3季报",
+          "result": "pass",
+          "label": "一致",
+          "stated": "基金主要投资于目标ETF（561170 绿色电力ETF富国），追求跟踪偏离度和跟踪误差最小化",
+          "actual": "95%+投资于目标ETF，现金占比4.65%，债券占比2.42%",
+          "evaluation": "✅一致。被动管理策略与实际持仓完全一致"
+        },
+        {
+          "period": "2025年Q4季报",
+          "result": "warn",
+          "label": "异常",
+          "stated": "继续以跟踪指数为主要策略",
+          "actual": "现金占比异常升高至34.94%（正常应<10%），可能因大规模赎回导致被迫卖出ETF份额",
+          "evaluation": "⚠️现金占比异常升高，非经理主动择时，而是份额变动导致的被动结果"
+        }
+      ],
+      "abilityProfile": {
+        "best": "指数跟踪执行（多只ETF/联接基金并行管理，跟踪误差控制在可接受区间）",
+        "worst": "无主动防御能力（行业逆风期完全被动承受回撤，如2025年全年-0.72% vs 沪深300+17.66%）",
+        "goodEnv": [
+          "绿色电力行业景气上行期",
+          "政策红利密集期",
+          "防御性行情"
+        ],
+        "badEnv": [
+          "成长风格主导的牛市初期（如924行情）",
+          "电力行业景气下行期",
+          "电价下行周期"
+        ]
+      },
+      "allManagerIds": [
+        "30072302"
+      ]
+    },
+    "history": []
+  },
+  "policy": {
+    "tags": [
+      {
+        "label": "绿色电力",
+        "strength": "medium",
+        "color": "#E8813A"
+      },
+      {
+        "label": "双碳",
+        "strength": "medium",
+        "color": "#E8813A"
+      },
+      {
+        "label": "新能源消纳",
+        "strength": "medium",
+        "color": "#E8813A"
+      },
+      {
+        "label": "电力市场化改革",
+        "strength": "medium",
+        "color": "#E8813A"
+      },
+      {
+        "label": "核电",
+        "strength": "medium",
+        "color": "#E8813A"
+      }
+    ],
+    "policyBreakdown": [
+      {
+        "sector": "绿电交易",
+        "icon": "⚡",
+        "color": "#22c55e",
+        "logic": "绿电交易专章纳入中长期交易规则，明确绿电交易价格机制和绿证核发流程，绿电交易量从约1000亿千瓦时翻倍至约2000亿千瓦时",
+        "stocks": [
+          "三峡能源(600905)",
+          "川能动力(000155)"
+        ]
+      },
+      {
+        "sector": "新能源消纳",
+        "icon": "🌬️",
+        "color": "#22c55e",
+        "logic": "确保新能源利用率≥95%红线，强化消纳责任权重考核，保障新能源发电企业收入预期，减少弃风弃光",
+        "stocks": [
+          "三峡能源(600905)",
+          "川能动力(000155)"
+        ]
+      },
+      {
+        "sector": "电力市场化",
+        "icon": "📊",
+        "color": "#eab308",
+        "logic": "推进电力现货市场建设，扩大绿电交易覆盖范围，长期利好绿电企业但短期电价波动加大",
+        "stocks": [
+          "国电电力(600795)",
+          "华能国际(600011)"
+        ]
+      },
+      {
+        "sector": "核电审批",
+        "icon": "⚛️",
+        "color": "#22c55e",
+        "logic": "核电审批节奏加快，每年审批6-10台机组，直接利好第一大重仓中国核电",
+        "stocks": [
+          "中国核电(601985)"
+        ]
+      }
+    ],
+    "fifteenFive": [
+      {
+        "direction": "绿电交易扩容",
+        "color": "#22c55e",
+        "description": "绿电交易专章纳入中长期交易规则，绿电交易量翻倍至约2000亿千瓦时",
+        "holdings": "三峡能源、川能动力"
+      },
+      {
+        "direction": "新能源消纳保障",
+        "color": "#22c55e",
+        "description": "确保新能源利用率≥95%红线，强化消纳责任权重考核",
+        "holdings": "三峡能源、川能动力"
+      },
+      {
+        "direction": "电力市场化改革",
+        "color": "#eab308",
+        "description": "推进电力现货市场建设，扩大绿电交易覆盖范围",
+        "holdings": "国电电力、华能国际"
+      },
+      {
+        "direction": "核电审批加速",
+        "color": "#22c55e",
+        "description": "每年审批6-10台机组，直接利好中国核电",
+        "holdings": "中国核电"
+      },
+      {
+        "direction": "双碳长期主线",
+        "color": "#3b82f6",
+        "description": "绿色电力是双碳战略核心方向，政策方向确定",
+        "holdings": "全部持仓"
+      }
+    ],
+    "longTermRisks": [
+      {
+        "risk": "电价大幅下行",
+        "level": "high",
+        "signal": "电力市场化改革导致价格战"
+      },
+      {
+        "risk": "新能源消纳红线放松",
+        "level": "medium",
+        "signal": "弃风弃光率上升"
+      },
+      {
+        "risk": "政策红利消退",
+        "level": "medium",
+        "signal": "绿电补贴退坡"
+      },
+      {
+        "risk": "技术路线变更",
+        "level": "medium",
+        "signal": "新型能源技术替代现有绿电模式"
+      }
+    ],
+    "scenarios": [
+      {
+        "type": "悲观",
+        "probability": 20,
+        "color": "#ef4444",
+        "returnLow": -15,
+        "returnHigh": -5,
+        "trigger": "电价大幅下行+电力市场化改革导致价格战+新能源消纳红线放松+风格切换至成长"
+      },
+      {
+        "type": "基准",
+        "probability": 50,
+        "color": "#3b82f6",
+        "returnLow": 5,
+        "returnHigh": 15,
+        "trigger": "政策延续但无新增催化，绿电装机平稳增长，净值从高位温和回调后修复"
+      },
+      {
+        "type": "乐观",
+        "probability": 30,
+        "color": "#22c55e",
+        "returnLow": 15,
+        "returnHigh": 30,
+        "trigger": "绿证与碳市场衔接超预期+绿电交易继续翻倍+核电审批加速+电力需求超预期增长"
+      }
+    ],
+    "industryOverview": [
+      {
+        "point": "绿色电力装机持续增长",
+        "detail": "2025年新能源装机占全部装机比重超过50%，绿电交易规模约2000亿千瓦时（同比翻倍）"
+      },
+      {
+        "point": "电力市场化改革深化",
+        "detail": "电力现货市场建设加速，绿电交易与绿证制度逐步完善"
+      },
+      {
+        "point": "新能源消纳保障",
+        "detail": "电网企业确保新能源利用率不低于95%红线，消纳责任权重考核强化"
+      },
+      {
+        "point": "核电审批加速",
+        "detail": "2025-2026年核电审批节奏加快，中国核电等核心权重股受益"
+      }
+    ],
+    "cyclePeriod": "政策红利期",
+    "cycleReason": "绿电交易规则完善+新能源消纳保障强化+核电审批加速，三条政策主线同步推进，处于政策密集催化阶段。绿电交易规模从2024年约1000亿千瓦时翻倍至2025年约2000亿千瓦时，政策红利正在加速释放。",
+    "note": "当前处于政策红利期，三条政策主线（绿电交易、消纳保障、核电审批）同步推进。但需注意净值已处于约92%历史分位，政策利好可能已在价格中充分反映。",
+    "dualTimeline": [],
+    "timeline": [],
+    "adaptability": [
+      {
+        "env": "绿色电力行业景气上行期",
+        "perf": "优异",
+        "color": "#22c55e"
+      },
+      {
+        "env": "政策红利密集期",
+        "perf": "良好",
+        "color": "#22c55e"
+      },
+      {
+        "env": "成长风格牛市初期（如924行情）",
+        "perf": "不佳",
+        "color": "#ef4444"
+      },
+      {
+        "env": "电力行业景气下行期",
+        "perf": "较差",
+        "color": "#ef4444"
+      }
+    ]
+  },
+  "exclusionCheck": [
+    {
+      "item": "黑名单核查",
+      "pass": true,
+      "note": "基金公司及经理均不在黑名单"
+    },
+    {
+      "item": "近3年监管处罚",
+      "pass": true,
+      "note": "未发现富国基金近3年有证监会处罚记录"
+    },
+    {
+      "item": "内幕交易/老鼠仓传闻",
+      "pass": true,
+      "note": "未发现相关传闻"
+    },
+    {
+      "item": "基金经理离职风险",
+      "pass": true,
+      "note": "张圣贤任职稳定，无离职迹象"
+    },
+    {
+      "item": "风格漂移",
+      "pass": true,
+      "note": "纯被动指数基金，不存在风格漂移可能"
+    },
+    {
+      "item": "重大合规事件",
+      "pass": true,
+      "note": "无一票否决项触发"
+    },
+    {
+      "item": "管理疲劳风险",
+      "pass": false,
+      "note": "在管28只基金、总规模196亿，远超10只建议上限，但非一票否决项"
+    },
+    {
+      "item": "规模清盘风险",
+      "pass": false,
+      "note": "A类份额仅0.52亿接近0.5亿清盘预警线，需持续关注"
+    },
+    {
+      "item": "高估值追高风险",
+      "pass": false,
+      "note": "净值处于约92%历史分位，短期涨幅过大，当前不宜追高"
+    },
+    {
+      "item": "基金公司经营风险",
+      "pass": true,
+      "note": "富国基金为'老十家'头部公募，经营稳定"
+    }
+  ],
+  "scoring": {
+    "total": 60,
+    "grade": "一般",
+    "recommendation": "观望",
+    "recommendationType": "cautious",
+    "rating": "★★★",
+    "logic": "基金质量 60/100 一般 × 政策状态 🟢 红利期 × 市场状态 🔴 高估谨慎 → ★★★ 观望",
+    "dimensions": [
+      {
+        "name": "费率性价比",
+        "score": 17,
+        "maxScore": 25,
+        "pros": [
+          "管理+托管合计0.60%，同类偏低(+12)"
+        ],
+        "cons": [
+          "仍高于最低梯队0.20%水平(-5)",
+          "申购费原价1.50%偏高(-3)"
+        ]
+      },
+      {
+        "name": "跟踪执行",
+        "score": 12,
+        "maxScore": 20,
+        "pros": [
+          "跟踪误差1.75%在行业ETF联接可接受区间(+8)"
+        ],
+        "cons": [
+          "作为联接基金存在双重收费（ETF层+联接层），跟踪误差偏大(-4)",
+          "信息比率-0.28(-2)"
+        ]
+      },
+      {
+        "name": "风险承载要求",
+        "score": 12,
+        "maxScore": 20,
+        "pros": [
+          "最大回撤-14.65%在同主题工具中尚可接受(+7)"
+        ],
+        "cons": [
+          "2025年全年-0.72%远弱于沪深300+17.66%，行业主题逆风期回撤控制差(-5)"
+        ]
+      },
+      {
+        "name": "主题集中度与外部约束",
+        "score": 10,
+        "maxScore": 20,
+        "pros": [
+          "暴露清晰（100%电力行业）(+8)"
+        ],
+        "cons": [
+          "高度依赖单一赛道，行业景气度下行时无防御手段(-5)",
+          "Beta=0.51与沪深300弱相关，孤军作战(-3)"
+        ]
+      },
+      {
+        "name": "流动性与平台",
+        "score": 9,
+        "maxScore": 15,
+        "pros": [
+          "ETF+联接链条完整(+5)",
+          "富国基金指数运营能力成熟(+4)"
+        ],
+        "cons": [
+          "规模仅0.52亿偏小(-3)",
+          "A类份额规模更小，大额申赎可能有冲击(-2)"
+        ]
+      }
+    ],
+    "reasoning": "基金质量 60/100 一般 × 政策状态 🟢 红利期 × 市场状态 🔴 高估谨慎 → ★★★ 观望",
+    "conclusion": "观望",
+    "suitableFor": [
+      "认可绿色电力长期逻辑、持有期≥3年、能承受-15%以上短期回撤的投资者",
+      "将此基金作为分散化组合中行业配置工具（仓位<10%）的进阶投资者",
+      "已持有C类份额（020096）想通过A类降低持有成本的长期投资者"
+    ],
+    "notSuitableFor": [
+      "高位追涨、持有期<1年、无法承受-15%以上短期亏损的投资者",
+      "需要稳定现金流（该基金从未分红）",
+      "希望规避行业集中风险的均衡配置型投资者",
+      "风险承受能力评级低于R3的投资者"
+    ],
+    "allocationSuggestions": [
+      {
+        "scenario": "短期（1-3个月）",
+        "action": "不建议追高",
+        "note": "净值高位+短期涨幅过大，回调压力大；已持有者NAV跌破1.25可首批加仓"
+      },
+      {
+        "scenario": "中期（6-12个月）",
+        "action": "等待回调分批建仓",
+        "note": "等待回调至NAV 1.10-1.20区间：首批40%，二批40%，留20%补仓"
+      },
+      {
+        "scenario": "长期（3年以上）",
+        "action": "长期配置",
+        "note": "仓位≤15%，NAV 1.00为硬止损线，绿色电力是双碳长期主线"
+      }
+    ],
+    "risks": [
+      {
+        "type": "行业集中风险",
+        "level": "high",
+        "note": "100%暴露于电力行业，行业景气度下行时无防御手段。2025年全年-0.72%远弱于沪深300+17.66%即为案例"
+      },
+      {
+        "type": "高估值回调风险",
+        "level": "high",
+        "note": "净值处于约92%历史分位，接近历史最高点，短期涨幅过大（2026YTD+19.37%），回调压力较大"
+      },
+      {
+        "type": "管理疲劳风险",
+        "level": "medium",
+        "note": "经理张圣贤在管28只基金、总规模196亿，远超10只建议上限，单只基金关注度有限"
+      },
+      {
+        "type": "规模偏小风险",
+        "level": "medium",
+        "note": "A类份额仅0.52亿，大额申赎可能产生冲击成本，极端情况下存在清盘风险"
+      }
+    ],
+    "policyItems": [
+      {
+        "name": "绿色电力交易专章纳入中长期交易规则",
+        "impactLabel": "强利好"
+      },
+      {
+        "name": "新能源消纳保障机制",
+        "impactLabel": "强利好"
+      },
+      {
+        "name": "电力市场化改革深化",
+        "impactLabel": "中性偏利好"
+      }
+    ],
+    "marketStatus": [
+      {
+        "dim": "净值位置",
+        "status": "约92%历史分位",
+        "statusType": "danger",
+        "detail": "净值1.3359接近历史最高1.356（2026-05-19），处于历史高位区间"
+      },
+      {
+        "dim": "近期趋势",
+        "status": "短期动能强劲",
+        "statusType": "positive",
+        "detail": "近1月+6.71%，近3月+10.59%，近6月+15.85%，近1年+20.56%，排名中上游"
+      },
+      {
+        "dim": "夏普趋势",
+        "status": "改善",
+        "statusType": "positive",
+        "detail": "1Y夏普1.15 >> 2Y夏普0.41，近期风险调整后收益显著改善，但需警惕均值回归"
+      },
+      {
+        "dim": "宏观流动性",
+        "status": "友好",
+        "statusType": "positive",
+        "detail": "央行维持宽松货币政策，LPR下调，流动性环境对权益市场友好"
+      },
+      {
+        "dim": "持仓主线景气",
+        "status": "改善",
+        "statusType": "positive",
+        "detail": "绿色电力装机持续增长，绿电交易规模翻倍，政策密集催化"
+      },
+      {
+        "dim": "外部风险",
+        "status": "需关注",
+        "statusType": "warning",
+        "detail": "电力市场化改革可能导致电价波动；中美贸易摩擦影响市场情绪"
+      }
+    ],
+    "termAdvice": [
+      {
+        "term": "短期",
+        "icon": "📌",
+        "level": "warning",
+        "advice": "不建议追高，净值高位+短期涨幅过大，回调压力大"
+      },
+      {
+        "term": "中期",
+        "icon": "📌",
+        "level": "cautious",
+        "advice": "等待回调至NAV 1.10-1.20区间分批建仓"
+      },
+      {
+        "term": "长期",
+        "icon": "📌",
+        "level": "positive",
+        "advice": "绿色电力是双碳长期主线，可作行业配置工具，仓位≤15%"
+      }
+    ]
+  },
+  "navHistory": [
+    {
+      "date": "2026-01-12",
+      "nav": 1.1509
+    },
+    {
+      "date": "2026-01-13",
+      "nav": 1.1519
+    },
+    {
+      "date": "2026-01-14",
+      "nav": 1.1485
+    },
+    {
+      "date": "2026-01-15",
+      "nav": 1.1474
+    },
+    {
+      "date": "2026-01-16",
+      "nav": 1.148
+    },
+    {
+      "date": "2026-01-19",
+      "nav": 1.1622
+    },
+    {
+      "date": "2026-01-20",
+      "nav": 1.1733
+    },
+    {
+      "date": "2026-01-21",
+      "nav": 1.1623
+    },
+    {
+      "date": "2026-01-22",
+      "nav": 1.1615
+    },
+    {
+      "date": "2026-01-23",
+      "nav": 1.168
+    },
+    {
+      "date": "2026-01-26",
+      "nav": 1.1663
+    },
+    {
+      "date": "2026-01-27",
+      "nav": 1.1541
+    },
+    {
+      "date": "2026-01-28",
+      "nav": 1.1494
+    },
+    {
+      "date": "2026-01-29",
+      "nav": 1.1478
+    },
+    {
+      "date": "2026-01-30",
+      "nav": 1.1429
+    },
+    {
+      "date": "2026-02-02",
+      "nav": 1.1309
+    },
+    {
+      "date": "2026-02-03",
+      "nav": 1.1387
+    },
+    {
+      "date": "2026-02-04",
+      "nav": 1.1538
+    },
+    {
+      "date": "2026-02-05",
+      "nav": 1.1403
+    },
+    {
+      "date": "2026-02-06",
+      "nav": 1.1452
+    },
+    {
+      "date": "2026-02-09",
+      "nav": 1.1521
+    },
+    {
+      "date": "2026-02-10",
+      "nav": 1.1451
+    },
+    {
+      "date": "2026-02-11",
+      "nav": 1.1469
+    },
+    {
+      "date": "2026-02-12",
+      "nav": 1.1554
+    },
+    {
+      "date": "2026-02-13",
+      "nav": 1.1407
+    },
+    {
+      "date": "2026-02-24",
+      "nav": 1.1622
+    },
+    {
+      "date": "2026-02-25",
+      "nav": 1.1685
+    },
+    {
+      "date": "2026-02-26",
+      "nav": 1.1809
+    },
+    {
+      "date": "2026-02-27",
+      "nav": 1.208
+    },
+    {
+      "date": "2026-03-02",
+      "nav": 1.2208
+    },
+    {
+      "date": "2026-03-03",
+      "nav": 1.2136
+    },
+    {
+      "date": "2026-03-04",
+      "nav": 1.2227
+    },
+    {
+      "date": "2026-03-05",
+      "nav": 1.2408
+    },
+    {
+      "date": "2026-03-06",
+      "nav": 1.2532
+    },
+    {
+      "date": "2026-03-09",
+      "nav": 1.2653
+    },
+    {
+      "date": "2026-03-10",
+      "nav": 1.2683
+    },
+    {
+      "date": "2026-03-11",
+      "nav": 1.296
+    },
+    {
+      "date": "2026-03-12",
+      "nav": 1.3235
+    },
+    {
+      "date": "2026-03-13",
+      "nav": 1.3047
+    },
+    {
+      "date": "2026-03-16",
+      "nav": 1.2789
+    },
+    {
+      "date": "2026-03-17",
+      "nav": 1.2731
+    },
+    {
+      "date": "2026-03-18",
+      "nav": 1.2732
+    },
+    {
+      "date": "2026-03-19",
+      "nav": 1.2742
+    },
+    {
+      "date": "2026-03-20",
+      "nav": 1.2765
+    },
+    {
+      "date": "2026-03-23",
+      "nav": 1.2515
+    },
+    {
+      "date": "2026-03-24",
+      "nav": 1.2946
+    },
+    {
+      "date": "2026-03-25",
+      "nav": 1.3303
+    },
+    {
+      "date": "2026-03-26",
+      "nav": 1.3214
+    },
+    {
+      "date": "2026-03-27",
+      "nav": 1.3067
+    },
+    {
+      "date": "2026-03-30",
+      "nav": 1.2671
+    },
+    {
+      "date": "2026-03-31",
+      "nav": 1.2359
+    },
+    {
+      "date": "2026-04-01",
+      "nav": 1.2341
+    },
+    {
+      "date": "2026-04-02",
+      "nav": 1.2219
+    },
+    {
+      "date": "2026-04-03",
+      "nav": 1.1949
+    },
+    {
+      "date": "2026-04-07",
+      "nav": 1.193
+    },
+    {
+      "date": "2026-04-08",
+      "nav": 1.216
+    },
+    {
+      "date": "2026-04-09",
+      "nav": 1.2067
+    },
+    {
+      "date": "2026-04-10",
+      "nav": 1.2061
+    },
+    {
+      "date": "2026-04-13",
+      "nav": 1.2162
+    },
+    {
+      "date": "2026-04-14",
+      "nav": 1.2199
+    },
+    {
+      "date": "2026-04-15",
+      "nav": 1.224
+    },
+    {
+      "date": "2026-04-16",
+      "nav": 1.2315
+    },
+    {
+      "date": "2026-04-17",
+      "nav": 1.232
+    },
+    {
+      "date": "2026-04-20",
+      "nav": 1.2439
+    },
+    {
+      "date": "2026-04-21",
+      "nav": 1.2591
+    },
+    {
+      "date": "2026-04-22",
+      "nav": 1.2583
+    },
+    {
+      "date": "2026-04-23",
+      "nav": 1.2788
+    },
+    {
+      "date": "2026-04-24",
+      "nav": 1.2593
+    },
+    {
+      "date": "2026-04-27",
+      "nav": 1.2519
+    },
+    {
+      "date": "2026-04-28",
+      "nav": 1.2576
+    },
+    {
+      "date": "2026-04-29",
+      "nav": 1.2598
+    },
+    {
+      "date": "2026-04-30",
+      "nav": 1.2408
+    },
+    {
+      "date": "2026-05-06",
+      "nav": 1.2684
+    },
+    {
+      "date": "2026-05-07",
+      "nav": 1.2888
+    },
+    {
+      "date": "2026-05-08",
+      "nav": 1.2866
+    },
+    {
+      "date": "2026-05-11",
+      "nav": 1.3035
+    },
+    {
+      "date": "2026-05-12",
+      "nav": 1.3189
+    },
+    {
+      "date": "2026-05-13",
+      "nav": 1.3427
+    },
+    {
+      "date": "2026-05-14",
+      "nav": 1.3163
+    },
+    {
+      "date": "2026-05-15",
+      "nav": 1.3082
+    },
+    {
+      "date": "2026-05-18",
+      "nav": 1.3119
+    },
+    {
+      "date": "2026-05-19",
+      "nav": 1.356
+    },
+    {
+      "date": "2026-05-20",
+      "nav": 1.3049
+    },
+    {
+      "date": "2026-05-21",
+      "nav": 1.286
+    },
+    {
+      "date": "2026-05-22",
+      "nav": 1.2891
+    },
+    {
+      "date": "2026-05-25",
+      "nav": 1.3188
+    },
+    {
+      "date": "2026-05-26",
+      "nav": 1.3206
+    },
+    {
+      "date": "2026-05-27",
+      "nav": 1.3359
+    },
+    {
+      "date": "2026-05-28",
+      "nav": 1.3536
+    },
+    {
+      "date": "2026-05-29",
+      "nav": 1.3948
+    }
+  ],
+  "tracking": {
+    "weekly": [
+      "净值创历史新高1.356（2026-05-19）后快速回落至1.3359",
+      "近1周涨幅+2.38%，跑赢同类均值-0.82%但略弱于沪深300+2.74%",
+      "绿电政策持续催化，但短期涨幅过大需警惕回调",
+      "A股整体反弹，电力板块跟随上涨但力度不及大盘",
+      "规模0.52亿偏小，关注是否跌破0.5亿清盘预警线"
+    ],
+    "quarterly": [
+      "持仓变化",
+      "集中度变化",
+      "规模变化",
+      "同类排名",
+      "跟踪误差"
+    ],
+    "alerts": [
+      {
+        "level": "high",
+        "icon": "🔴",
+        "text": "净值处于约92%历史分位，短期涨幅过大（YTD+19.37%），回调压力大"
+      },
+      {
+        "level": "high",
+        "icon": "🔴",
+        "text": "行业100%集中电力，行业逆风期无防御手段"
+      },
+      {
+        "level": "medium",
+        "icon": "🟡",
+        "text": "基金经理在管28只基金、总规模196亿，远超10只建议上限"
+      },
+      {
+        "level": "medium",
+        "icon": "🟡",
+        "text": "A类份额仅0.52亿接近0.5亿清盘预警线"
+      },
+      {
+        "level": "info",
+        "icon": "🟢",
+        "text": "绿电政策红利期持续，绿电交易规模翻倍至约2000亿千瓦时"
+      }
+    ]
+  },
+  "stageAnalysis": {
+    "stages": [
+      {
+        "id": 1,
+        "name": "建仓起步期",
+        "emoji": "🟢",
+        "period": "2023-12 → 2024-01",
+        "returnPct": 2.8,
+        "hs300Pct": -6.88,
+        "excessPct": 9.68,
+        "driverType": "industry_beta",
+        "driverLabel": "行业Beta主导",
+        "color": "#4CAF50",
+        "description": "基金成立于2023年末，建仓期恰逢市场底部。绿色电力板块相对抗跌，基金小幅上涨，跑赢沪深300约10个百分点。",
+        "env": "市场底部，绿色电力板块相对抗跌",
+        "managerAction": "被动跟踪中证绿色电力指数建仓",
+        "attribution": "行业Beta贡献为主"
+      },
+      {
+        "id": 2,
+        "name": "首轮上升期",
+        "emoji": "🟢",
+        "period": "2024-01 → 2024-07",
+        "returnPct": 25.82,
+        "hs300Pct": 3,
+        "excessPct": 22,
+        "driverType": "industry_beta",
+        "driverLabel": "行业Beta主导",
+        "color": "#4CAF50",
+        "description": "电力板块受电价市场化改革预期和新能源装机增长驱动，基金净值从0.96涨至1.21，涨幅达25.82%。这是基金成立以来最大的单轮上涨行情。",
+        "env": "电力市场化改革预期升温，新能源装机持续增长，电力板块估值修复",
+        "managerAction": "被动跟踪中证绿色电力指数，持仓结构完全复制指数成分股",
+        "attribution": "Beta贡献为主，言行一致（纯被动管理，无主动偏离）"
+      },
+      {
+        "id": 3,
+        "name": "924行情滞涨期",
+        "emoji": "🔴",
+        "period": "2024-07 → 2024-09",
+        "returnPct": -14.65,
+        "hs300Pct": 16.07,
+        "excessPct": -30.72,
+        "driverType": "beta_alpha_loss",
+        "driverLabel": "Beta+Alpha双损",
+        "color": "#F44336",
+        "description": "2024年9月大盘暴涨（924行情），但电力板块逆势下跌。基金从1.21跌至1.03，最大回撤-14.65%。同期沪深300暴涨16.07%，基金严重跑输。这是基金成立以来最痛苦的阶段。",
+        "env": "924行情启动，大盘暴涨但电力板块逆势下跌，市场资金从防御性板块流向成长/科技板块",
+        "managerAction": "被动跟踪，无法主动减仓防御",
+        "attribution": "行业Beta系统性风险，被动基金无法规避"
+      },
+      {
+        "id": 4,
+        "name": "政策反弹期",
+        "emoji": "🟢",
+        "period": "2024-09 → 2024-10",
+        "returnPct": 15.91,
+        "hs300Pct": 5,
+        "excessPct": 10,
+        "driverType": "industry_beta",
+        "driverLabel": "行业Beta主导",
+        "color": "#4CAF50",
+        "description": "924行情后电力板块补涨，叠加绿电政策催化，基金从1.03快速反弹至1.20，但未能回到前高1.21。",
+        "env": "924行情后电力板块补涨，叠加四季度电价谈判预期改善",
+        "managerAction": "被动跟踪",
+        "attribution": "Beta修复行情，言行一致"
+      },
+      {
+        "id": 5,
+        "name": "持续回调期",
+        "emoji": "🔴",
+        "period": "2024-10 → 2025-03",
+        "returnPct": -12.49,
+        "hs300Pct": -3,
+        "excessPct": -9,
+        "driverType": "beta_alpha_loss",
+        "driverLabel": "Beta+Alpha双损",
+        "color": "#F44336",
+        "description": "电力板块获利回吐，电价下行担忧升温。基金从1.20跌至1.05，回撤-12.49%。2025Q1基金排名3150/3635（不佳）。",
+        "env": "电力板块获利回吐，电价下行担忧升温",
+        "managerAction": "被动跟踪",
+        "attribution": "行业Beta下行，被动承受"
+      },
+      {
+        "id": 6,
+        "name": "修复启动期",
+        "emoji": "🟢",
+        "period": "2025-03 → 2026-03",
+        "returnPct": 26.89,
+        "hs300Pct": 8,
+        "excessPct": 19,
+        "driverType": "industry_beta",
+        "driverLabel": "行业Beta主导",
+        "color": "#4CAF50",
+        "description": "绿色电力政策密集催化，绿电交易规模翻倍，新能源消纳保障强化。基金从1.05稳步上涨至1.33，涨幅26.89%。",
+        "env": "绿色电力政策密集催化，绿电交易规模翻倍，新能源消纳保障强化",
+        "managerAction": "被动跟踪",
+        "attribution": "政策Beta驱动，言行一致"
+      },
+      {
+        "id": 7,
+        "name": "短期回调期",
+        "emoji": "🔴",
+        "period": "2026-03 → 2026-04",
+        "returnPct": -10.32,
+        "hs300Pct": -5,
+        "excessPct": -5,
+        "driverType": "style_rotation",
+        "driverLabel": "风格切换期",
+        "color": "#FF9800",
+        "description": "2026年3-4月市场风格切换，电力板块短期调整。基金从1.33跌至1.19，回撤-10.32%。",
+        "env": "市场风格切换，电力板块短期调整",
+        "managerAction": "被动跟踪",
+        "attribution": "短期风格扰动"
+      },
+      {
+        "id": 8,
+        "name": "新高冲刺期",
+        "emoji": "🟢",
+        "period": "2026-04 → 2026-05",
+        "returnPct": 13.66,
+        "hs300Pct": 8,
+        "excessPct": 5,
+        "driverType": "industry_beta",
+        "driverLabel": "行业Beta主导",
+        "color": "#4CAF50",
+        "description": "绿电政策持续催化+电力需求增长，基金从1.19快速上涨至1.356（5月19日创历史新高），随后小幅回落至1.3359。",
+        "env": "绿电政策持续催化+电力需求增长+中证绿色电力指数创阶段新高",
+        "managerAction": "被动跟踪",
+        "attribution": "行业Beta继续驱动"
+      }
+    ],
+    "inflectionPoints": [
+      {
+        "id": 1,
+        "startDate": "2024-01-22",
+        "endDate": "2024-07-09",
+        "startNav": 0.9625,
+        "endNav": 1.211,
+        "changePct": 25.82,
+        "type": "peak",
+        "env": "电力市场化改革预期升温，新能源装机持续增长，电力板块估值修复",
+        "managerAction": "被动跟踪中证绿色电力指数，持仓结构完全复制指数成分股（长江电力、中国核电、三峡能源等为核心权重股）",
+        "attribution": "Beta贡献为主 ✅言行一致性（纯被动管理，无主动偏离）",
+        "holdingsSummary": "暂无持仓数据",
+        "stageId": 2
+      },
+      {
+        "id": 2,
+        "startDate": "2024-07-09",
+        "endDate": "2024-09-11",
+        "startNav": 1.211,
+        "endNav": 1.0336,
+        "changePct": -14.65,
+        "type": "trough",
+        "env": "924行情启动，大盘暴涨但电力板块逆势下跌。市场资金从防御性板块流向成长/科技板块，风格切换剧烈",
+        "managerAction": "被动跟踪，无法主动减仓防御",
+        "attribution": "行业Beta系统性风险，被动基金无法规避 ⚠️言行业一致性但无力应对",
+        "holdingsSummary": "暂无持仓数据",
+        "stageId": 3
+      },
+      {
+        "id": 3,
+        "startDate": "2024-09-11",
+        "endDate": "2024-10-08",
+        "startNav": 1.0336,
+        "endNav": 1.198,
+        "changePct": 15.91,
+        "type": "peak",
+        "env": "924行情后电力板块补涨，叠加四季度电价谈判预期改善",
+        "managerAction": "被动跟踪",
+        "attribution": "Beta修复行情 ✅言行一致",
+        "holdingsSummary": "暂无持仓数据",
+        "stageId": 4
+      },
+      {
+        "id": 4,
+        "startDate": "2024-10-08",
+        "endDate": "2025-03-10",
+        "startNav": 1.198,
+        "endNav": 1.0484,
+        "changePct": -12.49,
+        "type": "trough",
+        "env": "电力板块获利回吐，电价下行担忧升温。2025Q1沪深300 -1.21%但基金-4.27%，行业逆风",
+        "managerAction": "被动跟踪",
+        "attribution": "行业Beta下行，被动承受 ⚠️",
+        "holdingsSummary": "暂无持仓数据",
+        "stageId": 5
+      },
+      {
+        "id": 5,
+        "startDate": "2025-03-10",
+        "endDate": "2026-03-25",
+        "startNav": 1.0484,
+        "endNav": 1.3303,
+        "changePct": 26.89,
+        "type": "peak",
+        "env": "绿色电力政策密集催化。2025年6月绿电交易专章纳入中长期交易规则，新能源消纳保障强化，绿电交易规模从约1000亿千瓦时翻倍至约2000亿千瓦时",
+        "managerAction": "被动跟踪",
+        "attribution": "政策Beta驱动 ✅言行一致",
+        "holdingsSummary": "暂无持仓数据",
+        "stageId": 6
+      },
+      {
+        "id": 6,
+        "startDate": "2026-03-25",
+        "endDate": "2026-04-07",
+        "startNav": 1.3303,
+        "endNav": 1.193,
+        "changePct": -10.32,
+        "type": "trough",
+        "env": "市场风格切换，电力板块短期调整",
+        "managerAction": "被动跟踪",
+        "attribution": "短期风格扰动 🔄",
+        "holdingsSummary": "暂无持仓数据",
+        "stageId": 7
+      },
+      {
+        "id": 7,
+        "startDate": "2026-04-07",
+        "endDate": "2026-05-19",
+        "startNav": 1.193,
+        "endNav": 1.356,
+        "changePct": 13.66,
+        "type": "peak",
+        "env": "绿电政策持续催化+电力需求增长+中证绿色电力指数创阶段新高",
+        "managerAction": "被动跟踪",
+        "attribution": "行业Beta继续驱动 ✅",
+        "holdingsSummary": "暂无持仓数据",
+        "stageId": 8
+      }
+    ],
+    "totalInflectionPoints": 7
+  },
+  "company": {
+    "name": "富国基金管理有限公司",
+    "shortName": "富国基金",
+    "foundYear": 1999,
+    "aumDesc": "约1.2万亿元（旗下约400只基金）",
+    "industryRank": "国内头部公募基金公司，'老十家'基金公司之一",
+    "complianceResult": "通过",
+    "complianceSummary": "合规检查通过，无一票否决项触发。管理疲劳风险需关注但非一票否决项。",
+    "complianceChecks": [
+      {
+        "item": "黑名单核查",
+        "pass": true,
+        "warn": false,
+        "detail": "不在黑名单"
+      },
+      {
+        "item": "近3年处罚记录",
+        "pass": true,
+        "warn": false,
+        "detail": "未发现富国基金近3年有证监会处罚记录"
+      },
+      {
+        "item": "内幕交易传闻",
+        "pass": true,
+        "warn": false,
+        "detail": "未发现相关传闻"
+      },
+      {
+        "item": "基金经理离职风险",
+        "pass": true,
+        "warn": false,
+        "detail": "张圣贤任职稳定，无离职迹象"
+      },
+      {
+        "item": "管理疲劳风险",
+        "pass": false,
+        "warn": true,
+        "detail": "在管28只基金、总规模196亿，远超10只建议上限"
+      }
+    ]
+  }
+}

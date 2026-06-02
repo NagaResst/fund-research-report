@@ -302,5 +302,53 @@
     "navFallback": 0.9214,
     "reportDate": "2026-05-25",
     "manager": "林念"
+  },
+  {
+    "id": "014623",
+    "shortName": "中银MSCI中国A50互联互通指数增强A",
+    "type": "指数型",
+    "subType": "股票",
+    "riskLevel": "R3",
+    "riskCode": 3,
+    "return1Y": 0,
+    "return3Y": 0,
+    "score": 66,
+    "recommendation": "观望，存量持有不加仓，新资金等回调",
+    "recommendationType": "cautious",
+    "navFallback": 1.7286,
+    "reportDate": "2026-06-01",
+    "manager": "赵志华"
+  },
+  {
+    "id": "018646",
+    "shortName": "易方达中证家电龙头ETF联接发起式A",
+    "type": "指数型",
+    "subType": "股票",
+    "riskLevel": "R3",
+    "riskCode": 3,
+    "return1Y": 0,
+    "return3Y": 0,
+    "score": 58,
+    "recommendation": "可参与但需严格控制仓位和期限，规模过小是最大硬伤",
+    "recommendationType": "cautious",
+    "navFallback": 1.287,
+    "reportDate": "2026-06-01",
+    "manager": "吕方"
+  },
+  {
+    "id": "020095",
+    "shortName": "富国中证绿色电力ETF发起式联接A",
+    "type": "指数型",
+    "subType": "股票",
+    "riskLevel": "R3",
+    "riskCode": 3,
+    "return1Y": 0,
+    "return3Y": 0,
+    "score": 60,
+    "recommendation": "观望",
+    "recommendationType": "cautious",
+    "navFallback": 1.3948,
+    "reportDate": "2026-06-01",
+    "manager": "张圣贤"
   }
 ]

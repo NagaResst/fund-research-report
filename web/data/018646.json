@@ -1,0 +1,2112 @@
+{
+  "id": "018646",
+  "meta": {
+    "reportDate": "2026-06-01",
+    "dataDate": "2026-05-29",
+    "disclaimer": "本报告仅供个人学习和信息整理使用，所有分析内容均不构成任何投资建议。投资有风险，入市需谨慎，请依据自身判断做出投资决策。"
+  },
+  "basic": {
+    "code": "018646",
+    "fullName": "易方达中证家电龙头交易型开放式指数证券投资基金发起式联接基金",
+    "shortName": "易方达中证家电龙头ETF联接发起式A",
+    "type": "指数型",
+    "subType": "股票",
+    "riskLevel": "R3",
+    "riskCode": 3,
+    "foundDate": "2023年09月19日",
+    "manager": "吕方",
+    "companyShort": "易方达基金",
+    "navFallback": 1.287,
+    "inceptionReturn": 28.7,
+    "custodian": "农业银行",
+    "benchmark": "中证家电龙头指数收益率*95%+活期存款利率(税后)*5%",
+    "navDateFallback": "2026-05-29",
+    "status": "开放申购 / 开放赎回",
+    "company": "易方达基金"
+  },
+  "fees": {
+    "management": 0.5,
+    "custodian": 0.1,
+    "salesService": 0.0,
+    "subscriptionMax": 1.5,
+    "breakdown": [
+      {
+        "name": "管理费",
+        "value": 0.5
+      },
+      {
+        "name": "托管费",
+        "value": 0.1
+      },
+      {
+        "name": "销售服务费",
+        "value": 0.0
+      },
+      {
+        "name": "申购费",
+        "value": 1.5
+      },
+      {
+        "name": "赎回费",
+        "value": 1.5
+      }
+    ],
+    "subscriptionDiscounted": 0.12,
+    "redemptionMax": 1.5
+  },
+  "scale": {
+    "nav": 0.27,
+    "shares": 0,
+    "date": "2026-05-29"
+  },
+  "performance": {
+    "stages": [
+      {
+        "period": "近1周",
+        "fund": -4.23,
+        "peer": -1.21,
+        "hs300": 0.97,
+        "rank": 4412,
+        "rankTotal": 5150,
+        "quartile": "Q4"
+      },
+      {
+        "period": "近1月",
+        "fund": -1.92,
+        "peer": 0.91,
+        "hs300": 1.7,
+        "rank": 3139,
+        "rankTotal": 5089,
+        "quartile": "Q3"
+      },
+      {
+        "period": "近3月",
+        "fund": -6.95,
+        "peer": 0.7,
+        "hs300": 3.85,
+        "rank": 3655,
+        "rankTotal": 4919,
+        "quartile": "Q3"
+      },
+      {
+        "period": "近6月",
+        "fund": -3.56,
+        "peer": 10.57,
+        "hs300": 8.07,
+        "rank": 3698,
+        "rankTotal": 4675,
+        "quartile": "Q4"
+      },
+      {
+        "period": "近1年",
+        "fund": 7.33,
+        "peer": 35.68,
+        "hs300": 26.78,
+        "rank": 3025,
+        "rankTotal": 3904,
+        "quartile": "Q4"
+      },
+      {
+        "period": "近2年",
+        "fund": 15.31,
+        "peer": 54.95,
+        "hs300": 35.38,
+        "rank": 2339,
+        "rankTotal": 2772,
+        "quartile": "Q4"
+      },
+      {
+        "period": "今年来",
+        "fund": -6.6,
+        "peer": 7.6,
+        "hs300": 5.66,
+        "rank": 3959,
+        "rankTotal": 4794,
+        "quartile": "Q4"
+      },
+      {
+        "period": "成立来",
+        "fund": 28.7,
+        "peer": 0,
+        "hs300": 0,
+        "rank": 0,
+        "rankTotal": 0,
+        "quartile": "—"
+      }
+    ],
+    "annual": [
+      {
+        "year": 2023,
+        "fund": -4.72,
+        "peer": -8.28,
+        "hs300": -11.38,
+        "rank": 0,
+        "rankTotal": 2655,
+        "quartile": "---"
+      },
+      {
+        "year": 2024,
+        "fund": 25.88,
+        "peer": 11.37,
+        "hs300": 14.68,
+        "rank": 243,
+        "rankTotal": 3464,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2025,
+        "fund": 14.89,
+        "peer": 28.14,
+        "hs300": 17.66,
+        "rank": 2582,
+        "rankTotal": 4812,
+        "quartile": "一般"
+      },
+      {
+        "year": 2026,
+        "fund": -6.6,
+        "peer": 7.6,
+        "hs300": 5.66,
+        "rank": 3959,
+        "rankTotal": 4794,
+        "quartile": "—"
+      }
+    ],
+    "quarterly": [
+      {
+        "year": 2023,
+        "quarter": "2023Q3",
+        "fund": 0.12,
+        "peer": 0,
+        "hs300": -5.22,
+        "rank": 0,
+        "rankTotal": 0,
+        "quartile": "—"
+      },
+      {
+        "year": 2023,
+        "quarter": "2023Q4",
+        "fund": -4.83,
+        "peer": 0,
+        "hs300": -6.88,
+        "rank": 0,
+        "rankTotal": 0,
+        "quartile": "—"
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q1",
+        "fund": 7.96,
+        "peer": 0,
+        "hs300": 4.46,
+        "rank": 0,
+        "rankTotal": 0,
+        "quartile": "—"
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q2",
+        "fund": 0.82,
+        "peer": -3.66,
+        "hs300": -2.14,
+        "rank": 539,
+        "rankTotal": 3014,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q3",
+        "fund": 15.55,
+        "peer": 17.13,
+        "hs300": 16.07,
+        "rank": 1684,
+        "rankTotal": 3130,
+        "quartile": "一般"
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q4",
+        "fund": 0.09,
+        "peer": 0.65,
+        "hs300": -2.06,
+        "rank": 1270,
+        "rankTotal": 3464,
+        "quartile": "良好"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q1",
+        "fund": 5.04,
+        "peer": 2.45,
+        "hs300": -1.21,
+        "rank": 838,
+        "rankTotal": 3635,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q2",
+        "fund": -6.23,
+        "peer": 2.65,
+        "hs300": 1.25,
+        "rank": 3614,
+        "rankTotal": 4076,
+        "quartile": "不佳"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q3",
+        "fund": 16.65,
+        "peer": 23.0,
+        "hs300": 17.9,
+        "rank": 2623,
+        "rankTotal": 4523,
+        "quartile": "一般"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q4",
+        "fund": 0.0,
+        "peer": -0.94,
+        "hs300": -0.23,
+        "rank": 2290,
+        "rankTotal": 4812,
+        "quartile": "良好"
+      },
+      {
+        "year": 2026,
+        "quarter": "2026Q1",
+        "fund": -9.54,
+        "peer": -1.57,
+        "hs300": -3.89,
+        "rank": 4382,
+        "rankTotal": 4960,
+        "quartile": "不佳"
+      },
+      {
+        "year": 2026,
+        "quarter": "2026Q2",
+        "fund": 1.54,
+        "peer": 0,
+        "hs300": 8.09,
+        "rank": 0,
+        "rankTotal": 0,
+        "quartile": "—"
+      }
+    ],
+    "milestones": [
+      {
+        "date": "2023-09-19",
+        "nav": 1.0,
+        "label": "基金成立",
+        "type": "inception"
+      },
+      {
+        "date": "2024-01-22",
+        "nav": 0.907,
+        "label": "建仓期最低点",
+        "type": "trough"
+      },
+      {
+        "date": "2024-05-13",
+        "nav": 1.1762,
+        "label": "首轮反弹高点",
+        "type": "peak"
+      },
+      {
+        "date": "2024-07-25",
+        "nav": 0.9312,
+        "label": "最大回撤低点(-20.83%)",
+        "type": "trough"
+      },
+      {
+        "date": "2024-10-08",
+        "nav": 1.2586,
+        "label": "924行情高点",
+        "type": "peak"
+      },
+      {
+        "date": "2025-04-08",
+        "nav": 1.1039,
+        "label": "关税冲击低点",
+        "type": "trough"
+      },
+      {
+        "date": "2026-01-21",
+        "nav": 1.4304,
+        "label": "国补兑现高点",
+        "type": "peak"
+      },
+      {
+        "date": "2026-04-07",
+        "nav": 1.2264,
+        "label": "年初调整低点",
+        "type": "trough"
+      },
+      {
+        "date": "2026-05-13",
+        "nav": 1.3661,
+        "label": "4月反弹高点",
+        "type": "peak"
+      },
+      {
+        "date": "2026-05-29",
+        "nav": 1.287,
+        "label": "最新净值",
+        "type": "current"
+      }
+    ]
+  },
+  "risk": {
+    "volatility": 0.1981,
+    "annualReturn": 0.1038,
+    "sharpe": 0.37,
+    "calmar": 0.5,
+    "maxDrawdown": -0.2083,
+    "maxDrawdownPeriod": "2024-05-13 → 2024-07-25",
+    "maxDrawdownMonths": 2,
+    "periodMetrics": [
+      {
+        "label": "近1年",
+        "volatility": 0.151,
+        "sharpe": 0.27,
+        "maxDrawdown": -0.1426
+      },
+      {
+        "label": "近2年",
+        "volatility": 0.2081,
+        "sharpe": 0.2,
+        "maxDrawdown": -0.2083
+      },
+      {
+        "label": "近3年",
+        "volatility": 0.1981,
+        "sharpe": 0.37,
+        "maxDrawdown": -0.2083
+      }
+    ],
+    "relativeMetrics": {
+      "beta": 0.8645,
+      "alpha": 0.004,
+      "informationRatio": -0.1093,
+      "trackingError": 0.1286,
+      "r2": 0.5955
+    },
+    "recentPerf": [
+      {
+        "period": "近1周",
+        "fund": -4.23,
+        "peer": -1.21,
+        "hs300": 0.97,
+        "excess": -5.2,
+        "rank": 4412,
+        "rankTotal": 5150,
+        "warn": true,
+        "note": "前86%"
+      },
+      {
+        "period": "近1月",
+        "fund": -1.92,
+        "peer": 0.91,
+        "hs300": 1.7,
+        "excess": -3.62,
+        "rank": 3139,
+        "rankTotal": 5089,
+        "warn": true,
+        "note": "前62%"
+      },
+      {
+        "period": "近3月",
+        "fund": -6.95,
+        "peer": 0.7,
+        "hs300": 3.85,
+        "excess": -10.8,
+        "rank": 3655,
+        "rankTotal": 4919,
+        "warn": true,
+        "note": "前74%"
+      },
+      {
+        "period": "近6月",
+        "fund": -3.56,
+        "peer": 10.57,
+        "hs300": 8.07,
+        "excess": -11.63,
+        "rank": 3698,
+        "rankTotal": 4675,
+        "warn": true,
+        "note": "前79%"
+      },
+      {
+        "period": "近1年",
+        "fund": 7.33,
+        "peer": 35.68,
+        "hs300": 26.78,
+        "excess": -19.45,
+        "rank": 3025,
+        "rankTotal": 3904,
+        "warn": true,
+        "note": "前77%"
+      },
+      {
+        "period": "近2年",
+        "fund": 15.31,
+        "peer": 54.95,
+        "hs300": 35.38,
+        "excess": -20.07,
+        "rank": 2339,
+        "rankTotal": 2772,
+        "warn": true,
+        "note": "前84%"
+      },
+      {
+        "period": "今年以来",
+        "fund": -6.6,
+        "peer": 7.6,
+        "hs300": 5.66,
+        "excess": -12.26,
+        "rank": 3959,
+        "rankTotal": 4794,
+        "warn": true,
+        "note": "前83%"
+      }
+    ],
+    "radarDimensions": [
+      {
+        "name": "收益能力",
+        "score": 45
+      },
+      {
+        "name": "风险控制",
+        "score": 40
+      },
+      {
+        "name": "跟踪精度",
+        "score": 55
+      },
+      {
+        "name": "流动性",
+        "score": 30
+      },
+      {
+        "name": "费率友好",
+        "score": 80
+      },
+      {
+        "name": "政策支撑",
+        "score": 70
+      }
+    ],
+    "riskBreakdown": {
+      "volatilityRating": "中等波动（19.81%）",
+      "volatilityPercentile": 45,
+      "sharpeRating": "全期偏低（0.37），近1年（0.27）",
+      "sharpePercentile": 30,
+      "drawdownRating": "历史最大 -20.83%，近1年 -0.1426",
+      "drawdownPercentile": 70,
+      "historicalMaxDrawdown": 20.83,
+      "yearlyMaxDrawdowns": [
+        {
+          "year": 2026,
+          "fund": 14.26,
+          "hs300": 7.78
+        },
+        {
+          "year": 2025,
+          "fund": 14.32,
+          "hs300": 10.49
+        },
+        {
+          "year": 2024,
+          "fund": 20.83,
+          "hs300": 14.41
+        },
+        {
+          "year": 2023,
+          "fund": 9.02,
+          "hs300": 21.51
+        }
+      ]
+    },
+    "riskWarnings": [
+      {
+        "level": "medium",
+        "text": "2024-2026年基金回撤均大于沪深300，家电板块在下跌市中跌幅更大",
+        "category": "drawdown"
+      },
+      {
+        "level": "medium",
+        "text": "基金规模0.27亿远低于5000万清盘预警线",
+        "category": "liquidity"
+      },
+      {
+        "level": "medium",
+        "text": "近1年、近2年基金收益均大幅跑输沪深300",
+        "category": "general"
+      },
+      {
+        "level": "medium",
+        "text": "经理从业仅0.7年且在管11只基金超阈值",
+        "category": "general"
+      }
+    ],
+    "navPercentile": 74.4
+  },
+  "holdings": {
+    "date": "2024-09-30",
+    "stockRatio": 74.87,
+    "bondRatio": 0.0,
+    "cashRatio": 5.13,
+    "top10": [
+      {
+        "rank": 41,
+        "name": "格力电器",
+        "code": "000651",
+        "ratio": 15.61,
+        "sector": "家电"
+      },
+      {
+        "rank": 42,
+        "name": "美的集团",
+        "code": "000333",
+        "ratio": 15.53,
+        "sector": "家电"
+      },
+      {
+        "rank": 43,
+        "name": "海尔智家",
+        "code": "600690",
+        "ratio": 14.05,
+        "sector": "家电"
+      },
+      {
+        "rank": 44,
+        "name": "三花智控",
+        "code": "002050",
+        "ratio": 7.77,
+        "sector": "家电"
+      },
+      {
+        "rank": 45,
+        "name": "石头科技",
+        "code": "688169",
+        "ratio": 5.2,
+        "sector": "家电"
+      },
+      {
+        "rank": 46,
+        "name": "四川长虹",
+        "code": "600839",
+        "ratio": 4.31,
+        "sector": "家电"
+      },
+      {
+        "rank": 47,
+        "name": "海信视像",
+        "code": "600060",
+        "ratio": 3.43,
+        "sector": "家电"
+      },
+      {
+        "rank": 48,
+        "name": "海信家电",
+        "code": "000921",
+        "ratio": 3.32,
+        "sector": "家电"
+      },
+      {
+        "rank": 49,
+        "name": "公牛集团",
+        "code": "603195",
+        "ratio": 3.25,
+        "sector": "家电"
+      },
+      {
+        "rank": 50,
+        "name": "兆驰股份",
+        "code": "002429",
+        "ratio": 2.4,
+        "sector": "家电"
+      }
+    ],
+    "top10TotalRatio": 74.87,
+    "sectors": [
+      {
+        "name": "白色家电",
+        "ratio": 41.0
+      },
+      {
+        "name": "家电零部件",
+        "ratio": 20.0
+      },
+      {
+        "name": "智能清洁",
+        "ratio": 7.0
+      },
+      {
+        "name": "黑色家电",
+        "ratio": 7.0
+      },
+      {
+        "name": "小家电",
+        "ratio": 0.0
+      },
+      {
+        "name": "其他",
+        "ratio": 25.0
+      }
+    ],
+    "bondStructure": {
+      "totalRatio": 0.0,
+      "description": "本基金为股票型ETF联接基金，不投资债券",
+      "details": []
+    },
+    "policyLinks": [
+      {
+        "sector": "前4大重仓（美的/格",
+        "stocks": "",
+        "policyNote": "前4大重仓（美的/格力/海尔/三花）直接受益于家电以旧换新补贴",
+        "color": "#3b82f6"
+      },
+      {
+        "sector": "白电占比约41%，是",
+        "stocks": "",
+        "policyNote": "白电占比约41%，是国补政策最直接的受益方向",
+        "color": "#3b82f6"
+      },
+      {
+        "sector": "三花智控占比15.1",
+        "stocks": "",
+        "policyNote": "三花智控占比15.18%偏高，国补直接受益度不如白电",
+        "color": "#3b82f6"
+      }
+    ],
+    "top10Total": 74.87,
+    "concentrationLabel": "高集中度（Top4=55.88%，Top10=78.34%）",
+    "themeGroups": [
+      {
+        "name": "白电（空调/冰箱/洗衣机）",
+        "ratio": 41.0,
+        "color": "#3b82f6",
+        "stocks": [
+          "格力电器 14.60%",
+          "美的集团 14.11%",
+          "海尔智家 11.99%"
+        ],
+        "note": "国补政策最直接受益方向"
+      },
+      {
+        "name": "家电零部件",
+        "ratio": 20.0,
+        "color": "#3b82f6",
+        "stocks": [
+          "三花智控 15.18%",
+          "麦格米特 5.06%"
+        ],
+        "note": "三花占比偏高，国补直接受益度不如白电"
+      },
+      {
+        "name": "黑电（电视）",
+        "ratio": 7.0,
+        "color": "#3b82f6",
+        "stocks": [
+          "四川长虹 4.12%",
+          "海信视像 3.22%"
+        ],
+        "note": "占比较小"
+      },
+      {
+        "name": "智能清洁（扫地机器人）",
+        "ratio": 7.0,
+        "color": "#3b82f6",
+        "stocks": [
+          "石头科技 4.06%",
+          "科沃斯 3.16%"
+        ],
+        "note": "成长性方向"
+      }
+    ],
+    "themeTitle": "家电龙头指数被动跟踪",
+    "themeSubtitle": "跟踪中证家电龙头指数，通过投资目标ETF(159328)间接持有成分股",
+    "evolutionHighlights": [
+      {
+        "quarter": "",
+        "change": "三花智控从2025Q1的第4位(9.36",
+        "theme": "",
+        "concentration": "",
+        "return": "",
+        "type": "neutral",
+        "insight": "三花智控从2025Q1的第4位(9.36%)升至Q3-Q4的第1位(14.76%→15.18%)，反映指数成分股权重调整"
+      },
+      {
+        "quarter": "",
+        "change": "美的/格力/海尔权重小幅下降但绝对占比仍",
+        "theme": "",
+        "concentration": "",
+        "return": "",
+        "type": "neutral",
+        "insight": "美的/格力/海尔权重小幅下降但绝对占比仍高"
+      },
+      {
+        "quarter": "",
+        "change": "Top4集中度从2025Q1的52.55",
+        "theme": "",
+        "concentration": "",
+        "return": "",
+        "type": "neutral",
+        "insight": "Top4集中度从2025Q1的52.55%上升至Q4的55.88%"
+      }
+    ]
+  },
+  "managers": {
+    "current": {
+      "name": "吕方",
+      "title": "基金经理",
+      "education": "—",
+      "experience": "0.7年",
+      "joinDate": "2025-11-22",
+      "manageDate": "2025-11-22",
+      "manageYears": 0.5,
+      "fundCount": 11,
+      "totalScale": 35.8,
+      "bestReturn": 12.94,
+      "worstReturn": -13.2,
+      "managerId": "30855043",
+      "style": "被动指数管理",
+      "strengths": [
+        "管理宽基ETF业绩尚可（A50ETF +12.94%）",
+        "被动管理无风格漂移风险",
+        "背靠易方达平台，ETF管理经验丰富"
+      ],
+      "weaknesses": [
+        "从业仅0.7年，资历极浅",
+        "在管11只基金超过10只阈值，疲劳管理风险",
+        "行业主题ETF多数亏损（粮食-6.65%、畜牧-10.11%、食品-7.49%、消费-13.20%）",
+        "接任本基金以来收益-1.91%"
+      ],
+      "historicalFunds": [
+        {
+          "name": "易方达中证全指可选消费指数发起式A",
+          "code": "027353",
+          "type": "指数型-股票",
+          "tenure": "2026-05-26 ~ 至今",
+          "return": 0.0,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "⚠️",
+          "isCurrent": true
+        },
+        {
+          "name": "易方达中证全指可选消费指数发起式C",
+          "code": "027354",
+          "type": "指数型-股票",
+          "tenure": "2026-05-26 ~ 至今",
+          "return": 0.0,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "⚠️",
+          "isCurrent": true
+        },
+        {
+          "name": "易方达国证粮食产业ETF",
+          "code": "159038",
+          "type": "指数型-股票",
+          "tenure": "2026-05-12 ~ 至今",
+          "return": -6.65,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "⚠️",
+          "isCurrent": true
+        },
+        {
+          "name": "易方达中证畜牧养殖产业ETF",
+          "code": "159020",
+          "type": "指数型-股票",
+          "tenure": "2026-04-17 ~ 至今",
+          "return": -10.11,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "⚠️",
+          "isCurrent": true
+        },
+        {
+          "name": "食品ETF易方达",
+          "code": "560160",
+          "type": "指数型-股票",
+          "tenure": "2026-01-19 ~ 至今",
+          "return": -7.49,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "⚠️",
+          "isCurrent": true
+        },
+        {
+          "name": "消费ETF易方达",
+          "code": "159798",
+          "type": "指数型-股票",
+          "tenure": "2025-11-29 ~ 至今",
+          "return": -13.2,
+          "rank": 3794,
+          "rankTotal": 3904,
+          "grade": "weak",
+          "isCurrent": true
+        },
+        {
+          "name": "易方达中证家电龙头ETF联接发起式A",
+          "code": "018646",
+          "type": "指数型-股票",
+          "tenure": "2025-11-22 ~ 至今",
+          "return": -1.91,
+          "rank": 3025,
+          "rankTotal": 3904,
+          "grade": "weak",
+          "isCurrent": true
+        },
+        {
+          "name": "家电ETF易方达",
+          "code": "159328",
+          "type": "指数型-股票",
+          "tenure": "2025-11-22 ~ 至今",
+          "return": -1.71,
+          "rank": 2965,
+          "rankTotal": 3904,
+          "grade": "weak",
+          "isCurrent": true
+        },
+        {
+          "name": "易方达中证家电龙头ETF联接发起式C",
+          "code": "018647",
+          "type": "指数型-股票",
+          "tenure": "2025-11-22 ~ 至今",
+          "return": -2.06,
+          "rank": 3047,
+          "rankTotal": 3904,
+          "grade": "weak",
+          "isCurrent": true
+        },
+        {
+          "name": "MSCIA股ETF易方达",
+          "code": "512090",
+          "type": "指数型-股票",
+          "tenure": "2025-10-18 ~ 至今",
+          "return": 11.01,
+          "rank": 1943,
+          "rankTotal": 3904,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "中国A50ETF易方达",
+          "code": "563000",
+          "type": "指数型-股票",
+          "tenure": "2025-09-18 ~ 至今",
+          "return": 12.94,
+          "rank": 1476,
+          "rankTotal": 3904,
+          "grade": "good",
+          "isCurrent": true
+        }
+      ],
+      "tenureReturn": -1.91,
+      "peerAvgReturn": 0.0,
+      "rankInPeer": 3025,
+      "rankTotal": 3904,
+      "philosophy": [
+        {
+          "label": "核心投资理念",
+          "text": "纯被动指数管理，不涉及主动择时和选股"
+        },
+        {
+          "label": "选股方法论",
+          "text": "核心工作是跟踪指数、控制跟踪误差"
+        },
+        {
+          "label": "仓位管理风格",
+          "text": "作为ETF联接基金，主要通过买入目标ETF(159328)实现跟踪"
+        }
+      ],
+      "consistencyAudit": [
+        {
+          "period": "全程",
+          "result": "pass",
+          "label": "一致",
+          "stated": "本基金为被动指数基金，不存在言行不一致问题",
+          "actual": "纯被动指数管理，跟踪误差最小化",
+          "evaluation": "被动基金无言行不一致风险"
+        },
+        {
+          "period": "全程",
+          "result": "pass",
+          "label": "一致",
+          "stated": "经理不发布投资观点，只负责跟踪指数",
+          "actual": "纯被动指数管理，跟踪误差最小化",
+          "evaluation": "被动基金无言行不一致风险"
+        },
+        {
+          "period": "全程",
+          "result": "pass",
+          "label": "一致",
+          "stated": "无风格漂移风险",
+          "actual": "纯被动指数管理，跟踪误差最小化",
+          "evaluation": "被动基金无言行不一致风险"
+        }
+      ],
+      "abilityProfile": {
+        "best": "宽基ETF管理能力尚可",
+        "worst": "行业主题ETF管理多数亏损，从业时间短",
+        "goodEnv": [
+          "大盘上涨行情"
+        ],
+        "badEnv": [
+          "行业下行期",
+          "高波动市场"
+        ]
+      },
+      "allManagerIds": [
+        "30855043",
+        "30589069"
+      ]
+    },
+    "history": [
+      {
+        "name": "庞亚平",
+        "role": "独任",
+        "start": "2023-09-19",
+        "end": "2025-11-21",
+        "tenure": "2年64天",
+        "return": 31.21,
+        "note": "庞亚平管理期间收益+31.21%，管理经验丰富，后调任管理其他基金"
+      },
+      {
+        "name": "吕方",
+        "role": "独任",
+        "start": "2025-11-22",
+        "end": null,
+        "tenure": "191天",
+        "return": -1.91,
+        "note": "接任后收益-1.91%，但指数基金业绩主要由指数本身决定，经理更换影响有限"
+      }
+    ]
+  },
+  "policy": {
+    "tags": [
+      {
+        "label": "以旧换新",
+        "strength": "medium",
+        "color": "#E8813A"
+      },
+      {
+        "label": "国补政策",
+        "strength": "medium",
+        "color": "#E8813A"
+      },
+      {
+        "label": "消费刺激",
+        "strength": "medium",
+        "color": "#E8813A"
+      },
+      {
+        "label": "家电补贴",
+        "strength": "medium",
+        "color": "#E8813A"
+      }
+    ],
+    "policyBreakdown": [
+      {
+        "sector": "白电（空调/冰箱/洗衣机）",
+        "icon": "🏠",
+        "color": "#22c55e",
+        "logic": "国补以旧换新政策最直接受益方向，补贴15%+1级能效额外5%直接刺激白电换新需求，前4大重仓（美的/格力/海尔）占比约41%",
+        "stocks": [
+          "美的集团 14.11%",
+          "格力电器 14.60%",
+          "海尔智家 11.99%"
+        ]
+      },
+      {
+        "sector": "家电零部件",
+        "icon": "🔧",
+        "color": "#3b82f6",
+        "logic": "间接受益于家电以旧换新带来的零部件需求增长，三花智控占比15.18%偏高但其主业含新能源热管理，国补直接受益度不如白电",
+        "stocks": [
+          "三花智控 15.18%",
+          "麦格米特 5.06%"
+        ]
+      },
+      {
+        "sector": "黑电/智能清洁",
+        "icon": "📺",
+        "color": "#f59e0b",
+        "logic": "黑电和扫地机器人占比较小（各约7%），政策补贴覆盖电视等品类但拉动效应弱于白电，扫地机器人属于成长性方向",
+        "stocks": [
+          "四川长虹 4.12%",
+          "海信视像 3.22%",
+          "石头科技 4.06%",
+          "科沃斯 3.16%"
+        ]
+      }
+    ],
+    "fifteenFive": [
+      {
+        "direction": "消费品以旧换新2.0",
+        "color": "#F54E48",
+        "description": "十五五期间国补资金持续加码，2026年预算1250亿+，家电/汽车/家居补贴延续扩围",
+        "holdings": "美的集团 / 海尔智家 / 格力电器"
+      },
+      {
+        "direction": "绿色智能消费升级",
+        "color": "#22c55e",
+        "description": "节能/智能家电补贴倾斜，推动消费结构从传统向绿色智能转型",
+        "holdings": "海尔智家 / 美的集团"
+      },
+      {
+        "direction": "内需扩大与消费基建",
+        "color": "#3b82f6",
+        "description": "以旧换新政策常态化，配套物流/回收体系建设，消费中长期利好",
+        "holdings": "全部持仓"
+      }
+    ],
+    "longTermRisks": [
+      {
+        "risk": "国补政策退出",
+        "level": "high",
+        "signal": "政策退出后家电需求可能显著回落，补贴依赖度高的品类风险最大"
+      },
+      {
+        "risk": "房地产持续下行",
+        "level": "high",
+        "signal": "房地产下行周期压制家电新增需求，与政策退出形成双重打击"
+      },
+      {
+        "risk": "行业集中度过高",
+        "level": "medium",
+        "signal": "头部公司竞争加剧，前4大重仓占比56%，集中度风险突出"
+      },
+      {
+        "risk": "出口贸易摩擦",
+        "level": "medium",
+        "signal": "出口受贸易摩擦和关税政策影响，海外市场不确定性增加"
+      }
+    ],
+    "scenarios": [
+      {
+        "type": "乐观",
+        "probability": "中高",
+        "color": "#22c55e",
+        "returnLow": 10.0,
+        "returnHigh": 20.0,
+        "trigger": "国补1250亿资金超预期落地+618大促数据亮眼+7月政治局增量政策"
+      },
+      {
+        "type": "基准",
+        "probability": "中",
+        "color": "#3b82f6",
+        "returnLow": 0.0,
+        "returnHigh": 10.0,
+        "trigger": "国补政策按预期推进但惊喜效应递减，板块震荡上行"
+      },
+      {
+        "type": "悲观",
+        "probability": "低",
+        "color": "#ef4444",
+        "returnLow": -15.0,
+        "returnHigh": -5.0,
+        "trigger": "政策退出预期升温+房地产持续下行+家电销售数据不及预期"
+      }
+    ],
+    "industryOverview": [
+      {
+        "point": "政策红利期第二年",
+        "detail": "家电行业当前处于国补政策红利期第二年，2024年预期→2025年落地验证→2026年延续"
+      },
+      {
+        "point": "国补资金翻倍",
+        "detail": "国补资金从2025年约300亿增至2026年1250亿，力度翻倍"
+      },
+      {
+        "point": "惊喜效应递减",
+        "detail": "市场可能已部分price in，惊喜效应递减，需关注增量政策"
+      },
+      {
+        "point": "房地产压制新增需求",
+        "detail": "房地产下行周期持续，压制家电新增需求，但以旧换新对冲部分影响"
+      }
+    ],
+    "cyclePeriod": "政策红利期第二年至中后期",
+    "cycleReason": "2024年预期→2025年落地验证→2026年延续但力度更大，当前处于政策红利中后期，资金已到位但市场预期已部分兑现",
+    "note": "当前处于国补政策红利期第二年，政策力度加大但市场已部分price in，惊喜效应递减。8月底前是关键窗口期。",
+    "dualTimeline": [],
+    "timeline": [],
+    "adaptability": [
+      {
+        "env": "🟢 政策延续期（国补持续加码）",
+        "perf": "直接受益，适合参与",
+        "color": "#F54E48"
+      },
+      {
+        "env": "🟡 政策退出期（补贴退坡）",
+        "perf": "需及时止盈退出",
+        "color": "#D4A017"
+      },
+      {
+        "env": "🔴 经济下行期（消费受压）",
+        "perf": "家电消费受压制，应规避",
+        "color": "#2DC78E"
+      }
+    ]
+  },
+  "exclusionCheck": [
+    {
+      "item": "基金/公司黑名单",
+      "pass": true,
+      "note": "易方达基金不在黑名单中"
+    },
+    {
+      "item": "经理黑名单",
+      "pass": true,
+      "note": "吕方不在黑名单中"
+    },
+    {
+      "item": "重大违规处罚",
+      "pass": true,
+      "note": "未发现重大违规处罚记录"
+    },
+    {
+      "item": "内幕交易嫌疑",
+      "pass": true,
+      "note": "未发现内幕交易风险"
+    },
+    {
+      "item": "风格漂移",
+      "pass": true,
+      "note": "被动指数基金，无风格漂移风险"
+    },
+    {
+      "item": "经理频繁更换",
+      "pass": true,
+      "note": "仅更换1次经理（庞亚平→吕方）"
+    },
+    {
+      "item": "规模过小（<5000万）",
+      "pass": false,
+      "note": "规模0.27亿远低于5000万清盘线，是最大硬伤"
+    },
+    {
+      "item": "经理疲劳管理（>10只）",
+      "pass": false,
+      "note": "在管11只基金超过10只阈值"
+    },
+    {
+      "item": "经理从业过短（<1年）",
+      "pass": false,
+      "note": "吕方从业仅0.7年"
+    },
+    {
+      "item": "持续大幅跑输基准",
+      "pass": false,
+      "note": "近1年+7.33%大幅跑输沪深300+26.78%"
+    }
+  ],
+  "scoring": {
+    "total": 58,
+    "grade": "中等偏下",
+    "recommendation": "可参与但需严格控制仓位和期限，规模过小是最大硬伤",
+    "recommendationType": "cautious",
+    "rating": "★★★",
+    "logic": "被动行业主题指数基金，评分矩阵不完全适用。从板块时机、基金品质、风险控制三维度判断：国补政策延续提供支撑但惊喜效应递减，基金规模仅0.27亿远低清盘线是最大硬伤，Beta=0.86、最大回撤-20.83%、年化波动19.81%显示高波动特征。综合评分58分，谨慎参与。",
+    "dimensions": [
+      {
+        "name": "板块时机",
+        "score": 65,
+        "maxScore": 30,
+        "pros": [
+          "国补政策延续1250亿资金支持",
+          "家电以旧换新需求持续释放"
+        ],
+        "cons": [
+          "惊喜效应递减，去年已有预期",
+          "板块估值偏高"
+        ]
+      },
+      {
+        "name": "基金品质",
+        "score": 50,
+        "maxScore": 30,
+        "pros": [
+          "易方达平台ETF管理经验丰富",
+          "跟踪误差小"
+        ],
+        "cons": [
+          "规模0.27亿远低于清盘线",
+          "流动性差"
+        ]
+      },
+      {
+        "name": "风险控制",
+        "score": 45,
+        "maxScore": 20,
+        "pros": [
+          "指数基金无风格漂移"
+        ],
+        "cons": [
+          "最大回撤偏大",
+          "行业集中度极高"
+        ]
+      },
+      {
+        "name": "经理能力",
+        "score": 40,
+        "maxScore": 10,
+        "pros": [
+          "被动管理不需主动选股",
+          "A50ETF有正收益"
+        ],
+        "cons": [
+          "从业时间短资历浅",
+          "行业主题ETF多数亏损"
+        ]
+      },
+      {
+        "name": "公司实力",
+        "score": 85,
+        "maxScore": 10,
+        "pros": [
+          "易方达为国内最大公募之一",
+          "指数产品线齐全"
+        ],
+        "cons": [
+          "小规模产品不受重视"
+        ]
+      }
+    ],
+    "reasoning": "被动行业主题指数基金，评分矩阵不完全适用。从板块时机、基金品质、风险控制三维度判断：国补政策延续+1250亿资金提供支撑但惊喜效应递减（板块时机65分）；纯被动跟踪费率低但规模仅0.27亿远低清盘线（基金品质50分）；Beta=0.86、最大回撤-20.83%、年化波动19.81%显示高波动特征（风险控制45分）；经理从业0.7年资历极浅（经理能力40分）；易方达平台实力强劲（公司实力85分）。综合58分，谨慎参与。",
+    "conclusion": "可以参与但必须严格控制仓位和期限，规模过小是最大硬伤。配置仓位3%-5%不超过8%，持有期限1-3个月不超过6个月，8月底前考虑止盈。",
+    "suitableFor": [
+      "看好家电板块短期政策行情的投资者",
+      "能承受高波动和行业集中风险的投资者",
+      "短期（1-3个月）波段操作者"
+    ],
+    "notSuitableFor": [
+      "追求稳健收益的保守型投资者",
+      "长期持有（>6个月）的投资者",
+      "对基金清盘风险零容忍的投资者",
+      "不擅长择时的被动投资者"
+    ],
+    "allocationSuggestions": [
+      {
+        "scenario": "仓位控制",
+        "action": "配置仓位3%-5%",
+        "note": "不超过8%"
+      },
+      {
+        "scenario": "持有期限",
+        "action": "持有期限目标1-3个月",
+        "note": "不超过6个月"
+      },
+      {
+        "scenario": "买入节奏",
+        "action": "买入节奏分2-3批",
+        "note": "不一把梭"
+      },
+      {
+        "scenario": "止损线",
+        "action": "止损线ETF跌破1.395需重新评估",
+        "note": ""
+      },
+      {
+        "scenario": "止盈线",
+        "action": "止盈线ETF反弹至1.55-1.57区间开始分批止盈",
+        "note": ""
+      },
+      {
+        "scenario": "止盈线",
+        "action": "退出窗口8月底前考虑止盈",
+        "note": "9月逐步退出"
+      }
+    ],
+    "risks": [
+      {
+        "type": "规模清盘风险",
+        "level": "high",
+        "note": "规模0.27亿远低于5000万清盘预警线，是最大硬伤"
+      },
+      {
+        "type": "行业集中风险",
+        "level": "high",
+        "note": "前4大重仓占比56%，高度依赖美的/格力/海尔/三花"
+      },
+      {
+        "type": "经理资历风险",
+        "level": "medium",
+        "note": "吕方从业仅0.7年，在管11只基金且多数亏损"
+      },
+      {
+        "type": "管理疲劳风险",
+        "level": "medium",
+        "note": "在管11只基金超过10只阈值，疲劳管理风险"
+      },
+      {
+        "type": "板块位置风险",
+        "level": "medium",
+        "note": "当前ETF价格比2025年同期高出8.8%，惊喜效应递减"
+      },
+      {
+        "type": "大幅跑输基准风险",
+        "level": "medium",
+        "note": "近1年+7.33%大幅跑输沪深300+26.78%"
+      }
+    ],
+    "policyItems": [
+      {
+        "name": "2026年国补政策延续确认（发改环资〔2025〕1745号）",
+        "impactLabel": "🟢 利好",
+        "detail": "2026年国补政策延续确认（发改环资〔2025〕1745号）"
+      },
+      {
+        "name": "首批625亿+第二批625亿，合计1250亿远超2025年",
+        "impactLabel": "🟢 利好",
+        "detail": "首批625亿+第二批625亿，合计1250亿远超2025年"
+      },
+      {
+        "name": "补贴15%+1级能效额外5%，单件最高补2000元，新增数码品类",
+        "impactLabel": "🟢 利好",
+        "detail": "补贴15%+1级能效额外5%，单件最高补2000元，新增数码品类"
+      }
+    ],
+    "marketStatus": [
+      {
+        "name": "家电板块当前处于国补政策红利期第二年",
+        "dim": "市场行情",
+        "statusType": "warning",
+        "detail": "家电板块当前处于国补政策红利期第二年",
+        "status": "家电板块当前处于国补政策红利期第二年"
+      },
+      {
+        "name": "2025年是政策落地+数据验证期板块大涨",
+        "dim": "市场行情",
+        "statusType": "warning",
+        "detail": "2025年是政策落地+数据验证期板块大涨",
+        "status": "2025年是政策落地+数据验证期板块大涨"
+      },
+      {
+        "name": "2026年政策延续期力度更大但市场已部分price in",
+        "dim": "市场行情",
+        "statusType": "warning",
+        "detail": "2026年政策延续期力度更大但市场已部分price in",
+        "status": "2026年政策延续期力度更大但市场已部分price in"
+      }
+    ],
+    "termAdvice": [
+      {
+        "term": "短期",
+        "icon": "⚠️",
+        "level": "cautious",
+        "advice": "配置仓位3%-5%，持有1-3个月，分2-3批买入，止损线ETF跌破1.395"
+      },
+      {
+        "term": "中期",
+        "icon": "🟡",
+        "level": "neutral",
+        "advice": "8月底前考虑止盈，9月逐步退出，反弹至1.55-1.57区间分批止盈"
+      },
+      {
+        "term": "长期",
+        "icon": "🔴",
+        "level": "not_recommended",
+        "advice": "不建议长期持有，规模过小有清盘风险，政策退出后需求回落"
+      }
+    ]
+  },
+  "navHistory": [
+    {
+      "date": "2026-01-12",
+      "nav": 1.4219
+    },
+    {
+      "date": "2026-01-13",
+      "nav": 1.4036
+    },
+    {
+      "date": "2026-01-14",
+      "nav": 1.4052
+    },
+    {
+      "date": "2026-01-15",
+      "nav": 1.3962
+    },
+    {
+      "date": "2026-01-16",
+      "nav": 1.4068
+    },
+    {
+      "date": "2026-01-19",
+      "nav": 1.4227
+    },
+    {
+      "date": "2026-01-20",
+      "nav": 1.4261
+    },
+    {
+      "date": "2026-01-21",
+      "nav": 1.4304
+    },
+    {
+      "date": "2026-01-22",
+      "nav": 1.4232
+    },
+    {
+      "date": "2026-01-23",
+      "nav": 1.4233
+    },
+    {
+      "date": "2026-01-26",
+      "nav": 1.4042
+    },
+    {
+      "date": "2026-01-27",
+      "nav": 1.4059
+    },
+    {
+      "date": "2026-01-28",
+      "nav": 1.3929
+    },
+    {
+      "date": "2026-01-29",
+      "nav": 1.3901
+    },
+    {
+      "date": "2026-01-30",
+      "nav": 1.3805
+    },
+    {
+      "date": "2026-02-02",
+      "nav": 1.3642
+    },
+    {
+      "date": "2026-02-03",
+      "nav": 1.3808
+    },
+    {
+      "date": "2026-02-04",
+      "nav": 1.3939
+    },
+    {
+      "date": "2026-02-05",
+      "nav": 1.3893
+    },
+    {
+      "date": "2026-02-06",
+      "nav": 1.3828
+    },
+    {
+      "date": "2026-02-09",
+      "nav": 1.3938
+    },
+    {
+      "date": "2026-02-10",
+      "nav": 1.4102
+    },
+    {
+      "date": "2026-02-11",
+      "nav": 1.3987
+    },
+    {
+      "date": "2026-02-12",
+      "nav": 1.4008
+    },
+    {
+      "date": "2026-02-13",
+      "nav": 1.393
+    },
+    {
+      "date": "2026-02-24",
+      "nav": 1.3961
+    },
+    {
+      "date": "2026-02-25",
+      "nav": 1.3949
+    },
+    {
+      "date": "2026-02-26",
+      "nav": 1.3878
+    },
+    {
+      "date": "2026-02-27",
+      "nav": 1.3832
+    },
+    {
+      "date": "2026-03-02",
+      "nav": 1.3621
+    },
+    {
+      "date": "2026-03-03",
+      "nav": 1.3304
+    },
+    {
+      "date": "2026-03-04",
+      "nav": 1.3223
+    },
+    {
+      "date": "2026-03-05",
+      "nav": 1.3327
+    },
+    {
+      "date": "2026-03-06",
+      "nav": 1.3439
+    },
+    {
+      "date": "2026-03-09",
+      "nav": 1.3199
+    },
+    {
+      "date": "2026-03-10",
+      "nav": 1.3462
+    },
+    {
+      "date": "2026-03-11",
+      "nav": 1.351
+    },
+    {
+      "date": "2026-03-12",
+      "nav": 1.3468
+    },
+    {
+      "date": "2026-03-13",
+      "nav": 1.3458
+    },
+    {
+      "date": "2026-03-16",
+      "nav": 1.3378
+    },
+    {
+      "date": "2026-03-17",
+      "nav": 1.3246
+    },
+    {
+      "date": "2026-03-18",
+      "nav": 1.3282
+    },
+    {
+      "date": "2026-03-19",
+      "nav": 1.3006
+    },
+    {
+      "date": "2026-03-20",
+      "nav": 1.2871
+    },
+    {
+      "date": "2026-03-23",
+      "nav": 1.2376
+    },
+    {
+      "date": "2026-03-24",
+      "nav": 1.2519
+    },
+    {
+      "date": "2026-03-25",
+      "nav": 1.2719
+    },
+    {
+      "date": "2026-03-26",
+      "nav": 1.2608
+    },
+    {
+      "date": "2026-03-27",
+      "nav": 1.2571
+    },
+    {
+      "date": "2026-03-30",
+      "nav": 1.2428
+    },
+    {
+      "date": "2026-03-31",
+      "nav": 1.2466
+    },
+    {
+      "date": "2026-04-01",
+      "nav": 1.2675
+    },
+    {
+      "date": "2026-04-02",
+      "nav": 1.2497
+    },
+    {
+      "date": "2026-04-03",
+      "nav": 1.2322
+    },
+    {
+      "date": "2026-04-07",
+      "nav": 1.2264
+    },
+    {
+      "date": "2026-04-08",
+      "nav": 1.266
+    },
+    {
+      "date": "2026-04-09",
+      "nav": 1.2538
+    },
+    {
+      "date": "2026-04-10",
+      "nav": 1.2642
+    },
+    {
+      "date": "2026-04-13",
+      "nav": 1.2564
+    },
+    {
+      "date": "2026-04-14",
+      "nav": 1.2693
+    },
+    {
+      "date": "2026-04-15",
+      "nav": 1.2732
+    },
+    {
+      "date": "2026-04-16",
+      "nav": 1.2768
+    },
+    {
+      "date": "2026-04-17",
+      "nav": 1.2778
+    },
+    {
+      "date": "2026-04-20",
+      "nav": 1.2932
+    },
+    {
+      "date": "2026-04-21",
+      "nav": 1.2896
+    },
+    {
+      "date": "2026-04-22",
+      "nav": 1.2944
+    },
+    {
+      "date": "2026-04-23",
+      "nav": 1.2958
+    },
+    {
+      "date": "2026-04-24",
+      "nav": 1.2837
+    },
+    {
+      "date": "2026-04-27",
+      "nav": 1.2928
+    },
+    {
+      "date": "2026-04-28",
+      "nav": 1.2869
+    },
+    {
+      "date": "2026-04-29",
+      "nav": 1.3122
+    },
+    {
+      "date": "2026-04-30",
+      "nav": 1.3224
+    },
+    {
+      "date": "2026-05-06",
+      "nav": 1.3294
+    },
+    {
+      "date": "2026-05-07",
+      "nav": 1.3428
+    },
+    {
+      "date": "2026-05-08",
+      "nav": 1.3556
+    },
+    {
+      "date": "2026-05-11",
+      "nav": 1.3622
+    },
+    {
+      "date": "2026-05-12",
+      "nav": 1.3546
+    },
+    {
+      "date": "2026-05-13",
+      "nav": 1.3661
+    },
+    {
+      "date": "2026-05-14",
+      "nav": 1.3523
+    },
+    {
+      "date": "2026-05-15",
+      "nav": 1.3636
+    },
+    {
+      "date": "2026-05-18",
+      "nav": 1.3607
+    },
+    {
+      "date": "2026-05-19",
+      "nav": 1.3563
+    },
+    {
+      "date": "2026-05-20",
+      "nav": 1.3496
+    },
+    {
+      "date": "2026-05-21",
+      "nav": 1.3407
+    },
+    {
+      "date": "2026-05-22",
+      "nav": 1.3438
+    },
+    {
+      "date": "2026-05-25",
+      "nav": 1.3461
+    },
+    {
+      "date": "2026-05-26",
+      "nav": 1.3506
+    },
+    {
+      "date": "2026-05-27",
+      "nav": 1.3239
+    },
+    {
+      "date": "2026-05-28",
+      "nav": 1.3006
+    },
+    {
+      "date": "2026-05-29",
+      "nav": 1.287
+    }
+  ],
+  "tracking": {
+    "weekly": [
+      "净值变化",
+      "同类排名",
+      "规模变化",
+      "政策动态"
+    ],
+    "quarterly": [
+      "持仓变化",
+      "集中度变化",
+      "规模变化",
+      "同类排名",
+      "跟踪误差",
+      "国补资金到位进度"
+    ],
+    "alerts": [
+      {
+        "level": "warning",
+        "icon": "⚠️",
+        "text": "清仓退出"
+      },
+      {
+        "level": "warning",
+        "icon": "⚠️",
+        "text": "分批卖出"
+      },
+      {
+        "level": "warning",
+        "icon": "⚠️",
+        "text": "提前退出"
+      },
+      {
+        "level": "warning",
+        "icon": "⚠️",
+        "text": "重新评估逻辑"
+      }
+    ]
+  },
+  "stageAnalysis": {
+    "stages": [
+      {
+        "id": 1,
+        "name": "建仓下跌期",
+        "emoji": "📉",
+        "period": "2023-09 → 2024-01",
+        "returnPct": -9.44,
+        "hs300Pct": -11.38,
+        "excessPct": 1.94,
+        "driverType": "market",
+        "driverLabel": "A股整体低迷",
+        "color": "#e74c3c",
+        "description": "基金刚成立，A股整体低迷，家电板块承压，净值从1.00跌至0.907",
+        "env": "A股整体低迷，家电板块承压",
+        "managerAction": "建仓期被动跟踪指数",
+        "attribution": "市场系统性下跌为主，家电相对沪深300抗跌"
+      },
+      {
+        "id": 2,
+        "name": "首轮大涨+深幅回撤",
+        "emoji": "🎢",
+        "period": "2024-01 → 2024-07",
+        "returnPct": 8.84,
+        "hs300Pct": 1.23,
+        "excessPct": 7.61,
+        "driverType": "policy",
+        "driverLabel": "以旧换新政策预期→落空",
+        "color": "#f39c12",
+        "description": "先涨+29.68%至1.176（5月高点），再跌-20.83%至0.931（7月低点），为基金成立以来最大回撤。驱动：家电以旧换新政策预期→政策落空+市场回调",
+        "env": "政策预期反复，市场大幅波动",
+        "managerAction": "被动跟踪指数，无主动操作",
+        "attribution": "政策预期驱动上涨，落空后深度回调，家电板块跌幅超过沪深300"
+      },
+      {
+        "id": 3,
+        "name": "924行情+国补兑现期",
+        "emoji": "🚀",
+        "period": "2024-07 → 2025-04",
+        "returnPct": 32.07,
+        "hs300Pct": 16.54,
+        "excessPct": 15.53,
+        "driverType": "policy",
+        "driverLabel": "924行情+国补政策出台→关税冲击",
+        "color": "#2ecc71",
+        "description": "924大反弹+35.16%，10月快速回调-10.17%后企稳，2024-11→2025-03再涨+13.72%（国补预期升温），2025-03→04暴跌-14.32%（关税冲击）",
+        "env": "924行情引爆市场，国补政策出台，关税冲击打断涨势",
+        "managerAction": "被动跟踪指数",
+        "attribution": "政策利好驱动超额收益，但关税冲击下回撤也更大"
+      },
+      {
+        "id": 4,
+        "name": "国补兑现+经理更换期",
+        "emoji": "🔄",
+        "period": "2025-04 → 2026-05",
+        "returnPct": 16.64,
+        "hs300Pct": 18.64,
+        "excessPct": -2.0,
+        "driverType": "policy",
+        "driverLabel": "国补全面兑现+经理更换",
+        "color": "#3498db",
+        "description": "2025-04→2026-01涨+29.58%（国补全面兑现，销售数据超预期），2025-11-22经理更换为吕方，2026-01→04跌-14.26%（年初调整+板块回调），2026-04→05反弹+11.39%后近期回调约6.7%",
+        "env": "国补政策全面兑现，经理更换，板块估值消化",
+        "managerAction": "2025-11-22经理更换为吕方，纯被动管理无主动调整",
+        "attribution": "国补兑现驱动主升浪，但年初估值消化和板块回调导致近期跑输大盘"
+      }
+    ],
+    "inflectionPoints": [
+      {
+        "id": 1,
+        "startDate": "2023-09-22",
+        "endDate": "2024-01-22",
+        "startNav": 1.0015,
+        "endNav": 0.907,
+        "changePct": -9.44,
+        "type": "trough",
+        "env": "A股整体低迷，家电板块承压，基金刚成立建仓期",
+        "managerAction": "建仓期被动跟踪指数",
+        "attribution": "市场系统性下跌为主，家电相对沪深300抗跌",
+        "holdingsSummary": "暂无持仓数据",
+        "stageId": 1
+      },
+      {
+        "id": 2,
+        "startDate": "2024-01-22",
+        "endDate": "2024-05-13",
+        "startNav": 0.907,
+        "endNav": 1.1762,
+        "changePct": 29.68,
+        "type": "peak",
+        "env": "家电以旧换新政策预期升温，市场反弹",
+        "managerAction": "被动跟踪指数",
+        "attribution": "政策预期驱动反弹，Beta贡献为主",
+        "holdingsSummary": "暂无持仓数据",
+        "stageId": 2
+      },
+      {
+        "id": 3,
+        "startDate": "2024-05-13",
+        "endDate": "2024-07-25",
+        "startNav": 1.1762,
+        "endNav": 0.9312,
+        "changePct": -20.83,
+        "type": "trough",
+        "env": "政策预期落空+市场回调，家电板块跌幅超过沪深300",
+        "managerAction": "被动跟踪指数，无主动操作",
+        "attribution": "政策落空+大盘回调，家电板块跌幅超过沪深300",
+        "holdingsSummary": "暂无持仓数据",
+        "stageId": 2
+      },
+      {
+        "id": 4,
+        "startDate": "2024-07-25",
+        "endDate": "2024-10-08",
+        "startNav": 0.9312,
+        "endNav": 1.2586,
+        "changePct": 35.16,
+        "type": "peak",
+        "env": "924行情爆发，家电以旧换新政策正式出台，市场大幅反弹",
+        "managerAction": "被动跟踪指数",
+        "attribution": "924行情+政策利好驱动大涨，Beta贡献为主 ✅",
+        "holdingsSummary": "暂无持仓数据",
+        "stageId": 3
+      },
+      {
+        "id": 5,
+        "startDate": "2024-10-08",
+        "endDate": "2024-10-17",
+        "startNav": 1.2586,
+        "endNav": 1.1306,
+        "changePct": -10.17,
+        "type": "trough",
+        "env": "924行情后快速回调，市场获利回吐",
+        "managerAction": "被动跟踪指数",
+        "attribution": "短期获利回吐，被动承受 ⚠️",
+        "holdingsSummary": "暂无持仓数据",
+        "stageId": 3
+      },
+      {
+        "id": 6,
+        "startDate": "2024-10-17",
+        "endDate": "2024-10-28",
+        "startNav": 1.1306,
+        "endNav": 1.2366,
+        "changePct": 9.38,
+        "type": "peak",
+        "env": "回调后企稳反弹，国补政策预期持续升温",
+        "managerAction": "被动跟踪指数",
+        "attribution": "政策预期驱动反弹 ✅",
+        "holdingsSummary": "暂无持仓数据",
+        "stageId": 3
+      },
+      {
+        "id": 7,
+        "startDate": "2024-10-28",
+        "endDate": "2024-11-26",
+        "startNav": 1.2366,
+        "endNav": 1.133,
+        "changePct": -8.38,
+        "type": "trough",
+        "env": "政策预期消化，板块获利回吐",
+        "managerAction": "被动跟踪指数",
+        "attribution": "行业Beta下行，被动承受 ⚠️",
+        "holdingsSummary": "暂无持仓数据",
+        "stageId": 3
+      },
+      {
+        "id": 8,
+        "startDate": "2024-11-26",
+        "endDate": "2025-03-19",
+        "startNav": 1.133,
+        "endNav": 1.2884,
+        "changePct": 13.72,
+        "type": "peak",
+        "env": "国补政策资金到位，家电销售数据持续超预期",
+        "managerAction": "被动跟踪指数（庞亚平管理）",
+        "attribution": "国补政策Beta驱动 ✅",
+        "holdingsSummary": "暂无持仓数据",
+        "stageId": 3
+      },
+      {
+        "id": 9,
+        "startDate": "2025-03-19",
+        "endDate": "2025-04-08",
+        "startNav": 1.2884,
+        "endNav": 1.1039,
+        "changePct": -14.32,
+        "type": "trough",
+        "env": "关税冲击，A股全面暴跌，家电板块重挫",
+        "managerAction": "被动跟踪指数（庞亚平管理）",
+        "attribution": "外部冲击导致系统性下跌，被动基金无法规避 ⚠️",
+        "holdingsSummary": "暂无持仓数据",
+        "stageId": 3
+      },
+      {
+        "id": 10,
+        "startDate": "2025-04-08",
+        "endDate": "2026-01-21",
+        "startNav": 1.1039,
+        "endNav": 1.4304,
+        "changePct": 29.58,
+        "type": "peak",
+        "env": "国补政策全面兑现，销售数据超预期，板块主升浪",
+        "managerAction": "被动跟踪指数，2025-11-22经理更换为吕方",
+        "attribution": "国补兑现驱动主升浪，Beta贡献为主 ✅",
+        "holdingsSummary": "暂无持仓数据",
+        "stageId": 4
+      },
+      {
+        "id": 11,
+        "startDate": "2026-01-21",
+        "endDate": "2026-04-07",
+        "startNav": 1.4304,
+        "endNav": 1.2264,
+        "changePct": -14.26,
+        "type": "trough",
+        "env": "年初估值消化+市场整体调整，家电板块回调",
+        "managerAction": "被动跟踪指数（吕方管理）",
+        "attribution": "估值消化+板块回调，被动承受 ⚠️",
+        "holdingsSummary": "暂无持仓数据",
+        "stageId": 4
+      },
+      {
+        "id": 12,
+        "startDate": "2026-04-07",
+        "endDate": "2026-05-13",
+        "startNav": 1.2264,
+        "endNav": 1.3661,
+        "changePct": 11.39,
+        "type": "peak",
+        "env": "4月反弹，政策延续预期+超跌修复",
+        "managerAction": "被动跟踪指数（吕方管理）",
+        "attribution": "超跌修复+政策延续预期 ✅",
+        "holdingsSummary": "暂无持仓数据",
+        "stageId": 4
+      }
+    ],
+    "totalInflectionPoints": 12
+  },
+  "company": {
+    "name": "易方达基金管理有限公司",
+    "shortName": "易方达基金",
+    "foundYear": 2001,
+    "aumDesc": "万亿级别，国内头部公募",
+    "industryRank": "Top 3",
+    "complianceResult": "通过",
+    "complianceSummary": "合规检查通过，无一票否决项触发",
+    "complianceChecks": [
+      {
+        "item": "公司黑名单检查",
+        "pass": true,
+        "warn": false,
+        "detail": "易方达基金不在黑名单中"
+      },
+      {
+        "item": "经理黑名单检查",
+        "pass": true,
+        "warn": false,
+        "detail": "吕方不在黑名单中"
+      },
+      {
+        "item": "监管处罚记录",
+        "pass": true,
+        "warn": false,
+        "detail": "未发现重大监管处罚"
+      },
+      {
+        "item": "内幕交易嫌疑",
+        "pass": true,
+        "warn": false,
+        "detail": "未发现内幕交易风险"
+      },
+      {
+        "item": "风格漂移风险",
+        "pass": true,
+        "warn": false,
+        "detail": "被动指数基金无风格漂移风险"
+      },
+      {
+        "item": "经理离职传闻",
+        "pass": true,
+        "warn": false,
+        "detail": "未发现离职传闻"
+      },
+      {
+        "item": "合规函/警示函",
+        "pass": true,
+        "warn": false,
+        "detail": "未发现合规警示"
+      }
+    ]
+  }
+}
