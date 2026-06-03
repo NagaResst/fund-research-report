@@ -1,0 +1,2063 @@
+{
+  "id": "021528",
+  "meta": {
+    "reportDate": "2026-06-03",
+    "dataDate": "2026-06-02",
+    "disclaimer": "本报告仅供个人学习和信息整理使用，所有分析内容均不构成任何投资建议。投资有风险，入市需谨慎，请依据自身判断做出投资决策。"
+  },
+  "basic": {
+    "code": "021528",
+    "fullName": "财通成长优选混合型证券投资基金",
+    "shortName": "财通成长优选混合C",
+    "type": "混合型",
+    "subType": "灵活",
+    "riskLevel": "R3",
+    "riskCode": 3,
+    "foundDate": "2024年05月28日",
+    "manager": "金梓才",
+    "companyShort": "财通基金",
+    "custodian": "工商银行",
+    "benchmark": "沪深300指数收益率*55%+上证国债指数收益率*45%",
+    "navFallback": 4.391,
+    "navDateFallback": "2026-06-02",
+    "inceptionReturn": 339.1,
+    "status": "限大额 / 开放赎回"
+  },
+  "fees": {
+    "management": 1.2,
+    "custodian": 0.2,
+    "salesService": 0.4,
+    "subscriptionMax": 0.0,
+    "subscriptionDiscounted": 0.0,
+    "redemptionMax": 1.5,
+    "breakdown": [
+      {
+        "name": "管理费",
+        "value": 1.2
+      },
+      {
+        "name": "托管费",
+        "value": 0.2
+      },
+      {
+        "name": "销售服务费",
+        "value": 0.4
+      },
+      {
+        "name": "申购费",
+        "value": 0.0,
+        "actualRate": 0.0
+      },
+      {
+        "name": "赎回费",
+        "value": 1.5,
+        "rate": 1.5,
+        "rules": [
+          {
+            "label": "持有少于7天",
+            "rate": 1.5
+          },
+          {
+            "label": "持有7天及以上",
+            "rate": 0.0
+          }
+        ],
+        "note": "短期持有惩罚性费率，具体以基金合同为准"
+      }
+    ]
+  },
+  "scale": {
+    "nav": 11.17,
+    "date": "2026-06-02",
+    "shares": 0
+  },
+  "risk": {
+    "volatility": 0.458,
+    "annualReturn": 1.1436,
+    "sharpe": 2.43,
+    "calmar": 2.93,
+    "maxDrawdown": -0.3905,
+    "maxDrawdownPeriod": "2025-01-22 → 2025-04-08",
+    "periodMetrics": [
+      {
+        "period": "全期",
+        "volatility": "45.80%",
+        "sharpe": 2.43,
+        "maxDrawdown": "-39.05%",
+        "label": "全期"
+      },
+      {
+        "period": "近1年",
+        "volatility": "48.71%",
+        "sharpe": 7.65,
+        "maxDrawdown": "-20.78%",
+        "label": "近1年"
+      }
+    ],
+    "riskBreakdown": {
+      "yearlyMaxDrawdowns": [
+        {
+          "year": 2026,
+          "fund": 9.12,
+          "hs300": 7.78
+        },
+        {
+          "year": 2025,
+          "fund": 39.05,
+          "hs300": 10.49
+        },
+        {
+          "year": 2024,
+          "fund": 28.56,
+          "hs300": 14.41
+        }
+      ],
+      "historicalMaxDrawdown": 39.05,
+      "volatilityRating": "极高波动（45.80%，远超宽基指数）",
+      "sharpeRating": "近1年极强（7.65），全期优秀（2.43）",
+      "drawdownRating": "历史最大-39.05%（2.5个月），近1年-20.78%",
+      "volatilityPercentile": 65,
+      "sharpePercentile": 60,
+      "drawdownPercentile": 70
+    },
+    "maxDrawdownMonths": 2.5,
+    "relativeMetrics": {
+      "beta": 1.5557,
+      "alpha": 0.5958,
+      "informationRatio": 1.8727,
+      "trackingError": 0.3707,
+      "r2": 0.3986
+    },
+    "navPercentile": 99.8,
+    "recentPerf": [
+      {
+        "period": "近1周",
+        "fund": 5.48,
+        "peer": -1.8,
+        "hs300": -0.67,
+        "excess": 6.15,
+        "rank": 14,
+        "rankTotal": 2321,
+        "warn": false,
+        "note": "前1%"
+      },
+      {
+        "period": "近1月",
+        "fund": 34.16,
+        "peer": 1.61,
+        "hs300": 2.23,
+        "excess": 31.93,
+        "rank": 3,
+        "rankTotal": 2320,
+        "warn": false,
+        "note": "前0.1%"
+      },
+      {
+        "period": "近3月",
+        "fund": 80.4,
+        "peer": 2.85,
+        "hs300": 3.93,
+        "excess": 76.47,
+        "rank": 3,
+        "rankTotal": 2319,
+        "warn": false,
+        "note": "前0.1%"
+      },
+      {
+        "period": "近6月",
+        "fund": 111.51,
+        "peer": 14.26,
+        "hs300": 7.91,
+        "excess": 103.6,
+        "rank": 4,
+        "rankTotal": 2304,
+        "warn": false,
+        "note": "前0.2%"
+      },
+      {
+        "period": "近1年",
+        "fund": 401.26,
+        "peer": 37.49,
+        "hs300": 27.98,
+        "excess": 373.28,
+        "rank": 4,
+        "rankTotal": 2270,
+        "warn": false,
+        "note": "前0.2%"
+      },
+      {
+        "period": "近2年",
+        "fund": 350.36,
+        "peer": 47.09,
+        "hs300": 37.28,
+        "excess": 313.08,
+        "rank": 15,
+        "rankTotal": 2187,
+        "warn": false,
+        "note": "前1%"
+      }
+    ],
+    "radarDimensions": [
+      {
+        "name": "超额收益能力",
+        "score": 88
+      },
+      {
+        "name": "回撤控制",
+        "score": 20
+      },
+      {
+        "name": "经理能力",
+        "score": 70
+      },
+      {
+        "name": "主题一致性",
+        "score": 93
+      },
+      {
+        "name": "政策匹配度",
+        "score": 70
+      }
+    ],
+    "riskWarnings": [
+      {
+        "level": "high",
+        "text": "净值处于99.8%历史极高位，追高回撤风险极大",
+        "category": "内部"
+      },
+      {
+        "level": "high",
+        "text": "行业高度集中，前十87.8%为光通信/AI算力，单一板块暴露风险极高",
+        "category": "内部"
+      },
+      {
+        "level": "high",
+        "text": "历史最大回撤-39.05%，回撤控制极弱",
+        "category": "内部"
+      },
+      {
+        "level": "medium",
+        "text": "在管13只基金+兼任副总经理，管理疲劳风险",
+        "category": "内部"
+      },
+      {
+        "level": "medium",
+        "text": "中美科技博弈可能影响光通信出口链",
+        "category": "外部"
+      }
+    ]
+  },
+  "holdings": {
+    "date": "2026-03-31",
+    "top10": [
+      {
+        "rank": 1,
+        "name": "新易盛",
+        "code": "300502",
+        "ratio": 9.9,
+        "sector": "光模块龙头",
+        "color": "#3b82f6"
+      },
+      {
+        "rank": 2,
+        "name": "鼎泰高科",
+        "code": "301377",
+        "ratio": 9.83,
+        "sector": "光通信精密加工",
+        "color": "#8b5cf6"
+      },
+      {
+        "rank": 3,
+        "name": "中际旭创",
+        "code": "300308",
+        "ratio": 9.81,
+        "sector": "光模块龙头",
+        "color": "#3b82f6"
+      },
+      {
+        "rank": 4,
+        "name": "源杰科技",
+        "code": "688498",
+        "ratio": 9.8,
+        "sector": "光芯片",
+        "color": "#06b6d4"
+      },
+      {
+        "rank": 5,
+        "name": "生益电子",
+        "code": "688183",
+        "ratio": 9.8,
+        "sector": "PCB/光通信基材",
+        "color": "#22c55e"
+      },
+      {
+        "rank": 6,
+        "name": "大族数控",
+        "code": "301200",
+        "ratio": 9.77,
+        "sector": "精密加工设备",
+        "color": "#f59e0b"
+      },
+      {
+        "rank": 7,
+        "name": "永鼎股份",
+        "code": "600105",
+        "ratio": 8.75,
+        "sector": "光纤光缆",
+        "color": "#ef4444"
+      },
+      {
+        "rank": 8,
+        "name": "沪电股份",
+        "code": "002463",
+        "ratio": 8.31,
+        "sector": "PCB",
+        "color": "#22c55e"
+      },
+      {
+        "rank": 9,
+        "name": "生益科技",
+        "code": "600183",
+        "ratio": 6.2,
+        "sector": "覆铜板/基材",
+        "color": "#22c55e"
+      },
+      {
+        "rank": 10,
+        "name": "烽火通信",
+        "code": "600498",
+        "ratio": 5.67,
+        "sector": "光通信设备",
+        "color": "#ef4444"
+      }
+    ],
+    "top10Total": 87.84,
+    "top10TotalRatio": 87.84,
+    "sectors": [
+      {
+        "name": "制造业",
+        "ratio": 93.5
+      },
+      {
+        "name": "信息技术业",
+        "ratio": 0.0
+      },
+      {
+        "name": "采矿业",
+        "ratio": 0.01
+      },
+      {
+        "name": "批发和零售业",
+        "ratio": 0.0
+      },
+      {
+        "name": "科学研究和技术服务业",
+        "ratio": 0.0
+      },
+      {
+        "name": "交通运输、仓储和邮政业",
+        "ratio": 0.0
+      }
+    ],
+    "stockRatio": 92.0,
+    "bondRatio": 0.0,
+    "cashRatio": 8.0,
+    "themeTitle": "光通信全产业链+AI算力基础设施",
+    "themeSubtitle": "AI算力周期核心受益",
+    "concentrationLabel": "极度集中",
+    "themeGroups": [
+      {
+        "name": "光模块核心",
+        "color": "#3b82f6",
+        "ratio": 19.7,
+        "stocks": "新易盛 / 中际旭创",
+        "note": "800G/1.6T光模块全球龙头，AI算力互联核心器件"
+      },
+      {
+        "name": "光芯片/光器件",
+        "color": "#8b5cf6",
+        "ratio": 19.6,
+        "stocks": "源杰科技 / 鼎泰高科",
+        "note": "光芯片国产替代+精密加工，产业链上游"
+      },
+      {
+        "name": "PCB/基材",
+        "color": "#22c55e",
+        "ratio": 24.3,
+        "stocks": "生益电子 / 沪电股份 / 生益科技",
+        "note": "高频高速PCB及覆铜板，算力服务器+光通信板核心材料"
+      },
+      {
+        "name": "光纤光缆/设备",
+        "color": "#ef4444",
+        "ratio": 14.4,
+        "stocks": "永鼎股份 / 烽火通信",
+        "note": "光通信传输设备，运营商及数据中心基建"
+      },
+      {
+        "name": "精密加工",
+        "color": "#f59e0b",
+        "ratio": 9.8,
+        "stocks": "大族数控",
+        "note": "PCB钻孔及精密加工设备，产业链配套"
+      }
+    ],
+    "evolutionHighlights": [
+      {
+        "quarter": "2024Q4→2025Q1",
+        "type": "warning",
+        "change": "风格漂移+恐慌调仓：从消费股到清退光通信换IDC算力",
+        "return": "-24.58%",
+        "theme": "恐慌调仓",
+        "insight": "消费股是失败漂移，恐慌清仓光通信更是左侧割肉，调仓加剧回撤",
+        "concentration": "85.7%→64.9%"
+      },
+      {
+        "quarter": "2025Q1→Q2",
+        "type": "positive",
+        "change": "重返光通信主线：清退全部IDC/电商股，重仓仕佳光子/新易盛/中际旭创",
+        "return": "+11.18%",
+        "theme": "重返主线",
+        "insight": "金梓才重新确认AI算力/光通信趋势不变，勇敢重返主线，这是关键转折点",
+        "concentration": "64.9%→78.8%"
+      },
+      {
+        "quarter": "2025Q3→2026Q1",
+        "type": "positive",
+        "change": "极致集中+产业链延伸：扩展到光芯片/光纤光缆/设备，前十集中度87-90%",
+        "return": "+112.13%",
+        "theme": "极致集中",
+        "insight": "在行业主升浪中最大化持仓暴露，极致集中策略在行业上行期收益最大化",
+        "concentration": "86.5%→87.8%"
+      }
+    ],
+    "policyLinks": [
+      {
+        "sector": "光模块",
+        "color": "#3b82f6",
+        "stocks": "新易盛 / 中际旭创",
+        "policyNote": "AI算力基建政策直接驱动光模块需求"
+      },
+      {
+        "sector": "光芯片",
+        "color": "#8b5cf6",
+        "stocks": "源杰科技",
+        "policyNote": "光芯片国产替代政策支持"
+      },
+      {
+        "sector": "PCB/基材",
+        "color": "#22c55e",
+        "stocks": "生益电子 / 沪电股份 / 生益科技",
+        "policyNote": "算力服务器需求带动PCB放量"
+      },
+      {
+        "sector": "光纤光缆",
+        "color": "#ef4444",
+        "stocks": "永鼎股份 / 烽火通信",
+        "policyNote": "东数西算推动光纤光缆及传输设备需求"
+      }
+    ],
+    "bondStructure": null
+  },
+  "performance": {
+    "stages": [
+      {
+        "period": "近1周",
+        "fund": 5.48,
+        "peer": -1.8,
+        "hs300": -0.67,
+        "rank": 14,
+        "rankTotal": 2321,
+        "quartile": null
+      },
+      {
+        "period": "近1月",
+        "fund": 34.16,
+        "peer": 1.61,
+        "hs300": 2.23,
+        "rank": 3,
+        "rankTotal": 2320,
+        "quartile": null
+      },
+      {
+        "period": "近3月",
+        "fund": 80.4,
+        "peer": 2.85,
+        "hs300": 3.93,
+        "rank": 3,
+        "rankTotal": 2319,
+        "quartile": null
+      },
+      {
+        "period": "近6月",
+        "fund": 111.51,
+        "peer": 14.26,
+        "hs300": 7.91,
+        "rank": 4,
+        "rankTotal": 2304,
+        "quartile": null
+      },
+      {
+        "period": "近1年",
+        "fund": 401.26,
+        "peer": 37.49,
+        "hs300": 27.98,
+        "rank": 4,
+        "rankTotal": 2270,
+        "quartile": null
+      },
+      {
+        "period": "近2年",
+        "fund": 350.36,
+        "peer": 47.09,
+        "hs300": 37.28,
+        "rank": 15,
+        "rankTotal": 2187,
+        "quartile": null
+      },
+      {
+        "period": "今年来",
+        "fund": 92.17,
+        "peer": 10.65,
+        "hs300": 6.15,
+        "rank": 4,
+        "rankTotal": 2310,
+        "quartile": null
+      },
+      {
+        "period": "成立来",
+        "fund": 339.1,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      }
+    ],
+    "annual": [
+      {
+        "year": 2024,
+        "fund": 24.5,
+        "peer": 4.14,
+        "hs300": 14.68,
+        "rank": null,
+        "rankTotal": 2336,
+        "quartile": "---"
+      },
+      {
+        "year": 2025,
+        "fund": 83.53,
+        "peer": 26.17,
+        "hs300": 17.66,
+        "rank": 67,
+        "rankTotal": 2338,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2026,
+        "fund": 92.17,
+        "peer": 10.65,
+        "hs300": 6.15,
+        "rank": 4,
+        "rankTotal": 2310,
+        "quartile": null
+      }
+    ],
+    "quarterly": [
+      {
+        "year": 2024,
+        "quarter": "2024Q2",
+        "fund": -0.2,
+        "peer": -2.03,
+        "hs300": -2.14,
+        "rank": null,
+        "rankTotal": 2326,
+        "quartile": "---"
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q3",
+        "fund": -0.5,
+        "peer": 8.56,
+        "hs300": 16.07,
+        "rank": 2250,
+        "rankTotal": 2322,
+        "quartile": "不佳"
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q4",
+        "fund": 25.38,
+        "peer": -0.35,
+        "hs300": -2.06,
+        "rank": 10,
+        "rankTotal": 2336,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q1",
+        "fund": -24.58,
+        "peer": 2.61,
+        "hs300": -1.21,
+        "rank": 2310,
+        "rankTotal": 2331,
+        "quartile": "不佳"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q2",
+        "fund": 11.18,
+        "peer": 2.52,
+        "hs300": 1.25,
+        "rank": 140,
+        "rankTotal": 2353,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q3",
+        "fund": 90.23,
+        "peer": 19.69,
+        "hs300": 17.9,
+        "rank": 3,
+        "rankTotal": 2347,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q4",
+        "fund": 15.06,
+        "peer": 0.2,
+        "hs300": -0.23,
+        "rank": 25,
+        "rankTotal": 2338,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2026,
+        "quarter": "2026Q1",
+        "fund": 7.05,
+        "peer": -0.3,
+        "hs300": -3.89,
+        "rank": 197,
+        "rankTotal": 2333,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2026,
+        "quarter": "2026Q2",
+        "fund": 74.32,
+        "peer": null,
+        "hs300": 8.58,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      }
+    ],
+    "milestones": [
+      {
+        "date": "2024-05-28",
+        "nav": 1.0,
+        "label": "成立",
+        "type": "neutral"
+      },
+      {
+        "date": "2024-09-09",
+        "nav": 0.768,
+        "label": "历史最低点",
+        "type": "low"
+      },
+      {
+        "date": "2024-10-11",
+        "nav": 0.995,
+        "label": "回到面值附近",
+        "type": "neutral"
+      },
+      {
+        "date": "2025-01-22",
+        "nav": 1.375,
+        "label": "首次突破1.3",
+        "type": "peak"
+      },
+      {
+        "date": "2025-04-08",
+        "nav": 0.838,
+        "label": "历史最大回撤谷底（-39.05%）",
+        "type": "low"
+      },
+      {
+        "date": "2025-09-01",
+        "nav": 1.969,
+        "label": "首次翻倍",
+        "type": "peak"
+      },
+      {
+        "date": "2025-10-29",
+        "nav": 2.406,
+        "label": "首次突破2.4",
+        "type": "peak"
+      },
+      {
+        "date": "2026-05-28",
+        "nav": 4.43,
+        "label": "历史最高点（成立2周年）",
+        "type": "peak"
+      },
+      {
+        "date": "2026-06-02",
+        "nav": 4.391,
+        "label": "当前净值（历史99.8%分位）",
+        "type": "current"
+      }
+    ]
+  },
+  "stageAnalysis": {
+    "inflectionPoints": [
+      {
+        "id": 1,
+        "stageId": 1,
+        "startDate": "2024-06-18",
+        "endDate": "2024-09-09",
+        "startNav": 1.075,
+        "endNav": 0.768,
+        "changePct": -28.56,
+        "type": "trough",
+        "holdingsSummary": "建仓光通信龙头+新能源分散",
+        "env": "2024Q3 AI概念退潮，光通信板块回调",
+        "managerAction": "持有天孚通信+新易盛+中际旭创，搭配宇通客车+金盘科技",
+        "attribution": "Beta贡献主导，行业选择方向正确但建仓时机不佳"
+      },
+      {
+        "id": 2,
+        "stageId": 2,
+        "startDate": "2024-09-09",
+        "endDate": "2024-10-08",
+        "startNav": 0.768,
+        "endNav": 1.122,
+        "changePct": 46.09,
+        "type": "peak",
+        "holdingsSummary": "光通信持仓未大动",
+        "env": "9月底政策组合拳催化市场反弹",
+        "managerAction": "持仓未大动，享受行业反弹",
+        "attribution": "Beta贡献主导，行业Beta反弹修复净值"
+      },
+      {
+        "id": 3,
+        "stageId": 2,
+        "startDate": "2024-10-08",
+        "endDate": "2024-10-11",
+        "startNav": 1.122,
+        "endNav": 0.995,
+        "changePct": -11.32,
+        "type": "trough",
+        "holdingsSummary": "短期波动",
+        "env": "国庆后市场冲高回落",
+        "managerAction": "无显著调仓",
+        "attribution": "短期波动，正常调整"
+      },
+      {
+        "id": 4,
+        "stageId": 2,
+        "startDate": "2024-10-11",
+        "endDate": "2024-11-13",
+        "startNav": 0.995,
+        "endNav": 1.241,
+        "changePct": 24.72,
+        "type": "peak",
+        "holdingsSummary": "加仓光通信但出现消费股漂移",
+        "env": "DeepSeek等事件催化AI板块",
+        "managerAction": "加仓光通信，但出现万辰集团/三只松鼠/海澜之家消费股",
+        "attribution": "Alpha贡献为主，但消费股持仓与成长定位偏离"
+      },
+      {
+        "id": 5,
+        "stageId": 2,
+        "startDate": "2024-11-13",
+        "endDate": "2024-11-25",
+        "startNav": 1.241,
+        "endNav": 1.078,
+        "changePct": -13.13,
+        "type": "trough",
+        "holdingsSummary": "消费股持仓拖累",
+        "env": "年末市场获利回吐",
+        "managerAction": "消费股持仓仍在，拖累净值",
+        "attribution": "风格漂移的代价，消费股未能提供有效对冲"
+      },
+      {
+        "id": 6,
+        "stageId": 2,
+        "startDate": "2024-11-25",
+        "endDate": "2025-01-22",
+        "startNav": 1.078,
+        "endNav": 1.375,
+        "changePct": 27.55,
+        "type": "peak",
+        "holdingsSummary": "回归光通信主线",
+        "env": "2024年末AI概念延续强势",
+        "managerAction": "持仓逐步回归光通信主线",
+        "attribution": "Alpha贡献显著，重回主线后净值快速修复"
+      },
+      {
+        "id": 7,
+        "stageId": 3,
+        "startDate": "2025-01-22",
+        "endDate": "2025-02-05",
+        "startNav": 1.375,
+        "endNav": 1.161,
+        "changePct": -15.56,
+        "type": "trough",
+        "holdingsSummary": "开始大幅调仓",
+        "env": "2025年初全球AI投资阶段性降温",
+        "managerAction": "开始大幅调仓",
+        "attribution": "行业Beta下行，调仓滞后"
+      },
+      {
+        "id": 8,
+        "stageId": 3,
+        "startDate": "2025-02-05",
+        "endDate": "2025-02-12",
+        "startNav": 1.161,
+        "endNav": 1.266,
+        "changePct": 9.04,
+        "type": "peak",
+        "holdingsSummary": "调仓进行中",
+        "env": "短期反弹",
+        "managerAction": "调仓进行中",
+        "attribution": "反弹中继"
+      },
+      {
+        "id": 9,
+        "stageId": 3,
+        "startDate": "2025-02-12",
+        "endDate": "2025-04-08",
+        "startNav": 1.266,
+        "endNav": 0.838,
+        "changePct": -33.81,
+        "type": "trough",
+        "holdingsSummary": "清退光通信换成IDC算力股",
+        "env": "光模块估值深度回调",
+        "managerAction": "几乎清退全部光通信换成IDC/算力股，前十集中度骤降至65%",
+        "attribution": "Beta+Alpha双损，调仓发生在高点之后未能规避回撤"
+      },
+      {
+        "id": 10,
+        "stageId": 4,
+        "startDate": "2025-04-08",
+        "endDate": "2025-05-06",
+        "startNav": 0.838,
+        "endNav": 0.99,
+        "changePct": 18.14,
+        "type": "peak",
+        "holdingsSummary": "重新加仓光通信",
+        "env": "AI算力需求开始从预期走向兑现",
+        "managerAction": "重新加仓光通信",
+        "attribution": "Alpha贡献显著，重新确认行业主线"
+      },
+      {
+        "id": 11,
+        "stageId": 4,
+        "startDate": "2025-05-06",
+        "endDate": "2025-06-03",
+        "startNav": 0.99,
+        "endNav": 0.875,
+        "changePct": -11.62,
+        "type": "trough",
+        "holdingsSummary": "坚守光通信持仓",
+        "env": "市场短期波动",
+        "managerAction": "坚守光通信持仓",
+        "attribution": "行业正常波动，持仓方向正确"
+      },
+      {
+        "id": 12,
+        "stageId": 4,
+        "startDate": "2025-06-03",
+        "endDate": "2025-09-01",
+        "startNav": 0.875,
+        "endNav": 1.969,
+        "changePct": 125.03,
+        "type": "peak",
+        "holdingsSummary": "全仓位光通信产业链",
+        "env": "AI算力需求爆发，800G光模块放量确认",
+        "managerAction": "全仓位光通信产业链，仕佳光子/生益电子/新易盛/中际旭创为核心",
+        "attribution": "Alpha贡献极显著，精准捕捉产业拐点"
+      }
+    ],
+    "totalInflectionPoints": 12,
+    "stages": [
+      {
+        "id": 1,
+        "name": "建仓遇冷期",
+        "emoji": "🥶",
+        "period": "2024-05 → 2024-09",
+        "returnPct": -28.56,
+        "hs300Pct": 4,
+        "excessPct": -32,
+        "driverType": "double_loss",
+        "driverLabel": "🔴 Beta+Alpha双损",
+        "color": "#ef4444",
+        "description": "基金成立即遭遇光通信板块调整，AI概念退潮，建仓期亏损28.56%",
+        "env": "2024年Q3 AI概念退潮，光通信板块系统性回调",
+        "managerAction": "建仓天孚通信、新易盛、中际旭创等光模块龙头，搭配宇通客车、金盘科技分散",
+        "attribution": "行业Beta下行叠加新基金建仓成本不利，跑输沪深300约32个百分点"
+      },
+      {
+        "id": 2,
+        "name": "第一轮反弹",
+        "emoji": "🔄",
+        "period": "2024-09 → 2025-01",
+        "returnPct": 79.0,
+        "hs300Pct": 8,
+        "excessPct": 71,
+        "driverType": "alpha",
+        "driverLabel": "⚡ Alpha贡献显著",
+        "color": "#22c55e",
+        "description": "2024Q4收益率+25.38%同类第10，光通信板块在DeepSeek催化下重新走强",
+        "env": "9月底政策组合拳+DeepSeek催化AI板块反弹",
+        "managerAction": "大胆加仓光通信，持仓集中度从79%提升至86%，但出现消费股漂移",
+        "attribution": "Alpha贡献为主，精准加仓光通信获得超额收益"
+      },
+      {
+        "id": 3,
+        "name": "深度回调期",
+        "emoji": "📉",
+        "period": "2025-01 → 2025-04",
+        "returnPct": -39.05,
+        "hs300Pct": -1,
+        "excessPct": -38,
+        "driverType": "double_loss",
+        "driverLabel": "🔴 Beta+Alpha双损",
+        "color": "#dc2626",
+        "description": "2025Q1收益率-24.58%排名垫底，全球AI投资阶段性降温，光模块估值回调",
+        "env": "全球AI投资阶段性降温，光模块估值深度回调",
+        "managerAction": "几乎清退全部光通信标的，换成IDC/算力股，前十集中度骤降至65%",
+        "attribution": "调仓发生在高点之后，未能有效规避回撤，恐慌调仓加剧损失"
+      },
+      {
+        "id": 4,
+        "name": "主升浪爆发期",
+        "emoji": "🚀",
+        "period": "2025-04 → 2025-09",
+        "returnPct": 150.1,
+        "hs300Pct": 19,
+        "excessPct": 131,
+        "driverType": "alpha",
+        "driverLabel": "⚡ Alpha贡献显著",
+        "color": "#16a34a",
+        "description": "2025Q3收益率+90.23%同类第3，AI算力需求从预期走向兑现，800G光模块放量",
+        "env": "AI算力需求爆发，800G光模块放量确认，行业基本面反转",
+        "managerAction": "重新重仓光通信全产业链，仕佳光子/生益电子/新易盛/中际旭创为核心",
+        "attribution": "Alpha贡献极显著，精准捕捉产业拐点"
+      },
+      {
+        "id": 5,
+        "name": "高位震荡期",
+        "emoji": "〰️",
+        "period": "2025-09 → 2025-11",
+        "returnPct": -9.1,
+        "hs300Pct": -3,
+        "excessPct": -6,
+        "driverType": "defense",
+        "driverLabel": "🔄 风格切换期",
+        "color": "#f59e0b",
+        "description": "短期获利回吐，板块轮动，2025Q4季度内波动剧烈",
+        "env": "高位获利回吐，板块轮动频繁",
+        "managerAction": "持仓极致集中至90.1%，全为光通信/AI算力标的",
+        "attribution": "高位波动正常，核心持仓方向未变"
+      },
+      {
+        "id": 6,
+        "name": "二次主升浪",
+        "emoji": "🔥",
+        "period": "2025-11 → 2026-06",
+        "returnPct": 130.3,
+        "hs300Pct": 15,
+        "excessPct": 115,
+        "driverType": "alpha",
+        "driverLabel": "⚡ Alpha贡献显著",
+        "color": "#15803d",
+        "description": "AI推理需求爆发，1.6T光模块预期升温，2026Q2至今+74.32%",
+        "env": "AI推理需求持续爆发，1.6T光模块标准推进，国内算力基建加速",
+        "managerAction": "持仓进一步聚焦，新进大族数控/永鼎股份/烽火通信等光通信全产业链",
+        "attribution": "Alpha+Beta共振，极致集中策略在行业上行期收益最大化"
+      }
+    ]
+  },
+  "managers": {
+    "current": {
+      "managerId": "30304626",
+      "allManagerIds": [
+        "30304626"
+      ],
+      "name": "金梓才",
+      "fundCount": 13,
+      "totalScale": 89.09,
+      "historicalFunds": [
+        {
+          "name": "财通价值动量混合A",
+          "code": "720001",
+          "type": "混合型-灵活",
+          "tenure": "2014-11 ~ 至今",
+          "return": 1366.45,
+          "rank": 6,
+          "rankTotal": 2270,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "财通多策略福鑫定开混合",
+          "code": "501046",
+          "type": "混合型-灵活",
+          "tenure": "2018-05 ~ 至今",
+          "return": 858.22,
+          "rank": 1,
+          "rankTotal": 2270,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "财通成长优选混合A",
+          "code": "001480",
+          "type": "混合型-灵活",
+          "tenure": "2015-06 ~ 至今",
+          "return": 665.3,
+          "rank": 2,
+          "rankTotal": 2270,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "财通集成电路产业股票A",
+          "code": "006502",
+          "type": "股票型",
+          "tenure": "2018-11 ~ 至今",
+          "return": 670.05,
+          "rank": 1,
+          "rankTotal": 990,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "财通匠心优选一年持有混合A",
+          "code": "014915",
+          "type": "混合型-偏股",
+          "tenure": "2022-04 ~ 至今",
+          "return": 211.31,
+          "rank": 1,
+          "rankTotal": 4512,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "财通景气甄选一年持有混合A",
+          "code": "017490",
+          "type": "混合型-偏股",
+          "tenure": "2023-07 ~ 至今",
+          "return": 401.69,
+          "rank": 2,
+          "rankTotal": 4512,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "财通成长优选混合C",
+          "code": "021528",
+          "type": "混合型-灵活",
+          "tenure": "2024-05 ~ 至今",
+          "return": 339.1,
+          "rank": 4,
+          "rankTotal": 2270,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "财通品质甄选混合A",
+          "code": "024480",
+          "type": "混合型-偏股",
+          "tenure": "2025-10 ~ 至今",
+          "return": 97.45,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "good",
+          "isCurrent": true
+        },
+        {
+          "name": "财通科创主题灵活配置混合(LOF)",
+          "code": "501085",
+          "type": "混合型-灵活",
+          "tenure": "2019-07 ~ 2022-08",
+          "return": 75.84,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "good",
+          "isCurrent": false
+        },
+        {
+          "name": "财通智慧成长混合A",
+          "code": "009062",
+          "type": "混合型-偏股",
+          "tenure": "2020-04 ~ 2025-09",
+          "return": 119.13,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "good",
+          "isCurrent": false
+        },
+        {
+          "name": "财通科技创新混合A",
+          "code": "008983",
+          "type": "混合型-偏股",
+          "tenure": "2020-07 ~ 2023-07",
+          "return": 0.78,
+          "rank": 0,
+          "rankTotal": 0,
+          "grade": "weak",
+          "isCurrent": false
+        }
+      ],
+      "bestReturn": 1366.45,
+      "worstReturn": -1.6,
+      "manageDate": "2024-05-28",
+      "manageYears": 2.0,
+      "tenureReturn": 339.1,
+      "rankInPeer": "前0.2%",
+      "rankTotal": 2270,
+      "education": "上海交通大学微电子学与固体电子学硕士",
+      "joinDate": "2014-08",
+      "experience": "11.5年",
+      "title": "副总经理/权益投资总监/基金经理",
+      "style": "极致成长",
+      "peerAvgReturn": 37.49,
+      "philosophy": [
+        {
+          "label": "核心投资理念",
+          "text": "聚焦科技成长主线，重仓产业趋势拐点，看准方向极致集中"
+        },
+        {
+          "label": "选股方法论",
+          "text": "以行业景气度为核心驱动力，偏好光通信/AI算力/半导体龙头，持股集中度极高（前十90%+），追求产业链全链条布局"
+        },
+        {
+          "label": "仓位管理风格",
+          "text": "全程高仓位（85%-95%+），几乎不做择时，靠行业选择而非仓位调整控制风险，导致板块调整期回撤极大"
+        },
+        {
+          "label": "风格稳定性",
+          "text": "2024Q4出现短暂消费股漂移，2025年后回归光通信主线并持续强化，整体以极致集中+长期持有为特征"
+        }
+      ],
+      "consistencyAudit": [
+        {
+          "period": "2024年Q4·风格漂移",
+          "result": "warn",
+          "label": "⚠️ 漂移",
+          "stated": "成长优选定位，应聚焦成长股",
+          "actual": "持仓出现万辰集团(10.09%)、三只松鼠(6.08%)、海澜之家(3.91%)等消费股",
+          "evaluation": "消费股持仓与成长风格偏离，漂移尝试失败"
+        },
+        {
+          "period": "2025年Q3·主升浪期",
+          "result": "pass",
+          "label": "✅ 一致",
+          "stated": "成长优选定位，聚焦光通信产业链",
+          "actual": "全仓位光通信产业链（工业富联10.10%、深南电路9.89%、生益科技9.86%等）",
+          "evaluation": "持仓与成长优选定位高度吻合，精准捕捉AI算力主升浪"
+        }
+      ],
+      "abilityProfile": {
+        "best": "产业趋势捕捉与极致集中执行力，旗舰基金同类排名均前0.3%",
+        "worst": "回撤控制能力极差，最大回撤-39.05%，2025Q1同类排名垫底",
+        "goodEnv": [
+          "产业趋势加速上行期",
+          "政策红利释放期",
+          "流动性宽松期"
+        ],
+        "badEnv": [
+          "估值高位压缩期",
+          "产业周期下行期",
+          "流动性收紧期",
+          "板块轮动频繁期"
+        ]
+      },
+      "strengths": [
+        "产业趋势捕捉极强",
+        "极致集中执行果断",
+        "在管产品近1年全部排名前0.3%"
+      ],
+      "weaknesses": [
+        "回撤控制几乎为零",
+        "不做择时防御",
+        "在管13只基金精力分散",
+        "业绩高度依赖单一行业周期"
+      ]
+    },
+    "history": [
+      {
+        "name": "金梓才",
+        "role": "独任",
+        "start": "2024-05-28",
+        "end": null,
+        "tenure": "2年6天",
+        "return": 339.1,
+        "note": "本基金自成立以来由金梓才单独管理，无经理变更记录"
+      }
+    ]
+  },
+  "navHistory": [
+    {
+      "date": "2026-01-14",
+      "nav": 2.324
+    },
+    {
+      "date": "2026-01-15",
+      "nav": 2.384
+    },
+    {
+      "date": "2026-01-16",
+      "nav": 2.389
+    },
+    {
+      "date": "2026-01-19",
+      "nav": 2.35
+    },
+    {
+      "date": "2026-01-20",
+      "nav": 2.263
+    },
+    {
+      "date": "2026-01-21",
+      "nav": 2.338
+    },
+    {
+      "date": "2026-01-22",
+      "nav": 2.448
+    },
+    {
+      "date": "2026-01-23",
+      "nav": 2.338
+    },
+    {
+      "date": "2026-01-26",
+      "nav": 2.366
+    },
+    {
+      "date": "2026-01-27",
+      "nav": 2.432
+    },
+    {
+      "date": "2026-01-28",
+      "nav": 2.421
+    },
+    {
+      "date": "2026-01-29",
+      "nav": 2.335
+    },
+    {
+      "date": "2026-01-30",
+      "nav": 2.397
+    },
+    {
+      "date": "2026-02-02",
+      "nav": 2.357
+    },
+    {
+      "date": "2026-02-03",
+      "nav": 2.378
+    },
+    {
+      "date": "2026-02-04",
+      "nav": 2.334
+    },
+    {
+      "date": "2026-02-05",
+      "nav": 2.281
+    },
+    {
+      "date": "2026-02-06",
+      "nav": 2.241
+    },
+    {
+      "date": "2026-02-09",
+      "nav": 2.342
+    },
+    {
+      "date": "2026-02-10",
+      "nav": 2.347
+    },
+    {
+      "date": "2026-02-11",
+      "nav": 2.297
+    },
+    {
+      "date": "2026-02-12",
+      "nav": 2.314
+    },
+    {
+      "date": "2026-02-13",
+      "nav": 2.268
+    },
+    {
+      "date": "2026-02-24",
+      "nav": 2.357
+    },
+    {
+      "date": "2026-02-25",
+      "nav": 2.437
+    },
+    {
+      "date": "2026-02-26",
+      "nav": 2.511
+    },
+    {
+      "date": "2026-02-27",
+      "nav": 2.394
+    },
+    {
+      "date": "2026-03-02",
+      "nav": 2.434
+    },
+    {
+      "date": "2026-03-03",
+      "nav": 2.385
+    },
+    {
+      "date": "2026-03-04",
+      "nav": 2.358
+    },
+    {
+      "date": "2026-03-05",
+      "nav": 2.378
+    },
+    {
+      "date": "2026-03-06",
+      "nav": 2.358
+    },
+    {
+      "date": "2026-03-09",
+      "nav": 2.282
+    },
+    {
+      "date": "2026-03-10",
+      "nav": 2.406
+    },
+    {
+      "date": "2026-03-11",
+      "nav": 2.393
+    },
+    {
+      "date": "2026-03-12",
+      "nav": 2.344
+    },
+    {
+      "date": "2026-03-13",
+      "nav": 2.375
+    },
+    {
+      "date": "2026-03-16",
+      "nav": 2.448
+    },
+    {
+      "date": "2026-03-17",
+      "nav": 2.348
+    },
+    {
+      "date": "2026-03-18",
+      "nav": 2.455
+    },
+    {
+      "date": "2026-03-19",
+      "nav": 2.426
+    },
+    {
+      "date": "2026-03-20",
+      "nav": 2.527
+    },
+    {
+      "date": "2026-03-23",
+      "nav": 2.397
+    },
+    {
+      "date": "2026-03-24",
+      "nav": 2.481
+    },
+    {
+      "date": "2026-03-25",
+      "nav": 2.54
+    },
+    {
+      "date": "2026-03-26",
+      "nav": 2.486
+    },
+    {
+      "date": "2026-03-27",
+      "nav": 2.48
+    },
+    {
+      "date": "2026-03-30",
+      "nav": 2.516
+    },
+    {
+      "date": "2026-03-31",
+      "nav": 2.446
+    },
+    {
+      "date": "2026-04-01",
+      "nav": 2.519
+    },
+    {
+      "date": "2026-04-02",
+      "nav": 2.45
+    },
+    {
+      "date": "2026-04-03",
+      "nav": 2.526
+    },
+    {
+      "date": "2026-04-07",
+      "nav": 2.517
+    },
+    {
+      "date": "2026-04-08",
+      "nav": 2.729
+    },
+    {
+      "date": "2026-04-09",
+      "nav": 2.756
+    },
+    {
+      "date": "2026-04-10",
+      "nav": 2.869
+    },
+    {
+      "date": "2026-04-13",
+      "nav": 2.939
+    },
+    {
+      "date": "2026-04-14",
+      "nav": 3.008
+    },
+    {
+      "date": "2026-04-15",
+      "nav": 2.969
+    },
+    {
+      "date": "2026-04-16",
+      "nav": 3.035
+    },
+    {
+      "date": "2026-04-17",
+      "nav": 3.188
+    },
+    {
+      "date": "2026-04-20",
+      "nav": 3.175
+    },
+    {
+      "date": "2026-04-21",
+      "nav": 3.225
+    },
+    {
+      "date": "2026-04-22",
+      "nav": 3.358
+    },
+    {
+      "date": "2026-04-23",
+      "nav": 3.279
+    },
+    {
+      "date": "2026-04-24",
+      "nav": 3.207
+    },
+    {
+      "date": "2026-04-27",
+      "nav": 3.277
+    },
+    {
+      "date": "2026-04-28",
+      "nav": 3.204
+    },
+    {
+      "date": "2026-04-29",
+      "nav": 3.235
+    },
+    {
+      "date": "2026-04-30",
+      "nav": 3.273
+    },
+    {
+      "date": "2026-05-06",
+      "nav": 3.323
+    },
+    {
+      "date": "2026-05-07",
+      "nav": 3.412
+    },
+    {
+      "date": "2026-05-08",
+      "nav": 3.389
+    },
+    {
+      "date": "2026-05-11",
+      "nav": 3.47
+    },
+    {
+      "date": "2026-05-12",
+      "nav": 3.591
+    },
+    {
+      "date": "2026-05-13",
+      "nav": 3.713
+    },
+    {
+      "date": "2026-05-14",
+      "nav": 3.571
+    },
+    {
+      "date": "2026-05-15",
+      "nav": 3.541
+    },
+    {
+      "date": "2026-05-18",
+      "nav": 3.578
+    },
+    {
+      "date": "2026-05-19",
+      "nav": 3.608
+    },
+    {
+      "date": "2026-05-20",
+      "nav": 3.663
+    },
+    {
+      "date": "2026-05-21",
+      "nav": 3.629
+    },
+    {
+      "date": "2026-05-22",
+      "nav": 3.974
+    },
+    {
+      "date": "2026-05-25",
+      "nav": 4.117
+    },
+    {
+      "date": "2026-05-26",
+      "nav": 4.163
+    },
+    {
+      "date": "2026-05-27",
+      "nav": 4.251
+    },
+    {
+      "date": "2026-05-28",
+      "nav": 4.43
+    },
+    {
+      "date": "2026-05-29",
+      "nav": 4.336
+    },
+    {
+      "date": "2026-06-01",
+      "nav": 4.172
+    },
+    {
+      "date": "2026-06-02",
+      "nav": 4.391
+    }
+  ],
+  "scoring": {
+    "total": 72,
+    "grade": "良好",
+    "recommendation": "谨慎（高位不宜追涨）",
+    "recommendationType": "cautious",
+    "rating": "★★",
+    "logic": "基金质量72/100良好 × 政策红利期🟢 × 市场高估谨慎🔴 → ★★谨慎",
+    "dimensions": [
+      {
+        "name": "超额收益能力",
+        "score": 22,
+        "maxScore": 25,
+        "pros": [
+          "近1年超额+373.28%极强",
+          "Alpha年化+59.58%",
+          "信息比率1.87"
+        ],
+        "cons": [
+          "超额高度依赖单一行业周期，持续性待验"
+        ]
+      },
+      {
+        "name": "回撤与波动控制",
+        "score": 8,
+        "maxScore": 20,
+        "pros": [
+          "Calmar比率2.93尚可"
+        ],
+        "cons": [
+          "最大回撤-39.05%远超同类",
+          "年化波动率45.80%极高",
+          "2025Q1单季-24.58%垫底"
+        ]
+      },
+      {
+        "name": "基金经理能力",
+        "score": 14,
+        "maxScore": 20,
+        "pros": [
+          "任期2年+业绩突出",
+          "产业研究深度强",
+          "无负面合规记录"
+        ],
+        "cons": [
+          "在管13只基金超限",
+          "管理疲劳风险",
+          "早期产品表现不佳"
+        ]
+      },
+      {
+        "name": "主题纯度与持仓一致性",
+        "score": 14,
+        "maxScore": 15,
+        "pros": [
+          "主题暴露极为清晰",
+          "持仓与命名高度一致",
+          "2025年后持仓集中于光通信主线"
+        ],
+        "cons": [
+          "2024Q4出现消费股漂移"
+        ]
+      },
+      {
+        "name": "行业周期与政策匹配度",
+        "score": 14,
+        "maxScore": 20,
+        "pros": [
+          "AI算力处于政策红利深化期",
+          "东数西算+数字经济政策持续"
+        ],
+        "cons": [
+          "行业高弹性带来估值波动",
+          "光模块竞争格局可能恶化"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "type": "净值极端高位",
+        "level": "high",
+        "note": "当前净值4.391处于99.8%历史分位，历史上从高点回撤幅度可达-39%"
+      },
+      {
+        "type": "管理疲劳风险",
+        "level": "medium",
+        "note": "在管13只基金超10只上限，总规模89.09亿，兼任副总经理"
+      },
+      {
+        "type": "行业高度集中",
+        "level": "high",
+        "note": "2026Q1前十持仓87.8%为光通信/AI算力，单一板块暴露风险极高"
+      },
+      {
+        "type": "回撤控制极弱",
+        "level": "high",
+        "note": "历史最大回撤-39.05%，2025Q1单季-24.58%排名垫底，板块调整期几乎不做防御"
+      }
+    ],
+    "policyItems": [
+      {
+        "name": "东数西算工程",
+        "impactLabel": "🟢 强利好",
+        "detail": ""
+      },
+      {
+        "name": "十四五数字经济发展规划",
+        "impactLabel": "🟢 强利好",
+        "detail": ""
+      },
+      {
+        "name": "AI大模型产业政策",
+        "impactLabel": "🟢 强利好",
+        "detail": ""
+      }
+    ],
+    "marketStatus": [
+      {
+        "dim": "净值位置",
+        "status": "99.8% 历史分位（极高位）",
+        "statusType": "cautious",
+        "detail": "当前净值4.391接近历史最高4.43，追高赔率极低"
+      },
+      {
+        "dim": "近期趋势",
+        "status": "短期极速拉升",
+        "statusType": "warning",
+        "detail": "近1月+34.16%（排名3/2320），近3月+80.40%（排名3/2319），动能极强但过热"
+      },
+      {
+        "dim": "夏普趋势",
+        "status": "显著改善",
+        "statusType": "positive",
+        "detail": "1Y夏普7.65远高于全期2.43，近期表现极为突出"
+      },
+      {
+        "dim": "宏观流动性",
+        "status": "中性偏友好",
+        "statusType": "neutral",
+        "detail": "国内货币政策偏宽松，但美联储降息节奏不确定"
+      },
+      {
+        "dim": "持仓主线景气",
+        "status": "改善",
+        "statusType": "positive",
+        "detail": "AI算力需求从训练走向推理，800G光模块放量，1.6T预期升温"
+      },
+      {
+        "dim": "外部风险",
+        "status": "需关注",
+        "statusType": "warning",
+        "detail": "中美科技博弈可能影响光通信出口链，英伟达供应链波动"
+      }
+    ],
+    "allocationSuggestions": [
+      {
+        "scenario": "存量持有人",
+        "action": "逢高逐步减仓锁利",
+        "note": "保留核心仓位但不建议追加，当前净值99.8%分位赔率极低"
+      },
+      {
+        "scenario": "新入场投资者",
+        "action": "强烈不建议当前价位入场",
+        "note": "等待净值回落至NAV 2.5以下再考虑建仓"
+      }
+    ],
+    "suitableFor": [
+      "已持有且成本较低（NAV≤2.0）、能承受-40%以上短期回撤、持仓周期3年以上的投资者",
+      "对AI算力产业有深入研究、相信光通信长期趋势的信仰者",
+      "将此基金作为分散化组合中行业配置工具（仓位<15%）的进阶投资者"
+    ],
+    "notSuitableFor": [
+      "新入场高位追涨、持有期<1年、无法承受-30%以上短期亏损的投资者",
+      "需要现金流（该基金从未分红）",
+      "希望规避行业集中风险的均衡配置型投资者",
+      "风险承受能力评级低于R4的投资者"
+    ],
+    "termAdvice": [
+      {
+        "term": "短期（1-3月）",
+        "icon": "⚠️",
+        "level": "cautious",
+        "advice": "观望为主，不追高；若已持有考虑减仓10-20%锁利"
+      },
+      {
+        "term": "中期（6-12月）",
+        "icon": "🟡",
+        "level": "neutral",
+        "advice": "等待回调至NAV 3.0以下开始分批建仓，首批30%"
+      },
+      {
+        "term": "长期（3年以上）",
+        "icon": "🟢",
+        "level": "positive",
+        "advice": "长期仓位上限15%，NAV 2.5以下可重仓；硬止损线NAV 1.5"
+      }
+    ],
+    "reasoning": "基金质量72/100良好 × 政策红利期🟢 × 市场高估谨慎🔴 → ★★谨慎",
+    "conclusion": "谨慎（高位不宜追涨）"
+  },
+  "company": {
+    "name": "财通基金管理有限公司",
+    "shortName": "财通基金",
+    "foundYear": 2011,
+    "aumDesc": "旗下100+只基金，公募管理规模约3000+亿元，中型公募平台",
+    "industryRank": "中型公募，权益投资特色鲜明，金梓才为核心权益基金经理",
+    "complianceResult": "通过",
+    "complianceSummary": "合规检查通过，无一票否决项触发。管理疲劳是唯一明确风险点。",
+    "complianceChecks": [
+      {
+        "item": "黑名单核查",
+        "pass": true,
+        "warn": false,
+        "detail": "财通基金不在黑名单"
+      },
+      {
+        "item": "近3年处罚记录",
+        "pass": true,
+        "warn": false,
+        "detail": "未发现近3年重大监管处罚"
+      },
+      {
+        "item": "内幕交易传闻",
+        "pass": true,
+        "warn": false,
+        "detail": "未发现相关传闻"
+      },
+      {
+        "item": "基金经理离职风险",
+        "pass": true,
+        "warn": false,
+        "detail": "金梓才现任副总经理，离职概率低"
+      },
+      {
+        "item": "管理疲劳风险",
+        "pass": false,
+        "warn": true,
+        "detail": "在管13只基金超10只阈值，兼任副总经理+权益投资总监多职叠加"
+      }
+    ]
+  },
+  "policy": {
+    "tags": [
+      {
+        "label": "AI算力基建",
+        "strength": "high",
+        "color": "#F54E48"
+      },
+      {
+        "label": "东数西算",
+        "strength": "high",
+        "color": "#3b82f6"
+      },
+      {
+        "label": "光芯片国产替代",
+        "strength": "medium",
+        "color": "#8b5cf6"
+      }
+    ],
+    "industryOverview": [
+      {
+        "point": "全球AI算力需求持续爆发",
+        "detail": "2025年全球数据中心资本开支同比+40%+，2026年预计维持+25%以上增长"
+      },
+      {
+        "point": "800G光模块进入规模放量",
+        "detail": "800G光模块2025年进入规模放量阶段，2026年成为主流产品；1.6T标准逐步确立"
+      },
+      {
+        "point": "光通信产业链国产替代加速",
+        "detail": "源杰科技等光芯片公司突破海外垄断，PCB/覆铜板需求同步爆发"
+      }
+    ],
+    "cyclePeriod": "政策红利期",
+    "cycleReason": "AI算力作为国家数字经济战略核心基础设施，东数西算+AI产业政策持续加码，光通信/光模块直接受益。行业从预期走向兑现，政策红利正在实质性传导至企业盈利。",
+    "fifteenFive": [
+      {
+        "direction": "AI算力基础设施",
+        "color": "#F54E48",
+        "description": "东数西算工程持续推进，全国一体化算力网络建设，10个国家数据中心集群",
+        "holdings": "新易盛 / 中际旭创 / 生益电子"
+      },
+      {
+        "direction": "光芯片国产替代",
+        "color": "#8b5cf6",
+        "description": "工信部推动光通信芯片自主可控，支持国内光通信产业链发展",
+        "holdings": "源杰科技 / 鼎泰高科"
+      },
+      {
+        "direction": "数字经济基建",
+        "color": "#3b82f6",
+        "description": "十四五数字经济规划，核心产业增加值占GDP比重目标10%",
+        "holdings": "烽火通信 / 永鼎股份 / 沪电股份"
+      }
+    ],
+    "longTermRisks": [
+      {
+        "risk": "光模块竞争格局恶化",
+        "level": "medium",
+        "signal": "中际旭创/新易盛毛利率连续2季度下滑>5pct"
+      },
+      {
+        "risk": "AI投资周期见顶",
+        "level": "medium",
+        "signal": "英伟达数据中心收入增速连续2季度放缓>20%"
+      },
+      {
+        "risk": "中美科技博弈升级",
+        "level": "low",
+        "signal": "光通信出口限制加码"
+      }
+    ],
+    "adaptability": [
+      {
+        "env": "🐂 AI算力上行期",
+        "perf": "极佳（2025Q3 +90.23%，2026Q2至今 +74.32%）",
+        "color": "#15803d"
+      },
+      {
+        "env": "🐻 行业回调期",
+        "perf": "极差（2025Q1 -24.58%排名垫底）",
+        "color": "#dc2626"
+      },
+      {
+        "env": "〰️ 震荡市",
+        "perf": "一般（2025Q4 +15.06%）",
+        "color": "#f59e0b"
+      }
+    ],
+    "scenarios": [
+      {
+        "type": "悲观",
+        "probability": 20,
+        "color": "#ef4444",
+        "returnLow": -40,
+        "returnHigh": -20,
+        "trigger": "高位估值压缩+AI投资周期见顶+光模块竞争格局恶化+风格切换至价值"
+      },
+      {
+        "type": "基准",
+        "probability": 50,
+        "color": "#58a6ff",
+        "returnLow": -10,
+        "returnHigh": 20,
+        "trigger": "AI算力需求维持但增速放缓，净值高位限制赔率，板块正常波动"
+      },
+      {
+        "type": "乐观",
+        "probability": 30,
+        "color": "#22c55e",
+        "returnLow": 30,
+        "returnHigh": 60,
+        "trigger": "1.6T光模块超预期放量+AI应用端爆发+政策进一步加码"
+      }
+    ],
+    "policyBreakdown": [
+      {
+        "sector": "光模块",
+        "icon": "📡",
+        "color": "#3b82f6",
+        "logic": "AI算力基建→数据中心互联→800G/1.6T光模块需求",
+        "stocks": [
+          "新易盛",
+          "中际旭创"
+        ]
+      },
+      {
+        "sector": "光芯片",
+        "icon": "💡",
+        "color": "#8b5cf6",
+        "logic": "国产替代政策→光芯片自主可控→源杰科技等受益",
+        "stocks": [
+          "源杰科技",
+          "鼎泰高科"
+        ]
+      },
+      {
+        "sector": "PCB/基材",
+        "icon": "🔌",
+        "color": "#22c55e",
+        "logic": "算力服务器→高频高速PCB需求→生益/沪电等龙头受益",
+        "stocks": [
+          "生益电子",
+          "沪电股份",
+          "生益科技"
+        ]
+      },
+      {
+        "sector": "光纤光缆/设备",
+        "icon": "🔗",
+        "color": "#ef4444",
+        "logic": "东数西算→光纤光缆及传输设备需求→烽火/永鼎受益",
+        "stocks": [
+          "烽火通信",
+          "永鼎股份"
+        ]
+      }
+    ],
+    "dualTimeline": [],
+    "note": "政策红利期，AI算力作为数字经济核心基础设施持续受益。但净值极高位需警惕估值压缩风险。",
+    "timeline": null
+  },
+  "tracking": {
+    "weekly": [
+      "净值方向验证：每日净值涨跌是否与新易盛/中际旭创/生益电子等核心持仓行情一致",
+      "800G/1.6T光模块订单：关注中际旭创/新易盛月度出货量及订单指引",
+      "AI算力投资周期：英伟达季度财报+国内互联网大厂资本开支",
+      "经理动态：金梓才公开路演/采访/季报措辞，关注策略转向信号"
+    ],
+    "quarterly": [
+      "持仓变化：新季报前十持仓是否维持光通信/AI算力主线",
+      "集中度变化：前十持仓集中度是否异常飙升(>95%)或骤降(<70%)",
+      "规模变化：在管总规模是否继续扩张，关注超额收益摊薄风险",
+      "同类排名：近1年同类排名是否持续落入后50%",
+      "年化超额：对比同期沪深300，年化超额是否为正"
+    ],
+    "alerts": [
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "基金经理更换：需重新完整评估接任者"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "单季度回撤>-25%且同类排名倒数10%：个基崩溃信号"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "光模块出货量连续2季度增速放缓>20%：核心策略逻辑崩溃"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "英伟达数据中心收入增速转负：算力投资周期见顶"
+      },
+      {
+        "level": "warning",
+        "icon": "⚠️",
+        "text": "季报持仓大幅偏离光通信主线：需核查经理是否悄悄转型"
+      }
+    ]
+  },
+  "exclusionCheck": [
+    {
+      "item": "成立时间是否不足3年",
+      "pass": false,
+      "note": "成立于2024-05-28，仅约2年，不足3年"
+    },
+    {
+      "item": "规模是否过小或过大",
+      "pass": true,
+      "note": "当前规模11.17亿元，未触发<1亿元或>200亿元红线"
+    },
+    {
+      "item": "基金经理任职是否不足2年",
+      "pass": true,
+      "note": "金梓才自2024-05-28管理本基金，已满2年"
+    },
+    {
+      "item": "近3年业绩是否落入后30%",
+      "pass": true,
+      "note": "近1年排名4/2270（前0.2%），远超同类"
+    },
+    {
+      "item": "最大回撤是否显著劣于同类",
+      "pass": false,
+      "note": "最大回撤-39.05%，2025Q1同类排名2310/2331垫底，显著劣于同类"
+    },
+    {
+      "item": "基金经理是否在黑名单中",
+      "pass": true,
+      "note": "黑名单核查未命中金梓才"
+    },
+    {
+      "item": "基金公司是否在黑名单中",
+      "pass": true,
+      "note": "黑名单核查未命中财通基金"
+    },
+    {
+      "item": "是否频繁更换基金经理",
+      "pass": true,
+      "note": "成立以来无经理变更记录"
+    },
+    {
+      "item": "是否存在严重风格漂移",
+      "pass": false,
+      "note": "2024Q4出现万辰集团/三只松鼠/海澜之家消费股漂移，2025Q1又从光通信切换至IDC算力"
+    },
+    {
+      "item": "费率是否显著高于同类平均",
+      "pass": true,
+      "note": "管理费1.20%+托管费0.20%=1.40%，C类另加0.40%销售服务费，与同类相当"
+    }
+  ]
+}

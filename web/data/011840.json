@@ -1983,32 +1983,32 @@
     {
       "item": "成立时间是否不足3年",
       "pass": true,
-      "note": "需从基础信息核实成立日期"
+      "note": "成立于2021年08月17日，已运行近5年"
     },
     {
       "item": "规模是否过小或过大",
       "pass": true,
-      "note": "需从scale字段核实基金规模"
+      "note": "当前规模32.07亿元，未触发<1亿元或>200亿元红线"
     },
     {
       "item": "基金经理任职是否不足2年",
-      "pass": true,
-      "note": "需从managers.current.manageDate核实任职时间"
+      "pass": false,
+      "note": "祁世超自2025-02-14管理本基金，约1.3年，不足2年"
     },
     {
       "item": "近3年业绩是否落入后30%",
       "pass": true,
-      "note": "需从performance.stages核实近期排名"
+      "note": "近3年收益率121.62%，排名65/2116"
     },
     {
       "item": "最大回撤是否显著劣于同类",
-      "pass": true,
-      "note": "需从risk.maxDrawdown核实最大回撤"
+      "pass": false,
+      "note": "最大回撤-42.63%，显著高于同类平均"
     },
     {
       "item": "基金经理是否在黑名单中",
       "pass": true,
-      "note": "黑名单核查未命中基金经理"
+      "note": "黑名单核查未命中祁世超 / 洪明华"
     },
     {
       "item": "基金公司是否在黑名单中",
@@ -2018,17 +2018,17 @@
     {
       "item": "是否频繁更换基金经理",
       "pass": true,
-      "note": "需从managers.history核实经理变更次数"
+      "note": "近3年未出现2次及以上异常更换"
     },
     {
       "item": "是否存在严重风格漂移",
       "pass": true,
-      "note": "一致性审计未见fail级别结论"
+      "note": "言行一致性审计未见fail级别结论"
     },
     {
       "item": "费率是否显著高于同类平均",
       "pass": true,
-      "note": "需从fees字段核实综合费率"
+      "note": "管理费+托管费未见明显高于同类"
     }
   ],
   "policy": {

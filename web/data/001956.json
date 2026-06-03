@@ -1,0 +1,2710 @@
+{
+  "id": "001956",
+  "meta": {
+    "reportDate": "2026-06-03",
+    "dataDate": "2026-06-02",
+    "disclaimer": "本报告仅供个人学习和信息整理使用，所有分析内容均不构成任何投资建议。投资有风险，入市需谨慎，请依据自身判断做出投资决策。"
+  },
+  "basic": {
+    "code": "001956",
+    "fullName": "国联安科技动力股票型证券投资基金",
+    "shortName": "国联安科技动力",
+    "type": "股票型",
+    "riskLevel": "R4",
+    "riskCode": 4,
+    "foundDate": "2016年01月26日",
+    "manager": "潘明",
+    "companyShort": "国联安基金",
+    "custodian": "建设银行",
+    "benchmark": "沪深300指数×80%+上证国债指数×20%",
+    "navFallback": 4.1193,
+    "navDateFallback": "2026-06-02",
+    "inceptionReturn": 311.93,
+    "status": "开放申购 / 开放赎回"
+  },
+  "fees": {
+    "management": 1.2,
+    "custodian": 0.2,
+    "subscriptionMax": 0.0,
+    "subscriptionDiscounted": 0.15,
+    "redemptionMax": 1.5,
+    "breakdown": [
+      {
+        "name": "管理费",
+        "value": 1.2
+      },
+      {
+        "name": "托管费",
+        "value": 0.2
+      },
+      {
+        "name": "申购费",
+        "value": 0.0,
+        "actualRate": 0.15
+      },
+      {
+        "name": "赎回费",
+        "value": 1.5,
+        "rate": 1.5,
+        "rules": [
+          {
+            "label": "持有少于7天",
+            "rate": 1.5
+          },
+          {
+            "label": "持有7天至30天",
+            "rate": 0.75
+          },
+          {
+            "label": "持有30天至1年",
+            "rate": 0.5
+          },
+          {
+            "label": "持有1年至2年",
+            "rate": 0.25
+          },
+          {
+            "label": "持有2年及以上",
+            "rate": 0.0
+          }
+        ],
+        "note": "持有满2年免赎回费，具体以基金合同为准"
+      }
+    ]
+  },
+  "scale": {
+    "nav": 6.8,
+    "date": "2026-06-02"
+  },
+  "risk": {
+    "volatility": 0.3511,
+    "annualReturn": 0.1545,
+    "sharpe": 0.35,
+    "calmar": 0.24,
+    "maxDrawdown": -0.6399,
+    "maxDrawdownPeriod": "2021-11-22 → 2024-01-31",
+    "periodMetrics": [
+      {
+        "label": "近1年",
+        "volatility": 0.5095,
+        "sharpe": 4.61,
+        "maxDrawdown": -0.191
+      },
+      {
+        "label": "近2年",
+        "volatility": 0.4653,
+        "sharpe": 1.62,
+        "maxDrawdown": -0.318
+      },
+      {
+        "label": "近3年",
+        "volatility": 0.4325,
+        "sharpe": 0.67,
+        "maxDrawdown": -0.479
+      }
+    ],
+    "riskBreakdown": {
+      "yearlyMaxDrawdowns": [
+        {
+          "year": 2026,
+          "fund": 10.87,
+          "hs300": 7.78
+        },
+        {
+          "year": 2025,
+          "fund": 30.52,
+          "hs300": 10.49
+        },
+        {
+          "year": 2024,
+          "fund": 26.47,
+          "hs300": 14.41
+        },
+        {
+          "year": 2023,
+          "fund": 36.16,
+          "hs300": 21.51
+        },
+        {
+          "year": 2022,
+          "fund": 37.13,
+          "hs300": 28.65
+        },
+        {
+          "year": 2021,
+          "fund": 27.23,
+          "hs300": 18.19
+        },
+        {
+          "year": 2020,
+          "fund": 24.7,
+          "hs300": 16.08
+        },
+        {
+          "year": 2019,
+          "fund": 20.75,
+          "hs300": 13.49
+        },
+        {
+          "year": 2018,
+          "fund": 45.87,
+          "hs300": 31.88
+        },
+        {
+          "year": 2017,
+          "fund": 9.99,
+          "hs300": 6.07
+        },
+        {
+          "year": 2016,
+          "fund": 18.79,
+          "hs300": 19.38
+        }
+      ],
+      "historicalMaxDrawdown": -63.99,
+      "volatilityRating": "高波动（35.11%）",
+      "sharpeRating": "全期偏低（0.35），近1年（4.61）",
+      "drawdownRating": "历史最大 -63.99%，近1年 -0.191",
+      "volatilityPercentile": 65,
+      "sharpePercentile": 30,
+      "drawdownPercentile": 70
+    },
+    "maxDrawdownMonths": 26,
+    "relativeMetrics": {
+      "beta": 1.1942,
+      "alpha": 0.1265,
+      "informationRatio": 0.4995,
+      "trackingError": 0.279,
+      "r2": 0.3808
+    },
+    "navPercentile": 100.0,
+    "recentPerf": [
+      {
+        "period": "近1周",
+        "fund": 3.73,
+        "peer": -2.35,
+        "hs300": -0.67,
+        "excess": 4.4,
+        "rank": 11,
+        "rankTotal": 1076,
+        "warn": false,
+        "note": "前1%"
+      },
+      {
+        "period": "近1月",
+        "fund": 16.68,
+        "peer": 0.78,
+        "hs300": 2.23,
+        "excess": 14.45,
+        "rank": 80,
+        "rankTotal": 1075,
+        "warn": false,
+        "note": "前7%"
+      },
+      {
+        "period": "近3月",
+        "fund": 54.91,
+        "peer": 2.93,
+        "hs300": 3.93,
+        "excess": 50.98,
+        "rank": 3,
+        "rankTotal": 1069,
+        "warn": false,
+        "note": "前0%"
+      },
+      {
+        "period": "近6月",
+        "fund": 80.89,
+        "peer": 13.61,
+        "hs300": 7.91,
+        "excess": 72.98,
+        "rank": 18,
+        "rankTotal": 1044,
+        "warn": false,
+        "note": "前2%"
+      },
+      {
+        "period": "近1年",
+        "fund": 244.86,
+        "peer": 41.79,
+        "hs300": 27.98,
+        "excess": 216.88,
+        "rank": 6,
+        "rankTotal": 990,
+        "warn": false,
+        "note": "前1%"
+      },
+      {
+        "period": "近2年",
+        "fund": 244.25,
+        "peer": 56.2,
+        "hs300": 37.28,
+        "excess": 206.97,
+        "rank": 31,
+        "rankTotal": 908,
+        "warn": false,
+        "note": "前3%"
+      },
+      {
+        "period": "今年以来",
+        "fund": 62.39,
+        "peer": 10.82,
+        "hs300": 6.15,
+        "excess": 56.24,
+        "rank": 32,
+        "rankTotal": 1053,
+        "warn": false,
+        "note": "前3%"
+      }
+    ],
+    "radarDimensions": [
+      {
+        "name": "收益能力",
+        "score": 92
+      },
+      {
+        "name": "风险控制",
+        "score": 30
+      },
+      {
+        "name": "经理能力",
+        "score": 90
+      },
+      {
+        "name": "主题纯度",
+        "score": 93
+      },
+      {
+        "name": "周期匹配",
+        "score": 80
+      }
+    ],
+    "riskWarnings": [
+      {
+        "level": "high",
+        "text": "历史最大回撤 -63.99%，持有体验极差，逆风期容错率低。",
+        "category": "内部"
+      },
+      {
+        "level": "high",
+        "text": "前十集中度升至 72.42%，且高度集中在光通信链，单一主线失效时回撤会被放大。",
+        "category": "内部"
+      },
+      {
+        "level": "medium",
+        "text": "海外算力资本开支、光通信链景气切换和中美科技摩擦仍可能压制高估值科技板块风险偏好。",
+        "category": "外部"
+      }
+    ]
+  },
+  "holdings": {
+    "date": "2026-03-31",
+    "top10": [
+      {
+        "rank": 1,
+        "name": "新易盛",
+        "code": "300502",
+        "ratio": 9.06
+      },
+      {
+        "rank": 2,
+        "name": "中际旭创",
+        "code": "300308",
+        "ratio": 9.06
+      },
+      {
+        "rank": 3,
+        "name": "源杰科技",
+        "code": "688498",
+        "ratio": 9.03
+      },
+      {
+        "rank": 4,
+        "name": "长飞光纤",
+        "code": "601869",
+        "ratio": 8.17
+      },
+      {
+        "rank": 5,
+        "name": "天孚通信",
+        "code": "300394",
+        "ratio": 6.91
+      },
+      {
+        "rank": 6,
+        "name": "长光华芯",
+        "code": "688048",
+        "ratio": 6.67
+      },
+      {
+        "rank": 7,
+        "name": "罗博特科",
+        "code": "300757",
+        "ratio": 6.38
+      },
+      {
+        "rank": 8,
+        "name": "德科立",
+        "code": "688205",
+        "ratio": 6.08
+      },
+      {
+        "rank": 9,
+        "name": "长芯博创",
+        "code": "300548",
+        "ratio": 5.59
+      },
+      {
+        "rank": 10,
+        "name": "光库科技",
+        "code": "300620",
+        "ratio": 5.47
+      }
+    ],
+    "top10Total": 72.42,
+    "top10TotalRatio": 72.42,
+    "sectors": [
+      {
+        "name": "制造业",
+        "ratio": 87.49
+      },
+      {
+        "name": "信息技术业",
+        "ratio": 5.02
+      },
+      {
+        "name": "采矿业",
+        "ratio": 0.03
+      }
+    ],
+    "themeTitle": "AI 基础设施高速互联链",
+    "themeSubtitle": "光模块 + 光芯片 + 光纤光缆 + 光电器件",
+    "concentrationLabel": "高度集中",
+    "themeGroups": [
+      {
+        "name": "光模块与互联主链",
+        "color": "#2563eb",
+        "ratio": 29.79,
+        "stocks": "新易盛 / 中际旭创 / 德科立 / 长芯博创",
+        "note": "是组合收益弹性的核心来源，直接受益于 AI 基础设施高速互联需求。"
+      },
+      {
+        "name": "光芯片与激光芯片",
+        "color": "#7c3aed",
+        "ratio": 15.7,
+        "stocks": "源杰科技 / 长光华芯",
+        "note": "对应经理在 2026Q1 明确提到的“光芯片”主线，是更高弹性的核心支线。"
+      },
+      {
+        "name": "光纤与光器件",
+        "color": "#0f766e",
+        "ratio": 20.55,
+        "stocks": "长飞光纤 / 天孚通信 / 光库科技",
+        "note": "承担 AI 基础设施底层连接和器件能力，兼具景气与防御属性。"
+      },
+      {
+        "name": "设备与封装环节",
+        "color": "#ea580c",
+        "ratio": 6.38,
+        "stocks": "罗博特科",
+        "note": "提供对更上游设备与工艺环节的弹性暴露。"
+      }
+    ],
+    "evolutionHighlights": [
+      {
+        "quarter": "2024Q1-2024Q3",
+        "type": "positive",
+        "change": "从中际旭创、天孚通信、沪电股份逐步加到新易盛",
+        "return": "+10.18%（2024Q3）",
+        "theme": "光模块与 PCB 主线识别完成",
+        "insight": "这一轮配置为 2025H2 的净值爆发奠定了方向基础。"
+      },
+      {
+        "quarter": "2024Q4",
+        "type": "neutral",
+        "change": "短暂切向寒武纪、麦格米特、恒玄科技等国产AI链",
+        "return": "+9.46%",
+        "theme": "高景气内部支线切换",
+        "insight": "说明经理并不固守单一支线，而是在高景气内部寻找更高弹性。"
+      },
+      {
+        "quarter": "2025Q1",
+        "type": "warning",
+        "change": "前十集中度从 61.19% 降到 38.60%",
+        "return": "-14.98%",
+        "theme": "再平衡与试错阶段",
+        "insight": "集中度骤降对应显著回撤，验证该轮支线切换并不顺畅。"
+      },
+      {
+        "quarter": "2025Q2-2025Q3",
+        "type": "positive",
+        "change": "重新抱团新易盛、中际旭创、胜宏科技、生益电子",
+        "return": "+69.56%（2025Q3）",
+        "theme": "光模块 / PCB 主升浪",
+        "insight": "回到核心主线是决定性拐点，直接触发了成立以来最强主升浪。"
+      },
+      {
+        "quarter": "2025Q4-2026Q1",
+        "type": "positive",
+        "change": "从液冷、电源、钻针继续切向光纤、光芯片、全光交换",
+        "return": "+1.73%（2026Q1）",
+        "theme": "高景气内部继续向更核心环节迁移",
+        "insight": "集中度升至 72.42%，表明经理继续选择更纯粹的主线表达。"
+      }
+    ],
+    "policyLinks": [
+      {
+        "sector": "光模块与光芯片",
+        "color": "#2563eb",
+        "stocks": "新易盛 / 中际旭创 / 源杰科技 / 长光华芯",
+        "policyNote": "集成电路税收优惠清单延续，支撑关键芯片与核心器件环节景气。"
+      },
+      {
+        "sector": "光纤光缆",
+        "color": "#0f766e",
+        "stocks": "长飞光纤 / 光库科技",
+        "policyNote": "产业链供应链安全规定强化关键环节韧性建设，利好底层基础设施自主可控。"
+      },
+      {
+        "sector": "光器件与CPO",
+        "color": "#7c3aed",
+        "stocks": "天孚通信 / 德科立",
+        "policyNote": "电子信息制造业增加值和利润总额高增，说明终端需求与景气验证同步出现。"
+      },
+      {
+        "sector": "设备与封装",
+        "color": "#ea580c",
+        "stocks": "罗博特科 / 长芯博创",
+        "policyNote": "产业链安全与关键技术攻关制度托底，有利于更上游设备与封装环节获得溢价。"
+      }
+    ]
+  },
+  "performance": {
+    "stages": [
+      {
+        "period": "近1周",
+        "fund": 3.73,
+        "peer": -2.35,
+        "hs300": -0.67,
+        "rank": 11,
+        "rankTotal": 1076,
+        "quartile": null
+      },
+      {
+        "period": "近1月",
+        "fund": 16.68,
+        "peer": 0.78,
+        "hs300": 2.23,
+        "rank": 80,
+        "rankTotal": 1075,
+        "quartile": null
+      },
+      {
+        "period": "近3月",
+        "fund": 54.91,
+        "peer": 2.93,
+        "hs300": 3.93,
+        "rank": 3,
+        "rankTotal": 1069,
+        "quartile": null
+      },
+      {
+        "period": "近6月",
+        "fund": 80.89,
+        "peer": 13.61,
+        "hs300": 7.91,
+        "rank": 18,
+        "rankTotal": 1044,
+        "quartile": null
+      },
+      {
+        "period": "近1年",
+        "fund": 244.86,
+        "peer": 41.79,
+        "hs300": 27.98,
+        "rank": 6,
+        "rankTotal": 990,
+        "quartile": null
+      },
+      {
+        "period": "近2年",
+        "fund": 244.25,
+        "peer": 56.2,
+        "hs300": 37.28,
+        "rank": 31,
+        "rankTotal": 908,
+        "quartile": null
+      },
+      {
+        "period": "近3年",
+        "fund": 143.34,
+        "peer": 35.51,
+        "hs300": 27.26,
+        "rank": 47,
+        "rankTotal": 810,
+        "quartile": null
+      },
+      {
+        "period": "近5年",
+        "fund": 91.32,
+        "peer": 11.37,
+        "hs300": -7.1,
+        "rank": 55,
+        "rankTotal": 581,
+        "quartile": null
+      },
+      {
+        "period": "今年来",
+        "fund": 62.39,
+        "peer": 10.82,
+        "hs300": 6.15,
+        "rank": 32,
+        "rankTotal": 1053,
+        "quartile": null
+      },
+      {
+        "period": "成立来",
+        "fund": 311.93,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      }
+    ],
+    "annual": [
+      {
+        "year": 2016,
+        "fund": -6.1,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2017,
+        "fund": 21.24,
+        "peer": null,
+        "hs300": null,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2018,
+        "fund": -38.86,
+        "peer": -23.51,
+        "hs300": -25.31,
+        "rank": 274,
+        "rankTotal": 349,
+        "quartile": "不佳"
+      },
+      {
+        "year": 2019,
+        "fund": 77.24,
+        "peer": 46.76,
+        "hs300": 36.07,
+        "rank": 15,
+        "rankTotal": 410,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2020,
+        "fund": 65.13,
+        "peer": 57.41,
+        "hs300": 27.21,
+        "rank": 165,
+        "rankTotal": 554,
+        "quartile": "良好"
+      },
+      {
+        "year": 2021,
+        "fund": 17.49,
+        "peer": 9.55,
+        "hs300": -5.2,
+        "rank": 164,
+        "rankTotal": 740,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2022,
+        "fund": -33.04,
+        "peer": -19.89,
+        "hs300": -21.63,
+        "rank": 679,
+        "rankTotal": 867,
+        "quartile": "不佳"
+      },
+      {
+        "year": 2023,
+        "fund": -22.09,
+        "peer": -11.57,
+        "hs300": -11.38,
+        "rank": 725,
+        "rankTotal": 952,
+        "quartile": "不佳"
+      },
+      {
+        "year": 2024,
+        "fund": 20.25,
+        "peer": 3.91,
+        "hs300": 14.68,
+        "rank": 89,
+        "rankTotal": 1011,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2025,
+        "fund": 68.93,
+        "peer": 32.46,
+        "hs300": 17.66,
+        "rank": 65,
+        "rankTotal": 1065,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2026,
+        "fund": 62.39,
+        "peer": 10.82,
+        "hs300": 6.15,
+        "rank": 32,
+        "rankTotal": 1053,
+        "quartile": null
+      }
+    ],
+    "quarterly": [
+      {
+        "year": 2016,
+        "quarter": "2016Q1",
+        "fund": 1.8,
+        "peer": null,
+        "hs300": -7.23,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2016,
+        "quarter": "2016Q2",
+        "fund": 9.3,
+        "peer": null,
+        "hs300": -2.11,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2016,
+        "quarter": "2016Q3",
+        "fund": -11.1,
+        "peer": null,
+        "hs300": 3.14,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2016,
+        "quarter": "2016Q4",
+        "fund": -5.44,
+        "peer": null,
+        "hs300": 0.49,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2017,
+        "quarter": "2017Q1",
+        "fund": -2.24,
+        "peer": null,
+        "hs300": 3.41,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2017,
+        "quarter": "2017Q2",
+        "fund": 10.24,
+        "peer": null,
+        "hs300": 4.65,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2017,
+        "quarter": "2017Q3",
+        "fund": 6.69,
+        "peer": null,
+        "hs300": 5.09,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2017,
+        "quarter": "2017Q4",
+        "fund": 5.44,
+        "peer": null,
+        "hs300": 3.83,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2018,
+        "quarter": "2018Q1",
+        "fund": 0.25,
+        "peer": null,
+        "hs300": -4.62,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2018,
+        "quarter": "2018Q2",
+        "fund": -19.11,
+        "peer": null,
+        "hs300": -9.67,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2018,
+        "quarter": "2018Q3",
+        "fund": -16.82,
+        "peer": null,
+        "hs300": 0.91,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2018,
+        "quarter": "2018Q4",
+        "fund": -9.35,
+        "peer": null,
+        "hs300": -8.52,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2019,
+        "quarter": "2019Q1",
+        "fund": 37.11,
+        "peer": null,
+        "hs300": 30.4,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2019,
+        "quarter": "2019Q2",
+        "fund": -4.95,
+        "peer": null,
+        "hs300": -3.73,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2019,
+        "quarter": "2019Q3",
+        "fund": 23.75,
+        "peer": null,
+        "hs300": -3.08,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2019,
+        "quarter": "2019Q4",
+        "fund": 9.9,
+        "peer": null,
+        "hs300": 6.75,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2020,
+        "quarter": "2020Q1",
+        "fund": 16.63,
+        "peer": null,
+        "hs300": -11.22,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2020,
+        "quarter": "2020Q2",
+        "fund": 30.33,
+        "peer": null,
+        "hs300": 13.3,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2020,
+        "quarter": "2020Q3",
+        "fund": -3.23,
+        "peer": null,
+        "hs300": 8.0,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2020,
+        "quarter": "2020Q4",
+        "fund": 12.26,
+        "peer": null,
+        "hs300": 11.33,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2021,
+        "quarter": "2021Q1",
+        "fund": -11.32,
+        "peer": null,
+        "hs300": -4.16,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2021,
+        "quarter": "2021Q2",
+        "fund": 37.17,
+        "peer": null,
+        "hs300": 2.22,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2021,
+        "quarter": "2021Q3",
+        "fund": -2.88,
+        "peer": null,
+        "hs300": -6.95,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2021,
+        "quarter": "2021Q4",
+        "fund": -0.55,
+        "peer": null,
+        "hs300": 0.21,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2022,
+        "quarter": "2022Q1",
+        "fund": -20.94,
+        "peer": null,
+        "hs300": -14.14,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2022,
+        "quarter": "2022Q2",
+        "fund": 3.53,
+        "peer": null,
+        "hs300": 4.88,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2022,
+        "quarter": "2022Q3",
+        "fund": -1.79,
+        "peer": null,
+        "hs300": -14.82,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2022,
+        "quarter": "2022Q4",
+        "fund": -16.7,
+        "peer": null,
+        "hs300": 4.05,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2023,
+        "quarter": "2023Q1",
+        "fund": -1.22,
+        "peer": null,
+        "hs300": 4.19,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2023,
+        "quarter": "2023Q2",
+        "fund": 9.77,
+        "peer": null,
+        "hs300": -6.07,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2023,
+        "quarter": "2023Q3",
+        "fund": -19.26,
+        "peer": null,
+        "hs300": -5.22,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2023,
+        "quarter": "2023Q4",
+        "fund": -11.0,
+        "peer": null,
+        "hs300": -6.88,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q1",
+        "fund": 3.87,
+        "peer": null,
+        "hs300": 4.46,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q2",
+        "fund": -4.0,
+        "peer": -2.49,
+        "hs300": -2.14,
+        "rank": 571,
+        "rankTotal": 983,
+        "quartile": "一般"
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q3",
+        "fund": 10.18,
+        "peer": 11.81,
+        "hs300": 16.07,
+        "rank": 611,
+        "rankTotal": 991,
+        "quartile": "一般"
+      },
+      {
+        "year": 2024,
+        "quarter": "2024Q4",
+        "fund": 9.46,
+        "peer": -1.49,
+        "hs300": -2.06,
+        "rank": 64,
+        "rankTotal": 1011,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q1",
+        "fund": -14.98,
+        "peer": 4.71,
+        "hs300": -1.21,
+        "rank": 1003,
+        "rankTotal": 1014,
+        "quartile": "不佳"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q2",
+        "fund": 6.71,
+        "peer": 3.13,
+        "hs300": 1.25,
+        "rank": 203,
+        "rankTotal": 1038,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q3",
+        "fund": 69.56,
+        "peer": 25.12,
+        "hs300": 17.9,
+        "rank": 12,
+        "rankTotal": 1050,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2025,
+        "quarter": "2025Q4",
+        "fund": 9.81,
+        "peer": -1.96,
+        "hs300": -0.23,
+        "rank": 48,
+        "rankTotal": 1065,
+        "quartile": "优秀"
+      },
+      {
+        "year": 2026,
+        "quarter": "2026Q1",
+        "fund": 1.73,
+        "peer": -0.42,
+        "hs300": -3.89,
+        "rank": 360,
+        "rankTotal": 1070,
+        "quartile": "良好"
+      },
+      {
+        "year": 2026,
+        "quarter": "2026Q2",
+        "fund": 52.3,
+        "peer": null,
+        "hs300": 8.58,
+        "rank": null,
+        "rankTotal": null,
+        "quartile": null
+      }
+    ],
+    "milestones": [
+      {
+        "date": "2016-01-26",
+        "nav": 1.0,
+        "label": "成立",
+        "type": "neutral"
+      },
+      {
+        "date": "2018-10-16",
+        "nav": 0.6596,
+        "label": "历史最低点",
+        "type": "low"
+      },
+      {
+        "date": "2019-04-03",
+        "nav": 1.0009,
+        "label": "重回面值",
+        "type": "neutral"
+      },
+      {
+        "date": "2021-11-22",
+        "nav": 2.7332,
+        "label": "第一轮科技牛市高点",
+        "type": "peak"
+      },
+      {
+        "date": "2024-01-31",
+        "nav": 0.9843,
+        "label": "深度回撤阶段低点",
+        "type": "low"
+      },
+      {
+        "date": "2025-09-01",
+        "nav": 2.4205,
+        "label": "AI 硬件主升浪阶段性高点",
+        "type": "peak"
+      },
+      {
+        "date": "2026-05-28",
+        "nav": 4.1571,
+        "label": "历史最高点",
+        "type": "peak"
+      },
+      {
+        "date": "2026-06-02",
+        "nav": 4.1193,
+        "label": "当前净值（历史99.96%分位）",
+        "type": "current"
+      }
+    ]
+  },
+  "stageAnalysis": {
+    "inflectionPoints": [
+      {
+        "id": 2,
+        "startDate": "2016-06-29",
+        "endDate": "2017-01-19",
+        "startNav": 1.139,
+        "endNav": 0.869,
+        "changePct": -23.71,
+        "type": "trough",
+        "env": "2016Q3、2016Q4 基金分别下跌 11.10% 和 5.44%，而同期沪深300分别为 +3.14% 和 +0.49%，说明产品在成立初期就暴露出较高的科技成长波动。",
+        "managerAction": "对应 2016Q3、2016Q4 前三大持仓围绕金财互联、索菱股份、海联金汇等泛TMT标的，集中度维持在 55%-58% 附近，但尚未形成稳定主线。",
+        "attribution": "Beta 与选股同时承压，属于建仓期的风格试错，言行一致性缺少同期原文支撑，暂记为 ⚠️。",
+        "holdingsSummary": null,
+        "stageId": 1
+      },
+      {
+        "id": 3,
+        "startDate": "2017-01-19",
+        "endDate": "2017-11-13",
+        "startNav": 0.869,
+        "endNav": 1.2458,
+        "changePct": 43.36,
+        "type": "peak",
+        "env": "2017 年基金全年上涨 21.24%，2017Q2-Q4 连续三个季度录得正收益，科技成长环境较 2016 年改善。",
+        "managerAction": "持仓主线从金财互联、中际装备、亨通光电，逐步切向海康威视、大华股份，再到东山精密、中际旭创、三安光电，开始出现“通信+电子制造”的主线识别。",
+        "attribution": "以行业Beta修复为主，Alpha 开始体现，说明经理已经在科技内部寻找更高景气环节。",
+        "holdingsSummary": null,
+        "stageId": 1
+      },
+      {
+        "id": 4,
+        "startDate": "2017-11-13",
+        "endDate": "2018-02-07",
+        "startNav": 1.2458,
+        "endNav": 0.9931,
+        "changePct": -20.28,
+        "type": "trough",
+        "env": "2018Q1 基金仅 +0.25%，但前一轮高弹性风格明显回吐，市场对高估值科技的容忍度下降。",
+        "managerAction": "对应持仓从分众传媒、京东方A 回到中际旭创、大族激光、亨通光电，仍然集中在高弹性科技链。",
+        "attribution": "估值压缩快于基本面兑现，说明组合在高位缺乏防御，更多是 Beta 回吐而非单纯选股失误。",
+        "holdingsSummary": null,
+        "stageId": 1
+      },
+      {
+        "id": 8,
+        "startDate": "2018-07-23",
+        "endDate": "2018-10-16",
+        "startNav": 0.9622,
+        "endNav": 0.6596,
+        "changePct": -31.45,
+        "type": "trough",
+        "env": "2018 年基金全年 -38.86%，同期沪深300 -25.31%，科技成长系统性承压。",
+        "managerAction": "2018Q3 前三大持仓为大族激光、宝信软件、浪潮信息，组合仍偏科技成长，没有明显防御切换。",
+        "attribution": "行业Beta下行主导，Alpha 未能对冲系统性杀跌，回撤显著大于市场，属于历史上第一次典型深跌。",
+        "holdingsSummary": null,
+        "stageId": 1
+      },
+      {
+        "id": 11,
+        "startDate": "2019-01-03",
+        "endDate": "2019-04-03",
+        "startNav": 0.68,
+        "endNav": 1.0009,
+        "changePct": 47.19,
+        "type": "peak",
+        "env": "2019Q1 基金 +37.11%，同期沪深300 +30.40%，低位反弹强烈。",
+        "managerAction": "2019Q1 前三大持仓为视源股份、恒生电子、宝信软件，集中度降至 43.36%，从上一轮深跌中走向更分散的科技修复配置。",
+        "attribution": "Beta 修复为主，Alpha 有辅助贡献，产品在科技反弹环境中恢复弹性。",
+        "holdingsSummary": null,
+        "stageId": 2
+      },
+      {
+        "id": 13,
+        "startDate": "2019-06-06",
+        "endDate": "2019-09-24",
+        "startNav": 0.7932,
+        "endNav": 1.2279,
+        "changePct": 54.8,
+        "type": "peak",
+        "env": "2019Q3 基金 +23.75%，而同期沪深300 -3.08%，超额非常明显。",
+        "managerAction": "持仓主线切到宝信软件、深南电路、韦尔股份，集中在 PCB、半导体设计和高景气电子链。",
+        "attribution": "Alpha 贡献显著，说明经理并非单纯跟随市场，而是在科技内部抓到了更强细分方向。",
+        "holdingsSummary": "宝信软件/深南电路/韦尔股份，集中在 PCB、半导体设计和高景气电子链。",
+        "stageId": 2
+      },
+      {
+        "id": 15,
+        "startDate": "2019-10-08",
+        "endDate": "2020-01-22",
+        "startNav": 1.0947,
+        "endNav": 1.5452,
+        "changePct": 41.15,
+        "type": "peak",
+        "env": "2019Q4 基金 +9.90%，进入 2020 年初后延续上冲，科技景气进一步强化。",
+        "managerAction": "2019Q4 前三大持仓为圣邦股份、汇顶科技、韦尔股份，向模拟芯片、射频和 SoC 方向集中。",
+        "attribution": "科技设计链景气上行带来 Beta，标的选择带来 Alpha，言行一致性从结果看较强。",
+        "holdingsSummary": null,
+        "stageId": 2
+      },
+      {
+        "id": 18,
+        "startDate": "2020-02-25",
+        "endDate": "2020-03-30",
+        "startNav": 1.8963,
+        "endNav": 1.4354,
+        "changePct": -24.31,
+        "type": "trough",
+        "env": "2020Q1 基金仍录得 +16.63%，同期沪深300 -11.22%，但疫情冲击导致波动骤增。",
+        "managerAction": "2020Q1 前三大持仓为汇顶科技、北方华创、圣邦股份，核心仍是半导体设计与设备。",
+        "attribution": "先涨后杀的剧烈波动说明组合仓位高、弹性大；虽然季度维度仍跑赢，但单段回撤暴露了产品的高波动属性。",
+        "holdingsSummary": null,
+        "stageId": 2
+      },
+      {
+        "id": 23,
+        "startDate": "2020-05-28",
+        "endDate": "2020-07-13",
+        "startNav": 1.6058,
+        "endNav": 2.2061,
+        "changePct": 37.38,
+        "type": "peak",
+        "env": "2020Q2 基金 +30.33%，同期沪深300 +13.30%，成长风格重新占优。",
+        "managerAction": "2020Q2 前三大持仓为中微公司、吉比特、卓胜微，半导体设备与高景气科技并举。",
+        "attribution": "Beta 与 Alpha 同时贡献，是产品第一轮高成长行情的代表性上攻波段。",
+        "holdingsSummary": null,
+        "stageId": 2
+      },
+      {
+        "id": 31,
+        "startDate": "2020-11-26",
+        "endDate": "2021-01-22",
+        "startNav": 1.8085,
+        "endNav": 2.3497,
+        "changePct": 29.93,
+        "type": "peak",
+        "env": "2020Q4 基金 +12.26%，科技与新能源车电子链共振，风险偏好继续抬升。",
+        "managerAction": "2020Q4 前三大持仓为卓胜微、宁德时代、亿纬锂能，开始从纯半导体扩展到新能源车电子主线。",
+        "attribution": "阶段收益更多来自新主线切换成功，属于经理主动轮动带来的 Alpha 增量。",
+        "holdingsSummary": null,
+        "stageId": 2
+      },
+      {
+        "id": 32,
+        "startDate": "2021-01-22",
+        "endDate": "2021-03-24",
+        "startNav": 2.3497,
+        "endNav": 1.7099,
+        "changePct": -27.23,
+        "type": "trough",
+        "env": "2021Q1 基金 -11.32%，同期沪深300 -4.16%，高景气成长进入估值消化。",
+        "managerAction": "2021Q1 前三大持仓仍是卓胜微、宁德时代、亿纬锂能，高景气配置没有明显降温。",
+        "attribution": "估值压缩主导的 Beta 回撤，组合未做明显防守，回撤放大。",
+        "holdingsSummary": null,
+        "stageId": 2
+      },
+      {
+        "id": 33,
+        "startDate": "2021-03-24",
+        "endDate": "2021-07-30",
+        "startNav": 1.7099,
+        "endNav": 2.728,
+        "changePct": 59.54,
+        "type": "peak",
+        "env": "2021Q2 基金 +37.17%，同期沪深300仅 +2.22%，超额极强。",
+        "managerAction": "2021Q2 前三大持仓为宁德时代、卓胜微、北方华创，集中押注高景气制造与半导体设备。",
+        "attribution": "Alpha 贡献显著，是产品第一轮牛市中最能代表经理进攻能力的拐点之一。",
+        "holdingsSummary": null,
+        "stageId": 2
+      },
+      {
+        "id": 37,
+        "startDate": "2021-10-12",
+        "endDate": "2021-11-22",
+        "startNav": 2.2584,
+        "endNav": 2.7332,
+        "changePct": 21.02,
+        "type": "peak",
+        "env": "2021Q4 单季基金仅 -0.55%，说明高点之后整体已转入震荡。",
+        "managerAction": "2021Q4 前三大持仓为宁德时代、北方华创、德赛西威，仍沿新能源车电子与设备链展开。",
+        "attribution": "这是第一轮大牛市的最终高点，之后进入持续时间很长的杀估值阶段。",
+        "holdingsSummary": null,
+        "stageId": 2
+      },
+      {
+        "id": 44,
+        "startDate": "2022-03-21",
+        "endDate": "2022-04-26",
+        "startNav": 2.0194,
+        "endNav": 1.4405,
+        "changePct": -28.67,
+        "type": "trough",
+        "env": "2022Q1 基金 -20.94%，同期沪深300 -14.14%，成长板块全面退潮。",
+        "managerAction": "2022Q1 前三大持仓为宁德时代、圣邦股份、北方华创，仍偏高估值科技成长。",
+        "attribution": "Beta+Alpha 双损，说明旧主线失效且组合未能及时切走，进入深度回撤主阶段。",
+        "holdingsSummary": null,
+        "stageId": 3
+      },
+      {
+        "id": 45,
+        "startDate": "2022-04-26",
+        "endDate": "2022-08-18",
+        "startNav": 1.4405,
+        "endNav": 2.1929,
+        "changePct": 52.23,
+        "type": "peak",
+        "env": "2022Q2 基金仅 +3.53%，但从低点到 8 月出现较强反抽，反映成长股内部仍有交易窗口。",
+        "managerAction": "2022Q2 持仓为宁德时代、德赛西威、斯达半导；到 2022Q3 切向拓荆科技、禾迈股份、德赛西威。",
+        "attribution": "更像深跌后的交易性修复，持续性不足，后续未能形成新一轮长期主线。",
+        "holdingsSummary": null,
+        "stageId": 3
+      },
+      {
+        "id": 50,
+        "startDate": "2022-11-04",
+        "endDate": "2022-12-23",
+        "startNav": 1.9437,
+        "endNav": 1.4996,
+        "changePct": -22.85,
+        "type": "trough",
+        "env": "2022Q4 基金 -16.70%，同期沪深300 +4.05%，产品显著跑输。",
+        "managerAction": "2022Q4 前三大持仓为拓荆科技、禾迈股份、派能科技，仍在设备与储能链之间寻找高弹性方向。",
+        "attribution": "这一段确认了 2022 年的反弹并未改变中期弱势，属于第二轮深跌确认。",
+        "holdingsSummary": null,
+        "stageId": 3
+      },
+      {
+        "id": 56,
+        "startDate": "2023-06-20",
+        "endDate": "2023-08-25",
+        "startNav": 1.8891,
+        "endNav": 1.3377,
+        "changePct": -29.19,
+        "type": "trough",
+        "env": "2023Q3 基金 -19.26%，同期沪深300 -5.22%，成长再度失速。",
+        "managerAction": "2023Q2 前三大持仓为中际旭创、拓荆科技、金山办公；2023Q3 又变成拓荆科技、德赛西威、金山办公，主线仍不稳定。",
+        "attribution": "风格切换失败，Alpha 没有持续兑现，继续处在估值与主线双重不利区间。",
+        "holdingsSummary": null,
+        "stageId": 3
+      },
+      {
+        "id": 62,
+        "startDate": "2023-12-11",
+        "endDate": "2024-01-31",
+        "startNav": 1.3653,
+        "endNav": 0.9843,
+        "changePct": -27.91,
+        "type": "trough",
+        "env": "2023 年基金全年 -22.09%，同期沪深300 -11.38%，这是 2021-2024 大回撤的最终低点阶段。",
+        "managerAction": "2023Q4 前三大持仓为中际旭创、拓荆科技、天孚通信，已经开始重新聚焦 AI 通信链。",
+        "attribution": "虽然净值仍在下探，但持仓层面已开始向后续最有效的光通信主线迁移，这是低位布局的重要信号。",
+        "holdingsSummary": null,
+        "stageId": 4
+      },
+      {
+        "id": 69,
+        "startDate": "2024-09-23",
+        "endDate": "2024-10-08",
+        "startNav": 1.0399,
+        "endNav": 1.5803,
+        "changePct": 51.97,
+        "type": "peak",
+        "env": "2024Q3 基金 +10.18%，但同期沪深300 +16.07%，真正爆发发生在季度尾声之后的短期快速上行。",
+        "managerAction": "2024Q3 前三大持仓已是新易盛、中际旭创、沪电股份，主线明确指向光模块与 PCB。",
+        "attribution": "这是 AI 通信链识别完成后的第一次集中兑现，说明 2024 年下半年的关键变化不是仓位，而是主线方向终于对了。",
+        "holdingsSummary": null,
+        "stageId": 5
+      },
+      {
+        "id": 73,
+        "startDate": "2024-11-26",
+        "endDate": "2024-12-26",
+        "startNav": 1.4079,
+        "endNav": 1.6007,
+        "changePct": 13.69,
+        "type": "peak",
+        "env": "2024Q4 基金 +9.46%，同期沪深300 -2.06%，开始重新跑出明显超额。",
+        "managerAction": "2024Q4 前三大持仓变为寒武纪、麦格米特、恒玄科技，短暂从光模块/PCB 切向国产AI链。",
+        "attribution": "这是一次高景气内部切换，结果阶段上成立，但也为 2025Q1 的再平衡波动埋下伏笔。",
+        "holdingsSummary": null,
+        "stageId": 5
+      },
+      {
+        "id": 78,
+        "startDate": "2025-02-21",
+        "endDate": "2025-04-08",
+        "startNav": 1.5648,
+        "endNav": 1.0917,
+        "changePct": -30.23,
+        "type": "trough",
+        "env": "2025Q1 基金 -14.98%，同期沪深300 -1.21%，回撤显著大于市场。",
+        "managerAction": "2025Q1 前三大持仓为恒玄科技、瑞芯微、海光信息，前十集中度骤降至 38.60%，说明组合处于再平衡与试错阶段。",
+        "attribution": "主线切换期的 Alpha 失效叠加 Beta 走弱，形成 2025 年最关键的低点。",
+        "holdingsSummary": null,
+        "stageId": 5
+      },
+      {
+        "id": 79,
+        "startDate": "2025-04-08",
+        "endDate": "2025-09-01",
+        "startNav": 1.0917,
+        "endNav": 2.4205,
+        "changePct": 121.72,
+        "type": "peak",
+        "env": "2025Q3 季报原文写明“超额收益局限于光模块、光模块上游和PCB”，同期单季收益 +69.56%，而基准仅 +14.00%。",
+        "managerAction": "2025Q2 前三大持仓为胜宏科技、新易盛、生益电子；2025Q3 前十进一步收敛到新易盛、中际旭创、工业富联、胜宏科技、源杰科技、生益科技、天孚通信、沪电股份、英维克、生益电子。",
+        "attribution": "这是成立以来最强主升浪，Alpha 主要来自重新抱团光模块与 PCB 链，言行一致性为 ✅。",
+        "holdingsSummary": null,
+        "stageId": 6
+      },
+      {
+        "id": 85,
+        "startDate": "2025-11-24",
+        "endDate": "2026-01-28",
+        "startNav": 2.1113,
+        "endNav": 2.6704,
+        "changePct": 26.48,
+        "type": "peak",
+        "env": "2025Q4 基金 +9.81%，同期基准 -0.11%，在高位震荡中仍保持超额。",
+        "managerAction": "2025Q4 季报原文写明“主要增持了AI液冷、电源、钻针和光模块上游，减持了AI服务器、国产AI芯片和国产半导体设备”；前十持仓对应为新易盛、中际旭创、英维克、源杰科技、长芯博创、欧陆通、胜宏科技、生益科技、鼎泰高科、仕佳光子。",
+        "attribution": "这是高位内部分支再切换的成功案例，说明经理并非静态持有，而是持续向景气更强环节迁移，言行一致性为 ✅。",
+        "holdingsSummary": null,
+        "stageId": 6
+      },
+      {
+        "id": 89,
+        "startDate": "2026-03-17",
+        "endDate": "2026-05-28",
+        "startNav": 2.3802,
+        "endNav": 4.1571,
+        "changePct": 74.65,
+        "type": "peak",
+        "env": "工信部披露 2026Q1 电子信息制造业增加值同比 +13.6%，集成电路产量 +24.3%；2026Q1 基金 +1.73%，而基准为 -2.96%。",
+        "managerAction": "2026Q1 季报原文写明“主要增持光纤、光芯片、全光交换和光电共封龙头；减持液冷和PCB白马”，对应前十持仓为新易盛、中际旭创、源杰科技、长飞光纤、天孚通信、长光华芯、罗博特科、德科立、长芯博创、光库科技。",
+        "attribution": "产业景气与组合主线高度共振，Alpha 与 Beta 继续同向放大，但集中度已升至 72.42%，后续对主线失误的容忍度更低，言行一致性为 ✅。",
+        "holdingsSummary": null,
+        "stageId": 6
+      }
+    ],
+    "totalInflectionPoints": 24,
+    "stages": [
+      {
+        "id": 1,
+        "name": "建仓与泛TMT试错期",
+        "emoji": "🔴",
+        "period": "2016-01 → 2018-10",
+        "returnPct": -34.04,
+        "hs300Pct": 0,
+        "excessPct": 0,
+        "driverType": "both",
+        "driverLabel": "🔄 风格切换期",
+        "color": "#b45309",
+        "description": "成立后组合在互联网金融、安防、消费电子、通信等泛TMT方向频繁试错，尚未形成稳定主线。",
+        "env": "科技成长景气存在阶段性窗口，但 2018 年行业系统性回撤迅速放大了试错成本。",
+        "managerAction": "经理早期围绕泛TMT反复切换仓位和支线，显示出科技取向，但缺少可跨周期穿越的稳定抓手。",
+        "attribution": "阶段表现主要受风格试错与科技板块系统性下跌共同影响。"
+      },
+      {
+        "id": 2,
+        "name": "科技成长第一轮兑现期",
+        "emoji": "🟢",
+        "period": "2018-10 → 2021-11",
+        "returnPct": 314.38,
+        "hs300Pct": 0,
+        "excessPct": 0,
+        "driverType": "beta",
+        "driverLabel": "🌊 行业Beta主导",
+        "color": "#16a34a",
+        "description": "2019 至 2021 年是产品第一轮完整牛市兑现阶段，科技成长主线连续产生高弹性收益。",
+        "env": "成长风格修复叠加半导体、新能源车电子等高景气赛道强化，给组合提供了强风口。",
+        "managerAction": "经理在 PCB、半导体设计、半导体设备与新能源车电子链之间持续切换，但始终保持高仓位进攻。",
+        "attribution": "收益以科技成长大Beta 为主，同时夹杂少量有效支线选择带来的 Alpha。"
+      },
+      {
+        "id": 3,
+        "name": "高景气退潮与深度杀估值期",
+        "emoji": "🔴",
+        "period": "2021-11 → 2024-01",
+        "returnPct": -63.99,
+        "hs300Pct": 0,
+        "excessPct": 0,
+        "driverType": "double_loss",
+        "driverLabel": "🔴 Beta+Alpha双损",
+        "color": "#dc2626",
+        "description": "2021 年底到 2024 年初，产品经历成立以来最严重回撤，旧主线失效后缺乏防守能力。",
+        "env": "科技赛道整体估值收缩、风险偏好走弱，成长股进入长时间杀估值阶段。",
+        "managerAction": "经理仍维持较高科技成长暴露，未能及时将组合切向更具防御性的方向。",
+        "attribution": "行业退潮与主线切换失败叠加，形成成立以来最深回撤。"
+      },
+      {
+        "id": 4,
+        "name": "修复与主线再识别期",
+        "emoji": "🟡",
+        "period": "2024-01 → 2024-09",
+        "returnPct": 5.65,
+        "hs300Pct": 0,
+        "excessPct": 0,
+        "driverType": "alpha",
+        "driverLabel": "🔄 风格切换期",
+        "color": "#ca8a04",
+        "description": "组合逐步聚焦 AI 通信链，但净值路径仍有明显波动，市场尚未完全形成一致预期。",
+        "env": "AI 通信链开始走强，但资金共识尚未完全一边倒，组合仍处在修复与确认阶段。",
+        "managerAction": "经理从拓荆科技、天孚通信逐步切向中际旭创、新易盛、沪电股份等新主线。",
+        "attribution": "主线识别开始正确，但市场尚未给出持续的大级别估值扩张。"
+      },
+      {
+        "id": 5,
+        "name": "国产链切换与先挫后扬期",
+        "emoji": "🟡",
+        "period": "2024-09 → 2025-04",
+        "returnPct": 4.98,
+        "hs300Pct": 0,
+        "excessPct": 0,
+        "driverType": "alpha",
+        "driverLabel": "⚡ Alpha贡献显著",
+        "color": "#d97706",
+        "description": "组合一度从光模块与 PCB 切向国产 AI 链，随后又经历再平衡与显著回撤。",
+        "env": "高景气内部开始从单一主线扩散到国产算力与端侧链条，胜负更依赖个股与支线选择。",
+        "managerAction": "经理先切向寒武纪、麦格米特、恒玄科技等国产链，再在 2025Q1 重新压缩组合集中度试错。",
+        "attribution": "阶段本质是高景气内部再平衡，短期失误带来 2025 年关键低点。"
+      },
+      {
+        "id": 6,
+        "name": "AI硬件链集中爆发期",
+        "emoji": "🟢",
+        "period": "2025-04 → 2026-05",
+        "returnPct": 280.79,
+        "hs300Pct": 0,
+        "excessPct": 0,
+        "driverType": "both",
+        "driverLabel": "⚡ Alpha贡献显著",
+        "color": "#15803d",
+        "description": "2025-04 低点之后，组合集中抱团光模块、光芯片、光纤链，形成成立以来最强主升浪。",
+        "env": "电子信息制造业景气走强、AI 基础设施投资维持高景气，产业与市场共振。",
+        "managerAction": "经理重新抱团新易盛、中际旭创、源杰科技、长飞光纤等核心环节，并在高位继续向更核心支线迁移。",
+        "attribution": "产业景气与组合主线高度共振，Alpha 与 Beta 同向放大。"
+      }
+    ]
+  },
+  "managers": {
+    "current": {
+      "managerId": "30281714",
+      "allManagerIds": [
+        "30281714"
+      ],
+      "name": "潘明",
+      "fundCount": 6,
+      "totalScale": 17.41,
+      "historicalFunds": [
+        {
+          "name": "国联安气候变化混合C",
+          "code": "018681",
+          "type": "混合型-偏股",
+          "tenure": "2023-08-17 ~ 至今",
+          "return": -12.14,
+          "rank": 3319,
+          "rankTotal": 4512,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "国联安气候变化混合A",
+          "code": "016635",
+          "type": "混合型-偏股",
+          "tenure": "2022-09-28 ~ 至今",
+          "return": -40.54,
+          "rank": 3289,
+          "rankTotal": 4512,
+          "grade": "ok",
+          "isCurrent": true
+        },
+        {
+          "name": "国联安匠心科技1个月滚动持有混合",
+          "code": "011599",
+          "type": "混合型-偏股",
+          "tenure": "2021-05-18 ~ 至今",
+          "return": 7.36,
+          "rank": 992,
+          "rankTotal": 4512,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "国联安科创混合(LOF)",
+          "code": "501096",
+          "type": "混合型-偏股",
+          "tenure": "2020-03-20 ~ 至今",
+          "return": 69.32,
+          "rank": 240,
+          "rankTotal": 4512,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "国联安科技动力",
+          "code": "001956",
+          "type": "股票型",
+          "tenure": "2016-01-26 ~ 至今",
+          "return": 311.93,
+          "rank": 6,
+          "rankTotal": 990,
+          "grade": "top",
+          "isCurrent": true
+        },
+        {
+          "name": "国联安主题驱动混合A",
+          "code": "257050",
+          "type": "混合型-偏股",
+          "tenure": "2015-04-28 ~ 2017-02-27",
+          "return": -32.01,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": false
+        },
+        {
+          "name": "国联安红利混合",
+          "code": "257040",
+          "type": "混合型-偏股",
+          "tenure": "2015-04-17 ~ 2018-07-10",
+          "return": -5.69,
+          "rank": null,
+          "rankTotal": null,
+          "grade": null,
+          "isCurrent": false
+        },
+        {
+          "name": "国联安优选行业混合",
+          "code": "257070",
+          "type": "混合型-偏股",
+          "tenure": "2014-02-15 ~ 至今",
+          "return": 518.08,
+          "rank": 43,
+          "rankTotal": 4512,
+          "grade": "top",
+          "isCurrent": true
+        }
+      ],
+      "bestReturn": 518.08,
+      "worstReturn": -40.54,
+      "manageDate": "2016-01-26",
+      "manageYears": 10.4,
+      "tenureReturn": 311.93,
+      "rankInPeer": 6,
+      "rankTotal": 990,
+      "education": "硕士研究生；早年有计算机、电子工程与投资研究复合背景",
+      "experience": "12.3年（按 manager_info.json 当前经理画像口径）",
+      "title": "基金经理",
+      "style": "科技成长主线轮动",
+      "philosophy": [
+        {
+          "label": "核心投资理念",
+          "text": "围绕科技成长主线，在高景气产业链中寻找最具弹性和业绩兑现能力的细分环节。"
+        },
+        {
+          "label": "选股方法论",
+          "text": "偏中观景气与产业链映射，重视龙头与高弹性次龙头的组合切换，典型案例是 2025Q3-2026Q1 的光模块、光芯片、光纤链。"
+        },
+        {
+          "label": "仓位管理风格",
+          "text": "长期高仓位进攻型风格，集中度常年偏高，顺风时弹性极强，逆风时回撤也会被放大。"
+        },
+        {
+          "label": "风格稳定性",
+          "text": "大方向始终围绕科技成长，但内部支线轮动频繁，属于科技内部主动轮动而非静态持有。"
+        }
+      ],
+      "consistencyAudit": [
+        {
+          "period": "2025年Q3·AI硬件主升浪阶段",
+          "result": "pass",
+          "label": "一致",
+          "stated": "超额收益局限于光模块、光模块上游和PCB；四季度将加大对边际变化更大的国产链配置。",
+          "actual": "前十重仓集中在新易盛、中际旭创、工业富联、胜宏科技、源杰科技、生益科技、天孚通信、沪电股份、英维克、生益电子。",
+          "evaluation": "一致。季报强调的光模块与 PCB 主线，已经在实际持仓中得到充分兑现。"
+        },
+        {
+          "period": "2026年Q1·行情分化阶段",
+          "result": "pass",
+          "label": "一致",
+          "stated": "主要增持光纤、光芯片、全光交换和光电共封龙头；减持液冷和PCB白马。",
+          "actual": "前十持仓集中在新易盛、中际旭创、源杰科技、长飞光纤、天孚通信、长光华芯、罗博特科、德科立、长芯博创、光库科技。",
+          "evaluation": "一致。组合已从液冷与 PCB 白马进一步收敛到更核心的光纤和光芯片环节。"
+        }
+      ],
+      "abilityProfile": {
+        "best": "科技成长主线判断与高弹性支线切换能力强，能够沿着大主线向更高景气分支迁移。",
+        "worst": "回撤控制能力弱，组合容错主要依赖主线仍然正确。",
+        "goodEnv": [
+          "科技景气上行期",
+          "政策扶持期",
+          "风险偏好改善期"
+        ],
+        "badEnv": [
+          "高估值压缩期",
+          "科技赛道退潮期",
+          "风格急剧切向低波防御期"
+        ]
+      },
+      "strengths": [
+        "科技成长主线判断强",
+        "高弹性支线切换敏捷",
+        "言行一致性高",
+        "长期单独管理稳定"
+      ],
+      "weaknesses": [
+        "回撤控制弱",
+        "高仓位容错率低",
+        "对主线判断依赖高",
+        "逆风期缺少防御"
+      ]
+    },
+    "history": [
+      {
+        "name": "潘明",
+        "role": "独任",
+        "start": "2016-01-26",
+        "end": null,
+        "tenure": "10年又131天",
+        "return": 311.93,
+        "note": "本基金自成立以来始终由潘明单独管理，无经理变更记录。"
+      }
+    ]
+  },
+  "navHistory": [
+    {
+      "date": "2026-01-14",
+      "nav": 2.5128
+    },
+    {
+      "date": "2026-01-15",
+      "nav": 2.5976
+    },
+    {
+      "date": "2026-01-16",
+      "nav": 2.602
+    },
+    {
+      "date": "2026-01-19",
+      "nav": 2.5968
+    },
+    {
+      "date": "2026-01-20",
+      "nav": 2.5084
+    },
+    {
+      "date": "2026-01-21",
+      "nav": 2.5805
+    },
+    {
+      "date": "2026-01-22",
+      "nav": 2.6337
+    },
+    {
+      "date": "2026-01-23",
+      "nav": 2.5585
+    },
+    {
+      "date": "2026-01-26",
+      "nav": 2.5675
+    },
+    {
+      "date": "2026-01-27",
+      "nav": 2.6443
+    },
+    {
+      "date": "2026-01-28",
+      "nav": 2.6704
+    },
+    {
+      "date": "2026-01-29",
+      "nav": 2.581
+    },
+    {
+      "date": "2026-01-30",
+      "nav": 2.6572
+    },
+    {
+      "date": "2026-02-02",
+      "nav": 2.5776
+    },
+    {
+      "date": "2026-02-03",
+      "nav": 2.6207
+    },
+    {
+      "date": "2026-02-04",
+      "nav": 2.561
+    },
+    {
+      "date": "2026-02-05",
+      "nav": 2.4703
+    },
+    {
+      "date": "2026-02-06",
+      "nav": 2.4399
+    },
+    {
+      "date": "2026-02-09",
+      "nav": 2.5918
+    },
+    {
+      "date": "2026-02-10",
+      "nav": 2.5663
+    },
+    {
+      "date": "2026-02-11",
+      "nav": 2.5086
+    },
+    {
+      "date": "2026-02-12",
+      "nav": 2.6351
+    },
+    {
+      "date": "2026-02-13",
+      "nav": 2.5533
+    },
+    {
+      "date": "2026-02-24",
+      "nav": 2.6415
+    },
+    {
+      "date": "2026-02-25",
+      "nav": 2.6115
+    },
+    {
+      "date": "2026-02-26",
+      "nav": 2.6501
+    },
+    {
+      "date": "2026-02-27",
+      "nav": 2.5897
+    },
+    {
+      "date": "2026-03-02",
+      "nav": 2.6591
+    },
+    {
+      "date": "2026-03-03",
+      "nav": 2.6044
+    },
+    {
+      "date": "2026-03-04",
+      "nav": 2.573
+    },
+    {
+      "date": "2026-03-05",
+      "nav": 2.5633
+    },
+    {
+      "date": "2026-03-06",
+      "nav": 2.5451
+    },
+    {
+      "date": "2026-03-09",
+      "nav": 2.4368
+    },
+    {
+      "date": "2026-03-10",
+      "nav": 2.6055
+    },
+    {
+      "date": "2026-03-11",
+      "nav": 2.6097
+    },
+    {
+      "date": "2026-03-12",
+      "nav": 2.5504
+    },
+    {
+      "date": "2026-03-13",
+      "nav": 2.5245
+    },
+    {
+      "date": "2026-03-16",
+      "nav": 2.5529
+    },
+    {
+      "date": "2026-03-17",
+      "nav": 2.3802
+    },
+    {
+      "date": "2026-03-18",
+      "nav": 2.5018
+    },
+    {
+      "date": "2026-03-19",
+      "nav": 2.496
+    },
+    {
+      "date": "2026-03-20",
+      "nav": 2.5983
+    },
+    {
+      "date": "2026-03-23",
+      "nav": 2.4719
+    },
+    {
+      "date": "2026-03-24",
+      "nav": 2.5392
+    },
+    {
+      "date": "2026-03-25",
+      "nav": 2.6747
+    },
+    {
+      "date": "2026-03-26",
+      "nav": 2.6583
+    },
+    {
+      "date": "2026-03-27",
+      "nav": 2.6721
+    },
+    {
+      "date": "2026-03-30",
+      "nav": 2.6855
+    },
+    {
+      "date": "2026-03-31",
+      "nav": 2.5806
+    },
+    {
+      "date": "2026-04-01",
+      "nav": 2.7048
+    },
+    {
+      "date": "2026-04-02",
+      "nav": 2.6789
+    },
+    {
+      "date": "2026-04-03",
+      "nav": 2.854
+    },
+    {
+      "date": "2026-04-07",
+      "nav": 2.8589
+    },
+    {
+      "date": "2026-04-08",
+      "nav": 3.0486
+    },
+    {
+      "date": "2026-04-09",
+      "nav": 3.112
+    },
+    {
+      "date": "2026-04-10",
+      "nav": 3.1578
+    },
+    {
+      "date": "2026-04-13",
+      "nav": 3.1782
+    },
+    {
+      "date": "2026-04-14",
+      "nav": 3.2342
+    },
+    {
+      "date": "2026-04-15",
+      "nav": 3.1989
+    },
+    {
+      "date": "2026-04-16",
+      "nav": 3.2701
+    },
+    {
+      "date": "2026-04-17",
+      "nav": 3.4737
+    },
+    {
+      "date": "2026-04-20",
+      "nav": 3.4551
+    },
+    {
+      "date": "2026-04-21",
+      "nav": 3.5008
+    },
+    {
+      "date": "2026-04-22",
+      "nav": 3.6799
+    },
+    {
+      "date": "2026-04-23",
+      "nav": 3.5814
+    },
+    {
+      "date": "2026-04-24",
+      "nav": 3.5095
+    },
+    {
+      "date": "2026-04-27",
+      "nav": 3.5412
+    },
+    {
+      "date": "2026-04-28",
+      "nav": 3.4686
+    },
+    {
+      "date": "2026-04-29",
+      "nav": 3.4879
+    },
+    {
+      "date": "2026-04-30",
+      "nav": 3.5305
+    },
+    {
+      "date": "2026-05-06",
+      "nav": 3.6113
+    },
+    {
+      "date": "2026-05-07",
+      "nav": 3.7915
+    },
+    {
+      "date": "2026-05-08",
+      "nav": 3.863
+    },
+    {
+      "date": "2026-05-11",
+      "nav": 3.9694
+    },
+    {
+      "date": "2026-05-12",
+      "nav": 4.0564
+    },
+    {
+      "date": "2026-05-13",
+      "nav": 4.1055
+    },
+    {
+      "date": "2026-05-14",
+      "nav": 4.0857
+    },
+    {
+      "date": "2026-05-15",
+      "nav": 3.9288
+    },
+    {
+      "date": "2026-05-18",
+      "nav": 3.9703
+    },
+    {
+      "date": "2026-05-19",
+      "nav": 3.9792
+    },
+    {
+      "date": "2026-05-20",
+      "nav": 4.03
+    },
+    {
+      "date": "2026-05-21",
+      "nav": 3.7975
+    },
+    {
+      "date": "2026-05-22",
+      "nav": 3.9596
+    },
+    {
+      "date": "2026-05-25",
+      "nav": 4.0996
+    },
+    {
+      "date": "2026-05-26",
+      "nav": 3.9713
+    },
+    {
+      "date": "2026-05-27",
+      "nav": 3.9687
+    },
+    {
+      "date": "2026-05-28",
+      "nav": 4.1571
+    },
+    {
+      "date": "2026-05-29",
+      "nav": 4.0893
+    },
+    {
+      "date": "2026-06-01",
+      "nav": 3.8506
+    },
+    {
+      "date": "2026-06-02",
+      "nav": 4.1193
+    }
+  ],
+  "scoring": {
+    "total": 77,
+    "grade": "良好",
+    "recommendation": "谨慎",
+    "recommendationType": "cautious",
+    "rating": "★★",
+    "logic": "基金质量 77/100（良好）× 政策状态 🟢 红利期 × 市场状态 🔴 高估谨慎 → 谨慎。核心矛盾不是产业景气消失，而是净值已在历史高位、仓位集中度高，后续更依赖主线继续胜出。",
+    "dimensions": [
+      {
+        "name": "超额收益能力",
+        "score": 23,
+        "maxScore": 25,
+        "pros": [
+          "2025 年收益 68.93%，较沪深300超额 +51.27%",
+          "近1年收益 244.86%，同类排名 6/990",
+          "近2年收益 244.25%，同类排名 31/908"
+        ],
+        "cons": [
+          "超额高度集中在 AI 硬件主升浪阶段",
+          "收益结构不均匀，依赖少数关键年份和主升浪"
+        ]
+      },
+      {
+        "name": "回撤与波动控制",
+        "score": 6,
+        "maxScore": 20,
+        "pros": [
+          "2026Q1 市场回撤中仍取得正收益",
+          "近1年夏普 4.61，近期顺风期盈利质量极强"
+        ],
+        "cons": [
+          "历史最大回撤 -63.99%，持续约 26 个月",
+          "全期波动率 35.11%，明显高于普通主动权益基金",
+          "回撤控制明显弱于其进攻能力"
+        ]
+      },
+      {
+        "name": "基金经理能力",
+        "score": 18,
+        "maxScore": 20,
+        "pros": [
+          "潘明单独管理本基金超过 10 年，管理稳定",
+          "言行一致性审计中 2025Q3、2026Q1 均为一致",
+          "国联安优选行业混合任期回报 518.08%，科技成长主线能力有外部样本支撑"
+        ],
+        "cons": [
+          "高仓位进攻型风格明显，对主线判断依赖高",
+          "逆风阶段缺乏明显防守与止损"
+        ]
+      },
+      {
+        "name": "主题纯度与持仓一致性",
+        "score": 14,
+        "maxScore": 15,
+        "pros": [
+          "当前前十持仓高度聚焦光模块、光芯片、光纤与光器件链",
+          "季报表述与 2025Q3-2026Q1 实际持仓切换高度一致",
+          "主线表达清晰，没有泛科技稀释"
+        ],
+        "cons": [
+          "前十集中度升至 72.42%，主线失误的代价被放大"
+        ]
+      },
+      {
+        "name": "行业周期与政策匹配度",
+        "score": 16,
+        "maxScore": 20,
+        "pros": [
+          "集成电路税优延续与电子信息制造高景气形成双重顺风",
+          "产业链安全制度托底高端制造与关键环节国产化",
+          "当前持仓与电子信息制造业景气数据方向一致"
+        ],
+        "cons": [
+          "净值已处历史 99.96% 分位，高景气已有较多透支",
+          "AI 硬件链拥挤度抬升后，政策利好未必继续转化为净值弹性"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "type": "深度回撤风险",
+        "level": "high",
+        "note": "历史最大回撤 -63.99%，产品本质上是高贝塔科技主题工具，不是稳态复利型产品。"
+      },
+      {
+        "type": "高位追涨风险",
+        "level": "high",
+        "note": "当前净值位于历史 99.96% 分位，后续赔率显著收缩，更依赖业绩继续超预期。"
+      },
+      {
+        "type": "集中度风险",
+        "level": "high",
+        "note": "2026Q1 前十持仓 72.42%，且高度集中在光通信链，单一主线失效时回撤会被放大。"
+      },
+      {
+        "type": "主线切换误判风险",
+        "level": "medium",
+        "note": "超额依赖科技内部支线轮动，判断正确时弹性极强，误判时同样会显著放大回撤。"
+      }
+    ],
+    "policyItems": [
+      {
+        "name": "集成电路税收优惠清单延续",
+        "impactLabel": "🟢 强利好",
+        "detail": ""
+      },
+      {
+        "name": "电子信息制造业一季度高增",
+        "impactLabel": "🟢 强利好",
+        "detail": ""
+      },
+      {
+        "name": "产业链供应链安全规定实施",
+        "impactLabel": "🟢 中长期利好",
+        "detail": ""
+      }
+    ],
+    "marketStatus": [
+      {
+        "dim": "净值位置",
+        "status": "99.96% 历史分位",
+        "statusType": "warning",
+        "detail": "已接近全历史高位，赔率明显收敛；后续更依赖业绩继续超预期。"
+      },
+      {
+        "dim": "近期趋势",
+        "status": "强势上行",
+        "statusType": "positive",
+        "detail": "近1周 +3.73%、近1月 +16.68%、近3月 +54.91%，短期动能仍然极强。"
+      },
+      {
+        "dim": "夏普趋势",
+        "status": "明显改善",
+        "statusType": "positive",
+        "detail": "近1年夏普 4.61，显著高于近2年 1.62 和近3年 0.67，最近一轮主线处于极强顺风。"
+      },
+      {
+        "dim": "宏观流动性",
+        "status": "中性",
+        "statusType": "neutral",
+        "detail": "已知全球风险偏好阶段性回落，但当前研究未发现足以逆转产业景气的更高优先级流动性冲击。"
+      },
+      {
+        "dim": "持仓主线景气",
+        "status": "改善",
+        "statusType": "positive",
+        "detail": "光模块、光芯片、光纤链条与工信部电子信息制造高景气数据、经理季报主线判断一致。"
+      },
+      {
+        "dim": "外部风险",
+        "status": "需关注",
+        "statusType": "cautious",
+        "detail": "海外算力资本开支、光通信链景气切换和中美科技摩擦仍可能影响高估值科技板块风险偏好。"
+      }
+    ],
+    "allocationSuggestions": [
+      {
+        "scenario": "存量持有人",
+        "action": "继续持有，但不在历史高位附近激进加仓",
+        "note": "更适合视为高弹性卫星仓，而不是组合核心底仓。"
+      },
+      {
+        "scenario": "新入场投资者",
+        "action": "不建议直接追高",
+        "note": "更合理的做法是等待一次 10%-15% 级别回撤，或等待下一份季报确认主线与集中度仍匹配后再分批建仓。"
+      }
+    ],
+    "suitableFor": [
+      "能承受 -30% 以上中期波动、持有周期 3 年以上的高风险偏好投资者",
+      "对 AI 基础设施、光模块、光芯片链条有较强产业信念的进阶投资者",
+      "将其作为组合高弹性卫星仓，且愿意主动做仓位管理的投资者"
+    ],
+    "notSuitableFor": [
+      "追求稳健回报、不能接受深度回撤的投资者",
+      "需要现金流分红的投资者",
+      "偏好均衡配置、厌恶单一行业高集中风险的投资者",
+      "风险承受能力低于 R4 的投资者"
+    ],
+    "termAdvice": [
+      {
+        "term": "短期（1-3个月）",
+        "icon": "⚠️",
+        "level": "cautious",
+        "advice": "不追高；若已有持仓，可保留并设好止盈/减仓纪律。"
+      },
+      {
+        "term": "中期（6-12个月）",
+        "icon": "🟡",
+        "level": "neutral",
+        "advice": "如出现明显回撤，可按 30%/40%/30% 三批节奏布局。"
+      },
+      {
+        "term": "长期（3年以上）",
+        "icon": "🟡",
+        "level": "neutral",
+        "advice": "单基金仓位建议不超过组合 10%-15%，经理变更或主线失效时立即重评。"
+      }
+    ],
+    "reasoning": "基金质量 77/100（良好）× 政策状态 🟢 红利期 × 市场状态 🔴 高估谨慎 → 谨慎。核心矛盾不是产业景气消失，而是净值已在历史高位、仓位集中度高，后续更依赖主线继续胜出。",
+    "conclusion": "谨慎"
+  },
+  "company": {
+    "name": "国联安基金管理有限公司",
+    "shortName": "国联安基金",
+    "foundYear": 2003,
+    "aumDesc": "约1120.44亿元，旗下127只基金，中型合资公募平台",
+    "industryRank": "中型合资公募，保险系背景，天相评级五颗星",
+    "complianceResult": "通过",
+    "complianceSummary": "基金公司与经理层面合规情况良好，无一票否决项触发。当前更值得跟踪的是组合本身的高集中度和高波动，而不是公司治理风险。",
+    "complianceChecks": [
+      {
+        "item": "黑名单核查",
+        "pass": true,
+        "warn": false,
+        "detail": "公司与经理均未命中本地黑名单。"
+      },
+      {
+        "item": "近3年处罚记录",
+        "pass": true,
+        "warn": false,
+        "detail": "年报 11.6 节披露管理人、从业人员、托管人本报告期内无受调查和处罚情形，外部定向检索未见高置信直接处罚线索。"
+      },
+      {
+        "item": "内幕交易传闻",
+        "pass": true,
+        "warn": false,
+        "detail": "本轮检索未见高置信内幕交易或重大负面传闻。"
+      },
+      {
+        "item": "基金经理离职风险",
+        "pass": true,
+        "warn": false,
+        "detail": "基金成立以来无经理变更，外部未见离职传闻。"
+      },
+      {
+        "item": "管理疲劳风险",
+        "pass": true,
+        "warn": false,
+        "detail": "当前在管 6 只基金，未超过 10 只的显著警戒阈值。"
+      }
+    ]
+  },
+  "policy": {
+    "tags": [
+      {
+        "label": "集成电路税优延续",
+        "strength": "high",
+        "color": "#ef4444"
+      },
+      {
+        "label": "电子信息制造高景气",
+        "strength": "high",
+        "color": "#ef4444"
+      },
+      {
+        "label": "产业链安全托底",
+        "strength": "medium",
+        "color": "#f59e0b"
+      },
+      {
+        "label": "AI基础设施投资",
+        "strength": "medium",
+        "color": "#3b82f6"
+      }
+    ],
+    "industryOverview": [
+      {
+        "point": "电子信息制造业景气改善",
+        "detail": "2026 年一季度电子信息制造业增加值同比增长 13.6%，高于同期工业和高技术制造业。"
+      },
+      {
+        "point": "集成电路产量高增",
+        "detail": "同期集成电路产量达到 1272 亿块，同比增长 24.3%，反映上游芯片链景气显著回升。"
+      },
+      {
+        "point": "利润兑现开始出现",
+        "detail": "规模以上电子信息制造业利润总额同比增长 1.25 倍，说明景气不只是题材催化，也已有经营层改善支撑。"
+      }
+    ],
+    "cyclePeriod": "🟢 政策红利期",
+    "cycleReason": "最近 6 个月内既有延续型扶持政策，也有高频景气验证数据。对本基金最重要的是集成电路扶持延续、电子信息制造高景气和产业链安全制度托底同时存在。",
+    "fifteenFive": [
+      {
+        "direction": "关键芯片与核心器件扶持延续",
+        "color": "#ef4444",
+        "description": "税收优惠清单延续意味着产业扶持不是一次性刺激，而是长期制度化支持。",
+        "holdings": "源杰科技 / 长光华芯 / 新易盛 / 中际旭创"
+      },
+      {
+        "direction": "电子信息制造高景气扩散",
+        "color": "#f59e0b",
+        "description": "增加值、产量和利润总额同步高增，利好 AI 基础设施上游设备、器件和连接环节。",
+        "holdings": "长飞光纤 / 天孚通信 / 德科立 / 光库科技"
+      },
+      {
+        "direction": "产业链安全与韧性建设",
+        "color": "#3b82f6",
+        "description": "关键技术攻关与韧性建设有助于更核心、更自主可控的基础设施链条获得溢价。",
+        "holdings": "罗博特科 / 长芯博创 / 长飞光纤"
+      }
+    ],
+    "longTermRisks": [
+      {
+        "risk": "AI 硬件链拥挤度抬升",
+        "level": "medium",
+        "signal": "若估值扩张快于盈利兑现，组合高集中度会放大高位波动。"
+      },
+      {
+        "risk": "海外算力资本开支放缓",
+        "level": "medium",
+        "signal": "若海外 AI 投资边际放缓，光模块、光芯片与相关器件链的景气预期将被下修。"
+      },
+      {
+        "risk": "中美科技摩擦升级",
+        "level": "medium",
+        "signal": "高端器件、芯片与关键设备环节容易受到政策与出口限制扰动。"
+      }
+    ],
+    "adaptability": [
+      {
+        "env": "🐂 科技景气上行期",
+        "perf": "极强。2019-2021 和 2025-2026 两轮主升浪都验证了其在顺风环境中的高弹性。",
+        "color": "#16a34a"
+      },
+      {
+        "env": "⚡ 高景气内部轮动期",
+        "perf": "强。能够沿科技大主线向更高景气支线迁移，适合结构性行情。",
+        "color": "#2563eb"
+      },
+      {
+        "env": "🌐 宽基震荡期",
+        "perf": "一般。由于行业集中度高，若没有明确主线共识，净值弹性容易衰减。",
+        "color": "#ca8a04"
+      },
+      {
+        "env": "🐻 估值压缩与赛道退潮期",
+        "perf": "极弱。2021-2024 的 -63.99% 深回撤说明其缺少足够防御能力。",
+        "color": "#dc2626"
+      }
+    ],
+    "scenarios": [
+      {
+        "type": "悲观",
+        "probability": 25,
+        "color": "#dc2626",
+        "returnLow": -35,
+        "returnHigh": -10,
+        "trigger": "AI 硬件链拥挤度显著上升、海外算力资本开支放缓、光模块链盈利预期下修，且组合仍维持高集中度。"
+      },
+      {
+        "type": "基准",
+        "probability": 50,
+        "color": "#2563eb",
+        "returnLow": 5,
+        "returnHigh": 25,
+        "trigger": "行业景气延续但弹性下降，经理继续在光模块、光芯片、光纤链做轮动，净值进入高位震荡消化期。"
+      },
+      {
+        "type": "乐观",
+        "probability": 25,
+        "color": "#16a34a",
+        "returnLow": 25,
+        "returnHigh": 60,
+        "trigger": "AI 资本开支再超预期，光模块与光芯片链继续高增，且经理再次切到最强景气环节。"
+      }
+    ],
+    "policyBreakdown": [
+      {
+        "sector": "集成电路税收优惠清单延续",
+        "icon": "🧠",
+        "color": "#ef4444",
+        "logic": "继续做好 2026 年享受税收优惠政策的集成电路企业或项目、软件企业清单制定，说明产业扶持延续而非一次性刺激。",
+        "stocks": [
+          "源杰科技",
+          "长光华芯",
+          "新易盛",
+          "中际旭创"
+        ]
+      },
+      {
+        "sector": "电子信息制造业一季度高增",
+        "icon": "📈",
+        "color": "#f59e0b",
+        "logic": "增加值同比 +13.6%、集成电路产量 +24.3%、利润总额同比 +1.25 倍，景气已兑现到生产和利润层面。",
+        "stocks": [
+          "长飞光纤",
+          "天孚通信",
+          "德科立",
+          "光库科技"
+        ]
+      },
+      {
+        "sector": "产业链供应链安全规定",
+        "icon": "🛡️",
+        "color": "#3b82f6",
+        "logic": "建立重要产业链供应链动态清单、监测预警、关键技术攻关和韧性建设机制，托底高端制造和关键环节国产化。",
+        "stocks": [
+          "罗博特科",
+          "长芯博创",
+          "长飞光纤"
+        ]
+      }
+    ],
+    "dualTimeline": [
+      {
+        "period": "2016-01 → 2018-10",
+        "manager": {
+          "type": "warning",
+          "event": "建仓与泛TMT试错",
+          "return": "-34.04%",
+          "note": "围绕互联网金融、安防、消费电子、通信反复切换，但未形成稳定主线。"
+        },
+        "market": {
+          "type": "warning",
+          "event": "科技成长早期波动加剧",
+          "note": "2018 年科技板块系统性回撤迅速暴露了组合试错成本。"
+        }
+      },
+      {
+        "period": "2018-10 → 2021-11",
+        "manager": {
+          "type": "positive",
+          "event": "科技成长第一轮兑现",
+          "return": "+314.38%",
+          "note": "先后切到 PCB、半导体设计、半导体设备和新能源车电子链，高仓位兑现第一轮牛市。"
+        },
+        "market": {
+          "type": "bull",
+          "event": "成长赛道强共振",
+          "note": "科技成长大Beta 与高景气细分支线同时走强。"
+        }
+      },
+      {
+        "period": "2021-11 → 2024-01",
+        "manager": {
+          "type": "warning",
+          "event": "高景气退潮下的深回撤",
+          "return": "-63.99%",
+          "note": "旧主线失效后仍维持较高暴露，缺乏防守能力。"
+        },
+        "market": {
+          "type": "bear",
+          "event": "科技赛道杀估值",
+          "note": "风险偏好下行与赛道退潮叠加，成长股进入长时间压缩期。"
+        }
+      },
+      {
+        "period": "2024-01 → 2024-09",
+        "manager": {
+          "type": "neutral",
+          "event": "修复与主线再识别",
+          "return": "+5.65%",
+          "note": "逐步聚焦中际旭创、新易盛、沪电股份等 AI 通信链核心标的。"
+        },
+        "market": {
+          "type": "policy",
+          "event": "AI 通信链逐渐形成共识",
+          "note": "主线出现，但市场尚未完全一边倒。"
+        }
+      },
+      {
+        "period": "2024-09 → 2025-04",
+        "manager": {
+          "type": "neutral",
+          "event": "国产链切换与再平衡",
+          "return": "+4.98%",
+          "note": "短暂切向国产 AI 链后在 2025Q1 明显回撤，说明再平衡并不顺畅。"
+        },
+        "market": {
+          "type": "neutral",
+          "event": "高景气内部扩散",
+          "note": "资金从单一光通信主线向国产算力与端侧链扩散，支线选择更关键。"
+        }
+      },
+      {
+        "period": "2025-04 → 2026-05",
+        "manager": {
+          "type": "positive",
+          "event": "AI硬件链集中爆发",
+          "return": "+280.79%",
+          "note": "重新抱团光模块、光芯片、光纤链，并在高位继续向更核心环节迁移。"
+        },
+        "market": {
+          "type": "policy",
+          "event": "电子信息制造高景气与制度托底共振",
+          "note": "产业景气、政策支持与资金主线高度同向。"
+        }
+      }
+    ],
+    "note": "当前不是政策真空期，而是政策与产业景气同步支撑的红利阶段；真正的风险来自主线拥挤度和高位集中度。"
+  },
+  "tracking": {
+    "weekly": [
+      "净值方向验证：每日净值与光模块、光芯片、光纤光缆板块涨跌是否一致；若连续背离，需关注是否出现减仓或赎回压力。",
+      "行业核心变量：海外 AI 算力资本开支、CPO/高速光模块景气度、国内电子信息制造月度数据是否继续走强。",
+      "行业价格指标：光模块链核心标的的业绩预期与估值弹性是否同步扩张，若只剩估值扩张而无盈利兑现，需要降低预期。",
+      "经理动态：重点跟踪潘明公开路演、季报措辞是否从“服务AI的基础设施”转向更分散的泛科技表述。"
+    ],
+    "quarterly": [
+      "持仓变化：新季报前十持仓是否仍围绕光模块、光芯片、光纤链。",
+      "集中度变化：前十持仓集中度是否继续异常抬升或骤降，合理区间约 55%-75%。",
+      "规模变化：基金规模是否快速放大并影响容量，当前 6.80 亿短期无明显容量瓶颈。",
+      "同类排名：近1年同类排名是否持续滑落，目标尽量维持前 25% 以内。",
+      "年化超额：对比业绩基准和沪深300的超额是否保持为正，否则需怀疑主线失效。"
+    ],
+    "alerts": [
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "基金经理更换：一票否决级别风险，需要重新完整评估接任者。"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "单季度回撤超过 -15% 且同类排名掉入后 10%：通常意味着不只是行业调整，而是个基判断或执行出了问题。"
+      },
+      {
+        "level": "critical",
+        "icon": "🚨",
+        "text": "AI 硬件链景气显著走弱：若光模块、光芯片、光纤链由业绩驱动转为纯估值博弈，当前高分位将难以维持。"
+      }
+    ]
+  },
+  "exclusionCheck": [
+    {
+      "item": "成立时间是否不足3年",
+      "pass": true,
+      "note": "成立于 2016-01-26，已运行超过 10 年。"
+    },
+    {
+      "item": "规模是否过小或过大",
+      "pass": true,
+      "note": "当前规模 6.80 亿元，未触发 <1 亿元或 >200 亿元红线。"
+    },
+    {
+      "item": "基金经理任职是否不足2年",
+      "pass": true,
+      "note": "潘明自 2016-01-26 起管理本基金，任职超过 10 年。"
+    },
+    {
+      "item": "近3年业绩是否落入后30%",
+      "pass": true,
+      "note": "近3年收益 143.34%，同类排名 47/810，未落入后 30%。"
+    },
+    {
+      "item": "最大回撤是否显著劣于同类",
+      "pass": false,
+      "note": "历史最大回撤 -63.99%，显著超过高波动主动权益基金的舒适区，是本基金最重要的结构性风险。"
+    },
+    {
+      "item": "基金经理是否在黑名单中",
+      "pass": true,
+      "note": "本地黑名单核查未命中潘明。"
+    },
+    {
+      "item": "基金公司是否在黑名单中",
+      "pass": true,
+      "note": "本地黑名单核查未命中国联安基金。"
+    },
+    {
+      "item": "是否频繁更换基金经理",
+      "pass": true,
+      "note": "基金自成立以来始终由潘明单独管理，无经理变更记录。"
+    },
+    {
+      "item": "是否存在严重风格漂移",
+      "pass": true,
+      "note": "组合始终围绕科技成长，只是在消费电子、半导体、新能源车电子和光通信链之间做内部轮动，不属于严重漂移。"
+    },
+    {
+      "item": "费率是否显著高于同类平均",
+      "pass": true,
+      "note": "管理费 1.20% + 托管费 0.20%，属于主动权益主题基金常见水平；申赎费结构未见明显异常。"
+    }
+  ]
+}

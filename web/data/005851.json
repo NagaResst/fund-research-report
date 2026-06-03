@@ -1648,32 +1648,32 @@
     {
       "item": "成立时间是否不足3年",
       "pass": true,
-      "note": "需从基础信息核实成立日期"
+      "note": "成立于2018年06月25日，已运行超过3年"
     },
     {
       "item": "规模是否过小或过大",
       "pass": true,
-      "note": "需从scale字段核实基金规模"
+      "note": "当前规模6.55亿元，未触发<1亿元或>200亿元红线"
     },
     {
       "item": "基金经理任职是否不足2年",
       "pass": true,
-      "note": "需从managers.current.manageDate核实任职时间"
+      "note": "沈犁自2021-01-27管理本基金，已满5.3年"
     },
     {
       "item": "近3年业绩是否落入后30%",
       "pass": true,
-      "note": "需从performance.stages核实近期排名"
+      "note": "近3年收益率188.71%，排名37/2078"
     },
     {
       "item": "最大回撤是否显著劣于同类",
       "pass": true,
-      "note": "需从risk.maxDrawdown核实最大回撤"
+      "note": "最大回撤33.81%，未显著劣于同类"
     },
     {
       "item": "基金经理是否在黑名单中",
       "pass": true,
-      "note": "黑名单核查未命中基金经理"
+      "note": "黑名单核查未命中沈犁"
     },
     {
       "item": "基金公司是否在黑名单中",
@@ -1683,17 +1683,17 @@
     {
       "item": "是否频繁更换基金经理",
       "pass": true,
-      "note": "需从managers.history核实经理变更次数"
+      "note": "近3年未出现2次及以上异常更换"
     },
     {
       "item": "是否存在严重风格漂移",
       "pass": true,
-      "note": "一致性审计未见fail级别结论"
+      "note": "言行一致性审计未见fail级别结论"
     },
     {
       "item": "费率是否显著高于同类平均",
       "pass": true,
-      "note": "需从fees字段核实综合费率"
+      "note": "管理费+托管费未见明显高于同类"
     }
   ],
   "scoring": {
